@@ -2,12 +2,47 @@ console.log("Running main.js")
 
 const playbackRate = 0.8
 const tracks = get_tracks()
+const BXXX = get_BXXX(tracks)
+const CXXX = get_CXXX(tracks)
 const audios = []
 let itracks = 0
 let isRepeat = false
 let audio = document.createElement('audio'); 
 let wantFullScreenMode = true;
 update_title(itracks)
+
+
+function get_BXXX(){
+    const BXXX = {}
+    for (const track of tracks){
+        const ans = track["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
+        const book = ans.slice(0, 4)
+        const chapter = ans.slice(4, 8)
+        const sentence = ans.slice(8, 12)
+        if (chapter === "C000"){
+            if (sentence === "S000"){
+                BXXX[book] = track["tran"].replace(".", "")
+            }
+        }
+    }
+    return BXXX
+}
+
+function get_CXXX(tracks){
+    const CXXX = {}
+    for (const track of tracks){
+        const ans = track["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
+        const book = ans.slice(0, 4)
+        const chapter = ans.slice(4, 8)
+        const sentence = ans.slice(8, 12)
+        if (sentence === "S000"){
+            CXXX[book + chapter] = track["tran"].replace(".", "")
+        }
+    }
+    return CXXX
+}
+
+
 
 function* enumerate(iterable) {
     let index = 0;
@@ -74,12 +109,14 @@ function get_tracks(){
 }
 
 function update_title() {
-    const book_chapter = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
     const text = tracks[itracks]["tran"]
-    console.log(book_chapter)
-    document.querySelector("#book_title").innerHTML = `${book_chapter.slice(0,4)}`
-    document.querySelector("#chapter_title").innerHTML = `${book_chapter.slice(4,8)}`
-    document.querySelector("#sentence_title").innerHTML = `${book_chapter.slice(8,12)}`
+    const ans = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
+    const book = ans.slice(0, 4)
+    const chapter = ans.slice(4, 8)
+    const sentence = ans.slice(8, 12)
+    document.querySelector("#book_title").innerHTML = BXXX[book]
+    document.querySelector("#chapter_title").innerHTML = CXXX[book + chapter]
+    document.querySelector("#sentence_title").innerHTML = sentence
     document.querySelector("#text").innerHTML = `${text}`
 }
 
