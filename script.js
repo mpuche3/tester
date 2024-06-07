@@ -132,19 +132,21 @@ function runAfterAudioEnded() {
 
 function play(){
     update_title();
-    const audioFileFullPath = tracks[itracks]["audioFileFullPath"];
-    const audio = new Audio(audioFileFullPath);
-    audio.playbackRate = playbackRate;
-    audios.map(audio => {
-        audio.pause();
-    })
-    audio.play()
-    audios.push(audio)
-    audio.addEventListener("ended", runAfterAudioEnded)
+    if (document.querySelector("#sound").innerHTML === "🕪") {
+        const audioFileFullPath = tracks[itracks]["audioFileFullPath"];
+        const audio = new Audio(audioFileFullPath);
+        audio.playbackRate = playbackRate;
+        audios.map(audio => {
+            audio.pause();
+        })
+        audio.play()
+        audios.push(audio)
+        audio.addEventListener("ended", runAfterAudioEnded)        
+    };
 }
 
 function pause_play() {
-    document.querySelector("#pause").innerHTML = "▷"
+    document.querySelector("#sound").innerHTML = "🔇"
     audios.map(audio => {
         audio.pause();
     })
@@ -297,6 +299,17 @@ document.querySelector("#operation_mode").addEventListener("click", function () 
     } else {
         this.innerHTML = "⟲";
         isRepeat = true
+    }
+})
+
+document.querySelector("#sound").addEventListener("click", function () {
+    if (this.innerHTML === "🕪") {
+        this.innerHTML = "🔇";
+        pause_play()
+    } else {
+        this.innerHTML = "🕪";
+        isRepeat = true
+        play()
     }
 })
 
