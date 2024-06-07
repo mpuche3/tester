@@ -305,9 +305,11 @@ document.querySelector("#operation_mode").addEventListener("click", function () 
 document.querySelector("#sound").addEventListener("click", function () {
     if (this.innerHTML === "🕪") {
         this.innerHTML = "🔇";
+        this.style.filter = 'grayscale(20%)'
         pause_play()
     } else {
         this.innerHTML = "🕪";
+        this.style.filter = 'grayscale(100%)'
         isRepeat = true
         play()
     }
@@ -372,7 +374,46 @@ navegation_functionality("chapter_down", chapter_down)
 // navegation_functionality("sentence_up", sentence_up)
 // navegation_functionality("sentence_down", sentence_down)
 document.querySelector("#book_up").addEventListener("click", book_up)
-document.querySelector("#book_down").addEventListener("click", book_up)
+document.querySelector("#book_down").addEventListener("click", book_down)
 document.querySelector("#sentence_up").addEventListener("click", sentence_up)
 document.querySelector("#sentence_down").addEventListener("click", sentence_down)
+
+// document.querySelector("#book").addEventListener("click", function (){
+//     if (document.querySelector("#book").innerHTML !== "Choose a book:") {
+//         document.querySelector("#book").innerHTML = "Choose a Book:"
+//         document.querySelector("#chapter-row").style.display = "none";
+//         document.querySelector("#sentence-row").style.display = "none";
+//         document.querySelector("#text-row").style.display = "none";
+//         createListElement("book1")
+//         createListElement("book2")
+//         createListElement("book3")        
+//     }
+// })
+
+function showAll(){
+    deleteList()
+    document.querySelector("#chapter-row").style.display = "flex"
+    document.querySelector("#sentence-row").style.display = "flex"
+    document.querySelector("#text-row").style.display = "flex"
+}
+
+function deleteList(){
+    document.querySelectorAll('.list-element').forEach(element => {
+        element.remove();
+    });
+}
+
+function createListElement(book){
+    const rowElement = document.createElement("div");
+    rowElement.className = "row list-element";
+    rowElement.innerHTML = book;
+    rowElement.addEventListener("click", function(){
+        console.log(this)
+        document.querySelector("#book").innerHTML = this.innerHTML
+        showAll()
+    });
+    document.querySelector("#app").appendChild(rowElement);
+}
+
+
 
