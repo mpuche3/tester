@@ -277,18 +277,20 @@ document.querySelector("#text").addEventListener("click", function () {
 })
 
 document.querySelector("#max_min").addEventListener("click", function () {
-    if (this.innerHTML === "⤢" && !document.fullscreenElement && wantFullScreenMode) {
-        this.innerHTML = "o";
-        if (confirm('Do you want to enter fullscreen mode?')) {
-            document.documentElement.requestFullscreen();
-        } else {
-            wantFullScreenMode = false
-        }
-    } else {
-        this.innerHTML = "⤢";
+    if (document.fullscreenElement) {
         document.exitFullscreen();
-    }
+      } else {
+        document.documentElement.requestFullscreen();
+      }
 })
+
+document.addEventListener("fullscreenchange", function () {
+    if (document.fullscreenElement) {
+      document.querySelector("#max_min").innerHTML = "-"
+    } else {
+      document.querySelector("#max_min").innerHTML = "⤢"
+    }
+});
 
 window.addEventListener('resize', () => {
     const screenWidth = window.screen.width;
@@ -299,7 +301,7 @@ window.addEventListener('resize', () => {
         } else {
             document.querySelector(`#${id}-row`).style.display = 'flex';
         }
-  }
+    }
 });
 
 function navegation_functionality(elementId, func){
