@@ -171,9 +171,9 @@ function book_up(){
     while (next_itracks < tracks.length - 1){
         next_itracks += 1
         const next_book = getBook(next_itracks)
-        const next_chaper = getChapter(next_itracks)
+        const next_chapter = getChapter(next_itracks)
         const next_sentence = getSentence(next_itracks)
-        if (current_book !== next_book && "S000" === next_sentence && "C000" === next_chaper){
+        if (current_book !== next_book && "S000" === next_sentence && "C000" === next_chapter){
             itracks = next_itracks
             play()
             return
@@ -187,9 +187,9 @@ function book_down(){
     while (0 < next_itracks){
         next_itracks -= 1
         const next_book = getBook(next_itracks)
-        const next_chaper = getChapter(next_itracks)
+        const next_chapter = getChapter(next_itracks)
         const next_sentence = getSentence(next_itracks)
-        if (current_book !== next_book && "S000" === next_sentence && "C000" === next_chaper){
+        if (current_book !== next_book && "S000" === next_sentence && "C000" === next_chapter){
             itracks = next_itracks
             play()
             return
@@ -199,16 +199,14 @@ function book_down(){
 
 function chapter_up(){
     const current_book = getBook(itracks)
-    const current_chaper = getChapter(itracks)
+    const current_chapter = getChapter(itracks)
     let next_itracks = itracks
     while (itracks < tracks.length - 1){
         next_itracks += 1
         const next_book = getBook(next_itracks)
-        const next_chaper = getChapter(next_itracks)
-        if (current_book !== next_book){
-            return
-        }
-        if (current_chaper !== next_chaper){
+        const next_chapter = getChapter(next_itracks)
+        if (current_book !== next_book){ return }
+        if (current_chapter !== next_chapter){
             itracks = next_itracks
             play()
             return
@@ -218,17 +216,15 @@ function chapter_up(){
 
 function chapter_down(){
     const current_book = getBook(itracks)
-    const current_chaper = getChapter(itracks)
+    const current_chapter = getChapter(itracks)
     let next_itracks = itracks
     while (0 < next_itracks){
         next_itracks -= 1
         const next_book = getBook(next_itracks)
-        const next_chaper = getChapter(next_itracks)
+        const next_chapter = getChapter(next_itracks)
         const next_sentence = getSentence(next_itracks)
-        if (current_book !== next_book){
-            return
-        }
-        if (current_chaper !== next_chaper && "S000" === next_sentence){
+        if (current_book !== next_book){ return }
+        if (current_chapter !== next_chapter && "S000" === next_sentence){
             itracks = next_itracks
             play()
             return
@@ -237,20 +233,52 @@ function chapter_down(){
 }
 
 function sentence_up(){
+    const current_book = getBook(itracks)
+    const current_chapter = getChapter(itracks)
+    const current_sentence = getSentence(itracks)
+    let next_itracks = itracks
+    while (itracks < tracks.length - 1){
+        next_itracks += 1
+        const next_book = getBook(next_itracks)
+        const next_chapter = getChapter(next_itracks)
+        const next_sentence = getSentence(next_itracks)
+        if (current_book !== next_book){ return }
+        if (current_chapter !== next_chapter){ return }
+        if (current_sentence !== next_sentence){
+            itracks = next_itracks
+            play()
+            return
+        }
+    }
+}
+
+function sentence_down(){
+    const current_book = getBook(itracks)
+    const current_chapter = getChapter(itracks)
+    const current_sentence = getSentence(itracks)
+    let next_itracks = itracks
+    while (0 < next_itracks){
+        next_itracks -= 1
+        const next_book = getBook(next_itracks)
+        const next_chapter = getChapter(next_itracks)
+        const next_sentence = getSentence(next_itracks)
+        if ("S000" === current_sentence){ return }
+        if (current_book !== next_book){ return }
+        if (current_chapter !== next_chapter){ return }
+        if (current_sentence !== next_sentence){
+            itracks = next_itracks
+            play()
+            return
+        }
+    }
+}
+
+function next_track(){
     itracks += 1;
     if (itracks === tracks.length) {
         itracks = tracks.length - 1
     } else {
        play(); 
-    };
-}
-
-function sentence_down(){
-    itracks -= 1;
-    if (itracks < 0) {
-        itracks = 0
-    } else {
-        play();
     };
 }
 
@@ -273,7 +301,7 @@ document.querySelector("#operation_mode").addEventListener("click", function () 
 })
 
 document.querySelector("#text").addEventListener("click", function () {
-    sentence_up()
+    next_track()
 })
 
 document.querySelector("#max_min").addEventListener("click", function () {
@@ -324,11 +352,14 @@ function navegation_functionality(elementId, func){
         }
     })
 }
-
-navegation_functionality("book_up", book_up)
-navegation_functionality("book_down", book_down)
+// navegation_functionality("book_up", book_up)
+// navegation_functionality("book_down", book_down)
 navegation_functionality("chapter_up", chapter_up)
 navegation_functionality("chapter_down", chapter_down)
-navegation_functionality("sentence_up", sentence_up)
-navegation_functionality("sentence_down", sentence_down)
+// navegation_functionality("sentence_up", sentence_up)
+// navegation_functionality("sentence_down", sentence_down)
+document.querySelector("#book_up").addEventListener("click", book_up)
+document.querySelector("#book_down").addEventListener("click", book_up)
+document.querySelector("#sentence_up").addEventListener("click", sentence_up)
+document.querySelector("#sentence_down").addEventListener("click", sentence_down)
 
