@@ -1,4 +1,7 @@
 console.log("Running main.js")
+// Todo: Button toggle spelling/transcription
+// Todo: Button help
+// Todo: Button Choose a Book | Choose a Chapter | Choose a Sentence
 
 const playbackRate = 0.8
 const tracks = get_tracks()
@@ -10,6 +13,13 @@ let isRepeat = true
 let audio = document.createElement('audio'); 
 let wantFullScreenMode = true;
 update_title(itracks)
+
+function openInNewTab(url) {
+    let newTab = document.createElement('a');
+    newTab.href = url;
+    newTab.target = "_blank";
+    newTab.click();
+}
 
 function get_BXXX(){
     const BXXX = {}
@@ -286,7 +296,7 @@ function next_track(){
 
 document.querySelector("#text_mode").addEventListener("click", function () {
     if (this.innerHTML === "æ") {
-        this.innerHTML = "a";
+        this.innerHTML = "æ";
     } else {
         this.innerHTML = "æ";
     }
@@ -378,6 +388,11 @@ document.querySelector("#book_down").addEventListener("click", book_down)
 document.querySelector("#sentence_up").addEventListener("click", sentence_up)
 document.querySelector("#sentence_down").addEventListener("click", sentence_down)
 
+document.querySelector("#kindle").addEventListener("click", function () {
+    const url = "https://www.amazon.co.uk/brief-history-Artificial-Intelligence-ebook/dp/B0C5DWF7LL/ref=sr_1_3?crid=JZR2GY582PLP&dib=eyJ2IjoiMSJ9.JnBwUikzDVNNbEBB3gsQGVjRNSPLyT3gYzaAVz44pMZkinZ2mpvIvTDbTUKt9ivXrs5HR4ckDZpTCX1nC9R06LN5_NIUbWEeNuYFwLwgLoDSLHiCNc5Taowts64SYdidzUzgagp5r7FpcDgTGH_r3LUhYqZEFh9ZRFjASlfAOqW30o0jdtelu9-22fMh9u5zon1m3MFhXafZ_JsirOTh5Y4czrNsONOzbnLKSJulIFI.nFU77SXnHOo00pTQW5pVrVxoCGclOMu0-I1M0x3GWf4&dib_tag=se&keywords=kindle+a+brief+history+of+artificial+intelligence&qid=1717773263&sprefix=kindle+a+brief+history+of+artificial+intelligence%2Caps%2C91&sr=8-3"
+    openInNewTab(url)
+})
+
 // document.querySelector("#book").addEventListener("click", function (){
 //     if (document.querySelector("#book").innerHTML !== "Choose a book:") {
 //         document.querySelector("#book").innerHTML = "Choose a Book:"
@@ -389,6 +404,8 @@ document.querySelector("#sentence_down").addEventListener("click", sentence_down
 //         createListElement("book3")        
 //     }
 // })
+
+
 
 function showAll(){
     deleteList()

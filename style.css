@@ -10,6 +10,10 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+*:focus {
+    outline: none;
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -68,7 +72,6 @@ body {
 
 .bttn:active {
     background-color: transparent;
-    border: none;
     outline: none;
 }
 
