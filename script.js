@@ -6,11 +6,10 @@ const BXXX = get_BXXX(tracks)
 const CXXX = get_CXXX(tracks)
 const audios = []
 let itracks = 0
-let isRepeat = false
+let isRepeat = true
 let audio = document.createElement('audio'); 
 let wantFullScreenMode = true;
 update_title(itracks)
-
 
 function get_BXXX(){
     const BXXX = {}
@@ -36,13 +35,15 @@ function get_CXXX(tracks){
         const chapter = ans.slice(4, 8)
         const sentence = ans.slice(8, 12)
         if (sentence === "S000"){
-            CXXX[book + chapter] = track["tran"].replace(".", "")
+            if (chapter === "C000"){
+                CXXX[book + chapter] = "ᵻ̀ntrədʌ́kʃən"
+            } else {
+                CXXX[book + chapter] = track["tran"].replace(".", "")
+            }
         }
     }
     return CXXX
 }
-
-
 
 function* enumerate(iterable) {
     let index = 0;
@@ -116,7 +117,7 @@ function update_title() {
     const sentence = ans.slice(8, 12)
     document.querySelector("#book_title").innerHTML = BXXX[book]
     document.querySelector("#chapter_title").innerHTML = CXXX[book + chapter]
-    document.querySelector("#sentence_title").innerHTML = sentence
+    document.querySelector("#sentence_title").innerHTML = book + "" + chapter + "" + sentence
     document.querySelector("#text").innerHTML = `${text}`
 }
 
@@ -256,16 +257,14 @@ function sentence_down(){
 document.querySelector("#text_mode").addEventListener("click", function () {
     if (this.innerHTML === "æ") {
         this.innerHTML = "a";
-        isRepeat = false
     } else {
         this.innerHTML = "æ";
-        isRepeat = true
     }
 })
 
 document.querySelector("#operation_mode").addEventListener("click", function () {
     if (this.innerHTML === "⟲") {
-        this.innerHTML = "⇒";
+        this.innerHTML = "→";
         isRepeat = false
     } else {
         this.innerHTML = "⟲";
