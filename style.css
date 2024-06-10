@@ -1,6 +1,5 @@
 * {
-    overflow: hidden;
-    overflow-y: auto;
+    overflow: clip;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -117,6 +116,7 @@ body {
 
 .list{
     flex-grow: 1;
+    overflow:auto;
 }
 
 #kindle {
@@ -141,14 +141,27 @@ body {
     align-items: center;
     justify-content: center;
     row-gap: 4px;
-    height: 80px;
+    height: auto;
 }
 
 #sentence-row > button{
     border: none;
-    margin: 10px;
+    margin: 4px;
     min-width: 0px;
     width: auto;
+}
+
+#sentence > p{
+    padding: 5px;
+    font-size: 1.4rem;
+}
+
+#sentence_number{
+    width: 40px;
+}
+
+#sentence_total_number{
+    width: 40px;
 }
 
 #help {
@@ -156,7 +169,7 @@ body {
     bottom: 0; /* position at the top */
     right: 0; /* position at the left */
     padding: 16px;
-    font-size: 1.8rem;
+
     background-color: transparent; /* #6b6464; */
     cursor: pointer;
 }

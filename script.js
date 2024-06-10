@@ -159,6 +159,16 @@ function get_tracks(){
     return tracks
 }
 
+function addOneToNumber(numStr) {
+    let num = parseInt(numStr);
+    num++;
+    if (num < 10) {
+        return '0' + num;
+    } else {
+        return num.toString();
+    }
+}
+
 function update_title() {
     const text = tracks[itracks]["tran"]
     const ans = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
@@ -167,7 +177,8 @@ function update_title() {
     const sentence = ans.slice(8, 12)
     document.querySelector("#book_title").innerHTML = tracks[iBXXX[book]].tran.replace(".", "")
     document.querySelector("#chapter_title").innerHTML = tracks[iBXXXCXXX[book + chapter]].tran.replace(".", "")
-    document.querySelector("#sentence_title").innerHTML = sentence.slice(-2, undefined) + " / " + numOfSentences[book + chapter]
+    document.querySelector("#sentence_number").innerHTML = addOneToNumber(sentence.slice(-2, undefined))
+    document.querySelector("#sentence_total_number").innerHTML = numOfSentences[book + chapter]
     document.querySelector("#text").innerHTML = `${text}`
     if (chapter === "C000") {
         document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
@@ -176,7 +187,7 @@ function update_title() {
 
 function runAfterAudioEnded() {
     setTimeout(function () {
-        if (isRepeat === false){
+        if (document.querySelector("#operation_mode").innerHTML !== "⟲"){
             itracks += 1
         }
         play()
@@ -440,6 +451,16 @@ function deleteElementAndChildren(elementId) {
     parent.remove()
 }
 
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();        
+        next_track();
+    }
+
+
+
+});
+
 document.querySelector("#book").addEventListener("click", function (){
 
     pause_play()
@@ -449,6 +470,7 @@ document.querySelector("#book").addEventListener("click", function (){
         document.querySelector("#chapter-row").style.display = "flex"
         document.querySelector("#sentence-row").style.display = "flex"
         document.querySelector("#text-row").style.display = "flex"
+        document.querySelector("#sound").innerHTML = "🕪"
         play()  
         return
     }
@@ -480,6 +502,7 @@ document.querySelector("#chapter").addEventListener("click", function (){
         document.querySelector("#chapter-row").style.display = "flex"
         document.querySelector("#sentence-row").style.display = "flex"
         document.querySelector("#text-row").style.display = "flex"
+        document.querySelector("#sound").innerHTML = "🕪"
         play()  
         return
     }
@@ -515,6 +538,7 @@ function createListElementBook(book){
         document.querySelector("#sentence-row").style.display = "flex"
         document.querySelector("#text-row").style.display = "flex"
         itracks = iBXXX[book]
+        document.querySelector("#sound").innerHTML = "🕪"
         play()        
     });
     document.querySelector("#list").appendChild(div);
@@ -529,6 +553,7 @@ function createListElementChapter(chapter){
         document.querySelector("#sentence-row").style.display = "flex"
         document.querySelector("#text-row").style.display = "flex"
         itracks = iBXXXCXXX[chapter]
+        document.querySelector("#sound").innerHTML = "🕪"
         play()        
     });
     document.querySelector("#list").appendChild(div);
