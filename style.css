@@ -1,4 +1,6 @@
 * {
+    overflow: hidden;
+    overflow-y: auto;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,7 +22,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* max-height: 1600px; */
     font-family: Consolas, Arial, sans-serif;
     background-color: rgb(200, 180, 150);;
     color: black;
@@ -75,16 +76,6 @@ body {
     outline: none;
 }
 
-/*
-.button:hover {
-    background-color: #5e5e5e;
-}
-*/
-
-.bttn-left{
-    /* ⟹  ⇒ - a */
-}
-
 .bttn-middle{
     flex-grow: 1;
     font-size: 1rem;
@@ -97,6 +88,7 @@ body {
 }
 
 .title {
+
     position: absolute; /* take this div out of the flow */
     top: 0; /* position at the top */
     left: 0; /* position at the left */
@@ -108,17 +100,23 @@ body {
 .list-element{
     justify-content: center;
     align-items: center;
-    font-size: 1.8rem;
+    font-family: Consolas, Arial, sans-serif;
+    font-size: 1.4rem;
     color: rgb(82, 73, 61);
     background-color:rgb(200, 180, 150); /* #6b6464; */
     cursor: pointer;
     min-height: 60px;
     height: 60px;
     border-bottom:1px solid rgb(110, 99, 81);
+    background-color: rgb(220, 200, 160);
 }
 
 .list-element:hover{
     background-color:rgb(151, 136, 113);
+}
+
+.list{
+    flex-grow: 1;
 }
 
 #kindle {
@@ -133,6 +131,20 @@ body {
 #text{
     text-align: center;
     background-color: rgb(200, 180, 150);
+}
+
+#sentence-row{
+    align-items: center;
+    justify-content: center;
+    row-gap: 4px;
+    height: 80px;
+}
+
+#sentence-row > button{
+    border: none;
+    margin: 10px;
+    min-width: 0px;
+    width: auto;
 }
 
 #help {

@@ -5,8 +5,10 @@ console.log("Running main.js")
 
 const playbackRate = 0.8
 const tracks = get_tracks()
-const BXXX = get_BXXX(tracks)
-const CXXX = get_CXXX(tracks)
+const iBXXX = get_iBXXX(tracks)
+const iBXXXCXXX = get_iBXXXCXXX(tracks)
+const iBXXXCXXXSXXX = get_iBXXXCXXXSXXX(tracks)
+
 const audios = []
 let itracks = 0
 let isRepeat = true
@@ -21,38 +23,46 @@ function openInNewTab(url) {
     newTab.click();
 }
 
-function get_BXXX(){
-    const BXXX = {}
-    for (const track of tracks){
+function get_iBXXX(){
+    const iBXXX = {}
+    for (const [iTrack, track] of enumerate(tracks)){
         const ans = track["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
         const book = ans.slice(0, 4)
         const chapter = ans.slice(4, 8)
         const sentence = ans.slice(8, 12)
         if (chapter === "C000"){
             if (sentence === "S000"){
-                BXXX[book] = track["tran"].replace(".", "")
+                iBXXX[book] = iTrack
             }
         }
     }
-    return BXXX
+    return iBXXX
 }
 
-function get_CXXX(tracks){
-    const CXXX = {}
-    for (const track of tracks){
+function get_iBXXXCXXX(tracks){
+    const iBXXXCXXX = {}
+    for (const [iTrack, track] of enumerate(tracks)){
         const ans = track["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
         const book = ans.slice(0, 4)
         const chapter = ans.slice(4, 8)
         const sentence = ans.slice(8, 12)
         if (sentence === "S000"){
-            if (chapter === "C000"){
-                CXXX[book + chapter] = "ᵻ̀ntrədʌ́kʃən"
-            } else {
-                CXXX[book + chapter] = track["tran"].replace(".", "")
-            }
+            iBXXXCXXX[book + chapter] = iTrack
         }
     }
-    return CXXX
+    return iBXXXCXXX
+}
+
+function get_iBXXXCXXXSXXX(tracks){
+    const iBXXXCXXXSXXX = {}
+    for (const [iTrack, track] of enumerate(tracks)){
+        const ans = track["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
+        const book = ans.slice(0, 4)
+        const chapter = ans.slice(4, 8)
+        const sentence = ans.slice(8, 12)
+        iBXXXCXXXSXXX[book + chapter + sentence] = iTrack
+    }
+    return iBXXXCXXXSXXX
 }
 
 function* enumerate(iterable) {
@@ -125,10 +135,13 @@ function update_title() {
     const book = ans.slice(0, 4)
     const chapter = ans.slice(4, 8)
     const sentence = ans.slice(8, 12)
-    document.querySelector("#book_title").innerHTML = BXXX[book]
-    document.querySelector("#chapter_title").innerHTML = CXXX[book + chapter]
-    document.querySelector("#sentence_title").innerHTML = book + "" + chapter + "" + sentence
+    document.querySelector("#book_title").innerHTML = tracks[iBXXX[book]].tran.replace(".", "")
+    document.querySelector("#chapter_title").innerHTML = tracks[iBXXXCXXX[book + chapter]].tran.replace(".", "")
+    document.querySelector("#sentence_title").innerHTML = sentence.slice(-2, undefined)
     document.querySelector("#text").innerHTML = `${text}`
+    if (chapter === "C000") {
+        document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
+    }
 }
 
 function runAfterAudioEnded() {
@@ -377,12 +390,8 @@ function navegation_functionality(elementId, func){
         }
     })
 }
-// navegation_functionality("book_up", book_up)
-// navegation_functionality("book_down", book_down)
 navegation_functionality("chapter_up", chapter_up)
 navegation_functionality("chapter_down", chapter_down)
-// navegation_functionality("sentence_up", sentence_up)
-// navegation_functionality("sentence_down", sentence_down)
 document.querySelector("#book_up").addEventListener("click", book_up)
 document.querySelector("#book_down").addEventListener("click", book_down)
 document.querySelector("#sentence_up").addEventListener("click", sentence_up)
@@ -393,43 +402,102 @@ document.querySelector("#kindle").addEventListener("click", function () {
     openInNewTab(url)
 })
 
-// document.querySelector("#book").addEventListener("click", function (){
-//     if (document.querySelector("#book").innerHTML !== "Choose a book:") {
-//         document.querySelector("#book").innerHTML = "Choose a Book:"
-//         document.querySelector("#chapter-row").style.display = "none";
-//         document.querySelector("#sentence-row").style.display = "none";
-//         document.querySelector("#text-row").style.display = "none";
-//         createListElement("book1")
-//         createListElement("book2")
-//         createListElement("book3")        
-//     }
-// })
-
-
-
-function showAll(){
-    deleteList()
-    document.querySelector("#chapter-row").style.display = "flex"
-    document.querySelector("#sentence-row").style.display = "flex"
-    document.querySelector("#text-row").style.display = "flex"
+function deleteElementAndChildren(elementId) {
+    const parent = document.getElementById(elementId);
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+    parent.remove()
 }
 
 function deleteList(){
-    document.querySelectorAll('.list-element').forEach(element => {
-        element.remove();
-    });
+
 }
 
-function createListElement(book){
-    const rowElement = document.createElement("div");
-    rowElement.className = "row list-element";
-    rowElement.innerHTML = book;
-    rowElement.addEventListener("click", function(){
-        console.log(this)
-        document.querySelector("#book").innerHTML = this.innerHTML
-        showAll()
+document.querySelector("#book").addEventListener("click", function (){
+
+    if (document.querySelector("#list") !== null) {
+        deleteElementAndChildren("list")
+        document.querySelector("#chapter-row").style.display = "flex"
+        document.querySelector("#sentence-row").style.display = "flex"
+        document.querySelector("#text-row").style.display = "flex"
+        play()  
+        return
+    }
+
+    //
+    document.querySelector("#chapter-row").style.display = "none"
+    document.querySelector("#sentence-row").style.display = "none"
+    document.querySelector("#text-row").style.display = "none"
+
+    //
+    const div = document.createElement("div");
+    div.id = "list"
+    div.className = "column list";
+    document.querySelector("#app").appendChild(div);
+
+    //
+    document.querySelector("#book_title").innerHTML = "Choose a book:"
+    for (book in iBXXX){
+        createListElementBook(book)
+    }
+})
+
+document.querySelector("#chapter").addEventListener("click", function (){
+
+    if (document.querySelector("#list") !== null) {
+        deleteElementAndChildren("list")
+        document.querySelector("#chapter-row").style.display = "flex"
+        document.querySelector("#sentence-row").style.display = "flex"
+        document.querySelector("#text-row").style.display = "flex"
+        play()  
+        return
+    }
+
+    //
+    document.querySelector("#sentence-row").style.display = "none"
+    document.querySelector("#text-row").style.display = "none"
+
+    //
+    const div = document.createElement("div");
+    div.id = "list"
+    div.className = "column list";
+    document.querySelector("#app").appendChild(div);
+
+    //
+    document.querySelector("#chapter_title").innerHTML = "Choose a chapter:"
+    for (chapter in iBXXXCXXX){
+        createListElementChapter(chapter)
+    }
+})
+
+function createListElementBook(book){
+    const div = document.createElement("div");
+    div.className = "row list-element";
+    div.innerHTML = tracks[iBXXX[book]].tran.replace(".", "");
+    div.addEventListener("click", function(){
+        deleteElementAndChildren("list")
+        document.querySelector("#chapter-row").style.display = "flex"
+        document.querySelector("#sentence-row").style.display = "flex"
+        document.querySelector("#text-row").style.display = "flex"
+        itracks = iBXXX[book]
+        play()        
     });
-    document.querySelector("#app").appendChild(rowElement);
+    document.querySelector("#list").appendChild(div);
+}
+
+function createListElementChapter(chapter){
+    const div = document.createElement("div");
+    div.className = "row list-element";
+    div.innerHTML = tracks[iBXXXCXXX[chapter]].tran.replace(".", "");
+    div.addEventListener("click", function(){
+        deleteElementAndChildren("list")
+        document.querySelector("#sentence-row").style.display = "flex"
+        document.querySelector("#text-row").style.display = "flex"
+        itracks = iBXXXCXXX[chapter]
+        play()        
+    });
+    document.querySelector("#list").appendChild(div);
 }
 
 
