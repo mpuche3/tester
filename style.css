@@ -133,6 +133,10 @@ body {
     background-color: rgb(200, 180, 150);
 }
 
+#book-row{
+    height: 40px;
+}
+
 #sentence-row{
     align-items: center;
     justify-content: center;

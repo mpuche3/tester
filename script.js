@@ -4,10 +4,13 @@ console.log("Running main.js")
 // Todo: Button Choose a Book | Choose a Chapter | Choose a Sentence
 
 const playbackRate = 0.8
+const filters = get_filters()
 const tracks = get_tracks()
 const iBXXX = get_iBXXX(tracks)
 const iBXXXCXXX = get_iBXXXCXXX(tracks)
+const numOfSentences = get_numOfSentences()
 const iBXXXCXXXSXXX = get_iBXXXCXXXSXXX(tracks)
+
 
 const audios = []
 let itracks = 0
@@ -16,11 +19,35 @@ let audio = document.createElement('audio');
 let wantFullScreenMode = true;
 update_title(itracks)
 
+function get_numOfSentences(){
+    const numOfSentences = {}
+    for (const track of tracks){
+        const ans = track["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
+        const book = ans.slice(0, 4)
+        const chapter = ans.slice(4, 8)
+        numOfSentences[book + chapter] = numOfSentences[book + chapter] ?? 0
+        numOfSentences[book + chapter] += 1
+    }
+    return numOfSentences
+}
+
 function openInNewTab(url) {
     let newTab = document.createElement('a');
     newTab.href = url;
     newTab.target = "_blank";
     newTab.click();
+}
+
+function get_filters(){
+    const url = "./filters/filters.txt"
+    const filters_text = get_text(url)
+    return filters_text.split("\n").filter(line => {
+        return line.slice(0, 3) === "[o]"
+    }).reduce((acc, line) => {
+        const BXXXCXXX = line.slice(4, 12)
+        acc[BXXXCXXX] = line
+        return acc
+    }, {})
 }
 
 function get_iBXXX(){
@@ -99,17 +126,20 @@ function get_tracks_from_text(url) {
             if(sentence.slice(0, 2) === "B0") {
                 book = sentence.slice(0, 4)
                 chapter = sentence.slice(4, 8)
-                first_index_book = index              
+                first_index_book = index    
             }
             const sentence_ = `S${Math.floor(index - first_index_book).toString().padStart(3, '0')}`
             const audioFileFullPath =  `./audio/books/${book}/${book}${chapter}${sentence_}_echo.mp3`
             const tran = sentence.slice(0, 2) === "B0"
                 ? sentence.slice(10, undefined)
                 : sentence
-            tracks.push({
-                "audioFileFullPath": audioFileFullPath,
-                "tran": tran,
-            })
+            if (filters[book + chapter] !== undefined){
+                tracks.push({
+                    "audioFileFullPath": audioFileFullPath,
+                    "tran": tran,
+                })
+            }
+
         }
     }
     return tracks
@@ -137,7 +167,7 @@ function update_title() {
     const sentence = ans.slice(8, 12)
     document.querySelector("#book_title").innerHTML = tracks[iBXXX[book]].tran.replace(".", "")
     document.querySelector("#chapter_title").innerHTML = tracks[iBXXXCXXX[book + chapter]].tran.replace(".", "")
-    document.querySelector("#sentence_title").innerHTML = sentence.slice(-2, undefined)
+    document.querySelector("#sentence_title").innerHTML = sentence.slice(-2, undefined) + " / " + numOfSentences[book + chapter]
     document.querySelector("#text").innerHTML = `${text}`
     if (chapter === "C000") {
         document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
@@ -410,11 +440,9 @@ function deleteElementAndChildren(elementId) {
     parent.remove()
 }
 
-function deleteList(){
-
-}
-
 document.querySelector("#book").addEventListener("click", function (){
+
+    pause_play()
 
     if (document.querySelector("#list") !== null) {
         deleteElementAndChildren("list")
@@ -445,6 +473,8 @@ document.querySelector("#book").addEventListener("click", function (){
 
 document.querySelector("#chapter").addEventListener("click", function (){
 
+    pause_play()
+
     if (document.querySelector("#list") !== null) {
         deleteElementAndChildren("list")
         document.querySelector("#chapter-row").style.display = "flex"
@@ -466,8 +496,12 @@ document.querySelector("#chapter").addEventListener("click", function (){
 
     //
     document.querySelector("#chapter_title").innerHTML = "Choose a chapter:"
-    for (chapter in iBXXXCXXX){
-        createListElementChapter(chapter)
+    for (const BXXXCXXX in iBXXXCXXX){
+        const ans = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
+        const currrent_BXXX = ans.slice(0, 4)
+        const BXXX = BXXXCXXX.slice(0, 4)
+        if (currrent_BXXX === BXXX)
+        createListElementChapter(BXXXCXXX)
     }
 })
 
