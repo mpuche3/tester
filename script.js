@@ -379,7 +379,7 @@ document.querySelector("#sound").addEventListener("click", function () {
     }
 })
 
-document.querySelector("#text").addEventListener("click", function () {
+document.querySelector("#text-row").addEventListener("click", function () {
     next_track()
 })
 
