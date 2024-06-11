@@ -1,5 +1,5 @@
 :root {
-    --hue: 35;
+    --hue: 36;
     --color_background: hsl(var(--hue), 28%, 69%);
     --color_border: hsl(var(--hue), 30%, 37%);
     --color_font1: hsl(var(--hue), 29%, 28%);
@@ -35,6 +35,10 @@ body {
     font-family: Consolas, Arial, sans-serif;
     background-color: var(--color_background);
     color: black;
+}
+
+svg {
+    fill: var(--color_font1)
 }
 
 .app {
@@ -182,9 +186,4 @@ body {
     background-color: transparent;
     cursor: pointer;
 }
-
-#sound {
-    filter: grayscale(20%);
-}
-
 

@@ -1,50 +1,4 @@
-console.log("Running main.js")
-
-const icon_start = `
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
-    <path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z"/>
-</svg>
-`
-
-const icon_exit_fullscreen = `
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
-    <path d="M240-120v-120H120v-80h200v200h-80Zm400 0v-200h200v80H720v120h-80ZM120-640v-80h120v-120h80v200H120Zm520 0v-200h80v120h120v80H640Z"/>
-</svg>
-`
-
-const icon_enter_fullscreen = `
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
-    <path d="M120-120v-200h80v120h120v80H120Zm520 0v-80h120v-120h80v200H640ZM120-640v-200h200v80H200v120h-80Zm640 0v-120H640v-80h200v200h-80Z"/>
-</svg>
-`
-
-const icon_si_sound = `
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
-    <path d="M560-131v-82q90-26 145-100t55-168q0-94-55-168T560-749v-82q124 28 202 125.5T840-481q0 127-78 224.5T560-131ZM120-360v-240h160l200-200v640L280-360H120Zm440 40v-322q47 22 73.5 66t26.5 96q0 51-26.5 94.5T560-320ZM400-606l-86 86H200v80h114l86 86v-252ZM300-480Z"/>
-</svg>
-`
-
-const icon_no_sound = `
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
-    <path d="M792-56 671-177q-25 16-53 27.5T560-131v-82q14-5 27.5-10t25.5-12L480-368v208L280-360H120v-240h128L56-792l56-56 736 736-56 56Zm-8-232-58-58q17-31 25.5-65t8.5-70q0-94-55-168T560-749v-82q124 28 202 125.5T840-481q0 53-14.5 102T784-288ZM650-422l-90-90v-130q47 22 73.5 66t26.5 96q0 15-2.5 29.5T650-422ZM480-592 376-696l104-104v208Zm-80 238v-94l-72-72H200v80h114l86 86Zm-36-130Z"/>
-</svg>
-`
-
-const icon_si_repeat = `
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
-    <path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"/>
-</svg>
-`
-
-const icon_no_repeat = `
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
-    <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
-</svg>
-`
-
-document.querySelector("#max_min").innerHTML = icon_enter_fullscreen
-document.querySelector("#sound").innerHTML = icon_no_sound;
-document.querySelector("#operation_mode").innerHTML = icon_no_repeat;
+console.log("Running script_slow.js")
 
 document.querySelector("#text_mode").addEventListener("click", function () {
     if (this.innerHTML === "æ") {
@@ -456,13 +410,9 @@ function next_track(){
     };
 }
 
-
-
 document.querySelector("#text-row").addEventListener("click", function () {
     next_track()
 })
-
-
 
 window.addEventListener('resize', () => {
     const screenWidth = window.screen.width;
@@ -546,8 +496,20 @@ document.querySelector("#book").addEventListener("click", function (){
     document.querySelector("#app").appendChild(div);
 
     document.querySelector("#book_title").innerHTML = "Choose a book:"
-    for (book in iBXXX){
-        createListElementBook(book)
+    for (const BXXX in iBXXX){
+        const div = document.createElement("div");
+        div.className = "row list-element";
+        div.innerHTML = tracks[iBXXX[BXXX_]].tran.replace(".", "");
+        div.addEventListener("click", function(){
+            itracks = iBXXX[BXXX]
+            deleteElementAndChildren("list")
+            document.querySelector("#chapter-row").style.display = "flex"
+            document.querySelector("#sentence-row").style.display = "flex"
+            document.querySelector("#text-row").style.display = "flex"
+            document.querySelector("#sound").innerHTML = icon_si_sound
+            play()        
+        });
+        document.querySelector("#list").appendChild(div);
     }
 })
 
@@ -559,6 +521,9 @@ document.querySelector("#chapter").addEventListener("click", function (){
         document.querySelector("#chapter-row").style.display = "flex"
         document.querySelector("#sentence-row").style.display = "flex"
         document.querySelector("#text-row").style.display = "flex"
+        document.querySelector("#chapter_down").style.display = "flex"
+        document.querySelector("#chapter_up").style.display = "flex"
+        document.querySelector("#chapter > .title").style.display = "flex"
         document.querySelector("#sound").innerHTML = icon_si_sound
         play()  
         return
@@ -566,6 +531,9 @@ document.querySelector("#chapter").addEventListener("click", function (){
 
     document.querySelector("#sentence-row").style.display = "none"
     document.querySelector("#text-row").style.display = "none"
+    document.querySelector("#chapter_down").style.display = "none"
+    document.querySelector("#chapter_up").style.display = "none"
+    document.querySelector("#chapter > .title").style.display = "none"
 
     const div = document.createElement("div");
     div.id = "list"
@@ -575,38 +543,21 @@ document.querySelector("#chapter").addEventListener("click", function (){
     document.querySelector("#chapter_title").innerHTML = "Choose a chapter:"
     for (const BXXXCXXX in iBXXXCXXX){ 
         if (BXXXCXXX.slice(0, 4) === getBXXX(itracks)){
-            createListElementChapter(BXXXCXXX)
+            const div = document.createElement("div");
+            div.className = "row list-element";
+            div.innerHTML = tracks[iBXXXCXXX[BXXXCXXX]].tran.replace(".", "");
+            div.addEventListener("click", function(){
+                itracks = iBXXXCXXX[BXXXCXXX]
+                deleteElementAndChildren("list")
+                document.querySelector("#sentence-row").style.display = "flex"
+                document.querySelector("#text-row").style.display = "flex"
+                document.querySelector("#sound").innerHTML = icon_si_sound
+                document.querySelector("#chapter_down").style.display = "flex"
+                document.querySelector("#chapter_up").style.display = "flex"
+                document.querySelector("#chapter > .title").style.display = "flex"
+                play()        
+            });
+            document.querySelector("#list").appendChild(div);
         }
     }
 })
-
-function createListElementBook(book){
-    const div = document.createElement("div");
-    div.className = "row list-element";
-    div.innerHTML = tracks[iBXXX[book]].tran.replace(".", "");
-    div.addEventListener("click", function(){
-        itracks = iBXXX[book]
-        deleteElementAndChildren("list")
-        document.querySelector("#chapter-row").style.display = "flex"
-        document.querySelector("#sentence-row").style.display = "flex"
-        document.querySelector("#text-row").style.display = "flex"
-        document.querySelector("#sound").innerHTML = icon_si_sound
-        play()        
-    });
-    document.querySelector("#list").appendChild(div);
-}
-
-function createListElementChapter(chapter){
-    const div = document.createElement("div");
-    div.className = "row list-element";
-    div.innerHTML = tracks[iBXXXCXXX[chapter]].tran.replace(".", "");
-    div.addEventListener("click", function(){
-        itracks = iBXXXCXXX[chapter]
-        deleteElementAndChildren("list")
-        document.querySelector("#sentence-row").style.display = "flex"
-        document.querySelector("#text-row").style.display = "flex"
-        document.querySelector("#sound").innerHTML = icon_si_sound
-        play()        
-    });
-    document.querySelector("#list").appendChild(div);
-}
