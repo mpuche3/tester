@@ -1,5 +1,22 @@
 console.log("Running script_slow.js")
 
+function truncateString(str) {
+    const max_length = 28
+
+    str = str.replace("ðə 101 móʊst ᵻ̀mpɔ́rtənt kɒ́nsɛpts əv ", "")
+    str = str.replace("ðə 101 móʊst ᵻ́ntərəstᵻŋ kɒ́nsɛpts əv ", "")
+    if (str.length <= max_length) {
+        return str;
+    }
+
+    str = str.replace(/\([^)]*\)/g, '');
+    if (str.length > max_length) {
+      str = str.substring(0, max_length - 4).trim() + '...';
+    }
+    
+    return str;
+}
+
 document.querySelector("#text_mode").addEventListener("click", function () {
     if (this.innerHTML === "æ") {
         this.innerHTML = "æ";
@@ -237,8 +254,10 @@ function update_title() {
     const book = ans.slice(0, 4)
     const chapter = ans.slice(4, 8)
     const sentence = ans.slice(8, 12)
-    document.querySelector("#book_title").innerHTML = tracks[iBXXX[book]].tran.replace(".", "")
-    document.querySelector("#chapter_title").innerHTML = tracks[iBXXXCXXX[book + chapter]].tran.replace(".", "")
+    const book_title = truncateString(tracks[iBXXX[book]].tran.replace(".", "").replace(":", ""))
+    const chapter_title = truncateString(tracks[iBXXXCXXX[book + chapter]].tran.replace(".", "").replace(":", ""))
+    document.querySelector("#book_title").innerHTML = book_title
+    document.querySelector("#chapter_title").innerHTML = chapter_title
     document.querySelector("#sentence_number").innerHTML = addOneToNumber(sentence.slice(-2, undefined))
     document.querySelector("#sentence_total_number").innerHTML = numOfSentences[book + chapter]
     document.querySelector("#text").innerHTML = `${text}`
@@ -446,10 +465,13 @@ function navegation_functionality(elementId, func){
         }
     })
 }
-navegation_functionality("chapter_up", chapter_up)
-navegation_functionality("chapter_down", chapter_down)
+
+// navegation_functionality("chapter_up", chapter_up)
+// navegation_functionality("chapter_down", chapter_down)
 document.querySelector("#book_up").addEventListener("click", book_up)
 document.querySelector("#book_down").addEventListener("click", book_down)
+document.querySelector("#chapter_up").addEventListener("click", chapter_up)
+document.querySelector("#chapter_down").addEventListener("click", chapter_down)
 document.querySelector("#sentence_up").addEventListener("click", sentence_up)
 document.querySelector("#sentence_down").addEventListener("click", sentence_down)
 
@@ -506,6 +528,7 @@ document.querySelector("#book").addEventListener("click", function (){
         const div = document.createElement("div");
         div.className = "row list-element";
         div.innerHTML = tracks[iBXXX[BXXX]].tran.replace(".", "");
+        div.innerHTML = truncateString(div.innerHTML)
         div.addEventListener("click", function(){
             itracks = iBXXX[BXXX]
             deleteElementAndChildren("list")
@@ -555,6 +578,7 @@ document.querySelector("#chapter").addEventListener("click", function (){
             const div = document.createElement("div");
             div.className = "row list-element";
             div.innerHTML = tracks[iBXXXCXXX[BXXXCXXX]].tran.replace(".", "");
+            div.innerHTML = truncateString(div.innerHTML)
             div.addEventListener("click", function(){
                 itracks = iBXXXCXXX[BXXXCXXX]
                 deleteElementAndChildren("list")
