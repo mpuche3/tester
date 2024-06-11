@@ -499,7 +499,7 @@ document.querySelector("#book").addEventListener("click", function (){
     for (const BXXX in iBXXX){
         const div = document.createElement("div");
         div.className = "row list-element";
-        div.innerHTML = tracks[iBXXX[BXXX_]].tran.replace(".", "");
+        div.innerHTML = tracks[iBXXX[BXXX]].tran.replace(".", "");
         div.addEventListener("click", function(){
             itracks = iBXXX[BXXX]
             deleteElementAndChildren("list")
