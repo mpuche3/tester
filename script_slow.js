@@ -523,7 +523,7 @@ document.querySelector("#book").addEventListener("click", function (){
     div.className = "column list";
     document.querySelector("#app").appendChild(div);
 
-    document.querySelector("#book_title").innerHTML = "Choose a book:"
+    document.querySelector("#book_title").innerHTML = "ʧúz ə bʊ́k:"
     for (const BXXX in iBXXX){
         const div = document.createElement("div");
         div.className = "row list-element";
@@ -572,7 +572,7 @@ document.querySelector("#chapter").addEventListener("click", function (){
     div.className = "column list";
     document.querySelector("#app").appendChild(div);
 
-    document.querySelector("#chapter_title").innerHTML = "Choose a chapter:"
+    document.querySelector("#chapter_title").innerHTML = "ʧúz ə ʧǽptər:"
     for (const BXXXCXXX in iBXXXCXXX){ 
         if (BXXXCXXX.slice(0, 4) === getBXXX(itracks)){
             const div = document.createElement("div");
