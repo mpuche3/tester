@@ -481,6 +481,9 @@ document.querySelector("#book").addEventListener("click", function (){
         document.querySelector("#chapter-row").style.display = "flex"
         document.querySelector("#sentence-row").style.display = "flex"
         document.querySelector("#text-row").style.display = "flex"
+        document.querySelector("#book_down").style.display = "flex"
+        document.querySelector("#book_up").style.display = "flex"
+        document.querySelector("#book > .title").style.display = "flex"
         document.querySelector("#sound").innerHTML = icon_si_sound
         play()  
         return
@@ -489,6 +492,9 @@ document.querySelector("#book").addEventListener("click", function (){
     document.querySelector("#chapter-row").style.display = "none"
     document.querySelector("#sentence-row").style.display = "none"
     document.querySelector("#text-row").style.display = "none"
+    document.querySelector("#book_down").style.display = "none"
+    document.querySelector("#book_up").style.display = "none"
+    document.querySelector("#book > .title").style.display = "none"
 
     const div = document.createElement("div");
     div.id = "list"
@@ -506,6 +512,9 @@ document.querySelector("#book").addEventListener("click", function (){
             document.querySelector("#chapter-row").style.display = "flex"
             document.querySelector("#sentence-row").style.display = "flex"
             document.querySelector("#text-row").style.display = "flex"
+            document.querySelector("#book_down").style.display = "flex"
+            document.querySelector("#book_up").style.display = "flex"
+            document.querySelector("#book > .title").style.display = "flex"
             document.querySelector("#sound").innerHTML = icon_si_sound
             play()        
         });
