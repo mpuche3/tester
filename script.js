@@ -1,22 +1,119 @@
 console.log("Running main.js")
+
+const icon_start = `
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+    <path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z"/>
+</svg>
+`
+
+const icon_exit_fullscreen = `
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+    <path d="M240-120v-120H120v-80h200v200h-80Zm400 0v-200h200v80H720v120h-80ZM120-640v-80h120v-120h80v200H120Zm520 0v-200h80v120h120v80H640Z"/>
+</svg>
+`
+
+const icon_enter_fullscreen = `
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+    <path d="M120-120v-200h80v120h120v80H120Zm520 0v-80h120v-120h80v200H640ZM120-640v-200h200v80H200v120h-80Zm640 0v-120H640v-80h200v200h-80Z"/>
+</svg>
+`
+
+const icon_si_sound = `
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+    <path d="M560-131v-82q90-26 145-100t55-168q0-94-55-168T560-749v-82q124 28 202 125.5T840-481q0 127-78 224.5T560-131ZM120-360v-240h160l200-200v640L280-360H120Zm440 40v-322q47 22 73.5 66t26.5 96q0 51-26.5 94.5T560-320ZM400-606l-86 86H200v80h114l86 86v-252ZM300-480Z"/>
+</svg>
+`
+
+const icon_no_sound = `
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+    <path d="M792-56 671-177q-25 16-53 27.5T560-131v-82q14-5 27.5-10t25.5-12L480-368v208L280-360H120v-240h128L56-792l56-56 736 736-56 56Zm-8-232-58-58q17-31 25.5-65t8.5-70q0-94-55-168T560-749v-82q124 28 202 125.5T840-481q0 53-14.5 102T784-288ZM650-422l-90-90v-130q47 22 73.5 66t26.5 96q0 15-2.5 29.5T650-422ZM480-592 376-696l104-104v208Zm-80 238v-94l-72-72H200v80h114l86 86Zm-36-130Z"/>
+</svg>
+`
+
+const icon_si_repeat = `
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+    <path d="M280-80 120-240l160-160 56 58-62 62h406v-160h80v240H274l62 62-56 58Zm-80-440v-240h486l-62-62 56-58 160 160-160 160-56-58 62-62H280v160h-80Z"/>
+</svg>
+`
+
+const icon_no_repeat = `
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+    <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/>
+</svg>
+`
+
+document.querySelector("#max_min").innerHTML = icon_enter_fullscreen
+document.querySelector("#sound").innerHTML = icon_no_sound;
+document.querySelector("#operation_mode").innerHTML = icon_no_repeat;
+
+document.querySelector("#text_mode").addEventListener("click", function () {
+    if (this.innerHTML === "æ") {
+        this.innerHTML = "æ";
+    } else {
+        this.innerHTML = "æ";
+    }
+})
+
+document.querySelector("#operation_mode").addEventListener("click", function () {
+    if (isRepeat()) {
+        this.innerHTML = icon_no_repeat;
+    } else {
+        this.innerHTML = icon_si_repeat;
+    }
+})
+
+document.querySelector("#sound").addEventListener("click", function () {
+    if (isMuted()) {
+        this.innerHTML = icon_si_sound;
+        play()
+    } else {
+        this.innerHTML = icon_no_sound;
+        pause_play()
+    }
+})
+
+document.querySelector("#max_min").addEventListener("click", function () {
+    if (document.fullscreenElement) {
+        document.exitFullscreen();
+      } else {
+        document.documentElement.requestFullscreen();
+      }
+})
+
+document.addEventListener("fullscreenchange", function () {
+    if (document.fullscreenElement) {
+      document.querySelector("#max_min").innerHTML = icon_exit_fullscreen
+    } else {
+      document.querySelector("#max_min").innerHTML = icon_enter_fullscreen
+    }
+});
+
+function isRepeat(){
+    const icon_repeat = document.querySelector("#operation_mode").innerHTML
+    const distance_to_si = distance(icon_repeat, icon_si_repeat)
+    const distance_to_no = distance(icon_repeat, icon_no_repeat)
+    return distance_to_si < distance_to_no
+}
+
+function isMuted(){
+    const icon_sound = document.querySelector("#sound").innerHTML
+    const distance_to_si = distance(icon_sound, icon_si_sound)
+    const distance_to_no = distance(icon_sound, icon_no_sound)
+    return distance_to_si > distance_to_no
+}
+
 // Todo: Button toggle spelling/transcription
 // Todo: Button help
-// Todo: Button Choose a Book | Choose a Chapter | Choose a Sentence
 
+let itracks = 0
+const audios = []
 const playbackRate = 0.8
 const filters = get_filters()
 const tracks = get_tracks()
 const iBXXX = get_iBXXX(tracks)
 const iBXXXCXXX = get_iBXXXCXXX(tracks)
 const numOfSentences = get_numOfSentences()
-const iBXXXCXXXSXXX = get_iBXXXCXXXSXXX(tracks)
 
-
-const audios = []
-let itracks = 0
-let isRepeat = true
-let audio = document.createElement('audio'); 
-let wantFullScreenMode = true;
 update_title(itracks)
 
 function get_numOfSentences(){
@@ -79,17 +176,28 @@ function get_iBXXXCXXX(tracks){
     }
     return iBXXXCXXX
 }
-
-function get_iBXXXCXXXSXXX(tracks){
-    const iBXXXCXXXSXXX = {}
-    for (const [iTrack, track] of enumerate(tracks)){
-        const ans = track["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
-        const book = ans.slice(0, 4)
-        const chapter = ans.slice(4, 8)
-        const sentence = ans.slice(8, 12)
-        iBXXXCXXXSXXX[book + chapter + sentence] = iTrack
+  
+function distance(str1, str2) {
+    //levenshteinDistance
+    str1 = String(str1)
+    str2 = String(str2)
+    const m = str1.length;
+    const n = str2.length;
+    const d = new Array(m + 1);
+    for (let i = 0; i <= m; i++) {
+        d[i] = new Array(n + 1);
+        d[i][0] = i;
     }
-    return iBXXXCXXXSXXX
+    for (let j = 0; j <= n; j++) {
+        d[0][j] = j;
+    }
+    for (let i = 1; i <= m; i++) {
+        for (let j = 1; j <= n; j++) {
+        const cost = str1[i - 1] === str2[j - 1] ? 0 : 1;
+        d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost);
+        }
+    }
+    return d[m][n];
 }
 
 function* enumerate(iterable) {
@@ -185,18 +293,9 @@ function update_title() {
     }
 }
 
-function runAfterAudioEnded() {
-    setTimeout(function () {
-        if (document.querySelector("#operation_mode").innerHTML !== "⟲"){
-            itracks += 1
-        }
-        play()
-    }, 600)
-}
-
 function play(){
     update_title();
-    if (document.querySelector("#sound").innerHTML === "🕪") {
+    if (!isMuted()) {
         const audioFileFullPath = tracks[itracks]["audioFileFullPath"];
         const audio = new Audio(audioFileFullPath);
         audio.playbackRate = playbackRate;
@@ -205,41 +304,50 @@ function play(){
         })
         audio.play()
         audios.push(audio)
-        audio.addEventListener("ended", runAfterAudioEnded)        
-    };
+        audio.addEventListener("ended", function () {
+            setTimeout(function () {
+                if (!isRepeat()){
+                    itracks += 1
+                }
+                play()
+            }, 600)
+        })        
+    }
 }
 
 function pause_play() {
-    document.querySelector("#sound").innerHTML = "🔇"
+    document.querySelector("#sound").innerHTML = icon_no_sound
     audios.map(audio => {
         audio.pause();
     })
 }
 
-function getBook(itracks){
-    const book = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0].slice(0, 4)
-    return book
+function getBXXXCXXXSXXX(itracks){
+    const BXXXCXXXSXXX = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
+    return BXXXCXXXSXXX  
 }
 
-function getChapter(itracks){
-    const chapter = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0].slice(4, 8)
-    return chapter
+function getBXXX(itracks){
+    return getBXXXCXXXSXXX(itracks).slice(0, 4)
 }
 
-function getSentence(itracks){
-    const sentence = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0].slice(8, 12)
-    return sentence
+function getCXXX(itracks){
+    return getBXXXCXXXSXXX(itracks).slice(4, 8)
+}
+
+function getSXXX(itracks){
+    return getBXXXCXXXSXXX(itracks).slice(8, 12)
 }
 
 function book_up(){
-    const current_book = getBook(itracks)
+    const current_BXXX = getBXXX(itracks)
     let next_itracks = itracks
     while (next_itracks < tracks.length - 1){
         next_itracks += 1
-        const next_book = getBook(next_itracks)
-        const next_chapter = getChapter(next_itracks)
-        const next_sentence = getSentence(next_itracks)
-        if (current_book !== next_book && "S000" === next_sentence && "C000" === next_chapter){
+        const next_BXXX = getBXXX(next_itracks)
+        const next_CXXX = getCXXX(next_itracks)
+        const next_SXXX = getSXXX(next_itracks)
+        if (current_BXXX !== next_BXXX && "S000" === next_SXXX && "C000" === next_CXXX){
             itracks = next_itracks
             play()
             return
@@ -248,14 +356,14 @@ function book_up(){
 }
 
 function book_down(){
-    const current_book = getBook(itracks)
+    const current_BXXX = getBXXX(itracks)
     let next_itracks = itracks
     while (0 < next_itracks){
         next_itracks -= 1
-        const next_book = getBook(next_itracks)
-        const next_chapter = getChapter(next_itracks)
-        const next_sentence = getSentence(next_itracks)
-        if (current_book !== next_book && "S000" === next_sentence && "C000" === next_chapter){
+        const next_BXXX = getBXXX(next_itracks)
+        const next_CXXX = getCXXX(next_itracks)
+        const next_SXXX = getSXXX(next_itracks)
+        if (current_BXXX !== next_BXXX && "S000" === next_SXXX && "C000" === next_CXXX){
             itracks = next_itracks
             play()
             return
@@ -264,15 +372,15 @@ function book_down(){
 }
 
 function chapter_up(){
-    const current_book = getBook(itracks)
-    const current_chapter = getChapter(itracks)
+    const current_BXXX = getBXXX(itracks)
+    const current_CXXX = getCXXX(itracks)
     let next_itracks = itracks
     while (itracks < tracks.length - 1){
         next_itracks += 1
-        const next_book = getBook(next_itracks)
-        const next_chapter = getChapter(next_itracks)
-        if (current_book !== next_book){ return }
-        if (current_chapter !== next_chapter){
+        const next_BXXX = getBXXX(next_itracks)
+        const next_CXXX = getCXXX(next_itracks)
+        if (current_BXXX !== next_BXXX){ return }
+        if (current_CXXX !== next_CXXX){
             itracks = next_itracks
             play()
             return
@@ -281,16 +389,16 @@ function chapter_up(){
 }
 
 function chapter_down(){
-    const current_book = getBook(itracks)
-    const current_chapter = getChapter(itracks)
+    const current_BXXX = getBXXX(itracks)
+    const current_CXXX = getCXXX(itracks)
     let next_itracks = itracks
     while (0 < next_itracks){
         next_itracks -= 1
-        const next_book = getBook(next_itracks)
-        const next_chapter = getChapter(next_itracks)
-        const next_sentence = getSentence(next_itracks)
-        if (current_book !== next_book){ return }
-        if (current_chapter !== next_chapter && "S000" === next_sentence){
+        const next_BXXX = getBXXX(next_itracks)
+        const next_CXXX = getCXXX(next_itracks)
+        const next_SXXX = getSXXX(next_itracks)
+        if (current_BXXX !== next_BXXX){ return }
+        if (current_CXXX !== next_CXXX && "S000" === next_SXXX){
             itracks = next_itracks
             play()
             return
@@ -299,18 +407,18 @@ function chapter_down(){
 }
 
 function sentence_up(){
-    const current_book = getBook(itracks)
-    const current_chapter = getChapter(itracks)
-    const current_sentence = getSentence(itracks)
+    const current_BXXX = getBXXX(itracks)
+    const current_CXXX = getCXXX(itracks)
+    const current_SXXX = getSXXX(itracks)
     let next_itracks = itracks
     while (itracks < tracks.length - 1){
         next_itracks += 1
-        const next_book = getBook(next_itracks)
-        const next_chapter = getChapter(next_itracks)
-        const next_sentence = getSentence(next_itracks)
-        if (current_book !== next_book){ return }
-        if (current_chapter !== next_chapter){ return }
-        if (current_sentence !== next_sentence){
+        const next_BXXX = getBXXX(next_itracks)
+        const next_CXXX = getCXXX(next_itracks)
+        const next_SXXX = getSXXX(next_itracks)
+        if (current_BXXX !== next_BXXX){ return }
+        if (current_CXXX !== next_CXXX){ return }
+        if (current_SXXX !== next_SXXX){
             itracks = next_itracks
             play()
             return
@@ -319,19 +427,19 @@ function sentence_up(){
 }
 
 function sentence_down(){
-    const current_book = getBook(itracks)
-    const current_chapter = getChapter(itracks)
-    const current_sentence = getSentence(itracks)
+    const current_BXXX = getBXXX(itracks)
+    const current_CXXX = getCXXX(itracks)
+    const current_SXXX = getSXXX(itracks)
     let next_itracks = itracks
     while (0 < next_itracks){
         next_itracks -= 1
-        const next_book = getBook(next_itracks)
-        const next_chapter = getChapter(next_itracks)
-        const next_sentence = getSentence(next_itracks)
-        if ("S000" === current_sentence){ return }
-        if (current_book !== next_book){ return }
-        if (current_chapter !== next_chapter){ return }
-        if (current_sentence !== next_sentence){
+        const next_BXXX = getBXXX(next_itracks)
+        const next_CXXX = getCXXX(next_itracks)
+        const next_SXXX = getSXXX(next_itracks)
+        if ("S000" === current_BXXX){ return }
+        if (current_BXXX !== next_BXXX){ return }
+        if (current_CXXX !== next_CXXX){ return }
+        if (current_SXXX !== next_SXXX){
             itracks = next_itracks
             play()
             return
@@ -348,56 +456,13 @@ function next_track(){
     };
 }
 
-document.querySelector("#text_mode").addEventListener("click", function () {
-    if (this.innerHTML === "æ") {
-        this.innerHTML = "æ";
-    } else {
-        this.innerHTML = "æ";
-    }
-})
 
-document.querySelector("#operation_mode").addEventListener("click", function () {
-    if (this.innerHTML === "⟲") {
-        this.innerHTML = "→";
-        isRepeat = false
-    } else {
-        this.innerHTML = "⟲";
-        isRepeat = true
-    }
-})
-
-document.querySelector("#sound").addEventListener("click", function () {
-    if (this.innerHTML === "🕪") {
-        this.innerHTML = "🔇";
-        this.style.filter = 'grayscale(20%)'
-        pause_play()
-    } else {
-        this.innerHTML = "🕪";
-        this.style.filter = 'grayscale(100%)'
-        isRepeat = true
-        play()
-    }
-})
 
 document.querySelector("#text-row").addEventListener("click", function () {
     next_track()
 })
 
-document.querySelector("#max_min").addEventListener("click", function () {
-    if (document.fullscreenElement) {
-        document.exitFullscreen();
-      } else {
-        document.documentElement.requestFullscreen();
-      }
-})
 
-document.addEventListener("fullscreenchange", function () {
-    if (document.fullscreenElement) {
-      document.querySelector("#max_min").innerHTML = "-"
-    } else {
-      document.querySelector("#max_min").innerHTML = "⤢"
-    }
-});
 
 window.addEventListener('resize', () => {
     const screenWidth = window.screen.width;
@@ -456,13 +521,9 @@ document.addEventListener('keydown', function(event) {
         event.preventDefault();        
         next_track();
     }
-
-
-
 });
 
 document.querySelector("#book").addEventListener("click", function (){
-
     pause_play()
 
     if (document.querySelector("#list") !== null) {
@@ -470,23 +531,20 @@ document.querySelector("#book").addEventListener("click", function (){
         document.querySelector("#chapter-row").style.display = "flex"
         document.querySelector("#sentence-row").style.display = "flex"
         document.querySelector("#text-row").style.display = "flex"
-        document.querySelector("#sound").innerHTML = "🕪"
+        document.querySelector("#sound").innerHTML = icon_si_sound
         play()  
         return
     }
 
-    //
     document.querySelector("#chapter-row").style.display = "none"
     document.querySelector("#sentence-row").style.display = "none"
     document.querySelector("#text-row").style.display = "none"
 
-    //
     const div = document.createElement("div");
     div.id = "list"
     div.className = "column list";
     document.querySelector("#app").appendChild(div);
 
-    //
     document.querySelector("#book_title").innerHTML = "Choose a book:"
     for (book in iBXXX){
         createListElementBook(book)
@@ -494,7 +552,6 @@ document.querySelector("#book").addEventListener("click", function (){
 })
 
 document.querySelector("#chapter").addEventListener("click", function (){
-
     pause_play()
 
     if (document.querySelector("#list") !== null) {
@@ -502,29 +559,24 @@ document.querySelector("#chapter").addEventListener("click", function (){
         document.querySelector("#chapter-row").style.display = "flex"
         document.querySelector("#sentence-row").style.display = "flex"
         document.querySelector("#text-row").style.display = "flex"
-        document.querySelector("#sound").innerHTML = "🕪"
+        document.querySelector("#sound").innerHTML = icon_si_sound
         play()  
         return
     }
 
-    //
     document.querySelector("#sentence-row").style.display = "none"
     document.querySelector("#text-row").style.display = "none"
 
-    //
     const div = document.createElement("div");
     div.id = "list"
     div.className = "column list";
     document.querySelector("#app").appendChild(div);
 
-    //
     document.querySelector("#chapter_title").innerHTML = "Choose a chapter:"
-    for (const BXXXCXXX in iBXXXCXXX){
-        const ans = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
-        const currrent_BXXX = ans.slice(0, 4)
-        const BXXX = BXXXCXXX.slice(0, 4)
-        if (currrent_BXXX === BXXX)
-        createListElementChapter(BXXXCXXX)
+    for (const BXXXCXXX in iBXXXCXXX){ 
+        if (BXXXCXXX.slice(0, 4) === getBXXX(itracks)){
+            createListElementChapter(BXXXCXXX)
+        }
     }
 })
 
@@ -533,12 +585,12 @@ function createListElementBook(book){
     div.className = "row list-element";
     div.innerHTML = tracks[iBXXX[book]].tran.replace(".", "");
     div.addEventListener("click", function(){
+        itracks = iBXXX[book]
         deleteElementAndChildren("list")
         document.querySelector("#chapter-row").style.display = "flex"
         document.querySelector("#sentence-row").style.display = "flex"
         document.querySelector("#text-row").style.display = "flex"
-        itracks = iBXXX[book]
-        document.querySelector("#sound").innerHTML = "🕪"
+        document.querySelector("#sound").innerHTML = icon_si_sound
         play()        
     });
     document.querySelector("#list").appendChild(div);
@@ -549,15 +601,12 @@ function createListElementChapter(chapter){
     div.className = "row list-element";
     div.innerHTML = tracks[iBXXXCXXX[chapter]].tran.replace(".", "");
     div.addEventListener("click", function(){
+        itracks = iBXXXCXXX[chapter]
         deleteElementAndChildren("list")
         document.querySelector("#sentence-row").style.display = "flex"
         document.querySelector("#text-row").style.display = "flex"
-        itracks = iBXXXCXXX[chapter]
-        document.querySelector("#sound").innerHTML = "🕪"
+        document.querySelector("#sound").innerHTML = icon_si_sound
         play()        
     });
     document.querySelector("#list").appendChild(div);
 }
-
-
-
