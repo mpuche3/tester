@@ -265,8 +265,8 @@
 [o] B001C273: nɔ́rməlsi báɪəs.
 [o] B001C274: nɔstǽlʤə báɪəs.
 [o] B002C000: məʃín lɜ́rnᵻŋ.
-[o] B002C001: ᵻ̀ntrədʌ́kʃən.
-[o] B002C002: məʃín lɜ́rnᵻŋ.
+[x] B002C001: ᵻ̀ntrədʌ́kʃən.
+[x] B002C002: məʃín lɜ́rnᵻŋ.
 [o] B002C003: súpərvàɪzd lɜ́rnᵻŋ.
 [o] B002C004: súpərvàɪzd lɜ́rnᵻŋ - rəɡrɛ́ʃən.
 [o] B002C005: klæ̀sᵻfᵻkéɪʃən.

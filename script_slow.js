@@ -1,27 +1,52 @@
 console.log("Running script_slow.js")
 
+const audios = []
+const playbackRate = 0.8
+const filtered_out_chapters = get_filtered_out_chapters()
+const unfiltered_obj_tracks = get_obj_tracks()
+const obj_tracks = applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
+const STATUS = {
+    "BXXX": "B001",
+    "CXXX": "C000",
+    "SXXX": "S000",
+}
+
+update_title()
+
 function truncateString(str) {
     const max_length = 28
-
+    str = str.trim().replace(".", "").replace(":", "").trim()
     str = str.replace("ðə 101 móʊst ᵻ̀mpɔ́rtənt kɒ́nsɛpts əv ", "")
     str = str.replace("ðə 101 móʊst ᵻ́ntərəstᵻŋ kɒ́nsɛpts əv ", "")
+    str = str.replace("The 101 most important concepts of ", "")
+    str = str.replace("The 101 Most Interesting Concepts of ", "")
     if (str.length <= max_length) {
         return str;
     }
 
     str = str.replace(/\([^)]*\)/g, '');
     if (str.length > max_length) {
-      str = str.substring(0, max_length - 4).trim() + '...';
+        str = str.substring(0, max_length - 4).trim() + '...';
+    } else {
+        str = str.trim().replace(".", "").replace(":", "").trim()
     }
     
     return str;
 }
 
 document.querySelector("#text_mode").addEventListener("click", function () {
-    if (this.innerHTML === "æ") {
+    if (this.innerHTML === "a") {
         this.innerHTML = "æ";
+        document.querySelector("#book_bʊ́k").innerHTML = "bʊ́k:"
+        document.querySelector("#chapter_ʧǽptər").innerHTML = "ʧǽptər:"
+        document.querySelector("#kindle").innerHTML = "báɪ kᵻ́ndəl"
+        update_title()
     } else {
-        this.innerHTML = "æ";
+        this.innerHTML = "a";
+        document.querySelector("#book_bʊ́k").innerHTML = "Book:"
+        document.querySelector("#chapter_ʧǽptər").innerHTML = "Chapter:"
+        document.querySelector("#kindle").innerHTML = "Buy Kindle"
+        update_title()
     }
 })
 
@@ -59,6 +84,14 @@ document.addEventListener("fullscreenchange", function () {
     }
 });
 
+function get_text_tran(){
+    if (document.querySelector("#text_mode").innerHTML === "a"){
+        return "text"
+    } else {
+        return "tran"
+    }
+}
+
 function isRepeat(){
     const icon_repeat = document.querySelector("#operation_mode").innerHTML
     const distance_to_si = distance(icon_repeat, icon_si_repeat)
@@ -73,37 +106,23 @@ function isMuted(){
     return distance_to_si > distance_to_no
 }
 
-// Todo: Button toggle spelling/transcription
-// Todo: Button help
-
-let itracks = 0
-const audios = []
-const playbackRate = 0.8
-const filters = get_filters()
-const tracks = get_tracks()
-const iBXXX = get_iBXXX(tracks)
-const iBXXXCXXX = get_iBXXXCXXX(tracks)
-const numOfSentences = get_numOfSentences()
-
-update_title(itracks)
-
-function get_numOfSentences(){
-    const numOfSentences = {}
-    for (const track of tracks){
-        const ans = track["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
-        const book = ans.slice(0, 4)
-        const chapter = ans.slice(4, 8)
-        numOfSentences[book + chapter] = numOfSentences[book + chapter] ?? 0
-        numOfSentences[book + chapter] += 1
-    }
-    return numOfSentences
-}
-
 function openInNewTab(url) {
     let newTab = document.createElement('a');
     newTab.href = url;
     newTab.target = "_blank";
     newTab.click();
+}
+
+function get_filtered_out_chapters(){
+    const url = "./filters/filters.txt"
+    const filters_text = get_text(url)
+    return filters_text.split("\n").filter(line => {
+        return line.slice(0, 3) === "[x]"
+    }).reduce((acc, line) => {
+        const BXXXCXXX = line.slice(4, 12)
+        acc[BXXXCXXX] = line
+        return acc
+    }, {})
 }
 
 function get_filters(){
@@ -118,36 +137,85 @@ function get_filters(){
     }, {})
 }
 
-function get_iBXXX(){
-    const iBXXX = {}
-    for (const [iTrack, track] of enumerate(tracks)){
-        const ans = track["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
-        const book = ans.slice(0, 4)
-        const chapter = ans.slice(4, 8)
-        const sentence = ans.slice(8, 12)
-        if (chapter === "C000"){
-            if (sentence === "S000"){
-                iBXXX[book] = iTrack
+function get_books(TEXTS_TRANS){
+    const books = {}
+    const folder = TEXTS_TRANS === "TEXTS"
+        ? "text"
+        : "transcriptions"
+    const urls = [
+        `./${folder}/books/B001/B001_${TEXTS_TRANS}_ALL.txt`,
+        `./${folder}/books/B002/B002_${TEXTS_TRANS}_ALL.txt`,
+        `./${folder}/books/B009/B009_${TEXTS_TRANS}_ALL.txt`,
+    ]
+    for (const url of urls){
+        const text = get_text(url)
+        const lines = text.trim().split("\n")
+        let BXXX = ""
+        let CXXX = ""
+        let SXXX = ""
+        let iSXXX = 0
+        const regex = /^B\d{3}C\d{3}$/;
+        for (let line of lines){
+            if (line.trim() !== ""){
+                if (regex.test(line.slice(0, 8))){
+                    BXXX = line.slice(0, 4)
+                    CXXX = line.slice(4, 8)
+                    iSXXX = 0
+                    line = line.replace(BXXX + CXXX + "SXXX.txt: ", "")
+                    line = line.replace(BXXX + CXXX + ": ", "")
+                } else {
+                    iSXXX += 1
+                }    
+                SXXX = "S" + iSXXX.toString().padStart(3, '0')
+                if (books[BXXX] === undefined) {
+                    books[BXXX] = {}
+                }
+                if (books[BXXX][CXXX] === undefined) {
+                    books[BXXX][CXXX] = {}
+                }
+                books[BXXX][CXXX][SXXX] = line
             }
         }
     }
-    return iBXXX
+    return books
 }
 
-function get_iBXXXCXXX(tracks){
-    const iBXXXCXXX = {}
-    for (const [iTrack, track] of enumerate(tracks)){
-        const ans = track["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
-        const book = ans.slice(0, 4)
-        const chapter = ans.slice(4, 8)
-        const sentence = ans.slice(8, 12)
-        if (sentence === "S000"){
-            iBXXXCXXX[book + chapter] = iTrack
+function applyfiter(tracks, filtered_out_chapters){
+    const filtered_tracks = {}
+    const BXXXs = Object.keys(tracks)
+    for (const BXXX of BXXXs){
+        filtered_tracks[BXXX] = {}
+        const CXXXs = Object.keys(tracks[BXXX])
+        for (const CXXX of CXXXs){
+            if (filtered_out_chapters[BXXX + CXXX] === undefined){
+                filtered_tracks[BXXX][CXXX] = tracks[BXXX][CXXX]
+            }
         }
     }
-    return iBXXXCXXX
+    return filtered_tracks
 }
-  
+
+function get_obj_tracks(){
+    const obj_tracks = {}
+    const obj_books_texts = get_books("TEXTS")
+    const obj_books_trans = get_books("TRANS")
+    for (const BXXX in obj_books_trans){
+        obj_tracks[BXXX] = {}
+        for (const CXXX in obj_books_trans[BXXX]){
+            obj_tracks[BXXX][CXXX] = {}
+            for (const SXXX in obj_books_trans[BXXX][CXXX]){
+                obj_tracks[BXXX][CXXX][SXXX] = {
+                    "code": BXXX + CXXX + SXXX,
+                    "text": obj_books_texts[BXXX][CXXX][SXXX],
+                    "tran": obj_books_trans[BXXX][CXXX][SXXX],
+                    "audio": `./audio/books/${BXXX}/${BXXX}${CXXX}${SXXX}_echo.mp3`,
+                }
+            }
+        }
+    }
+    return obj_tracks
+}
+
 function distance(str1, str2) {
     //levenshteinDistance
     str1 = String(str1)
@@ -187,57 +255,6 @@ function get_text(url){
     return text
 }
 
-function get_tracks_from_json(url) {
-    const text = get_text(url)
-    const tracks = JSON.parse(text);
-    return tracks
-}
-
-function get_tracks_from_text(url) {
-    const tracks = []
-    const text = get_text(url)
-    const sentences = text.replaceAll("\n\n", "\n").split("\n")
-    let book = ""
-    let chapter = ""
-    let first_index_book = 0    
-    for (const [index, sentence] of enumerate(sentences)){
-        if (sentence.trim() !== ""){
-            if(sentence.slice(0, 2) === "B0") {
-                book = sentence.slice(0, 4)
-                chapter = sentence.slice(4, 8)
-                first_index_book = index    
-            }
-            const sentence_ = `S${Math.floor(index - first_index_book).toString().padStart(3, '0')}`
-            const audioFileFullPath =  `./audio/books/${book}/${book}${chapter}${sentence_}_echo.mp3`
-            const tran = sentence.slice(0, 2) === "B0"
-                ? sentence.slice(10, undefined)
-                : sentence
-            if (filters[book + chapter] !== undefined){
-                tracks.push({
-                    "audioFileFullPath": audioFileFullPath,
-                    "tran": tran,
-                })
-            }
-
-        }
-    }
-    return tracks
-}
-
-function get_tracks(){
-    const urls = [
-        "./transcriptions/books/B001/B001_TRANS_ALL.txt",
-        "./transcriptions/books/B002/B002_TRANS_ALL.txt",
-        "./transcriptions/books/B009/B009_TRANS_ALL.txt",
-    ]
-    let tracks = []
-    for (const url of urls) {
-        const new_tracks = get_tracks_from_text(url)
-        tracks = tracks.concat(new_tracks)
-    }
-    return tracks
-}
-
 function addOneToNumber(numStr) {
     let num = parseInt(numStr);
     num++;
@@ -249,27 +266,29 @@ function addOneToNumber(numStr) {
 }
 
 function update_title() {
-    const text = tracks[itracks]["tran"]
-    const ans = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
-    const book = ans.slice(0, 4)
-    const chapter = ans.slice(4, 8)
-    const sentence = ans.slice(8, 12)
-    const book_title = truncateString(tracks[iBXXX[book]].tran.replace(".", "").replace(":", ""))
-    const chapter_title = truncateString(tracks[iBXXXCXXX[book + chapter]].tran.replace(".", "").replace(":", ""))
+    const text_tran = get_text_tran()
+    const {BXXX, CXXX, SXXX} = STATUS
+    const book_title = truncateString(obj_tracks[BXXX]["C000"]["S000"][text_tran])
+    const chapter_title =   truncateString(obj_tracks[BXXX][CXXX]["S000"][text_tran])
+    const text = obj_tracks[BXXX][CXXX][SXXX][text_tran]
     document.querySelector("#book_title").innerHTML = book_title
     document.querySelector("#chapter_title").innerHTML = chapter_title
-    document.querySelector("#sentence_number").innerHTML = addOneToNumber(sentence.slice(-2, undefined))
-    document.querySelector("#sentence_total_number").innerHTML = numOfSentences[book + chapter]
+    document.querySelector("#sentence_number").innerHTML = addOneToNumber(SXXX.slice(2, 4))
+    document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[BXXX][CXXX]).length
     document.querySelector("#text").innerHTML = `${text}`
-    if (chapter === "C000") {
-        document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
+    if (CXXX === "C000"){
+        if (text_tran === "text") {
+            document.querySelector("#chapter_title").innerHTML = "Introduction"
+        } else {
+            document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
+        }
     }
 }
 
 function play(){
     update_title();
     if (!isMuted()) {
-        const audioFileFullPath = tracks[itracks]["audioFileFullPath"];
+        const audioFileFullPath = obj_tracks[STATUS.BXXX][STATUS.CXXX][STATUS.SXXX]["audio"];
         const audio = new Audio(audioFileFullPath);
         audio.playbackRate = playbackRate;
         audios.map(audio => {
@@ -280,7 +299,7 @@ function play(){
         audio.addEventListener("ended", function () {
             setTimeout(function () {
                 if (!isRepeat()){
-                    itracks += 1
+                    next_track()
                 }
                 play()
             }, 600)
@@ -295,138 +314,96 @@ function pause_play() {
     })
 }
 
-function getBXXXCXXXSXXX(itracks){
-    const BXXXCXXXSXXX = tracks[itracks]["audioFileFullPath"].split("/").slice(-1)[0].split("_")[0]
-    return BXXXCXXXSXXX  
-}
-
-function getBXXX(itracks){
-    return getBXXXCXXXSXXX(itracks).slice(0, 4)
-}
-
-function getCXXX(itracks){
-    return getBXXXCXXXSXXX(itracks).slice(4, 8)
-}
-
-function getSXXX(itracks){
-    return getBXXXCXXXSXXX(itracks).slice(8, 12)
-}
-
 function book_up(){
-    const current_BXXX = getBXXX(itracks)
-    let next_itracks = itracks
-    while (next_itracks < tracks.length - 1){
-        next_itracks += 1
-        const next_BXXX = getBXXX(next_itracks)
-        const next_CXXX = getCXXX(next_itracks)
-        const next_SXXX = getSXXX(next_itracks)
-        if (current_BXXX !== next_BXXX && "S000" === next_SXXX && "C000" === next_CXXX){
-            itracks = next_itracks
-            play()
-            return
-        }
-    }
+    const books = Object.keys(obj_tracks)
+    const iBXXX = books.indexOf(STATUS["BXXX"])
+    STATUS["BXXX"] = iBXXX < books.length - 1
+        ? books[iBXXX + 1]
+        : books[iBXXX]
+    update_title()
+    play()
 }
 
 function book_down(){
-    const current_BXXX = getBXXX(itracks)
-    let next_itracks = itracks
-    while (0 < next_itracks){
-        next_itracks -= 1
-        const next_BXXX = getBXXX(next_itracks)
-        const next_CXXX = getCXXX(next_itracks)
-        const next_SXXX = getSXXX(next_itracks)
-        if (current_BXXX !== next_BXXX && "S000" === next_SXXX && "C000" === next_CXXX){
-            itracks = next_itracks
-            play()
-            return
-        }
-    }
+    const books = Object.keys(obj_tracks)
+    const iBXXX = books.indexOf(STATUS["BXXX"])
+    STATUS["BXXX"] = iBXXX > 0
+        ? books[iBXXX - 1]
+        : books[iBXXX]
+    update_title()
+    play()
 }
 
 function chapter_up(){
-    const current_BXXX = getBXXX(itracks)
-    const current_CXXX = getCXXX(itracks)
-    let next_itracks = itracks
-    while (itracks < tracks.length - 1){
-        next_itracks += 1
-        const next_BXXX = getBXXX(next_itracks)
-        const next_CXXX = getCXXX(next_itracks)
-        if (current_BXXX !== next_BXXX){ return }
-        if (current_CXXX !== next_CXXX){
-            itracks = next_itracks
-            play()
-            return
-        }
-    }
+    const chapters = Object.keys(obj_tracks[STATUS["BXXX"]])
+    const iCXXX = chapters.indexOf(STATUS["CXXX"])
+    STATUS["CXXX"] = iCXXX < chapters.length + 1
+        ? chapters[iCXXX + 1]
+        : chapters[iCXXX]
+    update_title()
+    play()
 }
 
 function chapter_down(){
-    const current_BXXX = getBXXX(itracks)
-    const current_CXXX = getCXXX(itracks)
-    let next_itracks = itracks
-    while (0 < next_itracks){
-        next_itracks -= 1
-        const next_BXXX = getBXXX(next_itracks)
-        const next_CXXX = getCXXX(next_itracks)
-        const next_SXXX = getSXXX(next_itracks)
-        if (current_BXXX !== next_BXXX){ return }
-        if (current_CXXX !== next_CXXX && "S000" === next_SXXX){
-            itracks = next_itracks
-            play()
-            return
-        }
-    }
+    const chapters = Object.keys(obj_tracks[STATUS["BXXX"]])
+    const iCXXX = chapters.indexOf(STATUS["CXXX"])
+    STATUS["CXXX"] = iCXXX > 0
+        ? chapters[iCXXX - 1]
+        : chapters[iCXXX]
+    update_title()
+    play()
 }
 
-function sentence_up(){
-    const current_BXXX = getBXXX(itracks)
-    const current_CXXX = getCXXX(itracks)
-    const current_SXXX = getSXXX(itracks)
-    let next_itracks = itracks
-    while (itracks < tracks.length - 1){
-        next_itracks += 1
-        const next_BXXX = getBXXX(next_itracks)
-        const next_CXXX = getCXXX(next_itracks)
-        const next_SXXX = getSXXX(next_itracks)
-        if (current_BXXX !== next_BXXX){ return }
-        if (current_CXXX !== next_CXXX){ return }
-        if (current_SXXX !== next_SXXX){
-            itracks = next_itracks
-            play()
-            return
-        }
-    }
+function sentence_up() {
+    const sentences = Object.keys(obj_tracks[STATUS["BXXX"]][STATUS["CXXX"]])
+    const iSXXX = sentences.indexOf(STATUS["SXXX"])
+    STATUS["SXXX"] = iSXXX < sentences.length - 1
+        ? sentences[iSXXX + 1]
+        : sentences[iSXXX]
+    update_title()
+    play()
 }
 
 function sentence_down(){
-    const current_BXXX = getBXXX(itracks)
-    const current_CXXX = getCXXX(itracks)
-    const current_SXXX = getSXXX(itracks)
-    let next_itracks = itracks
-    while (0 < next_itracks){
-        next_itracks -= 1
-        const next_BXXX = getBXXX(next_itracks)
-        const next_CXXX = getCXXX(next_itracks)
-        const next_SXXX = getSXXX(next_itracks)
-        if ("S000" === current_BXXX){ return }
-        if (current_BXXX !== next_BXXX){ return }
-        if (current_CXXX !== next_CXXX){ return }
-        if (current_SXXX !== next_SXXX){
-            itracks = next_itracks
-            play()
-            return
-        }
-    }
+    const sentences = Object.keys(obj_tracks[STATUS["BXXX"]][STATUS["CXXX"]])
+    const iSXXX = sentences.indexOf(STATUS["SXXX"])
+    STATUS["SXXX"] = iSXXX > 0
+        ? sentences[iSXXX - 1]
+        : sentences[iSXXX]
+    update_title()
+    play()
 }
 
 function next_track(){
-    itracks += 1;
-    if (itracks === tracks.length) {
-        itracks = tracks.length - 1
+    const books = Object.keys(obj_tracks)
+    const chapters = Object.keys(obj_tracks[STATUS["BXXX"]])
+    const sentences = Object.keys(obj_tracks[STATUS["BXXX"]][STATUS["CXXX"]])
+
+    const iBXXX = books.indexOf(STATUS["BXXX"])
+    const iCXXX = chapters.indexOf(STATUS["CXXX"])
+    const iSXXX = sentences.indexOf(STATUS["SXXX"])
+
+    isLastSentence = iSXXX >= sentences.length - 1
+    isLastChapter = iCXXX >= chapters.length - 1
+    isLastBook = iBXXX >= books.length - 1 
+
+    if (!isLastSentence) {
+        STATUS["SXXX"] = sentences[iSXXX + 1]
+    } else if (!isLastChapter) {
+        STATUS["CXXX"] = chapters[iCXXX + 1]
+        STATUS["SXXX"] = "S000"
+    } else if (!isLastBook) {
+        STATUS["BXXX"] = books[iBXXX + 1]
+        STATUS["CXXX"] = "C000"
+        STATUS["SXXX"] = "S000"
     } else {
-       play(); 
-    };
+        STATUS["BXXX"] = "B001"
+        STATUS["CXXX"] = "C000"
+        STATUS["SXXX"] = "S000"
+    }
+    
+    update_title()
+    play()
 }
 
 document.querySelector("#text-row").addEventListener("click", function () {
@@ -437,7 +414,7 @@ window.addEventListener('resize', () => {
     const screenWidth = window.screen.width;
     const screenHeight = window.screen.height;
     for (const id of ["top", "book", "chapter", "sentence"]){
-        if (screenWidth > screenHeight * 1.6) {
+        if (screenWidth > screenHeight * 1.6  && window.screen.width < 768) {
             document.querySelector(`#${id}-row`).style.display = 'none'; 
         } else {
             document.querySelector(`#${id}-row`).style.display = 'flex';
@@ -445,29 +422,6 @@ window.addEventListener('resize', () => {
     }
 });
 
-function navegation_functionality(elementId, func){
-    let startTime = 0;
-    document.querySelector(`#${elementId}`).addEventListener("click", event => {
-        func()
-        if (startTime === 0) {
-            startTime = new Date().getTime();
-        } else {
-            const endTime = new Date().getTime();
-            const timeDiff = endTime - startTime;
-            let repeat = 0
-            if (timeDiff < 150) {repeat = 19}
-            if (timeDiff < 250) {repeat = 9}
-            const range = Array.from({ length: repeat })
-            for (const _ of range) {
-                func()
-            }
-            startTime  = endTime
-        }
-    })
-}
-
-// navegation_functionality("chapter_up", chapter_up)
-// navegation_functionality("chapter_down", chapter_down)
 document.querySelector("#book_up").addEventListener("click", book_up)
 document.querySelector("#book_down").addEventListener("click", book_down)
 document.querySelector("#chapter_up").addEventListener("click", chapter_up)
@@ -496,7 +450,7 @@ document.addEventListener('keydown', function(event) {
 });
 
 document.querySelector("#book").addEventListener("click", function (){
-    pause_play()
+    // pause_play()
 
     if (document.querySelector("#list") !== null) {
         deleteElementAndChildren("list")
@@ -507,6 +461,7 @@ document.querySelector("#book").addEventListener("click", function (){
         document.querySelector("#book_up").style.display = "flex"
         document.querySelector("#book > .title").style.display = "flex"
         document.querySelector("#sound").innerHTML = icon_si_sound
+        update_title()
         play()  
         return
     }
@@ -523,14 +478,16 @@ document.querySelector("#book").addEventListener("click", function (){
     div.className = "column list";
     document.querySelector("#app").appendChild(div);
 
-    document.querySelector("#book_title").innerHTML = "ʧúz ə bʊ́k:"
-    for (const BXXX in iBXXX){
+    document.querySelector("#book_title").innerHTML = "Choose a Book:"//"ʧúz ə bʊ́k:"
+    const BXXXs = Object.keys(obj_tracks)
+    for (const BXXX of BXXXs){
         const div = document.createElement("div");
         div.className = "row list-element";
-        div.innerHTML = tracks[iBXXX[BXXX]].tran.replace(".", "");
-        div.innerHTML = truncateString(div.innerHTML)
-        div.addEventListener("click", function(){
-            itracks = iBXXX[BXXX]
+        div.innerHTML = truncateString(obj_tracks[BXXX]["C000"]["S000"][get_text_tran()])
+        div.addEventListener("click", function() {
+            STATUS.BXXX = BXXX
+            STATUS.CXXX = "C000"
+            STATUS.SXXX = "S000"
             deleteElementAndChildren("list")
             document.querySelector("#chapter-row").style.display = "flex"
             document.querySelector("#sentence-row").style.display = "flex"
@@ -539,6 +496,7 @@ document.querySelector("#book").addEventListener("click", function (){
             document.querySelector("#book_up").style.display = "flex"
             document.querySelector("#book > .title").style.display = "flex"
             document.querySelector("#sound").innerHTML = icon_si_sound
+            update_title()
             play()        
         });
         document.querySelector("#list").appendChild(div);
@@ -546,7 +504,7 @@ document.querySelector("#book").addEventListener("click", function (){
 })
 
 document.querySelector("#chapter").addEventListener("click", function (){
-    pause_play()
+    // pause_play()
 
     if (document.querySelector("#list") !== null) {
         deleteElementAndChildren("list")
@@ -557,6 +515,7 @@ document.querySelector("#chapter").addEventListener("click", function (){
         document.querySelector("#chapter_up").style.display = "flex"
         document.querySelector("#chapter > .title").style.display = "flex"
         document.querySelector("#sound").innerHTML = icon_si_sound
+        update_title()
         play()  
         return
     }
@@ -572,25 +531,36 @@ document.querySelector("#chapter").addEventListener("click", function (){
     div.className = "column list";
     document.querySelector("#app").appendChild(div);
 
-    document.querySelector("#chapter_title").innerHTML = "ʧúz ə ʧǽptər:"
-    for (const BXXXCXXX in iBXXXCXXX){ 
-        if (BXXXCXXX.slice(0, 4) === getBXXX(itracks)){
-            const div = document.createElement("div");
-            div.className = "row list-element";
-            div.innerHTML = tracks[iBXXXCXXX[BXXXCXXX]].tran.replace(".", "");
-            div.innerHTML = truncateString(div.innerHTML)
-            div.addEventListener("click", function(){
-                itracks = iBXXXCXXX[BXXXCXXX]
-                deleteElementAndChildren("list")
-                document.querySelector("#sentence-row").style.display = "flex"
-                document.querySelector("#text-row").style.display = "flex"
-                document.querySelector("#sound").innerHTML = icon_si_sound
-                document.querySelector("#chapter_down").style.display = "flex"
-                document.querySelector("#chapter_up").style.display = "flex"
-                document.querySelector("#chapter > .title").style.display = "flex"
-                play()        
-            });
-            document.querySelector("#list").appendChild(div);
+    document.querySelector("#chapter_title").innerHTML = "Choose a Chapter:"//"ʧúz ə ʧǽptər:"
+    const CXXXs = Object.keys(obj_tracks[STATUS.BXXX])
+    for (const CXXX of CXXXs){ 
+        const div = document.createElement("div");
+        div.className = "row list-element";
+        if (CXXX !== "C000"){
+           div.innerHTML = truncateString(obj_tracks[STATUS.BXXX][CXXX]["S000"][get_text_tran()]) 
+        } else if (get_text_tran() === "text") {
+            div.innerHTML = "Introduction"
+        } else {
+            div.innerHTML = "ᵻ̀ntrədʌ́kʃən"
         }
+        
+        div.addEventListener("click", function(){
+            STATUS.CXXX = CXXX
+            STATUS.SXXX = "S000"
+            deleteElementAndChildren("list")
+            document.querySelector("#sentence-row").style.display = "flex"
+            document.querySelector("#text-row").style.display = "flex"
+            document.querySelector("#sound").innerHTML = icon_si_sound
+            document.querySelector("#chapter_down").style.display = "flex"
+            document.querySelector("#chapter_up").style.display = "flex"
+            document.querySelector("#chapter > .title").style.display = "flex"
+            update_title()
+            play()        
+        });
+        document.querySelector("#list").appendChild(div);
     }
 })
+
+function displayBookChapterRow(){
+
+}
