@@ -1,17 +1,98 @@
 console.log("Running script_slow.js")
 
-const audios = []
-const playbackRate = 0.8
-const filtered_out_chapters = get_filtered_out_chapters()
-const unfiltered_obj_tracks = get_obj_tracks()
-const obj_tracks = applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
-const STATUS = {
-    "BXXX": "B001",
-    "CXXX": "C000",
-    "SXXX": "S000",
+class cls_STATUS {
+    constructor() {
+        this.BXXX = "B001";
+        this.CXXX = "C000";
+        this.SXXX = "S000";
+        this._muted = true;
+        this._repeat = true;
+        this._isPhonetic = false;
+        this._isSoftMuted = false;
+        this._isMuted = true;
+    }
+
+    isRepeat(){
+        const icon_repeat = document.querySelector("#operation_mode").innerHTML
+        const distance_to_si = distance(icon_repeat, icon_si_repeat)
+        const distance_to_no = distance(icon_repeat, icon_no_repeat)
+        return distance_to_si < distance_to_no
+    }
+    
+    setSiRepeat(){
+        return
+    }
+
+    setNoRepeat(){
+        return
+    }
+
+    isMuted(){
+        const icon_sound = document.querySelector("#sound").innerHTML
+        const distance_to_si = distance(icon_sound, icon_si_sound)
+        const distance_to_no = distance(icon_sound, icon_no_sound)
+        return distance_to_si > distance_to_no
+    }
+
+    isSoftMuted(){
+        return this._isSoftMuted
+    }
+
+    set_isSoftMuted2true(){
+        this._isSoftMuted = true
+        audios.map(audio => {
+            audio.pause();
+        })        
+    }
+
+    set_isSoftMuted2False(){
+        this._isSoftMuted = false
+        play()
+    }
+
+    setSiMuted(){
+        return
+    }
+
+    setNoMuted(){
+        return
+    }
+
+    get_text_tran(){
+        if (document.querySelector("#text_mode").innerHTML === "a"){
+            return "text"
+        } else {
+            return "tran"
+        }
+    }
+
+    refresh() {
+        const text_tran = this.get_text_tran()
+        const book_title = truncateString(obj_tracks[this.BXXX]["C000"]["S000"][this.get_text_tran()])
+        const chapter_title =   truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"][this.get_text_tran()])
+        const text = obj_tracks[this.BXXX][this.CXXX][this.SXXX][this.get_text_tran()]
+        document.querySelector("#book_title").innerHTML = book_title
+        document.querySelector("#chapter_title").innerHTML = chapter_title
+        document.querySelector("#sentence_number").innerHTML = addOneToNumber(this.SXXX.slice(2, 4))
+        document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length
+        document.querySelector("#text").innerHTML = `${text}`
+        if (this.CXXX === "C000"){
+            if (text_tran === "text") {
+                document.querySelector("#chapter_title").innerHTML = "Introduction"
+            } else {
+                document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
+            }
+        }
+    }
 }
 
-update_title()
+function deleteElementAndChildren(elementId) {
+    const parent = document.getElementById(elementId);
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+    parent.remove()
+}
 
 function truncateString(str) {
     const max_length = 28
@@ -23,88 +104,15 @@ function truncateString(str) {
     if (str.length <= max_length) {
         return str;
     }
-
     str = str.replace(/\([^)]*\)/g, '');
     if (str.length > max_length) {
         str = str.substring(0, max_length - 4).trim() + '...';
     } else {
         str = str.trim().replace(".", "").replace(":", "").trim()
     }
-    
     return str;
 }
 
-document.querySelector("#text_mode").addEventListener("click", function () {
-    if (this.innerHTML === "a") {
-        this.innerHTML = "æ";
-        document.querySelector("#book_bʊ́k").innerHTML = "bʊ́k:"
-        document.querySelector("#chapter_ʧǽptər").innerHTML = "ʧǽptər:"
-        document.querySelector("#kindle").innerHTML = "báɪ kᵻ́ndəl"
-        update_title()
-    } else {
-        this.innerHTML = "a";
-        document.querySelector("#book_bʊ́k").innerHTML = "Book:"
-        document.querySelector("#chapter_ʧǽptər").innerHTML = "Chapter:"
-        document.querySelector("#kindle").innerHTML = "Buy Kindle"
-        update_title()
-    }
-})
-
-document.querySelector("#operation_mode").addEventListener("click", function () {
-    if (isRepeat()) {
-        this.innerHTML = icon_no_repeat;
-    } else {
-        this.innerHTML = icon_si_repeat;
-    }
-})
-
-document.querySelector("#sound").addEventListener("click", function () {
-    if (isMuted()) {
-        this.innerHTML = icon_si_sound;
-        play()
-    } else {
-        this.innerHTML = icon_no_sound;
-        pause_play()
-    }
-})
-
-document.querySelector("#max_min").addEventListener("click", function () {
-    if (document.fullscreenElement) {
-        document.exitFullscreen();
-      } else {
-        document.documentElement.requestFullscreen();
-      }
-})
-
-document.addEventListener("fullscreenchange", function () {
-    if (document.fullscreenElement) {
-      document.querySelector("#max_min").innerHTML = icon_exit_fullscreen
-    } else {
-      document.querySelector("#max_min").innerHTML = icon_enter_fullscreen
-    }
-});
-
-function get_text_tran(){
-    if (document.querySelector("#text_mode").innerHTML === "a"){
-        return "text"
-    } else {
-        return "tran"
-    }
-}
-
-function isRepeat(){
-    const icon_repeat = document.querySelector("#operation_mode").innerHTML
-    const distance_to_si = distance(icon_repeat, icon_si_repeat)
-    const distance_to_no = distance(icon_repeat, icon_no_repeat)
-    return distance_to_si < distance_to_no
-}
-
-function isMuted(){
-    const icon_sound = document.querySelector("#sound").innerHTML
-    const distance_to_si = distance(icon_sound, icon_si_sound)
-    const distance_to_no = distance(icon_sound, icon_no_sound)
-    return distance_to_si > distance_to_no
-}
 
 function openInNewTab(url) {
     let newTab = document.createElement('a');
@@ -179,6 +187,7 @@ function get_books(TEXTS_TRANS){
     }
     return books
 }
+
 
 function applyfiter(tracks, filtered_out_chapters){
     const filtered_tracks = {}
@@ -265,29 +274,9 @@ function addOneToNumber(numStr) {
     }
 }
 
-function update_title() {
-    const text_tran = get_text_tran()
-    const {BXXX, CXXX, SXXX} = STATUS
-    const book_title = truncateString(obj_tracks[BXXX]["C000"]["S000"][text_tran])
-    const chapter_title =   truncateString(obj_tracks[BXXX][CXXX]["S000"][text_tran])
-    const text = obj_tracks[BXXX][CXXX][SXXX][text_tran]
-    document.querySelector("#book_title").innerHTML = book_title
-    document.querySelector("#chapter_title").innerHTML = chapter_title
-    document.querySelector("#sentence_number").innerHTML = addOneToNumber(SXXX.slice(2, 4))
-    document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[BXXX][CXXX]).length
-    document.querySelector("#text").innerHTML = `${text}`
-    if (CXXX === "C000"){
-        if (text_tran === "text") {
-            document.querySelector("#chapter_title").innerHTML = "Introduction"
-        } else {
-            document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
-        }
-    }
-}
-
 function play(){
-    update_title();
-    if (!isMuted()) {
+    STATUS.refresh();
+    if (!STATUS.isMuted() && !STATUS.isSoftMuted()) {
         const audioFileFullPath = obj_tracks[STATUS.BXXX][STATUS.CXXX][STATUS.SXXX]["audio"];
         const audio = new Audio(audioFileFullPath);
         audio.playbackRate = playbackRate;
@@ -298,7 +287,7 @@ function play(){
         audios.push(audio)
         audio.addEventListener("ended", function () {
             setTimeout(function () {
-                if (!isRepeat()){
+                if (!STATUS.isRepeat()){
                     next_track()
                 }
                 play()
@@ -316,100 +305,152 @@ function pause_play() {
 
 function book_up(){
     const books = Object.keys(obj_tracks)
-    const iBXXX = books.indexOf(STATUS["BXXX"])
+    const iBXXX = books.indexOf(STATUS.BXXX)
     if (iBXXX < books.length - 1) {
-        STATUS["BXXX"] = books[iBXXX + 1]
-        STATUS["CXXX"] = "C000"
-        STATUS["SXXX"] = "S000"
-        update_title()
+        STATUS.BXXX = books[iBXXX + 1]
+        STATUS.CXXX = "C000"
+        STATUS.SXXX = "S000"
+        STATUS.refresh()
         play()
     }
 }
 
 function book_down(){
     const books = Object.keys(obj_tracks)
-    const iBXXX = books.indexOf(STATUS["BXXX"])
+    const iBXXX = books.indexOf(STATUS.BXXX)
     if (iBXXX > 0){
-        STATUS["BXXX"] = books[iBXXX - 1]
-        STATUS["CXXX"] = "C000"
-        STATUS["SXXX"] = "S000"
-        update_title()
+        STATUS.BXXX = books[iBXXX - 1]
+        STATUS.CXXX = "C000"
+        STATUS.SXXX = "S000"
+        STATUS.refresh()
         play()
     }
 }
 
 function chapter_up(){
-    const chapters = Object.keys(obj_tracks[STATUS["BXXX"]])
-    const iCXXX = chapters.indexOf(STATUS["CXXX"])
+    const chapters = Object.keys(obj_tracks[STATUS.BXXX])
+    const iCXXX = chapters.indexOf(STATUS.CXXX)
     if (iCXXX < chapters.length + 1){
-        STATUS["CXXX"] = chapters[iCXXX + 1]
-        STATUS["SXXX"] = "S000"
-        update_title()
+        STATUS.CXXX = chapters[iCXXX + 1]
+        STATUS.SXXX = "S000"
+        STATUS.refresh()
         play()
     }
 }
 
 function chapter_down(){
-    const chapters = Object.keys(obj_tracks[STATUS["BXXX"]])
-    const iCXXX = chapters.indexOf(STATUS["CXXX"])
+    const chapters = Object.keys(obj_tracks[STATUS.BXXX])
+    const iCXXX = chapters.indexOf(STATUS.CXXX)
     if (iCXXX > 0) {
-        STATUS["CXXX"] = chapters[iCXXX - 1]
-        STATUS["SXXX"] = "S000"
-        update_title()
+        STATUS.CXXX = chapters[iCXXX - 1]
+        STATUS.SXXX = "S000"
+        STATUS.refresh()
         play()
     }
 }
 
 function sentence_up() {
-    const sentences = Object.keys(obj_tracks[STATUS["BXXX"]][STATUS["CXXX"]])
-    const iSXXX = sentences.indexOf(STATUS["SXXX"])
+    const sentences = Object.keys(obj_tracks[STATUS.BXXX][STATUS.CXXX])
+    const iSXXX = sentences.indexOf(STATUS.SXXX)
     if (iSXXX < sentences.length - 1){
-        STATUS["SXXX"] = sentences[iSXXX + 1]
-        update_title()
+        STATUS.SXXX = sentences[iSXXX + 1]
+        STATUS.refresh()
         play()
     }
 }
 
 function sentence_down(){
-    const sentences = Object.keys(obj_tracks[STATUS["BXXX"]][STATUS["CXXX"]])
-    const iSXXX = sentences.indexOf(STATUS["SXXX"])
+    const sentences = Object.keys(obj_tracks[STATUS.BXXX][STATUS.CXXX])
+    const iSXXX = sentences.indexOf(STATUS.SXXX)
     if (iSXXX > 0) {
-        STATUS["SXXX"] = sentences[iSXXX - 1]
-        update_title()
+        STATUS.SXXX = sentences[iSXXX - 1]
+        STATUS.refresh()
         play()
     }
 }
 
 function next_track(){
     const books = Object.keys(obj_tracks)
-    const chapters = Object.keys(obj_tracks[STATUS["BXXX"]])
-    const sentences = Object.keys(obj_tracks[STATUS["BXXX"]][STATUS["CXXX"]])
+    const chapters = Object.keys(obj_tracks[STATUS.BXXX])
+    const sentences = Object.keys(obj_tracks[STATUS.BXXX][STATUS.CXXX])
 
-    const iBXXX = books.indexOf(STATUS["BXXX"])
-    const iCXXX = chapters.indexOf(STATUS["CXXX"])
-    const iSXXX = sentences.indexOf(STATUS["SXXX"])
+    const iBXXX = books.indexOf(STATUS.BXXX)
+    const iCXXX = chapters.indexOf(STATUS.CXXX)
+    const iSXXX = sentences.indexOf(STATUS.SXXX)
 
     isLastSentence = iSXXX >= sentences.length - 1
     isLastChapter = iCXXX >= chapters.length - 1
     isLastBook = iBXXX >= books.length - 1 
 
     if (!isLastSentence) {
-        STATUS["SXXX"] = sentences[iSXXX + 1]
+        STATUS.SXXX = sentences[iSXXX + 1]
     } else if (!isLastChapter) {
-        STATUS["CXXX"] = chapters[iCXXX + 1]
-        STATUS["SXXX"] = "S000"
+        STATUS.CXXX = chapters[iCXXX + 1]
+        STATUS.SXXX = "S000"
     } else if (!isLastBook) {
-        STATUS["BXXX"] = books[iBXXX + 1]
-        STATUS["CXXX"] = "C000"
-        STATUS["SXXX"] = "S000"
+        STATUS.BXXX = books[iBXXX + 1]
+        STATUS.CXXX = "C000"
+        STATUS.SXXX = "S000"
     } else {
-        STATUS["BXXX"] = "B001"
-        STATUS["CXXX"] = "C000"
-        STATUS["SXXX"] = "S000"
+        STATUS.BXXX = "B001"
+        STATUS.CXXX = "C000"
+        STATUS.SXXX = "S000"
     }
-    update_title()
+    STATUS.refresh()
     play()
 }
+
+document.querySelector("#text_mode").addEventListener("click", function () {
+    if (this.innerHTML === "a") {
+        this.innerHTML = "æ";
+        document.querySelector("#book_bʊ́k").innerHTML = "bʊ́k:"
+        document.querySelector("#chapter_ʧǽptər").innerHTML = "ʧǽptər:"
+        document.querySelector("#kindle").innerHTML = "báɪ kᵻ́ndəl"
+        STATUS.refresh()
+    } else {
+        this.innerHTML = "a";
+        document.querySelector("#book_bʊ́k").innerHTML = "Book:"
+        document.querySelector("#chapter_ʧǽptər").innerHTML = "Chapter:"
+        document.querySelector("#kindle").innerHTML = "Buy Kindle"
+        STATUS.refresh()
+    }
+})
+
+document.querySelector("#operation_mode").addEventListener("click", function () {
+    if (STATUS.isRepeat()) {
+        this.innerHTML = icon_no_repeat;
+    } else {
+        this.innerHTML = icon_si_repeat;
+    }
+})
+
+document.querySelector("#sound").addEventListener("click", function () {
+    if (STATUS.isMuted()) {
+        this.innerHTML = icon_si_sound;
+        play()
+    } else {
+        this.innerHTML = icon_no_sound;
+        pause_play()
+    }
+})
+
+document.querySelector("#max_min").addEventListener("click", function () {
+    if (document.fullscreenElement) {
+        document.exitFullscreen();
+      } else {
+        document.documentElement.requestFullscreen();
+      }
+})
+
+document.addEventListener("fullscreenchange", function () {
+    if (document.fullscreenElement) {
+      document.querySelector("#max_min").innerHTML = icon_exit_fullscreen
+    } else {
+      document.querySelector("#max_min").innerHTML = icon_enter_fullscreen
+    }
+});
+
+
 
 document.querySelector("#text-row").addEventListener("click", function () {
     next_track()
@@ -439,14 +480,6 @@ document.querySelector("#kindle").addEventListener("click", function () {
     openInNewTab(url)
 })
 
-function deleteElementAndChildren(elementId) {
-    const parent = document.getElementById(elementId);
-    while (parent.firstChild) {
-        parent.removeChild(parent.firstChild);
-    }
-    parent.remove()
-}
-
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         event.preventDefault();        
@@ -454,82 +487,86 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
-document.querySelector("#book").addEventListener("click", function (){
-    // pause_play()
-
-    if (document.querySelector("#list") !== null) {
-        deleteElementAndChildren("list")
-        document.querySelector("#chapter-row").style.display = "flex"
-        document.querySelector("#sentence-row").style.display = "flex"
-        document.querySelector("#text-row").style.display = "flex"
-        document.querySelector("#book_down").style.display = "flex"
-        document.querySelector("#book_up").style.display = "flex"
-        document.querySelector("#book > .title").style.display = "flex"
-        document.querySelector("#sound").innerHTML = icon_si_sound
-        update_title()
-        play()  
-        return
-    }
-
+function hideBelowBookRow(){
     document.querySelector("#chapter-row").style.display = "none"
     document.querySelector("#sentence-row").style.display = "none"
     document.querySelector("#text-row").style.display = "none"
     document.querySelector("#book_down").style.display = "none"
     document.querySelector("#book_up").style.display = "none"
     document.querySelector("#book > .title").style.display = "none"
+}
 
-    const div = document.createElement("div");
-    div.id = "list"
-    div.className = "column list";
-    document.querySelector("#app").appendChild(div);
+function showBelowBookRow(){
+    document.querySelector("#chapter-row").style.display = "flex"
+    document.querySelector("#sentence-row").style.display = "flex"
+    document.querySelector("#text-row").style.display = "flex"
+    document.querySelector("#book_down").style.display = "flex"
+    document.querySelector("#book_up").style.display = "flex"
+    document.querySelector("#book > .title").style.display = "flex"
+}
 
-    document.querySelector("#book_title").innerHTML = "Choose a Book:"//"ʧúz ə bʊ́k:"
-    const BXXXs = Object.keys(obj_tracks)
-    for (const BXXX of BXXXs){
-        const div = document.createElement("div");
-        div.className = "row list-element";
-        div.innerHTML = truncateString(obj_tracks[BXXX]["C000"]["S000"][get_text_tran()])
-        div.addEventListener("click", function() {
-            STATUS.BXXX = BXXX
-            STATUS.CXXX = "C000"
-            STATUS.SXXX = "S000"
-            deleteElementAndChildren("list")
-            document.querySelector("#chapter-row").style.display = "flex"
-            document.querySelector("#sentence-row").style.display = "flex"
-            document.querySelector("#text-row").style.display = "flex"
-            document.querySelector("#book_down").style.display = "flex"
-            document.querySelector("#book_up").style.display = "flex"
-            document.querySelector("#book > .title").style.display = "flex"
-            document.querySelector("#sound").innerHTML = icon_si_sound
-            update_title()
-            play()        
-        });
-        document.querySelector("#list").appendChild(div);
-    }
-})
-
-document.querySelector("#chapter").addEventListener("click", function (){
-    // pause_play()
-
-    if (document.querySelector("#list") !== null) {
-        deleteElementAndChildren("list")
-        document.querySelector("#chapter-row").style.display = "flex"
-        document.querySelector("#sentence-row").style.display = "flex"
-        document.querySelector("#text-row").style.display = "flex"
-        document.querySelector("#chapter_down").style.display = "flex"
-        document.querySelector("#chapter_up").style.display = "flex"
-        document.querySelector("#chapter > .title").style.display = "flex"
-        document.querySelector("#sound").innerHTML = icon_si_sound
-        update_title()
-        play()  
-        return
-    }
-
+function hideBelowChapterRow(){
     document.querySelector("#sentence-row").style.display = "none"
     document.querySelector("#text-row").style.display = "none"
     document.querySelector("#chapter_down").style.display = "none"
     document.querySelector("#chapter_up").style.display = "none"
     document.querySelector("#chapter > .title").style.display = "none"
+}
+
+function showBelowChapterRow(){
+    document.querySelector("#sentence-row").style.display = "flex"
+    document.querySelector("#text-row").style.display = "flex"
+    document.querySelector("#chapter_down").style.display = "flex"
+    document.querySelector("#chapter_up").style.display = "flex"
+    document.querySelector("#chapter > .title").style.display = "flex"
+}
+
+document.querySelector("#book").addEventListener("click", function (){
+    STATUS.set_isSoftMuted2true()
+
+    if (document.querySelector("#list") !== null) {
+        deleteElementAndChildren("list")
+        showBelowBookRow()
+        set_isSoftMuted2False()
+        STATUS.refresh()
+        return
+    }
+    hideBelowBookRow()
+    const div_list = document.createElement("div");
+    div_list.id = "list"
+    div_list.className = "column list";
+    document.querySelector("#app").appendChild(div_list);
+    document.querySelector("#book_title").innerHTML = "Choose a Book:"//"ʧúz ə bʊ́k:"
+    const BXXXs = Object.keys(obj_tracks)
+    for (const BXXX of BXXXs){
+        const div = document.createElement("div");
+        div.className = "row list-element";
+        div.innerHTML = truncateString(obj_tracks[BXXX]["C000"]["S000"][STATUS.get_text_tran()])
+        div.addEventListener("click", function() {
+            STATUS.BXXX = BXXX
+            STATUS.CXXX = "C000"
+            STATUS.SXXX = "S000"
+            deleteElementAndChildren("list")
+            showBelowBookRow()
+            STATUS.set_isSoftMuted2False()
+            STATUS.refresh()    
+        });
+        div_list.appendChild(div);
+    }
+})
+
+document.querySelector("#chapter").addEventListener("click", function (){
+    STATUS.set_isSoftMuted2true()
+
+    if (document.querySelector("#list") !== null) {
+        deleteElementAndChildren("list")
+        showBelowChapterRow()
+        STATUS.set_isSoftMuted2False()
+        STATUS.refresh()
+        return
+    }
+
+    hideBelowChapterRow()
 
     const div = document.createElement("div");
     div.id = "list"
@@ -542,8 +579,8 @@ document.querySelector("#chapter").addEventListener("click", function (){
         const div = document.createElement("div");
         div.className = "row list-element";
         if (CXXX !== "C000"){
-           div.innerHTML = truncateString(obj_tracks[STATUS.BXXX][CXXX]["S000"][get_text_tran()]) 
-        } else if (get_text_tran() === "text") {
+           div.innerHTML = truncateString(obj_tracks[STATUS.BXXX][CXXX]["S000"][STATUS.get_text_tran()]) 
+        } else if (STATUS.get_text_tran() === "text") {
             div.innerHTML = "Introduction"
         } else {
             div.innerHTML = "ᵻ̀ntrədʌ́kʃən"
@@ -553,19 +590,18 @@ document.querySelector("#chapter").addEventListener("click", function (){
             STATUS.CXXX = CXXX
             STATUS.SXXX = "S000"
             deleteElementAndChildren("list")
-            document.querySelector("#sentence-row").style.display = "flex"
-            document.querySelector("#text-row").style.display = "flex"
-            document.querySelector("#sound").innerHTML = icon_si_sound
-            document.querySelector("#chapter_down").style.display = "flex"
-            document.querySelector("#chapter_up").style.display = "flex"
-            document.querySelector("#chapter > .title").style.display = "flex"
-            update_title()
-            play()        
+            showBelowChapterRow()
+            STATUS.set_isSoftMuted2False()
+            STATUS.refresh()    
         });
         document.querySelector("#list").appendChild(div);
     }
 })
 
-function displayBookChapterRow(){
-
-}
+const audios = []
+const playbackRate = 0.8
+const filtered_out_chapters = get_filtered_out_chapters()
+const unfiltered_obj_tracks = get_obj_tracks()
+const obj_tracks = applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
+const STATUS = new cls_STATUS()
+STATUS.refresh()
