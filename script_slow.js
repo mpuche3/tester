@@ -450,8 +450,6 @@ document.addEventListener("fullscreenchange", function () {
     }
 });
 
-
-
 document.querySelector("#text-row").addEventListener("click", function () {
     next_track()
 })
@@ -459,8 +457,9 @@ document.querySelector("#text-row").addEventListener("click", function () {
 window.addEventListener('resize', () => {
     const screenWidth = window.screen.width;
     const screenHeight = window.screen.height;
+    const isMobile = typeof navigator.vibrate === 'function' || typeof window.orientation !== 'undefined';
     for (const id of ["top", "book", "chapter", "sentence"]){
-        if (screenWidth > screenHeight * 1.6  && window.screen.width < 768) {
+        if (screenWidth > screenHeight * 1.6  && isMobile) {
             document.querySelector(`#${id}-row`).style.display = 'none'; 
         } else {
             document.querySelector(`#${id}-row`).style.display = 'flex';
