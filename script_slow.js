@@ -1,88 +1,132 @@
 console.log("Running script_slow.js")
 
-class cls_STATUS {
-    constructor() {
-        this.BXXX = "B001";
-        this.CXXX = "C000";
-        this.SXXX = "S000";
-        this._muted = true;
-        this._repeat = true;
-        this._isPhonetic = false;
-        this._isSoftMuted = false;
-        this._isMuted = true;
-    }
+const STATUS = {
+    BXXX: "B001",
+    CXXX: "C000",
+    SXXX: "S000",
+    _isPhonetic: false,
+    _isRepeat: true,    
+    _isMuted: true,
+    _isSoftMuted: false,
+    _isHardMuted: true,
 
-    isRepeat(){
-        const icon_repeat = document.querySelector("#operation_mode").innerHTML
-        const distance_to_si = distance(icon_repeat, icon_si_repeat)
-        const distance_to_no = distance(icon_repeat, icon_no_repeat)
-        return distance_to_si < distance_to_no
-    }
-    
-    setSiRepeat(){
-        return
-    }
+    get isPhonetic(){
+        return this._isPhonetic
+    },
 
-    setNoRepeat(){
-        return
-    }
+    set isPhonetic(value){
+        this._isPhonetic = !!value
 
-    isMuted(){
-        const icon_sound = document.querySelector("#sound").innerHTML
-        const distance_to_si = distance(icon_sound, icon_si_sound)
-        const distance_to_no = distance(icon_sound, icon_no_sound)
-        return distance_to_si > distance_to_no
-    }
+    },
 
-    isSoftMuted(){
+    get isMuted(){
+        return this._isMuted
+    },
+
+    set isMuted(value){
+        this._isMuted = !!value
+    },
+
+    get isRepeat(){
+        return this._isRepeat
+    },
+
+    set isRepeat(value){
+        this._isRepeat = !!value
+    },
+
+    get isSoftMuted(){
         return this._isSoftMuted
-    }
+    },
 
-    set_isSoftMuted2true(){
-        this._isSoftMuted = true
-        audios.map(audio => {
-            audio.pause();
-        })        
-    }
+    set isSoftMuted(value){
+        this._isSoftMuted = !!value
+    },
 
-    set_isSoftMuted2False(){
-        this._isSoftMuted = false
-        play()
-    }
+    get isHardMuted(){
+        return this._isHardMuted
+    },
 
-    setSiMuted(){
-        return
-    }
+    set isHardMuted(value){
+        this._isHardMuted = !!value
+    },
 
-    setNoMuted(){
-        return
-    }
-
-    get_text_tran(){
-        if (document.querySelector("#text_mode").innerHTML === "a"){
-            return "text"
-        } else {
+    get_mode_text(){
+        if (this._isPhonetic) {
             return "tran"
+        } else {
+            return "text"
         }
-    }
+    },
 
-    refresh() {
-        const text_tran = this.get_text_tran()
-        const book_title = truncateString(obj_tracks[this.BXXX]["C000"]["S000"][this.get_text_tran()])
-        const chapter_title =   truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"][this.get_text_tran()])
-        const text = obj_tracks[this.BXXX][this.CXXX][this.SXXX][this.get_text_tran()]
-        document.querySelector("#book_title").innerHTML = book_title
-        document.querySelector("#chapter_title").innerHTML = chapter_title
-        document.querySelector("#sentence_number").innerHTML = addOneToNumber(this.SXXX.slice(2, 4))
-        document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length
-        document.querySelector("#text").innerHTML = `${text}`
-        if (this.CXXX === "C000"){
-            if (text_tran === "text") {
-                document.querySelector("#chapter_title").innerHTML = "Introduction"
-            } else {
+    refresh_text() {
+        if (this._isPhonetic) {
+            document.querySelector("#text_mode").innerHTML = "æ";
+            document.querySelector("#book_bʊ́k").innerHTML = "bʊ́k:"
+            document.querySelector("#chapter_ʧǽptər").innerHTML = "ʧǽptər:"
+            document.querySelector("#kindle").innerHTML = "báɪ kᵻ́ndəl"
+            const book_title = truncateString(obj_tracks[this.BXXX]["C000"]["S000"]["tran"])
+            const chapter_title =   truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"]["tran"])
+            const text = obj_tracks[this.BXXX][this.CXXX][this.SXXX]["tran"]
+            document.querySelector("#book_title").innerHTML = book_title
+            document.querySelector("#chapter_title").innerHTML = chapter_title
+            document.querySelector("#sentence_number").innerHTML = addOneToNumber(this.SXXX.slice(2, 4))
+            document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length
+            document.querySelector("#text").innerHTML = `${text}`
+            if (this.CXXX === "C000"){
                 document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
             }
+        } else {
+            document.querySelector("#text_mode").innerHTML = "a";
+            document.querySelector("#book_bʊ́k").innerHTML = "Book:"
+            document.querySelector("#chapter_ʧǽptər").innerHTML = "Chapter:"
+            document.querySelector("#kindle").innerHTML = "Buy Kindle"
+            const book_title = truncateString(obj_tracks[this.BXXX]["C000"]["S000"]["text"])
+            const chapter_title =   truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"]["text"])
+            const text = obj_tracks[this.BXXX][this.CXXX][this.SXXX]["text"]
+            document.querySelector("#book_title").innerHTML = book_title
+            document.querySelector("#chapter_title").innerHTML = chapter_title
+            document.querySelector("#sentence_number").innerHTML = addOneToNumber(this.SXXX.slice(2, 4))
+            document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length
+            document.querySelector("#text").innerHTML = `${text}`
+            if (this.CXXX === "C000"){
+                document.querySelector("#chapter_title").innerHTML = "Introduction"
+            }
         }
+    },
+
+    refresh_repeat(){
+        if (this._isRepeat){
+            document.querySelector("#operation_mode").innerHTML = icon_si_repeat
+        } else {
+            document.querySelector("#operation_mode").innerHTML = icon_no_repeat
+        }
+    },
+
+    refresh_HardMuted(){
+        if (this._isHardMuted){
+            document.querySelector("#sound").innerHTML = icon_no_sound
+            pause_play()
+        } else {
+            document.querySelector("#sound").innerHTML = icon_si_sound
+            play()
+        }
+    },
+
+    refresh_SoftMuted(){
+        if (this._isSoftMuted){
+            document.querySelector("#sound").innerHTML = icon_no_sound
+            pause_play()
+        } else {
+            document.querySelector("#sound").innerHTML = icon_si_sound
+            play()
+        }
+    },
+
+    refresh(){
+        this.refresh_text()
+        this.refresh_repeat()
+        this.refresh_HardMuted()
     }
 }
 
@@ -275,8 +319,8 @@ function addOneToNumber(numStr) {
 }
 
 function play(){
-    STATUS.refresh();
-    if (!STATUS.isMuted() && !STATUS.isSoftMuted()) {
+    STATUS.refresh_text();
+    if (!STATUS.isHardMuted && !STATUS.isSoftMuted) {
         const audioFileFullPath = obj_tracks[STATUS.BXXX][STATUS.CXXX][STATUS.SXXX]["audio"];
         const audio = new Audio(audioFileFullPath);
         audio.playbackRate = playbackRate;
@@ -287,7 +331,7 @@ function play(){
         audios.push(audio)
         audio.addEventListener("ended", function () {
             setTimeout(function () {
-                if (!STATUS.isRepeat()){
+                if (!STATUS.isRepeat){
                     next_track()
                 }
                 play()
@@ -297,7 +341,6 @@ function play(){
 }
 
 function pause_play() {
-    document.querySelector("#sound").innerHTML = icon_no_sound
     audios.map(audio => {
         audio.pause();
     })
@@ -310,7 +353,7 @@ function book_up(){
         STATUS.BXXX = books[iBXXX + 1]
         STATUS.CXXX = "C000"
         STATUS.SXXX = "S000"
-        STATUS.refresh()
+        STATUS.refresh_text()
         play()
     }
 }
@@ -322,7 +365,7 @@ function book_down(){
         STATUS.BXXX = books[iBXXX - 1]
         STATUS.CXXX = "C000"
         STATUS.SXXX = "S000"
-        STATUS.refresh()
+        STATUS.refresh_text()
         play()
     }
 }
@@ -333,7 +376,7 @@ function chapter_up(){
     if (iCXXX < chapters.length + 1){
         STATUS.CXXX = chapters[iCXXX + 1]
         STATUS.SXXX = "S000"
-        STATUS.refresh()
+        STATUS.refresh_text()
         play()
     }
 }
@@ -344,7 +387,7 @@ function chapter_down(){
     if (iCXXX > 0) {
         STATUS.CXXX = chapters[iCXXX - 1]
         STATUS.SXXX = "S000"
-        STATUS.refresh()
+        STATUS.refresh_text()
         play()
     }
 }
@@ -354,7 +397,7 @@ function sentence_up() {
     const iSXXX = sentences.indexOf(STATUS.SXXX)
     if (iSXXX < sentences.length - 1){
         STATUS.SXXX = sentences[iSXXX + 1]
-        STATUS.refresh()
+        STATUS.refresh_text()
         play()
     }
 }
@@ -364,7 +407,7 @@ function sentence_down(){
     const iSXXX = sentences.indexOf(STATUS.SXXX)
     if (iSXXX > 0) {
         STATUS.SXXX = sentences[iSXXX - 1]
-        STATUS.refresh()
+        STATUS.refresh_text()
         play()
     }
 }
@@ -396,42 +439,23 @@ function next_track(){
         STATUS.CXXX = "C000"
         STATUS.SXXX = "S000"
     }
-    STATUS.refresh()
+    STATUS.refresh_text()
     play()
 }
 
 document.querySelector("#text_mode").addEventListener("click", function () {
-    if (this.innerHTML === "a") {
-        this.innerHTML = "æ";
-        document.querySelector("#book_bʊ́k").innerHTML = "bʊ́k:"
-        document.querySelector("#chapter_ʧǽptər").innerHTML = "ʧǽptər:"
-        document.querySelector("#kindle").innerHTML = "báɪ kᵻ́ndəl"
-        STATUS.refresh()
-    } else {
-        this.innerHTML = "a";
-        document.querySelector("#book_bʊ́k").innerHTML = "Book:"
-        document.querySelector("#chapter_ʧǽptər").innerHTML = "Chapter:"
-        document.querySelector("#kindle").innerHTML = "Buy Kindle"
-        STATUS.refresh()
-    }
+    STATUS.isPhonetic = !STATUS.isPhonetic
+    STATUS.refresh_text()
 })
 
 document.querySelector("#operation_mode").addEventListener("click", function () {
-    if (STATUS.isRepeat()) {
-        this.innerHTML = icon_no_repeat;
-    } else {
-        this.innerHTML = icon_si_repeat;
-    }
+    STATUS.isRepeat = !STATUS.isRepeat
+    STATUS.refresh_repeat()
 })
 
 document.querySelector("#sound").addEventListener("click", function () {
-    if (STATUS.isMuted()) {
-        this.innerHTML = icon_si_sound;
-        play()
-    } else {
-        this.innerHTML = icon_no_sound;
-        pause_play()
-    }
+    STATUS.isHardMuted = !STATUS.isHardMuted
+    STATUS.refresh_HardMuted()
 })
 
 document.querySelector("#max_min").addEventListener("click", function () {
@@ -521,12 +545,12 @@ function showBelowChapterRow(){
 }
 
 document.querySelector("#book").addEventListener("click", function (){
-    STATUS.set_isSoftMuted2true()
-
+    STATUS.isSoftMuted = true
+    STATUS.refresh_SoftMuted()
     if (document.querySelector("#list") !== null) {
         deleteElementAndChildren("list")
         showBelowBookRow()
-        set_isSoftMuted2False()
+        STATUS.isSoftMuted = false
         STATUS.refresh()
         return
     }
@@ -535,19 +559,23 @@ document.querySelector("#book").addEventListener("click", function (){
     div_list.id = "list"
     div_list.className = "column list";
     document.querySelector("#app").appendChild(div_list);
-    document.querySelector("#book_title").innerHTML = "Choose a Book:"//"ʧúz ə bʊ́k:"
+    if (STATUS.isPhonetic){
+        document.querySelector("#book_title").innerHTML = "ʧúz ə bʊ́k:"
+    } else {
+        document.querySelector("#book_title").innerHTML = "Choose a Book:"
+    }
     const BXXXs = Object.keys(obj_tracks)
     for (const BXXX of BXXXs){
         const div = document.createElement("div");
         div.className = "row list-element";
-        div.innerHTML = truncateString(obj_tracks[BXXX]["C000"]["S000"][STATUS.get_text_tran()])
+        div.innerHTML = truncateString(obj_tracks[BXXX]["C000"]["S000"][STATUS.get_mode_text()])
         div.addEventListener("click", function() {
             STATUS.BXXX = BXXX
             STATUS.CXXX = "C000"
             STATUS.SXXX = "S000"
             deleteElementAndChildren("list")
             showBelowBookRow()
-            STATUS.set_isSoftMuted2False()
+            STATUS.isSoftMuted = false
             STATUS.refresh()    
         });
         div_list.appendChild(div);
@@ -555,43 +583,43 @@ document.querySelector("#book").addEventListener("click", function (){
 })
 
 document.querySelector("#chapter").addEventListener("click", function (){
-    STATUS.set_isSoftMuted2true()
-
+    STATUS.isSoftMuted = true
+    STATUS.refresh_SoftMuted()
     if (document.querySelector("#list") !== null) {
         deleteElementAndChildren("list")
         showBelowChapterRow()
-        STATUS.set_isSoftMuted2False()
+        STATUS.isSoftMuted = false
         STATUS.refresh()
         return
     }
-
     hideBelowChapterRow()
-
     const div = document.createElement("div");
     div.id = "list"
     div.className = "column list";
     document.querySelector("#app").appendChild(div);
-
-    document.querySelector("#chapter_title").innerHTML = "Choose a Chapter:"//"ʧúz ə ʧǽptər:"
+    if (STATUS.isPhonetic){
+        document.querySelector("#chapter_title").innerHTML = "ʧúz ə ʧǽptər:"
+    } else {
+        document.querySelector("#chapter_title").innerHTML = "Choose a Chapter:"
+    }
     const CXXXs = Object.keys(obj_tracks[STATUS.BXXX])
     for (const CXXX of CXXXs){ 
         const div = document.createElement("div");
         div.className = "row list-element";
         if (CXXX !== "C000"){
-           div.innerHTML = truncateString(obj_tracks[STATUS.BXXX][CXXX]["S000"][STATUS.get_text_tran()]) 
-        } else if (STATUS.get_text_tran() === "text") {
-            div.innerHTML = "Introduction"
-        } else {
+           div.innerHTML = truncateString(obj_tracks[STATUS.BXXX][CXXX]["S000"][STATUS.get_mode_text()]) 
+        } else if (STATUS.isPhonetic) {
             div.innerHTML = "ᵻ̀ntrədʌ́kʃən"
+        } else {
+            div.innerHTML = "Introduction"
         }
-        
         div.addEventListener("click", function(){
             STATUS.CXXX = CXXX
             STATUS.SXXX = "S000"
             deleteElementAndChildren("list")
             showBelowChapterRow()
-            STATUS.set_isSoftMuted2False()
-            STATUS.refresh()    
+            STATUS.isSoftMuted = false
+            STATUS.refresh()
         });
         document.querySelector("#list").appendChild(div);
     }
@@ -602,5 +630,4 @@ const playbackRate = 0.8
 const filtered_out_chapters = get_filtered_out_chapters()
 const unfiltered_obj_tracks = get_obj_tracks()
 const obj_tracks = applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
-const STATUS = new cls_STATUS()
 STATUS.refresh()
