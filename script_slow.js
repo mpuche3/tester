@@ -317,61 +317,67 @@ function pause_play() {
 function book_up(){
     const books = Object.keys(obj_tracks)
     const iBXXX = books.indexOf(STATUS["BXXX"])
-    STATUS["BXXX"] = iBXXX < books.length - 1
-        ? books[iBXXX + 1]
-        : books[iBXXX]
-    update_title()
-    play()
+    if (iBXXX < books.length - 1) {
+        STATUS["BXXX"] = books[iBXXX + 1]
+        STATUS["CXXX"] = "C000"
+        STATUS["SXXX"] = "S000"
+        update_title()
+        play()
+    }
 }
 
 function book_down(){
     const books = Object.keys(obj_tracks)
     const iBXXX = books.indexOf(STATUS["BXXX"])
-    STATUS["BXXX"] = iBXXX > 0
-        ? books[iBXXX - 1]
-        : books[iBXXX]
-    update_title()
-    play()
+    if (iBXXX > 0){
+        STATUS["BXXX"] = books[iBXXX - 1]
+        STATUS["CXXX"] = "C000"
+        STATUS["SXXX"] = "S000"
+        update_title()
+        play()
+    }
 }
 
 function chapter_up(){
     const chapters = Object.keys(obj_tracks[STATUS["BXXX"]])
     const iCXXX = chapters.indexOf(STATUS["CXXX"])
-    STATUS["CXXX"] = iCXXX < chapters.length + 1
-        ? chapters[iCXXX + 1]
-        : chapters[iCXXX]
-    update_title()
-    play()
+    if (iCXXX < chapters.length + 1){
+        STATUS["CXXX"] = chapters[iCXXX + 1]
+        STATUS["SXXX"] = "S000"
+        update_title()
+        play()
+    }
 }
 
 function chapter_down(){
     const chapters = Object.keys(obj_tracks[STATUS["BXXX"]])
     const iCXXX = chapters.indexOf(STATUS["CXXX"])
-    STATUS["CXXX"] = iCXXX > 0
-        ? chapters[iCXXX - 1]
-        : chapters[iCXXX]
-    update_title()
-    play()
+    if (iCXXX > 0) {
+        STATUS["CXXX"] = chapters[iCXXX - 1]
+        STATUS["SXXX"] = "S000"
+        update_title()
+        play()
+    }
 }
 
 function sentence_up() {
     const sentences = Object.keys(obj_tracks[STATUS["BXXX"]][STATUS["CXXX"]])
     const iSXXX = sentences.indexOf(STATUS["SXXX"])
-    STATUS["SXXX"] = iSXXX < sentences.length - 1
-        ? sentences[iSXXX + 1]
-        : sentences[iSXXX]
-    update_title()
-    play()
+    if (iSXXX < sentences.length - 1){
+        STATUS["SXXX"] = sentences[iSXXX + 1]
+        update_title()
+        play()
+    }
 }
 
 function sentence_down(){
     const sentences = Object.keys(obj_tracks[STATUS["BXXX"]][STATUS["CXXX"]])
     const iSXXX = sentences.indexOf(STATUS["SXXX"])
-    STATUS["SXXX"] = iSXXX > 0
-        ? sentences[iSXXX - 1]
-        : sentences[iSXXX]
-    update_title()
-    play()
+    if (iSXXX > 0) {
+        STATUS["SXXX"] = sentences[iSXXX - 1]
+        update_title()
+        play()
+    }
 }
 
 function next_track(){
@@ -401,7 +407,6 @@ function next_track(){
         STATUS["CXXX"] = "C000"
         STATUS["SXXX"] = "S000"
     }
-    
     update_title()
     play()
 }
