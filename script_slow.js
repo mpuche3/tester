@@ -5,7 +5,7 @@ const STATUS = {
     CXXX: "C000",
     SXXX: "S000",
     _isPhonetic: false,
-    _isRepeat: true,    
+    _isRepeat: false,    
     _isMuted: true,
     _isSoftMuted: false,
     _isHardMuted: true,
