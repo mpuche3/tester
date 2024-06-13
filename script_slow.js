@@ -130,6 +130,26 @@ const STATUS = {
     }
 }
 
+const isOverflown = ({ clientHeight, scrollHeight }) => scrollHeight > clientHeight;
+const resizeText = () => {
+    const element = document.querySelector('#text')
+    const parent = document.querySelector('#text-row')
+    let i = 1.8; // Start with a maximum font size
+    let overflow = true;
+    while (overflow) {
+        element.style.fontSize = `${i}rem`;
+        overflow = isOverflown(element);
+        if (overflow) {
+            i -= 0.02;
+        }
+    }
+};
+
+
+
+
+
+
 function deleteElementAndChildren(elementId) {
     const parent = document.getElementById(elementId);
     while (parent.firstChild) {
@@ -143,8 +163,11 @@ function truncateString(str) {
     str = str.trim().replace(".", "").replace(":", "").trim()
     str = str.replace("ðə 101 móʊst ᵻ̀mpɔ́rtənt kɒ́nsɛpts əv ", "")
     str = str.replace("ðə 101 móʊst ᵻ́ntərəstᵻŋ kɒ́nsɛpts əv ", "")
+    str = str.replace("ðə 101 móʊst mɛ́mərəbəl ", "")
     str = str.replace("The 101 most important concepts of ", "")
     str = str.replace("The 101 Most Interesting Concepts of ", "")
+    str = str.replace("The 101 most memorable ", "")
+
     if (str.length <= max_length) {
         return str;
     }
@@ -191,41 +214,43 @@ function get_filters(){
 
 function get_books(TEXTS_TRANS){
     const books = {}
-    const folder = TEXTS_TRANS === "TEXTS"
-        ? "text"
-        : "transcriptions"
+    const folder = TEXTS_TRANS === "TEXTS" ? "text" : "transcriptions"
+    const xxxxxx = TEXTS_TRANS === "TEXTS" ? "TEXTS" : "TRANS"
     const urls = [
-        `./${folder}/books/B001/B001_${TEXTS_TRANS}_ALL.txt`,
-        `./${folder}/books/B002/B002_${TEXTS_TRANS}_ALL.txt`,
-        `./${folder}/books/B009/B009_${TEXTS_TRANS}_ALL.txt`,
+        `./${folder}/books/B001/B001_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B002/B002_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B009/B009_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B014/B014_${xxxxxx}_ALL.txt`,
     ]
     for (const url of urls){
         const text = get_text(url)
-        const lines = text.trim().split("\n")
-        let BXXX = ""
-        let CXXX = ""
-        let SXXX = ""
-        let iSXXX = 0
-        const regex = /^B\d{3}C\d{3}$/;
-        for (let line of lines){
-            if (line.trim() !== ""){
-                if (regex.test(line.slice(0, 8))){
-                    BXXX = line.slice(0, 4)
-                    CXXX = line.slice(4, 8)
-                    iSXXX = 0
-                    line = line.replace(BXXX + CXXX + "SXXX.txt: ", "")
-                    line = line.replace(BXXX + CXXX + ": ", "")
-                } else {
-                    iSXXX += 1
-                }    
-                SXXX = "S" + iSXXX.toString().padStart(3, '0')
-                if (books[BXXX] === undefined) {
-                    books[BXXX] = {}
+        if (text !== ""){
+            const lines = text.trim().split("\n")
+            let BXXX = ""
+            let CXXX = ""
+            let SXXX = ""
+            let iSXXX = 0
+            const regex = /^B\d{3}C\d{3}$/;
+            for (let line of lines){
+                if (line.trim() !== ""){
+                    if (regex.test(line.slice(0, 8))){
+                        BXXX = line.slice(0, 4)
+                        CXXX = line.slice(4, 8)
+                        iSXXX = 0
+                        line = line.replace(BXXX + CXXX + "SXXX.txt: ", "")
+                        line = line.replace(BXXX + CXXX + ": ", "")
+                    } else {
+                        iSXXX += 1
+                    }    
+                    SXXX = "S" + iSXXX.toString().padStart(3, '0')
+                    if (books[BXXX] === undefined) {
+                        books[BXXX] = {}
+                    }
+                    if (books[BXXX][CXXX] === undefined) {
+                        books[BXXX][CXXX] = {}
+                    }
+                    books[BXXX][CXXX][SXXX] = line
                 }
-                if (books[BXXX][CXXX] === undefined) {
-                    books[BXXX][CXXX] = {}
-                }
-                books[BXXX][CXXX][SXXX] = line
             }
         }
     }
@@ -300,12 +325,24 @@ function* enumerate(iterable) {
     }
 }
 
-function get_text(url){
+// function get_text(url){
+//     const xhr = new XMLHttpRequest();
+//     xhr.open("GET", url, false);
+//     xhr.send();
+//     text = xhr.responseText;
+//     return text
+// }
+
+function get_text(url) {
     const xhr = new XMLHttpRequest();
     xhr.open("GET", url, false);
     xhr.send();
-    text = xhr.responseText;
-    return text
+    if (xhr.status === 200) {
+        return xhr.responseText;
+    } else {
+        console.log("ERROR: File missing: " + url)
+        return "";
+    }
 }
 
 function addOneToNumber(numStr) {
@@ -320,6 +357,7 @@ function addOneToNumber(numStr) {
 
 function play(){
     STATUS.refresh_text();
+    resizeText()
     if (!STATUS.isHardMuted && !STATUS.isSoftMuted) {
         const audioFileFullPath = obj_tracks[STATUS.BXXX][STATUS.CXXX][STATUS.SXXX]["audio"];
         const audio = new Audio(audioFileFullPath);

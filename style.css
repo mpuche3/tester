@@ -144,6 +144,12 @@ svg {
 #text{
     text-align: center;
     background-color: var(--color_background);
+    overflow:auto;
+}
+
+#text-row{
+    overflow-y: auto;
+    flex-direction: column;
 }
 
 #book-row{
