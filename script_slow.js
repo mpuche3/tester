@@ -389,7 +389,7 @@ function book_down(){
 function chapter_up(){
     const chapters = Object.keys(obj_tracks[STATE.BXXX])
     const iCXXX = chapters.indexOf(STATE.CXXX)
-    if (iCXXX < chapters.length + 1){
+    if (iCXXX < chapters.length - 1){
         STATE.CXXX = chapters[iCXXX + 1]
         STATE.SXXX = "S000"
         STATE.refresh_text()
@@ -451,9 +451,11 @@ function next_track(){
         STATE.CXXX = "C000"
         STATE.SXXX = "S000"
     } else {
-        STATE.BXXX = "B001"
-        STATE.CXXX = "C000"
-        STATE.SXXX = "S000"
+        pause_play()
+        // Do nothing
+        // STATE.BXXX = "B001"
+        // STATE.CXXX = "C000"
+        // STATE.SXXX = "S000"
     }
     STATE.refresh_text()
     play()
@@ -496,11 +498,10 @@ document.querySelector("#text-row").addEventListener("click", function () {
 })
 
 window.addEventListener('resize', () => {
-    const screenWidth = window.screen.width;
-    const screenHeight = window.screen.height;
-    const isMobile = typeof navigator.vibrate === 'function' || typeof window.orientation !== 'undefined';
+    const screenWidth = document.documentElement.clientWidth;
+    const screenHeight = document.documentElement.clientHeight;
     for (const id of ["top", "book", "chapter", "sentence"]){
-        if (screenWidth > screenHeight * 1.6  && isMobile) {
+        if (screenWidth > screenHeight * 1.8) {
             document.querySelector(`#${id}-row`).style.display = 'none'; 
         } else {
             document.querySelector(`#${id}-row`).style.display = 'flex';
