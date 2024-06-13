@@ -1,12 +1,11 @@
 console.log("Running script_slow.js")
 
-const STATUS = {
+const STATE = {
     BXXX: "B001",
     CXXX: "C000",
     SXXX: "S000",
     _isPhonetic: false,
     _isRepeat: false,    
-    _isMuted: true,
     _isSoftMuted: false,
     _isHardMuted: true,
 
@@ -16,15 +15,7 @@ const STATUS = {
 
     set isPhonetic(value){
         this._isPhonetic = !!value
-
-    },
-
-    get isMuted(){
-        return this._isMuted
-    },
-
-    set isMuted(value){
-        this._isMuted = !!value
+        this.refresh_text()
     },
 
     get isRepeat(){
@@ -33,6 +24,7 @@ const STATUS = {
 
     set isRepeat(value){
         this._isRepeat = !!value
+        this.refresh_repeat()
     },
 
     get isSoftMuted(){
@@ -41,6 +33,7 @@ const STATUS = {
 
     set isSoftMuted(value){
         this._isSoftMuted = !!value
+        this.refresh_SoftMuted()
     },
 
     get isHardMuted(){
@@ -49,6 +42,7 @@ const STATUS = {
 
     set isHardMuted(value){
         this._isHardMuted = !!value
+        this.refresh_HardMuted()
     },
 
     get_mode_text(){
@@ -97,28 +91,28 @@ const STATUS = {
 
     refresh_repeat(){
         if (this._isRepeat){
-            document.querySelector("#operation_mode").innerHTML = icon_si_repeat
+            document.querySelector("#repeat").innerHTML = get_ICON("si_repeat")
         } else {
-            document.querySelector("#operation_mode").innerHTML = icon_no_repeat
+            document.querySelector("#repeat").innerHTML = get_ICON("no_repeat")
         }
     },
 
     refresh_HardMuted(){
         if (this._isHardMuted){
-            document.querySelector("#sound").innerHTML = icon_no_sound
+            document.querySelector("#sound").innerHTML = get_ICON("no_sound")
             pause_play()
         } else {
-            document.querySelector("#sound").innerHTML = icon_si_sound
+            document.querySelector("#sound").innerHTML = get_ICON("si_sound")
             play()
         }
     },
 
     refresh_SoftMuted(){
         if (this._isSoftMuted){
-            document.querySelector("#sound").innerHTML = icon_no_sound
+            document.querySelector("#sound").innerHTML = get_ICON("no_sound")
             pause_play()
         } else {
-            document.querySelector("#sound").innerHTML = icon_si_sound
+            document.querySelector("#sound").innerHTML = get_ICON("si_sound")
             play()
         }
     },
@@ -130,11 +124,10 @@ const STATUS = {
     }
 }
 
-const isOverflown = ({ clientHeight, scrollHeight }) => scrollHeight > clientHeight;
-const resizeText = () => {
+function resizeText() {
+    const isOverflown = ({ clientHeight, scrollHeight }) => scrollHeight > clientHeight;
     const element = document.querySelector('#text')
-    const parent = document.querySelector('#text-row')
-    let i = 1.8; // Start with a maximum font size
+    let i = 1.8;
     let overflow = true;
     while (overflow) {
         element.style.fontSize = `${i}rem`;
@@ -143,12 +136,7 @@ const resizeText = () => {
             i -= 0.02;
         }
     }
-};
-
-
-
-
-
+}
 
 function deleteElementAndChildren(elementId) {
     const parent = document.getElementById(elementId);
@@ -179,7 +167,6 @@ function truncateString(str) {
     }
     return str;
 }
-
 
 function openInNewTab(url) {
     let newTab = document.createElement('a');
@@ -257,7 +244,6 @@ function get_books(TEXTS_TRANS){
     return books
 }
 
-
 function applyfiter(tracks, filtered_out_chapters){
     const filtered_tracks = {}
     const BXXXs = Object.keys(tracks)
@@ -325,14 +311,6 @@ function* enumerate(iterable) {
     }
 }
 
-// function get_text(url){
-//     const xhr = new XMLHttpRequest();
-//     xhr.open("GET", url, false);
-//     xhr.send();
-//     text = xhr.responseText;
-//     return text
-// }
-
 function get_text(url) {
     const xhr = new XMLHttpRequest();
     xhr.open("GET", url, false);
@@ -356,10 +334,10 @@ function addOneToNumber(numStr) {
 }
 
 function play(){
-    STATUS.refresh_text();
+    STATE.refresh_text();
     resizeText()
-    if (!STATUS.isHardMuted && !STATUS.isSoftMuted) {
-        const audioFileFullPath = obj_tracks[STATUS.BXXX][STATUS.CXXX][STATUS.SXXX]["audio"];
+    if (!STATE.isHardMuted && !STATE.isSoftMuted) {
+        const audioFileFullPath = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["audio"];
         const audio = new Audio(audioFileFullPath);
         audio.playbackRate = playbackRate;
         audios.map(audio => {
@@ -369,7 +347,7 @@ function play(){
         audios.push(audio)
         audio.addEventListener("ended", function () {
             setTimeout(function () {
-                if (!STATUS.isRepeat){
+                if (!STATE.isRepeat){
                     next_track()
                 }
                 play()
@@ -386,114 +364,115 @@ function pause_play() {
 
 function book_up(){
     const books = Object.keys(obj_tracks)
-    const iBXXX = books.indexOf(STATUS.BXXX)
+    const iBXXX = books.indexOf(STATE.BXXX)
     if (iBXXX < books.length - 1) {
-        STATUS.BXXX = books[iBXXX + 1]
-        STATUS.CXXX = "C000"
-        STATUS.SXXX = "S000"
-        STATUS.refresh_text()
+        STATE.BXXX = books[iBXXX + 1]
+        STATE.CXXX = "C000"
+        STATE.SXXX = "S000"
+        STATE.refresh_text()
         play()
     }
 }
 
 function book_down(){
     const books = Object.keys(obj_tracks)
-    const iBXXX = books.indexOf(STATUS.BXXX)
+    const iBXXX = books.indexOf(STATE.BXXX)
     if (iBXXX > 0){
-        STATUS.BXXX = books[iBXXX - 1]
-        STATUS.CXXX = "C000"
-        STATUS.SXXX = "S000"
-        STATUS.refresh_text()
+        STATE.BXXX = books[iBXXX - 1]
+        STATE.CXXX = "C000"
+        STATE.SXXX = "S000"
+        STATE.refresh_text()
         play()
     }
 }
 
 function chapter_up(){
-    const chapters = Object.keys(obj_tracks[STATUS.BXXX])
-    const iCXXX = chapters.indexOf(STATUS.CXXX)
+    const chapters = Object.keys(obj_tracks[STATE.BXXX])
+    const iCXXX = chapters.indexOf(STATE.CXXX)
     if (iCXXX < chapters.length + 1){
-        STATUS.CXXX = chapters[iCXXX + 1]
-        STATUS.SXXX = "S000"
-        STATUS.refresh_text()
+        STATE.CXXX = chapters[iCXXX + 1]
+        STATE.SXXX = "S000"
+        STATE.refresh_text()
         play()
     }
 }
 
 function chapter_down(){
-    const chapters = Object.keys(obj_tracks[STATUS.BXXX])
-    const iCXXX = chapters.indexOf(STATUS.CXXX)
+    const chapters = Object.keys(obj_tracks[STATE.BXXX])
+    const iCXXX = chapters.indexOf(STATE.CXXX)
     if (iCXXX > 0) {
-        STATUS.CXXX = chapters[iCXXX - 1]
-        STATUS.SXXX = "S000"
-        STATUS.refresh_text()
+        STATE.CXXX = chapters[iCXXX - 1]
+        STATE.SXXX = "S000"
+        STATE.refresh_text()
         play()
     }
 }
 
 function sentence_up() {
-    const sentences = Object.keys(obj_tracks[STATUS.BXXX][STATUS.CXXX])
-    const iSXXX = sentences.indexOf(STATUS.SXXX)
+    const sentences = Object.keys(obj_tracks[STATE.BXXX][STATE.CXXX])
+    const iSXXX = sentences.indexOf(STATE.SXXX)
     if (iSXXX < sentences.length - 1){
-        STATUS.SXXX = sentences[iSXXX + 1]
-        STATUS.refresh_text()
+        STATE.SXXX = sentences[iSXXX + 1]
+        STATE.refresh_text()
         play()
     }
 }
 
 function sentence_down(){
-    const sentences = Object.keys(obj_tracks[STATUS.BXXX][STATUS.CXXX])
-    const iSXXX = sentences.indexOf(STATUS.SXXX)
+    const sentences = Object.keys(obj_tracks[STATE.BXXX][STATE.CXXX])
+    const iSXXX = sentences.indexOf(STATE.SXXX)
     if (iSXXX > 0) {
-        STATUS.SXXX = sentences[iSXXX - 1]
-        STATUS.refresh_text()
+        STATE.SXXX = sentences[iSXXX - 1]
+        STATE.refresh_text()
         play()
     }
 }
 
 function next_track(){
     const books = Object.keys(obj_tracks)
-    const chapters = Object.keys(obj_tracks[STATUS.BXXX])
-    const sentences = Object.keys(obj_tracks[STATUS.BXXX][STATUS.CXXX])
+    const chapters = Object.keys(obj_tracks[STATE.BXXX])
+    const sentences = Object.keys(obj_tracks[STATE.BXXX][STATE.CXXX])
 
-    const iBXXX = books.indexOf(STATUS.BXXX)
-    const iCXXX = chapters.indexOf(STATUS.CXXX)
-    const iSXXX = sentences.indexOf(STATUS.SXXX)
+    const iBXXX = books.indexOf(STATE.BXXX)
+    const iCXXX = chapters.indexOf(STATE.CXXX)
+    const iSXXX = sentences.indexOf(STATE.SXXX)
 
     isLastSentence = iSXXX >= sentences.length - 1
     isLastChapter = iCXXX >= chapters.length - 1
     isLastBook = iBXXX >= books.length - 1 
 
     if (!isLastSentence) {
-        STATUS.SXXX = sentences[iSXXX + 1]
+        STATE.SXXX = sentences[iSXXX + 1]
     } else if (!isLastChapter) {
-        STATUS.CXXX = chapters[iCXXX + 1]
-        STATUS.SXXX = "S000"
+        STATE.CXXX = chapters[iCXXX + 1]
+        STATE.SXXX = "S000"
     } else if (!isLastBook) {
-        STATUS.BXXX = books[iBXXX + 1]
-        STATUS.CXXX = "C000"
-        STATUS.SXXX = "S000"
+        STATE.BXXX = books[iBXXX + 1]
+        STATE.CXXX = "C000"
+        STATE.SXXX = "S000"
     } else {
-        STATUS.BXXX = "B001"
-        STATUS.CXXX = "C000"
-        STATUS.SXXX = "S000"
+        STATE.BXXX = "B001"
+        STATE.CXXX = "C000"
+        STATE.SXXX = "S000"
     }
-    STATUS.refresh_text()
+    STATE.refresh_text()
     play()
 }
 
 document.querySelector("#text_mode").addEventListener("click", function () {
-    STATUS.isPhonetic = !STATUS.isPhonetic
-    STATUS.refresh_text()
+    STATE.isPhonetic = !STATE.isPhonetic
+    STATE.refresh_text()
 })
 
-document.querySelector("#operation_mode").addEventListener("click", function () {
-    STATUS.isRepeat = !STATUS.isRepeat
-    STATUS.refresh_repeat()
+document.querySelector("#repeat").addEventListener("click", function () {
+    STATE.isRepeat = !STATE.isRepeat
+    console.log("click_repeat")
+    STATE.refresh_repeat()
 })
 
 document.querySelector("#sound").addEventListener("click", function () {
-    STATUS.isHardMuted = !STATUS.isHardMuted
-    STATUS.refresh_HardMuted()
+    STATE.isHardMuted = !STATE.isHardMuted
+    STATE.refresh_HardMuted()
 })
 
 document.querySelector("#max_min").addEventListener("click", function () {
@@ -506,9 +485,9 @@ document.querySelector("#max_min").addEventListener("click", function () {
 
 document.addEventListener("fullscreenchange", function () {
     if (document.fullscreenElement) {
-      document.querySelector("#max_min").innerHTML = icon_exit_fullscreen
+      document.querySelector("#max_min").innerHTML = get_ICON("exit_fullscreen")
     } else {
-      document.querySelector("#max_min").innerHTML = icon_enter_fullscreen
+      document.querySelector("#max_min").innerHTML = get_ICON("enter_fullscreen")
     }
 });
 
@@ -583,13 +562,13 @@ function showBelowChapterRow(){
 }
 
 document.querySelector("#book").addEventListener("click", function (){
-    STATUS.isSoftMuted = true
-    STATUS.refresh_SoftMuted()
+    STATE.isSoftMuted = true
+    STATE.refresh_SoftMuted()
     if (document.querySelector("#list") !== null) {
         deleteElementAndChildren("list")
         showBelowBookRow()
-        STATUS.isSoftMuted = false
-        STATUS.refresh()
+        STATE.isSoftMuted = false
+        STATE.refresh()
         return
     }
     hideBelowBookRow()
@@ -597,7 +576,7 @@ document.querySelector("#book").addEventListener("click", function (){
     div_list.id = "list"
     div_list.className = "column list";
     document.querySelector("#app").appendChild(div_list);
-    if (STATUS.isPhonetic){
+    if (STATE.isPhonetic){
         document.querySelector("#book_title").innerHTML = "ʧúz ə bʊ́k:"
     } else {
         document.querySelector("#book_title").innerHTML = "Choose a Book:"
@@ -606,28 +585,28 @@ document.querySelector("#book").addEventListener("click", function (){
     for (const BXXX of BXXXs){
         const div = document.createElement("div");
         div.className = "row list-element";
-        div.innerHTML = truncateString(obj_tracks[BXXX]["C000"]["S000"][STATUS.get_mode_text()])
+        div.innerHTML = truncateString(obj_tracks[BXXX]["C000"]["S000"][STATE.get_mode_text()])
         div.addEventListener("click", function() {
-            STATUS.BXXX = BXXX
-            STATUS.CXXX = "C000"
-            STATUS.SXXX = "S000"
+            STATE.BXXX = BXXX
+            STATE.CXXX = "C000"
+            STATE.SXXX = "S000"
             deleteElementAndChildren("list")
             showBelowBookRow()
-            STATUS.isSoftMuted = false
-            STATUS.refresh()    
+            STATE.isSoftMuted = false
+            STATE.refresh()    
         });
         div_list.appendChild(div);
     }
 })
 
 document.querySelector("#chapter").addEventListener("click", function (){
-    STATUS.isSoftMuted = true
-    STATUS.refresh_SoftMuted()
+    STATE.isSoftMuted = true
+    STATE.refresh_SoftMuted()
     if (document.querySelector("#list") !== null) {
         deleteElementAndChildren("list")
         showBelowChapterRow()
-        STATUS.isSoftMuted = false
-        STATUS.refresh()
+        STATE.isSoftMuted = false
+        STATE.refresh()
         return
     }
     hideBelowChapterRow()
@@ -635,29 +614,29 @@ document.querySelector("#chapter").addEventListener("click", function (){
     div.id = "list"
     div.className = "column list";
     document.querySelector("#app").appendChild(div);
-    if (STATUS.isPhonetic){
+    if (STATE.isPhonetic){
         document.querySelector("#chapter_title").innerHTML = "ʧúz ə ʧǽptər:"
     } else {
         document.querySelector("#chapter_title").innerHTML = "Choose a Chapter:"
     }
-    const CXXXs = Object.keys(obj_tracks[STATUS.BXXX])
+    const CXXXs = Object.keys(obj_tracks[STATE.BXXX])
     for (const CXXX of CXXXs){ 
         const div = document.createElement("div");
         div.className = "row list-element";
         if (CXXX !== "C000"){
-           div.innerHTML = truncateString(obj_tracks[STATUS.BXXX][CXXX]["S000"][STATUS.get_mode_text()]) 
-        } else if (STATUS.isPhonetic) {
+           div.innerHTML = truncateString(obj_tracks[STATE.BXXX][CXXX]["S000"][STATE.get_mode_text()]) 
+        } else if (STATE.isPhonetic) {
             div.innerHTML = "ᵻ̀ntrədʌ́kʃən"
         } else {
             div.innerHTML = "Introduction"
         }
         div.addEventListener("click", function(){
-            STATUS.CXXX = CXXX
-            STATUS.SXXX = "S000"
+            STATE.CXXX = CXXX
+            STATE.SXXX = "S000"
             deleteElementAndChildren("list")
             showBelowChapterRow()
-            STATUS.isSoftMuted = false
-            STATUS.refresh()
+            STATE.isSoftMuted = false
+            STATE.refresh()
         });
         document.querySelector("#list").appendChild(div);
     }
@@ -668,4 +647,4 @@ const playbackRate = 0.8
 const filtered_out_chapters = get_filtered_out_chapters()
 const unfiltered_obj_tracks = get_obj_tracks()
 const obj_tracks = applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
-STATUS.refresh()
+STATE.refresh()
