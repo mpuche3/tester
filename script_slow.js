@@ -65,7 +65,7 @@ const STATE = {
             document.querySelector("#book_title").innerHTML = book_title
             document.querySelector("#chapter_title").innerHTML = chapter_title
             document.querySelector("#sentence_number").innerHTML = addOneToNumber(this.SXXX.slice(2, 4))
-            document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length
+            document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length.toString().padStart(2, '0') 
             document.querySelector("#text").innerHTML = `${text}`
             if (this.CXXX === "C000"){
                 document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
@@ -81,7 +81,7 @@ const STATE = {
             document.querySelector("#book_title").innerHTML = book_title
             document.querySelector("#chapter_title").innerHTML = chapter_title
             document.querySelector("#sentence_number").innerHTML = addOneToNumber(this.SXXX.slice(2, 4))
-            document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length
+            document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length.toString().padStart(2, '0') 
             document.querySelector("#text").innerHTML = `${text}`
             if (this.CXXX === "C000"){
                 document.querySelector("#chapter_title").innerHTML = "Introduction"
@@ -509,8 +509,28 @@ window.addEventListener('resize', () => {
     }
 });
 
-document.querySelector("#book_up").addEventListener("click", book_up)
-document.querySelector("#book_down").addEventListener("click", book_down)
+document.querySelector("#book_up").addEventListener("click", function () {
+    if (document.querySelector("#list") !== null) {
+        deleteElementAndChildren("list")
+        showBelowBookRow()
+        showBelowChapterRow()
+        STATE.isSoftMuted = false
+        STATE.refresh()
+        return
+    }
+    book_up
+})
+document.querySelector("#book_down").addEventListener("click", function () {
+    if (document.querySelector("#list") !== null) {
+        deleteElementAndChildren("list")
+        showBelowBookRow()
+        showBelowChapterRow()
+        STATE.isSoftMuted = false
+        STATE.refresh()
+        return
+    }
+    book_down
+})
 document.querySelector("#chapter_up").addEventListener("click", chapter_up)
 document.querySelector("#chapter_down").addEventListener("click", chapter_down)
 document.querySelector("#sentence_up").addEventListener("click", sentence_up)
@@ -568,6 +588,7 @@ document.querySelector("#book").addEventListener("click", function (){
     if (document.querySelector("#list") !== null) {
         deleteElementAndChildren("list")
         showBelowBookRow()
+        showBelowChapterRow()
         STATE.isSoftMuted = false
         STATE.refresh()
         return
