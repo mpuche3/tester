@@ -1,5 +1,4 @@
 console.log("Running script_slow.js")
-const voiceName = 'Andrew Online (Natural)'
 
 const STATE = {
     BXXX: "B001",
@@ -334,70 +333,93 @@ function addOneToNumber(numStr) {
     }
 }
 
-function getVoice(voiceName){
-    const voices = window.speechSynthesis.getVoices();
+function getEdgeVoice(){
+    // Microsoft Ava Online (Natural) - English (United States)
+    // Microsoft Andrew Online (Natural) - English (United States)
+    // Microsoft Emma Online (Natural) - English (United States)
+    // Microsoft Brian Online (Natural) - English (United States)
+    // Microsoft Ana Online (Natural) - English (United States)
+    // Microsoft Aria Online (Natural) - English (United States)
+    // Microsoft Christopher Online (Natural) - English (United States)
+    // Microsoft Eric Online (Natural) - English (United States)
+    // Microsoft Guy Online (Natural) - English (United States)
+    // Microsoft Jenny Online (Natural) - English (United States)
+    // Microsoft Michelle Online (Natural) - English (United States)
+    // Microsoft Roger Online (Natural) - English (United States)
+    // Microsoft Steffan Online (Natural) - English (United States)
+
+    // Microsoft George - English (United Kingdom)
+    // Microsoft Hazel - English (United Kingdom)
+    // Microsoft Susan - English (United Kingdom)
+    // Google US English
+    // Google UK English Male
+    // Google UK English Female
+
+    const voiceNames = [
+        "Microsoft Ava Online (Natural)",
+        "Microsoft Andrew Online (Natural)",
+        "Google UK English Male",
+        "Google UK English Female",
+    ]
+    for (const voiceName of voiceNames){
+        const voices = window.speechSynthesis.getVoices();
         for (let i = 0; i < voices.length; i++) {
             if (voices[i].name.includes(voiceName)) {
                 return voices[i];
             }
-        }
-    return undefined
-}
-
-function utterText(text, voiceName) {
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.voice = getVoice(voiceName);
-    utterance.rate = 0.85;
-    utterance.onstart = () => console.log('Speech started');
-    utterance.onend = () => console.log('Speech ended');
-    utterance.onerror = (event) => console.log('Error: ' + event.error);
-    window.speechSynthesis.speak(utterance);
-    return utterance
-}
-
-function readTrack(){
-    window.speechSynthesis.cancel()
-    const text = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["text"];
-    return utterText(text, voiceName)
+        }    
+    }
+    return undefined    
 }
 
 function play(){
+    console.log("#01")
     STATE.refresh_text();
     resizeText()
     if (!STATE.isHardMuted && !STATE.isSoftMuted) {
-        const voice = getVoice(voiceName)
-        if (!voice){
+        const edgeVoice = getEdgeVoice()  
+        if (edgeVoice !== undefined){
+            pause_play()
+            const text = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["text"];
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.voice = edgeVoice
+            utterance.rate = 0.85;
+            utterance.onend = function(){
+                setTimeout(function () {
+                    if (!STATE.isRepeat){
+                        next_track()
+                        console.log("#02")
+                    } else {
+                        play()
+                        console.log("#03")                        
+                    }
+                }, 600)
+            }
+            window.speechSynthesis.speak(utterance);
+        } else {
+            pause_play()      
             const audioFileFullPath = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["audio"];
             const audio = new Audio(audioFileFullPath);
             audio.playbackRate = playbackRate;
-            audios.map(audio => {
-                audio.pause();
-            })
-            audio.play()
             audios.push(audio)
             audio.addEventListener("ended", function () {
                 setTimeout(function () {
                     if (!STATE.isRepeat){
                         next_track()
+                        console.log("#05")
+                    } else {
+                        play()
+                        console.log("#06")                        
                     }
-                    play()
                 }, 600)
-            })                  
-        } else {
-            const utterance = readTrack()
-            utterance.onend = function(){
-                setTimeout(function () {
-                    if (!STATE.isRepeat){
-                        next_track()
-                    }
-                    play()
-                }, 600)
-            }
+            })
+            audio.play()                    
         }
     }
 }
 
 function pause_play() {
+    window.speechSynthesis.cancel()
     audios.map(audio => {
         audio.pause();
     })
