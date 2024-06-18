@@ -1,4 +1,5 @@
 console.log("Running script_slow.js")
+const voiceName = 'Andrew Online (Natural)'
 
 const STATE = {
     BXXX: "B001",
@@ -333,26 +334,66 @@ function addOneToNumber(numStr) {
     }
 }
 
+function getVoice(voiceName){
+    const voices = window.speechSynthesis.getVoices();
+        for (let i = 0; i < voices.length; i++) {
+            if (voices[i].name.includes(voiceName)) {
+                return voices[i];
+            }
+        }
+    return undefined
+}
+
+function utterText(text, voiceName) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.voice = getVoice(voiceName);
+    utterance.rate = 0.85;
+    utterance.onstart = () => console.log('Speech started');
+    utterance.onend = () => console.log('Speech ended');
+    utterance.onerror = (event) => console.log('Error: ' + event.error);
+    window.speechSynthesis.speak(utterance);
+    return utterance
+}
+
+function readTrack(){
+    window.speechSynthesis.cancel()
+    const text = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["text"];
+    return utterText(text, voiceName)
+}
+
 function play(){
     STATE.refresh_text();
     resizeText()
     if (!STATE.isHardMuted && !STATE.isSoftMuted) {
-        const audioFileFullPath = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["audio"];
-        const audio = new Audio(audioFileFullPath);
-        audio.playbackRate = playbackRate;
-        audios.map(audio => {
-            audio.pause();
-        })
-        audio.play()
-        audios.push(audio)
-        audio.addEventListener("ended", function () {
-            setTimeout(function () {
-                if (!STATE.isRepeat){
-                    next_track()
-                }
-                play()
-            }, 600)
-        })        
+        const voice = getVoice(voiceName)
+        if (!voice){
+            const audioFileFullPath = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["audio"];
+            const audio = new Audio(audioFileFullPath);
+            audio.playbackRate = playbackRate;
+            audios.map(audio => {
+                audio.pause();
+            })
+            audio.play()
+            audios.push(audio)
+            audio.addEventListener("ended", function () {
+                setTimeout(function () {
+                    if (!STATE.isRepeat){
+                        next_track()
+                    }
+                    play()
+                }, 600)
+            })                  
+        } else {
+            const utterance = readTrack()
+            utterance.onend = function(){
+                setTimeout(function () {
+                    if (!STATE.isRepeat){
+                        next_track()
+                    }
+                    play()
+                }, 600)
+            }
+        }
     }
 }
 
