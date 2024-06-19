@@ -425,7 +425,6 @@ function addOneToNumber(numStr) {
 }
 
 function play(){
-    console.log("#01")
     STATE.refresh_text();
     resizeText();
     if (!STATE.isHardMuted && !STATE.isSoftMuted) {
@@ -440,10 +439,8 @@ function play(){
                 setTimeout(function () {
                     if (!STATE.isRepeat){
                         next_track()
-                        console.log("#05")
                     } else {
-                        play()
-                        console.log("#06")                        
+                        play()                
                     }
                 }, 600)
             })
@@ -458,10 +455,8 @@ function play(){
                 setTimeout(function () {
                     if (!STATE.isRepeat){
                         next_track()
-                        console.log("#02")
                     } else {
-                        play()
-                        console.log("#03")                        
+                        play()                  
                     }
                 }, 600)
             }
