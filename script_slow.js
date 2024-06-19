@@ -4,10 +4,68 @@ const STATE = {
     BXXX: "B001",
     CXXX: "C000",
     SXXX: "S000",
+    voices: [],
+    _voice: "echo",
     _isPhonetic: false,
     _isRepeat: false,    
     _isSoftMuted: false,
     _isHardMuted: true,
+
+    _mapVoiceNames: {
+            // Edge
+            "Ava": "Microsoft Ava Online (Natural) - English (United States)",
+            "Andrew": "Microsoft Andrew Online (Natural) - English (United States)",
+            "Emma": "Microsoft Emma Online (Natural) - English (United States)",
+            "Brian": "Microsoft Brian Online (Natural) - English (United States)",
+            "Ana": "Microsoft Ana Online (Natural) - English (United States)",
+            "Aria": "Microsoft Aria Online (Natural) - English (United States)",
+            "Chris": "Microsoft Christopher Online (Natural) - English (United States)",
+            "Eric": "Microsoft Eric Online (Natural) - English (United States)",
+            "Guy": "Microsoft Guy Online (Natural) - English (United States)",
+            "Jenny": "Microsoft Jenny Online (Natural) - English (United States)",
+            "Michelle": "Microsoft Michelle Online (Natural) - English (United States)",
+            "Roger": "Microsoft Roger Online (Natural) - English (United States)",
+            "Steffan": "Microsoft Steffan Online (Natural) - English (United States)",
+            // Chrome
+            "UK Male": "Google UK English Male",
+            "UK Female": "Google UK English Female",
+            "US Female": "Google US English",        
+    },
+    
+    get_voices(){
+        this._voices = window.speechSynthesis.getVoices().filter(voice => {
+             return Object.values(this._mapVoiceNames).includes(voice.name)
+        });
+        return this._voices
+    },
+
+    get_voice_obj() {
+        const voiceNames = STATE.voices
+        for (const voiceName of voiceNames){
+            const voices = window.speechSynthesis.getVoices();
+            for (let i = 0; i < voices.length; i++) {
+                if (voices[i].name.includes(voiceName)) {
+                    return voices[i];
+                }
+            }    
+        }
+    },
+
+    get voices(){
+        return this._voices
+    },
+
+    set voices(value){
+        _voices = value
+    },
+
+    get voice(){
+        return this._voice
+    },
+
+    set voice(value){
+        _voice = value
+    },
 
     get isPhonetic(){
         return this._isPhonetic
@@ -50,6 +108,31 @@ const STATE = {
             return "tran"
         } else {
             return "text"
+        }
+    },
+
+    next_voice() {
+        if (this.voices.length !== 0) {
+            const index = this.voices.indexOf(this._voice)
+            if (index === -1) {
+                this._voice = this.voices[0]
+            } else if  (index === this.voices.length - 1) {
+                this._voice = this.voices[0]
+            } else {
+                this._voice = this.voices[index + 1]
+            }
+        } else {
+            this._voice = "echo"
+        }
+        this.refresh_voice()
+        play()
+    },
+
+    refresh_voice() {
+        if (this._voice === "echo") {
+            document.querySelector("#voice").innerHTML = "echo"
+        } else {
+            document.querySelector("#voice").innerHTML = Object.keys(this._mapVoiceNames).find(key => this._mapVoiceNames[key] === this._voice.name)
         }
     },
 
@@ -121,6 +204,7 @@ const STATE = {
         this.refresh_text()
         this.refresh_repeat()
         this.refresh_HardMuted()
+        this.refresh_voice()
     }
 }
 
@@ -207,7 +291,7 @@ function get_books(TEXTS_TRANS){
         `./${folder}/books/B001/B001_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B002/B002_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B009/B009_${xxxxxx}_ALL.txt`,
-        `./${folder}/books/B014/B014_${xxxxxx}_ALL.txt`,
+        // `./${folder}/books/B014/B014_${xxxxxx}_ALL.txt`,
     ]
     for (const url of urls){
         const text = get_text(url)
@@ -333,70 +417,13 @@ function addOneToNumber(numStr) {
     }
 }
 
-function getEdgeVoice(){
-    // Microsoft Ava Online (Natural) - English (United States)
-    // Microsoft Andrew Online (Natural) - English (United States)
-    // Microsoft Emma Online (Natural) - English (United States)
-    // Microsoft Brian Online (Natural) - English (United States)
-    // Microsoft Ana Online (Natural) - English (United States)
-    // Microsoft Aria Online (Natural) - English (United States)
-    // Microsoft Christopher Online (Natural) - English (United States)
-    // Microsoft Eric Online (Natural) - English (United States)
-    // Microsoft Guy Online (Natural) - English (United States)
-    // Microsoft Jenny Online (Natural) - English (United States)
-    // Microsoft Michelle Online (Natural) - English (United States)
-    // Microsoft Roger Online (Natural) - English (United States)
-    // Microsoft Steffan Online (Natural) - English (United States)
-
-    // Microsoft George - English (United Kingdom)
-    // Microsoft Hazel - English (United Kingdom)
-    // Microsoft Susan - English (United Kingdom)
-    // Google US English
-    // Google UK English Male
-    // Google UK English Female
-
-    const voiceNames = [
-        "Microsoft Ava Online (Natural)",
-        "Microsoft Andrew Online (Natural)",
-        "Google UK English Male",
-        "Google UK English Female",
-    ]
-    for (const voiceName of voiceNames){
-        const voices = window.speechSynthesis.getVoices();
-        for (let i = 0; i < voices.length; i++) {
-            if (voices[i].name.includes(voiceName)) {
-                return voices[i];
-            }
-        }    
-    }
-    return undefined    
-}
-
 function play(){
     console.log("#01")
     STATE.refresh_text();
-    resizeText()
+    resizeText();
     if (!STATE.isHardMuted && !STATE.isSoftMuted) {
-        const edgeVoice = getEdgeVoice()  
-        if (edgeVoice !== undefined){
-            pause_play()
-            const text = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["text"];
-            const utterance = new SpeechSynthesisUtterance(text);
-            utterance.voice = edgeVoice
-            utterance.rate = 0.85;
-            utterance.onend = function(){
-                setTimeout(function () {
-                    if (!STATE.isRepeat){
-                        next_track()
-                        console.log("#02")
-                    } else {
-                        play()
-                        console.log("#03")                        
-                    }
-                }, 600)
-            }
-            window.speechSynthesis.speak(utterance);
-        } else {
+        const voice = STATE.voice  
+        if (voice === "echo"){
             pause_play()      
             const audioFileFullPath = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["audio"];
             const audio = new Audio(audioFileFullPath);
@@ -413,7 +440,25 @@ function play(){
                     }
                 }, 600)
             })
-            audio.play()                    
+            audio.play()   
+        } else {
+            pause_play()
+            const text = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["text"];
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.voice = STATE.voice
+            utterance.rate = 0.85;
+            utterance.onend = function(){
+                setTimeout(function () {
+                    if (!STATE.isRepeat){
+                        next_track()
+                        console.log("#02")
+                    } else {
+                        play()
+                        console.log("#03")                        
+                    }
+                }, 600)
+            }
+            window.speechSynthesis.speak(utterance);                 
         }
     }
 }
@@ -611,6 +656,11 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+document.querySelector("#voice").addEventListener('click', function () {
+    STATE.next_voice()
+})
+
+
 function hideBelowBookRow(){
     document.querySelector("#chapter-row").style.display = "none"
     document.querySelector("#sentence-row").style.display = "none"
@@ -727,9 +777,29 @@ document.querySelector("#chapter").addEventListener("click", function (){
     }
 })
 
+// Intialisation
+
 const audios = []
 const playbackRate = 0.8
 const filtered_out_chapters = get_filtered_out_chapters()
 const unfiltered_obj_tracks = get_obj_tracks()
 const obj_tracks = applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
-STATE.refresh()
+
+setTimeout(_ => {
+    console.log(window.speechSynthesis.getVoices())
+    console.log(STATE.get_voices())
+    console.log(STATE.voices)
+    if (STATE.voices.length !== 0) {
+        console.log("asdf")
+        document.querySelector("#voice").style.display = "flex";
+        STATE.next_voice()
+    }
+    STATE.refresh()
+}, 2000)
+
+console.log(window.speechSynthesis.getVoices())
+if (STATE.voices.length !== 0) {
+    console.log("asdf")
+    document.querySelector("#voice").style.display = "flex";
+    STATE.next_voice()
+}

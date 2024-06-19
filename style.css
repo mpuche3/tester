@@ -137,6 +137,13 @@ svg {
     font-size: 1rem;
 }
 
+#voice {
+    width: 100px;
+    display: None;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 #max_min {
     border: none;
 }
