@@ -294,7 +294,13 @@ function get_books(TEXTS_TRANS){
         `./${folder}/books/B004/B004_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B005/B005_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B006/B006_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B007/B007_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B008/B008_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B009/B009_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B010/B010_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B011/B011_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B012/B012_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B013/B013_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B014/B014_${xxxxxx}_ALL.txt`,
     ]
 
