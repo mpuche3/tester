@@ -20,3 +20,6 @@ function get_ICON(x){
 document.querySelector("#max_min").innerHTML = get_ICON("enter_fullscreen")
 document.querySelector("#sound").innerHTML = get_ICON("no_sound")
 document.querySelector("#repeat").innerHTML = get_ICON("no_repeat")
+
+// EXPLAIN
+window.speechSynthesis.getVoices()

@@ -290,9 +290,16 @@ function get_books(TEXTS_TRANS){
     const urls = [
         `./${folder}/books/B001/B001_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B002/B002_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B003/B003_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B004/B004_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B009/B009_${xxxxxx}_ALL.txt`,
-        // `./${folder}/books/B014/B014_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B014/B014_${xxxxxx}_ALL.txt`,
     ]
+
+    // if (STATE.get_voices().length !== 0) {
+    //     urls.push(`./${folder}/books/B003/B003_${xxxxxx}_ALL.txt`)
+    // }
+
     for (const url of urls){
         const text = get_text(url)
         if (text !== ""){
