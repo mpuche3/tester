@@ -81,7 +81,8 @@ B006C003: SOLID prᵻ́nsᵻpəlz.
 SOLID prᵻ́nsᵻpəlz ɑr ə sɛ́t əv ɡáɪdlàɪnz dəzáɪnd tə ᵻ̀mprúv ðə meɪntéɪnəbᵻ́lᵻti, skéɪləbᵻ́lᵻti, ənd flɛ̀ksᵻbᵻ́lᵻti əv sɔ́fwɛ̀r sᵻ́stəmz. 
 ðiz prᵻ́nsᵻpəlz, wɛ́n əpláɪd kərɛ́ktli, kən sᵻɡnᵻ́fᵻkəntli rədjús ðə kəmplɛ́ksᵻti əv kóʊd, méɪkᵻŋ ᵻt íziər tə ʌ̀ndərstǽnd, mɒ́dᵻfàɪ, ənd əkstɛ́nd. 
 ðeɪ ənkɜ́rᵻʤ dəvɛ́ləpərz tə kriéɪt mɔr mɒ́ʤələr, ǽbstræ̀kt, ənd lúsli kʌ́pəld kəmpóʊnənts, lídᵻŋ tə sɔ́fwɛ̀r thət ᵻz bóʊθ roʊbʌ́st ənd ədǽptəbəl tə ʧéɪnʤ. 
-ðə prᵻ́nsᵻpəlz wɜ́r ᵻ̀ntrədúst baɪ róʊbərt C. mɑ́rtᵻn, ɔ́lsoʊ nóʊn æz ʌ́ŋkəl bɒ́b, ənd həv bəkʌ́m ə kɔ́rnərstòʊn ᵻn ðə fíld əv ɒ́bʤəkt-ɔ́riɛ̀ntᵻd dəzáɪn. 
+ðə prᵻ́nsᵻpəlz wɜ́r ᵻ̀ntrədúst baɪ róʊbərt C. 
+mɑ́rtᵻn, ɔ́lsoʊ nóʊn æz ʌ́ŋkəl bɒ́b, ənd həv bəkʌ́m ə kɔ́rnərstòʊn ᵻn ðə fíld əv ɒ́bʤəkt-ɔ́riɛ̀ntᵻd dəzáɪn. 
 ðə fɜ́rst prᵻ́nsᵻpəl, ðə sᵻ́ŋɡəl rəspɒ̀nsᵻbᵻ́lᵻti prᵻ́nsᵻpəl, pɒ́zᵻts thət ə klǽs ʃʊd həv óʊnli wʌ́n rízən tə ʧéɪnʤ. 
 ðᵻs mínz thət iʧ klǽs ʃʊd bi fóʊkəst ɒn ə sᵻ́ŋɡəl ǽspɛ̀kt əv ðə sᵻ́stəm'z fʌ̀ŋkʃənǽlᵻti, ɛnkǽpsəlèɪtᵻŋ ɔl ðə déɪtə ənd bəhéɪvjərz rəléɪtᵻd tə thət ǽspɛ̀kt. 
 baɪ ədhɪ́rᵻŋ tə ðᵻs prᵻ́nsᵻpəl, dəvɛ́ləpərz kən áɪsəlèɪt ʧéɪnʤᵻz tə wʌ́n pɑ́rt əv ðə sᵻ́stəm wᵻðáʊt əfɛ́ktᵻŋ ʌ́ðərz, méɪkᵻŋ ðə sᵻ́stəm íziər tə ʌ̀ndərstǽnd ənd meɪntéɪn. 
@@ -169,7 +170,8 @@ baɪ kǽtəɡəràɪzᵻŋ ðiz pǽtərnz ᵻntu kriéɪʃənəl, strʌ́kʧ
 ʌ̀ndərstǽndᵻŋ ənd əpláɪᵻŋ ðiz pǽtərnz əfɛ́ktᵻvli kən líd tə ðə dəvɛ́ləpmənt əv sɔ́fwɛ̀r sᵻ́stəmz thət ɑr mɔr meɪntéɪnəbəl, skéɪləbəl, ənd əfᵻ́ʃənt. 
 æz ðə fíld əv sɔ́fwɛ̀r ɛ́nʤᵻnɪ́rᵻŋ kəntᵻ́njuz tə əvɒ́lv, ðə rɛ́ləvəns əv dəzáɪn pǽtərnz rəméɪnz ʌ̀ndᵻmᵻ́nᵻʃt, tɛ́stəmənt tə ðɛr faʊndéɪʃənəl róʊl ᵻn ðə dᵻ́sᵻplᵻn. 
  
-B006C006: rəkɜ́rʒən vɜ́rsəs. ᵻ̀təréɪʃən. 
+B006C006: rəkɜ́rʒən vɜ́rsəs. 
+ᵻ̀təréɪʃən. 
 rəkɜ́rʒən ənd ᵻ̀təréɪʃən ɑr tú fʌ̀ndəmɛ́ntəl əpróʊʧᵻz tə sɒ́lvᵻŋ prɒ́bləmz ᵻn kəmpjútər sáɪəns, iʧ wᵻð ᵻts óʊn junᵻ́k kæ̀rəktərᵻ́stᵻks, ædvǽntᵻʤᵻz, ənd dᵻ̀sədvǽntᵻʤᵻz. 
 ʌ̀ndərstǽndᵻŋ ðə njúɑnsᵻz əv ðiz kɒ́nsɛpts ᵻz krúʃəl fɔr dəvɛ́ləpᵻŋ əfᵻ́ʃənt ǽlɡərᵻ̀ðəmz ənd ráɪtᵻŋ əféktᵻv kóʊd. 
 æt ðə hɑ́rt əv rəkɜ́rʒən ᵻz ðə prᵻ́nsᵻpəl əv ə fʌ́ŋkʃən kɔ́lᵻŋ ᵻ̀tsɛ́lf tə sɒ́lv smɔ́lər ᵻ́nstənsᵻz əv ðə séɪm prɒ́bləm ʌ̀ntᵻ́l ᵻt ríʧᵻz ə béɪs kéɪs, wᵻ́ʧ ᵻz ə kəndᵻ́ʃən thət stɒ́ps ðə rəkɜ́rʒən. 
@@ -242,14 +244,16 @@ A kəmplít báɪnəri trí ᵻz ə trí ᵻn wᵻ́ʧ ɛvəri lɛ́vəl, əksɛ
 ðə móʊst kɒ́mən ɒ̀pəréɪʃənz ᵻ̀nklúd ᵻ̀nsɜ́rʃən, fáɪndᵻŋ ðə mᵻ́nᵻməm ɔr mǽksᵻməm (dəpɛ́ndᵻŋ ɒn wɛ́ðər ᵻt's ə mᵻ́n-híp ɔr mæks-híp), ənd dəlíʃən. 
 ᵻ̀nsɜ́rʃən ᵻ̀nvɒ́lvz ǽdᵻŋ ə nu ɛ́ləmənt tə ðə híp wáɪl meɪntéɪnᵻŋ ðə híp prɒ́pərti. 
 ðᵻs ᵻz tᵻ́pᵻkəli dʌ́n baɪ ǽdᵻŋ ðə ɛ́ləmənt æt ðə bɒ́təmmòʊst ənd ráɪtmòʊst pəzᵻ́ʃən əv ðə trí ənd ðɛn pərfɔ́rmᵻŋ ə sɪ́riz əv swɒ́ps wᵻð pɛ́rənt nóʊdz ʌ̀ntᵻ́l ðə híp prɒ́pərti ᵻz rəstɔ́rd. 
-ðᵻs prɒ́sɛ̀s ᵻz nóʊn æz "hípᵻfàɪᵻŋ ʌp" ɔr "sᵻ́ftᵻŋ ʌp". 
+ðᵻs prɒ́sɛ̀s ᵻz nóʊn æz "hípᵻfàɪᵻŋ ʌp" ɔr "sᵻ́ftᵻŋ ʌp. 
+". 
 fáɪndᵻŋ ðə mᵻ́nᵻməm ɔr mǽksᵻməm ɛ́ləmənt ᵻn ə híp ᵻz rəmɑ́rkəbli əfᵻ́ʃənt bəkɒ́z, baɪ ðə híp's néɪʧər, ðiz ɛ́ləmənts ɑr ɔ́lwèɪz lóʊkèɪtᵻd æt ðə rút. 
 ðᵻs méɪks híps ən aɪdíəl déɪtə strʌ́kʧər fɔr ᵻ́mpləmɛ̀ntᵻŋ praɪɔ́rᵻti kjúz, wɛ́r kwᵻ́k ǽksɛ̀s tə ðə háɪəst ɔr lóʊəst praɪɔ́rᵻti áɪtəm ᵻz fríkwəntli rəkwáɪərd. 
 dəlíʃən, pɑ̀rtᵻ́kjələrli dəlíʃən əv ðə rút ɛ́ləmənt, ᵻz ənʌ́ðər ɒ̀pəréɪʃən wɛ́r híps əksɛ́l. 
 wɛ́n ðə rút ᵻz rimúvd frəm ə híp, ðə híp prɒ́pərti mʌst bi rəstɔ́rd. 
 ðᵻs ᵻz tᵻ́pᵻkəli dʌ́n baɪ rəpléɪsᵻŋ ðə rút wᵻð ðə lǽst ɛ́ləmənt ᵻn ðə híp, əfɛ́ktᵻvli rədjúsᵻŋ ðə sáɪz əv ðə híp baɪ wʌ́n. 
 ðə híp prɒ́pərti ᵻz ðɛn rəstɔ́rd baɪ rəpítᵻdli swɒ́pᵻŋ ðᵻs nu rút wᵻð ᵻts lɑ́rʤəst (ᵻn ə mæks-híp) ɔr smɔ́ləst (ᵻn ə mᵻ́n-híp) ʧáɪld ʌ̀ntᵻ́l ðə híp prɒ́pərti ᵻz sǽtᵻsfàɪd θruáʊt ðə trí. 
-ðᵻs prɒ́sɛ̀s ᵻz nóʊn æz "hípᵻfàɪᵻŋ daʊn" ɔr "sᵻ́ftᵻŋ daʊn". 
+ðᵻs prɒ́sɛ̀s ᵻz nóʊn æz "hípᵻfàɪᵻŋ daʊn" ɔr "sᵻ́ftᵻŋ daʊn. 
+". 
 híps ɑr júʒəli ᵻ́mpləmɛ̀ntᵻd júzᵻŋ əréɪz, wᵻ́ʧ ɔ́fərz ən əfᵻ́ʃənt weɪ tə rɛ̀prəzɛ́nt ə kəmplít báɪnəri trí. 
 ðə pɛ́rənt-ʧáɪld rəléɪʃənʃᵻ̀p ᵻn ə híp kən bi ízəli mǽnəʤd ᵻn ən əréɪ wᵻðáʊt ðə níd fɔr pɔ́ɪntərz, wᵻ́ʧ sᵻ́mpləfàɪz ðə ᵻ̀mpləmɛntéɪʃən ənd rədjúsᵻz mɛ́məri júsᵻʤ. 
 fɔr ə ɡᵻ́vən nóʊd æt ᵻ́ndɛks i ᵻn ðə əréɪ, ᵻts lɛ́ft ʧáɪld kən bi fáʊnd æt ᵻ́ndɛks 2i + 1, ənd ᵻts ráɪt ʧáɪld æt ᵻ́ndɛks 2i + 2. 
@@ -1798,7 +1802,7 @@ FTP, ɔr fáɪl trǽnsfər próʊtəkɒ̀l, ᵻz wʌ́n əv ðə óʊldəst pr
 FTP kən rʌ́n ᵻn ǽktᵻv ɔr pǽsᵻv móʊd, wᵻ́ʧ dətɜ́rmᵻnz háʊ ðə kənɛ́kʃən ᵻz əstǽblᵻʃt bitwín ðə kláɪənt ənd ðə sɜ́rvər. 
 wáɪl FTP ᵻz wáɪdli júzd fɔr ᵻts sᵻmplᵻ́sᵻti ənd əfɛ́ktᵻvnəs ᵻn trænsfɜ́rᵻŋ lɑ́rʤ fáɪlz, ᵻt lǽks səkjʊ́rᵻti fíʧərz, lídᵻŋ tə ðə dəvɛ́ləpmənt əv mɔr səkjʊ́r vɛ́riənts sʌʧ æz FTPS (FTP səkjʊ́r) ənd SFTP (SSH fáɪl trǽnsfər próʊtəkɒ̀l), wᵻ́ʧ ɔ́fər ɛnkrᵻ́pʃən ənd bɛ́tər ɔθɛ̀ntᵻkéɪʃən. 
 DNS, ɔr doʊméɪn néɪm sᵻ́stəm, ᵻz ɔ́fən rəfɜ́rd tə æz ðə fóʊnbʊ̀k əv ðə ᵻ́ntərnɛ̀t. 
-ᵻt trǽnslèɪts hjúmən-frɛ́ndli doʊméɪn néɪmz, sʌʧ æz dʌbəlju. 
+ᵻt trǽnslèɪts hjúmən-frɛ́ndli doʊméɪn néɪmz, sʌʧ æz [/dʌb.əl.ju/]. 
 əɡzǽmpəl. 
 kɒ́m, ᵻntu IP ǽdrɛ́sᵻz thət kəmpjútərz juz tə aɪdɛ́ntᵻfàɪ iʧ ʌ́ðər ɒn ðə nɛ́twɜ̀rk. 
 DNS ɒ́pərèɪts ɒn ə dᵻstrᵻ́bjətᵻd déɪtəbèɪs sᵻ́stəm, wɛ́r dᵻ́fərənt lɛ́vəlz əv DNS sɜ́rvərz wɜ́rk təɡɛ́ðər tə rizɒ́lv kwɛ́riz. 
@@ -2624,7 +2628,7 @@ JSON ᵻz ə láɪtwéɪt déɪtə-ᵻ́ntərʧèɪnʤ fɔ́rmæ̀t thət ᵻz �
 ᵻts sᵻmplᵻ́sᵻti ənd əfɛ́ktᵻvnəs ᵻn rɛ̀prəzɛ́ntᵻŋ kɒ́mplɛks déɪtə strʌ́kʧərz həv méɪd ᵻt ðə di fǽktoʊ stǽndərd fɔr déɪtə əksʧéɪnʤ ɒn ðə wɛ́b. 
 ʤɒ́vəskrᵻ̀pt's néɪtᵻv səpɔ́rt fɔr JSON, θrú ðə JSON. 
 pɑ́rs ənd JSON. 
-strᵻ́ŋᵻfaɪ mɛ́θədz, méɪks wɜ́rkᵻŋ wᵻð JSON déɪtə símləs ənd əfᵻ́ʃənt. 
+[/ˈstrɪŋɪfaɪ/] mɛ́θədz, méɪks wɜ́rkᵻŋ wᵻð JSON déɪtə símləs ənd əfᵻ́ʃənt. 
 dəspáɪt ᵻts kwɜ́rks, ʤɒ́vəskrᵻ̀pt's ɡʊ́d pɑ́rts həv méɪd ᵻt ə fʌ̀ndəmɛ́ntəl túl ᵻn ðə dəvɛ́ləpmənt əv mɒ́dərn wɛ́b æ̀plᵻkéɪʃənz. 
 ᵻts flɛ̀ksᵻbᵻ́lᵻti, əvɛ́nt-drᵻ́vən próʊɡræ̀mᵻŋ mɒ́dəl, səpɔ́rt fɔr fɜ́rst-klǽs fʌ́ŋkʃənz, próʊtətàɪpəl ᵻ̀nhɛ́rᵻtəns, ənd ðə JSON déɪtə fɔ́rmæ̀t ɑr ʤəst ə fjú əv ðə fíʧərz thət həv kəntrᵻ́bjutᵻd tə ᵻts pɒ̀pjəlɛ́rᵻti ənd lɔnʤɛ́vᵻti. 
 æz ðə wɛ́b kəntᵻ́njuz tə əvɒ́lv, ðə róʊl əv ʤɒ́vəskrᵻ̀pt ᵻz láɪkli tə ɡróʊ ívən fɜ́rðər, drᵻ́vən baɪ ᵻts kɔ́r strɛ́ŋkθs ənd ðə kəntᵻ́njuəs ɛ́fərts əv ðə dəvɛ́ləpər kəmjúnᵻti tə əksplɔ́r ənd əkspǽnd ᵻts kèɪpəbᵻ́lᵻtiz. 
@@ -2762,7 +2766,7 @@ OOP lǽŋɡwᵻʤᵻz láɪk ʤɒ́və, C++, ənd páɪθɒn ənkɜ́rᵻʤ ɛ
 əvɛ́nt-drᵻ́vən próʊɡræ̀mᵻŋ ᵻz ə pǽrədàɪm wɛ́r ðə flóʊ əv ðə próʊɡræ̀m ᵻz dətɜ́rmᵻnd baɪ əvɛ́nts sʌʧ æz júzər ǽkʃənz, sɛ́nsər áʊtpʊ̀ts, ɔr mɛ́sᵻʤ pǽsᵻŋ frəm ʌ́ðər próʊɡræ̀mz. 
 ðᵻs stáɪl ᵻz prɛ́vələnt ᵻn ɡrǽfᵻkəl júzər ᵻ́ntərfèɪs (GUI) æ̀plᵻkéɪʃənz ənd ríəl-táɪm sᵻ́stəmz wɛ́r ðə próʊɡræ̀m mʌst rəspɒ́nd tə əkstɜ́rnəl ᵻ́npʊ̀ts. 
 lǽŋɡwᵻʤᵻz ənd fréɪmwɜ̀rks thət səpɔ́rt əvɛ́nt-drᵻ́vən próʊɡræ̀mᵻŋ, sʌʧ æz ʤɒ́vəskrᵻ̀pt wᵻð nóʊd. 
-ʤeɪ ɛs fɔr sɜ́rvər-sáɪd dəvɛ́ləpmənt ɔr C# wᵻð ðə. 
+[/ʤeɪ ɛs/] fɔr sɜ́rvər-sáɪd dəvɛ́ləpmənt ɔr C# wᵻð ðə. 
 NET fréɪmwɜ̀rk fɔr dɛ́sktɒ̀p æ̀plᵻkéɪʃənz, prəváɪd mɛ́kənᵻ̀zəmz fɔr rɛ́ʤᵻstərᵻŋ əvɛ́nt hǽndələrz ənd mǽnᵻʤᵻŋ əvɛ́nt lúps. 
 ᵻn kənklúʒən, ðə fíld əv próʊɡræ̀mᵻŋ ᵻz rᵻ́ʧ ənd vɛ́rid, ɔ́fərᵻŋ ə wáɪd réɪnʤ əv lǽŋɡwᵻʤᵻz ənd pǽrədàɪmz tə sút dᵻ́fərənt tǽsks ənd prɛ́fərənsᵻz. 
 frəm lóʊ-lɛ́vəl lǽŋɡwᵻʤᵻz thət prəváɪd kloʊs kəntróʊl óʊvər hɑ́rdwɛ̀r tə háɪ-lɛ́vəl lǽŋɡwᵻʤᵻz thət ǽbstræ̀kt əwéɪ kəmplɛ́ksᵻti, ənd frəm ᵻ̀mpɛ́rətᵻv tə dəklǽrətᵻv tə ɒ́bʤəkt-ɔ́riɛ̀ntᵻd pǽrədàɪmz, ðə ʧɔ́ɪs əv próʊɡræ̀mᵻŋ əpróʊʧ dəpɛ́ndz ɒn ðə spəsᵻ́fᵻk rəkwáɪrmənts əv ðə prɒ́ʤɛkt ənd ðə prɛ́fərənsᵻz əv ðə dəvɛ́ləpər. 
@@ -3298,7 +3302,7 @@ baɪ óʊvərlòʊdᵻŋ ðə `drɔ́` mɛ́θəd, ju kən kriéɪt mʌ́ltᵻp�
 ðᵻs ᵻz nóʊn æz daɪnǽmᵻk pɒ̀lìmɔ́rfᵻzm ɔr rʌ́ntàɪm pɒ̀lìmɔ́rfᵻzm. 
 óʊvərràɪdᵻŋ ɛnéɪbəlz ə sʌ́bklæ̀s tə ɔ́fər ə spɛ́ʃəlàɪzd bəhéɪvjər thət ᵻz dᵻ́fərənt frəm ðə bəhéɪvjər prəváɪdᵻd baɪ ᵻts súpərklæ̀s. 
 ᵻt ᵻz krúʃəl fɔr əʧívᵻŋ æbstrǽkʃən ənd fɔr əláʊᵻŋ sʌ́bklæ̀sᵻz tə téɪlər ɔr ənhǽns ðə fʌ̀ŋkʃənǽlᵻti əv ᵻ̀nhɛ́rᵻtᵻd mɛ́θədz. 
-fɔr ᵻ́nstəns, kənsᵻ́dər ə súpərklæ̀s néɪmd `ǽnᵻməl` wᵻð ə mɛ́θəd `méɪksaʊnd`. 
+fɔr ᵻ́nstəns, kənsᵻ́dər ə súpərklæ̀s néɪmd `ǽnᵻməl` wᵻð ə mɛ́θəd `[/ˈmeɪksaʊnd/]`. 
 sʌ́bklæ̀sᵻz sʌʧ æz `dɔ́ɡ` ənd `kǽt` kən óʊvərràɪd ðə `méɪksaʊnd` mɛ́θəd tə prəváɪd ðɛr spəsᵻ́fᵻk ᵻ̀mpləmɛntéɪʃən, sʌʧ æz rətɜ́rnᵻŋ "bɑ́rk" fɔr ðə `dɔ́ɡ` klǽs ənd "miáʊ" fɔr ðə `kǽt` klǽs. 
 ᵻt ᵻz ᵻ̀mpɔ́rtənt tə nóʊt thət wáɪl óʊvərlòʊdᵻŋ ənd óʊvərràɪdᵻŋ ɑr júzd tə əʧív pɒ̀lìmɔ́rfᵻzm, ðeɪ dú soʊ ᵻn dᵻ́fərənt wéɪz ənd ʌ́ndər dᵻ́fərənt sɜ́rkəmstæ̀nsᵻz. 
 óʊvərlòʊdᵻŋ ᵻz júzd wᵻðᵻ́n ə sᵻ́ŋɡəl klǽs ənd ᵻz rizɒ́lvd æt kəmpáɪl táɪm, méɪkᵻŋ ᵻt ə fɔ́rm əv stǽtᵻk pɒ̀lìmɔ́rfᵻzm. 

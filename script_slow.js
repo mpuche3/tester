@@ -233,12 +233,28 @@ function deleteElementAndChildren(elementId) {
 function truncateString(str) {
     const max_length = 28
     str = str.trim().replace(".", "").replace(":", "").trim()
-    str = str.replace("ðə 101 móʊst ᵻ̀mpɔ́rtənt kɒ́nsɛpts əv ", "")
+    str = str.replace("The 101 most interesting concepts of ", "")
     str = str.replace("ðə 101 móʊst ᵻ́ntərəstᵻŋ kɒ́nsɛpts əv ", "")
-    str = str.replace("ðə 101 móʊst mɛ́mərəbəl ", "")
+    str = str.replace("The 101 most interesting concepts in ", "")
+    str = str.replace("ðə 101 móʊst ᵻ́ntərəstᵻŋ kɒ́nsɛpts ᵻn ", "")
     str = str.replace("The 101 most important concepts of ", "")
-    str = str.replace("The 101 Most Interesting Concepts of ", "")
-    str = str.replace("The 101 most memorable ", "")
+    str = str.replace("ðə 101 móʊst ᵻ̀mpɔ́rtənt kɒ́nsɛpts əv ", "")
+    str = str.replace("The 101 most important concepts in ", "")
+    str = str.replace("ðə 101 móʊst ᵻ̀mpɔ́rtənt kɒ́nsɛpts ᵻn ", "")
+    str = str.replace("The 101 most important events in human ", "")
+    str = str.replace("ðə 101 móʊst ᵻ̀mpɔ́rtənt əvɛ́nts ᵻn hjúmən ", "")
+    str = str.replace("The 101 most important events in ", "")
+    str = str.replace("ðə 101 móʊst ᵻ̀mpɔ́rtənt əvɛ́nts ᵻn ", "")
+    str = str.replace("The 101 most amazing Human", "")
+    str = str.replace("ðə 101 móʊst əméɪzᵻŋ hjúmən ", "")
+    str = str.replace("The 101 most impactful ", "")
+    str = str.replace("ðə 101 móʊst ᵻ́mpæktfʊl ", "")
+    str = str.replace("The 101 most influential ", "")
+    str = str.replace("ðə 101 móʊst ᵻ̀nfluɛ́nʃəl ", "")
+    str = str.replace("The 101 most relevant concepts of ", "")
+    str = str.replace("ðə 101 móʊst rɛ́ləvənt kɒ́nsɛpts əv ", "")
+    str = str.replace("The 101 most amazing ", "")
+    str = str.replace("ðə 101 móʊst əméɪzᵻŋ ", "")
 
     if (str.length <= max_length) {
         return str;
@@ -636,7 +652,7 @@ document.querySelector("#book_up").addEventListener("click", function () {
         STATE.refresh()
         return
     }
-    book_up
+    book_up()
 })
 document.querySelector("#book_down").addEventListener("click", function () {
     if (document.querySelector("#list") !== null) {
@@ -647,7 +663,7 @@ document.querySelector("#book_down").addEventListener("click", function () {
         STATE.refresh()
         return
     }
-    book_down
+    book_down()
 })
 document.querySelector("#chapter_up").addEventListener("click", chapter_up)
 document.querySelector("#chapter_down").addEventListener("click", chapter_down)
@@ -796,9 +812,7 @@ const unfiltered_obj_tracks = get_obj_tracks()
 const obj_tracks = applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
 
 setTimeout(_ => {
-    console.log(window.speechSynthesis.getVoices())
-    console.log(STATE.get_voices())
-    console.log(STATE.voices)
+    STATE.get_voices()
     if (STATE.voices.length !== 0) {
         console.log("asdf")
         document.querySelector("#voice").style.display = "flex";
@@ -807,9 +821,10 @@ setTimeout(_ => {
     STATE.refresh()
 }, 2000)
 
-console.log(window.speechSynthesis.getVoices())
-if (STATE.voices.length !== 0) {
-    console.log("asdf")
-    document.querySelector("#voice").style.display = "flex";
-    STATE.next_voice()
-}
+// STATE.get_voices()
+// if (STATE.voices.length !== 0) {
+//     console.log("asdf")
+//     document.querySelector("#voice").style.display = "flex";
+//     STATE.next_voice()
+// }
+// STATE.refresh()

@@ -1,4 +1,4 @@
-B006C000: The 101 most important concepts in Computer Science.
+B006C000: The 101 most important concepts in computer science.
 In the span of just a few decades, computer science has evolved from a fledgling field of study to a global phenomenon, transforming the way we live, work, and interact with one another.
 From the smartphones in our pockets to the servers that power the internet, from artificial intelligence to cybersecurity, computer science has become the backbone of modern society.
 At its core, computer science is a discipline that seeks to understand the fundamental principles and mechanisms that govern the behavior of computers and computational systems.
@@ -81,7 +81,8 @@ B006C003: SOLID Principles.
 SOLID principles are a set of guidelines designed to improve the maintainability, scalability, and flexibility of software systems.
 These principles, when applied correctly, can significantly reduce the complexity of code, making it easier to understand, modify, and extend.
 They encourage developers to create more modular, abstract, and loosely coupled components, leading to software that is both robust and adaptable to change.
-The principles were introduced by Robert C. Martin, also known as Uncle Bob, and have become a cornerstone in the field of object-oriented design.
+The principles were introduced by Robert C.
+Martin, also known as Uncle Bob, and have become a cornerstone in the field of object-oriented design.
 The first principle, the Single Responsibility Principle, posits that a class should have only one reason to change.
 This means that each class should be focused on a single aspect of the system's functionality, encapsulating all the data and behaviors related to that aspect.
 By adhering to this principle, developers can isolate changes to one part of the system without affecting others, making the system easier to understand and maintain.
@@ -169,7 +170,8 @@ By categorizing these patterns into Creational, Structural, and Behavioral types
 Understanding and applying these patterns effectively can lead to the development of software systems that are more maintainable, scalable, and efficient.
 As the field of software engineering continues to evolve, the relevance of design patterns remains undiminished, testament to their foundational role in the discipline.
 
-B006C006: Recursion vs. Iteration.
+B006C006: Recursion vs.
+Iteration.
 Recursion and iteration are two fundamental approaches to solving problems in computer science, each with its own unique characteristics, advantages, and disadvantages.
 Understanding the nuances of these concepts is crucial for developing efficient algorithms and writing effective code.
 At the heart of recursion is the principle of a function calling itself to solve smaller instances of the same problem until it reaches a base case, which is a condition that stops the recursion.
@@ -242,14 +244,16 @@ The structure and rules of heaps make them particularly efficient for several op
 The most common operations include insertion, finding the minimum or maximum (depending on whether it's a min-heap or max-heap), and deletion.
 Insertion involves adding a new element to the heap while maintaining the heap property.
 This is typically done by adding the element at the bottommost and rightmost position of the tree and then performing a series of swaps with parent nodes until the heap property is restored.
-This process is known as "heapifying up" or "sifting up".
+This process is known as "heapifying up" or "sifting up.
+".
 Finding the minimum or maximum element in a heap is remarkably efficient because, by the heap's nature, these elements are always located at the root.
 This makes heaps an ideal data structure for implementing priority queues, where quick access to the highest or lowest priority item is frequently required.
 Deletion, particularly deletion of the root element, is another operation where heaps excel.
 When the root is removed from a heap, the heap property must be restored.
 This is typically done by replacing the root with the last element in the heap, effectively reducing the size of the heap by one.
 The heap property is then restored by repeatedly swapping this new root with its largest (in a max-heap) or smallest (in a min-heap) child until the heap property is satisfied throughout the tree.
-This process is known as "heapifying down" or "sifting down".
+This process is known as "heapifying down" or "sifting down.
+".
 Heaps are usually implemented using arrays, which offers an efficient way to represent a complete binary tree.
 The parent-child relationship in a heap can be easily managed in an array without the need for pointers, which simplifies the implementation and reduces memory usage.
 For a given node at index i in the array, its left child can be found at index 2i + 1, and its right child at index 2i + 2.
