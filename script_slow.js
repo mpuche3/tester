@@ -595,6 +595,10 @@ function next_track(){
     play()
 }
 
+function previous_track(){
+    //todo
+}
+
 document.querySelector("#text_mode").addEventListener("click", function () {
     STATE.isPhonetic = !STATE.isPhonetic
     STATE.refresh_text()
@@ -853,7 +857,7 @@ swipeContainer.addEventListener('touchend', (e) => {
     if (Math.abs(deltaX) > Math.abs(deltaY)) {
         // horizontal swipe
         if (deltaX > 0) {
-            sentence_up()
+            sentence_down()
             console.log('Swiped right');
         } else {
             console.log('Swiped left');
@@ -863,10 +867,10 @@ swipeContainer.addEventListener('touchend', (e) => {
         // vertical swipe
         if (deltaY > 0) {
             console.log('Swiped down');
-            next_track()
+            sentence_down()
         } else {
             console.log('Swiped up');
-            sentence_up()
+            next_track()
         }
     }
 });
