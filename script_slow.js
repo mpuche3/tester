@@ -876,3 +876,5 @@ swipeContainer.addEventListener('touchend', (e) => {
 });
 
 //////////////////////////////////////////////////
+
+document.querySelector("#enter-btn").style.visibility = "visible";

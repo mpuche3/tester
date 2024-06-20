@@ -69,6 +69,7 @@ h1 {
     align-items: center;
     height: 4rem;
     font-size: 1.4rem;
+    visibility: hidden;
 }
 
 #enter-btn:hover {
