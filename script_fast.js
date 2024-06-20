@@ -2,6 +2,7 @@ console.log("Running script_fast.js")
 
 document.getElementById("enter-btn").addEventListener("click", function() {
 	document.querySelector("#app").style.display = "flex"
+    document.querySelector("#app00").style.display = "none"
 });
 
 function get_ICON(x){
