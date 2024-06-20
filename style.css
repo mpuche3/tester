@@ -55,6 +55,19 @@ h1 {
 	margin-bottom: 20px;
 }
 
+#row-warnings {
+    justify-content: center;
+    align-items: center;
+    min-height: 45px;
+    height: 45px;
+    
+}
+
+#warning-sound {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
 #enter-btn {
 	background-color: #4CAF50;
 	color: #ffffff;

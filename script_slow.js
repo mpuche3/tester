@@ -201,10 +201,21 @@ const STATE = {
     },
 
     refresh(){
+        this.refresh_warning ()
         this.refresh_text()
         this.refresh_repeat()
         this.refresh_HardMuted()
         this.refresh_voice()
+    },
+
+    refresh_warning (){
+        const isBookWithSound = ["B001", "B002", "B009"].includes(this.BXXX)
+        const isVoicesAvailable = this.voices.length !== 0
+        if (!isVoicesAvailable || isBookWithSound) {
+            document.querySelector("#row-warnings").style.display = "none"
+        } else {
+            document.querySelector("#row-warnings").style.display = "flex"
+        }
     }
 }
 
