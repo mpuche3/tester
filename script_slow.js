@@ -828,3 +828,47 @@ setTimeout(_ => {
 //     STATE.next_voice()
 // }
 // STATE.refresh()
+
+
+
+
+
+///////////////////////////////////////////////
+
+let startX, startY, endX, endY;
+const swipeContainer = document.getElementById('text-row');
+
+swipeContainer.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].pageX;
+    startY = e.touches[0].pageY;
+});
+
+swipeContainer.addEventListener('touchend', (e) => {
+    endX = e.changedTouches[0].pageX;
+    endY = e.changedTouches[0].pageY;
+
+    const deltaX = endX - startX;
+    const deltaY = endY - startY;
+
+    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+        // horizontal swipe
+        if (deltaX > 0) {
+            sentence_up()
+            console.log('Swiped right');
+        } else {
+            console.log('Swiped left');
+            next_track()
+        }
+    } else {
+        // vertical swipe
+        if (deltaY > 0) {
+            console.log('Swiped down');
+            next_track()
+        } else {
+            console.log('Swiped up');
+            sentence_up()
+        }
+    }
+});
+
+//////////////////////////////////////////////////
