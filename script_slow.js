@@ -255,16 +255,20 @@ function truncateString(str) {
     str = str.replace("ðə 101 móʊst rɛ́ləvənt kɒ́nsɛpts əv ", "")
     str = str.replace("The 101 most amazing ", "")
     str = str.replace("ðə 101 móʊst əméɪzᵻŋ ", "")
+    str = str.replace("The 101 most memorable ", "")
+    str = str.replace("ðə 101 móʊst mɛ́mərəbəl ", "")
+
 
     if (str.length <= max_length) {
         return str;
     }
-    str = str.replace(/\([^)]*\)/g, '');
-    if (str.length > max_length) {
-        str = str.substring(0, max_length - 4).trim() + '...';
-    } else {
-        str = str.trim().replace(".", "").replace(":", "").trim()
-    }
+
+    // str = str.replace(/\([^)]*\)/g, '');
+    // if (str.length > max_length) {
+    //     str = str.substring(0, max_length - 4).trim() + '...';
+    // } else {
+    //     str = str.trim().replace(".", "").replace(":", "").trim()
+    // }
     return str;
 }
 
@@ -623,11 +627,20 @@ document.querySelector("#max_min").addEventListener("click", function () {
       }
 })
 
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape' || event.keyCode === 27) {
+        console.log('ESC key pressed!');    
+        for (const id of ["top", "book", "chapter", "sentence"]){
+            document.querySelector(`#${id}-row`).style.display = 'flex';
+        }    
+    }
+});
+
 document.addEventListener("fullscreenchange", function () {
     if (document.fullscreenElement) {
-      document.querySelector("#max_min").innerHTML = get_ICON("exit_fullscreen")
+        document.querySelector("#max_min").innerHTML = get_ICON("exit_fullscreen")
     } else {
-      document.querySelector("#max_min").innerHTML = get_ICON("enter_fullscreen")
+        document.querySelector("#max_min").innerHTML = get_ICON("enter_fullscreen")
     }
 });
 
@@ -848,6 +861,7 @@ swipeContainer.addEventListener('touchstart', (e) => {
 });
 
 swipeContainer.addEventListener('touchend', (e) => {
+    const min_delta = 5;
     endX = e.changedTouches[0].pageX;
     endY = e.changedTouches[0].pageY;
 
@@ -856,19 +870,21 @@ swipeContainer.addEventListener('touchend', (e) => {
 
     if (Math.abs(deltaX) > Math.abs(deltaY)) {
         // horizontal swipe
-        if (deltaX > 0) {
+        if (deltaX > +1 * min_delta) {
             sentence_down()
             console.log('Swiped right');
-        } else {
+        } 
+        if (deltaX < -1 * min_delta) {
             console.log('Swiped left');
             next_track()
         }
     } else {
         // vertical swipe
-        if (deltaY > 0) {
+        if (deltaY > +1 * min_delta) {
             console.log('Swiped down');
             sentence_down()
-        } else {
+        }
+        if (deltaY < -1 * min_delta) {
             console.log('Swiped up');
             next_track()
         }
