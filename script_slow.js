@@ -10,7 +10,6 @@ const STATE = {
     _isRepeat: false,    
     _isSoftMuted: false,
     _isHardMuted: true,
-
     _mapVoiceNames: {
             // Edge
             "Ava": "Microsoft Ava Online (Natural) - English (United States)",
@@ -29,12 +28,12 @@ const STATE = {
             // Chrome
             "UK Male": "Google UK English Male",
             "UK Female": "Google UK English Female",
-            "US Female": "Google US English",        
+            "US Female": "Google US English",
     },
     
     get_voices(){
         this._voices = window.speechSynthesis.getVoices().filter(voice => {
-             return Object.values(this._mapVoiceNames).includes(voice.name)
+            return Object.values(this._mapVoiceNames).includes(voice.name)
         });
         return this._voices
     },
@@ -56,7 +55,7 @@ const STATE = {
     },
 
     set voices(value){
-        _voices = value
+        this._voices = value
     },
 
     get voice(){
@@ -64,7 +63,7 @@ const STATE = {
     },
 
     set voice(value){
-        _voice = value
+        this._voice = value
     },
 
     get isPhonetic(){
@@ -147,12 +146,15 @@ const STATE = {
             const chapter_title =   truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"]["tran"])
             const text = obj_tracks[this.BXXX][this.CXXX][this.SXXX]["tran"]
             document.querySelector("#book_title").innerHTML = book_title
+            trimText("#book_title")
             document.querySelector("#chapter_title").innerHTML = chapter_title
+            trimText("#chapter_title")
             document.querySelector("#sentence_number").innerHTML = addOneToNumber(this.SXXX.slice(2, 4))
             document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length.toString().padStart(2, '0') 
             document.querySelector("#text").innerHTML = `${text}`
             if (this.CXXX === "C000"){
                 document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
+                trimText("#chapter_title")
             }
         } else {
             document.querySelector("#text_mode").innerHTML = "a";
@@ -160,15 +162,18 @@ const STATE = {
             document.querySelector("#chapter_ʧǽptər").innerHTML = "Chapter:"
             document.querySelector("#kindle").innerHTML = "Buy Kindle"
             const book_title = truncateString(obj_tracks[this.BXXX]["C000"]["S000"]["text"])
-            const chapter_title =   truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"]["text"])
+            const chapter_title = truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"]["text"])
             const text = obj_tracks[this.BXXX][this.CXXX][this.SXXX]["text"]
             document.querySelector("#book_title").innerHTML = book_title
+            trimText("#book_title")
             document.querySelector("#chapter_title").innerHTML = chapter_title
+            trimText("#chapter_title")
             document.querySelector("#sentence_number").innerHTML = addOneToNumber(this.SXXX.slice(2, 4))
             document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length.toString().padStart(2, '0') 
             document.querySelector("#text").innerHTML = `${text}`
             if (this.CXXX === "C000"){
                 document.querySelector("#chapter_title").innerHTML = "Introduction"
+                trimText("#chapter_title")
             }
         }
     },
@@ -233,6 +238,31 @@ function resizeText() {
     }
 }
 
+function trimText(elementSelector) {
+    let loop = 0
+    const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth;
+    const element = document.querySelector(elementSelector)
+    while (isOverflown(element) && element.innerHTML.length > 6 && loop < 500) {
+        element.innerHTML = element.innerHTML.slice(0, -5) + " ..."
+        loop += 1
+    }
+}
+
+function trimElementText(element) {
+    let loop = 0
+    const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth;
+    const tmp = {
+        a: element.clientWidth,
+        b: element.scrollWidth,
+        c: isOverflown(element),
+        d: element.innerHTML.length
+    }
+    while (isOverflown(element) && element.innerHTML.length > 6 && loop < 500) {
+        element.innerHTML = element.innerHTML.slice(0, -5) + " ..."
+        loop += 1
+    }
+}
+
 function deleteElementAndChildren(elementId) {
     const parent = document.getElementById(elementId);
     while (parent.firstChild) {
@@ -268,18 +298,10 @@ function truncateString(str) {
     str = str.replace("ðə 101 móʊst əméɪzᵻŋ ", "")
     str = str.replace("The 101 most memorable ", "")
     str = str.replace("ðə 101 móʊst mɛ́mərəbəl ", "")
-
-
     if (str.length <= max_length) {
         return str;
     }
-
-    // str = str.replace(/\([^)]*\)/g, '');
-    // if (str.length > max_length) {
-    //     str = str.substring(0, max_length - 4).trim() + '...';
-    // } else {
-    //     str = str.trim().replace(".", "").replace(":", "").trim()
-    // }
+    str = str.trim().replace(".", "").replace(":", "").trim()
     return str;
 }
 
@@ -334,11 +356,6 @@ function get_books(TEXTS_TRANS){
         `./${folder}/books/B013/B013_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B014/B014_${xxxxxx}_ALL.txt`,
     ]
-
-    // if (STATE.get_voices().length !== 0) {
-    //     urls.push(`./${folder}/books/B003/B003_${xxxxxx}_ALL.txt`)
-    // }
-
     for (const url of urls){
         const text = get_text(url)
         if (text !== ""){
@@ -581,15 +598,12 @@ function next_track(){
     const books = Object.keys(obj_tracks)
     const chapters = Object.keys(obj_tracks[STATE.BXXX])
     const sentences = Object.keys(obj_tracks[STATE.BXXX][STATE.CXXX])
-
     const iBXXX = books.indexOf(STATE.BXXX)
     const iCXXX = chapters.indexOf(STATE.CXXX)
     const iSXXX = sentences.indexOf(STATE.SXXX)
-
     isLastSentence = iSXXX >= sentences.length - 1
     isLastChapter = iCXXX >= chapters.length - 1
     isLastBook = iBXXX >= books.length - 1 
-
     if (!isLastSentence) {
         STATE.SXXX = sentences[iSXXX + 1]
     } else if (!isLastChapter) {
@@ -657,7 +671,7 @@ document.addEventListener("fullscreenchange", function () {
 
 document.querySelector("#text-row").addEventListener("click", function () {
     next_track()
-})
+});
 
 window.addEventListener('resize', () => {
     const screenWidth = document.documentElement.clientWidth;
@@ -681,7 +695,8 @@ document.querySelector("#book_up").addEventListener("click", function () {
         return
     }
     book_up()
-})
+});
+
 document.querySelector("#book_down").addEventListener("click", function () {
     if (document.querySelector("#list") !== null) {
         deleteElementAndChildren("list")
@@ -692,7 +707,8 @@ document.querySelector("#book_down").addEventListener("click", function () {
         return
     }
     book_down()
-})
+});
+
 document.querySelector("#chapter_up").addEventListener("click", chapter_up)
 document.querySelector("#chapter_down").addEventListener("click", chapter_down)
 document.querySelector("#sentence_up").addEventListener("click", sentence_up)
@@ -701,7 +717,7 @@ document.querySelector("#sentence_down").addEventListener("click", sentence_down
 document.querySelector("#kindle").addEventListener("click", function () {
     const url = "https://www.amazon.co.uk/brief-history-Artificial-Intelligence-ebook/dp/B0C5DWF7LL/ref=sr_1_3?crid=JZR2GY582PLP&dib=eyJ2IjoiMSJ9.JnBwUikzDVNNbEBB3gsQGVjRNSPLyT3gYzaAVz44pMZkinZ2mpvIvTDbTUKt9ivXrs5HR4ckDZpTCX1nC9R06LN5_NIUbWEeNuYFwLwgLoDSLHiCNc5Taowts64SYdidzUzgagp5r7FpcDgTGH_r3LUhYqZEFh9ZRFjASlfAOqW30o0jdtelu9-22fMh9u5zon1m3MFhXafZ_JsirOTh5Y4czrNsONOzbnLKSJulIFI.nFU77SXnHOo00pTQW5pVrVxoCGclOMu0-I1M0x3GWf4&dib_tag=se&keywords=kindle+a+brief+history+of+artificial+intelligence&qid=1717773263&sprefix=kindle+a+brief+history+of+artificial+intelligence%2Caps%2C91&sr=8-3"
     openInNewTab(url)
-})
+});
 
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
@@ -712,8 +728,7 @@ document.addEventListener('keydown', function(event) {
 
 document.querySelector("#voice").addEventListener('click', function () {
     STATE.next_voice()
-})
-
+});
 
 function hideBelowBookRow(){
     document.querySelector("#chapter-row").style.display = "none"
@@ -722,6 +737,7 @@ function hideBelowBookRow(){
     document.querySelector("#book_down").style.display = "none"
     document.querySelector("#book_up").style.display = "none"
     document.querySelector("#book > .title").style.display = "none"
+    document.querySelector("#row-warnings").style.display = "none"
 }
 
 function showBelowBookRow(){
@@ -739,6 +755,7 @@ function hideBelowChapterRow(){
     document.querySelector("#chapter_down").style.display = "none"
     document.querySelector("#chapter_up").style.display = "none"
     document.querySelector("#chapter > .title").style.display = "none"
+    document.querySelector("#row-warnings").style.display = "none"
 }
 
 function showBelowChapterRow(){
@@ -767,8 +784,10 @@ document.querySelector("#book").addEventListener("click", function (){
     document.querySelector("#app").appendChild(div_list);
     if (STATE.isPhonetic){
         document.querySelector("#book_title").innerHTML = "ʧúz ə bʊ́k:"
+        trimText("#book_title")
     } else {
         document.querySelector("#book_title").innerHTML = "Choose a Book:"
+        trimText("#book_title")
     }
     const BXXXs = Object.keys(obj_tracks)
     for (const BXXX of BXXXs){
@@ -785,8 +804,9 @@ document.querySelector("#book").addEventListener("click", function (){
             STATE.refresh()    
         });
         div_list.appendChild(div);
+        trimElementText(div)
     }
-})
+});
 
 document.querySelector("#chapter").addEventListener("click", function (){
     STATE.isSoftMuted = true
@@ -805,19 +825,24 @@ document.querySelector("#chapter").addEventListener("click", function (){
     document.querySelector("#app").appendChild(div);
     if (STATE.isPhonetic){
         document.querySelector("#chapter_title").innerHTML = "ʧúz ə ʧǽptər:"
+        trimText("#chapter_title")
     } else {
         document.querySelector("#chapter_title").innerHTML = "Choose a Chapter:"
+        trimText("#chapter_title")
     }
     const CXXXs = Object.keys(obj_tracks[STATE.BXXX])
     for (const CXXX of CXXXs){ 
         const div = document.createElement("div");
         div.className = "row list-element";
         if (CXXX !== "C000"){
-           div.innerHTML = truncateString(obj_tracks[STATE.BXXX][CXXX]["S000"][STATE.get_mode_text()]) 
+           div.innerHTML = truncateString(obj_tracks[STATE.BXXX][CXXX]["S000"][STATE.get_mode_text()])
+           trimElementText(div)
         } else if (STATE.isPhonetic) {
             div.innerHTML = "ᵻ̀ntrədʌ́kʃən"
+            trimElementText(div)
         } else {
             div.innerHTML = "Introduction"
+            trimElementText(div)
         }
         div.addEventListener("click", function(){
             STATE.CXXX = CXXX
@@ -828,39 +853,12 @@ document.querySelector("#chapter").addEventListener("click", function (){
             STATE.refresh()
         });
         document.querySelector("#list").appendChild(div);
+        trimElementText(div)
     }
 })
 
-// Intialisation
-
-const audios = []
-const playbackRate = 0.8
-const filtered_out_chapters = get_filtered_out_chapters()
-const unfiltered_obj_tracks = get_obj_tracks()
-const obj_tracks = applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
-
-setTimeout(_ => {
-    STATE.get_voices()
-    if (STATE.voices.length !== 0) {
-        console.log("asdf")
-        document.querySelector("#voice").style.display = "flex";
-        STATE.next_voice()
-    }
-    STATE.refresh()
-}, 2000)
-
-// STATE.get_voices()
-// if (STATE.voices.length !== 0) {
-//     console.log("asdf")
-//     document.querySelector("#voice").style.display = "flex";
-//     STATE.next_voice()
-// }
-// STATE.refresh()
-
-
-
-
-
+///////////////////////////////////////////////
+//                                           //
 ///////////////////////////////////////////////
 
 let startX, startY, endX, endY;
@@ -902,6 +900,27 @@ swipeContainer.addEventListener('touchend', (e) => {
     }
 });
 
-//////////////////////////////////////////////////
+///////////////////////////////////////////////
+//                                           //
+///////////////////////////////////////////////
 
-document.querySelector("#enter-btn").style.visibility = "visible";
+const audios = []
+const playbackRate = 0.8
+const filtered_out_chapters = get_filtered_out_chapters()
+const unfiltered_obj_tracks = get_obj_tracks()
+const obj_tracks = applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
+
+setTimeout(_ => {
+    STATE.get_voices()
+    if (STATE.voices.length !== 0) {
+        console.log("asdf")
+        document.querySelector("#voice").style.display = "flex";
+        STATE.next_voice()
+    }
+    STATE.refresh()
+    document.querySelector("#enter-btn").style.visibility = "visible";
+}, 100)
+
+///////////////////////////////////////////////
+//                                           //
+///////////////////////////////////////////////
