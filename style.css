@@ -70,6 +70,10 @@ h1 {
 }
 
 #enter-btn {
+    display: flex; /* add this to make the button a flex container */
+    flex-direction: row;
+    row-gap: 50px;
+    align-items: center; /* vertically center the contents */
 	background-color: #4CAF50;
 	color: #ffffff;
 	padding: 10px 20px;
@@ -83,7 +87,8 @@ h1 {
     align-items: center;
     height: 4rem;
     font-size: 1.4rem;
-    visibility: hidden;
+    /* visibility: hidden; */
+    visibility: visible;
 }
 
 #enter-btn:hover {
@@ -284,3 +289,21 @@ h1 {
     cursor: pointer;
 }
 
+.spinner {
+    margin-left: 15px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    border-top: 2px solid #4CAF50;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}

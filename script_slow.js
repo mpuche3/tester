@@ -918,7 +918,11 @@ setTimeout(_ => {
         STATE.next_voice()
     }
     STATE.refresh()
-    document.querySelector("#enter-btn").style.visibility = "visible";
+    document.querySelector("#enter-btn").innerHTML = "ENTER"
+    document.querySelector("#enter-btn").addEventListener("click", function() {
+        document.querySelector("#app").style.display = "flex"
+        document.querySelector("#app00").style.display = "none"
+    });
 }, 100)
 
 ///////////////////////////////////////////////

@@ -1,10 +1,5 @@
 console.log("Running script_fast.js")
 
-document.getElementById("enter-btn").addEventListener("click", function() {
-	document.querySelector("#app").style.display = "flex"
-    document.querySelector("#app00").style.display = "none"
-});
-
 function get_ICON(x){
     const ICON_PATH = {
         start: '<path d="m384-334 96-74 96 74-36-122 90-64H518l-38-124-38 124H330l90 64-36 122ZM233-120l93-304L80-600h304l96-320 96 320h304L634-424l93 304-247-188-247 188Zm247-369Z"/>',
