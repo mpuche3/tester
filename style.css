@@ -66,7 +66,7 @@ h1 {
 
 #warning-sound {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 #enter-btn {
@@ -265,7 +265,6 @@ h1 {
 #sentence-row > button > p{
     font-size: 1.4rem;
 }
-
 
 #sentence > p{
     padding: 5px;
