@@ -113,14 +113,12 @@ const STATE = {
     next_voice() {
         if (this.voices.length !== 0) {
             const index = this.voices.indexOf(this._voice)
-            if (index === -1) {
-                if (this.voices[2] !== undefined){
-                    this._voice = this.voices[2]
-                } else {
-                    this._voice = this.voices[0]
-                }
-            } else if  (index === this.voices.length - 1) {
+            if (index === -1 && this._voice !== "echo") {
+                this._voice = "echo"
+            } else if (index === -1 ) {
                 this._voice = this.voices[0]
+            } else if  (index === this.voices.length - 1) {
+                this._voice = "echo"
             } else {
                 this._voice = this.voices[index + 1]
             }

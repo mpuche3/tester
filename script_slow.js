@@ -113,14 +113,12 @@ const STATE = {
     next_voice() {
         if (this.voices.length !== 0) {
             const index = this.voices.indexOf(this._voice)
-            if (index === -1) {
-                if (this.voices[2] !== undefined){
-                    this._voice = this.voices[2]
-                } else {
-                    this._voice = this.voices[0]
-                }
-            } else if  (index === this.voices.length - 1) {
+            if (index === -1 && this._voice !== "echo") {
+                this._voice = "echo"
+            } else if (index === -1 ) {
                 this._voice = this.voices[0]
+            } else if  (index === this.voices.length - 1) {
+                this._voice = "echo"
             } else {
                 this._voice = this.voices[index + 1]
             }
@@ -145,7 +143,9 @@ const STATE = {
             document.querySelector("#text_mode").innerHTML = "æ";
             document.querySelector("#book_bʊ́k").innerHTML = "bʊ́k:"
             document.querySelector("#chapter_ʧǽptər").innerHTML = "ʧǽptər:"
-            document.querySelector("#kindle").innerHTML = "báɪ kᵻ́ndəl"
+            if (["B001"].includes(this.BXXX)){
+                document.querySelector("#kindle").innerHTML = "báɪ kᵻ́ndəl"
+            }
             const book_title = truncateString(obj_tracks[this.BXXX]["C000"]["S000"]["tran"])
             const chapter_title =   truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"]["tran"])
             const text = obj_tracks[this.BXXX][this.CXXX][this.SXXX]["tran"]
@@ -164,7 +164,9 @@ const STATE = {
             document.querySelector("#text_mode").innerHTML = "a";
             document.querySelector("#book_bʊ́k").innerHTML = "Book:"
             document.querySelector("#chapter_ʧǽptər").innerHTML = "Chapter:"
-            document.querySelector("#kindle").innerHTML = "Buy Kindle"
+            if (["B001"].includes(this.BXXX)){
+                document.querySelector("#kindle").innerHTML = "Buy Kindle"
+            }
             const book_title = truncateString(obj_tracks[this.BXXX]["C000"]["S000"]["text"])
             const chapter_title = truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"]["text"])
             const text = obj_tracks[this.BXXX][this.CXXX][this.SXXX]["text"]
@@ -719,8 +721,10 @@ document.querySelector("#sentence_up").addEventListener("click", sentence_up)
 document.querySelector("#sentence_down").addEventListener("click", sentence_down)
 
 document.querySelector("#kindle").addEventListener("click", function () {
-    const url = "https://www.amazon.co.uk/brief-history-Artificial-Intelligence-ebook/dp/B0C5DWF7LL/ref=sr_1_3?crid=JZR2GY582PLP&dib=eyJ2IjoiMSJ9.JnBwUikzDVNNbEBB3gsQGVjRNSPLyT3gYzaAVz44pMZkinZ2mpvIvTDbTUKt9ivXrs5HR4ckDZpTCX1nC9R06LN5_NIUbWEeNuYFwLwgLoDSLHiCNc5Taowts64SYdidzUzgagp5r7FpcDgTGH_r3LUhYqZEFh9ZRFjASlfAOqW30o0jdtelu9-22fMh9u5zon1m3MFhXafZ_JsirOTh5Y4czrNsONOzbnLKSJulIFI.nFU77SXnHOo00pTQW5pVrVxoCGclOMu0-I1M0x3GWf4&dib_tag=se&keywords=kindle+a+brief+history+of+artificial+intelligence&qid=1717773263&sprefix=kindle+a+brief+history+of+artificial+intelligence%2Caps%2C91&sr=8-3"
-    openInNewTab(url)
+    if (STATE.BXXX === "B001"){
+        const url = "https://www.amazon.co.uk/brief-history-Artificial-Intelligence-ebook/dp/B0C5DWF7LL/ref=sr_1_3?crid=JZR2GY582PLP&dib=eyJ2IjoiMSJ9.JnBwUikzDVNNbEBB3gsQGVjRNSPLyT3gYzaAVz44pMZkinZ2mpvIvTDbTUKt9ivXrs5HR4ckDZpTCX1nC9R06LN5_NIUbWEeNuYFwLwgLoDSLHiCNc5Taowts64SYdidzUzgagp5r7FpcDgTGH_r3LUhYqZEFh9ZRFjASlfAOqW30o0jdtelu9-22fMh9u5zon1m3MFhXafZ_JsirOTh5Y4czrNsONOzbnLKSJulIFI.nFU77SXnHOo00pTQW5pVrVxoCGclOMu0-I1M0x3GWf4&dib_tag=se&keywords=kindle+a+brief+history+of+artificial+intelligence&qid=1717773263&sprefix=kindle+a+brief+history+of+artificial+intelligence%2Caps%2C91&sr=8-3"
+        openInNewTab(url)        
+    }
 });
 
 document.addEventListener('keydown', function(event) {
