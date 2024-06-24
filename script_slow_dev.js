@@ -912,7 +912,7 @@ const audios = []
 const playbackRate = 0.8
 const filtered_out_chapters = get_filtered_out_chapters()
 const unfiltered_obj_tracks = get_obj_tracks()
-const obj_tracks = applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
+const obj_tracks = unfiltered_obj_tracks //applyfiter(unfiltered_obj_tracks, filtered_out_chapters) 
 
 setTimeout(_ => {
     STATE.get_voices()

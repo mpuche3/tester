@@ -7,25 +7,25 @@
 [x] B001C006: ɒ́pərənt kəndᵻ́ʃənᵻŋ.
 [o] B001C007: ɛ́bᵻŋhaʊs fərɡɛ́tᵻŋ kɜ́rv.
 [o] B001C008: ətǽʧmənt θíəri.
-[o] B001C009: sóʊʃəl aɪdɛ́ntᵻtì θíəri.
-[o] B001C010: sɛ́lf-ɛ́fᵻkæ̀si.
+[x] B001C009: sóʊʃəl aɪdɛ́ntᵻtì θíəri.
+[x] B001C010: sɛ́lf-ɛ́fᵻkæ̀si.
 [o] B001C011: kɒ̀nfərméɪʃən báɪəs.
 [o] B001C012: báɪstæ̀ndər əfɛ́kt.
 [o] B001C013: lɜ́rnd hɛ́lpləsnəs.
-[o] B001C014: kɒ́ɡnᵻtᵻv bihéɪvjərəl θɛ́rəpi.
+[x] B001C014: kɒ́ɡnᵻtᵻv bihéɪvjərəl θɛ́rəpi.
 [o] B001C015: héɪloʊ əfɛ́kt.
-[o] B001C016: ðə stǽnfərd prᵻ́zən əkspɛ́rᵻmənt.
-[o] B001C017: hjʊrᵻ́stᵻks.
+[x] B001C016: ðə stǽnfərd prᵻ́zən əkspɛ́rᵻmənt.
+[x] B001C017: hjʊrᵻ́stᵻks.
 [o] B001C018: ðə pləsíboʊ əfɛ́kt.
 [o] B001C019: fʌ̀ndəmɛ́ntəl æ̀trᵻbjúʃən ɛ́rər.
 [o] B001C020: ðə mɑ́rʃmɛ̀loʊ tɛ́st.
 [x] B001C021: skíməz.
 [o] B001C022: lóʊkəs əv kəntróʊl.
-[o] B001C023: ðə dʌ́nᵻŋ-krúɡər əfɛ́kt.
-[o] B001C024: ðə strúp əfɛ́kt.
+[x] B001C023: ðə dʌ́nᵻŋ-krúɡər əfɛ́kt.
+[x] B001C024: ðə strúp əfɛ́kt.
 [x] B001C025: flóʊ.
 [o] B001C026: ɡrúpθᵻŋk.
-[o] B001C027: ðə tráɪjùn bréɪn mɒ́dəl.
+[x] B001C027: ðə tráɪjùn bréɪn mɒ́dəl.
 [o] B001C028: kɒ́nʃəsnəs æz ən əmɜ́rʤənt prɒ́pərti.
 [o] B001C029: ðə fɔ́ls kənsɛ́nsəs əfɛ́kt.
 [o] B001C030: ðə fɔ́ls junᵻ́knəs əfɛ́kt.
@@ -85,7 +85,7 @@
 [x] B001C084: jɜ́rks-dɒ́dsən lɒ́.
 [x] B001C085: ðə blú dɒ́t ᵻ̀lúʒən.
 [o] B001C086: ðə mɪ́r óʊnərʃᵻ̀p əfɛ́kt.
-[o] B001C087: ðə bɛnʤǽmᵻn frǽŋklᵻn əfɛ́kt.
+[x] B001C087: ðə bɛnʤǽmᵻn frǽŋklᵻn əfɛ́kt.
 [x] B001C088: ðə məɡɜ́rk əfɛ́kt.
 [o] B001C089: ðə pík-ɛ́nd rúl.
 [o] B001C090: ðə òʊvərʤʌstᵻfᵻkéɪʃən əfɛ́kt.
@@ -123,7 +123,7 @@
 [o] B001C122: ðə fʌ̀ndəmɛ́ntəl æ̀trᵻbjúʃən ɛ́rər.
 [x] B001C123: ðə ɔ́strᵻʧ əfɛ́kt.
 [o] B001C124: kɒ̀nfərméɪʃən báɪəs.
-[o] B001C125: ðə róʊzi rɛ̀troʊspɛ́kʃən.
+[x] B001C125: ðə róʊzi rɛ̀troʊspɛ́kʃən.
 [x] B001C126: ðə ɡǽmblər'z fǽləsi.
 [x] B001C127: ðə fríkwənsi ᵻ̀lúʒən.
 [x] B001C128: frɔ́ɪdᵻən slᵻ́p.
@@ -133,15 +133,15 @@
 [x] B001C132: sɒ́ləmən ǽʃ'z əkspɛ́rᵻmənt ɒn kənfɔ́rmᵻti.
 [x] B001C133: ðə mᵻ́lɡræ̀m oʊbídiəns əkspɛ́rᵻmənt.
 [x] B001C134: wɒt ᵻz ᵻt láɪk tə bi ə bǽt?.
-[o] B001C135: ðə fᵻ̀ləsɒ́fᵻkəl zɒ́mbiz.
+[x] B001C135: ðə fᵻ̀ləsɒ́fᵻkəl zɒ́mbiz.
 [o] B001C136: əmòʊʃənəl ᵻ̀ntɛ́lᵻʤəns.
-[o] B001C137: ləbɒ́təmi.
+[x] B001C137: ləbɒ́təmi.
 [x] B001C138: pæ̀rəsᵻ̀mpəθɛ́tᵻk ənd sᵻ̀mpəθɛ́tᵻk nɜ́rvəs sᵻ́stəm.
 [x] B001C139: ðə róʊl əv ðə æ̀mᵻɡdɒ́lə.
 [o] B001C140: ðə ɡʌ́t-bréɪn kənɛ́kʃən.
 [o] B001C141: ʧɔ́ɪs fətíɡ.
 [o] B001C142: ðə ᵻ̀lúʒən əv ʧɔ́ɪs.
-[o] B001C143: íɡoʊ dəplíʃən.
+[x] B001C143: íɡoʊ dəplíʃən.
 [o] B001C144: mɪ́rər nʊ́rɒnz.
 [x] B001C145: ðə strɛ́s-daɪǽθᵻsᵻs mɒ́dəl.
 [x] B001C146: sóʊʃəl lɜ́rnᵻŋ.
@@ -154,7 +154,7 @@
 [x] B001C153: ðə tᵻ́p-əv-ðə-tʌ́ŋ fənɒ́mənɒ̀n.
 [x] B001C154: prɒ̀soʊpæɡnóʊʒə.
 [x] B001C155: dráɪv θíəri.
-[o] B001C156: sóʊʃəl kəmpɛ́rᵻsən θíəri.
+[x] B001C156: sóʊʃəl kəmpɛ́rᵻsən θíəri.
 [x] B001C157: ʒin pìəʒéɪ.
 [x] B001C158: ᵻn-ɡrúp báɪəs.
 [o] B001C159: ᵻ̀lúsəri sùpɪriɔ́rᵻti.
@@ -194,15 +194,15 @@
 [o] B001C202: sɛ́nsəri mɛ́məri.
 [o] B001C203: pɒ́zᵻtᵻv saɪkɒ́ləʤi.
 [o] B001C204: ətǽʧmənt stáɪlz.
-[o] B001C205: bàɪəsàɪkoʊsɔ́ʃəl mɒ́dəl.
+[x] B001C205: bàɪəsàɪkoʊsɔ́ʃəl mɒ́dəl.
 [o] B001C206: dráɪv rədʌ́kʃən θíəri.
 [o] B001C207: lɜ́rnd ɒ́ptᵻmᵻ̀zəm.
 [o] B001C208: sóʊʃəl əksʧéɪnʤ θíəri.
 [o] B001C209: pǽrədɒ̀ks əv ʧɔ́ɪs.
 [o] B001C210: pǽrədɒ̀ks əv hídənᵻ̀zəm.
 [o] B001C211: hɛ́ʤhɒ̀ɡ's daɪlɛ́mə.
-[o] B001C212: aɪrɒ́nᵻk prɒ́sɛ̀s θíəri.
-[o] B001C213: pǽrədɒ̀ks əv ðə kɔ́rt.
+[x] B001C212: aɪrɒ́nᵻk prɒ́sɛ̀s θíəri.
+[x] B001C213: pǽrədɒ̀ks əv ðə kɔ́rt.
 [o] B001C214: ǽroʊ ᵻ̀nfərméɪʃən pǽrədɒ̀ks.
 [o] B001C215: ðə pǽrədɒ̀ks əv ʧɔ́ɪs.
 [o] B001C216: kɒ́ɡnᵻtᵻv plʊ́rəlᵻ̀zəm.
@@ -211,59 +211,59 @@
 [o] B001C219: dəmɛ́nʃiə.
 [o] B001C220: nɑ́rsᵻsᵻ̀zəm.
 [o] B001C221: hᵻstɛ́riə.
-[o] B001C222: pɜ̀rsənǽlᵻti dᵻsɔ́rdərz:.
-[o] B001C223: pǽrənɔ̀ɪd pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
-[o] B001C224: skᵻ́tsɔ̀ɪd pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
-[o] B001C225: skᵻ̀tsətáɪpəl pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
-[o] B001C226: æ̀ntisóʊʃəl pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
-[o] B001C227: bɔ́rdərlàɪn pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
-[o] B001C228: hᵻ̀striɒ́nᵻk pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
-[o] B001C229: nɑ̀rsᵻsᵻ́stᵻk pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
-[o] B001C230: əvɔ́ɪdənt pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
-[o] B001C231: dəpɛ́ndənt pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
-[o] B001C232: əbsɛ́sᵻv-kəmpʌ́lsᵻv pɜ̀rsənǽlᵻti dᵻsɔ́rdər:.
-[o] B001C233: əbsɛ́sᵻv-kəmpʌ́lsᵻv dᵻsɔ́rdər.
-[o] B001C234: skᵻ̀tsəfríniə.
-[o] B001C235: æŋzáɪəti dᵻsɔ́rdərz.
-[o] B001C236: dəprɛ́ʃən.
+[x] B001C222: pɜ̀rsənǽlᵻti dᵻsɔ́rdərz:.
+[x] B001C223: pǽrənɔ̀ɪd pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
+[x] B001C224: skᵻ́tsɔ̀ɪd pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
+[x] B001C225: skᵻ̀tsətáɪpəl pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
+[x] B001C226: æ̀ntisóʊʃəl pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
+[x] B001C227: bɔ́rdərlàɪn pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
+[x] B001C228: hᵻ̀striɒ́nᵻk pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
+[x] B001C229: nɑ̀rsᵻsᵻ́stᵻk pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
+[x] B001C230: əvɔ́ɪdənt pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
+[x] B001C231: dəpɛ́ndənt pɜ̀rsənǽlᵻti dᵻsɔ́rdər.
+[x] B001C232: əbsɛ́sᵻv-kəmpʌ́lsᵻv pɜ̀rsənǽlᵻti dᵻsɔ́rdər:.
+[x] B001C233: əbsɛ́sᵻv-kəmpʌ́lsᵻv dᵻsɔ́rdər.
+[x] B001C234: skᵻ̀tsəfríniə.
+[x] B001C235: æŋzáɪəti dᵻsɔ́rdərz.
+[x] B001C236: dəprɛ́ʃən.
 [o] B001C237: baɪpóʊlər dᵻsɔ́rdər.
 [o] B001C238: póʊst-trɔmǽtᵻk strɛ́s dᵻsɔ́rdər (PTSD).
-[o] B001C239: ítᵻŋ dᵻsɔ́rdərz.
-[o] B001C240: ðə snéɪk dətɛ́kʃən haɪpɒ́θəsᵻs.
-[o] B001C241: ðə ɛ̀vəlúʃənɛ̀ri pərspɛ́ktᵻv ɒn dəprɛ́ʃən.
+[x] B001C239: ítᵻŋ dᵻsɔ́rdərz.
+[x] B001C240: ðə snéɪk dətɛ́kʃən haɪpɒ́θəsᵻs.
+[x] B001C241: ðə ɛ̀vəlúʃənɛ̀ri pərspɛ́ktᵻv ɒn dəprɛ́ʃən.
 [o] B001C242: mǽnspleɪnᵻŋ.
-[o] B001C243: sᵻ́ləʤᵻztᵻk rízənᵻŋ.
-[o] B001C244: kənvɜ́rʒən dᵻsɔ́rdər.
-[o] B001C245: DSM.
+[x] B001C243: sᵻ́ləʤᵻztᵻk rízənᵻŋ.
+[x] B001C244: kənvɜ́rʒən dᵻsɔ́rdər.
+[x] B001C245: DSM.
 [o] B001C246: ðə véɪɡəs nɜ́rv.
 [o] B001C247: plʊ̀rəlᵻ́stᵻk ᵻ́ɡnərəns.
-[o] B001C248: dàɪəbítiz táɪp III.
-[o] B001C249: ðə spɒ́tlàɪt əv kɒ́nʃəsnəs.
+[x] B001C248: dàɪəbítiz táɪp III.
+[x] B001C249: ðə spɒ́tlàɪt əv kɒ́nʃəsnəs.
 [o] B001C250: ðə nóʊbəl sǽvᵻʤ.
 [o] B001C251: ǽndrəʤən ᵻ̀nsɛ̀nsᵻtᵻ́vᵻti sᵻ́ndròʊm.
-[o] B001C252: bjúti ᵻz ᵻn ðə áɪz əv ðə bihóʊldər.
-[o] B001C253: ǽntᵻ-əθɔ̀rᵻtɛ́riənᵻ̀zəm.
+[x] B001C252: bjúti ᵻz ᵻn ðə áɪz əv ðə bihóʊldər.
+[x] B001C253: ǽntᵻ-əθɔ̀rᵻtɛ́riənᵻ̀zəm.
 [o] B001C254: ɒpəzᵻ́ʃənəl dəfáɪənt dᵻsɔ́rdər.
 [o] B001C255: əθɔ́rᵻti ᵻ́ʃuz ɔr əθɔ́rᵻti kɒ́nflᵻkt.
 [o] B001C256: ðə nɑ́rsᵻsᵻ̀zəm əv smɔ́l dᵻ́fərənsᵻz.
 [o] B001C257: náɪəlᵻ̀zəm.
-[o] B001C258: ðə flᵻ́n əfɛ́kt.
+[x] B001C258: ðə flᵻ́n əfɛ́kt.
 [o] B001C259: flúᵻd vɜ́rsəs krᵻ́stəlàɪzd ᵻ̀ntɛ́lᵻʤəns.
-[o] B001C260: wi ɑr aʊər bréɪnz.
-[o] B001C261: ðə kʊ́ʃᵻŋ's sᵻ́ndròʊm.
-[o] B001C262: ʃʊ́ɡər kéɪn.
-[o] B001C263: nàɪív ríəlᵻzm.
+[x] B001C260: wi ɑr aʊər bréɪnz.
+[x] B001C261: ðə kʊ́ʃᵻŋ's sᵻ́ndròʊm.
+[x] B001C262: ʃʊ́ɡər kéɪn.
+[x] B001C263: nàɪív ríəlᵻzm.
 [o] B001C264: nʊ̀roʊdaɪvɜ́rsᵻti,.
 [o] B001C265: vɜ́rʧu sᵻ́ɡnəlᵻŋ.
-[o] B001C266: sóʊlᵻpsᵻzəm.
-[o] B001C267: sɛ́ntiəns məʃín (ᵻz ᵻt prossible fɔr məʃínz tə bi sentience?).
-[o] B001C268: pænsáɪkᵻzəm.
-[o] B001C269: dúəlᵻ̀zəm, mətɪ́riəlᵻ̀zəm ənd pænsáɪkᵻzəm.
-[o] B001C270: sóʊlᵻpsᵻzəm.
+[x] B001C266: sóʊlᵻpsᵻzəm.
+[x] B001C267: sɛ́ntiəns məʃín (ᵻz ᵻt prossible fɔr məʃínz tə bi sentience?).
+[x] B001C268: pænsáɪkᵻzəm.
+[x] B001C269: dúəlᵻ̀zəm, mətɪ́riəlᵻ̀zəm ənd pænsáɪkᵻzəm.
+[x] B001C270: sóʊlᵻpsᵻzəm.
 [o] B001C271: ʧɒ́lmər'z zɒ́mbiz.
 [o] B001C272: sᵻ̀nəsθízᵻə.
-[o] B001C273: nɔ́rməlsi báɪəs.
-[o] B001C274: nɔstǽlʤə báɪəs.
+[x] B001C273: nɔ́rməlsi báɪəs.
+[x] B001C274: nɔstǽlʤə báɪəs.
 [o] B002C000: məʃín lɜ́rnᵻŋ.
 [x] B002C001: ᵻ̀ntrədʌ́kʃən.
 [x] B002C002: məʃín lɜ́rnᵻŋ.
