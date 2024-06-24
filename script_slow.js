@@ -145,6 +145,8 @@ const STATE = {
             document.querySelector("#chapter_ʧǽptər").innerHTML = "ʧǽptər:"
             if (["B001"].includes(this.BXXX)){
                 document.querySelector("#kindle").innerHTML = "báɪ kᵻ́ndəl"
+            } else {
+                document.querySelector("#kindle").innerHTML = ""
             }
             const book_title = truncateString(obj_tracks[this.BXXX]["C000"]["S000"]["tran"])
             const chapter_title =   truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"]["tran"])
@@ -166,6 +168,8 @@ const STATE = {
             document.querySelector("#chapter_ʧǽptər").innerHTML = "Chapter:"
             if (["B001"].includes(this.BXXX)){
                 document.querySelector("#kindle").innerHTML = "Buy Kindle"
+            } else {
+                document.querySelector("#kindle").innerHTML = ""
             }
             const book_title = truncateString(obj_tracks[this.BXXX]["C000"]["S000"]["text"])
             const chapter_title = truncateString(obj_tracks[this.BXXX][this.CXXX]["S000"]["text"])
