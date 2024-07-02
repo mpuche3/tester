@@ -110,6 +110,11 @@ const STATE = {
         }
     },
 
+    toggleSpellingMode(){
+        this._isPhonetic = !this.isPhonetic;
+        this.refresh_text()
+    },
+
     next_voice() {
         if (this.voices.length !== 0) {
             const index = this.voices.indexOf(this._voice)
@@ -664,8 +669,13 @@ document.querySelector("#max_min").addEventListener("click", function () {
 })
 
 document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape' || event.keyCode === 27) {
-        console.log('ESC key pressed!');    
+    if (event.key === 'Enter') {
+        event.preventDefault();        
+        next_track();
+    } else if (event.key === " ") {
+        event.preventDefault();
+        STATE.toggleSpellingMode();
+    } else if (event.key === 'Escape' || event.keyCode === 27) { 
         for (const id of ["top", "book", "chapter", "sentence"]){
             document.querySelector(`#${id}-row`).style.display = 'flex';
         }    
@@ -729,13 +739,6 @@ document.querySelector("#kindle").addEventListener("click", function () {
     if (STATE.BXXX === "B001"){
         const url = "https://www.amazon.co.uk/brief-history-Artificial-Intelligence-ebook/dp/B0C5DWF7LL/ref=sr_1_3?crid=JZR2GY582PLP&dib=eyJ2IjoiMSJ9.JnBwUikzDVNNbEBB3gsQGVjRNSPLyT3gYzaAVz44pMZkinZ2mpvIvTDbTUKt9ivXrs5HR4ckDZpTCX1nC9R06LN5_NIUbWEeNuYFwLwgLoDSLHiCNc5Taowts64SYdidzUzgagp5r7FpcDgTGH_r3LUhYqZEFh9ZRFjASlfAOqW30o0jdtelu9-22fMh9u5zon1m3MFhXafZ_JsirOTh5Y4czrNsONOzbnLKSJulIFI.nFU77SXnHOo00pTQW5pVrVxoCGclOMu0-I1M0x3GWf4&dib_tag=se&keywords=kindle+a+brief+history+of+artificial+intelligence&qid=1717773263&sprefix=kindle+a+brief+history+of+artificial+intelligence%2Caps%2C91&sr=8-3"
         openInNewTab(url)        
-    }
-});
-
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-        event.preventDefault();        
-        next_track();
     }
 });
 

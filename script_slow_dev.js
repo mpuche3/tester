@@ -110,6 +110,11 @@ const STATE = {
         }
     },
 
+    toggleSpellingMode(){
+        this._isPhonetic = !this.isPhonetic;
+        this.refresh_text()
+    },
+
     next_voice() {
         if (this.voices.length !== 0) {
             const index = this.voices.indexOf(this._voice)
@@ -655,15 +660,6 @@ document.querySelector("#max_min").addEventListener("click", function () {
       }
 })
 
-document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape' || event.keyCode === 27) {
-        console.log('ESC key pressed!');    
-        for (const id of ["top", "book", "chapter", "sentence"]){
-            document.querySelector(`#${id}-row`).style.display = 'flex';
-        }    
-    }
-});
-
 document.addEventListener("fullscreenchange", function () {
     if (document.fullscreenElement) {
         document.querySelector("#max_min").innerHTML = get_ICON("exit_fullscreen")
@@ -726,6 +722,13 @@ document.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         event.preventDefault();        
         next_track();
+    } else if (event.key === " ") {
+        event.preventDefault();
+        STATE.toggleSpellingMode();
+    } else if (event.key === 'Escape' || event.keyCode === 27) {
+        for (const id of ["top", "book", "chapter", "sentence"]){
+            document.querySelector(`#${id}-row`).style.display = 'flex';
+        }    
     }
 });
 
