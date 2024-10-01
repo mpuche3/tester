@@ -229,7 +229,7 @@ const STATE = {
     },
 
     refresh_warning (){
-        const isBookWithSound = ["B001", "B002", "B009"].includes(this.BXXX)
+        const isBookWithSound = ["B001", "B002", "B009", "B017"].includes(this.BXXX)
         const areVoicesAvailable = this.voices.length !== 0
         if (areVoicesAvailable || isBookWithSound) {
             document.querySelector("#row-warnings").style.display = "none"
@@ -372,6 +372,7 @@ function get_books(TEXTS_TRANS){
         `./${folder}/books/B014/B014_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B015/B015_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B016/B016_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B016/B017_${xxxxxx}_ALL.txt`,
     ]
     for (const url of urls){
         const text = get_text(url)
