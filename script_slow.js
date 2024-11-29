@@ -373,6 +373,7 @@ function get_books(TEXTS_TRANS){
         `./${folder}/books/B015/B015_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B016/B016_${xxxxxx}_ALL.txt`,
         `./${folder}/books/B017/B017_${xxxxxx}_ALL.txt`,
+        `./${folder}/books/B018/B018_${xxxxxx}_ALL.txt`,
     ]
     for (const url of urls){
         const text = get_text(url)
@@ -677,6 +678,21 @@ document.addEventListener('keydown', function(event) {
     } else if (event.key === " ") {
         event.preventDefault();
         STATE.toggleSpellingMode();
+    } else if (event.key === "ArrowUp") {
+        event.preventDefault();
+        document.querySelector("#book_down").click()
+    } else if (event.key === "ArrowDown") {
+        event.preventDefault();
+        document.querySelector("#book_up").click()
+    } else if (event.key === "ArrowRight") {
+        event.preventDefault();
+        document.querySelector("#chapter_up").click()
+    } else if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        document.querySelector("#chapter_down").click()
+    } else if (event.key === "s") {
+        event.preventDefault();
+        document.querySelector("#sound").click()
     } else if (event.key === 'Escape' || event.keyCode === 27) { 
         for (const id of ["top", "book", "chapter", "sentence"]){
             document.querySelector(`#${id}-row`).style.display = 'flex';
