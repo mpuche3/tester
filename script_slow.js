@@ -680,16 +680,16 @@ document.addEventListener('keydown', function(event) {
         STATE.toggleSpellingMode();
     } else if (event.key === "ArrowUp") {
         event.preventDefault();
-        document.querySelector("#book_down").click()
+        document.querySelector("#chapter_down").click()
     } else if (event.key === "ArrowDown") {
         event.preventDefault();
-        document.querySelector("#book_up").click()
+        document.querySelector("#chapter_up").click()
     } else if (event.key === "ArrowRight") {
         event.preventDefault();
-        document.querySelector("#chapter_up").click()
+        document.querySelector("#sentence_up").click()
     } else if (event.key === "ArrowLeft") {
         event.preventDefault();
-        document.querySelector("#chapter_down").click()
+        document.querySelector("#sentence_down").click()
     } else if (event.key === "s") {
         event.preventDefault();
         document.querySelector("#sound").click()
