@@ -162,7 +162,7 @@ const STATE = {
             trimText("#chapter_title")
             document.querySelector("#sentence_number").innerHTML = addOneToNumber(this.SXXX.slice(2, 4))
             document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length.toString().padStart(2, '0') 
-            document.querySelector("#text").innerHTML = `${text}`
+            document.querySelector("#text").innerHTML = `${text.replace(": ", "<br><br>")}`
             if (this.CXXX === "C000"){
                 document.querySelector("#chapter_title").innerHTML = "ᵻ̀ntrədʌ́kʃən"
                 trimText("#chapter_title")
@@ -185,7 +185,7 @@ const STATE = {
             trimText("#chapter_title")
             document.querySelector("#sentence_number").innerHTML = addOneToNumber(this.SXXX.slice(2, 4))
             document.querySelector("#sentence_total_number").innerHTML = Object.keys(obj_tracks[this.BXXX][this.CXXX]).length.toString().padStart(2, '0') 
-            document.querySelector("#text").innerHTML = `${text}`
+            document.querySelector("#text").innerHTML = `${text.replace(": ", "<br><br>")}`
             if (this.CXXX === "C000"){
                 document.querySelector("#chapter_title").innerHTML = "Introduction"
                 trimText("#chapter_title")
@@ -693,6 +693,9 @@ document.addEventListener('keydown', function(event) {
     } else if (event.key === "s") {
         event.preventDefault();
         document.querySelector("#sound").click()
+    } else if (event.key === "a") {
+        event.preventDefault();
+        document.querySelector("#text_mode").click()
     } else if (event.key === 'Escape' || event.keyCode === 27) { 
         for (const id of ["top", "book", "chapter", "sentence"]){
             document.querySelector(`#${id}-row`).style.display = 'flex';
