@@ -1,6 +1,8 @@
 # Welcome to EnglishIPA
 visit us at [englishipa.site](https://englishipa.site/)
 
+***
+
 EnglishIPA is a collection of books (written by AI, like Claude Sonnet 3.5) that span a wide range of topics, from psychology to machine learning and more.
 
 ![alt text](image.png)
