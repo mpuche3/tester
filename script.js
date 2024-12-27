@@ -1,13 +1,21 @@
 console.log("Running Script.js")
 
+initial_sentences = [{
+    "txt": "Colonel: The colonel led his regiment with great authority.",
+    "ipa": "## kɜ́rnəl: ðə kɜ́rnəl lɛ́d hᵻz rɛ́dʒᵻmənt wᵻð ɡrɛ́jt əθɔ́rᵻtij.",
+    "hash": "TXT_ad09ce6c8278b147bd0744441b1ea6.mp3",
+    "score": 0.5
+}]
+
 const STATE = {
-    dict: {},
+    sentences: initial_sentences,
+    sentence: initial_sentences[0],
     voices: [],
     _voice: "echo",
-    _isPhonetic: false,
-    _isRepeat: false,    
+    _isPhonetic: true,
+    _isRepeat: true,    
     _isSoftMuted: false,
-    _isHardMuted: true,
+    _isHardMuted: false,
     _mapVoiceNames: {
             // Edge
             "Ava": "Microsoft Ava Online (Natural) - English (United States)",
@@ -29,9 +37,17 @@ const STATE = {
             "US Female": "Google US English",
     },
     
-    get_dict(){
-        const dict = data
-        return dict
+    next_sentence(){
+        while (true) {
+            index = Math.floor(Math.random() * STATE.sentences.length)
+            score = localStorage.getItem(STATE.sentences[index].hash) || STATE.sentences[index].score;
+            score = Number(score);
+            if (Math.random() < score) {
+                STATE.sentence = STATE.sentences[index];
+                break;
+            }
+        }
+        STATE.decrease_sentence_score();
     },
 
     get_voices(){
@@ -115,7 +131,7 @@ const STATE = {
 
     toggleSpellingMode(){
         this._isPhonetic = !this.isPhonetic;
-        this.refresh_text()
+        this.refresh()
     },
 
     next_voice() {
@@ -146,7 +162,11 @@ const STATE = {
     },
 
     refresh_text() {
-        //
+        if (this._isPhonetic){
+            document.querySelector("#text").innerHTML = this.sentence.ipa.replace(":", "<br><br>")
+        } else {
+            document.querySelector("#text").innerHTML = this.sentence.txt.replace(":", "<br><br>")
+        }
     },
 
     refresh_repeat(){
@@ -177,12 +197,38 @@ const STATE = {
         }
     },
 
+
+    refresh_text_mode(){
+        if (this._isPhonetic){
+            document.querySelector("#text_mode").innerHTML = "æ"
+        } else {
+            document.querySelector("#text_mode").innerHTML = "a"
+        }
+    },
+
     refresh(){
+        this.refresh_text_mode()
         this.refresh_text()
         this.refresh_repeat()
         this.refresh_HardMuted()
         this.refresh_voice()
     },
+
+    increase_sentence_score(){
+        score = localStorage.getItem(this.sentence.hash) || this.sentence.score
+        score = Number(score)
+        score = score + (1 - score) / 2
+        this.sentence.score = score
+        localStorage.setItem(this.sentence.hash, score)
+    },
+
+    decrease_sentence_score(){
+        score = localStorage.getItem(this.sentence.hash) || this.sentence.score
+        score = Number(score)
+        score = score / 10
+        this.sentence.score = score
+        localStorage.setItem(this.sentence.hash, score)
+    }
 }
 
 function trimText(elementSelector) {
@@ -208,6 +254,22 @@ function trimElementText(element) {
         element.innerHTML = element.innerHTML.slice(0, -5) + " ..."
         loop += 1
     }
+}
+
+function read_data(){
+    const jsonFilePath = 'data/json/sentences_001.json';
+    fetch(jsonFilePath).then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json(); // Parse the JSON data
+    }).then(data => {
+        console.log('JSON data:', data);
+        STATE.sentences = data;
+        STATE.refresh();
+    }).catch(error => {
+        console.error('Error loading JSON file:', error);
+    });
 }
 
 function openInNewTab(url) {
@@ -254,25 +316,29 @@ function play(){
             audio.addEventListener("ended", function () {
                 setTimeout(function () {
                     if (!STATE.isRepeat){
-                        // next_track()
+                        STATE.next_sentence()
+                        STATE.refresh()
                     } else {
-                        play()                
+                        play()
+                        STATE.increase_sentence_score();              
                     }
                 }, 600)
             })
             audio.play()
         } else {
             pause_play()
-            const text = data[0].text;
+            const text = STATE.sentence.txt;
             const utterance = new SpeechSynthesisUtterance(text);
             utterance.voice = STATE.voice
             utterance.rate = 0.85;
             utterance.onend = function(){
                 setTimeout(function () {
                     if (!STATE.isRepeat){
-                        // next_track()
+                        STATE.next_sentence()
+                        STATE.refresh()
                     } else {
-                        play()                  
+                        play()
+                        STATE.increase_sentence_score();              
                     }
                 }, 600)
             }
@@ -289,12 +355,12 @@ function pause_play() {
 }
 
 document.querySelector("#text_mode").addEventListener("click", function () {
-    STATE.isPhonetic = !STATE.isPhonetic
-    STATE.refresh_text()
+    STATE._isPhonetic = !STATE._isPhonetic
+    STATE.refresh()
 })
 
 document.querySelector("#repeat").addEventListener("click", function () {
-    STATE.isRepeat = !STATE.isRepeat
+    STATE._isRepeat = !STATE._isRepeat
     console.log("click_repeat")
     STATE.refresh_repeat()
 })
@@ -321,19 +387,9 @@ document.addEventListener("fullscreenchange", function () {
 });
 
 document.querySelector("#text-row").addEventListener("click", function () {
-    // next_track()
-});
-
-window.addEventListener('resize', () => {
-    const screenWidth = document.documentElement.clientWidth;
-    const screenHeight = document.documentElement.clientHeight;
-    for (const id of ["top", "book", "chapter", "sentence"]){
-        if (screenWidth > screenHeight * 1.8) {
-            document.querySelector(`#${id}-row`).style.display = 'none'; 
-        } else {
-            document.querySelector(`#${id}-row`).style.display = 'flex';
-        }
-    }
+    console.log("click on text-row")
+    STATE.next_sentence()
+    STATE.refresh()
 });
 
 document.querySelector("#category").addEventListener("click", function () {
@@ -342,6 +398,26 @@ document.querySelector("#category").addEventListener("click", function () {
 
 document.querySelector("#voice").addEventListener('click', function () {
     STATE.next_voice()
+});
+
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();        
+        STATE.next_sentence();
+        STATE.refresh();
+    } else if (event.key === "r") {
+        event.preventDefault();
+        document.querySelector("#repeat").click()
+    } else if (event.key === "s") {
+        event.preventDefault();
+        document.querySelector("#sound").click()
+    } else if (event.key === "a") {
+        event.preventDefault();
+        document.querySelector("#text_mode").click()
+    } else if (event.key === "v") {
+        event.preventDefault();
+        document.querySelector("#voice").click()
+    }
 });
 
 ///////////////////////////////////////////////
@@ -426,6 +502,7 @@ setTimeout(_ => {
         document.querySelector("#voice").style.display = "flex";
         STATE.next_voice()
     }
+    read_data()
     STATE.refresh()
 }, 100)
 
