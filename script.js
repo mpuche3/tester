@@ -257,7 +257,7 @@ function trimElementText(element) {
 }
 
 function read_data(){
-    const jsonFilePath = 'data/json/sentences_001.json';
+    const jsonFilePath = './data/json/SENTENCES_001.json';
     fetch(jsonFilePath).then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -271,6 +271,9 @@ function read_data(){
         console.error('Error loading JSON file:', error);
     });
 }
+
+
+
 
 function openInNewTab(url) {
     let newTab = document.createElement('a');
