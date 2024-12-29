@@ -461,22 +461,22 @@ swipeContainer.addEventListener('touchend', (e) => {
     if (Math.abs(deltaX) > Math.abs(deltaY)) {
         // horizontal swipe
         if (deltaX > +1 * min_delta) {
-            sentence_down()
+            document.getElementById('text-row').click()
             console.log('Swiped right');
         } 
         if (deltaX < -1 * min_delta) {
             console.log('Swiped left');
-            // next_track()
+            document.getElementById('text-row').click()
         }
     } else {
         // vertical swipe
         if (deltaY > +1 * min_delta) {
             console.log('Swiped down');
-            sentence_down()
+            document.getElementById('text-row').click()
         }
         if (deltaY < -1 * min_delta) {
             console.log('Swiped up');
-            // next_track()
+            document.getElementById('text-row').click()
         }
     }
 });
