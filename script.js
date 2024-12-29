@@ -11,11 +11,12 @@ const STATE = {
     sentences: initial_sentences,
     sentence: initial_sentences[0],
     voices: [],
+    _category: "tools",
     _voice: "echo",
     _isPhonetic: true,
     _isRepeat: true,    
     _isSoftMuted: false,
-    _isHardMuted: false,
+    _isHardMuted: true,
     _mapVoiceNames: {
             // Edge
             "Ava": "Microsoft Ava Online (Natural) - English (United States)",
@@ -47,7 +48,10 @@ const STATE = {
                 break;
             }
         }
+        // localStorage.setItem("data", JSON.stringify(STATE.sentences))
+        // STATE.sentences = JSON.parse(localStorage.getItem("data"))
         STATE.decrease_sentence_score();
+        STATE.refresh();
     },
 
     get_voices(){
@@ -206,12 +210,17 @@ const STATE = {
         }
     },
 
+    refresh_category(){
+        document.querySelector("#category").innerHTML = this._category
+    },
+
     refresh(){
         this.refresh_text_mode()
         this.refresh_text()
         this.refresh_repeat()
         this.refresh_HardMuted()
         this.refresh_voice()
+        this.refresh_category()
     },
 
     increase_sentence_score(){
@@ -228,6 +237,13 @@ const STATE = {
         score = score / 10
         this.sentence.score = score
         localStorage.setItem(this.sentence.hash, score)
+    },
+
+    next_category(){
+        const categories = ["tools", "history", "kitchen", "house", "clothing"]
+        const index = categories.indexOf(this._category)
+        this._category = categories[(index + 1) % categories.length]
+        read_data()
     }
 }
 
@@ -257,7 +273,7 @@ function trimElementText(element) {
 }
 
 function read_data(){
-    const jsonFilePath = './data/json/SENTENCES_001.json';
+    const jsonFilePath = `./data/json/${STATE._category}.json`;
     fetch(jsonFilePath).then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -267,13 +283,11 @@ function read_data(){
         console.log('JSON data:', data);
         STATE.sentences = data;
         STATE.refresh();
+        STATE.next_sentence();
     }).catch(error => {
         console.error('Error loading JSON file:', error);
     });
 }
-
-
-
 
 function openInNewTab(url) {
     let newTab = document.createElement('a');
@@ -310,9 +324,9 @@ function play(){
     STATE.refresh_text();
     if (!STATE.isHardMuted && !STATE.isSoftMuted) {
         const voice = STATE.voice  
-        if (voice === "echo_______"){
+        if (voice === "echo"){
             pause_play()      
-            const audioFileFullPath = obj_tracks[STATE.BXXX][STATE.CXXX][STATE.SXXX]["audio"];
+            const audioFileFullPath = `./data/audio/${STATE.sentence.hash}`;
             const audio = new Audio(audioFileFullPath);
             audio.playbackRate = playbackRate;
             audios.push(audio)
@@ -396,7 +410,8 @@ document.querySelector("#text-row").addEventListener("click", function () {
 });
 
 document.querySelector("#category").addEventListener("click", function () {
-    //
+    console.log("click on category")
+    STATE.next_category()
 });
 
 document.querySelector("#voice").addEventListener('click', function () {

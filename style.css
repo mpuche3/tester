@@ -127,6 +127,7 @@ h1 {
     overflow-y: auto;
     flex-direction: column;
     flex-grow: 1;
+    padding: 10px;
 }
 
 .option:hover {

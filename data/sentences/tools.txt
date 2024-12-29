@@ -1,0 +1,503 @@
+Claw Hammer: The claw hammer pried out stubborn nails from the old fence boards.
+Ball-Peen Hammer: The ball-peen hammer shaped metal edges without cracking the surface.
+Rubber Mallet: The rubber mallet tapped wooden pieces together without leaving dents.
+Sledge Hammer: The sledge hammer delivered powerful blows to break apart concrete blocks.
+Dead Blow Hammer: The dead blow hammer eliminated rebound for precise, controlled strikes.
+Framing Hammer: The framing hammer sank large nails with fewer swings on construction sites.
+Tack Hammer: The tack hammer set upholstery nails neatly into delicate fabrics.
+Masonry Chisel: The masonry chisel chipped away at brick and mortar with steady taps.
+Wood Chisel: The wood chisel carved intricate designs into the cabinet door.
+Cold Chisel: The cold chisel cut through metal rivets when repairing the car’s frame.
+Hand Saw: The hand saw sliced through pine boards to build a basic bookshelf.
+Coping Saw: The coping saw maneuvered tight curves for decorative woodwork.
+Hack Saw: The hack saw separated rusted bolts quickly in the workshop.
+Bow Saw: The bow saw trimmed branches and cut small logs for the campfire.
+Japanese Pull Saw: The Japanese pull saw offered clean, precise cuts with minimal effort.
+Keyhole Saw: The keyhole saw carved holes in drywall for new electrical outlets.
+Pruning Saw: The pruning saw trimmed thick branches in the orchard without snagging.
+Crosscut Saw: The crosscut saw left a smooth finish when cutting across the wood grain.
+Rip Saw: The rip saw followed the grain to produce straight, accurate cuts.
+Back Saw: The back saw guided tidy joints for picture frames and moldings.
+Circular Saw: The circular saw ripped long boards quickly on the job site.
+Table Saw: The table saw provided accurate, repeatable cuts for large furniture projects.
+Miter Saw: The miter saw angled baseboards and crown moldings with precision.
+Band Saw: The band saw cut curves in thick boards with its continuous looping blade.
+Scroll Saw: The scroll saw handled delicate fretwork for intricate wooden decorations.
+Jigsaw Tool: The jigsaw tool navigated tight corners in plywood when crafting shapes.
+Reciprocating Saw: The reciprocating saw demolished old pallets and nailed boards swiftly.
+Plunge Router: The plunge router carved dovetails and decorative edges for cabinetry.
+Palm Router: The palm router rounded over edges for a smooth, professional finish.
+Router Table: The router table stabilized workpieces for more controlled, intricate routing.
+Router Bit Set: The router bit set offered profiles for molding, trimming, and joinery tasks.
+Biscuit Joiner: The biscuit joiner aligned panels using oval-shaped biscuits and glue.
+Pocket-Hole Jig: The pocket-hole jig created angled holes for hidden screw joints.
+Dovetail Jig: The dovetail jig formed traditional dovetail joints for drawer boxes.
+Mortising Machine: The mortising machine hollowed out square slots for sturdy tenons.
+Tenoning Jig: The tenoning jig guided boards for precise rectangular tenons.
+Spade Bit: The spade bit bored large holes in lumber for wiring and plumbing access.
+Forstner Bit: The forstner bit produced clean, flat-bottom holes for dowels or hinges.
+Auger Bit: The auger bit chewed through thick timber for rustic home projects.
+Hole Saw: The hole saw cut perfect circles for doorknobs or light fixtures.
+Brad Point Bit: The brad point bit started accurately on wood without wandering.
+Step Drill Bit: The step drill bit handled different hole diameters in sheet metal.
+Masonry Bit: The masonry bit penetrated brick walls to anchor shelving brackets.
+SDS Drill Bit: The SDS drill bit locked into a rotary hammer to tackle tough concrete.
+Diamond Hole Saw: The diamond hole saw sliced through tile or glass smoothly.
+Twist Drill Bits: The twist drill bits handled everyday metal and wood drilling tasks.
+Cordless Drill: The cordless drill drove screws and bored holes without a nearby outlet.
+Drill Driver: The drill driver combined drilling and driving functions in one tool.
+Impact Driver: The impact driver boosted torque to sink long screws effortlessly.
+Hammer Drill: The hammer drill pounded through concrete blocks for anchor bolts.
+Rotary Hammer: The rotary hammer tackled heavy-duty demolition and rebar drilling.
+Right-Angle Drill: The right-angle drill reached tight spaces behind beams.
+Drill Press: The drill press ensured perfectly vertical holes in thick stock.
+Magnetic Drill: The magnetic drill clamped securely to steel beams for precise drilling.
+Bench Grinder: The bench grinder sharpened chisels and lawnmower blades efficiently.
+Angle Grinder: The angle grinder sliced rebar and polished metal edges with different discs.
+Die Grinder: The die grinder cleaned up welds and smoothed inside corners of metalwork.
+Oscillating Tool: The oscillating tool made plunge cuts and sanded edges in cramped areas.
+Multi-Cutter Blade: The multi-cutter blade sliced through drywall, wood, or metal with ease.
+Reciprocating Saw Blades: The reciprocating saw blades tore through nails, pipes, and timbers.
+Diamond Blade: The diamond blade ground through tile and stone with minimal chipping.
+Carbide Blade: The carbide blade zipped through fiber cement boards without dulling quickly.
+Nail Gun: The nail gun fired collated nails for rapid framing or finishing work.
+Brad Nailer: The brad nailer attached trim pieces without leaving large holes.
+Finish Nailer: The finish nailer pinned baseboards and casings seamlessly.
+Framing Nailer: The framing nailer sped up building walls and roof trusses.
+Staple Gun: The staple gun secured upholstery and lightweight house wrap effectively.
+Pneumatic Gun: The pneumatic gun used compressed air for reliable power in the workshop.
+Air Compressor: The air compressor supplied pressure for nailers, spray guns, and more.
+Air Hose: The air hose channeled compressed air from the tank to the tool.
+Air Ratchet: The air ratchet loosened stubborn bolts in tight engine compartments.
+Impact Wrench: The impact wrench delivered powerful torque to remove lug nuts quickly.
+Torque Wrench: The torque wrench ensured bolts were tightened to the manufacturer’s specs.
+Breaker Bar: The breaker bar provided extra leverage for stuck or rusted fasteners.
+Socket Set: The socket set included metric and imperial sizes for diverse projects.
+Box-End Wrench: The box-end wrench gripped hex nuts on all sides for added control.
+Open-End Wrench: The open-end wrench fit around large bolt heads in narrow spaces.
+Adjustable Wrench: The adjustable wrench adapted to different nut sizes without rummaging for the right spanner.
+Pipe Wrench: The pipe wrench clamped onto round pipes without slipping.
+Allen Wrench Set: The Allen wrench set drove hex-head fasteners for furniture assembly.
+Torx Driver Set: The Torx driver set tackled star-shaped screws in electronics and automotive work.
+Screwdriver Set: The screwdriver set varied in lengths and tips for versatile fastening.
+Phillips Screwdriver: The Phillips screwdriver mated perfectly with cross-head screws.
+Flathead Screwdriver: The flathead screwdriver pried open paint cans or turned slotted screws.
+Precision Screwdriver: The precision screwdriver tightened tiny eyeglass screws and electronics.
+Nut Driver: The nut driver quickly spun hex-head fasteners in small appliances.
+Vise Grips: The vise grips locked onto stripped bolts for a reliable hold.
+Needle-Nose Pliers: The needle-nose pliers reached deep into narrow spaces for wire bending.
+Slip-Joint Pliers: The slip-joint pliers adjusted in jaw width for different tasks.
+Linesman Pliers: The linesman pliers snipped thick wire and twisted multiple strands together.
+Locking Pliers: The locking pliers clamped onto round stock and wouldn’t let go.
+Diagonal Cutters: The diagonal cutters trimmed wires flush without fraying the ends.
+Wire Stripper: The wire stripper removed insulation neatly from electrical cables.
+Wire Crimper: The wire crimper secured connectors firmly to bare wire ends.
+Cable Ties: The cable ties bundled cords, hoses, and wires in a tidy loop.
+Grease Gun: The grease gun injected lubrication into zerk fittings on heavy machinery.
+Caulking Gun: The caulking gun applied sealant along window edges with minimal mess.
+Hot Glue Gun: The hot glue gun bonded craft materials and small repairs instantly.
+Heat Gun: The heat gun softened paint for stripping or shrank plastic tubes.
+Soldering Iron: The soldering iron melted solder to fuse copper connections on circuit boards.
+Multimeter Tool: The multimeter tool measured voltage, current, and resistance for troubleshooting.
+Voltage Tester: The voltage tester confirmed live wires before starting electrical work.
+Stud Finder: The stud finder beeped to show where wall studs could support heavy shelves.
+Laser Level: The laser level projected a bright line for accurately positioning cabinets.
+Spirit Level: The spirit level used bubble vials to confirm horizontal or vertical planes.
+Torpedo Level: The torpedo level squeezed into tight spots for quick alignment checks.
+Combination Square: The combination square checked 90-degree angles and measured short distances.
+Speed Square: The speed square helped lay out rafters and repeated angles on lumber.
+Framing Square: The framing square measured right angles for large framing projects.
+T-Square Ruler: The T-square ruler aligned cuts on sheet goods like plywood and drywall.
+Marking Gauge: The marking gauge scribed parallel lines along boards for joinery.
+Tape Measure: The tape measure extended several feet to measure lumber accurately.
+Chalk Line: The chalk line snapped a straight guide mark across sheet materials.
+Utility Knife: The utility knife sliced through cardboard, carpet, and drywall swiftly.
+Box Cutter: The box cutter retracted the blade for safety after opening packages.
+Putty Knife: The putty knife applied and scraped filler on walls and furniture.
+Paint Scraper: The paint scraper removed flaking paint and old wallpaper residue.
+Paint Brush: The paint brush applied an even coat of color on trim and corners.
+Paint Roller: The paint roller covered broad wall surfaces in fewer strokes.
+Drop Cloth: The drop cloth shielded floors from spilled paint or dripping varnish.
+Masking Tape: The masking tape created crisp lines for color edging.
+Painter’s Tape: The painter’s tape prevented splatters on baseboards and crown molding.
+Spackling Knife: The spackling knife smoothed joint compound into drywall seams.
+Drywall Saw: The drywall saw stabbed into sheets to cut holes for outlets and lights.
+Drywall Knife: The drywall knife feathered the mud edges for seamless repairs.
+Mud Pan: The mud pan held joint compound for faster application on the wall.
+Sandpaper Block: The sandpaper block gave an even grip for smoothing rough surfaces.
+Orbital Sander: The orbital sander left a swirl-free finish on tabletops and cabinets.
+Belt Sander: The belt sander removed material aggressively when leveling slabs or panels.
+Random Orbital Sander: The random orbital sander combined rotation and orbit for a fine finish.
+Palm Sander: The palm sander reached tight corners without fatigue from constant vibration.
+Dust Extractor: The dust extractor captured sawdust at the source to keep the air clean.
+Shop Vacuum: The shop vacuum sucked up construction debris and water spills.
+Extension Cord: The extension cord brought power to corded tools around the job site.
+Work Light: The work light illuminated dim basements or crawl spaces for safe tasks.
+Clamp Set: The clamp set immobilized glued joints until the adhesive cured.
+C-Clamp Tool: The C-clamp tool squeezed two boards together tightly on the bench.
+Bar Clamp: The bar clamp extended over wide panels to ensure even pressure.
+Pipe Clamp: The pipe clamp adjusted its length to grip large furniture pieces during glue-up.
+Corner Clamp: The corner clamp held frames at perfect 90-degree angles.
+Bench Vise: The bench vise locked the workpiece in place for hands-free cutting or filing.
+Saw Horses: The saw horses supported long lumber for cutting or sanding outdoors.
+Workbench Table: The workbench table offered a solid surface for building and repairing.
+Pegboard Wall: The pegboard wall kept frequently used tools at eye level.
+Tool Chest: The tool chest stored an extensive collection of hand and power tools.
+Rolling Toolbox: The rolling toolbox transported heavy wrenches and sockets across the garage.
+Organizer Drawer: The organizer drawer sorted screws, washers, and nails by size and type.
+Parts Bin: The parts bin grouped small components in transparent compartments.
+Bench Grinder Stand: The bench grinder stand held the machine at an ergonomic height.
+Drill Press Stand: The drill press stand stabilized the machine to bore holes safely.
+Miter Saw Stand: The miter saw stand extended support arms for long crown molding cuts.
+Work Bench Vise: The work bench vise pivoted to clamp awkwardly shaped objects.
+Ratchet Straps: The ratchet straps tied lumber and ladders securely onto a truck.
+Bungee Cords: The bungee cords fastened tarps around building materials in transit.
+Pipe Cutter: The pipe cutter rolled around copper tubing for a clean, burr-free slice.
+Tubing Bender: The tubing bender formed precise angles in metal or PVC pipes.
+Plumbing Wrench: The plumbing wrench gripped fittings in tight spots under sinks.
+Plunger Tool: The plunger tool created suction to clear clogged drains.
+Drain Auger: The drain auger snaked through pipes to dislodge tough blockages.
+PVC Cement: The PVC cement fused plastic plumbing joints into a watertight seal.
+Siphon Pump: The siphon pump transferred liquids from one container to another efficiently.
+Flaring Tool: The flaring tool shaped the end of copper tubing for leak-proof connections.
+Teflon Tape: The Teflon tape sealed threaded fittings to prevent leaks in water lines.
+Measuring Wheel: The measuring wheel tracked linear distances for landscaping and fencing.
+Post Hole Digger: The post hole digger excavated narrow holes for fence posts.
+Hand Trowel: The hand trowel scooped soil into small garden pots with precision.
+Garden Rake: The garden rake leveled soil and gathered leaves into neat piles.
+Bow Rake: The bow rake broke up compacted dirt for new lawn seeding.
+Leaf Rake: The leaf rake corralled piles of autumn leaves on the front yard.
+Garden Hoe: The garden hoe uprooted shallow weeds between rows of vegetables.
+Dutch Hoe: The dutch hoe sliced weed roots beneath the soil surface.
+Pruning Shears: The pruning shears clipped dead rose stems for healthier regrowth.
+Hedge Shears: The hedge shears shaped shrubs into tidy, uniform hedges.
+Lopping Shears: The lopping shears severed thicker branches above head height.
+Pole Pruner: The pole pruner reached overhead branches without using a ladder.
+Chainsaw Tool: The chainsaw tool felled small trees and trimmed thick logs for firewood.
+Chainsaw Sharpener: The chainsaw sharpener maintained a keen chain edge for cleaner cuts.
+Brush Cutter: The brush cutter cleared overgrown fields of brambles and weeds.
+String Trimmer: The string trimmer tidied lawn edges along fences and flower beds.
+Garden Shovel: The garden shovel dug planting holes for shrubs and perennials.
+Spading Fork: The spading fork aerated the soil, improving drainage in the vegetable patch.
+Pitchfork Tool: The pitchfork tool lifted hay or compost, spreading it evenly.
+Wheelbarrow Cart: The wheelbarrow cart hauled soil and mulch around the garden.
+Garden Sprayer: The garden sprayer misted fertilizers or pesticides onto plant leaves.
+Pressure Washer: The pressure washer blasted dirt from patios and driveways.
+Hose Nozzle: The hose nozzle adjusted water flow from gentle mist to powerful jet.
+Soaker Hose: The soaker hose watered garden beds at ground level without evaporation loss.
+Sprinkler System: The sprinkler system kept the lawn green during summer droughts.
+Hose Reel: The hose reel stored the garden hose neatly to prevent tangles.
+Garden Spade: The garden spade’s flat edge cut sod and edged flowerbeds neatly.
+Edging Iron: The edging iron defined the border between lawn and pathway sharply.
+Landscape Fabric: The landscape fabric blocked weeds while allowing water infiltration.
+Lawn Aerator: The lawn aerator perforated turf to encourage root growth and reduce compaction.
+Seed Spreader: The seed spreader broadcast grass seed evenly across the yard.
+Fertilizer Spreader: The fertilizer spreader delivered nutrients to every corner of the lawn.
+Garden Kneeler: The garden kneeler cushioned her joints while planting and weeding.
+Pruning Saw: The pruning saw tackled thicker stems that bypass pruners couldn’t handle.
+Harvest Basket: The harvest basket carried fresh produce from the orchard to the kitchen.
+Potting Bench: The potting bench organized tools and soil for transplanting tasks.
+Grafting Knife: The grafting knife carefully joined scion wood to rootstock in the orchard.
+Soil Thermometer: The soil thermometer checked the ground temperature before sowing seeds.
+Bulb Planter: The bulb planter created uniform holes for daffodils and tulips.
+Weeding Knife: The weeding knife levered out deep-rooted dandelions in one go.
+Cultivator Tool: The cultivator tool broke up clumps around seedlings to promote airflow.
+Seed Dibber: The seed dibber poked neat planting holes at consistent depths.
+Knee Pads: The knee pads protected joints during extended sessions on rocky soil.
+Garden Cart: The garden cart transported heavy potted plants and bags of compost effortlessly.
+Mesh Sieve: The mesh sieve sifted stones from potting mix, keeping soil fine.
+Wood Splitter: The wood splitter cracked logs easily into fireplace-ready chunks.
+Splitting Maul: The splitting maul’s weighted head crushed knotty wood fibers.
+Log Hook: The log hook lifted cut rounds to the trailer without bending over.
+Cant Hook: The cant hook rolled large logs safely, positioning them for slicing.
+Timberjack Tool: The timberjack tool held logs off the ground while cutting firewood.
+Metal Detector: The metal detector scanned job sites for hidden nails or lost screws.
+Stud Sensor: The stud sensor beeped to locate edges of framing behind drywall.
+Inspection Camera: The inspection camera snaked into walls to see hidden pipes.
+Magnet Wand: The magnet wand retrieved dropped screws and nails from tight crevices.
+Corner Clamp: The corner clamp aligned frames for perfect right angles in woodworking.
+Edge Clamp: The edge clamp applied pressure along thin edges without marring surfaces.
+Table Clamp: The table clamp locked down parts on a makeshift work surface.
+Pipe Clamp: The pipe clamp extended to hold large panels during glue-ups.
+Pocket Level: The pocket level fit into a small toolbox for quick alignment checks.
+Collapsible Ladder: The collapsible ladder folded down for easy storage in the van.
+Extension Ladder: The extension ladder reached the second-story gutters for clearing leaves.
+Platform Ladder: The platform ladder offered a stable standing area for painting ceilings.
+Step Ladder: The step ladder helped replace light bulbs without overstretching.
+Shingle Hatchet: The shingle hatchet removed old roofing shingles efficiently.
+Roofing Nailer: The roofing nailer sped up nailing asphalt shingles under the hot sun.
+Drywall Lift: The drywall lift raised heavy sheets overhead for easy attachment to the ceiling.
+Pipe Threader: The pipe threader cut precise threads for plumbing connections.
+Plumber’s Torch: The plumber’s torch heated copper joints to flow solder smoothly.
+Digital Caliper: The digital caliper measured thickness and inside diameters accurately.
+Feeler Gauge: The feeler gauge checked precise gaps in automotive engine parts.
+Micrometer Tool: The micrometer tool confirmed small dimensional tolerances in metalworking.
+Dial Indicator: The dial indicator measured tiny misalignments in rotating shafts.
+Welding Helmet: The welding helmet shielded eyes from intense arcs and sparks.
+MIG Welder: The MIG welder fused metal pieces with a continuous wire feed.
+Arc Welder: The arc welder required electrode rods to join steel effectively.
+Plasma Cutter: The plasma cutter sliced through metal sheets like butter using ionized gas.
+Wire Brush: The wire brush cleaned oxidation and slag before welding seams.
+Welding Clamps: The welding clamps held two steel plates at the correct angle until tack welded.
+Concrete Mixer: The concrete mixer combined cement, sand, and gravel into a workable slurry.
+Concrete Float: The concrete float smoothed wet surfaces for a polished finish.
+Masonry Trowel: The masonry trowel spread mortar between bricks for an even joint.
+Brick Jointer: The brick jointer pressed mortar lines to a consistent, neat depth.
+Rebar Cutter: The rebar cutter sheared steel rods for reinforced concrete footings.
+Rebar Bender: The rebar bender bent rods to specific angles needed for columns or beams.
+Concrete Vibrator: The concrete vibrator removed air pockets from freshly poured slabs.
+Grout Float: The grout float packed grout firmly between tiles for a uniform surface.
+Tile Nippers: The tile nippers clipped small corners off ceramic or mosaic tiles.
+Tile Cutter: The tile cutter scored porcelain for a clean snap when shaping floor tiles.
+Wheeled Marking Gauge: The wheeled marking gauge glided along boards for accurate layout lines.
+Glass Cutter: The glass cutter scored glass sheets before snapping along the line.
+Resin Applicator: The resin applicator dispensed epoxy evenly for fiberglass repair.
+Automotive Creeper: The automotive creeper let mechanics slide under cars without kneeling on concrete.
+Brake Bleeder: The brake bleeder removed air pockets from brake lines to restore pedal firmness.
+Bearing Puller: The bearing puller extracted worn bearings from shafts in small engines.
+Engine Crane: The engine crane hoisted heavy motors out of vehicles for major repairs.
+Strut Compressor: The strut compressor compressed suspension springs for shock absorber replacement.
+Chain Hoist: The chain hoist lifted steel beams in the workshop with minimal strain.
+Ratchet Puller: The ratchet puller tightened fence lines by cranking the steel cable.
+Sheet Metal Brake: The sheet metal brake bent aluminum or galvanized steel to precise angles.
+Dolly Cart: The dolly cart wheeled heavy boxes through tight warehouse aisles.
+Pipe Vise: The pipe vise gripped round plumbing lines during threading or cutting.
+Carbide Scraper: The carbide scraper removed stubborn paint drips and varnish from wood.
+Floor Scraper: The floor scraper lifted old vinyl and tile adhesive from concrete slabs.
+Caulk Finisher: The caulk finisher created a smooth, professional bead along window seams.
+Mortar Bag: The mortar bag squeezed mortar into narrow joints for stone veneer.
+Masonry Brush: The masonry brush dusted away debris for a clean bonding surface.
+Chalk Reel: The chalk reel reeled in the line after snapping a guide mark on plywood.
+Linoleum Knife: The linoleum knife trimmed flooring materials with a curved blade.
+Wrecking Bar: The wrecking bar pried boards apart and removed embedded nails during demolition.
+Crowbar Tool: The crowbar tool gave leverage to pop up old decking planks easily.
+Window Scraper: The window scraper cleared paint overspray from glass panes.
+Carpet Stretcher: The carpet stretcher pulled slack out of new installations for a snug fit.
+Knee Kicker: The knee kicker helped position carpeting precisely against the tack strip.
+Bolt Cutters: The bolt cutters snapped padlocks and thick chain links on job sites.
+Wiring Fish Tape: The wiring fish tape navigated cables behind walls for electrical updates.
+Conduit Bender: The conduit bender formed smooth curves in EMT or rigid conduit.
+Pipe Reamer: The pipe reamer removed burrs from freshly cut copper or steel pipe ends.
+Drywall Stilts: The drywall stilts allowed a taller reach for taping and finishing ceilings.
+Dust Mask: The dust mask filtered out airborne particles while sanding drywall.
+Respirator Mask: The respirator mask protected lungs from fumes during paint spraying.
+Ear Protectors: The ear protectors muffled loud power tool noises to prevent hearing damage.
+Safety Goggles: The safety goggles shielded eyes from flying shards of metal or wood.
+Face Shield: The face shield safeguarded the entire face during grinding and polishing.
+Hard Hat: The hard hat blocked potential head injuries from falling objects on the site.
+Knee Pads: The knee pads cushioned joints when installing flooring or crawling under houses.
+Hi-Vis Vest: The hi-vis vest stood out to forklift drivers in a busy warehouse.
+Work Gloves: The work gloves gripped slippery handles and protected hands from splinters.
+Steel-Toe Boots: The steel-toe boots guarded feet against accidental drops of heavy materials.
+Tool Belt: The tool belt held hammers, tapes, and nails within arm’s reach.
+Carpenter’s Apron: The carpenter’s apron had multiple pouches to organize small parts.
+Folding Rule: The folding rule measured inside dimensions where a tape measure was awkward.
+Angle Finder: The angle finder read exact degrees to cut tricky corners around cabinets.
+Pipe Locator: The pipe locator detected underground lines before digging a trench.
+Metal Shears: The metal shears snipped tin roofing panels to size without bending edges.
+Roofing Shovel: The roofing shovel popped off old shingles with attached nails in one motion.
+Tire Iron: The tire iron loosened lug nuts for a quick spare tire change.
+Tread Depth Gauge: The tread depth gauge confirmed if car tires needed replacing.
+Spark Plug Wrench: The spark plug wrench extracted plugs embedded deep in the cylinder head.
+Battery Charger: The battery charger revived dead car batteries without jump-starting.
+Rivet Gun: The rivet gun fastened thin metal sheets securely using rivet stems.
+Pop Riveter: The pop riveter created a permanent joint in aluminum siding or gutters.
+Snap Ring Pliers: The snap ring pliers expanded or contracted retaining rings in gear assemblies.
+Engine Stand: The engine stand supported a detached engine during a complete overhaul.
+Mechanic’s Stethoscope: The mechanic’s stethoscope diagnosed strange rattles or squeaks inside the engine.
+Compression Tester: The compression tester measured the cylinder pressure for engine health.
+Stud Extractor: The stud extractor twisted out broken bolts flush with the block.
+Spark Tester: The spark tester indicated if each ignition coil fired properly.
+Wheel Chocks: The wheel chocks prevented a vehicle from rolling during jack use.
+Floor Jack: The floor jack lifted car frames for tire rotation or brake inspection.
+Jack Stands: The jack stands held the vehicle stable while working beneath it.
+Creeper Seat: The creeper seat rolled around smoothly for comfortable under-car tasks.
+Exhaust Hanger Tool: The exhaust hanger tool dislodged mufflers from their rubber mounts.
+Brake Caliper Tool: The brake caliper tool retracted pistons to fit new pads easily.
+Bearing Press: The bearing press pressed wheel bearings into hubs with precision.
+Manifold Gauge: The manifold gauge measured refrigerant levels for air conditioner servicing.
+Hood Prop Rod: The hood prop rod kept the car’s hood open safely while checking fluids.
+Oil Drain Pan: The oil drain pan caught the old motor oil, preventing mess on the garage floor.
+Torque Angle Gauge: The torque angle gauge ensured correct final rotation after pre-torquing.
+Timing Light: The timing light synchronized the ignition timing on older engines.
+Metal Lathe: The metal lathe shaped steel rods into bolts, threads, or decorative spindles.
+Wood Lathe: The wood lathe turned blocks into table legs, bowls, or candlesticks.
+Lathe Chisel Set: The lathe chisel set included gouges, parting tools, and skews for clean turning.
+Mortise Chisel: The mortise chisel cut square recesses for door hinges or furniture joints.
+Block Plane: The block plane trimmed end grain and edges for a smooth finish.
+Jack Plane: The jack plane flattened rough boards in traditional woodworking projects.
+Rabbet Plane: The rabbet plane formed channels along the board’s edge for joinery.
+Shoulder Plane: The shoulder plane cleaned up tenons to fit snugly in mortises.
+Scraper Plane: The scraper plane removed tear-out and left a polished wood surface.
+Rasp File: The rasp file aggressively shaped wood edges for rough carving.
+Bastard File: The bastard file smoothed down metal burrs after cutting or grinding.
+Needle Files: The needle files detailed small metal or plastic pieces with precision.
+Leather Punch: The leather punch created clean holes for belts and straps.
+Grommet Kit: The grommet kit reinforced holes in tarps or canvas bags.
+Awl Tool: The awl tool started pilot holes and marked layouts in wood or leather.
+Leather Shears: The leather shears cut thick hides or heavy fabrics without fraying.
+Furniture Clamp: The furniture clamp spanned wide surfaces to glue table tops evenly.
+Panel Saw: The panel saw guided large sheet goods vertically for accurate cuts.
+Stair Gauge: The stair gauge clipped onto framing squares to mark repeating riser and tread lines.
+Pipe Bender: The pipe bender shaped metal tubing for handrails and custom fixtures.
+Metal Punch Set: The metal punch set hammered out holes in steel plates or brackets.
+Car Body Filler: The car body filler smoothed dents prior to sanding and painting.
+Body Hammer: The body hammer reshaped fenders and panels back to form.
+Dolly Block: The dolly block supported the backside of sheet metal for panel beating.
+Dent Puller: The dent puller sucked out shallow depressions in car doors and hoods.
+Spray Gun: The spray gun laid an even coat of paint over cabinets or vehicles.
+Detail Sander: The detail sander reached tight corners and ornate trims with a triangular pad.
+Corner Clamp: The corner clamp held mitered pieces together for a tight, seamless joint.
+Dust Shroud: The dust shroud attached to the grinder to capture harmful particles.
+Work Apron: The work apron protected clothing from glue, paint, and sawdust.
+Tool Backpack: The tool backpack stored small hand tools for on-the-go repair jobs.
+Bit Extension: The bit extension reached deep screws where the driver couldn’t fit.
+Magnetic Wristband: The magnetic wristband held screws, nails, or bits for quick access.
+Cable Stapler: The cable stapler fastened electrical cables along framing without damaging wires.
+Tire Inflator: The tire inflator attached to the compressor for quick air fill-ups.
+Shop Rags: The shop rags wiped grease and debris from hands and surfaces.
+Funnel Set: The funnel set directed fluids into small tank openings without spills.
+Slide Hammer: The slide hammer pulled out dents or bearing races with backward force.
+Crowfoot Wrench: The crowfoot wrench reached bolts that a regular socket couldn’t fit around.
+Battery Tester: The battery tester read voltage levels and cranking amps for diagnosis.
+Tap and Die Set: The tap and die set repaired stripped threads or created new threads on rods.
+C-Clamp Pliers: The C-clamp pliers locked onto materials for welding or cutting.
+Trim Removal Tools: The trim removal tools pried off car door panels without scratching.
+Sanding Sponge: The sanding sponge flexed to conform to raised or curved surfaces.
+Honing Guide: The honing guide maintained the correct angle when sharpening chisels or planes.
+Sharpening Stone: The sharpening stone ground dull blades back to a razor edge.
+Oil Dispenser: The oil dispenser dripped lubricants onto lathe ways or gear assemblies.
+Winding Sticks: The winding sticks detected twist in rough-sawn boards before planing.
+Flattening Beam: The flattening beam verified flatness of wide slabs with precision.
+Ratchet Straps: The ratchet straps cinched large equipment onto a utility trailer securely.
+Engine Leveler: The engine leveler balanced weight during lifting with a hoist.
+Wiring Crimper: The wiring crimper attached terminals to automotive harness connectors.
+Panel Removal Tool: The panel removal tool popped plastic fasteners without damaging them.
+Brake Piston Tool: The brake piston tool retracted caliper pistons before new pad installation.
+Bench Top Jointer: The bench top jointer squared board edges for seamless glue joints.
+Thickness Planer: The thickness planer shaved boards to consistent thickness throughout.
+Tile Wet Saw: The tile wet saw cooled the blade with water, preventing cracks in ceramics.
+Hand Plane Iron: The hand plane iron needed regular sharpening for a smooth wood finish.
+Sandblaster Cabinet: The sandblaster cabinet scoured rust and paint off metal parts.
+Oil Can Spout: The oil can spout reached into tiny gaps on squeaky hinges.
+Paint Sprayer: The paint sprayer evenly coated fences and garage doors in less time.
+Drywall Corner Trowel: The drywall corner trowel shaped crisp inside corners with compound.
+Panel Lift: The panel lift hoisted heavy drywall sheets to ceiling height with ease.
+Post Level: The post level wrapped around lumber to check plumb from multiple directions.
+Line Laser: The line laser projected cross lines for squaring up tile layouts on the floor.
+Wooden Mallet: The wooden mallet knocked joints together without marring chisels.
+Center Punch: The center punch dimpled metal to guide a drill bit precisely.
+Scale Ruler: The scale ruler measured architecture drawings at different scales.
+CNC Machine: The CNC machine carved complex patterns automatically from digital designs.
+Metal Bender: The metal bender formed plates into custom brackets and channels.
+Bench Shear: The bench shear sliced sheet metal straight with a powerful guillotine action.
+Cordless Screwdriver: The cordless screwdriver buzzed screws into furniture assembly kits.
+Inspection Mirror: The inspection mirror revealed hidden spaces behind engine components.
+Electric Hoist: The electric hoist lifted heavy beams high into the workshop rafters.
+Hinged Dolly: The hinged dolly pivoted to move bulky cabinets around narrow hallways.
+Tile Grout Saw: The tile grout saw removed old, discolored grout between tiles.
+Joint Compound Knife: The joint compound knife feathered edges for invisible drywall seams.
+Compound Miter Saw: The compound miter saw angled, beveled, and crosscut moldings efficiently.
+Finish Sander: The finish sander gave final touches before applying varnish to furniture.
+Paint Mixer: The paint mixer stirred pigments thoroughly for a consistent color.
+Air Hammer: The air hammer chipped away old mortar and corroded metal rivets.
+Cupping Block: The cupping block stabilized curved boards while surface planing.
+Fence Stretcher: The fence stretcher tightened wire fencing around large pastures.
+Floor Edger: The floor edger sanded up against baseboards where a drum sander couldn’t reach.
+Hand Scythe: The hand scythe cut tall grass at the orchard’s perimeter.
+Brush Axe: The brush axe hacked through thick undergrowth in the neglected lot.
+Bolt Extractor: The bolt extractor bit gripped snapped fasteners to twist them out.
+Firewood Moisture Meter: The firewood moisture meter ensured logs were dry enough for burning.
+Paint Edge Guard: The paint edge guard prevented streaks along the corner edges.
+Chain Sharpener: The chain sharpener restored the dull chainsaw links for swift cutting.
+Crank Puller: The crank puller removed bicycle crank arms without damaging the spindle.
+Spoke Wrench: The spoke wrench trued wheel rims by adjusting spoke tension precisely.
+Panel Beater: The panel beater hammered automotive body panels into original form.
+Welding Rod Oven: The welding rod oven kept electrodes dry for consistent arc performance.
+Tube Notcher: The tube notcher cut precise joints for roll cages and metal frames.
+Angle Clamp: The angle clamp secured boards together at various angles for glue-ups.
+Safety Harness: The safety harness fastened around the user, preventing falls from scaffolding.
+Rope Ratchet: The rope ratchet lifted and held grow lights or small loads steadily.
+Crowfoot Socket: The crowfoot socket accessed fasteners hidden beneath hoses or lines.
+Glazier Points: The glazier points locked glass panes into wooden window sashes.
+Speed Handle: The speed handle spun sockets rapidly for quick disassembly.
+Water Pump Pliers: The water pump pliers adjusted easily for gripping large or irregular objects.
+Adjustable Clamp: The adjustable clamp adapted to different widths for quick one-hand tightening.
+Tin Snips: The tin snips trimmed metal flashing for roof edges and gutter repairs.
+Insulation Knife: The insulation knife cut fiberglass batts cleanly to fill wall cavities.
+Dust Collection Hose: The dust collection hose carried sawdust to the filtration system.
+Portable Workbench: The portable workbench folded flat for transport to job sites.
+Ripping Chain: The ripping chain milled lumber from logs for homemade boards.
+Drag Harrow: The drag harrow broke up soil clumps behind a small tractor in the field.
+Bench Anvil: The bench anvil supported light metal forming tasks in the home workshop.
+Power Auger: The power auger bored deep holes in the ground for fence posts quickly.
+Birdsmouth Chisel: The birdsmouth chisel refined corners in boat-building or curved joinery.
+Poly Hammer: The poly hammer combined a soft face with a durable polymer head.
+Flashlight Lantern: The flashlight lantern illuminated dark attics or crawl spaces for inspections.
+Endless Ratchet: The endless ratchet hoisted the old generator into the pickup bed.
+Torque Stick: The torque stick limited torque for lug nuts when using an impact wrench.
+Stud Gun: The stud gun welded metal studs onto automotive panels for dent pulling.
+Laser Distance Meter: The laser distance meter measured rooms for remodeling with pinpoint accuracy.
+Air Sander: The air sander smoothed automotive body filler with uniform pressure.
+Band Clamp: The band clamp tightened around circular or irregular objects like barrels.
+Gas Meter Key: The gas meter key opened or closed residential gas valves in emergencies.
+Drilling Guide: The drilling guide kept bits straight for uniform dowel holes.
+Wood Doweling Jig: The wood doweling jig aligned dowels perfectly for edge joints.
+Rotary Tool: The rotary tool handled engraving, sanding, and cutting small details.
+Spiral Cutter: The spiral cutter planed boards with helical knives for a smoother finish.
+Plumbing Snake: The plumbing snake tackled clogged drains that a simple plunger couldn’t clear.
+Drain Pump: The drain pump emptied flooded basements or sumps without permanent plumbing.
+Strapping Machine: The strapping machine bundled boxes securely for shipping.
+Expansion Tank: The expansion tank relieved pressure fluctuations in the house water system.
+Underlayment Roller: The underlayment roller smoothed adhesive sheets for vinyl or laminate floors.
+Insulation Blower: The insulation blower filled walls and attics with loose-fill insulation.
+Safety Cones: The safety cones marked off wet concrete or restricted areas.
+Air Chisel: The air chisel chipped rivets and welds on rusted car frames.
+Cable Winch Puller: The cable winch puller tugged heavy logs out of a ditch with strong leverage.
+Plank Stand: The plank stand held scaffolding boards at a stable working height.
+V-Block Clamp: The v-block clamp cradled round pipes for drilling or welding.
+Spirit Level Blocks: The spirit level blocks calibrated longer levels for accuracy.
+Tow Strap: The tow strap rescued mired vehicles by attaching to a sturdy hitch.
+Mounting Bracket: The mounting bracket secured shelves and equipment to stud framing.
+Wire Grommet: The wire grommet prevented cable chafing through sharp panel edges.
+Angle Grinder Shield: The angle grinder shield deflected sparks and metal swarf away from the user.
+Magnetic Pickup Tool: The magnetic pickup tool retrieved dropped screws from engine compartments.
+Dial Caliper: The dial caliper read measurements on a clock-like scale for quick reference.
+Digital Angle Finder: The digital angle finder displayed exact degrees for crown molding cuts.
+Double-Sided Tape: The double-sided tape held templates or jigs firmly to the work surface.
+Gasket Scraper: The gasket scraper peeled off old engine seals without gouging aluminum.
+PVC Pipe Cutter: The PVC pipe cutter snapped off plastic tubes in a clean, even line.
+Push Block: The push block protected hands while guiding wood across a saw blade.
+Featherboard Tool: The featherboard tool kept boards tight against the fence for consistent cuts.
+Dust Hood: The dust hood connected the saw to a vacuum for efficient chip extraction.
+Benchtop Lathe: The benchtop lathe took up minimal space but turned small metal parts accurately.
+Magnetic Drill Press: The magnetic drill press clung to steel beams for overhead or vertical drilling.
+Digital Scale: The digital scale measured epoxy ratios or powder dyes for finishing recipes.
+Shop Stool: The shop stool provided a comfortable perch during detailed bench tasks.
+UV Light Pen: The UV light pen cured resin adhesives for quick, durable bonds.
+Mixing Paddle: The mixing paddle combined grout or plaster to a smooth consistency in a bucket.
+Rag Joint Tool: The rag joint tool aligned steering couplings for older vehicle restorations.
+Brake Spring Pliers: The brake spring pliers manipulated tough springs without risking hand injuries.
+High-Pressure Nozzle: The high-pressure nozzle blasted away caked mud on farm equipment.
+Plastering Hawk: The plastering hawk supported wet plaster for quick trowel access.
+Concrete Screed: The concrete screed leveled and smoothed wet slabs for driveways or sidewalks.
+Framing Nailer: The framing nailer fired large nails that quickly assembled wall studs.
+Electric Caulk Warmer: The electric caulk warmer softened sealant tubes in cold conditions.
+Rubber Float: The rubber float pressed grout evenly into tiled seams.
+Tap Wrench: The tap wrench provided steady turning force for threading holes in metal.
+Threading Die: The threading die cut external threads onto rods or bolts of specific diameters.
+Pillar Drill: The pillar drill, another term for a floor-standing drill press, bored tall workpieces.
+Hedge Trimmer: The hedge trimmer shaped hedges into sleek, uniform lines.
+Straw Blower: The straw blower covered newly seeded lawns with straw mulch in minutes.
+Garden Tiller: The garden tiller churned the soil, loosening it before spring planting.
+Orchard Ladder: The orchard ladder’s tripod base stayed stable on uneven ground among fruit trees.
+Post Puller: The post puller extracted fence posts deeply sunk into hard soil.
+Chain Saw Mill: The chain saw mill converted logs into planks in a portable backyard operation.
+Brush Grubber: The brush grubber clamped onto small stumps for uprooting by a tractor.
+Leaf Blower: The leaf blower cleared fall foliage off the driveway and walkways.
+Log Splitter: The log splitter’s hydraulic press cracked large wood rounds effortlessly.
+Pole Saw: The pole saw pruned overhead branches without requiring a ladder.
+Hose Crimper: The hose crimper attached new fittings to hydraulic lines under pressure.
+Ratchet Pipe Cutter: The ratchet pipe cutter advanced with each squeeze, slicing thick metal pipes.
+Foam Gun: The foam gun dispensed expanding insulation around windows and door frames.
+Guttering Tool: The guttering tool shaped aluminum gutter sections for precise downspout attachment.
