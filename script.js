@@ -240,7 +240,7 @@ const STATE = {
     },
 
     next_category(){
-        const categories = ["tools", "history", "kitchen", "house", "clothing"]
+        const categories = ["tools", "history", "kitchen", "house", "clothing", "british_history"]
         const index = categories.indexOf(this._category)
         this._category = categories[(index + 1) % categories.length]
         read_data()
