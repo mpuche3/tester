@@ -21,64 +21,64 @@ function shuffleOptions() {
 
 questions = [
     {
-        "Question": "Which decade saw significant improvements in public housing and the construction of new homes in many UK towns and cities?",
-        "RightAnswer": "1920s",
-        "WrongAnswers": ["1910s", "1930s", "1940s"],
-        "Explanation": "In the 1920s, many people’s living conditions got better. There were improvements in public housing and new homes were built in many towns and cities."
+        "Question": "What was one significant outcome of the Reform Act of 1832?",
+        "RightAnswer": "It abolished pocket and rotten boroughs.",
+        "WrongAnswers": ["It granted universal suffrage.", "It allowed women to vote.", "It abolished property ownership as a voting requirement."],
+        "Explanation": "The Act also abolished the old pocket and rotten boroughs and more parliamentary seats were given to the towns and cities."
     },
     {
-        "Question": "What major economic event began in 1929, affecting parts of the UK with mass unemployment?",
-        "RightAnswer": "The Great Depression",
-        "WrongAnswers": ["World War I", "The Roaring Twenties", "The Industrial Revolution"],
-        "Explanation": "However, in 1929, the world entered the ‘Great Depression’ and some parts of the UK suffered mass unemployment."
+        "Question": "Why were members of the working class still unable to vote after the Reform Act of 1832?",
+        "RightAnswer": "Voting was based on ownership of property.",
+        "WrongAnswers": ["They were not citizens.", "They lacked education.", "The Act excluded urban areas."],
+        "Explanation": "This meant that members of the working class were still unable to vote."
     },
     {
-        "Question": "Which traditional heavy industry in the UK was badly affected by the Great Depression?",
-        "RightAnswer": "Shipbuilding",
-        "WrongAnswers": ["Automobile", "Aviation", "Textile"],
-        "Explanation": "The traditional heavy industries such as shipbuilding were badly affected but new industries – including the automobile and aviation industries – developed."
+        "Question": "What was the primary goal of the Chartist movement?",
+        "RightAnswer": "To demand the vote for the working classes and others without property.",
+        "WrongAnswers": ["To support women's suffrage.", "To abolish the monarchy.", "To introduce universal suffrage immediately."],
+        "Explanation": "A movement began to demand the vote for the working classes and other people without property. Campaigners, called the Chartists, presented petitions to Parliament."
     },
     {
-        "Question": "During the 1930s, which new industries developed in the UK despite the Great Depression?",
-        "RightAnswer": "Automobile and aviation",
-        "WrongAnswers": ["Textile and steel", "Shipbuilding and coal", "Agriculture and fishing"],
-        "Explanation": "The traditional heavy industries such as shipbuilding were badly affected but new industries – including the automobile and aviation industries – developed."
+        "Question": "What change did the Reform Act of 1867 bring?",
+        "RightAnswer": "It created more urban seats in Parliament and reduced the property requirements to vote.",
+        "WrongAnswers": ["It granted women the right to vote.", "It abolished all property requirements for voting.", "It introduced universal suffrage."],
+        "Explanation": "In 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote."
     },
     {
-        "Question": "What was the effect of falling prices on employed individuals during the Great Depression in the UK?",
-        "RightAnswer": "More money to spend",
-        "WrongAnswers": ["Reduced purchasing power", "Increased savings", "Decreased wages"],
-        "Explanation": "As prices generally fell, those in work had more money to spend."
+        "Question": "Why did political parties start creating organizations in the 19th century?",
+        "RightAnswer": "To persuade the increased number of voters to vote for them.",
+        "WrongAnswers": ["To oppose the suffragettes.", "To implement universal suffrage.", "To reduce property qualifications."],
+        "Explanation": "Politicians realised that the increased number of voters meant that they needed to persuade people to vote for them if they were to be sure of being elected to Parliament."
     },
     {
-        "Question": "By how much did car ownership in the UK increase between 1930 and 1939?",
-        "RightAnswer": "It doubled",
-        "WrongAnswers": ["It remained the same", "It tripled", "It decreased"],
-        "Explanation": "Car ownership doubled from 1 million to 2 million between 1930 and 1939."
+        "Question": "What was a key legal change for married women in Britain in 1870?",
+        "RightAnswer": "They gained the right to keep their own earnings and property.",
+        "WrongAnswers": ["They gained the right to vote.", "They were allowed to own land.", "They could run for public office."],
+        "Explanation": "Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property."
     },
     {
-        "Question": "Which renowned economist published influential new theories of economics during the inter-war period?",
-        "RightAnswer": "John Maynard Keynes",
-        "WrongAnswers": ["Adam Smith", "Milton Friedman", "Karl Marx"],
-        "Explanation": "The economist John Maynard Keynes published influential new theories of economics."
+        "Question": "What was the main focus of the women's suffrage movement in the late 19th and early 20th centuries?",
+        "RightAnswer": "To campaign for the right to vote.",
+        "WrongAnswers": ["To abolish property ownership requirements.", "To campaign for equal pay.", "To introduce universal suffrage."],
+        "Explanation": "In the late 19th and early 20th centuries, an increasing number of women campaigned and demonstrated for greater rights and, in particular, the right to vote."
     },
     {
-        "Question": "When did the BBC begin its radio broadcasts?",
-        "RightAnswer": "1922",
-        "WrongAnswers": ["1912", "1932", "1942"],
-        "Explanation": "The BBC started radio broadcasts in 1922 and began the world’s first regular television service in 1936."
+        "Question": "What term was used to describe women who campaigned for voting rights in Britain?",
+        "RightAnswer": "Suffragettes",
+        "WrongAnswers": ["Chartists", "Feminists", "Socialists"],
+        "Explanation": "They formed the women’s suffrage movement and became known as ‘suffragettes’."
     },
     {
-        "Question": "What cultural developments occurred in the UK during the inter-war period?",
-        "RightAnswer": "Cultural blossoming with prominent writers",
-        "WrongAnswers": ["Decline in literary activities", "Rise of silent films", "Isolation from European culture"],
-        "Explanation": "It was also a time of cultural blossoming, with writers such as Graham Greene and Evelyn Waugh prominent."
+        "Question": "What was a significant limitation of the Reform Act of 1867 regarding voting rights?",
+        "RightAnswer": "The majority of men still did not have the right to vote, and no women could vote.",
+        "WrongAnswers": ["It excluded urban areas from representation.", "It abolished voting for property owners.", "It limited voting rights to rural landowners."],
+        "Explanation": "However, the majority of men still did not have the right to vote and no women could vote."
     },
     {
-        "Question": "In what year did the BBC begin the world’s first regular television service?",
-        "RightAnswer": "1936",
-        "WrongAnswers": ["1926", "1930", "1940"],
-        "Explanation": "The BBC started radio broadcasts in 1922 and began the world’s first regular television service in 1936."
+        "Question": "When did universal suffrage (the right for all adults to vote) become a reality in Britain?",
+        "RightAnswer": "In the next century after the 19th century.",
+        "WrongAnswers": ["In 1832.", "In 1867.", "By the end of the 19th century."],
+        "Explanation": "Universal suffrage (the right of every adult, male or female, to vote) followed in the next century."
     }
 ]
 
@@ -113,6 +113,15 @@ const STATE = {
             "US Female": "Google US English",
     },
     
+    get_text_to_read(){
+        if (document.querySelector("#explanation").innerHTML.trim() === ""){
+            return document.querySelector("#question_text").innerHTML.trim()
+        } else {
+            return document.querySelector("#explanation_text").innerHTML.trim()
+        }
+        
+    },
+
     next_question(){
         document.querySelector("#opt01").classList.remove('green_div');
         document.querySelector("#opt02").classList.remove('red_div');
@@ -120,7 +129,18 @@ const STATE = {
         document.querySelector("#opt04").classList.remove('red_div');
         document.querySelector("#explanation_text").innerHTML = ""
         shuffleOptions()
-        this._index = Math.floor(Math.random() * this._questions.length)
+
+        if (this._isRepeat === true) {
+            this._index = Math.floor(Math.random() * this._questions.length)
+        } else {
+            this._index = this._index + 1;
+            if (this._index === this._questions.length) {
+                this._index = 0;
+            }
+        }
+
+
+        
         this.refresh_text()
         const question = this._questions[this._index]["Question"]
         play(question)
@@ -402,8 +422,9 @@ function get_text(url) {
     return data[0].txt
 }
 
-function play(text){
+function play(){
     STATE.refresh_text();
+    const text = STATE.get_text_to_read()
     if (!STATE.isHardMuted && !STATE.isSoftMuted) {
         const voice = STATE.voice  
         if (voice === "echo"){
@@ -413,15 +434,7 @@ function play(text){
             audio.playbackRate = playbackRate;
             audios.push(audio)
             audio.addEventListener("ended", function () {
-                setTimeout(function () {
-                    if (!STATE.isRepeat){
-                        STATE.next_sentence()
-                        STATE.refresh()
-                    } else {
-                        play(text)
-                        STATE.increase_sentence_score();              
-                    }
-                }, 600)
+                play()          
             })
             audio.play()
         } else {
@@ -431,13 +444,7 @@ function play(text){
             utterance.rate = 0.85;
             utterance.onend = function(){
                 setTimeout(function () {
-                    if (!STATE.isRepeat){
-                        STATE.next_sentence()
-                        STATE.refresh()
-                    } else {
-                        play(text)
-                        STATE.increase_sentence_score();              
-                    }
+                    play()        
                 }, 600)
             }
             window.speechSynthesis.speak(utterance);                 
