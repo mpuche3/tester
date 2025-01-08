@@ -1,15 +1,90 @@
 console.log("Running Script.js")
 
-initial_sentences = [{
-    "txt": "Colonel: The colonel led his regiment with great authority.",
-    "ipa": "## kɜ́rnəl: ðə kɜ́rnəl lɛ́d hᵻz rɛ́dʒᵻmənt wᵻð ɡrɛ́jt əθɔ́rᵻtij.",
-    "hash": "TXT_ad09ce6c8278b147bd0744441b1ea6.mp3",
-    "score": 0.5
-}]
+function shuffleOptions() {
+  // Select the parent container and all option divs except the explanation
+  const parent = document.getElementById('question').parentElement;
+  const options = Array.from(document.querySelectorAll('.opt_div'));
+  const explanation = document.getElementById('explanation');
+
+  // Shuffle the options array using Fisher-Yates algorithm
+  for (let i = options.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [options[i], options[j]] = [options[j], options[i]];
+  }
+
+  // Append the shuffled option divs back to the parent container
+  options.forEach(option => parent.appendChild(option));
+
+  // Ensure the explanation div is appended last
+  parent.appendChild(explanation);
+}
+
+questions = [
+    {
+        "Question": "Which decade saw significant improvements in public housing and the construction of new homes in many UK towns and cities?",
+        "RightAnswer": "1920s",
+        "WrongAnswers": ["1910s", "1930s", "1940s"],
+        "Explanation": "In the 1920s, many people’s living conditions got better. There were improvements in public housing and new homes were built in many towns and cities."
+    },
+    {
+        "Question": "What major economic event began in 1929, affecting parts of the UK with mass unemployment?",
+        "RightAnswer": "The Great Depression",
+        "WrongAnswers": ["World War I", "The Roaring Twenties", "The Industrial Revolution"],
+        "Explanation": "However, in 1929, the world entered the ‘Great Depression’ and some parts of the UK suffered mass unemployment."
+    },
+    {
+        "Question": "Which traditional heavy industry in the UK was badly affected by the Great Depression?",
+        "RightAnswer": "Shipbuilding",
+        "WrongAnswers": ["Automobile", "Aviation", "Textile"],
+        "Explanation": "The traditional heavy industries such as shipbuilding were badly affected but new industries – including the automobile and aviation industries – developed."
+    },
+    {
+        "Question": "During the 1930s, which new industries developed in the UK despite the Great Depression?",
+        "RightAnswer": "Automobile and aviation",
+        "WrongAnswers": ["Textile and steel", "Shipbuilding and coal", "Agriculture and fishing"],
+        "Explanation": "The traditional heavy industries such as shipbuilding were badly affected but new industries – including the automobile and aviation industries – developed."
+    },
+    {
+        "Question": "What was the effect of falling prices on employed individuals during the Great Depression in the UK?",
+        "RightAnswer": "More money to spend",
+        "WrongAnswers": ["Reduced purchasing power", "Increased savings", "Decreased wages"],
+        "Explanation": "As prices generally fell, those in work had more money to spend."
+    },
+    {
+        "Question": "By how much did car ownership in the UK increase between 1930 and 1939?",
+        "RightAnswer": "It doubled",
+        "WrongAnswers": ["It remained the same", "It tripled", "It decreased"],
+        "Explanation": "Car ownership doubled from 1 million to 2 million between 1930 and 1939."
+    },
+    {
+        "Question": "Which renowned economist published influential new theories of economics during the inter-war period?",
+        "RightAnswer": "John Maynard Keynes",
+        "WrongAnswers": ["Adam Smith", "Milton Friedman", "Karl Marx"],
+        "Explanation": "The economist John Maynard Keynes published influential new theories of economics."
+    },
+    {
+        "Question": "When did the BBC begin its radio broadcasts?",
+        "RightAnswer": "1922",
+        "WrongAnswers": ["1912", "1932", "1942"],
+        "Explanation": "The BBC started radio broadcasts in 1922 and began the world’s first regular television service in 1936."
+    },
+    {
+        "Question": "What cultural developments occurred in the UK during the inter-war period?",
+        "RightAnswer": "Cultural blossoming with prominent writers",
+        "WrongAnswers": ["Decline in literary activities", "Rise of silent films", "Isolation from European culture"],
+        "Explanation": "It was also a time of cultural blossoming, with writers such as Graham Greene and Evelyn Waugh prominent."
+    },
+    {
+        "Question": "In what year did the BBC begin the world’s first regular television service?",
+        "RightAnswer": "1936",
+        "WrongAnswers": ["1926", "1930", "1940"],
+        "Explanation": "The BBC started radio broadcasts in 1922 and began the world’s first regular television service in 1936."
+    }
+]
 
 const STATE = {
-    sentences: initial_sentences,
-    sentence: initial_sentences[0],
+    _questions: questions,
+    _index: 0,
     voices: [],
     _category: "tools",
     _voice: "echo",
@@ -38,20 +113,23 @@ const STATE = {
             "US Female": "Google US English",
     },
     
-    next_sentence(){
-        while (true) {
-            index = Math.floor(Math.random() * STATE.sentences.length)
-            score = localStorage.getItem(STATE.sentences[index].hash) || STATE.sentences[index].score;
-            score = Number(score);
-            if (Math.random() < score) {
-                STATE.sentence = STATE.sentences[index];
-                break;
-            }
-        }
-        // localStorage.setItem("data", JSON.stringify(STATE.sentences))
-        // STATE.sentences = JSON.parse(localStorage.getItem("data"))
-        STATE.decrease_sentence_score();
-        STATE.refresh();
+    next_question(){
+        document.querySelector("#opt01").classList.remove('green_div');
+        document.querySelector("#opt02").classList.remove('red_div');
+        document.querySelector("#opt03").classList.remove('red_div');
+        document.querySelector("#opt04").classList.remove('red_div');
+        document.querySelector("#explanation_text").innerHTML = ""
+        shuffleOptions()
+        this._index = Math.floor(Math.random() * this._questions.length)
+        this.refresh_text()
+        const question = this._questions[this._index]["Question"]
+        play(question)
+    },
+
+    show_explanation(){
+        const explantion = this._questions[this._index]["Explanation"]
+        document.querySelector("#explanation_text").innerHTML = explantion
+        play(explantion)
     },
 
     get_voices(){
@@ -154,7 +232,7 @@ const STATE = {
             this._voice = "echo"
         }
         this.refresh_voice()
-        play()
+        // play()
     },
 
     refresh_voice() {
@@ -166,11 +244,16 @@ const STATE = {
     },
 
     refresh_text() {
-        if (this._isPhonetic){
-            document.querySelector("#text").innerHTML = this.sentence.ipa.replace(":", "<br><br>")
-        } else {
-            document.querySelector("#text").innerHTML = this.sentence.txt.replace(":", "<br><br>")
-        }
+        document.querySelector("#question_text").innerHTML = this._questions[this._index]["Question"]
+        document.querySelector("#opt01_text").innerHTML = this._questions[this._index]["RightAnswer"]
+        document.querySelector("#opt02_text").innerHTML = this._questions[this._index]["WrongAnswers"][0]
+        document.querySelector("#opt03_text").innerHTML = this._questions[this._index]["WrongAnswers"][1]
+        document.querySelector("#opt04_text").innerHTML = this._questions[this._index]["WrongAnswers"][2]
+        // if (this._isPhonetic){
+        //     document.querySelector("#text").innerHTML = this.sentence.ipa.replace(":", "<br><br>")
+        // } else {
+        //     document.querySelector("#text").innerHTML = this.sentence.txt.replace(":", "<br><br>")
+        // }
     },
 
     refresh_repeat(){
@@ -187,7 +270,7 @@ const STATE = {
             pause_play()
         } else {
             document.querySelector("#sound").innerHTML = get_ICON("si_sound")
-            play()
+            // play()
         }
     },
 
@@ -197,10 +280,9 @@ const STATE = {
             pause_play()
         } else {
             document.querySelector("#sound").innerHTML = get_ICON("si_sound")
-            play()
+            // play()
         }
     },
-
 
     refresh_text_mode(){
         if (this._isPhonetic){
@@ -224,19 +306,19 @@ const STATE = {
     },
 
     increase_sentence_score(){
-        score = localStorage.getItem(this.sentence.hash) || this.sentence.score
-        score = Number(score)
-        score = score + (1 - score) / 2
-        this.sentence.score = score
-        localStorage.setItem(this.sentence.hash, score)
+        // score = localStorage.getItem(this.sentence.hash) || this.sentence.score
+        // score = Number(score)
+        // score = score + (1 - score) / 2
+        // this.sentence.score = score
+        // localStorage.setItem(this.sentence.hash, score)
     },
 
     decrease_sentence_score(){
-        score = localStorage.getItem(this.sentence.hash) || this.sentence.score
-        score = Number(score)
-        score = score / 10
-        this.sentence.score = score
-        localStorage.setItem(this.sentence.hash, score)
+        // score = localStorage.getItem(this.sentence.hash) || this.sentence.score
+        // score = Number(score)
+        // score = score / 10
+        // this.sentence.score = score
+        // localStorage.setItem(this.sentence.hash, score)
     },
 
     next_category(){
@@ -273,20 +355,20 @@ function trimElementText(element) {
 }
 
 function read_data(){
-    const jsonFilePath = `./data/json/${STATE._category}.json`;
-    fetch(jsonFilePath).then(response => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json(); // Parse the JSON data
-    }).then(data => {
-        console.log('JSON data:', data);
-        STATE.sentences = data;
-        STATE.refresh();
-        STATE.next_sentence();
-    }).catch(error => {
-        console.error('Error loading JSON file:', error);
-    });
+    // const jsonFilePath = `./data/json/${STATE._category}.json`;
+    // fetch(jsonFilePath).then(response => {
+    //     if (!response.ok) {
+    //         throw new Error(`HTTP error! status: ${response.status}`);
+    //     }
+    //     return response.json(); // Parse the JSON data
+    // }).then(data => {
+    //     console.log('JSON data:', data);
+    //     STATE.sentences = data;
+    //     STATE.refresh();
+    //     STATE.next_sentence();
+    // }).catch(error => {
+    //     console.error('Error loading JSON file:', error);
+    // });
 }
 
 function openInNewTab(url) {
@@ -320,7 +402,7 @@ function get_text(url) {
     return data[0].txt
 }
 
-function play(){
+function play(text){
     STATE.refresh_text();
     if (!STATE.isHardMuted && !STATE.isSoftMuted) {
         const voice = STATE.voice  
@@ -336,7 +418,7 @@ function play(){
                         STATE.next_sentence()
                         STATE.refresh()
                     } else {
-                        play()
+                        play(text)
                         STATE.increase_sentence_score();              
                     }
                 }, 600)
@@ -344,7 +426,6 @@ function play(){
             audio.play()
         } else {
             pause_play()
-            const text = STATE.sentence.txt;
             const utterance = new SpeechSynthesisUtterance(text);
             utterance.voice = STATE.voice
             utterance.rate = 0.85;
@@ -354,7 +435,7 @@ function play(){
                         STATE.next_sentence()
                         STATE.refresh()
                     } else {
-                        play()
+                        play(text)
                         STATE.increase_sentence_score();              
                     }
                 }, 600)
@@ -403,16 +484,15 @@ document.addEventListener("fullscreenchange", function () {
     }
 });
 
-document.querySelector("#text-row").addEventListener("click", function () {
-    console.log("click on text-row")
-    STATE.next_sentence()
-    STATE.refresh()
-});
-
 document.querySelector("#category").addEventListener("click", function () {
     console.log("click on category")
     STATE.next_category()
 });
+
+
+
+
+
 
 document.querySelector("#voice").addEventListener('click', function () {
     STATE.next_voice()
@@ -438,12 +518,34 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+document.querySelector("#explanation").addEventListener("click", function () {
+    console.log("click on category")
+    STATE.next_question()
+});
+
+document.querySelector("#opt01").addEventListener("click", function (){
+    document.querySelector("#opt01").classList.add('green_div');
+    STATE.show_explanation()
+})
+
+document.querySelector("#opt02").addEventListener("click", function (){
+    document.querySelector("#opt02").classList.add('red_div');
+})
+
+document.querySelector("#opt03").addEventListener("click", function (){
+    document.querySelector("#opt03").classList.add('red_div');
+})
+
+document.querySelector("#opt04").addEventListener("click", function (){
+    document.querySelector("#opt04").classList.add('red_div');
+})
+
 ///////////////////////////////////////////////
 //                                           //
 ///////////////////////////////////////////////
 
 let startX, startY, endX, endY;
-const swipeContainer = document.getElementById('text-row');
+const swipeContainer = document.getElementById('question');
 
 swipeContainer.addEventListener('touchstart', (e) => {
     startX = e.touches[0].pageX;

@@ -3,7 +3,7 @@
     --color_background: hsl(var(--hue), 28%, 69%);
     --color_border: hsl(var(--hue), 30%, 37%);
     --color_font1: hsl(var(--hue), 29%, 28%);
-    --color_background_light:hsl(var(--hue), 31%, 74%);
+    --color_background_light:hsla(var(--hue), 31%, 74%, 50%);
 }
 
 *:not(html):not(head):not(script) {
@@ -130,14 +130,40 @@ h1 {
     padding: 10px;
 }
 
-.option:hover {
-    /* background-color: var(--color_background_light); */
-}
+/* .opt_div:hover {
+    background-color: var(--color_background_light);
+} */
 
 .option{
     cursor: pointer    
 }
 
-.p{
-    background-color: transparent;
+.row {
+    display: flex; /* Use Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+  
+p {
+    text-align: center; /* Align text in the center of the <p> */
+}
+
+#question {
+    height: 180px;
+}
+
+#explanation {
+    height: 300px;
+}
+
+.opt_div{
+    cursor: pointer  
+}
+
+.red_div{
+    background-color: rgb(240, 124, 124);
+}
+
+.green_div{
+    background-color: rgb(56, 206, 69);
 }
