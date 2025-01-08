@@ -1,92 +1,22 @@
 console.log("Running Script.js")
 
 function shuffleOptions() {
-  // Select the parent container and all option divs except the explanation
   const parent = document.getElementById('question').parentElement;
   const options = Array.from(document.querySelectorAll('.opt_div'));
   const explanation = document.getElementById('explanation');
-
-  // Shuffle the options array using Fisher-Yates algorithm
   for (let i = options.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [options[i], options[j]] = [options[j], options[i]];
   }
-
-  // Append the shuffled option divs back to the parent container
   options.forEach(option => parent.appendChild(option));
-
-  // Ensure the explanation div is appended last
   parent.appendChild(explanation);
 }
 
-questions = [
-    {
-        "Question": "What was one significant outcome of the Reform Act of 1832?",
-        "RightAnswer": "It abolished pocket and rotten boroughs.",
-        "WrongAnswers": ["It granted universal suffrage.", "It allowed women to vote.", "It abolished property ownership as a voting requirement."],
-        "Explanation": "The Act also abolished the old pocket and rotten boroughs and more parliamentary seats were given to the towns and cities."
-    },
-    {
-        "Question": "Why were members of the working class still unable to vote after the Reform Act of 1832?",
-        "RightAnswer": "Voting was based on ownership of property.",
-        "WrongAnswers": ["They were not citizens.", "They lacked education.", "The Act excluded urban areas."],
-        "Explanation": "This meant that members of the working class were still unable to vote."
-    },
-    {
-        "Question": "What was the primary goal of the Chartist movement?",
-        "RightAnswer": "To demand the vote for the working classes and others without property.",
-        "WrongAnswers": ["To support women's suffrage.", "To abolish the monarchy.", "To introduce universal suffrage immediately."],
-        "Explanation": "A movement began to demand the vote for the working classes and other people without property. Campaigners, called the Chartists, presented petitions to Parliament."
-    },
-    {
-        "Question": "What change did the Reform Act of 1867 bring?",
-        "RightAnswer": "It created more urban seats in Parliament and reduced the property requirements to vote.",
-        "WrongAnswers": ["It granted women the right to vote.", "It abolished all property requirements for voting.", "It introduced universal suffrage."],
-        "Explanation": "In 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote."
-    },
-    {
-        "Question": "Why did political parties start creating organizations in the 19th century?",
-        "RightAnswer": "To persuade the increased number of voters to vote for them.",
-        "WrongAnswers": ["To oppose the suffragettes.", "To implement universal suffrage.", "To reduce property qualifications."],
-        "Explanation": "Politicians realised that the increased number of voters meant that they needed to persuade people to vote for them if they were to be sure of being elected to Parliament."
-    },
-    {
-        "Question": "What was a key legal change for married women in Britain in 1870?",
-        "RightAnswer": "They gained the right to keep their own earnings and property.",
-        "WrongAnswers": ["They gained the right to vote.", "They were allowed to own land.", "They could run for public office."],
-        "Explanation": "Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property."
-    },
-    {
-        "Question": "What was the main focus of the women's suffrage movement in the late 19th and early 20th centuries?",
-        "RightAnswer": "To campaign for the right to vote.",
-        "WrongAnswers": ["To abolish property ownership requirements.", "To campaign for equal pay.", "To introduce universal suffrage."],
-        "Explanation": "In the late 19th and early 20th centuries, an increasing number of women campaigned and demonstrated for greater rights and, in particular, the right to vote."
-    },
-    {
-        "Question": "What term was used to describe women who campaigned for voting rights in Britain?",
-        "RightAnswer": "Suffragettes",
-        "WrongAnswers": ["Chartists", "Feminists", "Socialists"],
-        "Explanation": "They formed the women’s suffrage movement and became known as ‘suffragettes’."
-    },
-    {
-        "Question": "What was a significant limitation of the Reform Act of 1867 regarding voting rights?",
-        "RightAnswer": "The majority of men still did not have the right to vote, and no women could vote.",
-        "WrongAnswers": ["It excluded urban areas from representation.", "It abolished voting for property owners.", "It limited voting rights to rural landowners."],
-        "Explanation": "However, the majority of men still did not have the right to vote and no women could vote."
-    },
-    {
-        "Question": "When did universal suffrage (the right for all adults to vote) become a reality in Britain?",
-        "RightAnswer": "In the next century after the 19th century.",
-        "WrongAnswers": ["In 1832.", "In 1867.", "By the end of the 19th century."],
-        "Explanation": "Universal suffrage (the right of every adult, male or female, to vote) followed in the next century."
-    }
-]
-
 const STATE = {
-    _questions: questions,
+    _questions: [{"Question": "", "RightAnswer": "", "WrongAnswers": "", "Explanation": ""}],
     _index: 0,
     voices: [],
-    _category: "tools",
+    _category: "questions001",
     _voice: "echo",
     _isPhonetic: true,
     _isRepeat: true,    
@@ -114,7 +44,7 @@ const STATE = {
     },
     
     get_text_to_read(){
-        if (document.querySelector("#explanation").innerHTML.trim() === ""){
+        if (document.querySelector("#explanation_text").innerHTML.trim() === ""){
             return document.querySelector("#question_text").innerHTML.trim()
         } else {
             return document.querySelector("#explanation_text").innerHTML.trim()
@@ -138,18 +68,14 @@ const STATE = {
                 this._index = 0;
             }
         }
-
-
-        
         this.refresh_text()
-        const question = this._questions[this._index]["Question"]
-        play(question)
+        play()
     },
 
     show_explanation(){
         const explantion = this._questions[this._index]["Explanation"]
         document.querySelector("#explanation_text").innerHTML = explantion
-        play(explantion)
+        play()
     },
 
     get_voices(){
@@ -252,7 +178,7 @@ const STATE = {
             this._voice = "echo"
         }
         this.refresh_voice()
-        // play()
+        play()
     },
 
     refresh_voice() {
@@ -290,7 +216,7 @@ const STATE = {
             pause_play()
         } else {
             document.querySelector("#sound").innerHTML = get_ICON("si_sound")
-            // play()
+            play()
         }
     },
 
@@ -300,7 +226,7 @@ const STATE = {
             pause_play()
         } else {
             document.querySelector("#sound").innerHTML = get_ICON("si_sound")
-            // play()
+            play()
         }
     },
 
@@ -325,24 +251,8 @@ const STATE = {
         this.refresh_category()
     },
 
-    increase_sentence_score(){
-        // score = localStorage.getItem(this.sentence.hash) || this.sentence.score
-        // score = Number(score)
-        // score = score + (1 - score) / 2
-        // this.sentence.score = score
-        // localStorage.setItem(this.sentence.hash, score)
-    },
-
-    decrease_sentence_score(){
-        // score = localStorage.getItem(this.sentence.hash) || this.sentence.score
-        // score = Number(score)
-        // score = score / 10
-        // this.sentence.score = score
-        // localStorage.setItem(this.sentence.hash, score)
-    },
-
     next_category(){
-        const categories = ["tools", "history", "kitchen", "house", "clothing", "british_history"]
+        const categories = ["questions001", "questions002", "TheGloriousRevolution"]
         const index = categories.indexOf(this._category)
         this._category = categories[(index + 1) % categories.length]
         read_data()
@@ -375,20 +285,20 @@ function trimElementText(element) {
 }
 
 function read_data(){
-    // const jsonFilePath = `./data/json/${STATE._category}.json`;
-    // fetch(jsonFilePath).then(response => {
-    //     if (!response.ok) {
-    //         throw new Error(`HTTP error! status: ${response.status}`);
-    //     }
-    //     return response.json(); // Parse the JSON data
-    // }).then(data => {
-    //     console.log('JSON data:', data);
-    //     STATE.sentences = data;
-    //     STATE.refresh();
-    //     STATE.next_sentence();
-    // }).catch(error => {
-    //     console.error('Error loading JSON file:', error);
-    // });
+    const jsonFilePath = `./data/questions/${STATE._category}.json`;
+    fetch(jsonFilePath).then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json(); // Parse the JSON data
+    }).then(data => {
+        console.log('JSON data:', data);
+        STATE._questions = data;
+        STATE.refresh();
+        STATE.next_question();
+    }).catch(error => {
+        console.error('Error loading JSON file:', error);
+    });
 }
 
 function openInNewTab(url) {
@@ -496,11 +406,6 @@ document.querySelector("#category").addEventListener("click", function () {
     STATE.next_category()
 });
 
-
-
-
-
-
 document.querySelector("#voice").addEventListener('click', function () {
     STATE.next_voice()
 });
@@ -551,44 +456,44 @@ document.querySelector("#opt04").addEventListener("click", function (){
 //                                           //
 ///////////////////////////////////////////////
 
-let startX, startY, endX, endY;
-const swipeContainer = document.getElementById('question');
+// let startX, startY, endX, endY;
+// const swipeContainer = document.getElementById('question');
 
-swipeContainer.addEventListener('touchstart', (e) => {
-    startX = e.touches[0].pageX;
-    startY = e.touches[0].pageY;
-});
+// swipeContainer.addEventListener('touchstart', (e) => {
+//     startX = e.touches[0].pageX;
+//     startY = e.touches[0].pageY;
+// });
 
-swipeContainer.addEventListener('touchend', (e) => {
-    const min_delta = 5;
-    endX = e.changedTouches[0].pageX;
-    endY = e.changedTouches[0].pageY;
+// swipeContainer.addEventListener('touchend', (e) => {
+//     const min_delta = 5;
+//     endX = e.changedTouches[0].pageX;
+//     endY = e.changedTouches[0].pageY;
 
-    const deltaX = endX - startX;
-    const deltaY = endY - startY;
+//     const deltaX = endX - startX;
+//     const deltaY = endY - startY;
 
-    if (Math.abs(deltaX) > Math.abs(deltaY)) {
-        // horizontal swipe
-        if (deltaX > +1 * min_delta) {
-            document.getElementById('text-row').click()
-            console.log('Swiped right');
-        } 
-        if (deltaX < -1 * min_delta) {
-            console.log('Swiped left');
-            document.getElementById('text-row').click()
-        }
-    } else {
-        // vertical swipe
-        if (deltaY > +1 * min_delta) {
-            console.log('Swiped down');
-            document.getElementById('text-row').click()
-        }
-        if (deltaY < -1 * min_delta) {
-            console.log('Swiped up');
-            document.getElementById('text-row').click()
-        }
-    }
-});
+//     if (Math.abs(deltaX) > Math.abs(deltaY)) {
+//         // horizontal swipe
+//         if (deltaX > +1 * min_delta) {
+//             document.getElementById('text-row').click()
+//             console.log('Swiped right');
+//         } 
+//         if (deltaX < -1 * min_delta) {
+//             console.log('Swiped left');
+//             document.getElementById('text-row').click()
+//         }
+//     } else {
+//         // vertical swipe
+//         if (deltaY > +1 * min_delta) {
+//             console.log('Swiped down');
+//             document.getElementById('text-row').click()
+//         }
+//         if (deltaY < -1 * min_delta) {
+//             console.log('Swiped up');
+//             document.getElementById('text-row').click()
+//         }
+//     }
+// });
 
 ///////////////////////////////////////////////
 //                                           //

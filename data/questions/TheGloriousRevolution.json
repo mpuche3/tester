@@ -1,0 +1,262 @@
+[
+    {
+        "Question": "In which year did William of Orange invade England and proclaim himself king?",
+        "RightAnswer": "1688",
+        "WrongAnswers": [
+            "1690",
+            "1685",
+            "1692"
+        ],
+        "Explanation": "In 1688, important Protestants in England asked William to invade England and proclaim himself king."
+    },
+    {
+        "Question": "Which battle in Ireland marked William's victory over James II in 1690?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": [
+            "Battle of Killiecrankie",
+            "Battle of Culloden",
+            "Battle of Bannockburn"
+        ],
+        "Explanation": "William defeated James II at the Battle of the Boyne in Ireland in 1690, an event which is still celebrated by some in Northern Ireland today."
+    },
+    {
+        "Question": "What name was given to the event in which William of Orange and Mary took the throne of England without fighting?",
+        "RightAnswer": "Glorious Revolution",
+        "WrongAnswers": [
+            "English Civil War",
+            "Restoration",
+            "Battle of Hastings"
+        ],
+        "Explanation": "This event was later called the ‘Glorious Revolution’ because there was no fighting in England and because it guaranteed the power of Parliament, ending the threat of a monarch ruling on his or her own as he or she wished."
+    },
+    {
+        "Question": "What is the name of James II's supporters, many of whom remained loyal in Scotland and France?",
+        "RightAnswer": "Jacobites",
+        "WrongAnswers": [
+            "Loyalists",
+            "Whigs",
+            "Tories"
+        ],
+        "Explanation": "James’ supporters became known as Jacobites."
+    },
+    {
+        "Question": "What group faced restrictions in Ireland after William of Orange's victory over James II?",
+        "RightAnswer": "Irish Catholics",
+        "WrongAnswers": [
+            "Irish Protestants",
+            "Scottish Presbyterians",
+            "English Anglicans"
+        ],
+        "Explanation": "Many restrictions were placed on the Roman Catholic Church in Ireland and Irish Catholics were unable to take part in the government."
+    },
+    {
+        "Question": "Which Scottish clan was killed after being late to take the oath of allegiance to William of Orange?",
+        "RightAnswer": "MacDonalds of Glencoe",
+        "WrongAnswers": [
+            "Campbells of Argyll",
+            "Stewarts of Appin",
+            "Gordons of Huntly"
+        ],
+        "Explanation": "The MacDonalds of Glencoe were late in taking the oath and were all killed."
+    },
+    {
+        "Question": "Who was James II's elder daughter who ruled jointly with William of Orange?",
+        "RightAnswer": "Mary",
+        "WrongAnswers": [
+            "Anne",
+            "Elizabeth",
+            "Catherine"
+        ],
+        "Explanation": "James II’s elder daughter, Mary, was married to her cousin William of Orange, the Protestant ruler of the Netherlands."
+    },
+    {
+        "Question": "What nationality was William of Orange, the Protestant ruler who became king of England?",
+        "RightAnswer": "Dutch",
+        "WrongAnswers": [
+            "English",
+            "Scottish",
+            "French"
+        ],
+        "Explanation": "James II’s elder daughter, Mary, was married to her cousin William of Orange, the Protestant ruler of the Netherlands."
+    },
+    {
+        "Question": "Where did James II flee after William of Orange invaded England?",
+        "RightAnswer": "France",
+        "WrongAnswers": [
+            "Ireland",
+            "Scotland",
+            "Spain"
+        ],
+        "Explanation": "James fled to France and William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland."
+    },
+    {
+        "Question": "What was the outcome of the armed rebellion in Scotland in support of James II?",
+        "RightAnswer": "Defeated at Killiecrankie",
+        "WrongAnswers": [
+            "Victory at Culloden",
+            "Stalemate at Stirling",
+            "Defeated at Bannockburn"
+        ],
+        "Explanation": "An attempt at an armed rebellion in support of James was quickly defeated at Killiecrankie."
+    },
+    {
+        "Question": "What was the major political impact of the Glorious Revolution?",
+        "RightAnswer": "Guaranteed the power of Parliament",
+        "WrongAnswers": [
+            "Established absolute monarchy",
+            "Declared independence from France",
+            "Created a Catholic monarchy"
+        ],
+        "Explanation": "This event was later called the ‘Glorious Revolution’ because there was no fighting in England and because it guaranteed the power of Parliament, ending the threat of a monarch ruling on his or her own as he or she wished."
+    },
+    {
+        "Question": "What type of government restrictions were placed on the Roman Catholic Church in Ireland after William of Orange's victory?",
+        "RightAnswer": "Exclusion from government participation",
+        "WrongAnswers": [
+            "Complete expulsion from Ireland",
+            "Mandatory conversion to Protestantism",
+            "Relocation to Scotland"
+        ],
+        "Explanation": "Many restrictions were placed on the Roman Catholic Church in Ireland and Irish Catholics were unable to take part in the government."
+    },
+    {
+        "Question": "Which event marked the re-conquest of Ireland by William of Orange?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": [
+            "Battle of Killiecrankie",
+            "Battle of Culloden",
+            "Battle of Dunkirk"
+        ],
+        "Explanation": "William re-conquered Ireland and James fled back to France."
+    },
+    {
+        "Question": "Which event caused distrust among some Scots toward William of Orange's government?",
+        "RightAnswer": "Massacre of Glencoe",
+        "WrongAnswers": [
+            "Battle of Bannockburn",
+            "Act of Union",
+            "Rising of 1715"
+        ],
+        "Explanation": "The memory of this massacre meant some Scots distrusted the new government."
+    },
+    {
+        "Question": "What Protestant leader became William III of England, Wales, and Ireland, and William II of Scotland?",
+        "RightAnswer": "William of Orange",
+        "WrongAnswers": [
+            "James II",
+            "Charles II",
+            "George I"
+        ],
+        "Explanation": "William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland."
+    },
+    {
+        "Question": "What group continued to believe that James II was the rightful king, especially in Scotland?",
+        "RightAnswer": "Jacobites",
+        "WrongAnswers": [
+            "Roundheads",
+            "Loyalists",
+            "Covenanters"
+        ],
+        "Explanation": "Some continued to believe that James was the rightful king, particularly in Scotland."
+    },
+    {
+        "Question": "Which monarch's reign was ended by the Glorious Revolution?",
+        "RightAnswer": "James II",
+        "WrongAnswers": [
+            "Charles II",
+            "George I",
+            "Henry VIII"
+        ],
+        "Explanation": "James fled to France and William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland."
+    },
+    {
+        "Question": "What event in Irish history is still celebrated by some in Northern Ireland today?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": [
+            "Massacre of Glencoe",
+            "Battle of Culloden",
+            "Rising of 1715"
+        ],
+        "Explanation": "William defeated James II at the Battle of the Boyne in Ireland in 1690, an event which is still celebrated by some in Northern Ireland today."
+    },
+    {
+        "Question": "What country provided James II with an army to try to regain his throne?",
+        "RightAnswer": "France",
+        "WrongAnswers": [
+            "Spain",
+            "Netherlands",
+            "Germany"
+        ],
+        "Explanation": "James II wanted to regain the throne and invaded Ireland with the help of a French army."
+    },
+    {
+        "Question": "What was the relationship between William of Orange and Mary?",
+        "RightAnswer": "Cousins and husband and wife",
+        "WrongAnswers": [
+            "Siblings",
+            "Father and daughter",
+            "Unrelated"
+        ],
+        "Explanation": "James II’s elder daughter, Mary, was married to her cousin William of Orange, the Protestant ruler of the Netherlands."
+    },
+    {
+        "Question": "Which title did William hold in Scotland after the Glorious Revolution?",
+        "RightAnswer": "William II",
+        "WrongAnswers": [
+            "William III",
+            "William I",
+            "William IV"
+        ],
+        "Explanation": "William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland."
+    },
+    {
+        "Question": "What was the primary reason the Glorious Revolution is considered 'glorious'?",
+        "RightAnswer": "There was no fighting in England",
+        "WrongAnswers": [
+            "It expanded the monarchy's power",
+            "It resulted in territorial expansion",
+            "It ended religious disputes"
+        ],
+        "Explanation": "This event was later called the ‘Glorious Revolution’ because there was no fighting in England and because it guaranteed the power of Parliament."
+    },
+    {
+        "Question": "What happened to James II after his defeat at the Battle of the Boyne?",
+        "RightAnswer": "He fled back to France",
+        "WrongAnswers": [
+            "He was executed",
+            "He became a prisoner of war",
+            "He surrendered and became an advisor"
+        ],
+        "Explanation": "William re-conquered Ireland and James fled back to France."
+    },
+    {
+        "Question": "Which Protestant ruler of the Netherlands became King of England, Scotland, and Ireland?",
+        "RightAnswer": "William of Orange",
+        "WrongAnswers": [
+            "James II",
+            "Charles II",
+            "George I"
+        ],
+        "Explanation": "James II’s elder daughter, Mary, was married to her cousin William of Orange, the Protestant ruler of the Netherlands."
+    },
+    {
+        "Question": "What led to the distrust of the new government by some Scots after the Glorious Revolution?",
+        "RightAnswer": "The massacre of the MacDonalds of Glencoe",
+        "WrongAnswers": [
+            "The Battle of Killiecrankie",
+            "The Act of Union",
+            "The Rising of 1715"
+        ],
+        "Explanation": "The MacDonalds of Glencoe were late in taking the oath and were all killed. The memory of this massacre meant some Scots distrusted the new government."
+    },
+    {
+        "Question": "What was the collective term for James II's supporters who opposed William and Mary?",
+        "RightAnswer": "Jacobites",
+        "WrongAnswers": [
+            "Roundheads",
+            "Royalists",
+            "Covenanters"
+        ],
+        "Explanation": "James’ supporters became known as Jacobites."
+    }
+]

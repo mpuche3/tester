@@ -1,0 +1,146 @@
+[
+    {
+        "Question": "In what year did Queen Victoria become queen of the UK?",
+        "RightAnswer": "1837",
+        "WrongAnswers": ["1846", "1851", "1901"],
+        "Explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18."
+    },
+    {
+        "Question": "How old was Queen Victoria when she became queen?",
+        "RightAnswer": "18",
+        "WrongAnswers": ["16", "21", "25"],
+        "Explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18."
+    },
+    {
+        "Question": "Until what year did Queen Victoria reign?",
+        "RightAnswer": "1901",
+        "WrongAnswers": ["1890", "1910", "1920"],
+        "Explanation": "She reigned until 1901, almost 64 years."
+    },
+    {
+        "Question": "As of 2013, Queen Victoria's reign was the longest of any British monarch. How many years did she reign?",
+        "RightAnswer": "64 years",
+        "WrongAnswers": ["50 years", "55 years", "60 years"],
+        "Explanation": "She reigned until 1901, almost 64 years."
+    },
+    {
+        "Question": "Between which years did as many as 13 million British citizens leave the country?",
+        "RightAnswer": "1853 and 1913",
+        "WrongAnswers": ["1837 and 1901", "1846 and 1914", "1870 and 1900"],
+        "Explanation": "Between 1853 and 1913, as many as 13 million British citizens left the country."
+    },
+    {
+        "Question": "How many Russian and Polish Jews came to Britain between 1870 and 1914?",
+        "RightAnswer": "120,000",
+        "WrongAnswers": ["50,000", "200,000", "300,000"],
+        "Explanation": "For example, between 1870 and 1914, around 120,000 Russian and Polish Jews came to Britain to escape persecution."
+    },
+    {
+        "Question": "In what year were the Corn Laws repealed?",
+        "RightAnswer": "1846",
+        "WrongAnswers": ["1837", "1851", "1901"],
+        "Explanation": "One example of this was the repealing of the Corn Laws in 1846."
+    },
+    {
+        "Question": "How many hours per day were women and children allowed to work after the 1847 law?",
+        "RightAnswer": "10 hours",
+        "WrongAnswers": ["8 hours", "12 hours", "14 hours"],
+        "Explanation": "In 1847, the number of hours that women and children could work was limited by law to 10 hours per day."
+    },
+    {
+        "Question": "When did the Great Exhibition open in Hyde Park?",
+        "RightAnswer": "1851",
+        "WrongAnswers": ["1846", "1870", "1901"],
+        "Explanation": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass."
+    },
+    {
+        "Question": "What was the estimated population of the British Empire during the Victorian period?",
+        "RightAnswer": "400 million people",
+        "WrongAnswers": ["200 million people", "300 million people", "500 million people"],
+        "Explanation": "It became the largest empire the world has ever seen, with an estimated population of more than 400 million people."
+    },
+    {
+        "Question": "Which engineers were known for building bridges during the Victorian period?",
+        "RightAnswer": "Isambard Kingdom Brunel",
+        "WrongAnswers": ["George Stephenson", "Robert Stephenson", "James Watt"],
+        "Explanation": "There were also great advances in other areas, such as the building of bridges by engineers such as Isambard Kingdom Brunel."
+    },
+    {
+        "Question": "How many Russian and Polish Jews arrived in Britain to escape persecution between 1870 and 1914?",
+        "RightAnswer": "120,000",
+        "WrongAnswers": ["50,000", "75,000", "150,000"],
+        "Explanation": "For example, between 1870 and 1914, around 120,000 Russian and Polish Jews came to Britain to escape persecution."
+    },
+    {
+        "Question": "Which laws prevented the import of cheap grain before their repeal in 1846?",
+        "RightAnswer": "The Corn Laws",
+        "WrongAnswers": ["The Navigation Acts", "The Trade Restrictions Act", "The Import Quotas"],
+        "Explanation": "These had prevented the import of cheap grain."
+    },
+    {
+        "Question": "What significant event took place in Hyde Park in 1851?",
+        "RightAnswer": "The Great Exhibition",
+        "WrongAnswers": ["The Industrial Fair", "The British Expo", "The Victoria Showcase"],
+        "Explanation": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass."
+    },
+    {
+        "Question": "Which building hosted the Great Exhibition in 1851?",
+        "RightAnswer": "The Crystal Palace",
+        "WrongAnswers": ["The Tower of London", "Hyde Park Pavilion", "The British Museum"],
+        "Explanation": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass."
+    },
+    {
+        "Question": "How many British citizens left the country between 1853 and 1913?",
+        "RightAnswer": "13 million",
+        "WrongAnswers": ["5 million", "10 million", "20 million"],
+        "Explanation": "Between 1853 and 1913, as many as 13 million British citizens left the country."
+    },
+    {
+        "Question": "Which reform in 1846 helped the development of British industry by allowing cheaper import of raw materials?",
+        "RightAnswer": "The repealing of the Corn Laws",
+        "WrongAnswers": ["The Factory Act", "The Trade Expansion Act", "The Free Shipping Act"],
+        "Explanation": "One example of this was the repealing of the Corn Laws in 1846. These had prevented the import of cheap grain. The reforms helped the development of British industry, because raw materials could now be imported more cheaply."
+    },
+    {
+        "Question": "Which two members of the Stephenson family pioneered the railway engine before Victoria's reign?",
+        "RightAnswer": "George and Robert Stephenson",
+        "WrongAnswers": ["James and William Stephenson", "Edward and Thomas Stephenson", "Henry and Charles Stephenson"],
+        "Explanation": "Just before Victoria came to the throne, the father and son George and Robert Stephenson pioneered the railway engine and a major expansion of the railways took place in the Victorian period."
+    },
+    {
+        "Question": "Approximately how many people came to Britain from other parts of the world during the Victorian period?",
+        "RightAnswer": "120,000",
+        "WrongAnswers": ["500,000", "200,000", "No significant immigration"],
+        "Explanation": "People continued to come to Britain from other parts of the world. For example, between 1870 and 1914, around 120,000 Russian and Polish Jews came to Britain to escape persecution. People from the Empire, including India and Africa, also came to Britain to live, work and study."
+    },
+    {
+        "Question": "Which policy did the British government promote to enhance its status as a great trading nation?",
+        "RightAnswer": "Policies of free trade",
+        "WrongAnswers": ["Protectionist tariffs", "Isolationist policies", "Monetary restrictions"],
+        "Explanation": "Britain continued to be a great trading nation. The government began to promote policies of free trade, abolishing a number of taxes on imported goods."
+    },
+    {
+        "Question": "In 1851, where was the Great Exhibition held?",
+        "RightAnswer": "Hyde Park",
+        "WrongAnswers": ["Greenwich", "Kensington", "Chelsea"],
+        "Explanation": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass."
+    },
+    {
+        "Question": "What was the population of the British Empire at its peak during the Victorian period?",
+        "RightAnswer": "400 million people",
+        "WrongAnswers": ["100 million people", "250 million people", "600 million people"],
+        "Explanation": "It became the largest empire the world has ever seen, with an estimated population of more than 400 million people."
+    },
+    {
+        "Question": "Which class became increasingly significant within the UK during the Victorian Age?",
+        "RightAnswer": "The middle classes",
+        "WrongAnswers": ["The aristocracy", "The working class", "The peasantry"],
+        "Explanation": "Within the UK, the middle classes became increasingly significant and a number of reformers led moves to improve conditions of life for the poor."
+    },
+    {
+        "Question": "What major transportation development was pioneered by George and Robert Stephenson?",
+        "RightAnswer": "The railway engine",
+        "WrongAnswers": ["The steamship", "The automobile", "The electric tram"],
+        "Explanation": "Just before Victoria came to the throne, the father and son George and Robert Stephenson pioneered the railway engine and a major expansion of the railways took place in the Victorian period."
+    }
+]

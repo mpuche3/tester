@@ -130,10 +130,6 @@ h1 {
     padding: 10px;
 }
 
-/* .opt_div:hover {
-    background-color: var(--color_background_light);
-} */
-
 .option{
     cursor: pointer    
 }
@@ -150,10 +146,12 @@ p {
 
 #question {
     height: 180px;
+    padding: 20px;
 }
 
 #explanation {
     height: 300px;
+    padding: 20px;
 }
 
 .opt_div{
