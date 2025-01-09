@@ -198,6 +198,102 @@
         "Explanation": "You may also be able to stand for Office if you are an Irish citizen, an eligible Commonwealth citizen or (except for standing to be an MP) a citizen of another EU country."
     },
     {
+        "Question": "Who co-discovered insulin?",
+        "RightAnswer": "John MacLeod",
+        "WrongAnswers": ["Francis Crick", "James Goodfellow", "Percy Shelley"],
+        "Explanation": "The Scottish physician and researcher John MacLeod (1876–1935) was the co-discoverer of insulin, used to treat diabetes."
+    },
+    {
+        "Question": "Francis Crick",
+        "RightAnswer": "xx",
+        "WrongAnswers": ["John MacLeod", "James Goodfellow", "Percy Shelley"],
+        "Explanation": "The structure of the DNA molecule was discovered in 1953 through work at British universities in London and Cambridge. This discovery contributed to many scientific advances, particularly in medicine and fighting crime. Francis Crick (1916-2004), one of those awarded the Nobel Prize for this discovery, was British."
+    },
+    {
+        "Question": "Battle lost by Charles I",
+        "RightAnswer": "Battle of Marston Moor",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Bosworth Field", "Battle of Hastings,"],
+        "Explanation": "The king's army was defeated at the Battles of Marston Moor and Naseby. By 1646, it was clear that Parliament had won the war. Charles was held prisoner by the parliamentary army. He was still unwilling to reach any agreement with Parliament and in 1649 he was executed."
+    },
+    {
+        "Question": "Battle lost by Charles I",
+        "RightAnswer": "Battle of Naseby",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Bosworth Field", "Battle of Hastings"],
+        "Explanation": "The king's army was defeated at the Battles of Marston Moor and Naseby. By 1646, it was clear that Parliament had won the war. Charles was held prisoner by the parliamentary army. He was still unwilling to reach any agreement with Parliament and in 1649 he was executed."
+    },
+    {
+        "Question": "What battle was fought in 1746?",
+        "RightAnswer": "Battle of Culloden",
+        "WrongAnswers": ["Battle of Marston Moor", "Battle of Naseby", "Battle of Culloden"],
+        "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I’s son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland. He was supported by clansmen from the Scottish highlands and raised an army. Charles initially had some successes but was defeated by George II’s army at the Battle of Culloden in 1746. Charles escaped back to Europe."
+    },
+    {
+        "Question": "What battle ended the War of the Roses?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Marston Moor", "Battle of Naseby", "Battle of Culloden"],
+        "Explanation": "The war ended with the Battle of Bosworth Field in 1485. King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+    },
+    {
+        "Question": "Who wrote HMS Pinafore, The Pirates of Penzance, and The Mikado?",
+        "RightAnswer": "Gilbert and Sullivan",
+        "WrongAnswers": ["John Macleod", "James Goodfellow", "Percy Shelley"],
+        "Explanation": "In the 19th century, Gilbert and Sullivan wrote comic operas, often making fun of popular culture and politics. These operas include HMS Pinafore, The Pirates of Penzance, and The Mikado."
+    },
+    {
+        "Question": "xx",
+        "RightAnswer": "xx",
+        "WrongAnswers": ["xx", "xx", "xx"],
+        "Explanation": "xx"
+    },
+    {
+        "Question": "xx",
+        "RightAnswer": "xx",
+        "WrongAnswers": ["xx", "xx", "xx"],
+        "Explanation": "xx"
+    },
+    {
+        "Question": "xx",
+        "RightAnswer": "xx",
+        "WrongAnswers": ["xx", "xx", "xx"],
+        "Explanation": "xx"
+    },
+    {
+        "Question": "xx",
+        "RightAnswer": "xx",
+        "WrongAnswers": ["xx", "xx", "xx"],
+        "Explanation": "xx"
+    },
+    {
+        "Question": "xx",
+        "RightAnswer": "xx",
+        "WrongAnswers": ["xx", "xx", "xx"],
+        "Explanation": "xx"
+    },
+    {
+        "Question": "xx",
+        "RightAnswer": "xx",
+        "WrongAnswers": ["xx", "xx", "xx"],
+        "Explanation": "xx"
+    },
+    {
+        "Question": "xx",
+        "RightAnswer": "xx",
+        "WrongAnswers": ["xx", "xx", "xx"],
+        "Explanation": "xx"
+    },
+    {
+        "Question": "xx",
+        "RightAnswer": "xx",
+        "WrongAnswers": ["xx", "xx", "xx"],
+        "Explanation": "xx"
+    },
+    {
+        "Question": "xx",
+        "RightAnswer": "xx",
+        "WrongAnswers": ["xx", "xx", "xx"],
+        "Explanation": "xx"
+    },
+    {
         "Question": "xx",
         "RightAnswer": "xx",
         "WrongAnswers": ["xx", "xx", "xx"],
