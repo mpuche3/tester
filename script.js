@@ -16,7 +16,7 @@ const STATE = {
     _questions: [{"Question": "", "RightAnswer": "", "WrongAnswers": "", "Explanation": ""}],
     _index: 0,
     voices: [],
-    _category: "questions000",
+    _category: "dates",
     _voice: "echo",
     _isPhonetic: true,
     _isRepeat: true,    
@@ -252,9 +252,10 @@ const STATE = {
     },
 
     next_category(){
-        const categories = ["questions000", "questions001", "questions002", "TheGloriousRevolution"]
+        const categories = ["battles", "difficult", "dates", "poets", "questions000", "questions001", "questions002", "TheGloriousRevolution"]
         const index = categories.indexOf(this._category)
         this._category = categories[(index + 1) % categories.length]
+        this._index = 0
         read_data()
     }
 }

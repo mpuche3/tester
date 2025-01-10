@@ -1,0 +1,706 @@
+[
+    {
+        "Question": "In what year did the Battle of Hastings take place?",
+        "RightAnswer": "1066",
+        "WrongAnswers": ["1314", "1415", "1485"],
+        "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England, where William the Duke of Normandy defeated the Saxon King Harold. The battle led to significant changes in government and social structures in England."
+    },
+    {
+        "Question": "Which battle marked the Norman Conquest of England?",
+        "RightAnswer": "Battle of Hastings",
+        "WrongAnswers": ["Battle of Agincourt", "Battle of Trafalgar", "Battle of Culloden"],
+        "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England, where William the Duke of Normandy defeated the Saxon King Harold. The battle led to significant changes in government and social structures in England."
+    },
+    {
+        "Question": "In what year did the Battle of Bannockburn occur?",
+        "RightAnswer": "1314",
+        "WrongAnswers": ["1066", "1415", "1485"],
+        "Explanation": "Battle of Bannockburn (1314): In this battle, the Scottish, led by Robert the Bruce, defeated the English, and Scotland remained unconquered by the English."
+    },
+    {
+        "Question": "Which battle resulted in Scotland remaining unconquered by the English?",
+        "RightAnswer": "Battle of Bannockburn",
+        "WrongAnswers": ["Battle of Naseby", "Battle of Culloden", "Battle of the Boyne"],
+        "Explanation": "Battle of Bannockburn (1314): In this battle, the Scottish, led by Robert the Bruce, defeated the English, and Scotland remained unconquered by the English."
+    },
+    {
+        "Question": "During which battle did King Henry V’s army defeat the French despite being outnumbered?",
+        "RightAnswer": "Battle of Agincourt",
+        "WrongAnswers": ["Battle of Hastings", "Battle of Trafalgar", "Battle of the Boyne"],
+        "Explanation": "Battle of Agincourt (1415): During the Hundred Years War, King Henry V’s vastly outnumbered English army defeated the French at Agincourt."
+    },
+    {
+        "Question": "In what year did the Battle of Agincourt take place?",
+        "RightAnswer": "1415",
+        "WrongAnswers": ["1066", "1485", "1805"],
+        "Explanation": "Battle of Agincourt (1415): During the Hundred Years War, King Henry V’s vastly outnumbered English army defeated the French at Agincourt."
+    },
+    {
+        "Question": "Which battle ended the Wars of the Roses and led to Henry Tudor becoming King Henry VII?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Naseby", "Battle of Marston Moor"],
+        "Explanation": "Battle of Bosworth Field (1485): This battle ended the Wars of the Roses, a civil war fought between the House of Lancaster and the House of York. King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+    },
+    {
+        "Question": "In which battle was King Richard III killed?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Naseby", "Battle of Hastings", "Battle of the Boyne"],
+        "Explanation": "Battle of Bosworth Field (1485): This battle ended the Wars of the Roses, a civil war fought between the House of Lancaster and the House of York. King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+    },
+    {
+        "Question": "In which battle of the English Civil War was the king’s army defeated by the parliamentary army?",
+        "RightAnswer": "Battle of Marston Moor",
+        "WrongAnswers": ["Battle of Naseby", "Battle of Trafalgar", "Battle of Agincourt"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "Which battle was one of the defeats of the king’s army by the parliamentary army during the English Civil War?",
+        "RightAnswer": "Battle of Marston Moor",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Hastings", "Battle of the Boyne"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "The Battle of Naseby was a decisive defeat for which side in the English Civil War?",
+        "RightAnswer": "The king’s army",
+        "WrongAnswers": ["The parliamentary army", "The Scottish forces", "The French army"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "Which battle, alongside Marston Moor, saw the king’s army defeated by the parliamentary army during the English Civil War?",
+        "RightAnswer": "Battle of Naseby",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Bosworth Field"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "In what year did the Battle of the Boyne take place?",
+        "RightAnswer": "1690",
+        "WrongAnswers": ["1485", "1746", "1815"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland. This event is still celebrated by some in Northern Ireland today."
+    },
+    {
+        "Question": "Which battle in 1690 saw William III defeat James II in Ireland?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Hastings", "Battle of Trafalgar"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland. This event is still celebrated by some in Northern Ireland today."
+    },
+    {
+        "Question": "Which battle saw an armed rebellion in Scotland supporting James II being quickly defeated?",
+        "RightAnswer": "Battle of Killiecrankie",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Naseby", "Battle of Agincourt"],
+        "Explanation": "Battle of Killiecrankie: An armed rebellion in support of James II in Scotland was quickly defeated at Killiecrankie."
+    },
+    {
+        "Question": "In which battle was an armed rebellion in support of James II quickly defeated?",
+        "RightAnswer": "Battle of Killiecrankie",
+        "WrongAnswers": ["Battle of Bosworth Field", "Battle of Marston Moor", "Battle of the Boyne"],
+        "Explanation": "Battle of Killiecrankie: An armed rebellion in support of James II in Scotland was quickly defeated at Killiecrankie."
+    },
+    {
+        "Question": "In what year was Charles Edward Stuart defeated by George II’s army at the Battle of Culloden?",
+        "RightAnswer": "1746",
+        "WrongAnswers": ["1690", "1805", "1815"],
+        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II’s army at the Battle of Culloden."
+    },
+    {
+        "Question": "Which battle in 1746 saw Charles Edward Stuart defeated by George II’s army?",
+        "RightAnswer": "Battle of Culloden",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Killiecrankie", "Battle of Trafalgar"],
+        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II’s army at the Battle of Culloden."
+    },
+    {
+        "Question": "Which battle in 1805 saw Britain’s navy defeat combined French and Spanish fleets?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of Agincourt", "Battle of the Boyne", "Battle of Waterloo"],
+        "Explanation": "Battle of Trafalgar (1805): Britain’s navy fought against combined French and Spanish fleets, winning the Battle of Trafalgar. Admiral Nelson, who was in charge of the British fleet at Trafalgar, was killed in the battle. Nelson’s Column in Trafalgar Square, London, is a monument to him."
+    },
+    {
+        "Question": "Which battle in 1805 resulted in the death of Admiral Nelson?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Marston Moor", "Battle of Naseby"],
+        "Explanation": "Battle of Trafalgar (1805): Britain’s navy fought against combined French and Spanish fleets, winning the Battle of Trafalgar. Admiral Nelson, who was in charge of the British fleet at Trafalgar, was killed in the battle. Nelson’s Column in Trafalgar Square, London, is a monument to him."
+    },
+    {
+        "Question": "Which battle in 1815 ended the French Wars with the defeat of Emperor Napoleon?",
+        "RightAnswer": "Battle of Waterloo",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of Hastings", "Battle of Culloden"],
+        "Explanation": "Battle of Waterloo (1815): The French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo."
+    },
+    {
+        "Question": "In which battle was Emperor Napoleon defeated by the Duke of Wellington?",
+        "RightAnswer": "Battle of Waterloo",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Naseby", "Battle of Bosworth Field"],
+        "Explanation": "Battle of Waterloo (1815): The French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo."
+    },
+    {
+        "Question": "Which battle in 1940 was an aerial battle where the British defeated the German air force?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Trafalgar", "Battle of Agincourt"],
+        "Explanation": "The Battle of Britain (1940): This aerial battle was won by the British against the German air force, preventing the German invasion of Britain during World War II. The most important planes used by the Royal Air Force in the Battle of Britain were the Spitfire and the Hurricane, which were designed and built in Britain."
+    },
+    {
+        "Question": "Which battle in 1940 prevented the German invasion of Britain?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Naseby", "Battle of Waterloo"],
+        "Explanation": "The Battle of Britain (1940): This aerial battle was won by the British against the German air force, preventing the German invasion of Britain during World War II. The most important planes used by the Royal Air Force in the Battle of Britain were the Spitfire and the Hurricane, which were designed and built in Britain."
+    },
+    {
+        "Question": "Which battle marked the last successful foreign invasion of England?",
+        "RightAnswer": "Battle of Hastings",
+        "WrongAnswers": ["Battle of Agincourt", "Battle of Trafalgar", "Battle of Waterloo"],
+        "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England, where William the Duke of Normandy defeated the Saxon King Harold."
+    },
+    {
+        "Question": "Which battle led to significant changes in government and social structures in England?",
+        "RightAnswer": "Battle of Hastings",
+        "WrongAnswers": ["Battle of Bosworth Field", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England, where William the Duke of Normandy defeated the Saxon King Harold. The battle led to significant changes in government and social structures in England."
+    },
+    {
+        "Question": "Which battle was fought in 1314 and ensured Scotland remained unconquered by the English?",
+        "RightAnswer": "Battle of Bannockburn",
+        "WrongAnswers": ["Battle of Naseby", "Battle of Killiecrankie", "Battle of Marston Moor"],
+        "Explanation": "Battle of Bannockburn (1314): In this battle, the Scottish, led by Robert the Bruce, defeated the English, and Scotland remained unconquered by the English."
+    },
+    {
+        "Question": "Which battle is associated with the Scots language poem called 'The Bruce'?",
+        "RightAnswer": "Battle of Bannockburn",
+        "WrongAnswers": ["Battle of Hastings", "Battle of Agincourt", "Battle of Trafalgar"],
+        "Explanation": "Battle of Bannockburn (1314): In this battle, the Scottish, led by Robert the Bruce, defeated the English, and Scotland remained unconquered by the English. This battle is also mentioned in connection to a poem written in the Scots language, called The Bruce."
+    },
+    {
+        "Question": "During which battle did King Henry V’s vastly outnumbered English army defeat the French?",
+        "RightAnswer": "Battle of Agincourt",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Bosworth Field"],
+        "Explanation": "Battle of Agincourt (1415): During the Hundred Years War, King Henry V’s vastly outnumbered English army defeated the French at Agincourt."
+    },
+    {
+        "Question": "In what year did the Battle of Agincourt take place?",
+        "RightAnswer": "1415",
+        "WrongAnswers": ["1066", "1485", "1805"],
+        "Explanation": "Battle of Agincourt (1415): During the Hundred Years War, King Henry V’s vastly outnumbered English army defeated the French at Agincourt."
+    },
+    {
+        "Question": "Which battle ended the Wars of the Roses?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Hastings", "Battle of Trafalgar", "Battle of the Boyne"],
+        "Explanation": "Battle of Bosworth Field (1485): This battle ended the Wars of the Roses, a civil war fought between the House of Lancaster and the House of York."
+    },
+    {
+        "Question": "Which battle resulted in the death of King Richard III of the House of York?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Naseby", "Battle of Culloden", "Battle of Bannockburn"],
+        "Explanation": "Battle of Bosworth Field (1485): King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+    },
+    {
+        "Question": "Which battle saw Henry Tudor become King Henry VII?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Agincourt", "Battle of Killiecrankie", "Battle of Trafalgar"],
+        "Explanation": "Battle of Bosworth Field (1485): Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+    },
+    {
+        "Question": "Which battles were significant defeats for the king’s army during the English Civil War?",
+        "RightAnswer": "Battles of Marston Moor and Naseby",
+        "WrongAnswers": ["Battle of Hastings and Battle of Bannockburn", "Battle of Trafalgar and Battle of Waterloo", "Battle of Culloden and Battle of the Boyne"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "Which battle in the English Civil War was a decisive defeat for the king’s army?",
+        "RightAnswer": "Battle of Naseby",
+        "WrongAnswers": ["Battle of Marston Moor", "Battle of Culloden", "Battle of Agincourt"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "Which battle took place in 1690 in Ireland?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Trafalgar", "Battle of Bosworth Field"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland. This event is still celebrated by some in Northern Ireland today."
+    },
+    {
+        "Question": "Who was defeated by William III at the Battle of the Boyne?",
+        "RightAnswer": "James II",
+        "WrongAnswers": ["Henry V", "Charles Edward Stuart", "Emperor Napoleon"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland."
+    },
+    {
+        "Question": "Which battle is still celebrated by some in Northern Ireland today?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Naseby", "Battle of Marston Moor"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland. This event is still celebrated by some in Northern Ireland today."
+    },
+    {
+        "Question": "Which battle saw an armed rebellion in support of James II in Scotland being quickly defeated?",
+        "RightAnswer": "Battle of Killiecrankie",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Trafalgar", "Battle of Hastings"],
+        "Explanation": "Battle of Killiecrankie: An armed rebellion in support of James II in Scotland was quickly defeated at Killiecrankie."
+    },
+    {
+        "Question": "In which battle was Charles Edward Stuart defeated by George II’s army?",
+        "RightAnswer": "Battle of Culloden",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Naseby", "Battle of Bosworth Field"],
+        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II’s army at the Battle of Culloden."
+    },
+    {
+        "Question": "Which battle in 1746 marked the end of the Jacobite uprising?",
+        "RightAnswer": "Battle of Culloden",
+        "WrongAnswers": ["Battle of Killiecrankie", "Battle of Marston Moor", "Battle of Trafalgar"],
+        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II’s army at the Battle of Culloden."
+    },
+    {
+        "Question": "Which naval battle in 1805 saw Britain defeat combined French and Spanish fleets?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of Agincourt", "Battle of Waterloo", "Battle of the Boyne"],
+        "Explanation": "Battle of Trafalgar (1805): Britain’s navy fought against combined French and Spanish fleets, winning the Battle of Trafalgar."
+    },
+    {
+        "Question": "Which battle resulted in the death of Admiral Nelson?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Naseby", "Battle of Hastings"],
+        "Explanation": "Battle of Trafalgar (1805): Admiral Nelson, who was in charge of the British fleet at Trafalgar, was killed in the battle."
+    },
+    {
+        "Question": "Which battle led to the erection of Nelson’s Column in Trafalgar Square, London?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Bosworth Field", "Battle of Marston Moor"],
+        "Explanation": "Battle of Trafalgar (1805): Nelson’s Column in Trafalgar Square, London, is a monument to Admiral Nelson who was killed in the battle."
+    },
+    {
+        "Question": "Which battle in 1815 ended the French Wars with the defeat of Emperor Napoleon?",
+        "RightAnswer": "Battle of Waterloo",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of Hastings", "Battle of Culloden"],
+        "Explanation": "Battle of Waterloo (1815): The French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo."
+    },
+    {
+        "Question": "Who defeated Emperor Napoleon at the Battle of Waterloo?",
+        "RightAnswer": "Duke of Wellington",
+        "WrongAnswers": ["Admiral Nelson", "King Henry V", "George II"],
+        "Explanation": "Battle of Waterloo (1815): The French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo."
+    },
+    {
+        "Question": "Which battle prevented the German invasion of Britain during World War II?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of Agincourt", "Battle of the Boyne"],
+        "Explanation": "The Battle of Britain (1940): This aerial battle was won by the British against the German air force, preventing the German invasion of Britain during World War II."
+    },
+    {
+        "Question": "Which battle in 1940 was an aerial battle involving the Royal Air Force's Spitfire and Hurricane planes?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Naseby", "Battle of Trafalgar"],
+        "Explanation": "The Battle of Britain (1940): The most important planes used by the Royal Air Force in the Battle of Britain were the Spitfire and the Hurricane, which were designed and built in Britain."
+    },
+    {
+        "Question": "Which battle is known as the last successful foreign invasion of England?",
+        "RightAnswer": "Battle of Hastings",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Waterloo"],
+        "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England."
+    },
+    {
+        "Question": "Which battle ensured that Scotland remained unconquered by the English?",
+        "RightAnswer": "Battle of Bannockburn",
+        "WrongAnswers": ["Battle of Bosworth Field", "Battle of Culloden", "Battle of the Boyne"],
+        "Explanation": "Battle of Bannockburn (1314): In this battle, the Scottish, led by Robert the Bruce, defeated the English, and Scotland remained unconquered by the English."
+    },
+    {
+        "Question": "Which battle was a pivotal moment in the Hundred Years War?",
+        "RightAnswer": "Battle of Agincourt",
+        "WrongAnswers": ["Battle of Naseby", "Battle of Killiecrankie", "Battle of Marston Moor"],
+        "Explanation": "Battle of Agincourt (1415): During the Hundred Years War, King Henry V’s vastly outnumbered English army defeated the French at Agincourt."
+    },
+    {
+        "Question": "Which battle saw the transition of power from the House of York to the House of Lancaster?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Hastings", "Battle of the Boyne", "Battle of Trafalgar"],
+        "Explanation": "Battle of Bosworth Field (1485): Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+    },
+    {
+        "Question": "Which battle was fought between the House of Lancaster and the House of York?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Bannockburn", "Battle of Culloden", "Battle of the Boyne"],
+        "Explanation": "Battle of Bosworth Field (1485): This battle ended the Wars of the Roses, a civil war fought between the House of Lancaster and the House of York."
+    },
+    {
+        "Question": "Which battle was part of the English Civil War where the parliamentary army secured victory?",
+        "RightAnswer": "Battle of Marston Moor",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of Hastings", "Battle of the Boyne"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "Which battle is one of the significant defeats for the king’s army alongside Marston Moor?",
+        "RightAnswer": "Battle of Naseby",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Agincourt", "Battle of Bosworth Field"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "Which battle in 1690 is still commemorated in Northern Ireland?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Trafalgar", "Battle of Hastings"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland. This event is still celebrated by some in Northern Ireland today."
+    },
+    {
+        "Question": "Which battle saw the defeat of an armed rebellion supporting James II in Scotland?",
+        "RightAnswer": "Battle of Killiecrankie",
+        "WrongAnswers": ["Battle of Bosworth Field", "Battle of Agincourt", "Battle of Trafalgar"],
+        "Explanation": "Battle of Killiecrankie: An armed rebellion in support of James II in Scotland was quickly defeated at Killiecrankie."
+    },
+    {
+        "Question": "Which battle in 1746 was the final confrontation of the Jacobite rising?",
+        "RightAnswer": "Battle of Culloden",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Naseby", "Battle of Marston Moor"],
+        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II’s army at the Battle of Culloden."
+    },
+    {
+        "Question": "Which battle resulted in the construction of a monument in Trafalgar Square?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of Hastings", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "Battle of Trafalgar (1805): Nelson’s Column in Trafalgar Square, London, is a monument to Admiral Nelson who was killed in the battle."
+    },
+    {
+        "Question": "Which battle in 1815 marked the end of the French Wars?",
+        "RightAnswer": "Battle of Waterloo",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Naseby"],
+        "Explanation": "Battle of Waterloo (1815): The French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo."
+    },
+    {
+        "Question": "Which battle prevented the German air force from invading Britain during World War II?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of Culloden", "Battle of Agincourt"],
+        "Explanation": "The Battle of Britain (1940): This aerial battle was won by the British against the German air force, preventing the German invasion of Britain during World War II."
+    },
+    {
+        "Question": "Which battle featured the Royal Air Force's Spitfire and Hurricane aircraft?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Waterloo", "Battle of the Boyne", "Battle of Bosworth Field"],
+        "Explanation": "The Battle of Britain (1940): The most important planes used by the Royal Air Force in the Battle of Britain were the Spitfire and the Hurricane, which were designed and built in Britain."
+    },
+    {
+        "Question": "Which battle is known as the Norman Conquest of England?",
+        "RightAnswer": "Battle of Hastings",
+        "WrongAnswers": ["Battle of Agincourt", "Battle of Culloden", "Battle of Trafalgar"],
+        "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England."
+    },
+    {
+        "Question": "Which battle ensured that Scotland was not conquered by England in the early 14th century?",
+        "RightAnswer": "Battle of Bannockburn",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Naseby"],
+        "Explanation": "Battle of Bannockburn (1314): In this battle, the Scottish, led by Robert the Bruce, defeated the English, and Scotland remained unconquered by the English."
+    },
+    {
+        "Question": "Which battle during the Hundred Years War is celebrated for the English victory despite being outnumbered?",
+        "RightAnswer": "Battle of Agincourt",
+        "WrongAnswers": ["Battle of Bosworth Field", "Battle of Killiecrankie", "Battle of Marston Moor"],
+        "Explanation": "Battle of Agincourt (1415): King Henry V’s vastly outnumbered English army defeated the French at Agincourt."
+    },
+    {
+        "Question": "Which battle marked the rise of Henry Tudor to the English throne?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Hastings"],
+        "Explanation": "Battle of Bosworth Field (1485): Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+    },
+    {
+        "Question": "Which battle was fought between the House of Lancaster and the House of York?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Bannockburn", "Battle of Culloden", "Battle of Agincourt"],
+        "Explanation": "Battle of Bosworth Field (1485): This battle ended the Wars of the Roses, a civil war fought between the House of Lancaster and the House of York."
+    },
+    {
+        "Question": "Which battle was a key victory for the parliamentary army in the English Civil War?",
+        "RightAnswer": "Battle of Marston Moor",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Trafalgar"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "Which battle was one of the decisive defeats for the king’s army in the English Civil War?",
+        "RightAnswer": "Battle of Naseby",
+        "WrongAnswers": ["Battle of Hastings", "Battle of Bannockburn", "Battle of Killiecrankie"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "Which battle in 1690 was a significant event in Irish history?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Naseby", "Battle of Trafalgar"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland. This event is still celebrated by some in Northern Ireland today."
+    },
+    {
+        "Question": "Which battle saw James II defeated by William III?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": ["Battle of Culloden", "Battle of the Boyne", "Battle of Agincourt"],
+        "WrongAnswers": ["Battle of Culloden", "Battle of Agincourt", "Battle of Bosworth Field"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland."
+    },
+    {
+        "Question": "Which battle was an armed rebellion in support of James II?",
+        "RightAnswer": "Battle of Killiecrankie",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of Marston Moor", "Battle of the Boyne"],
+        "Explanation": "Battle of Killiecrankie: An armed rebellion in support of James II in Scotland was quickly defeated at Killiecrankie."
+    },
+    {
+        "Question": "Which battle in 1746 was the final battle of the Jacobite rising?",
+        "RightAnswer": "Battle of Culloden",
+        "WrongAnswers": ["Battle of Naseby", "Battle of Bannockburn", "Battle of Trafalgar"],
+        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II’s army at the Battle of Culloden."
+    },
+    {
+        "Question": "Which battle resulted in the construction of a famous column in London?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Bosworth Field"],
+        "Explanation": "Battle of Trafalgar (1805): Nelson’s Column in Trafalgar Square, London, is a monument to Admiral Nelson who was killed in the battle."
+    },
+    {
+        "Question": "Which battle is commemorated by Nelson’s Column in Trafalgar Square?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Waterloo"],
+        "Explanation": "Battle of Trafalgar (1805): Nelson’s Column in Trafalgar Square, London, is a monument to Admiral Nelson who was killed in the battle."
+    },
+    {
+        "Question": "Which battle marked the defeat of Emperor Napoleon?",
+        "RightAnswer": "Battle of Waterloo",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Bosworth Field"],
+        "Explanation": "Battle of Waterloo (1815): The French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo."
+    },
+    {
+        "Question": "Which battle is known for preventing the German air force from invading Britain?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of Culloden", "Battle of Agincourt"],
+        "Explanation": "The Battle of Britain (1940): This aerial battle was won by the British against the German air force, preventing the German invasion of Britain during World War II."
+    },
+    {
+        "Question": "Which battle featured the use of the Spitfire and Hurricane aircraft by the Royal Air Force?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Naseby"],
+        "Explanation": "The Battle of Britain (1940): The most important planes used by the Royal Air Force in the Battle of Britain were the Spitfire and the Hurricane, which were designed and built in Britain."
+    },
+    {
+        "Question": "Which battle was the last successful foreign invasion of England?",
+        "RightAnswer": "Battle of Hastings",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England."
+    },
+    {
+        "Question": "Which battle in 1314 was a major Scottish victory against the English?",
+        "RightAnswer": "Battle of Bannockburn",
+        "WrongAnswers": ["Battle of Marston Moor", "Battle of Naseby", "Battle of Agincourt"],
+        "Explanation": "Battle of Bannockburn (1314): In this battle, the Scottish, led by Robert the Bruce, defeated the English, and Scotland remained unconquered by the English."
+    },
+    {
+        "Question": "Which battle is celebrated in the Scots language poem 'The Bruce'?",
+        "RightAnswer": "Battle of Bannockburn",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Trafalgar"],
+        "Explanation": "Battle of Bannockburn (1314): This battle is also mentioned in connection to a poem written in the Scots language, called The Bruce."
+    },
+    {
+        "Question": "Which battle in 1415 was a significant English victory in the Hundred Years War?",
+        "RightAnswer": "Battle of Agincourt",
+        "WrongAnswers": ["Battle of Bosworth Field", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "Battle of Agincourt (1415): During the Hundred Years War, King Henry V’s vastly outnumbered English army defeated the French at Agincourt."
+    },
+    {
+        "Question": "Which battle in 1485 ended the civil war between the House of Lancaster and the House of York?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Bannockburn", "Battle of Naseby", "Battle of Trafalgar"],
+        "Explanation": "Battle of Bosworth Field (1485): This battle ended the Wars of the Roses, a civil war fought between the House of Lancaster and the House of York."
+    },
+    {
+        "Question": "Which battle resulted in Henry Tudor becoming the first Tudor king of England?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Agincourt", "Battle of Culloden", "Battle of the Boyne"],
+        "Explanation": "Battle of Bosworth Field (1485): Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+    },
+    {
+        "Question": "Which battle was a key event in the English Civil War where the parliamentary army defeated the king’s forces?",
+        "RightAnswer": "Battle of Naseby",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Hastings"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "Which battle in 1690 is a significant historical event in Ireland?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Marston Moor", "Battle of Agincourt"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland."
+    },
+    {
+        "Question": "Which battle saw the defeat of Bonnie Prince Charlie?",
+        "RightAnswer": "Battle of Culloden",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Trafalgar", "Battle of Naseby"],
+        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II’s army at the Battle of Culloden."
+    },
+    {
+        "Question": "Which battle in 1805 was a decisive naval victory for Britain against France and Spain?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Bosworth Field"],
+        "Explanation": "Battle of Trafalgar (1805): Britain’s navy fought against combined French and Spanish fleets, winning the Battle of Trafalgar."
+    },
+    {
+        "Question": "Which battle in 1940 featured the Royal Air Force defending Britain against the German Luftwaffe?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of Culloden", "Battle of Agincourt"],
+        "Explanation": "The Battle of Britain (1940): This aerial battle was won by the British against the German air force, preventing the German invasion of Britain during World War II."
+    },
+    {
+        "Question": "Which battle in 1815 saw the defeat of Napoleon by the Duke of Wellington?",
+        "RightAnswer": "Battle of Waterloo",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "Battle of Waterloo (1815): The French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo."
+    },
+    {
+        "Question": "Which battle is commemorated by a monument in Trafalgar Square, London?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Bosworth Field"],
+        "Explanation": "Battle of Trafalgar (1805): Nelson’s Column in Trafalgar Square, London, is a monument to Admiral Nelson who was killed in the battle."
+    },
+    {
+        "Question": "Which battle in 1746 was the last pitched battle fought on British soil?",
+        "RightAnswer": "Battle of Culloden",
+        "WrongAnswers": ["Battle of Naseby", "Battle of Trafalgar", "Battle of the Boyne"],
+        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II’s army at the Battle of Culloden."
+    },
+    {
+        "Question": "Which battle prevented the German Luftwaffe from achieving air superiority over Britain?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of Culloden", "Battle of Agincourt"],
+        "Explanation": "The Battle of Britain (1940): This aerial battle was won by the British against the German air force, preventing the German invasion of Britain during World War II."
+    },
+    {
+        "Question": "Which battle in 1066 led to the Norman Conquest of England?",
+        "RightAnswer": "Battle of Hastings",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Trafalgar", "Battle of Culloden"],
+        "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England."
+    },
+    {
+        "Question": "Which battle in 1314 was a major victory for Robert the Bruce?",
+        "RightAnswer": "Battle of Bannockburn",
+        "WrongAnswers": ["Battle of Marston Moor", "Battle of Naseby", "Battle of the Boyne"],
+        "Explanation": "Battle of Bannockburn (1314): In this battle, the Scottish, led by Robert the Bruce, defeated the English, and Scotland remained unconquered by the English."
+    },
+    {
+        "Question": "Which battle during the Hundred Years War is famous for the English longbowmen?",
+        "RightAnswer": "Battle of Agincourt",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Trafalgar", "Battle of Culloden"],
+        "Explanation": "Battle of Agincourt (1415): King Henry V’s vastly outnumbered English army defeated the French at Agincourt."
+    },
+    {
+        "Question": "Which battle marked the rise of the Tudor dynasty in England?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Hastings", "Battle of Trafalgar", "Battle of the Boyne"],
+        "Explanation": "Battle of Bosworth Field (1485): Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+    },
+    {
+        "Question": "Which battle was crucial for the parliamentary forces in the English Civil War?",
+        "RightAnswer": "Battle of Naseby",
+        "WrongAnswers": ["Battle of Bannockburn", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "Battle of Naseby: In the English Civil War, the king’s army was defeated at this battle by the parliamentary army."
+    },
+    {
+        "Question": "Which battle saw William III defeat James II in Ireland?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of Culloden", "Battle of Naseby"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland."
+    },
+    {
+        "Question": "Which battle in Scotland was a quick defeat for the supporters of James II?",
+        "RightAnswer": "Battle of Killiecrankie",
+        "WrongAnswers": ["Battle of Bannockburn", "Battle of Agincourt", "Battle of the Boyne"],
+        "Explanation": "Battle of Killiecrankie: An armed rebellion in support of James II in Scotland was quickly defeated at Killiecrankie."
+    },
+    {
+        "Question": "Which battle in 1746 saw the defeat of Bonnie Prince Charlie?",
+        "RightAnswer": "Battle of Culloden",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Trafalgar", "Battle of Naseby"],
+        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II’s army at the Battle of Culloden."
+    },
+    {
+        "Question": "Which battle in 1805 is commemorated by a monument in Trafalgar Square?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of Culloden", "Battle of the Boyne", "Battle of Waterloo"],
+        "Explanation": "Battle of Trafalgar (1805): Nelson’s Column in Trafalgar Square, London, is a monument to Admiral Nelson who was killed in the battle."
+    },
+    {
+        "Question": "Which battle in 1815 saw the defeat of Napoleon by British and Prussian forces?",
+        "RightAnswer": "Battle of Waterloo",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "Battle of Waterloo (1815): The French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo."
+    },
+    {
+        "Question": "Which battle in 1940 was a critical air battle during World War II?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "The Battle of Britain (1940): This aerial battle was won by the British against the German air force, preventing the German invasion of Britain during World War II."
+    },
+    {
+        "Question": "Which battle involved the Royal Air Force's Spitfire and Hurricane fighters?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "The Battle of Britain (1940): The most important planes used by the Royal Air Force in the Battle of Britain were the Spitfire and the Hurricane, which were designed and built in Britain."
+    },
+    {
+        "Question": "Which battle was the last successful foreign invasion of England?",
+        "RightAnswer": "Battle of Hastings",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Waterloo"],
+        "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England."
+    },
+    {
+        "Question": "Which battle ensured Scotland remained independent from English conquest?",
+        "RightAnswer": "Battle of Bannockburn",
+        "WrongAnswers": ["Battle of Naseby", "Battle of Culloden", "Battle of the Boyne"],
+        "Explanation": "Battle of Bannockburn (1314): In this battle, the Scottish, led by Robert the Bruce, defeated the English, and Scotland remained unconquered by the English."
+    },
+    {
+        "Question": "Which battle is renowned for the English longbowmen's effectiveness?",
+        "RightAnswer": "Battle of Agincourt",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Trafalgar", "Battle of Culloden"],
+        "Explanation": "Battle of Agincourt (1415): During the Hundred Years War, King Henry V’s vastly outnumbered English army defeated the French at Agincourt."
+    },
+    {
+        "Question": "Which battle saw the transition from the House of York to the House of Lancaster?",
+        "RightAnswer": "Battle of Bosworth Field",
+        "WrongAnswers": ["Battle of Bannockburn", "Battle of Naseby", "Battle of Trafalgar"],
+        "Explanation": "Battle of Bosworth Field (1485): This battle ended the Wars of the Roses, a civil war fought between the House of Lancaster and the House of York. Henry Tudor became King Henry VII."
+    },
+    {
+        "Question": "Which battle was a decisive victory for the parliamentary forces in the English Civil War?",
+        "RightAnswer": "Battle of Marston Moor",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king’s army was defeated at these battles by the parliamentary army."
+    },
+    {
+        "Question": "Which battle in 1690 is a significant event in the history of Northern Ireland?",
+        "RightAnswer": "Battle of the Boyne",
+        "WrongAnswers": ["Battle of Culloden", "Battle of Trafalgar", "Battle of Naseby"],
+        "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland. This event is still celebrated by some in Northern Ireland today."
+    },
+    {
+        "Question": "Which battle in Scotland was a swift defeat for the Jacobite supporters of James II?",
+        "RightAnswer": "Battle of Killiecrankie",
+        "WrongAnswers": ["Battle of Bannockburn", "Battle of the Boyne", "Battle of Trafalgar"],
+        "Explanation": "Battle of Killiecrankie: An armed rebellion in support of James II in Scotland was quickly defeated at Killiecrankie."
+    },
+    {
+        "Question": "Which battle in 1746 marked the end of the Jacobite uprising?",
+        "RightAnswer": "Battle of Culloden",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Trafalgar", "Battle of Naseby"],
+        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II’s army at the Battle of Culloden."
+    },
+    {
+        "Question": "Which battle in 1805 is commemorated by Nelson’s Column?",
+        "RightAnswer": "Battle of Trafalgar",
+        "WrongAnswers": ["Battle of the Boyne", "Battle of Culloden", "Battle of Bosworth Field"],
+        "Explanation": "Battle of Trafalgar (1805): Nelson’s Column in Trafalgar Square, London, is a monument to Admiral Nelson who was killed in the battle."
+    },
+    {
+        "Question": "Which battle in 1815 saw the defeat of Napoleon Bonaparte?",
+        "RightAnswer": "Battle of Waterloo",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "Battle of Waterloo (1815): The French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo."
+    },
+    {
+        "Question": "Which battle in 1940 was a crucial air battle in World War II?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "The Battle of Britain (1940): This aerial battle was won by the British against the German air force, preventing the German invasion of Britain during World War II."
+    },
+    {
+        "Question": "Which battle featured the Royal Air Force's Spitfire and Hurricane aircraft?",
+        "RightAnswer": "The Battle of Britain",
+        "WrongAnswers": ["Battle of Trafalgar", "Battle of the Boyne", "Battle of Culloden"],
+        "Explanation": "The Battle of Britain (1940): The most important planes used by the Royal Air Force in the Battle of Britain were the Spitfire and the Hurricane, which were designed and built in Britain."
+    }
+]
+

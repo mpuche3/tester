@@ -134,7 +134,7 @@
     {
         "Question": "The first Briton to win the Tour de France",
         "RightAnswer": "Bradley Wiggins",
-        "WrongAnswers": ["Bradley Wiggins", "Sir Steve Redgrave", "Jessica Ennis"],
+        "WrongAnswers": ["Thomas Gainsborough", "Sir Steve Redgrave", "Jessica Ennis"],
         "Explanation": "Bradley Wiggins (1980–) is a cyclist. In 2012, he became the first Briton to win the Tour de France. He has won seven Olympic medals, including gold medals in the 2004, 2008 and 2012 Olympic Games."
     },
     {
@@ -204,8 +204,8 @@
         "Explanation": "The Scottish physician and researcher John MacLeod (1876–1935) was the co-discoverer of insulin, used to treat diabetes."
     },
     {
-        "Question": "Francis Crick",
-        "RightAnswer": "xx",
+        "Question": "Who co-discovered the structure of the DNA molecule?",
+        "RightAnswer": "Francis Crick",
         "WrongAnswers": ["John MacLeod", "James Goodfellow", "Percy Shelley"],
         "Explanation": "The structure of the DNA molecule was discovered in 1953 through work at British universities in London and Cambridge. This discovery contributed to many scientific advances, particularly in medicine and fighting crime. Francis Crick (1916-2004), one of those awarded the Nobel Prize for this discovery, was British."
     },
@@ -240,70 +240,22 @@
         "Explanation": "In the 19th century, Gilbert and Sullivan wrote comic operas, often making fun of popular culture and politics. These operas include HMS Pinafore, The Pirates of Penzance, and The Mikado."
     },
     {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
+        "Question": "Which battle in 1690 marked a key Protestant victory over the Catholic forces of King James II?",
+        "RightAnswer": "The Battle of the Boyne",
+        "WrongAnswers": ["The Battle of Culloden", "The Battle of Killiecrankie", "The Battle of Bannockburn"],
+        "Explanation": "The Battle of the Boyne, fought on July 1, 1690, near the River Boyne in Ireland, was a conflict between the Protestant King William III of England and the deposed Catholic King James II. It was part of a broader struggle for power in Ireland and Britain. William's forces defeated James's, securing Protestant rule in Ireland and solidifying William's position on the English throne."
     },
     {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
-    },
+        "Question": "What battle forced all Scottish clans to formally accept William as king by taking an oath?",
+        "RightAnswer": "The Battle of Killiecrankie",
+        "WrongAnswers": ["The Battle of Culloden", "The Battle of the Boyne", "The Battle of Bannockburn"],
+        "Explanation": "There was also support for James in Scotland. An attempt at an armed rebellion in support of James was quickly defeated at Killiecrankie. All Scottish clans were required formally to accept William as king by taking an oath. The MacDonalds of Glencoe were late in taking the oath and were all killed."
+    },    
     {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
-    },
-    {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
-    },
-    {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
-    },
-    {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
-    },
-    {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
-    },
-    {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
-    },
-    {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
-    },
-    {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
-    },
-    {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
+        "Question": "What was the name of the final battle of the 1745 Jacobite Rising?",
+        "RightAnswer": "The Battle of Culloden",
+        "WrongAnswers": ["The Battle of Killiecrankie", "The Battle of the Boyne", "The Battle of Bannockburn"],
+        "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I’s son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland. He was supported by clansmen from the Scottish highlands and raised an army. Charles initially had some successes but was defeated by George II’s army at the Battle of Culloden in 1746. The clans lost a lot of their power and influence after Culloden."
     },
     {
         "Question": "xx",
@@ -311,5 +263,4 @@
         "WrongAnswers": ["xx", "xx", "xx"],
         "Explanation": "xx"
     }
-
 ]

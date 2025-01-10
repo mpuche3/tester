@@ -1,0 +1,242 @@
+[
+    {
+        "Question": "Which Anglo-Saxon poem tells of its hero's battles against monsters?",
+        "RightAnswer": "Beowulf",
+        "WrongAnswers": [
+            "The Canterbury Tales",
+            "Sir Gawain and the Green Knight",
+            "The Divine Comedy"
+        ],
+        "Explanation": "The Anglo-Saxon poem Beowulf tells of its hero\u2019s battles against monsters and is still translated into modern English. Poems which survive from the Middle Ages include Chaucer\u2019s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur."
+    },
+    {
+        "Question": "Which poem from the Middle Ages was written by Chaucer?",
+        "RightAnswer": "The Canterbury Tales",
+        "WrongAnswers": [
+            "Beowulf",
+            "Sir Gawain and the Green Knight",
+            "The Song of Roland"
+        ],
+        "Explanation": "The Anglo-Saxon poem Beowulf tells of its hero\u2019s battles against monsters and is still translated into modern English. Poems which survive from the Middle Ages include Chaucer\u2019s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur."
+    },
+    {
+        "Question": "Which poem is about one of the knights at the court of King Arthur?",
+        "RightAnswer": "Sir Gawain and the Green Knight",
+        "WrongAnswers": [
+            "Beowulf",
+            "The Canterbury Tales",
+            "The Faerie Queene"
+        ],
+        "Explanation": "The Anglo-Saxon poem Beowulf tells of its hero\u2019s battles against monsters and is still translated into modern English. Poems which survive from the Middle Ages include Chaucer\u2019s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur."
+    },
+    {
+        "Question": "How many lines must a sonnet have?",
+        "RightAnswer": "14",
+        "WrongAnswers": [
+            "12",
+            "16",
+            "10"
+        ],
+        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems."
+    },
+    {
+        "Question": "What type of literary work, besides plays, did Shakespeare write?",
+        "RightAnswer": "Sonnets",
+        "WrongAnswers": [
+            "Novels",
+            "Short stories",
+            "Essays"
+        ],
+        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems."
+    },
+    {
+        "Question": "Who wrote 'Paradise Lost'?",
+        "RightAnswer": "John Milton",
+        "WrongAnswers": [
+            "William Wordsworth",
+            "Sir Walter Scott",
+            "Samuel Taylor Coleridge"
+        ],
+        "Explanation": "As Protestant ideas spread, a number of poets wrote poems inspired by their religious views. One of these was John Milton, who wrote Paradise Lost. Other poets, including William Wordsworth, were inspired by nature. Sir Walter Scott wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England. He also wrote novels, many of which were set in Scotland."
+    },
+    {
+        "Question": "Which poet was inspired by nature?",
+        "RightAnswer": "William Wordsworth",
+        "WrongAnswers": [
+            "John Milton",
+            "Sir Walter Scott",
+            "Robert Burns"
+        ],
+        "Explanation": "As Protestant ideas spread, a number of poets wrote poems inspired by their religious views. One of these was John Milton, who wrote Paradise Lost. Other poets, including William Wordsworth, were inspired by nature. Sir Walter Scott wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England. He also wrote novels, many of which were set in Scotland."
+    },
+    {
+        "Question": "Which writer was inspired by Scotland and traditional stories from the area on the borders of Scotland and England?",
+        "RightAnswer": "Sir Walter Scott",
+        "WrongAnswers": [
+            "John Milton",
+            "William Wordsworth",
+            "Robert Louis Stevenson"
+        ],
+        "Explanation": "As Protestant ideas spread, a number of poets wrote poems inspired by their religious views. One of these was John Milton, who wrote Paradise Lost. Other poets, including William Wordsworth, were inspired by nature. Sir Walter Scott wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England. He also wrote novels, many of which were set in Scotland."
+    },
+    {
+        "Question": "Which poet wrote novels set in Scotland?",
+        "RightAnswer": "Sir Walter Scott",
+        "WrongAnswers": [
+            "John Milton",
+            "William Wordsworth",
+            "Thomas Hardy"
+        ],
+        "Explanation": "As Protestant ideas spread, a number of poets wrote poems inspired by their religious views. One of these was John Milton, who wrote Paradise Lost. Other poets, including William Wordsworth, were inspired by nature. Sir Walter Scott wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England. He also wrote novels, many of which were set in Scotland."
+    },
+    {
+        "Question": "Which century was poetry very popular with poets like William Blake and John Keats?",
+        "RightAnswer": "19th century",
+        "WrongAnswers": [
+            "18th century",
+            "20th century",
+            "17th century"
+        ],
+        "Explanation": "Poetry was very popular in the 19th century, with poets such as William Blake, John Keats, Lord Byron, Percy Shelley, Alfred Lord Tennyson, and Robert and Elizabeth Browning. Later, many poets \u2013 for example, Wilfred Owen and Siegfried Sassoon \u2013 were inspired to write about their experiences in the First World War. More recently, popular poets have included Sir Walter de la Mare, John Masefield, Sir John Betjeman and Ted Hughes. Some of the best-known poets are buried or commemorated in Poet\u2019s Corner in Westminster Abbey."
+    },
+    {
+        "Question": "Which poet is known for writing about experiences in the First World War?",
+        "RightAnswer": "Wilfred Owen",
+        "WrongAnswers": [
+            "William Blake",
+            "Alfred Lord Tennyson",
+            "Robert Browning"
+        ],
+        "Explanation": "Poetry was very popular in the 19th century, with poets such as William Blake, John Keats, Lord Byron, Percy Shelley, Alfred Lord Tennyson, and Robert and Elizabeth Browning. Later, many poets \u2013 for example, Wilfred Owen and Siegfried Sassoon \u2013 were inspired to write about their experiences in the First World War. More recently, popular poets have included Sir Walter de la Mare, John Masefield, Sir John Betjeman and Ted Hughes. Some of the best-known poets are buried or commemorated in Poet\u2019s Corner in Westminster Abbey."
+    },
+    {
+        "Question": "Where are some of the best-known poets buried or commemorated?",
+        "RightAnswer": "Poet\u2019s Corner in Westminster Abbey",
+        "WrongAnswers": [
+            "St. Paul's Cathedral",
+            "The British Library",
+            "The Tower of London"
+        ],
+        "Explanation": "Poetry was very popular in the 19th century, with poets such as William Blake, John Keats, Lord Byron, Percy Shelley, Alfred Lord Tennyson, and Robert and Elizabeth Browning. Later, many poets \u2013 for example, Wilfred Owen and Siegfried Sassoon \u2013 were inspired to write about their experiences in the First World War. More recently, popular poets have included Sir Walter de la Mare, John Masefield, Sir John Betjeman and Ted Hughes. Some of the best-known poets are buried or commemorated in Poet\u2019s Corner in Westminster Abbey."
+    },
+    {
+        "Question": "Which poet is not a 19th-century poet?",
+        "RightAnswer": "Wilfred Owen",
+        "WrongAnswers": [
+            "William Blake",
+            "John Keats",
+            "Percy Shelley"
+        ],
+        "Explanation": "Poetry was very popular in the 19th century, with poets such as William Blake, John Keats, Lord Byron, Percy Shelley, Alfred Lord Tennyson, and Robert and Elizabeth Browning. Later, many poets \u2013 for example, Wilfred Owen and Siegfried Sassoon \u2013 were inspired to write about their experiences in the First World War. More recently, popular poets have included Sir Walter de la Mare, John Masefield, Sir John Betjeman and Ted Hughes. Some of the best-known poets are buried or commemorated in Poet\u2019s Corner in Westminster Abbey."
+    },
+    {
+        "Question": "Which Anglo-Saxon poem tells of its hero's battles against monsters?",
+        "RightAnswer": "Beowulf",
+        "WrongAnswers": [
+            "The Canterbury Tales",
+            "Sir Gawain and the Green Knight",
+            "The Divine Comedy"
+        ],
+        "Explanation": "The Anglo-Saxon poem Beowulf tells of its hero\u2019s battles against monsters and is still translated into modern English. Poems which survive from the Middle Ages include Chaucer\u2019s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur."
+    },
+    {
+        "Question": "Which poem from the Middle Ages was written by Chaucer?",
+        "RightAnswer": "The Canterbury Tales",
+        "WrongAnswers": [
+            "Beowulf",
+            "Sir Gawain and the Green Knight",
+            "The Song of Roland"
+        ],
+        "Explanation": "The Anglo-Saxon poem Beowulf tells of its hero\u2019s battles against monsters and is still translated into modern English. Poems which survive from the Middle Ages include Chaucer\u2019s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur."
+    },
+    {
+        "Question": "Which poem is about one of the knights at the court of King Arthur?",
+        "RightAnswer": "Sir Gawain and the Green Knight",
+        "WrongAnswers": [
+            "Beowulf",
+            "The Canterbury Tales",
+            "The Faerie Queene"
+        ],
+        "Explanation": "The Anglo-Saxon poem Beowulf tells of its hero\u2019s battles against monsters and is still translated into modern English. Poems which survive from the Middle Ages include Chaucer\u2019s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur."
+    },
+    {
+        "Question": "How many lines must a Shakespearean sonnet have?",
+        "RightAnswer": "14",
+        "WrongAnswers": [
+            "12",
+            "16",
+            "18"
+        ],
+        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems."
+    },
+    {
+        "Question": "What type of literary work, besides plays, did Shakespeare write?",
+        "RightAnswer": "Sonnets",
+        "WrongAnswers": [
+            "Novels",
+            "Short stories",
+            "Essays"
+        ],
+        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems."
+    },
+    {
+        "Question": "Which poet wrote 'Paradise Lost'?",
+        "RightAnswer": "John Milton",
+        "WrongAnswers": [
+            "William Wordsworth",
+            "Sir Walter Scott",
+            "Samuel Taylor Coleridge"
+        ],
+        "Explanation": "As Protestant ideas spread, a number of poets wrote poems inspired by their religious views. One of these was John Milton, who wrote Paradise Lost. Other poets, including William Wordsworth, were inspired by nature. Sir Walter Scott wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England. He also wrote novels, many of which were set in Scotland."
+    },
+    {
+        "Question": "Which poet was inspired by nature?",
+        "RightAnswer": "William Wordsworth",
+        "WrongAnswers": [
+            "John Milton",
+            "Sir Walter Scott",
+            "Robert Burns"
+        ],
+        "Explanation": "As Protestant ideas spread, a number of poets wrote poems inspired by their religious views. One of these was John Milton, who wrote Paradise Lost. Other poets, including William Wordsworth, were inspired by nature. Sir Walter Scott wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England. He also wrote novels, many of which were set in Scotland."
+    },
+    {
+        "Question": "Which writer was inspired by Scotland and traditional stories and songs from the area on the borders of Scotland and England?",
+        "RightAnswer": "Sir Walter Scott",
+        "WrongAnswers": [
+            "John Milton",
+            "William Wordsworth",
+            "Robert Louis Stevenson"
+        ],
+        "Explanation": "As Protestant ideas spread, a number of poets wrote poems inspired by their religious views. One of these was John Milton, who wrote Paradise Lost. Other poets, including William Wordsworth, were inspired by nature. Sir Walter Scott wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England. He also wrote novels, many of which were set in Scotland."
+    },
+    {
+        "Question": "Which writer wrote novels set in Scotland?",
+        "RightAnswer": "Sir Walter Scott",
+        "WrongAnswers": [
+            "John Milton",
+            "William Wordsworth",
+            "Jane Austen"
+        ],
+        "Explanation": "As Protestant ideas spread, a number of poets wrote poems inspired by their religious views. One of these was John Milton, who wrote Paradise Lost. Other poets, including William Wordsworth, were inspired by nature. Sir Walter Scott wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England. He also wrote novels, many of which were set in Scotland."
+    },
+    {
+        "Question": "Which century was poetry very popular with poets like William Blake and John Keats?",
+        "RightAnswer": "19th century",
+        "WrongAnswers": [
+            "18th century",
+            "20th century",
+            "17th century"
+        ],
+        "Explanation": "Poetry was very popular in the 19th century, with poets such as William Blake, John Keats, Lord Byron, Percy Shelley, Alfred Lord Tennyson, and Robert and Elizabeth Browning. Later, many poets \u2013 for example, Wilfred Owen and Siegfried Sassoon \u2013 were inspired to write about their experiences in the First World War. More recently, popular poets have included Sir Walter de la Mare, John Masefield, Sir John Betjeman and Ted Hughes. Some of the best-known poets are buried or commemorated in Poet\u2019s Corner in Westminster Abbey."
+    },
+    {
+        "Question": "Which poet is known for writing about experiences in the First World War?",
+        "RightAnswer": "Wilfred Owen",
+        "WrongAnswers": [
+            "William Blake",
+            "Alfred Lord Tennyson",
+            "Robert Browning"
+        ],
+        "Explanation": "Later, many poets \u2013 for example, Wilfred Owen and Siegfried Sassoon \u2013 were inspired to write about their experiences in the First World War."
+    }
+]
