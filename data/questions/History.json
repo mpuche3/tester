@@ -287,7 +287,7 @@
       "Thomas Hardy",
       "Roald Dahl"
     ],
-    "Explanation": "Rudyard Kipling was born in India in 1865 and later lived in India, the UK and the USA. Kipling was awarded the Nobel Prize in Literature in 1907."
+    "Explanation": "Rudyard Kipling was born in India in 1865 and later lived in India, the UK and the USA. Kipling was awarded the Nobel Prize in Literature in 1907. Kipling's poems and novels reflected the idea that the British Empire was a force for good."
   },
   {
     "Question": "Which British Prime Minister led the government during most of the Second World War, refusing to surrender to Nazi Germany?",
@@ -1423,11 +1423,11 @@
     "Question": "In which year did Rudyard Kipling win the Nobel Prize in Literature?",
     "RightAnswer": "1907",
     "WrongAnswers": [
-      "1918",
-      "1928",
-      "1899"
+      "1807",
+      "1707",
+      "1607"
     ],
-    "Explanation": "Kipling was awarded the Nobel Prize in Literature in 1907."
+    "Explanation": "Kipling was awarded the Nobel Prize in Literature in 1907. His books include the 'Just So Stories' and 'The Jungle Book', which continue to be popular today. His poem 'If' has often been voted among the UK's favourite poems. Kipling's poems and novels reflected the idea that the British Empire was a force for good."
   },
   {
     "Question": "On which date was Archduke Franz Ferdinand assassinated, sparking the First World War?",
@@ -4260,7 +4260,7 @@
     "Explanation": "Kipling was awarded the Nobel Prize in Literature in 1907. His poems and novels reflected the idea that the British Empire was a force for good."
   },
   {
-    "Question": "Which of the following is a book written by Rudyard Kipling?",
+    "Question": "Which of the following is NOT a book written by Rudyard Kipling?",
     "RightAnswer": "A Passage to India",
     "WrongAnswers": [
       "Just So Stories",
@@ -8110,16 +8110,6 @@
     "Explanation": "Eventually, by the second half of the 20th century, there was, for the most part, an orderly transition from Empire to Commonwealth, with countries being granted their independence."
   },
   {
-    "Question": "In which year was Rudyard Kipling born?",
-    "RightAnswer": "1865",
-    "WrongAnswers": [
-      "1870",
-      "1855",
-      "1880"
-    ],
-    "Explanation": "Rudyard Kipling was born in India in 1865 and later lived in India, the UK and the USA."
-  },
-  {
     "Question": "In which countries did Rudyard Kipling live?",
     "RightAnswer": "India, the UK and the USA",
     "WrongAnswers": [
@@ -8127,27 +8117,17 @@
       "UK and Australia",
       "USA and Canada"
     ],
-    "Explanation": "Rudyard Kipling was born in India in 1865 and later lived in India, the UK and the USA."
+    "Explanation": "Rudyard Kipling was born in India in 1865 and later lived in India, the UK and the USA. Kipling's poems and novels reflected the idea that the British Empire was a force for good."
   },
   {
     "Question": "In which year was Rudyard Kipling awarded the Nobel Prize in Literature?",
     "RightAnswer": "1907",
     "WrongAnswers": [
-      "1901",
-      "1915",
-      "1920"
+      "2007",
+      "1707",
+      "1807"
     ],
-    "Explanation": "Kipling was awarded the Nobel Prize in Literature in 1907."
-  },
-  {
-    "Question": "Which of the following is NOT mentioned as one of Kipling's books?",
-    "RightAnswer": "Kim",
-    "WrongAnswers": [
-      "Just So Stories",
-      "The Jungle Book",
-      "If"
-    ],
-    "Explanation": "His books include the 'Just So Stories' and 'The Jungle Book, which continue to be popular today. His poem 'If' has often been voted among the UK's favourite poems."
+    "Explanation": "Kipling's poems and novels reflected the idea that the British Empire was a force for good. Kipling was awarded the Nobel Prize in Literature in 1907."
   },
   {
     "Question": "What was Britain considered to be in the early 20th century?",
@@ -9693,7 +9673,7 @@
     "Question": "Where can an impressive hill fort still be seen today?",
     "RightAnswer": "Maiden Castle",
     "WrongAnswers": [
-      "Stonehenge",      
+      "Stonehenge",
       "Hadrian's Wall",
       "Tintagel Castle"
     ],
@@ -9953,7 +9933,7 @@
     "Question": "Where was the burial place of one of the Anglo-Saxon kings?",
     "RightAnswer": "Sutton Hoo",
     "WrongAnswers": [
-      "Stonehenge",     
+      "Stonehenge",
       "Hadrian's Wall",
       "Tintagel Castle"
     ],
@@ -10077,7 +10057,7 @@
       "Manchester",
       "Liverpool"
     ],
-    "Explanation": "Many of the Viking invaders stayed in Britain \\u2013 especially in the east and north of England, in an area known as the Danelaw (many places names there, such as Grimsby and Scunthorpe, come from the Viking languages)."
+    "Explanation": "Many of the Viking invaders stayed in Britain - especially in the east and north of England, in an area known as the Danelaw (many places names there, such as Grimsby and Scunthorpe, come from the Viking languages)."
   },
   {
     "Question": "What religion did some Viking settlers convert to?",
@@ -10184,7 +10164,7 @@
     "RightAnswer": "Bayeux Tapestry",
     "WrongAnswers": [
       "Hastings Tapestry",
-      "Norman Conquest Tapestry",      
+      "Norman Conquest Tapestry",
       "William's Embroidery"
     ],
     "Explanation": "The Battle of Hastings is commemorated in a great piece of embroidery, known as the Bayeux Tapestry, which can still be seen in France today."
@@ -10243,7 +10223,7 @@
     "Question": "What was the name of the comprehensive survey ordered by William after the Norman Conquest?",
     "RightAnswer": "Domesday Book",
     "WrongAnswers": [
-      "Norman Census",     
+      "Norman Census",
       "William's Registry",
       "English Inventory"
     ],
@@ -10682,8 +10662,8 @@
   {
     "Question": "What does 'Magna Carta' mean?",
     "RightAnswer": "Great Charter",
-    "WrongAnswers": [     
-      "King's Law",      
+    "WrongAnswers": [
+      "King's Law",
       "Noble's Rights",
       "Royal Decree"
     ],
@@ -11090,16 +11070,6 @@
     "Explanation": "Henry then married King Richard's niece, Elizabeth of York, and united the two families."
   },
   {
-    "Question": "What was Elizabeth of York's relation to King Richard III?",
-    "RightAnswer": "Niece",
-    "WrongAnswers": [
-      "Daughter",
-      "Sister",
-      "Cousin"
-    ],
-    "Explanation": "Henry then married King Richard's niece, Elizabeth of York, and united the two families."
-  },
-  {
     "Question": "Which royal house did Henry VII establish?",
     "RightAnswer": "The House of Tudor",
     "WrongAnswers": [
@@ -11130,26 +11100,6 @@
     "Explanation": "The symbol of the House of Tudor was a red rose with a white rose inside it as a sign that the Houses of York and Lancaster were now allies."
   },
   {
-    "Question": "What was one of Henry VII's main goals after winning the Wars of the Roses?",
-    "RightAnswer": "To make sure that England remained peaceful and that his position as king was secure",
-    "WrongAnswers": [
-      "To continue the war against the House of York",      
-      "To expand England's territory in Europe",
-      "To establish a new religion"
-    ],
-    "Explanation": "After his victory in the Wars of the Roses, Henry VII wanted to make sure that England remained peaceful and that his position as king was secure."
-  },
-  {
-    "Question": "What action did Henry VII take to strengthen his rule?",
-    "RightAnswer": "He deliberately strengthened the central administration of England",
-    "WrongAnswers": [
-      "He increased the power of the nobles",
-      "He started a war with France",
-      "He abolished the Parliament"
-    ],
-    "Explanation": "He deliberately strengthened the central administration of England and reduced the power of the nobles."
-  },
-  {
     "Question": "How did Henry VII affect the power of the nobles?",
     "RightAnswer": "He reduced their power",
     "WrongAnswers": [
@@ -11168,16 +11118,6 @@
       "He increased taxes on the common people"
     ],
     "Explanation": "He was thrifty and built up the monarchy's financial reserves."
-  },
-  {
-    "Question": "Who continued Henry VII's policy of centralising power?",
-    "RightAnswer": "Henry VIII",
-    "WrongAnswers": [
-      "Richard III",
-      "Elizabeth I",
-      "Edward VI"
-    ],
-    "Explanation": "When he died, his son Henry VIII continued the policy of centralising power."
   },
   {
     "Question": "How many times did Henry VIII marry?",
@@ -11207,17 +11147,7 @@
       "Jane Seymour",
       "Anne of Cleves"
     ],
-    "Explanation": "Catherine of Aragon \\u2013 Catherine was a Spanish princess. She and Henry had a number of children but only one, Mary, survived."
-  },
-  {
-    "Question": "How many of Catherine of Aragon's children with Henry VIII survived?",
-    "RightAnswer": "One",
-    "WrongAnswers": [
-      "Two",
-      "Three",
-      "None"
-    ],
-    "Explanation": "Catherine of Aragon \\u2013 Catherine was a Spanish princess. She and Henry had a number of children but only one, Mary, survived."
+    "Explanation": "Catherine of Aragon was a Spanish princess. She and Henry had a number of children but only one, Mary, survived."
   },
   {
     "Question": "What was the name of Catherine of Aragon's surviving child?",
@@ -11227,7 +11157,7 @@
       "Edward",
       "Anne"
     ],
-    "Explanation": "Catherine of Aragon \\u2013 Catherine was a Spanish princess. She and Henry had a number of children but only one, Mary, survived."
+    "Explanation": "Catherine of Aragon was a Spanish princess. She and Henry had a number of children but only one, Mary, survived."
   },
   {
     "Question": "Why did Henry VIII decide to divorce Catherine of Aragon?",
@@ -11247,7 +11177,7 @@
       "Anne of Cleves",
       "Jane Seymour"
     ],
-    "Explanation": "Anne Boleyn \\u2013 Anne Boleyn was English. She and Henry had one daughter, Elizabeth."
+    "Explanation": "Anne Boleyn was English. She and Henry had one daughter, Elizabeth."
   },
   {
     "Question": "What was the name of Anne Boleyn's daughter?",
@@ -11257,7 +11187,7 @@
       "Jane",
       "Catherine"
     ],
-    "Explanation": "Anne Boleyn \\u2013 Anne Boleyn was English. She and Henry had one daughter, Elizabeth."
+    "Explanation": "Anne Boleyn had one daughter, Elizabeth."
   },
   {
     "Question": "What happened to Anne Boleyn?",
@@ -11267,7 +11197,7 @@
       "She was divorced",
       "She outlived Henry VIII"
     ],
-    "Explanation": "Anne Boleyn \\u2013 Anne Boleyn was English. She and Henry had one daughter, Elizabeth. Anne was unpopular in the country and was accused of taking lovers. She was executed at the Tower of London."
+    "Explanation": "Anne Boleyn was English. She and Henry had one daughter, Elizabeth. Anne was unpopular in the country and was accused of taking lovers. She was executed at the Tower of London."
   },
   {
     "Question": "Which of Henry VIII's wives gave him the son he wanted?",
@@ -11277,17 +11207,7 @@
       "Anne Boleyn",
       "Anne of Cleves"
     ],
-    "Explanation": "Jane Seymour \\u2013 Henry married Jane after Anne's execution. She gave Henry the son he wanted, Edward, but she died shortly after the birth."
-  },
-  {
-    "Question": "What was the name of Jane Seymour's son?",
-    "RightAnswer": "Edward",
-    "WrongAnswers": [
-      "Henry",
-      "William",
-      "Richard"
-    ],
-    "Explanation": "Jane Seymour \\u2013 Henry married Jane after Anne's execution. She gave Henry the son he wanted, Edward, but she died shortly after the birth."
+    "Explanation": "Jane Seymour married Jane after Anne's execution. She gave Henry the son he wanted, Edward, but she died shortly after the birth."
   },
   {
     "Question": "What happened to Jane Seymour after giving birth to Edward?",
@@ -11297,7 +11217,7 @@
       "She was executed",
       "She became Queen Regent"
     ],
-    "Explanation": "Jane Seymour \\u2013 Henry married Jane after Anne's execution. She gave Henry the son he wanted, Edward, but she died shortly after the birth."
+    "Explanation": "Henry married Jane after Anne's execution. She gave Henry the son he wanted, Edward, but she died shortly after the birth."
   },
   {
     "Question": "Which of Henry VIII's wives was a German princess?",
@@ -11307,7 +11227,7 @@
       "Jane Seymour",
       "Catherine Howard"
     ],
-    "Explanation": "Anne of Cleves \\u2013 Anne was a German princess. Henry married her for political reasons but divorced her soon after."
+    "Explanation": "Anne of Cleves was a German princess. Henry married her for political reasons but divorced her soon after."
   },
   {
     "Question": "Why did Henry VIII marry Anne of Cleves?",
@@ -11317,17 +11237,7 @@
       "For her wealth",
       "To have more children"
     ],
-    "Explanation": "Anne of Cleves \\u2013 Anne was a German princess. Henry married her for political reasons but divorced her soon after."
-  },
-  {
-    "Question": "What happened to Henry VIII's marriage to Anne of Cleves?",
-    "RightAnswer": "He divorced her soon after",
-    "WrongAnswers": [
-      "They had many children together",
-      "She was executed",
-      "She outlived Henry"
-    ],
-    "Explanation": "Anne of Cleves \\u2013 Anne was a German princess. Henry married her for political reasons but divorced her soon after."
+    "Explanation": "Anne of Cleves was a German princess. Henry married her for political reasons but divorced her soon after."
   },
   {
     "Question": "Which of Henry VIII's wives was a cousin of Anne Boleyn?",
@@ -11337,7 +11247,7 @@
       "Anne of Cleves",
       "Catherine Parr"
     ],
-    "Explanation": "Catherine Howard \\u2013 Catherine was a cousin of Anne Boleyn. She was also accused of taking lovers and executed."
+    "Explanation": "Catherine Howard was a cousin of Anne Boleyn. She was also accused of taking lovers and executed."
   },
   {
     "Question": "What happened to Catherine Howard?",
@@ -11347,7 +11257,7 @@
       "She died of natural causes",
       "She outlived Henry VIII"
     ],
-    "Explanation": "Catherine Howard \\u2013 Catherine was a cousin of Anne Boleyn. She was also accused of taking lovers and executed."
+    "Explanation": "Catherine Howard was a cousin of Anne Boleyn. She was also accused of taking lovers and executed."
   },
   {
     "Question": "Which of Henry VIII's wives was a widow when she married him?",
@@ -11357,27 +11267,7 @@
       "Anne Boleyn",
       "Jane Seymour"
     ],
-    "Explanation": "Catherine Parr \\u2013 Catherine was a widow who married Henry late in his life. She survived him and married again but died soon after."
-  },
-  {
-    "Question": "What happened to Catherine Parr after Henry VIII's death?",
-    "RightAnswer": "She married again but died soon after",
-    "WrongAnswers": [
-      "She became Queen Regent",
-      "She was executed",
-      "She never remarried"
-    ],
-    "Explanation": "Catherine Parr \\u2013 Catherine was a widow who married Henry late in his life. She survived him and married again but died soon after."
-  },
-  {
-    "Question": "Whose approval did Henry VIII need to divorce his first wife?",
-    "RightAnswer": "The Pope",
-    "WrongAnswers": [
-      "The Archbishop of Canterbury",
-      "The King of Spain",
-      "The English Parliament"
-    ],
-    "Explanation": "To divorce his first wife, Henry needed the approval of the Pope. When the Pope refused, Henry established the Church of England."
+    "Explanation": "Catherine Parr was a widow who married Henry late in his life. She survived him and married again but died soon after."
   },
   {
     "Question": "What did Henry VIII do when the Pope refused to approve his divorce?",
@@ -11400,16 +11290,6 @@
     "Explanation": "In this new Church, the king, not the Pope, would have the power to appoint bishops and order how people should worship."
   },
   {
-    "Question": "What powers did the king have in the newly established Church of England?",
-    "RightAnswer": "Appointing bishops and ordering how people should worship",
-    "WrongAnswers": [
-      "Excommunicating sinners",
-      "Writing religious texts",
-      "Performing marriages and baptisms"
-    ],
-    "Explanation": "In this new Church, the king, not the Pope, would have the power to appoint bishops and order how people should worship."
-  },
-  {
     "Question": "What was the Reformation primarily a movement against?",
     "RightAnswer": "The authority of the Pope",
     "WrongAnswers": [
@@ -11417,17 +11297,7 @@
       "The use of Latin in everyday life",
       "The power of Protestant churches"
     ],
-    "Explanation": "This was a movement against the authority of the Pope and the ideas and practices of the Roman Catholic Church."
-  },
-  {
-    "Question": "What did Protestants form as part of the Reformation?",
-    "RightAnswer": "Their own churches",
-    "WrongAnswers": [
-      "New governments",
-      "Educational institutions",
-      "Military alliances"
-    ],
-    "Explanation": "The Protestants formed their own churches."
+    "Explanation": "This was a movement against the authority of the Pope and the ideas and practices of the Roman Catholic Church. The Protestants formed their own churches."
   },
   {
     "Question": "In what language did Protestants read the Bible?",
@@ -11437,26 +11307,7 @@
       "Greek",
       "Hebrew"
     ],
-    "Explanation": "They read the Bible in their own languages instead of in Latin."
-  },
-  {
-    "Question": "What practice did Protestants not engage in, according to the text?",
-    "RightAnswer": "Praying to saints or at shrines",
-    "WrongAnswers": [
-      "Reading the Bible",
-      "Forming their own churches",
-      "Believing in a personal relationship with God"
-    ],
-    "Explanation": "They did not pray to saints or at shrines."
-  },
-  {
-    "Question": "What did Protestants believe was more important than submitting to the authority of the Church?",
-    "RightAnswer": "A person's own relationship with God",
-    "WrongAnswers": [
-      "Reading the Bible in Latin",
-      "Praying to saints",      "Following the Pope's authority"
-    ],
-    "Explanation": "And, they believed that a person's own relationship with God was more important than submitting to the authority of the Church."
+    "Explanation": "They read the Bible in their own languages instead of in Latin. They did not pray to saints or at shrines. And, they believed that a person's own relationship with God was more important than submitting to the authority of the Church."
   },
   {
     "Question": "In which century did Protestant ideas gradually gain strength in England, Wales and Scotland?",
@@ -11469,7 +11320,7 @@
     "Explanation": "Protestant ideas gradually gained strength in England, Wales and Scotland during the 16th century."
   },
   {
-    "Question": "What led to rebellion from Irish chieftains?",
+    "Question": "What led to rebellion from Irish chieftains in the 16th century?",
     "RightAnswer": "Attempts by the English to impose Protestantism and introduce the English system of laws about land inheritance",
     "WrongAnswers": [
       "The spread of Catholicism",
@@ -11486,7 +11337,7 @@
       "Mary I",
       "Elizabeth I"
     ],
-    "Explanation": "During the reign of Henry VIII, Wales became formally united with England by the Act for the Government of Wales."
+    "Explanation": "During the reign of Henry VIII, Wales became formally united with England by the Act for the Government of Wales. The Welsh sent representatives to the House of Commons and the Welsh legal system was reformed."
   },
   {
     "Question": "What act formally united Wales with England?",
@@ -11496,17 +11347,7 @@
       "The Welsh Reformation Act",
       "The English-Welsh Alliance Act"
     ],
-    "Explanation": "During the reign of Henry VIII, Wales became formally united with England by the Act for the Government of Wales."
-  },
-  {
-    "Question": "What changes occurred in Wales as a result of its union with England?",
-    "RightAnswer": "The Welsh sent representatives to the House of Commons and the Welsh legal system was reformed",
-    "WrongAnswers": [
-      "Wales gained independence",
-      "The Welsh language was banned",
-      "Wales became a separate kingdom"
-    ],
-    "Explanation": "The Welsh sent representatives to the House of Commons and the Welsh legal system was reformed."
+    "Explanation": "During the reign of Henry VIII, Wales became formally united with England by the Act for the Government of Wales. The Welsh sent representatives to the House of Commons and the Welsh legal system was reformed."
   },
   {
     "Question": "Who succeeded Henry VIII as monarch?",
@@ -11526,7 +11367,7 @@
       "Religious neutral",
       "Orthodox Christian"
     ],
-    "Explanation": "Henry VIII was succeeded by his son Edward VI, who was strongly Protestant."
+    "Explanation": "Henry VIII was succeeded by his son Edward VI, who was strongly Protestant. During his reign, the Book of Common Prayer was written to be used in the Church of England."
   },
   {
     "Question": "What important religious text was written during Edward VI's reign?",
@@ -11546,7 +11387,7 @@
       "Twenty years",
       "Less than a year"
     ],
-    "Explanation": "Edward died at the age of 15 after ruling for just over six years, and his half-sister Mary became queen."
+    "Explanation": "Henry VIII was succeeded by his son Edward VI, who was strongly Protestant. Edward died at the age of 15 after ruling for just over six years, and his half-sister Mary became queen."
   },
   {
     "Question": "Who succeeded Edward VI as monarch?",
@@ -11559,7 +11400,7 @@
     "Explanation": "Edward died at the age of 15 after ruling for just over six years, and his half-sister Mary became queen."
   },
   {
-    "Question": "What was Mary's religious inclination?",
+    "Question": "What was Mary's religious inclination? Note: Mary succeeded Edward VI as monarch",
     "RightAnswer": "A devout Catholic",
     "WrongAnswers": [
       "A strong Protestant",
@@ -11579,17 +11420,17 @@
     "Explanation": "Mary was a devout Catholic and persecuted Protestants (for this reason, she became known as 'Bloody Mary')."
   },
   {
-    "Question": "Who succeeded Mary as monarch?",
+    "Question": "Who succeeded Mary (Bloody Mary) as monarch?",
     "RightAnswer": "Elizabeth",
     "WrongAnswers": [
       "Edward VII",
       "James I",
       "Anne"
     ],
-    "Explanation": "Mary also died after a short reign and the next monarch was her half-sister, Elizabeth, the daughter of Henry VIII and Anne Boleyn."
+    "Explanation": "Mary (Bloody Mary) also died after a short reign and the next monarch was her half-sister, Elizabeth, the daughter of Henry VIII and Anne Boleyn."
   },
   {
-    "Question": "Who were Elizabeth's parents?",
+    "Question": "Who were Queen Elizabeth I's parents?",
     "RightAnswer": "Henry VIII and Anne Boleyn",
     "WrongAnswers": [
       "Henry VIII and Catherine of Aragon",
@@ -11599,44 +11440,14 @@
     "Explanation": "Mary also died after a short reign and the next monarch was her half-sister, Elizabeth, the daughter of Henry VIII and Anne Boleyn."
   },
   {
-    "Question": "What religion did Queen Elizabeth I follow?",
-    "RightAnswer": "Protestant",
-    "WrongAnswers": [
-      "Catholic",
-      "Anglican",
-      "Orthodox"
-    ],
-    "Explanation": "Queen Elizabeth I was a Protestant. She re-established the Church of England as the official Church in England."
-  },
-  {
-    "Question": "Which church did Queen Elizabeth I re-establish as the official Church in England?",
-    "RightAnswer": "Church of England",
-    "WrongAnswers": [
-      "Catholic Church",
-      "Presbyterian Church",
-      "Lutheran Church"
-    ],
-    "Explanation": "Queen Elizabeth I was a Protestant. She re-established the Church of England as the official Church in England."
-  },
-  {
-    "Question": "What was Queen Elizabeth I's approach to people's personal religious beliefs?",
+    "Question": "What was Queen Elizabeth I's approach to religion?",
     "RightAnswer": "She did not ask about people's real beliefs",
     "WrongAnswers": [
       "She strictly enforced Protestant beliefs",
       "She required public declarations of faith",
       "She punished those with Catholic beliefs"
     ],
-    "Explanation": "Everyone had to attend their local church and there were laws about the type of religious services and the prayers which could be said, but Elizabeth did not ask about people's real beliefs."
-  },
-  {
-    "Question": "What did Queen Elizabeth I succeed in finding between Catholics and extreme Protestants?",
-    "RightAnswer": "A balance",
-    "WrongAnswers": [
-      "A compromise",
-      "A conflict",
-      "An agreement"
-    ],
-    "Explanation": "She succeeded in finding a balance between the views of Catholics and the more extreme Protestants. In this way, she avoided any serious religious conflict within England."
+    "Explanation": "Queen Elizabeth I was a Protestant. She re-established the Church of England as the official Church in England. Everyone had to attend their local church and there were laws about the type of religious services and the prayers which could be said, but Elizabeth did not ask about people's real beliefs. She succeeded in finding a balance between the views of Catholics and the more extreme Protestants. In this way, she avoided any serious religious conflict within England."
   },
   {
     "Question": "In which year did the English defeat the Spanish Armada?",
@@ -11645,26 +11456,6 @@
       "1066",
       "1666",
       "1776"
-    ],
-    "Explanation": "Elizabeth became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism."
-  },
-  {
-    "Question": "What was the Spanish Armada?",
-    "RightAnswer": "A large fleet of ships",
-    "WrongAnswers": [
-      "A land army",
-      "A peace treaty",
-      "A religious order"
-    ],
-    "Explanation": "Elizabeth became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism."
-  },
-  {
-    "Question": "What was the purpose of the Spanish Armada?",
-    "RightAnswer": "To conquer England and restore Catholicism",
-    "WrongAnswers": [
-      "To establish trade routes",
-      "To explore the New World",
-      "To form an alliance with England"
     ],
     "Explanation": "Elizabeth became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism."
   },
@@ -11699,26 +11490,6 @@
     "Explanation": "A Protestant Church of Scotland with an leadership was established but, unlike in England, this was not a state Church."
   },
   {
-    "Question": "What was the growing feeling of pride in being English called during the Elizabethan period?",
-    "RightAnswer": "Patriotism",
-    "WrongAnswers": [
-      "Nationalism",
-      "Chauvinism",
-      "Jingoism"
-    ],
-    "Explanation": "The Elizabethan period in England was a time of growing patriotism: a feeling of pride in being English."
-  },
-  {
-    "Question": "What did English explorers seek during the Elizabethan period?",
-    "RightAnswer": "New trade routes",
-    "WrongAnswers": [
-      "New religions",
-      "New monarchs",
-      "New languages"
-    ],
-    "Explanation": "English explorers sought new trade routes and tried to expand British trade into the Spanish colonies in the Americas."
-  },
-  {
     "Question": "Who was one of the commanders in the defeat of the Spanish Armada?",
     "RightAnswer": "Sir Francis Drake",
     "WrongAnswers": [
@@ -11736,11 +11507,11 @@
       "Victory",
       "Endeavour"
     ],
-    "Explanation": "His ship, the Golden Hind, was one of the first to sail right around ('circumnavigate') the world."
+    "Explanation": "Sir Francis Drake, one of the commanders in the defeat of the Spanish Armada, was one of the founders of England's naval tradition. His ship, the Golden Hind, was one of the first to sail right around ('circumnavigate') the world."
   },
   {
-    "Question": "What achievement is attributed to Sir Francis Drake's ship?",
-    "RightAnswer": "One of the first to circumnavigate the world",
+    "Question": "What achievement is attributed to Sir Francis Drake's ship, the Golden Hind?",
+    "RightAnswer": "First to circumnavigate the world",
     "WrongAnswers": [
       "First to reach the Americas",
       "First to cross the Atlantic",
@@ -11751,7 +11522,10 @@
   {
     "Question": "When did English settlers first begin to colonise the eastern coast of America?",
     "RightAnswer": "In Elizabeth I's time",
-    "WrongAnswers": [      "In James I's time",      "In Charles I's time",      "In William III's time"
+    "WrongAnswers": [
+      "In James I's time",
+      "In Charles I's time",
+      "In William III's time"
     ],
     "Explanation": "In Elizabeth I's time, English settlers first began to colonise the eastern coast of America."
   },
@@ -11813,7 +11587,7 @@
       "Anglican",
       "Orthodox"
     ],
-    "Explanation": "The queen of Scotland, Mary Stuart (often now called 'Mary, Queen of Scots') was a Catholic."
+    "Explanation": "The queen of Scotland, Mary Stuart (often now called 'Mary, Queen of Scots') was a Catholic. Much of her childhood was spent in France."
   },
   {
     "Question": "What happened when Mary Stuart returned to Scotland?",
@@ -11823,7 +11597,7 @@
       "She was arrested",
       "She married"
     ],
-    "Explanation": "When she returned to Scotland, she was the centre of a power struggle between different groups."
+    "Explanation": "The queen of Scotland, Mary Stuart (often now called 'Mary, Queen of Scots') was a Catholic. Much of her childhood was spent in France. When she returned to Scotland, she was the centre of a power struggle between different groups."
   },
   {
     "Question": "Why did Mary Stuart flee to England?",
@@ -11833,7 +11607,7 @@
       "She wanted to claim the English throne",
       "She was exiled by Scottish nobles"
     ],
-    "Explanation": "When her husband was murdered, Mary was suspected of involvement and fled to England."
+    "Explanation": "When her husband was murdered, Mary was suspected of involvement and fled to England. She gave her throne to her Protestant son, James VI of Scotland."
   },
   {
     "Question": "To whom did Mary Stuart give her throne when she fled to England?",
@@ -11843,7 +11617,7 @@
       "Her Catholic brother",
       "Her husband"
     ],
-    "Explanation": "She gave her throne to her Protestant son, James VI of Scotland."
+    "Explanation": "When her husband was murdered, Mary was suspected of involvement and fled to England. She gave her throne to her Protestant son, James VI of Scotland."
   },
   {
     "Question": "What was Mary Stuart's relationship to Elizabeth I?",
@@ -11853,22 +11627,13 @@
       "Aunt",
       "Niece"
     ],
-    "Explanation": "Mary was Elizabeth I's cousin and hoped that Elizabeth might help her, but Elizabeth suspected Mary of wanting to take over the English throne, and kept her a prisoner for 20 years."
-  },
-  {
-    "Question": "How long did Elizabeth I keep Mary Stuart as a prisoner?",
-    "RightAnswer": "20 years",
-    "WrongAnswers": [
-      "10 years",
-      "5 years",
-      "30 years"
-    ],
-    "Explanation": "Mary was Elizabeth I's cousin and hoped that Elizabeth might help her, but Elizabeth suspected Mary of wanting to take over the English throne, and kept her a prisoner for 20 years."
+    "Explanation": "Mary was Elizabeth I's cousin and hoped that Elizabeth might help her, but Elizabeth suspected Mary of wanting to take over the English throne, and kept her a prisoner for 20 years. Mary was eventually executed, accused of plotting against Elizabeth I"
   },
   {
     "Question": "What was the reason for Mary Stuart's execution?",
     "RightAnswer": "Accused of plotting against Elizabeth I",
-    "WrongAnswers": [      "Found guilty of her husband's murder",
+    "WrongAnswers": [
+      "Found guilty of her husband's murder",
       "Attempting to reclaim the Scottish throne",
       "Practicing Catholicism"
     ],
@@ -11882,17 +11647,7 @@
       "Oxford",
       "Cambridge"
     ],
-    "Explanation": "Shakespeare was born in Stratford-upon-Avon, England."
-  },
-  {
-    "Question": "In which country was Stratford-upon-Avon, Shakespeare's birthplace, located?",
-    "RightAnswer": "England",
-    "WrongAnswers": [
-      "Scotland",
-      "Wales",
-      "Ireland"
-    ],
-    "Explanation": "Shakespeare was born in Stratford-upon-Avon, England."
+    "Explanation": "Shakespeare was born in Stratford-upon-Avon, England. He was a playwright and actor and wrote many poems and plays. He was one of the first to portray ordinary Englishmen and women. Many people regard Shakespeare as the greatest playwright of all time."
   },
   {
     "Question": "What were Shakespeare's two main professions?",
@@ -11902,36 +11657,7 @@
       "Novelist and producer",
       "Musician and writer"
     ],
-    "Explanation": "He was a playwright and actor and wrote many poems and plays."
-  },
-  {
-    "Question": "Which of the following is NOT mentioned as one of Shakespeare's most famous plays?",
-    "RightAnswer": "King Lear",
-    "WrongAnswers": [      "A Midsummer Night's Dream",
-      "Hamlet",
-      "Macbeth"
-    ],
-    "Explanation": "His most famous plays include A Midsummer Night's Dream, Hamlet, Macbeth and Romeo and Juliet."
-  },
-  {
-    "Question": "What type of historical events did Shakespeare dramatize?",
-    "RightAnswer": "Significant events from the past",
-    "WrongAnswers": [
-      "Recent political scandals",
-      "Future predictions",
-      "Mythological stories"
-    ],
-    "Explanation": "He also dramatised significant events from the past, but he did not focus solely on kings and queens."
-  },
-  {
-    "Question": "What was innovative about Shakespeare's portrayal of characters?",
-    "RightAnswer": "He was one of the first to portray ordinary Englishmen and women",
-    "WrongAnswers": [
-      "He only focused on royalty",
-      "He introduced supernatural beings",
-      "He wrote exclusively about historical figures"
-    ],
-    "Explanation": "He was one of the first to portray ordinary Englishmen and women."
+    "Explanation": "He was a playwright and actor and wrote many poems and plays. He was one of the first to portray ordinary Englishmen and women. Many people regard Shakespeare as the greatest playwright of all time."
   },
   {
     "Question": "What impact did Shakespeare have on the English language?",
@@ -11984,26 +11710,6 @@
     "Explanation": "Lines from his plays and poems which are often still quoted include: All the world's a stage (As You Like It)."
   },
   {
-    "Question": "From which work is the phrase 'The darling buds of May' taken?",
-    "RightAnswer": "Sonnet 18 \\u2013 Shall I Compare Thee To a Summer's Day",
-    "WrongAnswers": [
-      "Romeo and Juliet",
-      "Hamlet",
-      "As You Like It"
-    ],
-    "Explanation": "Lines from his plays and poems which are often still quoted include: The darling buds of May (Sonnet 18 \\u2013 Shall I Compare Thee To a Summer's Day)."
-  },
-  {
-    "Question": "How is Shakespeare often regarded by many people?",
-    "RightAnswer": "As the greatest playwright of all time",
-    "WrongAnswers": [
-      "As the most prolific poet",
-      "As the best actor of his era",
-      "As the most influential linguist"
-    ],
-    "Explanation": "Many people regard Shakespeare as the greatest playwright of all time."
-  },
-  {
     "Question": "What is the current status of Shakespeare's works?",
     "RightAnswer": "They are still performed and studied in Britain and other countries",
     "WrongAnswers": [
@@ -12017,7 +11723,8 @@
     "Question": "What is The Globe Theatre in London?",
     "RightAnswer": "A modern copy of the theatres in which Shakespeare's plays were first performed",
     "WrongAnswers": [
-      "The original theatre where Shakespeare performed",      "A museum dedicated to Shakespeare's life",
+      "The original theatre where Shakespeare performed",
+      "A museum dedicated to Shakespeare's life",
       "A theatre exclusively for Shakespearean plays"
     ],
     "Explanation": "The Globe Theatre in London is a modern copy of the theatres in which his plays were first performed."
@@ -12107,8 +11814,8 @@
     "RightAnswer": "No",
     "WrongAnswers": [
       "Yes",
-      "It was the second",
-      "It was the only one"
+      "Most likely yes, but it's uncertain",
+      "Most likely not, but it's uncertain"
     ],
     "Explanation": "It was not the first English Bible but is a version which continues to be used in many Protestant churches today."
   },
@@ -12120,17 +11827,7 @@
       "Orthodox churches",
       "Anglican churches only"
     ],
-    "Explanation": "It was not the first English Bible but is a version which continues to be used in many Protestant churches today."
-  },
-  {
-    "Question": "What was the predominant religion in Ireland during this period?",
-    "RightAnswer": "Catholic",
-    "WrongAnswers": [
-      "Protestant",
-      "Anglican",
-      "Orthodox"
-    ],
-    "Explanation": "During this period, Ireland was an almost completely Catholic country."
+    "Explanation": "King James Version was not the first English Bible but is a version which continues to be used in many Protestant churches today."
   },
   {
     "Question": "Which English monarch first took the title 'King of Ireland'?",
@@ -12153,26 +11850,6 @@
     "Explanation": "Henry VII and Henry VIII had extended English control outside the Pale and had established English authority over the whole country."
   },
   {
-    "Question": "Where were the Lord Lieutenants based in Ireland?",
-    "RightAnswer": "Dublin",
-    "WrongAnswers": [
-      "Belfast",
-      "Cork",
-      "Galway"
-    ],
-    "Explanation": "English laws were introduced and local leaders were expected to follow the instructions of the Lord Lieutenants in Dublin."
-  },
-  {
-    "Question": "During whose reigns did many people in Ireland oppose rule by the Protestant government in England?",
-    "RightAnswer": "Elizabeth I and James I",
-    "WrongAnswers": [
-      "Henry VII and Henry VIII",
-      "Mary I and Edward VI",
-      "Charles I and Charles II"
-    ],
-    "Explanation": "During the reigns of Elizabeth I and James I, many people in Ireland opposed rule by the Protestant government in England. There were a number of rebellions."
-  },
-  {
     "Question": "In which province of Ireland did the English government encourage Scottish and English Protestants to settle?",
     "RightAnswer": "Ulster",
     "WrongAnswers": [
@@ -12180,7 +11857,7 @@
       "Munster",
       "Connacht"
     ],
-    "Explanation": "The English government encouraged Scottish and English Protestants to settle in Ulster, the northern province of Ireland, taking over the land from Catholic landholders."
+    "Explanation": "During the reigns of Elizabeth I and James I, many people in Ireland opposed rule by the Protestant government in England. There were a number of rebellions. The English government encouraged Scottish and English Protestants to settle in Ulster, the northern province of Ireland, taking over the land from Catholic landholders. These settlements were known as plantations."
   },
   {
     "Question": "What were the settlements of Scottish and English Protestants in Ireland known as?",
@@ -12190,37 +11867,7 @@
       "Outposts",
       "Garrisons"
     ],
-    "Explanation": "These settlements were known as plantations."
-  },
-  {
-    "Question": "From which part of Scotland did many of the new settlers in Ulster come?",
-    "RightAnswer": "South-west Scotland",
-    "WrongAnswers": [
-      "North-east Scotland",
-      "Central Scotland",
-      "The Scottish Highlands"
-    ],
-    "Explanation": "Many of the new settlers came from south-west Scotland and other land was given to companies based in London."
-  },
-  {
-    "Question": "Which monarch organized plantations in several other parts of Ireland?",
-    "RightAnswer": "James I",
-    "WrongAnswers": [
-      "Elizabeth I",
-      "Henry VIII",
-      "Charles I"
-    ],
-    "Explanation": "James later organised similar plantations in several other parts of Ireland."
-  },
-  {
-    "Question": "For which countries did the plantations in Ireland have serious long-term consequences?",
-    "RightAnswer": "England, Scotland and Ireland",
-    "WrongAnswers": [
-      "France, Spain and Portugal",
-      "Wales, Cornwall and Isle of Man",
-      "Netherlands, Belgium and Luxembourg"
-    ],
-    "Explanation": "This had serious longterm consequences for the history of England, Scotland and Ireland."
+    "Explanation": "During the reigns of Elizabeth I and James I, many people in Ireland opposed rule by the Protestant government in England. There were a number of rebellions. The English government encouraged Scottish and English Protestants to settle in Ulster, the northern province of Ireland, taking over the land from Catholic landholders. These settlements were known as plantations. Many of the new settlers came from south-west Scotland and other land was given to companies based in London."
   },
   {
     "Question": "Who was known for skillfully managing Parliament during their reign?",
@@ -12239,16 +11886,6 @@
       "James I",
       "Charles I",
       "Mary I"
-    ],
-    "Explanation": "Elizabeth I was very skilled at managing Parliament. During her reign, she was successful in balancing her wishes and views against those of the House of Lords and those of the House of Commons, which was increasingly Protestant in its views."
-  },
-  {
-    "Question": "Which part of Parliament was becoming increasingly Protestant in its views during Elizabeth I's reign?",
-    "RightAnswer": "House of Commons",
-    "WrongAnswers": [
-      "House of Lords",
-      "Privy Council",
-      "Royal Court"
     ],
     "Explanation": "Elizabeth I was very skilled at managing Parliament. During her reign, she was successful in balancing her wishes and views against those of the House of Lords and those of the House of Commons, which was increasingly Protestant in its views."
   },
@@ -12315,31 +11952,32 @@
   {
     "Question": "Who were the Puritans?",
     "RightAnswer": "A group of Protestants who advocated strict and simple religious doctrine and worship",
-    "WrongAnswers": [      "Supporters of the king's religious reforms",
+    "WrongAnswers": [
+      "Supporters of the king's religious reforms",
       "Catholic rebels in Ireland",
       "Scottish Presbyterians"
     ],
     "Explanation": "In 1640, he recalled Parliament to ask it for funds. Many in Parliament were Puritans, a group of Protestants who advocated strict and simple religious doctrine and worship."
   },
   {
-    "Question": "What did Parliament demand control of during the Irish rebellion?",
+    "Question": "What did Parliament demand control of during the Irish rebellion to King Charles I?",
     "RightAnswer": "The English army",
     "WrongAnswers": [
       "The royal treasury",
       "The Church of England",
       "Foreign policy"
     ],
-    "Explanation": "Another rebellion began in Ireland because the Roman Catholics in Ireland were afraid of the growing power of the Puritans. Parliament took this opportunity to demand control of the English army \\u2013 a change that would have transferred substantial power from the king to Parliament."
+    "Explanation": "Another rebellion began in Ireland because the Roman Catholics in Ireland were afraid of the growing power of the Puritans. Parliament took this opportunity to demand control of the English army - a change that would have transferred substantial power from the king to Parliament."
   },
   {
-    "Question": "How many parliamentary leaders did Charles I try to arrest when he entered the House of Commons?",
-    "RightAnswer": "Five",
+    "Question": "Who was the last monarch set foot in the Commons?",
+    "RightAnswer": "Charles I",
     "WrongAnswers": [
-      "Three",
-      "Seven",
-      "Ten"
+      "Charles II",
+      "Elizabeth I",
+      "Elizabeth II"
     ],
-    "Explanation": "In response, Charles I entered the House of Commons and tried to arrest five parliamentary leaders, but they had been warned and were not there. No monarch has set foot in the Commons since."
+    "Explanation": "Parliament took this opportunity to demand control of the English army - a change that would have transferred substantial power from the king to Parliament. In response, Charles I entered the House of Commons and tried to arrest five parliamentary leaders, but they had been warned and were not there. No monarch has set foot in the Commons since."
   },
   {
     "Question": "In which year did the civil war between the king and Parliament begin?",
@@ -12422,7 +12060,7 @@
     "Explanation": "England declared itself a republic, called the Commonwealth. It no longer had a monarch."
   },
   {
-    "Question": "Who was sent to Ireland to establish the authority of the English Parliament?",
+    "Question": "Who was sent to Ireland to establish the authority of the English Parliament in 1641?",
     "RightAnswer": "Oliver Cromwell",
     "WrongAnswers": [
       "Charles II",
@@ -12432,7 +12070,7 @@
     "Explanation": "One of its generals, Oliver Cromwell, was sent to Ireland, where the revolt which had begun in 1641 still continued and where there was still a Royalist army."
   },
   {
-    "Question": "In which year did the Irish revolt begin?",
+    "Question": "In which year did Oliver Cromwell defeat the Irish revolt?",
     "RightAnswer": "1641",
     "WrongAnswers": [
       "1646",
@@ -12479,7 +12117,7 @@
       "1646",
       "1641"
     ],
-    "Explanation": "He was given the title of Lord Protector and ruled until his death in 1658."
+    "Explanation": "He was given the title of Lord Protector and ruled until his death in 1658. When Cromwell died, his son, Richard, became Lord Protector in his place but was not able to control the army or the government."
   },
   {
     "Question": "Who became Lord Protector after Oliver Cromwell's death?",
@@ -12489,7 +12127,7 @@
       "Oliver Cromwell Jr.",
       "James II"
     ],
-    "Explanation": "When Cromwell died, his son, Richard, became Lord Protector in his place but was not able to control the army or the government."
+    "Explanation": "He was given the title of Lord Protector and ruled until his death in 1658. When Cromwell died, his son, Richard, became Lord Protector in his place but was not able to control the army or the government."
   },
   {
     "Question": "How long had Britain been a republic before people began to talk about the need for a king again?",
@@ -12542,17 +12180,7 @@
     "Explanation": "During Charles II's reign, in 1665, there was a major outbreak of plague in London. Thousands of people died, especially in poorer areas."
   },
   {
-    "Question": "Which areas were most affected by the plague outbreak in London?",
-    "RightAnswer": "Poorer areas",
-    "WrongAnswers": [
-      "Wealthy neighborhoods",
-      "Royal residences",
-      "Commercial districts"
-    ],
-    "Explanation": "During Charles II's reign, in 1665, there was a major outbreak of plague in London. Thousands of people died, especially in poorer areas."
-  },
-  {
-    "Question": "What major event occurred in London the year after the plague outbreak?",
+    "Question": "What major event occurred in London the year after the plague outbreak of 1665?",
     "RightAnswer": "A great fire",
     "WrongAnswers": [
       "A flood",
@@ -12562,7 +12190,7 @@
     "Explanation": "The following year, a great fire destroyed much of the city, including many churches and St Paul's Cathedral."
   },
   {
-    "Question": "Which famous landmark was destroyed in the Great Fire of London?",
+    "Question": "Which famous landmark was destroyed in the Great Fire of London in 1666?",
     "RightAnswer": "St Paul's Cathedral",
     "WrongAnswers": [
       "Tower of London",
@@ -12572,7 +12200,7 @@
     "Explanation": "The following year, a great fire destroyed much of the city, including many churches and St Paul's Cathedral."
   },
   {
-    "Question": "Who designed the new St Paul's Cathedral after the Great Fire?",
+    "Question": "Who designed the new St Paul's Cathedral after the Great Fire of London in 1666?",
     "RightAnswer": "Sir Christopher Wren",
     "WrongAnswers": [
       "Samuel Pepys",
@@ -12582,7 +12210,7 @@
     "Explanation": "London was rebuilt with a new St Paul's, which was designed by a famous architect, Sir Christopher Wren."
   },
   {
-    "Question": "Who wrote a diary about the plague and the Great Fire of London?",
+    "Question": "Who wrote a diary about the plague and the Great Fire of London in 1666?",
     "RightAnswer": "Samuel Pepys",
     "WrongAnswers": [
       "Sir Christopher Wren",
@@ -12626,7 +12254,8 @@
     "RightAnswer": "The Royal Society",
     "WrongAnswers": [
       "The Scientific Academy",
-      "The Natural Knowledge Institute",      "The King's Scientific Council"
+      "The Natural Knowledge Institute",
+      "The King's Scientific Council"
     ],
     "Explanation": "During his reign, the Royal Society was formed to promote 'natural knowledge'. This is the oldest surviving scientific society in the world."
   },
@@ -12648,7 +12277,7 @@
       "Samuel Pepys",
       "Charles II"
     ],
-    "Explanation": "Among its early members were Sir Edmund Halley, who successfully predicted the return of the comet now called Halley's Comet."
+    "Explanation": "During his reign, the Royal Society was formed to promote 'natural knowledge'. This is the oldest surviving scientific society in the world. Among its early members were Sir Edmund Halley, who successfully predicted the return of the comet now called Halley's Comet."
   },
   {
     "Question": "Where was Isaac Newton born?",
@@ -12657,26 +12286,6 @@
       "Cambridge",
       "London",
       "Yorkshire"
-    ],
-    "Explanation": "Born in Lincolnshire, eastern England, Isaac Newton first became interested in science when he studied at Cambridge University."
-  },
-  {
-    "Question": "In which part of England is Lincolnshire located?",
-    "RightAnswer": "Eastern England",
-    "WrongAnswers": [
-      "Western England",
-      "Northern England",
-      "Southern England"
-    ],
-    "Explanation": "Born in Lincolnshire, eastern England, Isaac Newton first became interested in science when he studied at Cambridge University."
-  },
-  {
-    "Question": "Where did Isaac Newton first become interested in science?",
-    "RightAnswer": "Cambridge University",
-    "WrongAnswers": [
-      "Oxford University",
-      "Lincolnshire School",
-      "Royal Society"
     ],
     "Explanation": "Born in Lincolnshire, eastern England, Isaac Newton first became interested in science when he studied at Cambridge University."
   },
@@ -12691,26 +12300,6 @@
     "Explanation": "His most famous published work was Philosophiae Naturalis Principia Mathematica ('Mathematical Principles of Natural Philosophy'), which showed how gravity applied to the whole universe."
   },
   {
-    "Question": "What is the English translation of Newton's 'Philosophiae Naturalis Principia Mathematica'?",
-    "RightAnswer": "Mathematical Principles of Natural Philosophy",
-    "WrongAnswers": [
-      "Natural Philosophy of Mathematics",
-      "Principles of Mathematical Nature",
-      "Philosophy of Natural Mathematics"
-    ],
-    "Explanation": "His most famous published work was Philosophiae Naturalis Principia Mathematica ('Mathematical Principles of Natural Philosophy'), which showed how gravity applied to the whole universe."
-  },
-  {
-    "Question": "What concept did Newton's 'Principia Mathematica' demonstrate in relation to the universe?",
-    "RightAnswer": "Gravity",
-    "WrongAnswers": [
-      "Magnetism",
-      "Electricity",
-      "Nuclear forces"
-    ],
-    "Explanation": "His most famous published work was Philosophiae Naturalis Principia Mathematica ('Mathematical Principles of Natural Philosophy'), which showed how gravity applied to the whole universe."
-  },
-  {
     "Question": "What did Isaac Newton discover about white light?",
     "RightAnswer": "It is made up of the colours of the rainbow",
     "WrongAnswers": [
@@ -12718,17 +12307,7 @@
       "It cannot be refracted",
       "It is invisible to the human eye"
     ],
-    "Explanation": "Newton also discovered that white light is made up of the colours of the rainbow."
-  },
-  {
-    "Question": "How are many of Newton's discoveries regarded in modern science?",
-    "RightAnswer": "They are still important",
-    "WrongAnswers": [
-      "They have been disproven",
-      "They are outdated",
-      "They are controversial"
-    ],
-    "Explanation": "Many of his discoveries are still important for modern science."
+    "Explanation": "Newton also discovered that white light is made up of the colours of the rainbow. Many of his discoveries are still important for modern science."
   },
   {
     "Question": "In which year did Charles II die?",
@@ -12801,7 +12380,7 @@
     "Explanation": "However, his heirs were his two daughters, who were both firmly Protestant, and people thought that this meant there would soon be a Protestant monarch again."
   },
   {
-    "Question": "What event changed the expectation of a future Protestant monarch?",
+    "Question": "What event changed the expectation of a future Protestant monarch as successor of King James II?",
     "RightAnswer": "James's wife had a son",
     "WrongAnswers": [
       "James converted to Protestantism",
@@ -12841,16 +12420,6 @@
     "Explanation": "In 1688, important Protestants in England asked William to invade England and proclaim himself king."
   },
   {
-    "Question": "What did the important Protestants ask William to do?",
-    "RightAnswer": "Invade England and proclaim himself king",
-    "WrongAnswers": [
-      "Negotiate with James II",
-      "Support the Catholic Church",
-      "Become Prime Minister"
-    ],
-    "Explanation": "In 1688, important Protestants in England asked William to invade England and proclaim himself king."
-  },
-  {
     "Question": "How much resistance did William face when he reached England?",
     "RightAnswer": "No resistance",
     "WrongAnswers": [
@@ -12871,44 +12440,24 @@
     "Explanation": "James fled to France and William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland."
   },
   {
-    "Question": "What title did William assume in England, Wales, and Ireland?",
+    "Question": "What title did William of Orange assume in England, Wales, and Ireland?",
     "RightAnswer": "William III",
     "WrongAnswers": [
       "William I",
       "William II",
       "William IV"
     ],
-    "Explanation": "James fled to France and William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland."
+    "Explanation": "James fled to France and William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland. William ruled jointly with Mary."
   },
   {
-    "Question": "What title did William assume in Scotland?",
+    "Question": "What title did William of Orange assume in Scotland?",
     "RightAnswer": "William II",
     "WrongAnswers": [
       "William I",
       "William III",
       "William IV"
     ],
-    "Explanation": "James fled to France and William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland."
-  },
-  {
-    "Question": "How did William rule after taking the throne?",
-    "RightAnswer": "Jointly with Mary",
-    "WrongAnswers": [
-      "Alone",
-      "With James II",
-      "With Parliament"
-    ],
-    "Explanation": "William ruled jointly with Mary."
-  },
-  {
-    "Question": "What was this event later called?",
-    "RightAnswer": "The 'Glorious Revolution'",
-    "WrongAnswers": [
-      "The Great Rebellion",
-      "The Protestant Uprising",
-      "The English Civil War"
-    ],
-    "Explanation": "This event was later called the 'Glorious Revolution' because there was no fighting in England and because it guaranteed the power of Parliament, ending the threat of a monarch ruling on his or her own as he or she wished."
+    "Explanation": "James fled to France and William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland. William ruled jointly with Mary."
   },
   {
     "Question": "Why was the event called the 'Glorious Revolution'?",
@@ -12922,7 +12471,7 @@
   },
   {
     "Question": "What threat did the Glorious Revolution end?",
-    "RightAnswer": "A monarch ruling on his or her own as he or she wished",
+    "RightAnswer": "Absolute monarchy",
     "WrongAnswers": [
       "Foreign invasion",
       "Economic collapse",
@@ -12935,8 +12484,8 @@
     "RightAnswer": "A French army",
     "WrongAnswers": [
       "A Spanish army",
-      "Scottish clans",
-      "Irish Catholics"
+      "An Italian army",
+      "A German army"
     ],
     "Explanation": "James II wanted to regain the throne and invaded Ireland with the help of a French army."
   },
@@ -13001,7 +12550,7 @@
     "Explanation": "There was also support for James in Scotland."
   },
   {
-    "Question": "What was the outcome of the armed rebellion in support of James in Scotland?",
+    "Question": "What was the outcome of the armed rebellion in support of James in Scotland after the Glorious Revolution?",
     "RightAnswer": "Quickly defeated at Killiecrankie",
     "WrongAnswers": [
       "Successful overthrow of William",
@@ -13011,11 +12560,12 @@
     "Explanation": "An attempt at an armed rebellion in support of James was quickly defeated at Killiecrankie."
   },
   {
-    "Question": "What were all Scottish clans required to do to accept William as king?",
+    "Question": "What were all Scottish clans required to do to accept William as king after the defeat at Killiecrankie?",
     "RightAnswer": "Take an oath",
     "WrongAnswers": [
       "Pay a tribute",
-      "Convert to Protestantism",      "Join William's army"
+      "Convert to Protestantism",
+      "Join William's army"
     ],
     "Explanation": "All Scottish clans were required formally to accept William as king by taking an oath."
   },
@@ -13027,7 +12577,7 @@
       "The Stuarts",
       "The MacGregors"
     ],
-    "Explanation": "The MacDonalds of Glencoe were late in taking the oath and were all killed."
+    "Explanation": "The MacDonalds of Glencoe were late in taking the oath and were all killed. The memory of this massacre meant some Scots distrusted the new government."
   },
   {
     "Question": "What happened to the MacDonalds of Glencoe for being late in taking the oath?",
@@ -13037,17 +12587,7 @@
       "They were imprisoned",
       "They were fined"
     ],
-    "Explanation": "The MacDonalds of Glencoe were late in taking the oath and were all killed."
-  },
-  {
-    "Question": "What was the impact of the Glencoe massacre on some Scots?",
-    "RightAnswer": "They distrusted the new government",
-    "WrongAnswers": [
-      "They fully supported the new government",
-      "They became indifferent to politics",
-      "They emigrated en masse"
-    ],
-    "Explanation": "The memory of this massacre meant some Scots distrusted the new government."
+    "Explanation": "The MacDonalds of Glencoe were late in taking the oath and were all killed. The memory of this massacre meant some Scots distrusted the new government."
   },
   {
     "Question": "What were James II's supporters known as?",
@@ -13058,16 +12598,6 @@
       "Orangemen"
     ],
     "Explanation": "James' supporters became known as Jacobites."
-  },
-  {
-    "Question": "Where did some of James II's supporters join him in exile?",
-    "RightAnswer": "France",
-    "WrongAnswers": [
-      "Spain",
-      "Ireland",
-      "Netherlands"
-    ],
-    "Explanation": "Some joined him in exile in France; others were secret supporters."
   },
   {
     "Question": "What document was read at the coronation of William and Mary?",
@@ -13097,40 +12627,10 @@
       "The Magna Carta",
       "The Act of Settlement"
     ],
-    "Explanation": "The Bill of Rights (1689) confirmed the rights of Parliament and the limits of the king's power."
+    "Explanation": "The Bill of Rights (1689) confirmed the rights of Parliament and the limits of the king's power. A new Parliament had to be elected at least every three years (later this became seven years and now it is five years). Every year the monarch had to ask Parliament to renew funding for the army and the navy."
   },
   {
-    "Question": "Who did Parliament declare must be the monarch?",
-    "RightAnswer": "A Protestant",
-    "WrongAnswers": [
-      "A Catholic",
-      "An Anglican",
-      "A Puritan"
-    ],
-    "Explanation": "Parliament took control of who could be monarch and declared that the king or queen must be a Protestant."
-  },
-  {
-    "Question": "How often did a new Parliament have to be elected initially?",
-    "RightAnswer": "At least every three years",
-    "WrongAnswers": [
-      "At least every five years",
-      "At least every seven years",
-      "At least every ten years"
-    ],
-    "Explanation": "A new Parliament had to be elected at least every three years (later this became seven years and now it is five years)."
-  },
-  {
-    "Question": "How often does the monarch have to ask Parliament to renew funding for the army and navy?",
-    "RightAnswer": "Every year",
-    "WrongAnswers": [
-      "Every two years",
-      "Every five years",
-      "Every decade"
-    ],
-    "Explanation": "Every year the monarch had to ask Parliament to renew funding for the army and the navy."
-  },
-  {
-    "Question": "What were the two main groups in Parliament called?",
+    "Question": "What were the two main groups in Parliament called (early 18th century)?",
     "RightAnswer": "Whigs and Tories",
     "WrongAnswers": [
       "Labour and Conservative",
@@ -13160,7 +12660,7 @@
     "Explanation": "The laws passed after the Glorious Revolution are the beginning of what is called 'constitutional monarchy'."
   },
   {
-    "Question": "Who had the right to vote for members of Parliament at this time?",
+    "Question": "Who had the right to vote for members of Parliament after the Glorious Revolution?",
     "RightAnswer": "Men who owned property of a certain value",
     "WrongAnswers": [
       "All adult men",
@@ -13260,7 +12760,7 @@
     "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I's son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland."
   },
   {
-    "Question": "Who was Charles Edward Stuart trying to replace on the throne?",
+    "Question": "Who was Charles Edward Stuart (Bonnie Prince Charlie) trying to replace on the throne?",
     "RightAnswer": "George II",
     "WrongAnswers": [
       "George I",
@@ -13290,7 +12790,7 @@
     "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I's son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland."
   },
   {
-    "Question": "Where did Charles Edward Stuart land to begin his rebellion?",
+    "Question": "Where did Charles Edward Stuart (Bonnie Prince Charlie) land to begin his rebellion?",
     "RightAnswer": "Scotland",
     "WrongAnswers": [
       "England",
@@ -13300,7 +12800,7 @@
     "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I's son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland."
   },
   {
-    "Question": "Who supported Charles Edward Stuart in raising an army?",
+    "Question": "Who supported Charles Edward Stuart (son of James II) in raising an army?",
     "RightAnswer": "Clansmen from the Scottish highlands",
     "WrongAnswers": [
       "English nobles",
@@ -13310,14 +12810,14 @@
     "Explanation": "He was supported by clansmen from the Scottish highlands and raised an army."
   },
   {
-    "Question": "At which battle was Charles Edward Stuart defeated?",
+    "Question": "At which battle was Charles Edward Stuart (son of James II) defeated?",
     "RightAnswer": "Battle of Culloden",
     "WrongAnswers": [
       "Battle of Bannockburn",
       "Battle of Falkirk",
       "Battle of Prestonpans"
     ],
-    "Explanation": "Charles initially had some successes but was defeated by George II's army at the Battle of Culloden in 1746."
+    "Explanation": "Charles Edward Stuart (Bonnie Prince Charlie) initially had some successes but was defeated by George II's army at the Battle of Culloden in 1746."
   },
   {
     "Question": "In which year did the Battle of Culloden take place?",
@@ -13347,17 +12847,7 @@
       "Their power and influence remained unchanged",
       "They were completely eradicated"
     ],
-    "Explanation": "The clans lost a lot of their power and influence after Culloden."
-  },
-  {
-    "Question": "What did chieftains become if they had the favour of the English king?",
-    "RightAnswer": "Landlords",
-    "WrongAnswers": [
-      "Tenants",
-      "Soldiers",
-      "Merchants"
-    ],
-    "Explanation": "Chieftains became landlords if they had the favour of the English king, and clansmen became tenants who had to pay for the land they used."
+    "Explanation": "The clans lost a lot of their power and influence after Culloden. Chieftains became landlords if they had the favour of the English king, and clansmen became tenants who had to pay for the land they used."
   },
   {
     "Question": "What was the status of clansmen after Culloden?",
@@ -13367,7 +12857,7 @@
       "Soldiers in the English army",
       "Free farmers"
     ],
-    "Explanation": "Chieftains became landlords if they had the favour of the English king, and clansmen became tenants who had to pay for the land they used."
+    "Explanation": "The clans lost a lot of their power and influence after Culloden. Chieftains became landlords if they had the favour of the English king, and clansmen became tenants who had to pay for the land they used."
   },
   {
     "Question": "What was the name given to the process that began after Culloden?",
@@ -13377,7 +12867,7 @@
       "Highland Renaissance",
       "Clan Reorganization"
     ],
-    "Explanation": "A process began which became known as the 'Highland Clearances'."
+    "Explanation": "The clans lost a lot of their power and influence after Culloden. Chieftains became landlords if they had the favour of the English king, and clansmen became tenants who had to pay for the land they used. A process began which became known as the 'Highland Clearances'."
   },
   {
     "Question": "What did Scottish landlords destroy to make space for large flocks of sheep and cattle?",
@@ -13387,25 +12877,25 @@
       "Forests",
       "Villages"
     ],
-    "Explanation": "Many Scottish landlords destroyed individual small farms (known as 'crofts') to make space for large flocks of sheep and cattle."
+    "Explanation": "A process began which became known as the 'Highland Clearances'. Many Scottish landlords destroyed individual small farms (known as 'crofts') to make space for large flocks of sheep and cattle."
   },
   {
-    "Question": "What were the individual small farms in Scotland called?",
+    "Question": "What were the individual small farms in Scotland called (affected 'Highland Clearances')?",
     "RightAnswer": "Crofts",
     "WrongAnswers": [
       "Manors",
       "Estates",
       "Plantations"
     ],
-    "Explanation": "Many Scottish landlords destroyed individual small farms (known as 'crofts') to make space for large flocks of sheep and cattle."
+    "Explanation": "A process began which became known as the 'Highland Clearances'. Many Scottish landlords destroyed individual small farms (known as 'crofts') to make space for large flocks of sheep and cattle."
   },
   {
     "Question": "When did evictions become very common in Scotland?",
     "RightAnswer": "Early 19th century",
     "WrongAnswers": [
-      "Late 18th century",
-      "Mid 19th century",
-      "Early 20th century"
+      "Early 18th century",
+      "Early 20th century",
+      "Early 21th century"
     ],
     "Explanation": "Evictions became very common in the early 19th century."
   },
@@ -13427,17 +12917,17 @@
       "The Scot",
       "The Lyricist"
     ],
-    "Explanation": "Known in Scotland as 'The Bard', Robert Burns was a Scottish poet."
+    "Explanation": "Known in Scotland as 'The Bard', Robert Burns was a Scottish poet. He wrote in the Scots language, English with some Scottish words, and standard English."
   },
   {
-    "Question": "What was Robert Burns' nationality?",
+    "Question": "What was Robert Burns nationality?",
     "RightAnswer": "Scottish",
     "WrongAnswers": [
       "English",
       "Irish",
       "Welsh"
     ],
-    "Explanation": "Known in Scotland as 'The Bard', Robert Burns was a Scottish poet."
+    "Explanation": "Known in Scotland as 'The Bard', Robert Burns was a Scottish poet. He wrote in the Scots language, English with some Scottish words, and standard English. Burns' best-known work is probably the song Auld Lang Syne, which is sung by people in the UK and other countries when they are celebrating the New Year (or Hogmanay as it is called in Scotland)."
   },
   {
     "Question": "In which languages did Robert Burns write?",
@@ -13447,7 +12937,7 @@
       "Only in standard English",
       "French and English"
     ],
-    "Explanation": "He wrote in the Scots language, English with some Scottish words, and standard English."
+    "Explanation": "He wrote in the Scots language, English with some Scottish words, and standard English. He also revised a lot of traditional folk songs by changing or adding lyrics. Burns' best-known work is probably the song Auld Lang Syne, which is sung by people in the UK and other countries when they are celebrating the New Year (or Hogmanay as it is called in Scotland)."
   },
   {
     "Question": "What did Robert Burns do with traditional folk songs?",
@@ -13485,7 +12975,7 @@
     "WrongAnswers": [
       "Beltane",
       "Samhain",
-      "L\\u00f9nastal"
+      "L-nastal"
     ],
     "Explanation": "Burns' best-known work is probably the song Auld Lang Syne, which is sung by people in the UK and other countries when they are celebrating the New Year (or Hogmanay as it is called in Scotland)."
   },
@@ -13494,7 +12984,7 @@
     "RightAnswer": "18th century",
     "WrongAnswers": [
       "17th century",
-      "19th century",
+      "15th century",
       "16th century"
     ],
     "Explanation": "During the 18th century, new ideas about politics, philosophy and science were developed. This is often called 'the Enlightenment'."
@@ -13518,16 +13008,6 @@
       "Religion, law, and medicine"
     ],
     "Explanation": "During the 18th century, new ideas about politics, philosophy and science were developed. This is often called 'the Enlightenment'."
-  },
-  {
-    "Question": "What nationality were many of the great thinkers of the Enlightenment?",
-    "RightAnswer": "Scottish",
-    "WrongAnswers": [
-      "English",
-      "French",
-      "German"
-    ],
-    "Explanation": "Many of the great thinkers of the Enlightenment were Scottish."
   },
   {
     "Question": "Which Scottish thinker developed ideas about economics that are still referred to today?",
@@ -13556,16 +13036,6 @@
       "Adam Smith",
       "James Watt",
       "Isaac Newton"
-    ],
-    "Explanation": "David Hume's ideas about human nature continue to influence philosophers."
-  },
-  {
-    "Question": "What subject did David Hume's influential ideas focus on?",
-    "RightAnswer": "Human nature",
-    "WrongAnswers": [
-      "Political systems",
-      "Scientific method",
-      "Religious doctrine"
     ],
     "Explanation": "David Hume's ideas about human nature continue to influence philosophers."
   },
@@ -13612,7 +13082,8 @@
   {
     "Question": "Which Enlightenment principle regarding individual beliefs is said to continue to be important in the UK today?",
     "RightAnswer": "The right to one's own political and religious beliefs",
-    "WrongAnswers": [      "The state's right to dictate beliefs",
+    "WrongAnswers": [
+      "The state's right to dictate beliefs",
       "The superiority of scientific beliefs over religious ones",
       "The uniformity of political ideologies"
     ],
@@ -13677,16 +13148,6 @@
       "Improved transportation and communication"
     ],
     "Explanation": "It happened because of the development of machinery and the use of steam power."
-  },
-  {
-    "Question": "What was needed to power the new factories during the Industrial Revolution?",
-    "RightAnswer": "Coal and other raw materials",
-    "WrongAnswers": [
-      "Wind and water",
-      "Oil and gas",
-      "Solar and nuclear energy"
-    ],
-    "Explanation": "Coal and other raw materials were needed to power the new factories."
   },
   {
     "Question": "What process led to the development of the shipbuilding industry and railways?",
@@ -13783,7 +13244,8 @@
     "RightAnswer": "The East India Company",
     "WrongAnswers": [
       "The West India Company",
-      "The British South Africa Company",      "The Hudson's Bay Company"
+      "The British South Africa Company",
+      "The Hudson's Bay Company"
     ],
     "Explanation": "Britain gained control over Canada, and the East India Company, originally set up to trade, gained control of large parts of India."
   },
@@ -13791,24 +13253,14 @@
     "Question": "What products were imported from North America and the West Indies?",
     "RightAnswer": "Sugar and tobacco",
     "WrongAnswers": [
-      "Tea and spices",
+      "Steel and coal",
       "Textiles and cotton",
       "Gold and silver"
     ],
     "Explanation": "Sugar and tobacco came from North America and the West Indies."
   },
   {
-    "Question": "What products were imported from India and the area now called Indonesia?",
-    "RightAnswer": "Textiles, tea and spices",
-    "WrongAnswers": [
-      "Sugar and tobacco",
-      "Coal and steel",
-      "Gold and diamonds"
-    ],
-    "Explanation": "Textiles, tea and spices came from India and the area that is today called Indonesia."
-  },
-  {
-    "Question": "Which country was Britain's main rival in overseas trade and expansion?",
+    "Question": "Which country was Britain's main rival in overseas trade and expansion during the Industrial Revolution?",
     "RightAnswer": "France",
     "WrongAnswers": [
       "Spain",
@@ -13821,9 +13273,9 @@
     "Question": "In which year was Richard Arkwright born?",
     "RightAnswer": "1732",
     "WrongAnswers": [
-      "1723",
-      "1742",
-      "1752"
+      "1832",
+      "1932",
+      "1632"
     ],
     "Explanation": "Born in 1732, Arkwright originally trained and worked as a barber."
   },
@@ -13835,27 +13287,7 @@
       "Engineer",
       "Factory owner"
     ],
-    "Explanation": "Born in 1732, Arkwright originally trained and worked as a barber."
-  },
-  {
-    "Question": "What skills did Arkwright possess in his original profession?",
-    "RightAnswer": "Dyeing hair and making wigs",
-    "WrongAnswers": [
-      "Cutting cloth and sewing",
-      "Designing machinery",
-      "Operating steam engines"
-    ],
-    "Explanation": "He was able to dye hair and make wigs."
-  },
-  {
-    "Question": "What industry did Arkwright enter when wigs became less popular?",
-    "RightAnswer": "Textiles",
-    "WrongAnswers": [
-      "Agriculture",
-      "Mining",
-      "Shipbuilding"
-    ],
-    "Explanation": "When wigs became less popular, he started to work in textiles."
+    "Explanation": "Born in 1732, Arkwright originally trained and worked as a barber. He was able to dye hair and make wigs. When wigs became less popular, he started to work in textiles."
   },
   {
     "Question": "Which machine did Arkwright improve?",
@@ -13865,47 +13297,7 @@
       "Power loom",
       "Water frame"
     ],
-    "Explanation": "He improved the original carding machine."
-  },
-  {
-    "Question": "What is carding in the textile industry?",
-    "RightAnswer": "The process of preparing fibres for spinning into yarn and fabric",
-    "WrongAnswers": [
-      "The process of dyeing fabric",
-      "The process of weaving cloth",
-      "The process of cutting fabric into shapes"
-    ],
-    "Explanation": "Carding is the process of preparing fibres for spinning into yarn and fabric."
-  },
-  {
-    "Question": "What type of power did Arkwright initially use for his spinning mills?",
-    "RightAnswer": "Horse-driven",
-    "WrongAnswers": [
-      "Water-powered",
-      "Wind-powered",
-      "Human-powered"
-    ],
-    "Explanation": "He also developed horse-driven spinning mills that used only one machine."
-  },
-  {
-    "Question": "How many machines did Arkwright's horse-driven spinning mills use?",
-    "RightAnswer": "One",
-    "WrongAnswers": [
-      "Two",
-      "Three",
-      "Multiple"
-    ],
-    "Explanation": "He also developed horse-driven spinning mills that used only one machine."
-  },
-  {
-    "Question": "What was the result of Arkwright's development of horse-driven spinning mills?",
-    "RightAnswer": "Increased efficiency of production",
-    "WrongAnswers": [
-      "Decreased production costs",
-      "Improved fabric quality",
-      "Reduced labor requirements"
-    ],
-    "Explanation": "This increased the efficiency of production."
+    "Explanation": "He improved the original carding machine. Carding is the process of preparing fibres for spinning into yarn and fabric. He also developed horse-driven spinning mills that used only one machine. This increased the efficiency of production."
   },
   {
     "Question": "What power source did Arkwright later use to power his machinery?",
@@ -13928,35 +13320,6 @@
     "Explanation": "Arkwright is particularly remembered for the efficient and profitable way that he ran his factories."
   },
   {
-    "Question": "Where did Sake Dean Mahomet grow up?",
-    "RightAnswer": "Bengal region of India",
-    "WrongAnswers": [
-      "London, England",
-      "Dublin, Ireland",
-      "Punjab region of India"
-    ],
-    "Explanation": "Mahomet grew up in the Bengal region of India."
-  },
-  {
-    "Question": "In which army did Sake Dean Mahomet serve?",
-    "RightAnswer": "Bengal army",
-    "WrongAnswers": [
-      "British army",
-      "Irish army",
-      "East India Company army"
-    ],
-    "Explanation": "He served in the Bengal army and came to Britain, then he moved to Ireland and eloped with an Irish girl called Jane Daly, returning to England at the turn of the century."
-  },
-  {
-    "Question": "What was the name of the Irish girl Sake Dean Mahomet eloped with?",
-    "RightAnswer": "Jane Daly",
-    "WrongAnswers": [      "Mary O'Brien",
-      "Sarah Murphy",
-      "Elizabeth Walsh"
-    ],
-    "Explanation": "He served in the Bengal army and came to Britain, then he moved to Ireland and eloped with an Irish girl called Jane Daly, returning to England at the turn of the century."
-  },
-  {
     "Question": "In which year did Sake Dean Mahomet open the Hindoostane Coffee House?",
     "RightAnswer": "1810",
     "WrongAnswers": [
@@ -13964,7 +13327,7 @@
       "1820",
       "1830"
     ],
-    "Explanation": "Mahomet grew up in the Bengal region of India. He served in the Bengal army and came to Britain, then he moved to Ireland and eloped with an Irish girl called Jane Daly, returning to England at the turn of the century. In 1810 he opened the Hindoostane Coffee House in George Street, London. It was the first curry house to open in Britain. Mahomet and his wife also introduced ‘shampooing’, the Indian art of head massage, to Britain."
+    "Explanation": "Sake Dean Mahomet grew up in the Bengal region of India. He served in the Bengal army and came to Britain, then he moved to Ireland and eloped with an Irish girl called Jane Daly, returning to England at the turn of the century. In 1810 he opened the Hindoostane Coffee House in George Street, London. It was the first curry house to open in Britain. Mahomet and his wife also introduced ‘shampooing’, the Indian art of head massage, to Britain."
   },
   {
     "Question": "Where was the Hindoostane Coffee House located?",
@@ -13974,7 +13337,7 @@
       "Grafton Street, Dublin",
       "Piccadilly, London"
     ],
-    "Explanation": "Mahomet grew up in the Bengal region of India. He served in the Bengal army and came to Britain, then he moved to Ireland and eloped with an Irish girl called Jane Daly, returning to England at the turn of the century. In 1810 he opened the Hindoostane Coffee House in George Street, London. It was the first curry house to open in Britain. Mahomet and his wife also introduced ‘shampooing’, the Indian art of head massage, to Britain."
+    "Explanation": "Sake Dean Mahomet grew up in the Bengal region of India. He served in the Bengal army and came to Britain, then he moved to Ireland and eloped with an Irish girl called Jane Daly, returning to England at the turn of the century. In 1810 he opened the Hindoostane Coffee House in George Street, London. It was the first curry house to open in Britain. Mahomet and his wife also introduced ‘shampooing’, the Indian art of head massage, to Britain."
   },
   {
     "Question": "What was significant about the Hindoostane Coffee House, opened by Sake Dean Mahomet on George Street in 1810?",
@@ -13994,7 +13357,7 @@
       "Meditation",
       "Ayurveda"
     ],
-    "Explanation": "Mahomet and his wife also introduced 'shampooing', the Indian art of head massage, to Britain."
+    "Explanation": "Sake Dean Mahomet and his wife also introduced 'shampooing', the Indian art of head massage, to Britain."
   },
   {
     "Question": "What did 'shampooing' refer to in the context of Mahomet's introduction to Britain?",
@@ -14004,7 +13367,7 @@
       "Scalp treatment",
       "Hair styling method"
     ],
-    "Explanation": "Mahomet and his wife also introduced 'shampooing', the Indian art of head massage, to Britain."
+    "Explanation": "Sake Dean Mahomet and his wife also introduced 'shampooing', the Indian art of head massage, to Britain."
   },
   {
     "Question": "By which century was the slave trade a fully established overseas industry dominated by Britain and the American colonies?",
@@ -14047,16 +13410,6 @@
     "Explanation": "Slaves came primarily from West Africa. Travelling on British ships in horrible conditions, they were taken to America and the Caribbean, where they were made to work on tobacco and sugar plantations."
   },
   {
-    "Question": "What types of plantations were slaves primarily made to work on?",
-    "RightAnswer": "Tobacco and sugar plantations",
-    "WrongAnswers": [
-      "Cotton and coffee plantations",
-      "Tea and rice plantations",
-      "Cocoa and rubber plantations"
-    ],
-    "Explanation": "Slaves came primarily from West Africa. Travelling on British ships in horrible conditions, they were taken to America and the Caribbean, where they were made to work on tobacco and sugar plantations."
-  },
-  {
     "Question": "Who set up the first formal anti-slavery groups in Britain?",
     "RightAnswer": "The Quakers",
     "WrongAnswers": [
@@ -14083,16 +13436,6 @@
       "Oliver Cromwell",
       "Robert Walpole",
       "William Pitt"
-    ],
-    "Explanation": "William Wilberforce, an evangelical Christian and a member of Parliament, also played an important part in changing the law. Along with other abolitionists (people who supported the abolition of slavery), he succeeded in turning public opinion against the slave trade."
-  },
-  {
-    "Question": "What religious affiliation did William Wilberforce have?",
-    "RightAnswer": "Evangelical Christian",
-    "WrongAnswers": [
-      "Catholic",
-      "Quaker",
-      "Anglican"
     ],
     "Explanation": "William Wilberforce, an evangelical Christian and a member of Parliament, also played an important part in changing the law. Along with other abolitionists (people who supported the abolition of slavery), he succeeded in turning public opinion against the slave trade."
   },
@@ -14197,26 +13540,6 @@
     "Explanation": "By the 1760s, there were substantial British colonies in North America. The colonies were wealthy and largely in control of their own affairs."
   },
   {
-    "Question": "What was the primary reason many colonist families originally went to North America?",
-    "RightAnswer": "To have religious freedom",
-    "WrongAnswers": [
-      "To seek wealth",
-      "To escape famine",
-      "To explore new lands"
-    ],
-    "Explanation": "Many of the colonist families had originally gone to North America in order to have religious freedom. They were well educated and interested in ideas of liberty."
-  },
-  {
-    "Question": "How were the colonists described in terms of their education?",
-    "RightAnswer": "Well educated",
-    "WrongAnswers": [
-      "Poorly educated",
-      "Uneducated",
-      "Moderately educated"
-    ],
-    "Explanation": "Many of the colonist families had originally gone to North America in order to have religious freedom. They were well educated and interested in ideas of liberty."
-  },
-  {
     "Question": "What philosophical concept were the colonists particularly interested in?",
     "RightAnswer": "Ideas of liberty",
     "WrongAnswers": [
@@ -14244,17 +13567,7 @@
       "Freedom from all taxes",
       "Fair taxes for all"
     ],
-    "Explanation": "The British government wanted to tax the colonies. The colonists saw this as an attack on their freedom and said there should be 'no taxation without representation' in the British Parliament."
-  },
-  {
-    "Question": "How did the British Parliament initially try to resolve the conflict with the colonies?",
-    "RightAnswer": "By repealing some of the taxes",
-    "WrongAnswers": [
-      "By imposing more taxes",
-      "By sending more troops",
-      "By granting full independence"
-    ],
-    "Explanation": "Parliament tried to compromise by repealing some of the taxes, but relationships between the British government and the colonies continued to worsen. Fighting broke out between the colonists and the British forces."
+    "Explanation": "The British government wanted to tax the colonies. The colonists saw this as an attack on their freedom and said there should be 'no taxation without representation' in the British Parliament. Parliament tried to compromise by repealing some of the taxes, but relationships between the British government and the colonies continued to worsen. Fighting broke out between the colonists and the British forces."
   },
   {
     "Question": "In which year did 13 American colonies declare their independence?",
@@ -14267,7 +13580,7 @@
     "Explanation": "In 1776, 13 American colonies declared their independence, stating that people had a right to establish their own governments."
   },
   {
-    "Question": "What fundamental right did the American colonies assert in their declaration of independence?",
+    "Question": "What fundamental right did the American colonies assert in their declaration of independence that affected Britain?",
     "RightAnswer": "The right to establish their own governments",
     "WrongAnswers": [
       "The right to free trade",
@@ -14327,7 +13640,7 @@
     "Explanation": "Admiral Nelson was in charge of the British fleet at Trafalgar and was killed in the battle."
   },
   {
-    "Question": "What is the name of the monument to Admiral Nelson in London?",
+    "Question": "What is the name of the monument in Trafalgar Square, London?",
     "RightAnswer": "Nelson's Column",
     "WrongAnswers": [
       "Wellington Arch",
@@ -14548,7 +13861,7 @@
   },
   {
     "Question": "How long did Queen Victoria reign?",
-    "RightAnswer": "Almost 64 years",
+    "RightAnswer": "64 years",
     "WrongAnswers": [
       "50 years",
       "70 years",
@@ -14568,7 +13881,7 @@
   },
   {
     "Question": "What was the estimated population of the British Empire at its peak?",
-    "RightAnswer": "More than 400 million people",
+    "RightAnswer": "400 million people",
     "WrongAnswers": [
       "200 million people",
       "300 million people",
@@ -14578,7 +13891,7 @@
   },
   {
     "Question": "How many British citizens left the country between 1853 and 1913?",
-    "RightAnswer": "As many as 13 million",
+    "RightAnswer": "13 million",
     "WrongAnswers": [
       "5 million",
       "8 million",
@@ -14588,7 +13901,7 @@
   },
   {
     "Question": "How many Russian and Polish Jews came to Britain between 1870 and 1914?",
-    "RightAnswer": "Around 120,000",
+    "RightAnswer": "120,000",
     "WrongAnswers": [
       "50,000",
       "200,000",
@@ -14659,8 +13972,10 @@
   {
     "Question": "Where was the Great Exhibition held?",
     "RightAnswer": "Hyde Park",
-    "WrongAnswers": [      "Regent's Park",
-      "Kensington Gardens",      "St. James's Park"
+    "WrongAnswers": [
+      "Regent's Park",
+      "Kensington Gardens",
+      "St. James's Park"
     ],
     "Explanation": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass."
   },
@@ -14727,7 +14042,8 @@
   {
     "Question": "Where does the Great Western Railway start in London?",
     "RightAnswer": "Paddington Station",
-    "WrongAnswers": [      "King's Cross Station",
+    "WrongAnswers": [
+      "King's Cross Station",
       "Waterloo Station",
       "Victoria Station"
     ],
@@ -14841,7 +14157,7 @@
       "Germany",
       "Turkey"
     ],
-    "Explanation": "Florence Nightingale was born in Italy to English parents."
+    "Explanation": "Florence Nightingale was born in Italy to English parents. At the age of 31, she trained as a nurse in Germany."
   },
   {
     "Question": "What was the nationality of Florence Nightingale's parents?",
@@ -14851,27 +14167,7 @@
       "German",
       "Turkish"
     ],
-    "Explanation": "Florence Nightingale was born in Italy to English parents."
-  },
-  {
-    "Question": "At what age did Florence Nightingale train as a nurse?",
-    "RightAnswer": "31",
-    "WrongAnswers": [
-      "25",
-      "35",
-      "40"
-    ],
-    "Explanation": "At the age of 31, she trained as a nurse in Germany."
-  },
-  {
-    "Question": "In which country did Florence Nightingale receive her nursing training?",
-    "RightAnswer": "Germany",
-    "WrongAnswers": [
-      "Italy",
-      "England",
-      "Turkey"
-    ],
-    "Explanation": "At the age of 31, she trained as a nurse in Germany."
+    "Explanation": "Florence Nightingale was born in Italy to English parents. At the age of 31, she trained as a nurse in Germany."
   },
   {
     "Question": "In which year did Florence Nightingale go to Turkey to work in military hospitals?",
@@ -14907,49 +14203,11 @@
     "Question": "In which year did Florence Nightingale establish the Nightingale Training School for nurses?",
     "RightAnswer": "1860",
     "WrongAnswers": [
-      "1854",
-      "1850",
+      "1890",
+      "1880",
       "1870"
     ],
     "Explanation": "In 1860 she established the Nightingale Training School for nurses at St Thomas' Hospital in London."
-  },
-  {
-    "Question": "At which hospital did Florence Nightingale establish her nursing school?",
-    "RightAnswer": "St Thomas' Hospital",
-    "WrongAnswers": [      "Guy's Hospital",
-      "Royal London Hospital",      "King's College Hospital"
-    ],
-    "Explanation": "In 1860 she established the Nightingale Training School for nurses at St Thomas' Hospital in London."
-  },
-  {
-    "Question": "In which city was the Nightingale Training School for nurses established?",
-    "RightAnswer": "London",
-    "WrongAnswers": [
-      "Manchester",
-      "Birmingham",
-      "Liverpool"
-    ],
-    "Explanation": "In 1860 she established the Nightingale Training School for nurses at St Thomas' Hospital in London."
-  },
-  {
-    "Question": "What was unique about the Nightingale Training School for nurses?",
-    "RightAnswer": "It was the first of its kind",
-    "WrongAnswers": [
-      "It was the largest in Europe",
-      "It was exclusively for men",
-      "It focused only on military nursing"
-    ],
-    "Explanation": "The school was the first of its kind and still exists today, as do many of the practices that Florence used."
-  },
-  {
-    "Question": "What is Florence Nightingale often regarded as?",
-    "RightAnswer": "The founder of modern nursing",
-    "WrongAnswers": [
-      "The first female doctor",
-      "The inventor of the stethoscope",
-      "The pioneer of battlefield surgery"
-    ],
-    "Explanation": "She is often regarded as the founder of modern nursing."
   },
   {
     "Question": "What percentage of the Irish population depended on farming for their livelihood in the 19th century?",
@@ -14993,7 +14251,7 @@
   },
   {
     "Question": "How many people left Ireland during the famine?",
-    "RightAnswer": "Another million and a half",
+    "RightAnswer": "A million and a half",
     "WrongAnswers": [
       "Half a million",
       "Two million",
@@ -15012,26 +14270,6 @@
     "Explanation": "Some emigrated to the United States and others came to England."
   },
   {
-    "Question": "By which year were there large populations of Irish people in several English cities?",
-    "RightAnswer": "1861",
-    "WrongAnswers": [
-      "1851",
-      "1871",
-      "1881"
-    ],
-    "Explanation": "By 1861 there were large populations of Irish people in cities such as Liverpool, London, Manchester and Glasgow."
-  },
-  {
-    "Question": "Which of these cities did NOT have a large Irish population by 1861?",
-    "RightAnswer": "Birmingham",
-    "WrongAnswers": [
-      "Liverpool",
-      "London",
-      "Glasgow"
-    ],
-    "Explanation": "By 1861 there were large populations of Irish people in cities such as Liverpool, London, Manchester and Glasgow."
-  },
-  {
     "Question": "Which group favored complete independence for Ireland?",
     "RightAnswer": "The Fenians",
     "WrongAnswers": [
@@ -15044,14 +14282,15 @@
   {
     "Question": "Who advocated for 'Home Rule' in Ireland?",
     "RightAnswer": "Charles Stuart Parnell",
-    "WrongAnswers": [      "Daniel O'Connell",
+    "WrongAnswers": [
+      "Daniel O'Connell",
       "Michael Collins",
       "Eamon de Valera"
     ],
     "Explanation": "Others, such as Charles Stuart Parnell, advocated 'Home Rule', in which Ireland would remain in the UK but have its own parliament."
   },
   {
-    "Question": "What did 'Home Rule' propose for Ireland?",
+    "Question": "What did 'Home Rule' propose for Ireland before the First World War?",
     "RightAnswer": "Remain in the UK but have its own parliament",
     "WrongAnswers": [
       "Complete independence from the UK",
@@ -15074,18 +14313,9 @@
     "Question": "What did the Reform Act of 1832 abolish?",
     "RightAnswer": "Old pocket and rotten boroughs",
     "WrongAnswers": [
-      "Working class votes",      "Women's right to property",
+      "Working class votes",
+      "Women's right to property",
       "Urban parliamentary seats"
-    ],
-    "Explanation": "The Reform Act of 1832 had greatly increased the number of people with the right to vote. The Act also abolished the old pocket and rotten boroughs and more parliamentary seats were given to the towns and cities."
-  },
-  {
-    "Question": "Where were more parliamentary seats given after the Reform Act of 1832?",
-    "RightAnswer": "Towns and cities",
-    "WrongAnswers": [
-      "Countryside",
-      "Pocket boroughs",
-      "Rotten boroughs"
     ],
     "Explanation": "The Reform Act of 1832 had greatly increased the number of people with the right to vote. The Act also abolished the old pocket and rotten boroughs and more parliamentary seats were given to the towns and cities."
   },
@@ -15100,16 +14330,6 @@
     "Explanation": "There was a permanent shift of political power from the countryside to the towns but voting was still based on ownership of property. This meant that members of the working class were still unable to vote."
   },
   {
-    "Question": "Who were still unable to vote after the Reform Act of 1832?",
-    "RightAnswer": "Members of the working class",
-    "WrongAnswers": [
-      "Middle class",
-      "Property owners",
-      "Urban residents"
-    ],
-    "Explanation": "There was a permanent shift of political power from the countryside to the towns but voting was still based on ownership of property. This meant that members of the working class were still unable to vote."
-  },
-  {
     "Question": "What were the campaigners who demanded voting rights for the working classes called?",
     "RightAnswer": "Chartists",
     "WrongAnswers": [
@@ -15117,17 +14337,7 @@
       "Suffragettes",
       "Unionists"
     ],
-    "Explanation": "A movement began to demand the vote for the working classes and other people without property. Campaigners, called the Chartists, presented petitions to Parliament."
-  },
-  {
-    "Question": "In which year was there another Reform Act?",
-    "RightAnswer": "1867",
-    "WrongAnswers": [
-      "1832",
-      "1870",
-      "1882"
-    ],
-    "Explanation": "At first they seemed to be unsuccessful, but in 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote."
+    "Explanation": "A movement began to demand the vote for the working classes and other people without property. Campaigners, called the Chartists, presented petitions to Parliament. At first they seemed to be unsuccessful, but in 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote."
   },
   {
     "Question": "What did the Reform Act of 1867 do?",
@@ -15140,16 +14350,6 @@
     "Explanation": "At first they seemed to be unsuccessful, but in 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote."
   },
   {
-    "Question": "After the 1867 Reform Act, who still did not have the right to vote?",
-    "RightAnswer": "The majority of men and all women",
-    "WrongAnswers": [
-      "Only the working class",
-      "Only property owners",
-      "Only rural residents"
-    ],
-    "Explanation": "However, the majority of men still did not have the right to vote and no women could vote."
-  },
-  {
     "Question": "What did political parties begin to do in response to the increased number of voters?",
     "RightAnswer": "Create organisations to reach out to ordinary voters",
     "WrongAnswers": [
@@ -15158,16 +14358,6 @@
       "Give women the right to vote"
     ],
     "Explanation": "Politicians realised that the increased number of voters meant that they needed to persuade people to vote for them if they were to be sure of being elected to Parliament. The political parties began to create organisations to reach out to ordinary voters."
-  },
-  {
-    "Question": "Until which year did a married woman's earnings, property and money automatically belong to her husband?",
-    "RightAnswer": "1870",
-    "WrongAnswers": [
-      "1832",
-      "1867",
-      "1882"
-    ],
-    "Explanation": "Until 1870, when a woman got married, her earnings, property and money automatically belonged to her husband. Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property."
   },
   {
     "Question": "What rights did the Acts of Parliament in 1870 and 1882 give to wives?",
@@ -15197,16 +14387,17 @@
       "1918",
       "1928"
     ],
-    "Explanation": "She set up the Women's Franchise League in 1889, which fought to get the vote in local elections for married women."
+    "Explanation": "She set up the Women's Franchise League in 1889, which fought to get the vote in local elections for married women. In 1903 she helped found the Women's Social and Political Union (WSPU)."
   },
   {
     "Question": "What was the main goal of the Women's Franchise League?",
     "RightAnswer": "To get the vote in local elections for married women",
     "WrongAnswers": [
       "To gain the right to stand for Parliament",
-      "To achieve equal pay for women",      "To promote women's education"
+      "To achieve equal pay for women",
+      "To promote women's education"
     ],
-    "Explanation": "She set up the Women's Franchise League in 1889, which fought to get the vote in local elections for married women."
+    "Explanation": "Emmeline Pankhurst set up the Women's Franchise League in 1889, which fought to get the vote in local elections for married women. In 1903 she helped found the Women's Social and Political Union (WSPU). This was the first group whose members were called 'suffragettes'."
   },
   {
     "Question": "In which year did Emmeline Pankhurst help found the Women's Social and Political Union (WSPU)?",
@@ -15216,7 +14407,7 @@
       "1918",
       "1928"
     ],
-    "Explanation": "In 1903 she helped found the Women's Social and Political Union (WSPU)."
+    "Explanation": "In 1903 Emmeline Pankhurst helped found the Women's Social and Political Union (WSPU). This was the first group whose members were called 'suffragettes'."
   },
   {
     "Question": "What term was first used to describe members of the Women's Social and Political Union (WSPU)?",
@@ -15226,7 +14417,7 @@
       "Activists",
       "Reformers"
     ],
-    "Explanation": "This was the first group whose members were called 'suffragettes'."
+    "Explanation": "In 1903 Emmeline Pankhurst helped found the Women's Social and Political Union (WSPU).  This was the first group whose members were called 'suffragettes'."
   },
   {
     "Question": "What method of protest did the WSPU use to gain voting rights for women?",
@@ -15237,16 +14428,6 @@
       "Lobbying politicians"
     ],
     "Explanation": "The group used civil disobedience as part of their protest to gain the vote for women."
-  },
-  {
-    "Question": "Which of the following was NOT a form of protest used by the suffragettes?",
-    "RightAnswer": "Peaceful marches",
-    "WrongAnswers": [
-      "Chaining themselves to railings",
-      "Smashing windows",
-      "Committing arson"
-    ],
-    "Explanation": "They chained themselves to railings, smashed windows and committed arson."
   },
   {
     "Question": "What form of protest did Emmeline Pankhurst and other suffragettes engage in while imprisoned?",
@@ -15270,7 +14451,7 @@
   },
   {
     "Question": "What was one reason given for granting women over 30 the right to vote in 1918?",
-    "RightAnswer": "Recognition of women's contribution to the war effort during the First World War",
+    "RightAnswer": "Recognition of women's contribution to the war effort",
     "WrongAnswers": [
       "Pressure from international community",
       "Economic benefits",
@@ -15309,16 +14490,6 @@
     "Explanation": "Shortly before Emmeline's death in 1928, women were given the right to vote at the age of 21, the same as men."
   },
   {
-    "Question": "Until which decade did the British Empire continue to grow?",
-    "RightAnswer": "1920s",
-    "WrongAnswers": [
-      "1900s",
-      "1930s",
-      "1940s"
-    ],
-    "Explanation": "Although the British Empire continued to grow until the 1920s, there was already discussion in the late 19th century about its future direction."
-  },
-  {
     "Question": "When did discussions about the future of the British Empire begin?",
     "RightAnswer": "Late 19th century",
     "WrongAnswers": [
@@ -15331,7 +14502,9 @@
   {
     "Question": "What did supporters of expansion believe about the Empire's effect on Britain?",
     "RightAnswer": "It benefited Britain through increased trade and commerce",
-    "WrongAnswers": [      "It improved Britain's military strength",      "It enhanced Britain's cultural influence",
+    "WrongAnswers": [
+      "It improved Britain's military strength",
+      "It enhanced Britain's cultural influence",
       "It provided new territories for British settlement"
     ],
     "Explanation": "Supporters of expansion believed that the Empire benefited Britain through increased trade and commerce."
@@ -15384,97 +14557,7 @@
       "Exactly two years",
       "Five years"
     ],
-    "Explanation": "The Boers fought fiercely and the war went on for over three years."
-  },
-  {
-    "Question": "What were the two main causes of death during the Boer War?",
-    "RightAnswer": "Fighting and disease",
-    "WrongAnswers": [
-      "Starvation and cold",
-      "Accidents and natural disasters",
-      "Poisoning and executions"
-    ],
-    "Explanation": "Many died in the fighting and many more from disease."
-  },
-  {
-    "Question": "What was the public reaction to the Boers during the war?",
-    "RightAnswer": "Some public sympathy",
-    "WrongAnswers": [
-      "Widespread hatred",
-      "Complete indifference",
-      "Unanimous support"
-    ],
-    "Explanation": "There was some public sympathy for the Boers and people began to question whether the Empire could continue."
-  },
-  {
-    "Question": "What did different parts of the Empire gain as they developed?",
-    "RightAnswer": "Greater freedom and autonomy from Britain",
-    "WrongAnswers": [
-      "More financial support from Britain",
-      "Increased military presence",
-      "Stricter colonial governance"
-    ],
-    "Explanation": "As different parts of the Empire developed, they won greater freedom and autonomy from Britain."
-  },
-  {
-    "Question": "What was the nature of the transition from Empire to Commonwealth in the second half of the 20th century?",
-    "RightAnswer": "Orderly",
-    "WrongAnswers": [
-      "Chaotic",
-      "Violent",
-      "Immediate"
-    ],
-    "Explanation": "Eventually, by the second half of the 20th century, there was, for the most part, an orderly transition from Empire to Commonwealth, with countries being granted their independence."
-  },
-  {
-    "Question": "What was granted to countries during the transition from Empire to Commonwealth?",
-    "RightAnswer": "Independence",
-    "WrongAnswers": [
-      "More British troops",
-      "Increased taxation",
-      "Stricter trade regulations"
-    ],
-    "Explanation": "Eventually, by the second half of the 20th century, there was, for the most part, an orderly transition from Empire to Commonwealth, with countries being granted their independence."
-  },
-  {
-    "Question": "In which year was Rudyard Kipling born?",
-    "RightAnswer": "1865",
-    "WrongAnswers": [
-      "1870",
-      "1855",
-      "1880"
-    ],
-    "Explanation": "Rudyard Kipling was born in India in 1865 and later lived in India, the UK and the USA."
-  },
-  {
-    "Question": "Where was Rudyard Kipling born?",
-    "RightAnswer": "India",
-    "WrongAnswers": [
-      "UK",
-      "USA",
-      "Australia"
-    ],
-    "Explanation": "Rudyard Kipling was born in India in 1865 and later lived in India, the UK and the USA."
-  },
-  {
-    "Question": "In which countries did Rudyard Kipling live during his lifetime?",
-    "RightAnswer": "India, the UK and the USA",
-    "WrongAnswers": [
-      "India and the UK only",
-      "UK and USA only",
-      "India and USA only"
-    ],
-    "Explanation": "Rudyard Kipling was born in India in 1865 and later lived in India, the UK and the USA."
-  },
-  {
-    "Question": "Where were Rudyard Kipling's books and poems set?",
-    "RightAnswer": "Both India and the UK",
-    "WrongAnswers": [
-      "Only in India",
-      "Only in the UK",
-      "In the USA and India"
-    ],
-    "Explanation": "He wrote books and poems set in both India and the UK."
+    "Explanation": "The Boers fought fiercely and the war went on for over three years. There was some public sympathy for the Boers and people began to question whether the Empire could continue."
   },
   {
     "Question": "What idea did Kipling's poems and novels reflect about the British Empire?",
@@ -15484,117 +14567,7 @@
       "It was in decline",
       "It was culturally diverse"
     ],
-    "Explanation": "His poems and novels reflected the idea that the British Empire was a force for good."
-  },
-  {
-    "Question": "In which year did Rudyard Kipling receive the Nobel Prize in Literature?",
-    "RightAnswer": "1907",
-    "WrongAnswers": [
-      "1900",
-      "1915",
-      "1920"
-    ],
-    "Explanation": "Kipling was awarded the Nobel Prize in Literature in 1907."
-  },
-  {
-    "Question": "Which of the following is NOT mentioned as one of Kipling's books?",
-    "RightAnswer": "Kim",
-    "WrongAnswers": [
-      "Just So Stories",
-      "The Jungle Book",
-      "If"
-    ],
-    "Explanation": "His books include the 'Just So Stories' and 'The Jungle Book', which continue to be popular today. His poem 'If' has often been voted among the UK's favourite poems."
-  },
-  {
-    "Question": "Which of Kipling's works is described as a poem often voted among the UK's favourites?",
-    "RightAnswer": "If",
-    "WrongAnswers": [
-      "The Jungle Book",
-      "Just So Stories",
-      "Gunga Din"
-    ],
-    "Explanation": "His poem 'If' has often been voted among the UK's favourite poems."
-  },
-  {
-    "Question": "Which of Kipling's works are mentioned as continuing to be popular today?",
-    "RightAnswer": "Just So Stories and The Jungle Book",
-    "WrongAnswers": [
-      "If and The Jungle Book",
-      "Just So Stories and If",
-      "Kim and The Jungle Book"
-    ],
-    "Explanation": "His books include the 'Just So Stories' and 'The Jungle Book', which continue to be popular today."
-  },
-  {
-    "Question": "What was Britain considered to be in the early 20th century?",
-    "RightAnswer": "A global 'superpower'",
-    "WrongAnswers": [
-      "A developing nation",
-      "A neutral country",
-      "An isolationist state"
-    ],
-    "Explanation": "The nation, with its expansive Empire, well-admired navy, thriving industry and strong political institutions, was what is now known as a global 'superpower'."
-  },
-  {
-    "Question": "Which of the following was NOT mentioned as a factor contributing to Britain's superpower status in the early 20th century?",
-    "RightAnswer": "Advanced technology",
-    "WrongAnswers": [
-      "Expansive Empire",
-      "Well-admired navy",
-      "Thriving industry"
-    ],
-    "Explanation": "The nation, with its expansive Empire, well-admired navy, thriving industry and strong political institutions, was what is now known as a global 'superpower'."
-  },
-  {
-    "Question": "What was the general mood in Britain during the early 20th century?",
-    "RightAnswer": "Optimism",
-    "WrongAnswers": [
-      "Pessimism",
-      "Uncertainty",
-      "Indifference"
-    ],
-    "Explanation": "The early 20th century was a time of optimism in Britain."
-  },
-  {
-    "Question": "Which of the following social measures was NOT mentioned as being introduced in early 20th century Britain?",
-    "RightAnswer": "Universal healthcare",
-    "WrongAnswers": [
-      "Financial help for the unemployed",
-      "Old-age pensions",
-      "Free school meals"
-    ],
-    "Explanation": "Financial help for the unemployed, old-age pensions and free school meals were just a few of the important measures introduced."
-  },
-  {
-    "Question": "What type of laws were passed to improve conditions in the workplace?",
-    "RightAnswer": "Safety laws",
-    "WrongAnswers": [
-      "Wage laws",
-      "Working hours laws",
-      "Anti-discrimination laws"
-    ],
-    "Explanation": "Various laws were passed to improve safety in the workplace."
-  },
-  {
-    "Question": "What was done to prevent the further development of slums?",
-    "RightAnswer": "Town planning rules were tightened",
-    "WrongAnswers": [
-      "Slums were demolished",
-      "New housing was built",
-      "Rent controls were introduced"
-    ],
-    "Explanation": "Town planning rules were tightened to prevent the further development of slums."
-  },
-  {
-    "Question": "What kind of support was improved for mothers and children?",
-    "RightAnswer": "Support after divorce or separation",
-    "WrongAnswers": [
-      "Educational support",
-      "Healthcare support",
-      "Financial support for all mothers"
-    ],
-    "Explanation": "And better support was given to mothers and their children after divorce or separation."
+    "Explanation": "Kipling's poems and novels reflected the idea that the British Empire was a force for good."
   },
   {
     "Question": "What change was made to local government in the early 20th century?",
@@ -15604,17 +14577,7 @@
       "It was abolished",
       "It became less democratic"
     ],
-    "Explanation": "Local government became more democratic and a salary for members of Parliament (MPs) was introduced for the first time, making it easier for more people to take part in public life."
-  },
-  {
-    "Question": "What was introduced for Members of Parliament (MPs) for the first time?",
-    "RightAnswer": "A salary",
-    "WrongAnswers": [
-      "Term limits",
-      "Mandatory retirement age",
-      "Educational requirements"
-    ],
-    "Explanation": "Local government became more democratic and a salary for members of Parliament (MPs) was introduced for the first time, making it easier for more people to take part in public life."
+    "Explanation": "Local government became more democratic and a salary for members of Parliament (MPs) was introduced for the first time, making it easier for more people to take part in public life. Town planning rules were tightened to prevent the further development of slums. And better support was given to mothers and their children after divorce or separation."
   },
   {
     "Question": "What was the purpose of introducing a salary for MPs?",
@@ -15627,16 +14590,6 @@
     "Explanation": "Local government became more democratic and a salary for members of Parliament (MPs) was introduced for the first time, making it easier for more people to take part in public life."
   },
   {
-    "Question": "On what date was Archduke Franz Ferdinand of Austria assassinated?",
-    "RightAnswer": "28 June 1914",
-    "WrongAnswers": [
-      "11 November 1918",
-      "July 1916",
-      "1914-18"
-    ],
-    "Explanation": "On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914\\u201318)."
-  },
-  {
     "Question": "Who was assassinated on 28 June 1914?",
     "RightAnswer": "Archduke Franz Ferdinand of Austria",
     "WrongAnswers": [
@@ -15644,7 +14597,7 @@
       "Tsar Nicholas II",
       "King George V"
     ],
-    "Explanation": "On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914\\u201318)."
+    "Explanation": "On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914-18). But while the assassination provided the trigger for war, other factors - such as 'a growing sense of nationalism in many European states'."
   },
   {
     "Question": "What event is considered the trigger for the First World War?",
@@ -15654,7 +14607,7 @@
       "The sinking of the Lusitania",
       "The Russian Revolution"
     ],
-    "Explanation": "On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914\\u201318)."
+    "Explanation": "On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914-18). But while the assassination provided the trigger for war, other factors - such as 'a growing sense of nationalism in many European states'."
   },
   {
     "Question": "What years did the First World War span?",
@@ -15664,87 +14617,27 @@
       "1916-18",
       "1912-16"
     ],
-    "Explanation": "On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914\\u201318)."
-  },
-  {
-    "Question": "Which of the following was NOT mentioned as a factor contributing to the First World War?",
-    "RightAnswer": "Economic depression",
-    "WrongAnswers": [
-      "Growing sense of nationalism",
-      "Increasing militarism",
-      "Imperialism"
-    ],
-    "Explanation": "But while the assassination provided the trigger for war, other factors \\u2013 such as 'a growing sense of nationalism in many European states', 'increasing militarism', 'imperialism' and 'the division of the major European powers into two camps' \\u2013 all set the conditions for war."
-  },
-  {
-    "Question": "How many major factors were mentioned as setting the conditions for war?",
-    "RightAnswer": "4",
-    "WrongAnswers": [
-      "2",
-      "3",
-      "5"
-    ],
-    "Explanation": "But while the assassination provided the trigger for war, other factors \\u2013 such as 'a growing sense of nationalism in many European states', 'increasing militarism', 'imperialism' and 'the division of the major European powers into two camps' \\u2013 all set the conditions for war."
-  },
-  {
-    "Question": "Which of the following was NOT mentioned as part of the Allied Powers?",
-    "RightAnswer": "Spain",
-    "WrongAnswers": [
-      "France",
-      "Russia",
-      "Japan"
-    ],
-    "Explanation": "Britain was part of the Allied Powers, which included (amongst others) France, Russia, Japan, Belgium, Serbia \\u2013 and later, Greece, Italy, Romania and the United States."
-  },
-  {
-    "Question": "Which country joined the Allied Powers later in the war?",
-    "RightAnswer": "United States",
-    "WrongAnswers": [
-      "France",
-      "Russia",
-      "Japan"
-    ],
-    "Explanation": "Britain was part of the Allied Powers, which included (amongst others) France, Russia, Japan, Belgium, Serbia \\u2013 and later, Greece, Italy, Romania and the United States."
+    "Explanation": "On 28 June 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War (1914-18). But while the assassination provided the trigger for war, other factors - such as 'a growing sense of nationalism in many European states'."
   },
   {
     "Question": "Approximately how many Indians fought on behalf of Britain in the First World War?",
-    "RightAnswer": "More than a million",
+    "RightAnswer": "More than one million",
     "WrongAnswers": [
-      "Less than 500,000",
-      "About 750,000",
-      "Exactly 2 million"
+      "Less than one million",
+      "More than two million",
+      "Less than two million"
     ],
-    "Explanation": "The whole of the British Empire was involved in the conflict \\u2013 for example, more than a million Indians fought on behalf of Britain in lots of different countries, and around 40,000 were killed."
+    "Explanation": "The whole of the British Empire was involved in the conflict - for example, more than a million Indians fought on behalf of Britain in lots of different countries, and around 40,000 were killed."
   },
   {
     "Question": "How many Indian soldiers were killed fighting for Britain?",
     "RightAnswer": "Around 40,000",
     "WrongAnswers": [
-      "About 100,000",
-      "Less than 10,000",
-      "Over 200,000"
+      "Around 50,000",
+      "Around 60,000",
+      "Around 70,000"
     ],
-    "Explanation": "The whole of the British Empire was involved in the conflict \\u2013 for example, more than a million Indians fought on behalf of Britain in lots of different countries, and around 40,000 were killed."
-  },
-  {
-    "Question": "Which of the following was NOT mentioned as part of the Central Powers?",
-    "RightAnswer": "Italy",
-    "WrongAnswers": [
-      "Germany",
-      "Austro-Hungarian Empire",
-      "Ottoman Empire"
-    ],
-    "Explanation": "The Allies fought against the Central Powers \\u2013 mainly Germany, the AustroHungarian Empire, the Ottoman Empire and later Bulgaria."
-  },
-  {
-    "Question": "Which country joined the Central Powers later in the war?",
-    "RightAnswer": "Bulgaria",
-    "WrongAnswers": [
-      "Germany",
-      "Austro-Hungarian Empire",
-      "Ottoman Empire"
-    ],
-    "Explanation": "The Allies fought against the Central Powers \\u2013 mainly Germany, the AustroHungarian Empire, the Ottoman Empire and later Bulgaria."
+    "Explanation": "The whole of the British Empire was involved in the conflict; for example, more than a million Indians fought on behalf of Britain in lots of different countries, and around 40,000 were killed."
   },
   {
     "Question": "How many British casualties were there in total during the First World War?",
@@ -15770,9 +14663,9 @@
     "Question": "When did the First World War end?",
     "RightAnswer": "11.00 am on 11th November 1918",
     "WrongAnswers": [
-      "11.00 pm on 11th November 1918",
-      "11.00 am on 11th November 1919",
-      "11.00 am on 1st November 1918"
+      "10.00 pm on 11th November 1918",
+      "13.00 am on 11th November 1918",
+      "14.00 am on 11th November 1918"
     ],
     "Explanation": "The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies."
   },
@@ -15794,17 +14687,7 @@
       "A separate country within the British Empire",
       "A new province of Great Britain"
     ],
-    "Explanation": "In 1913, the British government promised 'Home Rule' for Ireland. The proposal was to have a self-governing Ireland with its own parliament but still part of the UK."
-  },
-  {
-    "Question": "Who opposed the Home Rule Bill in Ireland?",
-    "RightAnswer": "Protestants in the north of Ireland",
-    "WrongAnswers": [
-      "Catholics in the south of Ireland",
-      "The British government",
-      "Irish Nationalists"
-    ],
-    "Explanation": "It was opposed by the Protestants in the north of Ireland, who threatened to resist Home Rule by force."
+    "Explanation": "In 1913, the British government promised 'Home Rule' for Ireland. The proposal was to have a self-governing Ireland with its own parliament but still part of the UK. It was opposed by the Protestants in the north of Ireland, who threatened to resist Home Rule by force."
   },
   {
     "Question": "What event led the British government to postpone changes in Ireland?",
@@ -15867,17 +14750,7 @@
     "Explanation": "The six counties in the north which were mainly Protestant remained part of the UK under the name Northern Ireland."
   },
   {
-    "Question": "What was the name given to the part of Ireland that remained in the UK?",
-    "RightAnswer": "Northern Ireland",
-    "WrongAnswers": [
-      "Irish Free State",
-      "Republic of Ireland",
-      "Ulster"
-    ],
-    "Explanation": "The six counties in the north which were mainly Protestant remained part of the UK under the name Northern Ireland."
-  },
-  {
-    "Question": "What was the name given to the rest of Ireland that became independent?",
+    "Question": "What was the name given to the rest of Ireland that became independent in 1922?",
     "RightAnswer": "Irish Free State",
     "WrongAnswers": [
       "Northern Ireland",
@@ -15907,16 +14780,6 @@
     "Explanation": "The conflict between those wishing for full Irish independence and those wishing to remain loyal to the British government is often referred to as 'the Troubles'."
   },
   {
-    "Question": "In which decade did many people's living conditions improve?",
-    "RightAnswer": "1920s",
-    "WrongAnswers": [
-      "1930s",
-      "1910s",
-      "1940s"
-    ],
-    "Explanation": "In the 1920s, many people's living conditions got better. There were improvements in public housing and new homes were built in many towns and cities."
-  },
-  {
     "Question": "What improvements were seen in housing during the 1920s?",
     "RightAnswer": "Improvements in public housing and new homes built",
     "WrongAnswers": [
@@ -15937,16 +14800,6 @@
     "Explanation": "However, in 1929, the world entered the 'Great Depression' and some parts of the UK suffered mass unemployment."
   },
   {
-    "Question": "What was the impact of the Great Depression on some parts of the UK?",
-    "RightAnswer": "Mass unemployment",
-    "WrongAnswers": [
-      "Increased housing construction",
-      "Improved living conditions",
-      "Economic boom"
-    ],
-    "Explanation": "However, in 1929, the world entered the 'Great Depression' and some parts of the UK suffered mass unemployment."
-  },
-  {
     "Question": "Which traditional industry was badly affected by the depression of the 1930s?",
     "RightAnswer": "Shipbuilding",
     "WrongAnswers": [
@@ -15954,7 +14807,7 @@
       "Aviation industry",
       "Textile industry"
     ],
-    "Explanation": "The effects of the depression of the 1930s were felt differently in different parts of the UK. The traditional heavy industries such as shipbuilding were badly affected but new industries \\u2013 including the automobile and aviation industries \\u2013 developed."
+    "Explanation": "The effects of the depression of the 1930s were felt differently in different parts of the UK. The traditional heavy industries such as shipbuilding were badly affected but new industries - including the automobile and aviation industries - developed."
   },
   {
     "Question": "Which new industries developed during the 1930s?",
@@ -15964,7 +14817,7 @@
       "Textile and steel industries",
       "Agriculture and fishing"
     ],
-    "Explanation": "The effects of the depression of the 1930s were felt differently in different parts of the UK. The traditional heavy industries such as shipbuilding were badly affected but new industries \\u2013 including the automobile and aviation industries \\u2013 developed."
+    "Explanation": "The effects of the depression of the 1930s were felt differently in different parts of the UK. The traditional heavy industries such as shipbuilding were badly affected but new industries - including the automobile and aviation industries - developed."
   },
   {
     "Question": "How did car ownership change between 1930 and 1939?",
@@ -16027,16 +14880,6 @@
     "Explanation": "The BBC started radio broadcasts in 1922 and began the world's first regular television service in 1936."
   },
   {
-    "Question": "In which year did Winston Churchill become a Conservative MP?",
-    "RightAnswer": "1900",
-    "WrongAnswers": [
-      "1940",
-      "1945",
-      "1951"
-    ],
-    "Explanation": "Churchill was the son of a politician and, before becoming a Conservative MP in 1900, was a soldier and journalist."
-  },
-  {
     "Question": "What were Churchill's occupations before becoming an MP?",
     "RightAnswer": "Soldier and journalist",
     "WrongAnswers": [
@@ -16047,7 +14890,7 @@
     "Explanation": "Churchill was the son of a politician and, before becoming a Conservative MP in 1900, was a soldier and journalist."
   },
   {
-    "Question": "When did Winston Churchill become Prime Minister?",
+    "Question": "When did Winston Churchill become Prime Minister (for the first time)?",
     "RightAnswer": "May 1940",
     "WrongAnswers": [
       "June 1939",
@@ -16087,44 +14930,24 @@
     "Explanation": "He lost the General Election in 1945 but returned as Prime Minister in 1951."
   },
   {
-    "Question": "Until which year was Churchill an MP?",
-    "RightAnswer": "1964",
-    "WrongAnswers": [
-      "1945",
-      "1951",
-      "1965"
-    ],
-    "Explanation": "He was an MP until he stood down at the 1964 General Election."
-  },
-  {
-    "Question": "What kind of funeral was Churchill given after his death?",
+    "Question": "What kind of funeral was Churchill given after his death in 1965?",
     "RightAnswer": "A state funeral",
     "WrongAnswers": [
       "A private funeral",
       "A military funeral",
       "A royal funeral"
     ],
-    "Explanation": "Following his death in 1965, he was given a state funeral."
+    "Explanation": "He was an MP until he stood down at the 1964 General Election. Following his death in 1965, he was given a state funeral."
   },
   {
-    "Question": "In which year did Churchill die?",
-    "RightAnswer": "1965",
+    "Question": "Who was voted greatest Briton of all time in 2002?",
+    "RightAnswer": "Winston Churchill",
     "WrongAnswers": [
-      "1964",
-      "1951",
-      "1940"
+      "Isaac Newton",
+      "William Shakespeare",
+      "Charles Darwin"
     ],
-    "Explanation": "Following his death in 1965, he was given a state funeral."
-  },
-  {
-    "Question": "In which year was Churchill voted the greatest Briton of all time?",
-    "RightAnswer": "2002",
-    "WrongAnswers": [
-      "1965",
-      "1990",
-      "2010"
-    ],
-    "Explanation": "He remains a much-admired figure to this day, and in 2002 was voted the greatest Briton of all time by the public."
+    "Explanation": "Churchill remains a much-admired figure to this day, and in 2002 was voted the greatest Briton of all time by the public."
   },
   {
     "Question": "What did Churchill say he had to offer in his first speech as Prime Minister?",
@@ -16169,7 +14992,10 @@
   {
     "Question": "What event in 1939 led Britain and France to declare war on Germany?",
     "RightAnswer": "Hitler's invasion of Poland",
-    "WrongAnswers": [      "Hitler's invasion of Austria",      "Hitler's invasion of Czechoslovakia",      "Hitler's invasion of France"
+    "WrongAnswers": [
+      "Hitler's invasion of Austria",
+      "Hitler's invasion of Czechoslovakia",
+      "Hitler's invasion of France"
     ],
     "Explanation": "However, when Hitler invaded Poland in 1939, Britain and France declared war in order to stop his aggression."
   },
@@ -16182,16 +15008,6 @@
       "Italy, Spain, and Japan"
     ],
     "Explanation": "The war was initially fought between the Axis powers (fascist Germany and Italy and the Empire of Japan) and the Allies."
-  },
-  {
-    "Question": "Which of the following countries was NOT mentioned as part of the Allied side?",
-    "RightAnswer": "United States",
-    "WrongAnswers": [
-      "Canada",
-      "New Zealand",
-      "Union of South Africa"
-    ],
-    "Explanation": "The main countries on the allied side were the UK, France, Poland, Australia, New Zealand, Canada, and the Union of South Africa."
   },
   {
     "Question": "Who became Prime Minister and Britain's war leader during the national crisis in 1940?",
@@ -16241,7 +15057,7 @@
       "Mosquito and Typhoon",
       "Gladiator and Blenheim"
     ],
-    "Explanation": "The most important planes used by the Royal Air Force in the Battle of Britain were the Spitfire and the Hurricane \\u2013 which were designed and built in Britain."
+    "Explanation": "The most important planes used by the Royal Air Force in the Battle of Britain were the Spitfire and the Hurricane - which were designed and built in Britain."
   },
   {
     "Question": "What was the name given to the German night-time bombing of London and other British cities?",
@@ -16258,7 +15074,7 @@
     "RightAnswer": "Coventry",
     "WrongAnswers": [
       "Manchester",
-      "Birmingham",
+      "London",
       "Liverpool"
     ],
     "Explanation": "Coventry was almost totally destroyed and a great deal of damage was done in other cities, especially in the East End of London."
@@ -16288,8 +15104,8 @@
     "RightAnswer": "May 1945",
     "WrongAnswers": [
       "June 1944",
-      "August 1945",
-      "December 1944"
+      "August 1943",
+      "December 1948"
     ],
     "Explanation": "The Allies comprehensively defeated Germany in May 1945."
   },
@@ -16314,36 +15130,6 @@
     "Explanation": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to 'split the atom' and took part in the Manhattan Project in the United States, which developed the atomic bomb."
   },
   {
-    "Question": "At which universities did Ernest Rutherford and his team work?",
-    "RightAnswer": "Manchester and Cambridge",
-    "WrongAnswers": [
-      "Oxford and Cambridge",
-      "Harvard and Yale",
-      "Edinburgh and Glasgow"
-    ],
-    "Explanation": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to 'split the atom' and took part in the Manhattan Project in the United States, which developed the atomic bomb."
-  },
-  {
-    "Question": "What major scientific achievement is attributed to Ernest Rutherford and his team?",
-    "RightAnswer": "Splitting the atom",
-    "WrongAnswers": [
-      "Discovering radioactivity",
-      "Inventing the telescope",
-      "Creating the periodic table"
-    ],
-    "Explanation": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to 'split the atom' and took part in the Manhattan Project in the United States, which developed the atomic bomb."
-  },
-  {
-    "Question": "Which project in the United States did Rutherford's team participate in?",
-    "RightAnswer": "The Manhattan Project",
-    "WrongAnswers": [
-      "The Apollo Program",
-      "The Human Genome Project",
-      "The Large Hadron Collider"
-    ],
-    "Explanation": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to 'split the atom' and took part in the Manhattan Project in the United States, which developed the atomic bomb."
-  },
-  {
     "Question": "What was the outcome of the Manhattan Project?",
     "RightAnswer": "Development of the atomic bomb",
     "WrongAnswers": [
@@ -16354,36 +15140,6 @@
     "Explanation": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to 'split the atom' and took part in the Manhattan Project in the United States, which developed the atomic bomb."
   },
   {
-    "Question": "Where was Alexander Fleming born?",
-    "RightAnswer": "Scotland",
-    "WrongAnswers": [
-      "London",
-      "England",
-      "Ireland"
-    ],
-    "Explanation": "Born in Scotland, Fleming moved to London as a teenager and later qualified as a doctor."
-  },
-  {
-    "Question": "At what age did Fleming move to London?",
-    "RightAnswer": "As a teenager",
-    "WrongAnswers": [
-      "As a child",
-      "In his twenties",
-      "As an adult"
-    ],
-    "Explanation": "Born in Scotland, Fleming moved to London as a teenager and later qualified as a doctor."
-  },
-  {
-    "Question": "What profession did Fleming qualify for after moving to London?",
-    "RightAnswer": "Doctor",
-    "WrongAnswers": [
-      "Scientist",
-      "Pharmacist",
-      "Researcher"
-    ],
-    "Explanation": "Born in Scotland, Fleming moved to London as a teenager and later qualified as a doctor."
-  },
-  {
     "Question": "In which year did Fleming discover penicillin?",
     "RightAnswer": "1928",
     "WrongAnswers": [
@@ -16391,17 +15147,7 @@
       "1945",
       "1920"
     ],
-    "Explanation": "He was researching influenza (the 'flu') in 1928 when he discovered penicillin."
-  },
-  {
-    "Question": "What was Fleming researching when he discovered penicillin?",
-    "RightAnswer": "Influenza",
-    "WrongAnswers": [
-      "Tuberculosis",
-      "Malaria",
-      "Pneumonia"
-    ],
-    "Explanation": "He was researching influenza (the 'flu') in 1928 when he discovered penicillin."
+    "Explanation": "Fleming discovered penicillin while he was researching influenza (the 'flu') in 1928."
   },
   {
     "Question": "Who were the scientists that further developed penicillin into a usable drug?",
@@ -16411,17 +15157,7 @@
       "Marie Curie and Pierre Curie",
       "James Watson and Francis Crick"
     ],
-    "Explanation": "This was then further developed into a usable drug by the scientists Howard Florey and Ernst Chain."
-  },
-  {
-    "Question": "By which decade was penicillin in mass production?",
-    "RightAnswer": "1940s",
-    "WrongAnswers": [
-      "1930s",
-      "1950s",
-      "1960s"
-    ],
-    "Explanation": "By the 1940s it was in mass production."
+    "Explanation": "Born in Scotland, Fleming moved to London as a teenager and later qualified as a doctor. Fleming was researching influenza (the 'flu') in 1928 when he discovered penicillin. This was then further developed into a usable drug by the scientists Howard Florey and Ernst Chain. By the 1940s it was in mass production. Fleming won the Nobel Prize in Medicine in 1945. Penicillin is still used to treat bacterial infections today."
   },
   {
     "Question": "In which year did Fleming win the Nobel Prize in Medicine?",
@@ -16431,17 +15167,7 @@
       "1940",
       "1950"
     ],
-    "Explanation": "Fleming won the Nobel Prize in Medicine in 1945."
-  },
-  {
-    "Question": "What type of infections is penicillin used to treat?",
-    "RightAnswer": "Bacterial infections",
-    "WrongAnswers": [
-      "Viral infections",
-      "Fungal infections",
-      "Parasitic infections"
-    ],
-    "Explanation": "Penicillin is still used to treat bacterial infections today."
+    "Explanation": "Fleming was researching influenza (the 'flu') in 1928 when he discovered penicillin. This was then further developed into a usable drug by the scientists Howard Florey and Ernst Chain. By the 1940s it was in mass production. Fleming won the Nobel Prize in Medicine in 1945. Penicillin is still used to treat bacterial infections today."
   },
   {
     "Question": "In which year did the British people elect a Labour government after World War II?",
@@ -16534,36 +15260,6 @@
     "Explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka)."
   },
   {
-    "Question": "How many countries were granted independence in 1947?",
-    "RightAnswer": "Nine",
-    "WrongAnswers": [
-      "Three",
-      "Five",
-      "Seven"
-    ],
-    "Explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka)."
-  },
-  {
-    "Question": "Which of the following countries was NOT granted independence in 1947?",
-    "RightAnswer": "Sri Lanka",
-    "WrongAnswers": [
-      "India",
-      "Pakistan",
-      "Ceylon"
-    ],
-    "Explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka)."
-  },
-  {
-    "Question": "What is Ceylon now known as?",
-    "RightAnswer": "Sri Lanka",
-    "WrongAnswers": [
-      "Bangladesh",
-      "Myanmar",
-      "Nepal"
-    ],
-    "Explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka)."
-  },
-  {
     "Question": "Which alliance did the UK join to resist the perceived threat of Soviet invasion?",
     "RightAnswer": "North Atlantic Treaty Organization (NATO)",
     "WrongAnswers": [
@@ -16614,36 +15310,6 @@
     "Explanation": "The Prime Minister of the day, Harold Macmillan, was famous for his 'wind of change' speech about decolonisation and independence for the countries of the Empire."
   },
   {
-    "Question": "In which year was Clement Attlee born?",
-    "RightAnswer": "1883",
-    "WrongAnswers": [
-      "1885",
-      "1881",
-      "1887"
-    ],
-    "Explanation": "Clement Attlee was born in London in 1883."
-  },
-  {
-    "Question": "Where was Clement Attlee born?",
-    "RightAnswer": "London",
-    "WrongAnswers": [
-      "Manchester",
-      "Birmingham",
-      "Liverpool"
-    ],
-    "Explanation": "Clement Attlee was born in London in 1883."
-  },
-  {
-    "Question": "What was Clement Attlee's father's profession?",
-    "RightAnswer": "Solicitor",
-    "WrongAnswers": [
-      "Barrister",
-      "Doctor",
-      "Teacher"
-    ],
-    "Explanation": "His father was a solicitor and, after studying at Oxford University, Attlee became a barrister."
-  },
-  {
     "Question": "Where did Clement Attlee study?",
     "RightAnswer": "Oxford University",
     "WrongAnswers": [
@@ -16654,32 +15320,12 @@
     "Explanation": "His father was a solicitor and, after studying at Oxford University, Attlee became a barrister."
   },
   {
-    "Question": "What profession did Clement Attlee initially pursue after his studies?",
-    "RightAnswer": "Barrister",
-    "WrongAnswers": [
-      "Solicitor",
-      "Social worker",
-      "Politician"
-    ],
-    "Explanation": "His father was a solicitor and, after studying at Oxford University, Attlee became a barrister."
-  },
-  {
     "Question": "What did Clement Attlee do after giving up his career as a barrister?",
     "RightAnswer": "Social work in East London",
     "WrongAnswers": [
       "Teach at Oxford University",
       "Join the military",
       "Work as a journalist"
-    ],
-    "Explanation": "He gave this up to do social work in East London and eventually became a Labour MP."
-  },
-  {
-    "Question": "What political position did Clement Attlee eventually attain?",
-    "RightAnswer": "Labour MP",
-    "WrongAnswers": [
-      "Conservative MP",
-      "Liberal MP",
-      "Independent MP"
     ],
     "Explanation": "He gave this up to do social work in East London and eventually became a Labour MP."
   },
@@ -16714,36 +15360,6 @@
     "Explanation": "He was Prime Minister from 1945 to 1951 and led the Labour Party for 20 years."
   },
   {
-    "Question": "For how many years did Clement Attlee lead the Labour Party?",
-    "RightAnswer": "20 years",
-    "WrongAnswers": [
-      "10 years",
-      "15 years",
-      "25 years"
-    ],
-    "Explanation": "He was Prime Minister from 1945 to 1951 and led the Labour Party for 20 years."
-  },
-  {
-    "Question": "Which major industries did Attlee's government nationalize?",
-    "RightAnswer": "Coal and steel",
-    "WrongAnswers": [
-      "Oil and gas",
-      "Railways and airlines",
-      "Banks and insurance"
-    ],
-    "Explanation": "Attlee's government undertook the nationalisation of major industries (like coal and steel), created the National Health Service and implemented many of Beveridge's plans for a stronger welfare state."
-  },
-  {
-    "Question": "What significant healthcare initiative did Attlee's government create?",
-    "RightAnswer": "National Health Service",
-    "WrongAnswers": [
-      "Private Healthcare System",
-      "Medical Research Council",
-      "National Insurance Scheme"
-    ],
-    "Explanation": "Attlee's government undertook the nationalisation of major industries (like coal and steel), created the National Health Service and implemented many of Beveridge's plans for a stronger welfare state."
-  },
-  {
     "Question": "Whose plans for a stronger welfare state did Attlee's government implement?",
     "RightAnswer": "Beveridge",
     "WrongAnswers": [
@@ -16752,46 +15368,6 @@
       "Marx"
     ],
     "Explanation": "Attlee's government undertook the nationalisation of major industries (like coal and steel), created the National Health Service and implemented many of Beveridge's plans for a stronger welfare state."
-  },
-  {
-    "Question": "What additional measures did Attlee introduce?",
-    "RightAnswer": "Measures to improve the conditions of workers",
-    "WrongAnswers": [
-      "Measures to increase military spending",
-      "Measures to reduce taxes",
-      "Measures to privatize industries"
-    ],
-    "Explanation": "Attlee also introduced measures to improve the conditions of workers."
-  },
-  {
-    "Question": "Who was William Beveridge?",
-    "RightAnswer": "A British economist and social reformer",
-    "WrongAnswers": [
-      "A British Prime Minister",
-      "A military general",
-      "A famous novelist"
-    ],
-    "Explanation": "William Beveridge (later Lord Beveridge) was a British economist and social reformer."
-  },
-  {
-    "Question": "What political position did William Beveridge briefly hold?",
-    "RightAnswer": "Liberal MP",
-    "WrongAnswers": [
-      "Conservative MP",
-      "Labour MP",
-      "Green Party MP"
-    ],
-    "Explanation": "He served briefly as a Liberal MP and was subsequently the leader of the Liberals in the House of Lords but is best known for the 1942 report Social Insurance and Allied Services (known as the Beveridge Report)."
-  },
-  {
-    "Question": "What leadership role did William Beveridge hold in the House of Lords?",
-    "RightAnswer": "Leader of the Liberals",
-    "WrongAnswers": [
-      "Leader of the Conservatives",
-      "Leader of the Labour Party",
-      "Speaker of the House"
-    ],
-    "Explanation": "He served briefly as a Liberal MP and was subsequently the leader of the Liberals in the House of Lords but is best known for the 1942 report Social Insurance and Allied Services (known as the Beveridge Report)."
   },
   {
     "Question": "What is William Beveridge best known for?",
@@ -16804,36 +15380,6 @@
     "Explanation": "He served briefly as a Liberal MP and was subsequently the leader of the Liberals in the House of Lords but is best known for the 1942 report Social Insurance and Allied Services (known as the Beveridge Report)."
   },
   {
-    "Question": "What is the common name for the 1942 report Social Insurance and Allied Services?",
-    "RightAnswer": "The Beveridge Report",
-    "WrongAnswers": [
-      "The Churchill Report",
-      "The Attlee Report",
-      "The Lloyd George Report"
-    ],
-    "Explanation": "He served briefly as a Liberal MP and was subsequently the leader of the Liberals in the House of Lords but is best known for the 1942 report Social Insurance and Allied Services (known as the Beveridge Report)."
-  },
-  {
-    "Question": "In which year was the Beveridge Report commissioned?",
-    "RightAnswer": "1941",
-    "WrongAnswers": [
-      "1939",
-      "1942",
-      "1945"
-    ],
-    "Explanation": "The Beveridge report was commissioned by the wartime government in 1941."
-  },
-  {
-    "Question": "Who commissioned the Beveridge Report?",
-    "RightAnswer": "The wartime government",
-    "WrongAnswers": [
-      "The Labour Party",
-      "The Liberal Party",
-      "The House of Lords"
-    ],
-    "Explanation": "The Beveridge report was commissioned by the wartime government in 1941."
-  },
-  {
     "Question": "How many 'Giant Evils' did the Beveridge Report identify?",
     "RightAnswer": "5",
     "WrongAnswers": [
@@ -16841,17 +15387,7 @@
       "7",
       "10"
     ],
-    "Explanation": "It recommended that the government should find ways of fighting the five 'Giant Evils' of Want, Disease,Ignorance, Squalor and Idleness and provided the basis of the modern welfare state."
-  },
-  {
-    "Question": "Which of the following was NOT one of the 'Giant Evils' identified in the Beveridge Report?",
-    "RightAnswer": "Poverty",
-    "WrongAnswers": [
-      "Want",
-      "Disease",
-      "Ignorance"
-    ],
-    "Explanation": "It recommended that the government should find ways of fighting the five 'Giant Evils' of Want, Disease,Ignorance, Squalor and Idleness and provided the basis of the modern welfare state."
+    "Explanation": "The Beveridge report was commissioned by the wartime government in 1941. It recommended that the government should find ways of fighting the five 'Giant Evils' of Want, Disease,Ignorance, Squalor and Idleness and provided the basis of the modern welfare state."
   },
   {
     "Question": "What did the Beveridge Report provide the basis for?",
@@ -16864,72 +15400,12 @@
     "Explanation": "It recommended that the government should find ways of fighting the five 'Giant Evils' of Want, Disease,Ignorance, Squalor and Idleness and provided the basis of the modern welfare state."
   },
   {
-    "Question": "In which year did Richard Austen Butler become a Conservative MP?",
-    "RightAnswer": "1923",
-    "WrongAnswers": [
-      "1941",
-      "1944",
-      "1930"
-    ],
-    "Explanation": "Richard Austen Butler (later Lord Butler) became a Conservative MP in 1923 and held several positions before becoming responsible for education in 1941."
-  },
-  {
-    "Question": "What position did Richard Austen Butler take on in 1941?",
-    "RightAnswer": "Responsible for education",
-    "WrongAnswers": [
-      "Prime Minister",
-      "Foreign Secretary",
-      "Chancellor of the Exchequer"
-    ],
-    "Explanation": "Richard Austen Butler (later Lord Butler) became a Conservative MP in 1923 and held several positions before becoming responsible for education in 1941."
-  },
-  {
-    "Question": "What was Richard Austen Butler's full name?",
-    "RightAnswer": "Richard Austen Butler",
-    "WrongAnswers": [
-      "Robert Anthony Butler",
-      "Ronald Arthur Butler",
-      "Reginald Alan Butler"
-    ],
-    "Explanation": "Richard Austen Butler (later Lord Butler) became a Conservative MP in 1923 and held several positions before becoming responsible for education in 1941."
-  },
-  {
-    "Question": "What was the official name of the education act introduced by Lord Butler?",
-    "RightAnswer": "Education Act 1944",
-    "WrongAnswers": [
-      "Butler Education Act",
-      "Free Education Act 1944",
-      "Secondary Education Act 1944"
-    ],
-    "Explanation": "In this role, Lord Butler oversaw the introduction of the Education Act 1944 (often called 'The Butler Act'), which introduced free secondary education in England and Wales."
-  },
-  {
     "Question": "What is the common name for the Education Act 1944?",
     "RightAnswer": "The Butler Act",
     "WrongAnswers": [
       "The Richard Act",
       "The Austen Act",
       "The Conservative Education Act"
-    ],
-    "Explanation": "In this role, Lord Butler oversaw the introduction of the Education Act 1944 (often called 'The Butler Act'), which introduced free secondary education in England and Wales."
-  },
-  {
-    "Question": "What major change did the Education Act 1944 introduce in England and Wales?",
-    "RightAnswer": "Free secondary education",
-    "WrongAnswers": [
-      "Compulsory higher education",
-      "Abolition of private schools",
-      "Standardized national curriculum"
-    ],
-    "Explanation": "In this role, Lord Butler oversaw the introduction of the Education Act 1944 (often called 'The Butler Act'), which introduced free secondary education in England and Wales."
-  },
-  {
-    "Question": "In which countries did the Education Act 1944 introduce free secondary education?",
-    "RightAnswer": "England and Wales",
-    "WrongAnswers": [
-      "Scotland and Northern Ireland",
-      "Ireland and Scotland",
-      "United Kingdom and Ireland"
     ],
     "Explanation": "In this role, Lord Butler oversaw the introduction of the Education Act 1944 (often called 'The Butler Act'), which introduced free secondary education in England and Wales."
   },
@@ -16944,106 +15420,6 @@
     "Explanation": "The education system has changed significantly since 'The Butler Act' was introduced, but the division between primary and secondary schools that it enforced still remains in most areas of Britain."
   },
   {
-    "Question": "What nationality was Dylan Thomas?",
-    "RightAnswer": "Welsh",
-    "WrongAnswers": [
-      "English",
-      "Irish",
-      "Scottish"
-    ],
-    "Explanation": "Dylan Thomas was a Welsh poet and writer."
-  },
-  {
-    "Question": "What profession was Dylan Thomas known for?",
-    "RightAnswer": "Poet and writer",
-    "WrongAnswers": [
-      "Musician",
-      "Painter",
-      "Actor"
-    ],
-    "Explanation": "Dylan Thomas was a Welsh poet and writer."
-  },
-  {
-    "Question": "How did Dylan Thomas often present his work?",
-    "RightAnswer": "Reading and performing in public",
-    "WrongAnswers": [
-      "Publishing in newspapers",
-      "Distributing pamphlets",
-      "Posting on social media"
-    ],
-    "Explanation": "He often read and performed his work in public, including for the BBC."
-  },
-  {
-    "Question": "For which organization did Dylan Thomas perform his work?",
-    "RightAnswer": "BBC",
-    "WrongAnswers": [
-      "ITV",
-      "CNN",
-      "Sky News"
-    ],
-    "Explanation": "He often read and performed his work in public, including for the BBC."
-  },
-  {
-    "Question": "What is the title of Dylan Thomas's famous radio play?",
-    "RightAnswer": "Under Milk Wood",
-    "WrongAnswers": [
-      "Over the Rainbow",
-      "Beyond the Sea",
-      "Through the Looking Glass"
-    ],
-    "Explanation": "Dylan Thomas is most well-known works include the radio play Under Milk Wood, first performed after his death in 1954, and the poem 'Do Not Go Gentle into That Good Night', which he wrote for his dying father in 1952."
-  },
-  {
-    "Question": "When was Dylan Thomas's radio play 'Under Milk Wood' first performed?",
-    "RightAnswer": "1954",
-    "WrongAnswers": [
-      "1952",
-      "1950",
-      "1956"
-    ],
-    "Explanation": "Dylan Thomas is most well-known works include the radio play Under Milk Wood, first performed after his death in 1954, and the poem 'Do Not Go Gentle into That Good Night', which he wrote for his dying father in 1952."
-  },
-  {
-    "Question": "What is the title of Dylan Thomas's famous poem written for his dying father?",
-    "RightAnswer": "Do Not Go Gentle into That Good Night",
-    "WrongAnswers": [
-      "Rage Against the Dying of the Light",
-      "Fern Hill",
-      "And Death Shall Have No Dominion"
-    ],
-    "Explanation": "Dylan Thomas is most well-known works include the radio play Under Milk Wood, first performed after his death in 1954, and the poem 'Do Not Go Gentle into That Good Night', which he wrote for his dying father in 1952."
-  },
-  {
-    "Question": "In which year did Dylan Thomas write 'Do Not Go Gentle into That Good Night'?",
-    "RightAnswer": "1952",
-    "WrongAnswers": [
-      "1954",
-      "1950",
-      "1956"
-    ],
-    "Explanation": "Dylan Thomas is most well-known works include the radio play Under Milk Wood, first performed after his death in 1954, and the poem 'Do Not Go Gentle into That Good Night', which he wrote for his dying father in 1952."
-  },
-  {
-    "Question": "At what age did Dylan Thomas die?",
-    "RightAnswer": "39",
-    "WrongAnswers": [
-      "45",
-      "52",
-      "33"
-    ],
-    "Explanation": "Dylan Thomas died at the age of 39 in New York."
-  },
-  {
-    "Question": "In which city did Dylan Thomas die?",
-    "RightAnswer": "New York",
-    "WrongAnswers": [
-      "London",
-      "Cardiff",
-      "Dublin"
-    ],
-    "Explanation": "Dylan Thomas died at the age of 39 in New York."
-  },
-  {
     "Question": "Where was Dylan Thomas born?",
     "RightAnswer": "Swansea",
     "WrongAnswers": [
@@ -17051,37 +15427,7 @@
       "Newport",
       "Aberystwyth"
     ],
-    "Explanation": "There are several memorials to him in his birthplace, Swansea, including a statue and the Dylan Thomas Centre."
-  },
-  {
-    "Question": "Which of the following is NOT mentioned as a memorial to Dylan Thomas in Swansea?",
-    "RightAnswer": "Museum",
-    "WrongAnswers": [
-      "Statue",
-      "Dylan Thomas Centre",
-      "Both statue and Dylan Thomas Centre are mentioned"
-    ],
-    "Explanation": "There are several memorials to him in his birthplace, Swansea, including a statue and the Dylan Thomas Centre."
-  },
-  {
-    "Question": "After World War II, which country's workers were initially encouraged to come to the UK to help with reconstruction?",
-    "RightAnswer": "Ireland",
-    "WrongAnswers": [
-      "France",
-      "Germany",
-      "Italy"
-    ],
-    "Explanation": "There were labour shortages and the British government encouraged workers from Ireland and other parts of Europe to come to the UK and help with the reconstruction."
-  },
-  {
-    "Question": "In which year were people from the West Indies invited to come and work in the UK?",
-    "RightAnswer": "1948",
-    "WrongAnswers": [
-      "1945",
-      "1950",
-      "1955"
-    ],
-    "Explanation": "In 1948, people from the West Indies were also invited to come and work."
+    "Explanation": "Dylan Thomas was a Welsh poet and writer. Dylan Thomas is most well-known works include the radio play Under Milk Wood, first performed after his death in 1954, and the poem 'Do Not Go Gentle into That Good Night', which he wrote for his dying father in 1952. There are several memorials to him in his birthplace, Swansea, including a statue and the Dylan Thomas Centre."
   },
   {
     "Question": "Why was further immigration encouraged during the 1950s in the UK?",
@@ -17091,37 +15437,7 @@
       "For political alliances",
       "For educational purposes"
     ],
-    "Explanation": "During the 1950s, there was still a shortage of labour in the UK. Further immigration was therefore encouraged for economic reasons, and many industries advertised for workers from overseas."
-  },
-  {
-    "Question": "Which industry set up recruitment centers in the West Indies?",
-    "RightAnswer": "Bus driving",
-    "WrongAnswers": [
-      "Construction",
-      "Healthcare",
-      "Agriculture"
-    ],
-    "Explanation": "For example, centres were set up in the West Indies to recruit people to drive buses."
-  },
-  {
-    "Question": "Which industries sent agents to India and Pakistan to find workers?",
-    "RightAnswer": "Textile and engineering firms",
-    "WrongAnswers": [
-      "Mining and agriculture",
-      "Healthcare and education",
-      "Retail and hospitality"
-    ],
-    "Explanation": "Textile and engineering firms from the north of England and the Midlands sent agents to India and Pakistan to find workers."
-  },
-  {
-    "Question": "From which regions of England did textile and engineering firms send agents to recruit workers?",
-    "RightAnswer": "The north of England and the Midlands",
-    "WrongAnswers": [
-      "London and the South East",
-      "Wales and Scotland",
-      "Cornwall and Devon"
-    ],
-    "Explanation": "Textile and engineering firms from the north of England and the Midlands sent agents to India and Pakistan to find workers."
+    "Explanation": "During the 1950s, there was still a shortage of labour in the UK. Further immigration was therefore encouraged for economic reasons, and many industries advertised for workers from overseas. For example, centres were set up in the West Indies to recruit people to drive buses. Textile and engineering firms from the north of England and the Midlands sent agents to India and Pakistan to find workers. For about 25 years, people from the West Indies, India, Pakistan and (later) Bangladesh travelled to work and settle in Britain."
   },
   {
     "Question": "For approximately how long did people from the West Indies, India, Pakistan, and Bangladesh travel to work and settle in Britain?",
@@ -17131,17 +15447,7 @@
       "40 years",
       "50 years"
     ],
-    "Explanation": "For about 25 years, people from the West Indies, India, Pakistan and (later) Bangladesh travelled to work and settle in Britain."
-  },
-  {
-    "Question": "Which South Asian country was mentioned as a later source of workers settling in Britain?",
-    "RightAnswer": "Bangladesh",
-    "WrongAnswers": [
-      "Sri Lanka",
-      "Nepal",
-      "Bhutan"
-    ],
-    "Explanation": "For about 25 years, people from the West Indies, India, Pakistan and (later) Bangladesh travelled to work and settle in Britain."
+    "Explanation": "During the 1950s, there was still a shortage of labour in the UK. Further immigration was therefore encouraged for economic reasons, and many industries advertised for workers from overseas. For example, centres were set up in the West Indies to recruit people to drive buses. Textile and engineering firms from the north of England and the Midlands sent agents to India and Pakistan to find workers. For about 25 years, people from the West Indies, India, Pakistan and (later) Bangladesh travelled to work and settle in Britain."
   },
   {
     "Question": "What was the 1960s decade known as?",
@@ -17151,17 +15457,7 @@
       "The Golden Sixties",
       "The Revolutionary Sixties"
     ],
-    "Explanation": "The decade of the 1960s was a period of significant social change. It was known as 'the Swinging Sixties'."
-  },
-  {
-    "Question": "Which areas of British culture experienced growth during the 1960s?",
-    "RightAnswer": "Fashion, cinema, and popular music",
-    "WrongAnswers": [
-      "Literature, theatre, and dance",
-      "Sports, politics, and education",
-      "Science, technology, and agriculture"
-    ],
-    "Explanation": "There was growth in British fashion, cinema and popular music."
+    "Explanation": "The decade of the 1960s was a period of significant social change. It was known as 'the Swinging Sixties'. There was growth in British fashion, cinema and popular music."
   },
   {
     "Question": "Which two well-known pop music groups were mentioned from the 1960s?",
@@ -17174,16 +15470,6 @@
     "Explanation": "Two well-known pop music groups at the time were The Beatles and The Rolling Stones."
   },
   {
-    "Question": "What consumer goods did people start buying more of as they became better off in the 1960s?",
-    "RightAnswer": "Cars and other consumer goods",
-    "WrongAnswers": [
-      "Houses and land",
-      "Stocks and bonds",
-      "Luxury vacations"
-    ],
-    "Explanation": "During the 1960s, people started to become better off and many bought cars and other consumer goods."
-  },
-  {
     "Question": "In which areas were social laws liberalized during the 1960s?",
     "RightAnswer": "Divorce and abortion in England, Wales and Scotland",
     "WrongAnswers": [
@@ -17191,17 +15477,7 @@
       "Education and healthcare",
       "Voting rights and property ownership"
     ],
-    "Explanation": "It was also a time when social laws were liberalised, for example in relation to divorce and to abortion in England, Wales and Scotland."
-  },
-  {
-    "Question": "What was a common practice by employers regarding women's employment in the 1960s?",
-    "RightAnswer": "Asking women to leave their jobs when they got married",
-    "WrongAnswers": [
-      "Promoting women to senior positions",
-      "Offering women higher salaries than men",
-      "Providing women with extended maternity leave"
-    ],
-    "Explanation": "It was quite common at the time for employers to ask women to leave their jobs when they got married,"
+    "Explanation": "During the 1960s, people started to become better off and many bought cars and other consumer goods. It was also a time when social laws were liberalised, for example in relation to divorce and to abortion in England, Wales and Scotland."
   },
   {
     "Question": "What new rights did Parliament grant to women in the workplace during the 1960s?",
@@ -17211,7 +15487,7 @@
       "The right to flexible working hours",
       "The right to unionize"
     ],
-    "Explanation": "Parliament passed new laws giving women the right to equal pay and made it illegal for employers to discriminate against women because of their gender."
+    "Explanation": "In the 1960's, it was quite common at the time for employers to ask women to leave their jobs when they got married. Parliament passed new laws giving women the right to equal pay and made it illegal for employers to discriminate against women because of their gender."
   },
   {
     "Question": "What technological achievement did Britain and France develop together in the 1960s?",
@@ -17244,32 +15520,12 @@
     "Explanation": "New styles of architecture, including high-rise buildings and the use of concrete and steel, became common."
   },
   {
-    "Question": "From which regions did immigration to Britain decrease in the late 1960s?",
-    "RightAnswer": "The West Indies, India, Pakistan and what is now Bangladesh",
-    "WrongAnswers": [
-      "Eastern Europe, Africa, and the Middle East",
-      "North America, Australia, and New Zealand",
-      "China, Japan, and Southeast Asia"
-    ],
-    "Explanation": "The number of people migrating from the West Indies, India, Pakistan and what is now Bangladesh fell in the late 1960s because the government passed new laws to restrict immigration to Britain."
-  },
-  {
-    "Question": "What new requirement was introduced for immigrants to Britain in the late 1960s?",
-    "RightAnswer": "A strong connection to Britain through birth or ancestry",
-    "WrongAnswers": [
-      "Fluency in English language",
-      "A university degree",
-      "Substantial financial assets"
-    ],
-    "Explanation": "Immigrants were required to have a strong connection to Britain through birth or ancestry."
-  },
-  {
     "Question": "How many people of Indian origin from Uganda were admitted to Britain in the early 1970s?",
     "RightAnswer": "28,000",
     "WrongAnswers": [
-      "10,000",
-      "50,000",
-      "100,000"
+      "38,000",
+      "48,000",
+      "68,000"
     ],
     "Explanation": "Even so, during the early 1970s, Britain admitted 28,000 people of Indian origin who had been forced to leave Uganda."
   },
@@ -17284,27 +15540,7 @@
     "Explanation": "In the late 1970s, the post-war economic boom came to an end."
   },
   {
-    "Question": "What economic issue began to occur with goods and raw materials in the late 1970s?",
-    "RightAnswer": "Prices began to rise sharply",
-    "WrongAnswers": [
-      "Prices began to fall dramatically",
-      "Supply shortages occurred",
-      "Demand decreased significantly"
-    ],
-    "Explanation": "Prices of goods and raw materials began to rise sharply and the exchange rate between the pound and other currencies was unstable."
-  },
-  {
-    "Question": "What problem occurred with the exchange rate of the pound in the late 1970s?",
-    "RightAnswer": "It became unstable",
-    "WrongAnswers": [
-      "It became fixed",
-      "It strengthened significantly",
-      "It was abolished"
-    ],
-    "Explanation": "Prices of goods and raw materials began to rise sharply and the exchange rate between the pound and other currencies was unstable."
-  },
-  {
-    "Question": "What economic issue was caused by the unstable exchange rate and rising prices?",
+    "Question": "What economic issue was caused by the unstable exchange rate and rising prices in the late 1970s?",
     "RightAnswer": "Problems with the 'balance of payments'",
     "WrongAnswers": [
       "Hyperinflation",
@@ -17334,16 +15570,6 @@
     "Explanation": "In the late 1970s, many industries and services were affected by strikes and this caused problems between the trade unions and the government."
   },
   {
-    "Question": "What relationship was strained due to the strikes in the late 1970s?",
-    "RightAnswer": "Between trade unions and the government",
-    "WrongAnswers": [
-      "Between workers and managers",
-      "Between different industries",
-      "Between the UK and other countries"
-    ],
-    "Explanation": "In the late 1970s, many industries and services were affected by strikes and this caused problems between the trade unions and the government."
-  },
-  {
     "Question": "What criticism began to emerge about trade unions in the late 1970s?",
     "RightAnswer": "They were too powerful",
     "WrongAnswers": [
@@ -17351,17 +15577,7 @@
       "They were corrupt",
       "They were obsolete"
     ],
-    "Explanation": "People began to argue that the unions were too powerful and that their activities were harming the UK."
-  },
-  {
-    "Question": "What was suspended in Northern Ireland in 1972?",
-    "RightAnswer": "The Northern Ireland Parliament",
-    "WrongAnswers": [
-      "The Good Friday Agreement",
-      "The Irish Republican Army",
-      "The Ulster Defence Association"
-    ],
-    "Explanation": "In 1972, the Northern Ireland Parliament was suspended and Northern Ireland was directly ruled by the UK government."
+    "Explanation": "In the late 1970s, many industries and services were affected by strikes and this caused problems between the trade unions and the government. People began to argue that the unions were too powerful and that their activities were harming the UK."
   },
   {
     "Question": "How was Northern Ireland governed after the suspension of its parliament in 1972?",
@@ -17392,86 +15608,6 @@
       "1965"
     ],
     "Explanation": "Some 3,000 people lost their lives in the decades after 1969 in the violence in Northern Ireland."
-  },
-  {
-    "Question": "Where was Mary Peters born?",
-    "RightAnswer": "Manchester",
-    "WrongAnswers": [
-      "Belfast",
-      "London",
-      "Dublin"
-    ],
-    "Explanation": "Born in Manchester, Mary Peters moved to Northern Ireland as a child."
-  },
-  {
-    "Question": "Where did Mary Peters move to as a child?",
-    "RightAnswer": "Northern Ireland",
-    "WrongAnswers": [
-      "Scotland",
-      "Wales",
-      "Republic of Ireland"
-    ],
-    "Explanation": "Born in Manchester, Mary Peters moved to Northern Ireland as a child."
-  },
-  {
-    "Question": "In which Olympic event did Mary Peters win a gold medal?",
-    "RightAnswer": "Pentathlon",
-    "WrongAnswers": [
-      "Marathon",
-      "Long jump",
-      "100m sprint"
-    ],
-    "Explanation": "She was a talented athlete who won an Olympic gold medal in the pentathlon in 1972."
-  },
-  {
-    "Question": "In which year did Mary Peters win her Olympic gold medal?",
-    "RightAnswer": "1972",
-    "WrongAnswers": [
-      "1968",
-      "1976",
-      "1980"
-    ],
-    "Explanation": "She was a talented athlete who won an Olympic gold medal in the pentathlon in 1972."
-  },
-  {
-    "Question": "What role did Mary Peters take on for the British Olympic team?",
-    "RightAnswer": "Team manager for the women's team",
-    "WrongAnswers": [
-      "Coach for the men's team",
-      "Physiotherapist",
-      "Nutritionist"
-    ],
-    "Explanation": "After this, she raised money for local athletics and became the team manager for the women's British Olympic team."
-  },
-  {
-    "Question": "What did Mary Peters do for local athletics after her Olympic win?",
-    "RightAnswer": "Raised money",
-    "WrongAnswers": [
-      "Coached young athletes",
-      "Built new facilities",
-      "Organized competitions"
-    ],
-    "Explanation": "After this, she raised money for local athletics and became the team manager for the women's British Olympic team."
-  },
-  {
-    "Question": "What does Mary Peters continue to promote in Northern Ireland?",
-    "RightAnswer": "Sport and tourism",
-    "WrongAnswers": [
-      "Education and technology",
-      "Agriculture and farming",
-      "Arts and culture"
-    ],
-    "Explanation": "She continues to promote sport and tourism in Northern Ireland and was made a Dame of the British Empire in 2000 in recognition of her work."
-  },
-  {
-    "Question": "In which year was Mary Peters made a Dame of the British Empire?",
-    "RightAnswer": "2000",
-    "WrongAnswers": [
-      "1990",
-      "2010",
-      "1980"
-    ],
-    "Explanation": "She continues to promote sport and tourism in Northern Ireland and was made a Dame of the British Empire in 2000 in recognition of her work."
   },
   {
     "Question": "What honor was bestowed upon Mary Peters in recognition of her work?",
@@ -17554,26 +15690,6 @@
     "Explanation": "The Brexit referendum took place in 2016, and the UK officially left the EU in 2020."
   },
   {
-    "Question": "How many years after the Brexit referendum did the UK officially leave the EU?",
-    "RightAnswer": "4",
-    "WrongAnswers": [
-      "2",
-      "3",
-      "5"
-    ],
-    "Explanation": "The Brexit referendum took place in 2016, and the UK officially left the EU in 2020."
-  },
-  {
-    "Question": "Where was Margaret Thatcher born?",
-    "RightAnswer": "Grantham in Lincolnshire",
-    "WrongAnswers": [
-      "London",
-      "Manchester",
-      "Birmingham"
-    ],
-    "Explanation": "Margaret Thatcher was the daughter of a grocer from Grantham in Lincolnshire."
-  },
-  {
     "Question": "What was Margaret Thatcher's father's occupation?",
     "RightAnswer": "Grocer",
     "WrongAnswers": [
@@ -17620,16 +15736,6 @@
       "1970",
       "1979",
       "1982"
-    ],
-    "Explanation": "In 1975 Margaret Thatcher was elected as Leader of the Conservative Party and so became Leader of the Opposition."
-  },
-  {
-    "Question": "What position did Margaret Thatcher hold after becoming Leader of the Conservative Party?",
-    "RightAnswer": "Leader of the Opposition",
-    "WrongAnswers": [
-      "Prime Minister",
-      "Foreign Secretary",
-      "Speaker of the House"
     ],
     "Explanation": "In 1975 Margaret Thatcher was elected as Leader of the Conservative Party and so became Leader of the Opposition."
   },
@@ -17724,46 +15830,6 @@
     "Explanation": "Roald Dahl was born in Wales to Norwegian parents."
   },
   {
-    "Question": "What was the nationality of Roald Dahl's parents?",
-    "RightAnswer": "Norwegian",
-    "WrongAnswers": [
-      "Welsh",
-      "English",
-      "Scottish"
-    ],
-    "Explanation": "Roald Dahl was born in Wales to Norwegian parents."
-  },
-  {
-    "Question": "In which military branch did Roald Dahl serve during the Second World War?",
-    "RightAnswer": "Royal Air Force",
-    "WrongAnswers": [
-      "Royal Navy",
-      "British Army",
-      "Royal Marines"
-    ],
-    "Explanation": "He served in the Royal Air Force during the Second World War."
-  },
-  {
-    "Question": "During which war did Roald Dahl serve in the Royal Air Force?",
-    "RightAnswer": "Second World War",
-    "WrongAnswers": [
-      "First World War",
-      "Korean War",
-      "Falklands War"
-    ],
-    "Explanation": "He served in the Royal Air Force during the Second World War."
-  },
-  {
-    "Question": "In which decade did Roald Dahl begin to publish books and short stories?",
-    "RightAnswer": "1940s",
-    "WrongAnswers": [
-      "1930s",
-      "1950s",
-      "1960s"
-    ],
-    "Explanation": "It was during the 1940s that he began to publish books and short stories."
-  },
-  {
     "Question": "What type of literature is Roald Dahl most well known for?",
     "RightAnswer": "Children's books",
     "WrongAnswers": [
@@ -17771,37 +15837,7 @@
       "Poetry",
       "Non-fiction"
     ],
-    "Explanation": "He is most well known for his children's books, although he also wrote for adults."
-  },
-  {
-    "Question": "Which of the following is one of Roald Dahl's best-known works?",
-    "RightAnswer": "Charlie and the Chocolate Factory",
-    "WrongAnswers": [
-      "The BFG",
-      "Matilda",
-      "James and the Giant Peach"
-    ],
-    "Explanation": "His best-known works include Charlie and the Chocolate Factory and George's Marvellous Medicine."
-  },
-  {
-    "Question": "Which of these is mentioned as one of Roald Dahl's best-known works?",
-    "RightAnswer": "George's Marvellous Medicine",
-    "WrongAnswers": [
-      "The Witches",
-      "Fantastic Mr Fox",
-      "The Twits"
-    ],
-    "Explanation": "His best-known works include Charlie and the Chocolate Factory and George's Marvellous Medicine."
-  },
-  {
-    "Question": "In which year was the Labour Party led by Tony Blair elected?",
-    "RightAnswer": "1997",
-    "WrongAnswers": [
-      "1995",
-      "1999",
-      "2001"
-    ],
-    "Explanation": "In 1997 the Labour Party led by Tony Blair was elected."
+    "Explanation": "Roald Dahl was born in Wales to Norwegian parents. He served in the Royal Air Force during the Second World War. He served in the Royal Air Force during the Second World War. He is most well known for his children's books, although he also wrote for adults. His best-known works include Charlie and the Chocolate Factory and George's Marvellous Medicine."
   },
   {
     "Question": "Who led the Labour Party to election victory in 1997?",
@@ -17814,16 +15850,6 @@
     "Explanation": "In 1997 the Labour Party led by Tony Blair was elected."
   },
   {
-    "Question": "Which political party came to power in the UK in 1997?",
-    "RightAnswer": "Labour Party",
-    "WrongAnswers": [
-      "Conservative Party",
-      "Liberal Democrats",
-      "Scottish National Party"
-    ],
-    "Explanation": "In 1997 the Labour Party led by Tony Blair was elected."
-  },
-  {
     "Question": "What two legislative bodies did the Blair government introduce?",
     "RightAnswer": "Scottish Parliament and Welsh Assembly",
     "WrongAnswers": [
@@ -17831,27 +15857,7 @@
       "Welsh Parliament and Northern Irish Assembly",
       "English Parliament and Irish Assembly"
     ],
-    "Explanation": "The Blair government introduced a Scottish Parliament and a Welsh Assembly."
-  },
-  {
-    "Question": "Which of the newly introduced legislative bodies was given substantial powers to legislate?",
-    "RightAnswer": "Scottish Parliament",
-    "WrongAnswers": [
-      "Welsh Assembly",
-      "Northern Ireland Assembly",
-      "English Parliament"
-    ],
-    "Explanation": "The Scottish Parliament has substantial powers to legislate. The Welsh Assembly was given fewer legislative powers but considerable control over public services."
-  },
-  {
-    "Question": "What powers were given to the Welsh Assembly?",
-    "RightAnswer": "Fewer legislative powers but considerable control over public services",
-    "WrongAnswers": [
-      "Substantial powers to legislate",
-      "Full control over foreign policy",
-      "Complete autonomy in taxation"
-    ],
-    "Explanation": "The Welsh Assembly was given fewer legislative powers but considerable control over public services."
+    "Explanation": "The Blair government introduced a Scottish Parliament and a Welsh Assembly. The Scottish Parliament has substantial powers to legislate. The Welsh Assembly was given fewer legislative powers but considerable control over public services."
   },
   {
     "Question": "What significant agreement was signed in Northern Ireland in 1998?",
@@ -17904,16 +15910,6 @@
     "Explanation": "Most paramilitary groups in Northern Ireland have decommissioned their arms and are inactive."
   },
   {
-    "Question": "Who took over as Prime Minister in 2007?",
-    "RightAnswer": "Gordon Brown",
-    "WrongAnswers": [
-      "Tony Blair",
-      "David Cameron",
-      "Theresa May"
-    ],
-    "Explanation": "Gordon Brown took over as Prime Minister in 2007."
-  },
-  {
     "Question": "In which year did Gordon Brown lose the general election?",
     "RightAnswer": "2010",
     "WrongAnswers": [
@@ -17924,16 +15920,6 @@
     "Explanation": "Gordon Brown took over as Prime Minister in 2007. He lost the general election in 2010."
   },
   {
-    "Question": "In which year did the Iraqi invasion of Kuwait occur?",
-    "RightAnswer": "1990",
-    "WrongAnswers": [
-      "1991",
-      "1995",
-      "1989"
-    ],
-    "Explanation": "Throughout the 1990s, Britain played a leading role in coalition forces involved in the liberation of Kuwait, following the Iraqi invasion in 1990, and the conflict in the Former Republic of Yugoslavia."
-  },
-  {
     "Question": "Which country did Britain help liberate in the early 1990s?",
     "RightAnswer": "Kuwait",
     "WrongAnswers": [
@@ -17942,46 +15928,6 @@
       "Afghanistan"
     ],
     "Explanation": "Throughout the 1990s, Britain played a leading role in coalition forces involved in the liberation of Kuwait, following the Iraqi invasion in 1990, and the conflict in the Former Republic of Yugoslavia."
-  },
-  {
-    "Question": "In which former country did Britain participate in a conflict during the 1990s?",
-    "RightAnswer": "Former Republic of Yugoslavia",
-    "WrongAnswers": [
-      "Soviet Union",
-      "Czechoslovakia",
-      "East Germany"
-    ],
-    "Explanation": "Throughout the 1990s, Britain played a leading role in coalition forces involved in the liberation of Kuwait, following the Iraqi invasion in 1990, and the conflict in the Former Republic of Yugoslavia."
-  },
-  {
-    "Question": "What role did Britain play in coalition forces during the 1990s?",
-    "RightAnswer": "A leading role",
-    "WrongAnswers": [
-      "A minor role",
-      "No role",
-      "An observational role"
-    ],
-    "Explanation": "Throughout the 1990s, Britain played a leading role in coalition forces involved in the liberation of Kuwait, following the Iraqi invasion in 1990, and the conflict in the Former Republic of Yugoslavia."
-  },
-  {
-    "Question": "Since 2000, what has been one of the main focuses of British armed forces?",
-    "RightAnswer": "The global fight against international terrorism",
-    "WrongAnswers": [
-      "Peacekeeping in Africa",
-      "Disaster relief in Asia",
-      "Border protection in Europe"
-    ],
-    "Explanation": "Since 2000, British armed forces have been engaged in the global fight against international terrorism and against the proliferation of weapons of mass destruction, including operations in Afghanistan and Iraq."
-  },
-  {
-    "Question": "What is another major focus of British armed forces since 2000, besides fighting terrorism?",
-    "RightAnswer": "Fighting against the proliferation of weapons of mass destruction",
-    "WrongAnswers": [
-      "Combating climate change",
-      "Promoting democracy",
-      "Expanding trade relations"
-    ],
-    "Explanation": "Since 2000, British armed forces have been engaged in the global fight against international terrorism and against the proliferation of weapons of mass destruction, including operations in Afghanistan and Iraq."
   },
   {
     "Question": "In which two countries has Britain conducted military operations since 2000?",
@@ -18004,36 +15950,6 @@
     "Explanation": "British combat troops left Iraq in 2009."
   },
   {
-    "Question": "In which year did the coalition government in the UK begin?",
-    "RightAnswer": "2010",
-    "WrongAnswers": [
-      "2008",
-      "2012",
-      "2015"
-    ],
-    "Explanation": "There was a coalition government from 2010 to 2015."
-  },
-  {
-    "Question": "How long did the coalition government last?",
-    "RightAnswer": "5 years",
-    "WrongAnswers": [
-      "3 years",
-      "7 years",
-      "10 years"
-    ],
-    "Explanation": "There was a coalition government from 2010 to 2015."
-  },
-  {
-    "Question": "When was the last time before 2010 that no political party won an overall majority in the UK General Election?",
-    "RightAnswer": "February 1974",
-    "WrongAnswers": [
-      "May 1997",
-      "June 1983",
-      "April 1992"
-    ],
-    "Explanation": "In May 2010, and for the first time in the UK since February 1974, no political party won an overall majority in the General Election."
-  },
-  {
     "Question": "Which two parties formed the coalition government in 2010?",
     "RightAnswer": "Conservative and Liberal Democrat",
     "WrongAnswers": [
@@ -18041,7 +15957,7 @@
       "Conservative and Labour",
       "Green Party and Liberal Democrat"
     ],
-    "Explanation": "The Conservative and Liberal Democrat parties formed a coalition and the leader of the Conservative Party, David Cameron, became Prime Minister."
+    "Explanation": "In May 2010, and for the first time in the UK since February 1974, no political party won an overall majority in the General Election. The Conservative and Liberal Democrat parties formed a coalition and the leader of the Conservative Party, David Cameron, became Prime Minister."
   },
   {
     "Question": "Who became Prime Minister in the 2010 coalition government?",
@@ -18054,52 +15970,12 @@
     "Explanation": "The Conservative and Liberal Democrat parties formed a coalition and the leader of the Conservative Party, David Cameron, became Prime Minister."
   },
   {
-    "Question": "Which party did David Cameron lead in the 2010 coalition?",
-    "RightAnswer": "Conservative Party",
-    "WrongAnswers": [
-      "Liberal Democrat Party",
-      "Labour Party",
-      "Green Party"
-    ],
-    "Explanation": "The Conservative and Liberal Democrat parties formed a coalition and the leader of the Conservative Party, David Cameron, became Prime Minister."
-  },
-  {
-    "Question": "In which month of 2010 did no political party win an overall majority in the UK General Election?",
-    "RightAnswer": "May",
-    "WrongAnswers": [
-      "January",
-      "August",
-      "December"
-    ],
-    "Explanation": "In May 2010, and for the first time in the UK since February 1974, no political party won an overall majority in the General Election."
-  },
-  {
     "Question": "How many prime ministers served during the Conservative Government from 2015 to 2024?",
     "RightAnswer": "5",
     "WrongAnswers": [
       "3",
       "4",
       "6"
-    ],
-    "Explanation": "The Conservative Government, which governed the United Kingdom from 2015 to 2024, saw multiple prime ministers, including David Cameron, Theresa May, Boris Johnson, Liz Truss, and Rishi Sunak."
-  },
-  {
-    "Question": "Who was the first prime minister of the Conservative Government from 2015 to 2024?",
-    "RightAnswer": "David Cameron",
-    "WrongAnswers": [
-      "Theresa May",
-      "Boris Johnson",
-      "Rishi Sunak"
-    ],
-    "Explanation": "The Conservative Government, which governed the United Kingdom from 2015 to 2024, saw multiple prime ministers, including David Cameron, Theresa May, Boris Johnson, Liz Truss, and Rishi Sunak."
-  },
-  {
-    "Question": "Who was the last prime minister of the Conservative Government from 2015 to 2024?",
-    "RightAnswer": "Rishi Sunak",
-    "WrongAnswers": [
-      "Boris Johnson",
-      "Liz Truss",
-      "Theresa May"
     ],
     "Explanation": "The Conservative Government, which governed the United Kingdom from 2015 to 2024, saw multiple prime ministers, including David Cameron, Theresa May, Boris Johnson, Liz Truss, and Rishi Sunak."
   },
@@ -18122,26 +15998,6 @@
       "Economic boom"
     ],
     "Explanation": "During this period, significant events included the 2016 EU membership referendum (Brexit), leadership changes, and handling of the COVID-19 pandemic."
-  },
-  {
-    "Question": "When did Rishi Sunak call for a general election?",
-    "RightAnswer": "July 4, 2024",
-    "WrongAnswers": [
-      "June 1, 2024",
-      "August 15, 2024",
-      "May 5, 2024"
-    ],
-    "Explanation": "Despite reshuffling his cabinet and local election losses, Rishi Sunak has called for a general election on July 4, 2024."
-  },
-  {
-    "Question": "Which political parties made substantial gains during the Conservative Government's tenure from 2015 to 2024?",
-    "RightAnswer": "Labour, the Liberal Democrats, and the Greens",
-    "WrongAnswers": [
-      "UKIP, SNP, and Plaid Cymru",
-      "Brexit Party, DUP, and Sinn Fein",
-      "Conservative, Reform UK, and Alliance"
-    ],
-    "Explanation": "The Conservative Party's popularity declined during this time, while Labour, the Liberal Democrats, and the Greens made substantial gains."
   },
   {
     "Question": "Who led the Labour party to victory in the 2024 general election?",
