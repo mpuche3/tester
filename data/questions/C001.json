@@ -1,0 +1,162 @@
+[
+    {
+        "Question": "What is the official name of the UK?",
+        "RightAnswer": "The United Kingdom of Great Britain and Northern Ireland",
+        "WrongAnswers": [
+            "The United Kingdom of England, Scotland, Wales and Northern Ireland",
+            "Great Britain and Northern Ireland",
+            "The Kingdom of Britain"
+        ],
+        "Explanation": "The official name of the country is the United Kingdom of Great Britain and Northern Ireland. ‘Great Britain’ refers only to England, Scotland and Wales, not to Northern Ireland."
+    },
+    {
+        "Question": "What does 'Great Britain' refer to?",
+        "RightAnswer": "England, Scotland and Wales",
+        "WrongAnswers": [
+            "England and Scotland only",
+            "England, Scotland, Wales, and Northern Ireland",
+            "Scotland and Wales only"
+        ],
+        "Explanation": "‘Great Britain’ refers only to England, Scotland and Wales, not to Northern Ireland. The words ‘Britain’, Isles’ or ‘British’, however, are used in this book to refer to everyone in the UK."
+    },
+    {
+        "Question": "Which of the following is a Crown dependency closely linked with the UK but not part of it?",
+        "RightAnswer": "Isle of Man",
+        "WrongAnswers": [
+            "Scotland",
+            "Wales",
+            "Northern Ireland"
+        ],
+        "Explanation": "There are also several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man. These have their own governments and are called ‘Crown dependencies’."
+    },
+    {
+        "Question": "Which of the following is a British overseas territory?",
+        "RightAnswer": "St Helena",
+        "WrongAnswers": [
+            "Channel Islands",
+            "Isle of Man",
+            "Scotland"
+        ],
+        "Explanation": "There are also several British overseas territories in other parts of the world, such as St Helena and the Falkland Islands. They are also linked to the UK but are not a part of it."
+    },
+    {
+        "Question": "Which of the following is a British overseas territory?",
+        "RightAnswer": "Falkland Islands",
+        "WrongAnswers": [
+            "Wales",
+            "Northern Ireland",
+            "Isle of Man"
+        ],
+        "Explanation": "There are also several British overseas territories in other parts of the world, such as St Helena and the Falkland Islands. They are also linked to the UK but are not a part of it."
+    },
+    {
+        "Question": "Where does the UK parliament sit?",
+        "RightAnswer": "Westminster",
+        "WrongAnswers": [
+            "Edinburgh",
+            "Cardiff",
+            "Belfast"
+        ],
+        "Explanation": "The UK is governed by the parliament sitting in Westminster. Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas."
+    },
+    {
+        "Question": "Which of the following regions does NOT have its own parliament or assembly with devolved powers?",
+        "RightAnswer": "England",
+        "WrongAnswers": [
+            "Scotland",
+            "Wales",
+            "Northern Ireland"
+        ],
+        "Explanation": "Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas."
+    },
+    {
+        "Question": "Which part of the UK is not included in 'Great Britain'?",
+        "RightAnswer": "Northern Ireland",
+        "WrongAnswers": [
+            "Scotland",
+            "Wales",
+            "England"
+        ],
+        "Explanation": "‘Great Britain’ refers only to England, Scotland and Wales, not to Northern Ireland."
+    },
+    {
+        "Question": "How many countries make up the United Kingdom?",
+        "RightAnswer": "Four",
+        "WrongAnswers": [
+            "Three",
+            "Five",
+            "Two"
+        ],
+        "Explanation": "The countries that make up the UK: England, Scotland, Wales and Northern Ireland. The UK is made up of England, Scotland, Wales and Northern Ireland."
+    },
+    {
+        "Question": "Which part of Ireland is included in the United Kingdom?",
+        "RightAnswer": "Northern Ireland",
+        "WrongAnswers": [
+            "The Republic of Ireland",
+            "Both Northern Ireland and the Republic of Ireland",
+            "None of Ireland"
+        ],
+        "Explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland. The rest of Ireland is an independent country."
+    },
+    {
+        "Question": "Which legislative body has devolved powers in Scotland, Wales, and Northern Ireland?",
+        "RightAnswer": "Their own parliaments or assemblies",
+        "WrongAnswers": [
+            "The UK Parliament",
+            "The European Parliament",
+            "Local councils"
+        ],
+        "Explanation": "Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas."
+    },
+    {
+        "Question": "Which of the following is considered a Crown dependency?",
+        "RightAnswer": "Isle of Man",
+        "WrongAnswers": [
+            "Falkland Islands",
+            "Northern Ireland",
+            "England"
+        ],
+        "Explanation": "There are also several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man. These have their own governments and are called ‘Crown dependencies’."
+    },
+    {
+        "Question": "Which of the following is a British overseas territory?",
+        "RightAnswer": "St Helena",
+        "WrongAnswers": [
+            "Isle of Man",
+            "Scotland",
+            "Channel Islands"
+        ],
+        "Explanation": "There are also several British overseas territories in other parts of the world, such as St Helena and the Falkland Islands. They are also linked to the UK but are not a part of it."
+    },
+    {
+        "Question": "Where is the UK parliament located?",
+        "RightAnswer": "Westminster",
+        "WrongAnswers": [
+            "Edinburgh",
+            "Cardiff",
+            "Belfast"
+        ],
+        "Explanation": "The UK is governed by the parliament sitting in Westminster. Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas."
+    },
+    {
+        "Question": "Which of the following is NOT part of Great Britain?",
+        "RightAnswer": "Northern Ireland",
+        "WrongAnswers": [
+            "England",
+            "Scotland",
+            "Wales"
+        ],
+        "Explanation": "‘Great Britain’ refers only to England, Scotland and Wales, not to Northern Ireland."
+    },
+    {
+        "Question": "Which of the following is a British overseas territory linked to the UK but not part of it?",
+        "RightAnswer": "Falkland Islands",
+        "WrongAnswers": [
+            "Channel Islands",
+            "England",
+            "Wales"
+        ],
+        "Explanation": "There are also several British overseas territories in other parts of the world, such as St Helena and the Falkland Islands. They are also linked to the UK but are not a part of it."
+    }
+]

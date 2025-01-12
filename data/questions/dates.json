@@ -1,1462 +1,1932 @@
 [
-    {
-      "Question": "Approximately how many years ago did Britain become permanently separated from the continent by the Channel?",
-      "RightAnswer": "10,000 years ago",
-      "WrongAnswers": [
-        "5,000 years ago",
-        "15,000 years ago",
-        "20,000 years ago"
-      ],
-      "Explanation": "Britain only became permanently separated from the continent by the Channel about 10,000 years ago."
-    },
-    {
-      "Question": "Approximately how many years ago did the first farmers arrive in Britain?",
-      "RightAnswer": "6,000 years ago",
-      "WrongAnswers": [
-        "5,000 years ago",
-        "7,000 years ago",
-        "8,000 years ago"
-      ],
-      "Explanation": "The first farmers arrived in Britain about 6,000 years ago. The ancestors of these first farmers probably came from south-east Europe."
-    },
-    {
-      "Question": "Approximately how many years ago did people learn to make bronze, marking the beginning of the Bronze Age?",
-      "RightAnswer": "4,000 years ago",
-      "WrongAnswers": [
-        "3,000 years ago",
-        "5,000 years ago",
-        "2,000 years ago"
-      ],
-      "Explanation": "Around 4,000 years ago, people learned to make bronze. We call this period the Bronze Age. People lived in roundhouses and buried their dead in tombs called round barrows."
-    },
-    {
-      "Question": "In which year did Julius Caesar lead a Roman invasion of Britain?",
-      "RightAnswer": "55 BC",
-      "WrongAnswers": [
-        "54 BC",
-        "56 BC",
-        "53 BC"
-      ],
-      "Explanation": "Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful and for nearly 100 years Britain remained separate from the Roman Empire."
-    },
-    {
-      "Question": "In which year did Emperor Claudius lead the Roman army in a new invasion of Britain?",
-      "RightAnswer": "AD 43",
-      "WrongAnswers": [
-        "AD 50",
-        "AD 40",
-        "AD 45"
-      ],
-      "Explanation": "In AD 43 the Emperor Claudius led the Roman army in a new invasion. This time, there was resistance from some of the British tribes but the Romans were successful in occupying almost all of Britain."
-    },
-    {
-      "Question": "In which century did the first Christian communities begin to appear in Britain?",
-      "RightAnswer": "3rd century AD",
-      "WrongAnswers": [
-        "2nd century AD",
-        "5th century AD",
-        "6th century AD"
-      ],
-      "Explanation": "It was during the 3rd and 4th centuries AD that the first Christian communities began to appear in Britain."
-    },
-    {
-      "Question": "In which century did the first Christian communities continue to appear in Britain?",
-      "RightAnswer": "4th century AD",
-      "WrongAnswers": [
-        "2nd century AD",
-        "5th century AD",
-        "6th century AD"
-      ],
-      "Explanation": "It was during the 3rd and 4th centuries AD that the first Christian communities began to appear in Britain."
-    },
-    {
-      "Question": "In which year did the Roman army leave Britain to defend other parts of the Roman Empire?",
-      "RightAnswer": "AD 410",
-      "WrongAnswers": [
-        "AD 400",
-        "AD 420",
-        "AD 430"
-      ],
-      "Explanation": "The Roman army left Britain in AD 410 to defend other parts of the Roman Empire and never returned. Britain was again invaded by tribes from northern Europe: the Jutes, the Angles and the Saxons."
-    },
-    {
-      "Question": "By which year were Anglo-Saxon kingdoms established in Britain?",
-      "RightAnswer": "AD 600",
-      "WrongAnswers": [
-        "AD 500",
-        "AD 700",
-        "AD 650"
-      ],
-      "Explanation": "Battles were fought against these invaders but, by about AD 600, Anglo-Saxon kingdoms were established in Britain. These kingdoms were mainly in what is now England."
-    },
-    {
-      "Question": "In which year did the Vikings first visit Britain to raid coastal towns?",
-      "RightAnswer": "AD 789",
-      "WrongAnswers": [
-        "AD 800",
-        "AD 750",
-        "AD 820"
-      ],
-      "Explanation": "The Vikings came from Denmark and Norway. They first visited Britain in AD 789 to raid coastal towns and take away goods and slaves."
-    },
-    {
-      "Question": "In which year did the Battle of Hastings take place?",
-      "RightAnswer": "1066",
-      "WrongAnswers": [
-        "1055",
-        "1070",
-        "1080"
-      ],
-      "Explanation": "In 1066, an invasion led by William, the Duke of Normandy (in what is now northern France), defeated Harold, the Saxon king of England, at the Battle of Hastings."
-    },
-    {
-      "Question": "In which year did the Norman Conquest occur?",
-      "RightAnswer": "1066",
-      "WrongAnswers": [
-        "1055",
-        "1070",
-        "1080"
-      ],
-      "Explanation": "The period after the Norman Conquest (1066) up until about 1485 is called the Middle Ages (or the medieval period). It was a time of almost constant war."
-    },
-    {
-      "Question": "Until which year is the Middle Ages period considered to have lasted?",
-      "RightAnswer": "1485",
-      "WrongAnswers": [
-        "1450",
-        "1500",
-        "1475"
-      ],
-      "Explanation": "The period after the Norman Conquest (1066) up until about 1485 is called the Middle Ages (or the medieval period). It was a time of almost constant war."
-    },
-    {
-      "Question": "In which year did King Edward I introduce the Statute of Rhuddlan?",
-      "RightAnswer": "1284",
-      "WrongAnswers": [
-        "1275",
-        "1290",
-        "1280"
-      ],
-      "Explanation": "In 1284 King Edward I of England introduced the Statute of Rhuddlan, which annexed Wales to the Crown of England. Huge castles, including Conwy and Caernarvon, were built to maintain this power."
-    },
-    {
-      "Question": "By the middle of which century were the last Welsh rebellions defeated?",
-      "RightAnswer": "15th century",
-      "WrongAnswers": [
-        "14th century",
-        "16th century",
-        "17th century"
-      ],
-      "Explanation": "By the middle of the 15th century the last Welsh rebellions had been defeated. English laws and the English language were introduced."
-    },
-    {
-      "Question": "In which year did the Scottish, led by Robert the Bruce, defeat the English at the Battle of Bannockburn?",
-      "RightAnswer": "1314",
-      "WrongAnswers": [
-        "1306",
-        "1320",
-        "1310"
-      ],
-      "Explanation": "In Scotland, the English kings were less successful. In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English."
-    },
-    {
-      "Question": "By which year did the English rule an area of Ireland known as the Pale?",
-      "RightAnswer": "1200",
-      "WrongAnswers": [
-        "1100",
-        "1300",
-        "1400"
-      ],
-      "Explanation": "By 1200, the English ruled an area of Ireland known as the Pale, around Dublin. Some of the important lords in other parts of Ireland accepted the authority of the English king."
-    },
-    {
-      "Question": "In which year did the Battle of Agincourt take place?",
-      "RightAnswer": "1415",
-      "WrongAnswers": [
-        "1420",
-        "1405",
-        "1430"
-      ],
-      "Explanation": "One of the most famous battles of the Hundred Years War was the Battle of Agincourt in 1415, where King Henry V\u2019s vastly outnumbered English army defeated the French. The English left France in the 1450s."
-    },
-    {
-      "Question": "In which decade did the English leave France after the Hundred Years War?",
-      "RightAnswer": "1450s",
-      "WrongAnswers": [
-        "1440s",
-        "1460s",
-        "1430s"
-      ],
-      "Explanation": "One of the most famous battles of the Hundred Years War was the Battle of Agincourt in 1415, where King Henry V\u2019s vastly outnumbered English army defeated the French. The English left France in the 1450s."
-    },
-    {
-      "Question": "In which year did the Black Death arrive in Britain?",
-      "RightAnswer": "1348",
-      "WrongAnswers": [
-        "1350",
-        "1345",
-        "1352"
-      ],
-      "Explanation": "In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death. One third of the population of England died and a similar proportion in Scotland and Wales."
-    },
-    {
-      "Question": "In which year was King John forced to agree to the Magna Carta?",
-      "RightAnswer": "1215",
-      "WrongAnswers": [
-        "1200",
-        "1220",
-        "1230"
-      ],
-      "Explanation": "There were few formal limits to the king\u2019s power until 1215. In that year (1215), King John was forced by his noblemen to agree to a number of demands. The result was a charter of rights called the Magna Carta (which means the Great Charter). The Magna Carta established the idea that even the king was subject to the law."
-    },
-    {
-      "Question": "By which year were official documents in England being written in English?",
-      "RightAnswer": "1400",
-      "WrongAnswers": [
-        "1300",
-        "1450",
-        "1350"
-      ],
-      "Explanation": "By 1400, in England, official documents were being written in English, and English had become the preferred language of the royal court and Parliament."
-    },
-    {
-      "Question": "In which year did Geoffrey Chaucer write a series of poems about a pilgrimage to Canterbury?",
-      "RightAnswer": "1400",
-      "WrongAnswers": [
-        "1380",
-        "1420",
-        "1450"
-      ],
-      "Explanation": "In the years leading up to 1400, Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. It was one of the first books to be printed by William Caxton, the first person in England to print books using a printing press."
-    },
-    {
-      "Question": "In which year did the Wars of the Roses begin?",
-      "RightAnswer": "1455",
-      "WrongAnswers": [
-        "1460",
-        "1445",
-        "1475"
-      ],
-      "Explanation": "In 1455, a civil war was begun to decide who should be king of England. This war was called the Wars of the Roses."
-    },
-    {
-      "Question": "In which year did the Battle of Bosworth Field take place, marking the end of the Wars of the Roses?",
-      "RightAnswer": "1485",
-      "WrongAnswers": [
-        "1483",
-        "1490",
-        "1475"
-      ],
-      "Explanation": "The Wars of the Roses ended with the Battle of Bosworth Field in 1485. King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
-    },
-    {
-      "Question": "In which year did the English defeat the Spanish Armada?",
-      "RightAnswer": "1588",
-      "WrongAnswers": [
-        "1585",
-        "1590",
-        "1578"
-      ],
-      "Explanation": "Elizabeth became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism."
-    },
-    {
-      "Question": "In which year did the Scottish Parliament abolish the authority of the Pope in Scotland?",
-      "RightAnswer": "1560",
-      "WrongAnswers": [
-        "1550",
-        "1570",
-        "1580"
-      ],
-      "Explanation": "In 1560, the predominantly Protestant Scottish Parliament abolished the authority of the Pope in Scotland and Roman Catholic religious services became illegal."
-    },
-    {
-      "Question": "In which year did Elizabeth I die, leading to James VI of Scotland inheriting the throne?",
-      "RightAnswer": "1603",
-      "WrongAnswers": [
-        "1599",
-        "1605",
-        "1610"
-      ],
-      "Explanation": "Elizabeth I never married and so had no children of her own to inherit her throne. When she died in 1603 her heir was her cousin James VI of Scotland."
-    },
-    {
-      "Question": "In which year did Charles recall Parliament to ask for funds?",
-      "RightAnswer": "1640",
-      "WrongAnswers": [
-        "1638",
-        "1642",
-        "1639"
-      ],
-      "Explanation": "A Scottish army was formed and Charles could not find the money he needed for his own army without the help of Parliament. In 1640, he recalled Parliament to ask it for funds."
-    },
-    {
-      "Question": "By which year was it clear that Parliament had won the war?",
-      "RightAnswer": "1646",
-      "WrongAnswers": [
-        "1645",
-        "1647",
-        "1648"
-      ],
-      "Explanation": "By 1646, it was clear that Parliament had won the war."
-    },
-    {
-      "Question": "In which year was Charles executed?",
-      "RightAnswer": "1649",
-      "WrongAnswers": [
-        "1648",
-        "1650",
-        "1647"
-      ],
-      "Explanation": "Charles was held prisoner by the parliamentary army. He was still unwilling to reach any agreement with Parliament and in 1649 he was executed."
-    },
-    {
-      "Question": "In which year did the revolt in Ireland begin, which Oliver Cromwell was sent to suppress?",
-      "RightAnswer": "1641",
-      "WrongAnswers": [
-        "1639",
-        "1643",
-        "1645"
-      ],
-      "Explanation": "One of its generals, Oliver Cromwell, was sent to Ireland, where the revolt which had begun in 1641 still continued and where there was still a Royalist army."
-    },
-    {
-      "Question": "In which year did Cromwell die, leading to his son Richard becoming Lord Protector?",
-      "RightAnswer": "1658",
-      "WrongAnswers": [
-        "1660",
-        "1655",
-        "1662"
-      ],
-      "Explanation": "He was given the title of Lord Protector and ruled until his death in 1658. When Cromwell died, his son, Richard, became Lord Protector in his place but was not able to control the army or the government."
-    },
-    {
-      "Question": "In which year did Parliament invite Charles II to return from exile?",
-      "RightAnswer": "1660",
-      "WrongAnswers": [
-        "1650",
-        "1670",
-        "1680"
-      ],
-      "Explanation": "In May 1660, Parliament invited Charles II to come back from exile in the Netherlands. He was crowned King Charles II of England, Wales, Scotland and Ireland."
-    },
-    {
-      "Question": "In which year did a major outbreak of plague occur in London during Charles II's reign?",
-      "RightAnswer": "1665",
-      "WrongAnswers": [
-        "1660",
-        "1670",
-        "1655"
-      ],
-      "Explanation": "During Charles II\u2019s reign, in 1665, there was a major outbreak of plague in London. Thousands of people died, especially in poorer areas."
-    },
-    {
-      "Question": "In which year did a great fire destroy much of London, including St Paul\u2019s Cathedral?",
-      "RightAnswer": "1666",
-      "WrongAnswers": [
-        "1665",
-        "1670",
-        "1668"
-      ],
-      "Explanation": "The following year (1666), a great fire destroyed much of the city, including many churches and St Paul\u2019s Cathedral. London was rebuilt with a new St Paul\u2019s, which was designed by a famous architect, Sir Christopher Wren. Samuel Pepys wrote about these events in a diary which was later published and is still read today."
-    },
-    {
-      "Question": "In which year did the Habeas Corpus Act become law?",
-      "RightAnswer": "1679",
-      "WrongAnswers": [
-        "1680",
-        "1675",
-        "1685"
-      ],
-      "Explanation": "The Habeas Corpus Act became law in 1679. This was a very important piece of legislation which remains relevant today. Habeas corpus is Latin for \u2018you must present the person in court\u2019."
-    },
-    {
-      "Question": "In which year did Charles II die?",
-      "RightAnswer": "1685",
-      "WrongAnswers": [
-        "1680",
-        "1690",
-        "1675"
-      ],
-      "Explanation": "Charles II had no legitimate children. He died in 1685 and his brother, James, who was a Roman Catholic, became King James II in England, Wales and Ireland and King James VII of Scotland."
-    },
-    {
-      "Question": "In which year did important Protestants in England ask William to invade England and proclaim himself king?",
-      "RightAnswer": "1688",
-      "WrongAnswers": [
-        "1690",
-        "1685",
-        "1692"
-      ],
-      "Explanation": "In 1688, important Protestants in England asked William to invade England and proclaim himself king. When William reached England, there was no resistance."
-    },
-    {
-      "Question": "In which year did William defeat James II at the Battle of the Boyne?",
-      "RightAnswer": "1690",
-      "WrongAnswers": [
-        "1688",
-        "1692",
-        "1695"
-      ],
-      "Explanation": "William defeated James II at the Battle of the Boyne in Ireland in 1690, an event which is still celebrated by some in Northern Ireland today. William re-conquered Ireland and James fled back to France."
-    },
-    {
-      "Question": "In which year was the Bill of Rights that confirmed the rights of Parliament and the limits of the king's power enacted?",
-      "RightAnswer": "1689",
-      "WrongAnswers": [
-        "1688",
-        "1690",
-        "1691"
-      ],
-      "Explanation": "The Bill of Rights (1689) confirmed the rights of Parliament and the limits of the king\u2019s power. Parliament took control of who could be monarch and declared that the king or queen must be a Protestant."
-    },
-    {
-      "Question": "In which year were newspapers allowed to operate without a government licence?",
-      "RightAnswer": "1695",
-      "WrongAnswers": [
-        "1700",
-        "1685",
-        "1690"
-      ],
-      "Explanation": "From 1695, newspapers were allowed to operate without a government licence. Increasing numbers of newspapers began to be published."
-    },
-    {
-      "Question": "In which year did the first Jews settle in London since the Middle Ages?",
-      "RightAnswer": "1656",
-      "WrongAnswers": [
-        "1645",
-        "1660",
-        "1672"
-      ],
-      "Explanation": "The first Jews to come to Britain since the Middle Ages settled in London in 1656."
-    },
-    {
-      "Question": "In which year was the Act of Union agreed, creating the Kingdom of Great Britain?",
-      "RightAnswer": "1707",
-      "WrongAnswers": [
-        "1710",
-        "1699",
-        "1720"
-      ],
-      "Explanation": "The Act of Union, known as the Treaty of Union in Scotland, was therefore agreed in 1707, creating the Kingdom of Great Britain. Although Scotland was no longer an independent country, it kept its own legal and education systems and Presbyterian Church."
-    },
-    {
-      "Question": "In which year did Queen Anne die?",
-      "RightAnswer": "1714",
-      "WrongAnswers": [
-        "1701",
-        "1720",
-        "1695"
-      ],
-      "Explanation": "When Queen Anne died in 1714, Parliament chose a German, George I, to be the next king, because he was Anne\u2019s nearest Protestant relative."
-    },
-    {
-      "Question": "In which year did Sir Robert Walpole become Prime Minister?",
-      "RightAnswer": "1721",
-      "WrongAnswers": [
-        "1715",
-        "1730",
-        "1725"
-      ],
-      "Explanation": "The first man to be called this was Sir Robert Walpole, who was Prime Minister from 1721 to 1742."
-    },
-    {
-      "Question": "In which year did Sir Robert Walpole's term as Prime Minister end?",
-      "RightAnswer": "1742",
-      "WrongAnswers": [
-        "1738",
-        "1745",
-        "1735"
-      ],
-      "Explanation": "The first man to be called this was Sir Robert Walpole, who was Prime Minister from 1721 to 1742."
-    },
-    {
-      "Question": "In which year was there an attempt to put a Stuart king back on the throne in place of George II?",
-      "RightAnswer": "1745",
-      "WrongAnswers": [
-        "1735",
-        "1750",
-        "1725"
-      ],
-      "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I\u2019s son, George II."
-    },
-    {
-      "Question": "In which year was the Battle of Culloden where Charles Edward Stuart was defeated?",
-      "RightAnswer": "1746",
-      "WrongAnswers": [
-        "1745",
-        "1747",
-        "1748"
-      ],
-      "Explanation": "Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland. He was supported by clansmen from the Scottish highlands and raised an army. Charles initially had some successes but was defeated by George II\u2019s army at the Battle of Culloden in 1746. Charles escaped back to Europe."
-    },
-    {
-      "Question": "In which century did the Enlightenment, characterized by new ideas about politics, philosophy, and science, occur?",
-      "RightAnswer": "18th century",
-      "WrongAnswers": [
-        "17th century",
-        "19th century",
-        "16th century"
-      ],
-      "Explanation": "During the 18th century, new ideas about politics, philosophy and science were developed. This is often called \u2018the Enlightenment\u2019. Before the 18th century, agriculture was the biggest source of employment in Britain."
-    },
-    {
-      "Question": "In which centuries did the Industrial Revolution occur in Britain?",
-      "RightAnswer": "18th and 19th centuries",
-      "WrongAnswers": [
-        "17th and 18th centuries",
-        "19th and 20th centuries",
-        "16th and 17th centuries"
-      ],
-      "Explanation": "The Industrial Revolution was the rapid development of industry in Britain in the 18th and 19th centuries. Britain was the first country to industrialise on a large scale."
-    },
-    {
-      "Question": "In which year did Mahomet open the Hindoostane Coffee House in London?",
-      "RightAnswer": "1810",
-      "WrongAnswers": [
-        "1805",
-        "1815",
-        "1820"
-      ],
-      "Explanation": "In 1810 Mahomet opened the Hindoostane Coffee House in George Street, London. It was the first curry house to open in Britain. Mahomet and his wife also introduced \u2018shampooing\u2019, the Indian art of head massage, to Britain."
-    },
-    {
-      "Question": "In which century were the first formal anti-slavery groups set up by the Quakers?",
-      "RightAnswer": "1700s",
-      "WrongAnswers": [
-        "1600s",
-        "1800s",
-        "1900s"
-      ],
-      "Explanation": "The first formal anti-slavery groups were set up by the Quakers in the late 1700s, and they petitioned Parliament to ban the practice. William Wilberforce, an evangelical Christian and a member of Parliament, also played an important part in changing the law."
-    },
-    {
-      "Question": "In which year did it become illegal to trade slaves in British ships or from British ports?",
-      "RightAnswer": "1807",
-      "WrongAnswers": [
-        "1810",
-        "1799",
-        "1820"
-      ],
-      "Explanation": "In 1807, it became illegal to trade slaves in British ships or from British ports, and in 1833 the Emancipation Act abolished slavery throughout the British Empire. The Royal Navy stopped slave ships from other countries, freed the slaves and punished the slave traders."
-    },
-    {
-      "Question": "In which year was the Emancipation Act that abolished slavery throughout the British Empire enacted?",
-      "RightAnswer": "1833",
-      "WrongAnswers": [
-        "1825",
-        "1840",
-        "1830"
-      ],
-      "Explanation": "In 1807, it became illegal to trade slaves in British ships or from British ports, and in 1833 the Emancipation Act abolished slavery throughout the British Empire. The Royal Navy stopped slave ships from other countries, freed the slaves and punished the slave traders."
-    },
-    {
-      "Question": "In which year did the employment of 2 million Indian and Chinese workers begin to replace freed slaves?",
-      "RightAnswer": "1833",
-      "WrongAnswers": [
-        "1820",
-        "1840",
-        "1850"
-      ],
-      "Explanation": "After 1833, 2 million Indian and Chinese workers were employed to replace the freed slaves. They worked on sugar plantations in the Caribbean, in mines in South Africa, on railways in East Africa and in the army in Kenya."
-    },
-    {
-      "Question": "In which year did the 13 American colonies declare their independence?",
-      "RightAnswer": "1776",
-      "WrongAnswers": [
-        "1783",
-        "1775",
-        "1781"
-      ],
-      "Explanation": "In 1776, 13 American colonies declared their independence, stating that people had a right to establish their own governments."
-    },
-    {
-      "Question": "In which year did Britain recognize the colonies' independence?",
-      "RightAnswer": "1783",
-      "WrongAnswers": [
-        "1776",
-        "1781",
-        "1790"
-      ],
-      "Explanation": "The colonists eventually defeated the British army and Britain recognised the colonies\u2019 independence in 1783."
-    },
-    {
-      "Question": "In which year did the revolution in France occur?",
-      "RightAnswer": "1789",
-      "WrongAnswers": [
-        "1792",
-        "1776",
-        "1804"
-      ],
-      "Explanation": "In 1789, there was a revolution in France and the new French government soon declared war on Britain."
-    },
-    {
-      "Question": "In which year did the Battle of Trafalgar take place?",
-      "RightAnswer": "1805",
-      "WrongAnswers": [
-        "1803",
-        "1807",
-        "1809"
-      ],
-      "Explanation": "Napoleon, who became Emperor of France, continued the war. Britain\u2019s navy fought against combined French and Spanish fleets, winning the Battle of Trafalgar in 1805."
-    },
-    {
-      "Question": "In which year did the French Wars end with the defeat of Napoleon at the Battle of Waterloo?",
-      "RightAnswer": "1815",
-      "WrongAnswers": [
-        "1812",
-        "1820",
-        "1805"
-      ],
-      "Explanation": "In 1815, the French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo. Wellington was known as the Iron Duke and later became Prime Minister."
-    },
-    {
-      "Question": "In which year did Ireland become unified with England, Scotland, and Wales?",
-      "RightAnswer": "1801",
-      "WrongAnswers": [
-        "1800",
-        "1802",
-        "1799"
-      ],
-      "Explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland."
-    },
-    {
-      "Question": "In which year was the Act of Union that led to the creation of the United Kingdom of Great Britain and Ireland passed?",
-      "RightAnswer": "1800",
-      "WrongAnswers": [
-        "1801",
-        "1798",
-        "1802"
-      ],
-      "Explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland."
-    },
-    {
-      "Question": "In which year was the first Union Flag created?",
-      "RightAnswer": "1606",
-      "WrongAnswers": [
-        "1707",
-        "1801",
-        "1500"
-      ],
-      "Explanation": "The Welsh dragon does not appear on the Union Flag because, when the first Union Flag was created in 1606 from the flags of Scotland and England, the Principality of Wales was already united with England."
-    },
-    {
-      "Question": "In which year did Queen Victoria become queen of the UK?",
-      "RightAnswer": "1837",
-      "WrongAnswers": [
-        "1840",
-        "1835",
-        "1845"
-      ],
-      "Explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18."
-    },
-    {
-      "Question": "In which year did the reign mentioned in the text end?",
-      "RightAnswer": "1901",
-      "WrongAnswers": [
-        "1899",
-        "1900",
-        "1902"
-      ],
-      "Explanation": "She reigned until 1901, almost 64 years."
-    },
-    {
-      "Question": "In which year were the Corn Laws repealed?",
-      "RightAnswer": "1846",
-      "WrongAnswers": [
-        "1832",
-        "1850",
-        "1825"
-      ],
-      "Explanation": "One example of this was the repealing of the Corn Laws in 1846. These had prevented the import of cheap grain. The reforms helped the development of British industry, because raw materials could now be imported more cheaply."
-    },
-    {
-      "Question": "In which year was the law passed that limited the working hours for women and children to 10 hours per day?",
-      "RightAnswer": "1847",
-      "WrongAnswers": [
-        "1850",
-        "1835",
-        "1860"
-      ],
-      "Explanation": "In 1847, the number of hours that women and children could work was limited by law to 10 hours per day. Better housing began to be built for workers."
-    },
-    {
-      "Question": "In which year did the Great Exhibition open in Hyde Park in the Crystal Palace?",
-      "RightAnswer": "1851",
-      "WrongAnswers": [
-        "1848",
-        "1855",
-        "1860"
-      ],
-      "Explanation": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass."
-    },
-    {
-      "Question": "In which year did the Crimean War begin?",
-      "RightAnswer": "1853",
-      "WrongAnswers": [
-        "1850",
-        "1855",
-        "1860"
-      ],
-      "Explanation": "From 1853 to 1856, Britain fought with Turkey and France against Russia in the Crimean War."
-    },
-    {
-      "Question": "In which year did the Crimean War end?",
-      "RightAnswer": "1856",
-      "WrongAnswers": [
-        "1858",
-        "1854",
-        "1862"
-      ],
-      "Explanation": "From 1853 to 1856, Britain fought with Turkey and France against Russia in the Crimean War."
-    },
-    {
-      "Question": "In which year did Florence Nightingale go to Turkey to work in military hospitals?",
-      "RightAnswer": "1854",
-      "WrongAnswers": [
-        "1850",
-        "1860",
-        "1845"
-      ],
-      "Explanation": "Florence Nightingale was born in Italy to English parents. At the age of 31, she trained as a nurse in Germany. In 1854, she went to Turkey and worked in military hospitals, treating soldiers who were fighting in the Crimean War."
-    },
-    {
-      "Question": "By which year were there large populations of Irish people in cities such as Liverpool, London, Manchester, and Glasgow?",
-      "RightAnswer": "1861",
-      "WrongAnswers": [
-        "1850",
-        "1870",
-        "1880"
-      ],
-      "Explanation": "By 1861 there were large populations of Irish people in cities such as Liverpool, London, Manchester and Glasgow."
-    },
-    {
-      "Question": "In which year was the Reform Act that increased the number of people with the right to vote enacted?",
-      "RightAnswer": "1832",
-      "WrongAnswers": [
-        "1828",
-        "1840",
-        "1835"
-      ],
-      "Explanation": "The Reform Act of 1832 had greatly increased the number of people with the right to vote. The Act also abolished the old pocket and rotten boroughs and more parliamentary seats were given to the towns and cities."
-    },
-    {
-      "Question": "In which year was the second Reform Act passed?",
-      "RightAnswer": "1867",
-      "WrongAnswers": [
-        "1865",
-        "1870",
-        "1860"
-      ],
-      "Explanation": "At first they seemed to be unsuccessful, but in 1867 there was another Reform Act."
-    },
-    {
-      "Question": "Until which year did a woman's earnings, property, and money automatically belong to her husband upon marriage?",
-      "RightAnswer": "1870",
-      "WrongAnswers": [
-        "1882",
-        "1865",
-        "1890"
-      ],
-      "Explanation": "Until 1870, when a woman got married, her earnings, property and money automatically belonged to her husband. Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property."
-    },
-    {
-      "Question": "In which year did an Act of Parliament give wives the right to keep their own earnings and property?",
-      "RightAnswer": "1870",
-      "WrongAnswers": [
-        "1882",
-        "1865",
-        "1890"
-      ],
-      "Explanation": "Until 1870, when a woman got married, her earnings, property and money automatically belonged to her husband. Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property."
-    },
-    {
-      "Question": "In which year did another Act of Parliament further secure the rights of wives to their own earnings and property?",
-      "RightAnswer": "1882",
-      "WrongAnswers": [
-        "1870",
-        "1865",
-        "1890"
-      ],
-      "Explanation": "Until 1870, when a woman got married, her earnings, property and money automatically belonged to her husband. Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property."
-    },
-    {
-      "Question": "In which year was the Women's Franchise League set up by Emmeline Pankhurst?",
-      "RightAnswer": "1889",
-      "WrongAnswers": [
-        "1890",
-        "1885",
-        "1895"
-      ],
-      "Explanation": "Emmeline Pankhurst set up the Women\u2019s Franchise League in 1889, which fought to get the vote in local elections for married women."
-    },
-    {
-      "Question": "In which year were women over the age of 30 given voting rights and the right to stand for Parliament in the UK?",
-      "RightAnswer": "1918",
-      "WrongAnswers": [
-        "1920",
-        "1915",
-        "1925"
-      ],
-      "Explanation": "In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War."
-    },
-    {
-      "Question": "In which year did Emmeline die?",
-      "RightAnswer": "1928",
-      "WrongAnswers": [
-        "1925",
-        "1930",
-        "1920"
-      ],
-      "Explanation": "Shortly before Emmeline\u2019s death in 1928, women were given the right to vote at the age of 21, the same as men."
-    },
-    {
-      "Question": "In which year did the Boer War begin?",
-      "RightAnswer": "1899",
-      "WrongAnswers": [
-        "1900",
-        "1898",
-        "1901"
-      ],
-      "Explanation": "The Boer War of 1899 to 1902 made the discussions about the future of the Empire more urgent."
-    },
-    {
-      "Question": "In which year did the Boer War end?",
-      "RightAnswer": "1902",
-      "WrongAnswers": [
-        "1901",
-        "1903",
-        "1900"
-      ],
-      "Explanation": "The Boer War of 1899 to 1902 made the discussions about the future of the Empire more urgent."
-    },
-    {
-      "Question": "In which year was Rudyard Kipling awarded the Nobel Prize in Literature?",
-      "RightAnswer": "1907",
-      "WrongAnswers": [
-        "1910",
-        "1905",
-        "1912"
-      ],
-      "Explanation": "Rudyard Kipling wrote books and poems set in both India and the UK. His poems and novels reflected the idea that the British Empire was a force for good. Kipling was awarded the Nobel Prize in Literature in 1907. His books include the \u201cJust So Stories\u201d and \u201cThe Jungle Book\u201d, which continue to be popular today."
-    },
-    {
-      "Question": "In which year was Archduke Franz Ferdinand of Austria assassinated?",
-      "RightAnswer": "1914",
-      "WrongAnswers": [
-        "1912",
-        "1915",
-        "1916"
-      ],
-      "Explanation": "In 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War."
-    },
-    {
-      "Question": "In which year did the British attack on the Somme take place?",
-      "RightAnswer": "1916",
-      "WrongAnswers": [
-        "1914",
-        "1915",
-        "1917"
-      ],
-      "Explanation": "One battle, the British attack on the Somme in 1916, resulted in about 60,000 British casualties on the first day alone."
-    },
-    {
-      "Question": "On what date did the First World War end?",
-      "RightAnswer": "11th November 1918",
-      "WrongAnswers": [
-        "10th November 1918",
-        "12th November 1918",
-        "11th November 1917"
-      ],
-      "Explanation": "The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies."
-    },
-    {
-      "Question": "In which year did the British government promise 'Home Rule' for Ireland?",
-      "RightAnswer": "1913",
-      "WrongAnswers": [
-        "1912",
-        "1914",
-        "1915"
-      ],
-      "Explanation": "In 1913, the British government promised \u2018Home Rule\u2019 for Ireland."
-    },
-    {
-      "Question": "In which year was a peace treaty signed that affected Ireland?",
-      "RightAnswer": "1921",
-      "WrongAnswers": [
-        "1920",
-        "1923",
-        "1919"
-      ],
-      "Explanation": "In 1921 a peace treaty was signed and in 1922 Ireland became two countries. The six counties in the north which were mainly Protestant remained part of the UK under the name Northern Ireland."
-    },
-    {
-      "Question": "In which year did Ireland become two countries?",
-      "RightAnswer": "1922",
-      "WrongAnswers": [
-        "1920",
-        "1923",
-        "1924"
-      ],
-      "Explanation": "In 1921 a peace treaty was signed and in 1922 Ireland became two countries. The six counties in the north which were mainly Protestant remained part of the UK under the name Northern Ireland."
-    },
-    {
-      "Question": "In which year did Ireland become a republic?",
-      "RightAnswer": "1949",
-      "WrongAnswers": [
-        "1950",
-        "1948",
-        "1951"
-      ],
-      "Explanation": "Irland became a republic in 1949."
-    },
-    {
-      "Question": "In which year did the world enter the 'Great Depression'?",
-      "RightAnswer": "1929",
-      "WrongAnswers": [
-        "1930",
-        "1928",
-        "1931"
-      ],
-      "Explanation": "However, in 1929, the world entered the \u2018Great Depression\u2019 and some parts of the UK suffered mass unemployment."
-    },
-    {
-      "Question": "In which year did the BBC start radio broadcasts?",
-      "RightAnswer": "1922",
-      "WrongAnswers": [
-        "1920",
-        "1925",
-        "1930"
-      ],
-      "Explanation": "The BBC started radio broadcasts in 1922 and began the world\u2019s first regular television service in 1936."
-    },
-    {
-      "Question": "In which year did the BBC begin the world\u2019s first regular television service?",
-      "RightAnswer": "1936",
-      "WrongAnswers": [
-        "1930",
-        "1940",
-        "1933"
-      ],
-      "Explanation": "The BBC started radio broadcasts in 1922 and began the world\u2019s first regular television service in 1936."
-    },
-    {
-      "Question": "In which year did Churchill become Prime Minister?",
-      "RightAnswer": "1940",
-      "WrongAnswers": [
-        "1939",
-        "1941",
-        "1942"
-      ],
-      "Explanation": "Churchill was a soldier and journalist. In May 1940 he became Prime Minister."
-    },
-    {
-      "Question": "In which year did he lose the General Election?",
-      "RightAnswer": "1945",
-      "WrongAnswers": [
-        "1940",
-        "1950",
-        "1948"
-      ],
-      "Explanation": "He lost the General Election in 1945 but returned as Prime Minister in 1951."
-    },
-    {
-      "Question": "In which year did he return as Prime Minister?",
-      "RightAnswer": "1951",
-      "WrongAnswers": [
-        "1949",
-        "1953",
-        "1955"
-      ],
-      "Explanation": "He lost the General Election in 1945 but returned as Prime Minister in 1951."
-    },
-    {
-      "Question": "In which year did he stand down at the General Election?",
-      "RightAnswer": "1964",
-      "WrongAnswers": [
-        "1963",
-        "1965",
-        "1962"
-      ],
-      "Explanation": "He was an MP until he stood down at the 1964 General Election. Following his death in 1965, he was given a state funeral."
-    },
-    {
-      "Question": "In which year did he pass away and receive a state funeral?",
-      "RightAnswer": "1965",
-      "WrongAnswers": [
-        "1964",
-        "1966",
-        "1963"
-      ],
-      "Explanation": "He was an MP until he stood down at the 1964 General Election. Following his death in 1965, he was given a state funeral."
-    },
-    {
-      "Question": "In which year did Adolf Hitler come to power in Germany?",
-      "RightAnswer": "1933",
-      "WrongAnswers": [
-        "1929",
-        "1935",
-        "1940"
-      ],
-      "Explanation": "Adolf Hitler came to power in Germany in 1933. He believed that the conditions imposed on Germany by the Allies after the First World War were unfair. He also wanted to conquer more land for the German people."
-    },
-    {
-      "Question": "In which year did Hitler invade Poland?",
-      "RightAnswer": "1939",
-      "WrongAnswers": [
-        "1940",
-        "1938",
-        "1941"
-      ],
-      "Explanation": "However, when Hitler invaded Poland in 1939, Britain and France declared war in order to stop his aggression. The war was initially fought between the Axis powers (fascist Germany and Italy and the Empire of Japan) and the Allies."
-    },
-    {
-      "Question": "In which year did the rescue operation from the beaches around Dunkirk take place?",
-      "RightAnswer": "1940",
-      "WrongAnswers": [
-        "1939",
-        "1941",
-        "1942"
-      ],
-      "Explanation": "Many civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk in 1940."
-    },
-    {
-      "Question": "In which year did the Battle of Britain take place?",
-      "RightAnswer": "1940",
-      "WrongAnswers": [
-        "1941",
-        "1939",
-        "1942"
-      ],
-      "Explanation": "The Germans waged an air campaign against Britain, but the British resisted with their fighter planes and eventually won the crucial aerial battle against the Germans, called \u2018the Battle of Britain\u2019, in the summer of 1940."
-    },
-    {
-      "Question": "In which year did the United States enter the war after the bombing of Pearl Harbour?",
-      "RightAnswer": "1941",
-      "WrongAnswers": [
-        "1940",
-        "1942",
-        "1939"
-      ],
-      "Explanation": "The United States entered the war when the Japanese bombed its naval base at Pearl Harbour in December 1941."
-    },
-    {
-      "Question": "On which date did the allied forces land in Normandy, an event known as 'D-Day'?",
-      "RightAnswer": "6 June 1944",
-      "WrongAnswers": [
-        "7 June 1944",
-        "5 June 1944",
-        "6 July 1944"
-      ],
-      "Explanation": "On 6 June 1944, allied forces landed in Normandy (this event is often referred to as \u2018D-Day\u2019)."
-    },
-    {
-      "Question": "In which year did the United States drop atom bombs on Hiroshima and Nagasaki, ending the war against Japan?",
-      "RightAnswer": "1945",
-      "WrongAnswers": [
-        "1944",
-        "1946",
-        "1943"
-      ],
-      "Explanation": "The war against Japan ended in August 1945 when the United States dropped its newly developed atom bombs on the Japanese cities of Hiroshima and Nagasaki."
-    },
-    {
-      "Question": "In which year did Alexander Fleming discover penicillin?",
-      "RightAnswer": "1928",
-      "WrongAnswers": [
-        "1930",
-        "1925",
-        "1932"
-      ],
-      "Explanation": "Alexander Fleming born in Scotland, Fleming moved to London as a teenager and later qualified as a doctor. He was researching influenza (the \u2018flu\u2019) in 1928 when he discovered penicillin. Alexander Fleming won the Nobel Prize in Medicine in 1945."
-    },
-    {
-      "Question": "In which year did Alexander Fleming win the Nobel Prize in Medicine?",
-      "RightAnswer": "1945",
-      "WrongAnswers": [
-        "1940",
-        "1950",
-        "1935"
-      ],
-      "Explanation": "Alexander Fleming born in Scotland, Fleming moved to London as a teenager and later qualified as a doctor. He was researching influenza (the \u2018flu\u2019) in 1928 when he discovered penicillin. Alexander Fleming won the Nobel Prize in Medicine in 1945."
-    },
-    {
-      "Question": "In which year did the British people elect a Labour government with Clement Atlee as Prime Minister?",
-      "RightAnswer": "1945",
-      "WrongAnswers": [
-        "1946",
-        "1944",
-        "1947"
-      ],
-      "Explanation": "In 1945 the British people elected a Labour government. The new Prime Minister was Clement Atlee, who promised to introduce the welfare state outlined in the Beveridge Report."
-    },
-    {
-      "Question": "In which year was the National Health Service (NHS) established?",
-      "RightAnswer": "1948",
-      "WrongAnswers": [
-        "1950",
-        "1945",
-        "1952"
-      ],
-      "Explanation": "In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS), which guaranteed a minimum standard of health care for all, free at the point of use."
-    },
-    {
-      "Question": "In which year was independence granted to India, Pakistan, and Ceylon?",
-      "RightAnswer": "1947",
-      "WrongAnswers": [
-        "1950",
-        "1945",
-        "1949"
-      ],
-      "Explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka). Other colonies in Africa, the Caribbean and the Pacific achieved independence over the next 20 years."
-    },
-    {
-      "Question": "In which decade did Harold Macmillan deliver his 'wind of change' speech?",
-      "RightAnswer": "1950s",
-      "WrongAnswers": [
-        "1960s",
-        "1940s",
-        "1970s"
-      ],
-      "Explanation": "The 1950s were a period of economic recovery after the war and increasing prosperity for working people. The Prime Minister of the day, Harold Macmillan, was famous for his \u2018wind of change\u2019 speech about decolonisation and independence for the countries of the Empire."
-    },
-    {
-      "Question": "In which year did the Labour Party win the election, leading to Clement Attlee becoming Prime Minister?",
-      "RightAnswer": "1945",
-      "WrongAnswers": [
-        "1940",
-        "1950",
-        "1935"
-      ],
-      "Explanation": "Clement Attlee was Winston Churchill\u2019s Deputy Prime Minister in the wartime coalition government and became Prime Minister after the Labour Party won the 1945 election."
-    },
-    {
-      "Question": "In which year was the Beveridge Report, officially known as Social Insurance and Allied Services, published?",
-      "RightAnswer": "1942",
-      "WrongAnswers": [
-        "1940",
-        "1945",
-        "1939"
-      ],
-      "Explanation": "William Beveridge (later Lord Beveridge) was a British economist and social reformer. He served briefly as a Liberal MP and was subsequently the leader of the Liberals in the House of Lords but is best known for the 1942 report Social Insurance and Allied Services (known as the Beveridge Report)."
-    },
-    {
-      "Question": "In which year was the Education Act, also known as 'The Butler Act', introduced?",
-      "RightAnswer": "1944",
-      "WrongAnswers": [
-        "1945",
-        "1943",
-        "1946"
-      ],
-      "Explanation": "Sir Butler oversaw the introduction of the Education Act 1944 (often called \u2018The Butler Act\u2019), which introduced free secondary education in England and Wales."
-    },
-    {
-      "Question": "In which decade was the period known as 'the Swinging Sixties'?",
-      "RightAnswer": "1960s",
-      "WrongAnswers": [
-        "1970s",
-        "1950s",
-        "1980s"
-      ],
-      "Explanation": "The decade of the 1960s was a period of significant social change. It was known as \u2018the Swinging Sixties\u2019. There was growth in British fashion, cinema and popular music."
-    },
-    {
-      "Question": "In which year was the first television broadcast between London and Glasgow made?",
-      "RightAnswer": "1932",
-      "WrongAnswers": [
-        "1930",
-        "1935",
-        "1928"
-      ],
-      "Explanation": "In 1932 he made the first television broadcast between London and Glasgow."
-    },
-    {
-      "Question": "In which year did the first successful radar test take place?",
-      "RightAnswer": "1935",
-      "WrongAnswers": [
-        "1930",
-        "1940",
-        "1925"
-      ],
-      "Explanation": "Radar was developed by Scotsman Sir Robert Watson-Watt, who proposed that enemy aircraft could be detected by radio waves. The first successful radar test took place in 1935."
-    },
-    {
-      "Question": "On which date was information successfully transferred via the web for the first time?",
-      "RightAnswer": "25 December 1990",
-      "WrongAnswers": [
-        "15 January 1991",
-        "10 November 1989",
-        "5 March 1992"
-      ],
-      "Explanation": "The inventor of the World Wide Web, Sir Tim Berners-Lee, is British. Information was successfully transferred via the web for the first time on 25 December 1990."
-    },
-    {
-      "Question": "In which year was the Northern Ireland Parliament suspended and Northern Ireland placed under direct rule by the UK government?",
-      "RightAnswer": "1972",
-      "WrongAnswers": [
-        "1970",
-        "1975",
-        "1980"
-      ],
-      "Explanation": "In 1972, the Northern Ireland Parliament was suspended and Northern Ireland was directly ruled by the UK government."
-    },
-    {
-      "Question": "In which year did the violence in Northern Ireland, leading to the loss of approximately 3,000 lives, begin?",
-      "RightAnswer": "1969",
-      "WrongAnswers": [
-        "1972",
-        "1965",
-        "1970"
-      ],
-      "Explanation": "Some 3,000 people lost their lives in the decades after 1969 in the violence in Northern Ireland."
-    },
-    {
-      "Question": "In which year was the European Economic Community (EEC) formed?",
-      "RightAnswer": "1957",
-      "WrongAnswers": [
-        "1955",
-        "1960",
-        "1959"
-      ],
-      "Explanation": "West Germany, France, Belgium, Italy, Luxembourg and the Netherlands formed the European Economic Community (EEC) in 1957."
-    },
-    {
-      "Question": "In which year did the UK join the EEC?",
-      "RightAnswer": "1973",
-      "WrongAnswers": [
-        "1975",
-        "1970",
-        "1980"
-      ],
-      "Explanation": "At first the UK did not wish to join the EEC but it eventually did so in 1973."
-    },
-    {
-      "Question": "In which year was Margaret Thatcher elected as a Conservative MP?",
-      "RightAnswer": "1959",
-      "WrongAnswers": [
-        "1960",
-        "1958",
-        "1961"
-      ],
-      "Explanation": "Margaret Thatcher was elected as a Conservative MP in 1959 and became a cabinet minister in 1970 as the Secretary of State for Education and Science."
-    },
-    {
-      "Question": "In which year did Margaret Thatcher become a cabinet minister as the Secretary of State for Education and Science?",
-      "RightAnswer": "1970",
-      "WrongAnswers": [
-        "1969",
-        "1971",
-        "1972"
-      ],
-      "Explanation": "Margaret Thatcher was elected as a Conservative MP in 1959 and became a cabinet minister in 1970 as the Secretary of State for Education and Science."
-    },
-    {
-      "Question": "In which year was Margaret Thatcher elected as Leader of the Conservative Party?",
-      "RightAnswer": "1975",
-      "WrongAnswers": [
-        "1979",
-        "1980",
-        "1973"
-      ],
-      "Explanation": "In 1975 Margaret Thatcher was elected as Leader of the Conservative Party and so became Leader of the Opposition."
-    },
-    {
-      "Question": "In which year did Margaret Thatcher become the first woman Prime Minister of the UK?",
-      "RightAnswer": "1979",
-      "WrongAnswers": [
-        "1980",
-        "1978",
-        "1981"
-      ],
-      "Explanation": "Following the Conservative victory in the General Election in 1979, Margaret Thatcher became the first woman Prime Minister of the UK."
-    },
-    {
-      "Question": "In which year did Margaret Thatcher leave office as Prime Minister?",
-      "RightAnswer": "1990",
-      "WrongAnswers": [
-        "1989",
-        "1991",
-        "1988"
-      ],
-      "Explanation": "Margaret Thatcher was the longestserving Prime Minister of the 20th century, remaining in Office until 1990."
-    },
-    {
-      "Question": "In which year did Margaret Thatcher become Britain's first woman Prime Minister?",
-      "RightAnswer": "1979",
-      "WrongAnswers": [
-        "1980",
-        "1978",
-        "1981"
-      ],
-      "Explanation": "Margaret Thatcher, Britain\u2019s first woman Prime Minister, led the Conservative government from 1979 to 1990."
-    },
-    {
-      "Question": "In which year did Margaret Thatcher's term as Prime Minister end?",
-      "RightAnswer": "1990",
-      "WrongAnswers": [
-        "1989",
-        "1991",
-        "1992"
-      ],
-      "Explanation": "Margaret Thatcher, Britain\u2019s first woman Prime Minister, led the Conservative government from 1979 to 1990."
-    },
-    {
-      "Question": "In which year did Argentina invade the Falkland Islands?",
-      "RightAnswer": "1982",
-      "WrongAnswers": [
-        "1980",
-        "1985",
-        "1978"
-      ],
-      "Explanation": "In 1982, Argentina invaded the Falkland Islands, a British overseas territory in the South Atlantic. A naval taskforce was sent from the UK and military action led to the recovery of the islands."
-    },
-    {
-      "Question": "In which year was the Labour Party led by Tony Blair elected?",
-      "RightAnswer": "1997",
-      "WrongAnswers": [
-        "1995",
-        "1998",
-        "2000"
-      ],
-      "Explanation": "In 1997 the Labour Party led by Tony Blair was elected. The Blair government introduced a Scottish Parliament and a Welsh Assembly."
-    },
-    {
-      "Question": "In which year was the Good Friday Agreement signed?",
-      "RightAnswer": "1998",
-      "WrongAnswers": [
-        "1997",
-        "1999",
-        "2000"
-      ],
-      "Explanation": "In Northern Ireland, the Blair government was able to build on the peace process, resulting in the Good Friday Agreement signed in 1998."
-    },
-    {
-      "Question": "In which year was the Northern Ireland Assembly elected?",
-      "RightAnswer": "1999",
-      "WrongAnswers": [
-        "2000",
-        "1998",
-        "2001"
-      ],
-      "Explanation": "The Northern Ireland Assembly was elected in 1999 but suspended in 2002. It was not reinstated until 2007."
-    },
-    {
-      "Question": "In which year was the Northern Ireland Assembly suspended?",
-      "RightAnswer": "2002",
-      "WrongAnswers": [
-        "2001",
-        "2003",
-        "2004"
-      ],
-      "Explanation": "The Northern Ireland Assembly was elected in 1999 but suspended in 2002. It was not reinstated until 2007."
-    },
-    {
-      "Question": "In which year was the Northern Ireland Assembly reinstated?",
-      "RightAnswer": "2007",
-      "WrongAnswers": [
-        "2005",
-        "2006",
-        "2008"
-      ],
-      "Explanation": "The Northern Ireland Assembly was elected in 1999 but suspended in 2002. It was not reinstated until 2007."
-    },
-    {
-      "Question": "In which year did Gordon Brown become Prime Minister?",
-      "RightAnswer": "2007",
-      "WrongAnswers": [
-        "2005",
-        "2008",
-        "2006"
-      ],
-      "Explanation": "Gordon Brown took over as Prime Minister in 2007. Gordon Brown lost the general election in 2010."
-    },
-    {
-      "Question": "In which year did Gordon Brown lose the general election?",
-      "RightAnswer": "2010",
-      "WrongAnswers": [
-        "2009",
-        "2011",
-        "2008"
-      ],
-      "Explanation": "Gordon Brown took over as Prime Minister in 2007. Gordon Brown lost the general election in 2010."
-    },
-    {
-      "Question": "In which year did the Iraqi invasion of Kuwait occur, prompting Britain's involvement in the liberation?",
-      "RightAnswer": "1990",
-      "WrongAnswers": [
-        "1991",
-        "1989",
-        "1992"
-      ],
-      "Explanation": "Britain played a leading role in coalition forces involved in the liberation of Kuwait, following the Iraqi invasion in 1990, and the conflict in the Former Republic of Yugoslavia."
-    },
-    {
-      "Question": "In which year did British combat troops leave Iraq?",
-      "RightAnswer": "2009",
-      "WrongAnswers": [
-        "2008",
-        "2010",
-        "2011"
-      ],
-      "Explanation": "British combat troops left Iraq in 2009."
-    },
-    {
-      "Question": "In which year did no political party win an overall majority in the UK General Election for the first time since February 1974?",
-      "RightAnswer": "2010",
-      "WrongAnswers": [
-        "2005",
-        "2015",
-        "2000"
-      ],
-      "Explanation": "In 2010, and for the first time in the UK since February 1974, no political party won an overall majority in the General Election."
-    },
-    {
-      "Question": "In which year prior to 2010 did no political party win an overall majority in the UK General Election?",
-      "RightAnswer": "1974",
-      "WrongAnswers": [
-        "1980",
-        "1965",
-        "1990"
-      ],
-      "Explanation": "In 2010, and for the first time in the UK since February 1974, no political party won an overall majority in the General Election."
-    },
-    {
-      "Question": "In which year did the Conservative Government begin governing the United Kingdom?",
-      "RightAnswer": "2015",
-      "WrongAnswers": [
-        "2010",
-        "2017",
-        "2020"
-      ],
-      "Explanation": "The Conservative Government, which governed the United Kingdom from 2015 to 2024, saw multiple prime ministers, including David Cameron, Theresa May, Boris Johnson, Liz Truss, and Rishi Sunak."
-    },
-    {
-      "Question": "In which year did the Conservative Government's term end?",
-      "RightAnswer": "2024",
-      "WrongAnswers": [
-        "2022",
-        "2023",
-        "2025"
-      ],
-      "Explanation": "The Conservative Government, which governed the United Kingdom from 2015 to 2024, saw multiple prime ministers, including David Cameron, Theresa May, Boris Johnson, Liz Truss, and Rishi Sunak."
-    },
-    {
-      "Question": "In which year did the EU membership referendum, known as Brexit, take place?",
-      "RightAnswer": "2016",
-      "WrongAnswers": [
-        "2015",
-        "2017",
-        "2018"
-      ],
-      "Explanation": "During this period, significant events included the 2016 EU membership referendum (Brexit), leadership changes, and handling of the COVID-19 pandemic."
-    },
-    {
-      "Question": "In which year did the Labour party, led by Keir Starmer, win the majority in the general election?",
-      "RightAnswer": "2024",
-      "WrongAnswers": [
-        "2023",
-        "2025",
-        "2022"
-      ],
-      "Explanation": "The Labour party, lead by Keir Starmer, won the majority in the 2024 general election and formed the government."
-    }
+  {
+    "Question": "Approximately how many years ago did Britain become permanently separated from the continent by the Channel?",
+    "RightAnswer": "10,000 years ago",
+    "WrongAnswers": [
+      "5,000 years ago",
+      "15,000 years ago",
+      "20,000 years ago"
+    ],
+    "Explanation": "Britain only became permanently separated from the continent by the Channel about 10,000 years ago."
+  },
+  {
+    "Question": "Approximately how many years ago did the first farmers arrive in Britain?",
+    "RightAnswer": "6,000 years ago",
+    "WrongAnswers": [
+      "5,000 years ago",
+      "7,000 years ago",
+      "8,000 years ago"
+    ],
+    "Explanation": "The first farmers arrived in Britain about 6,000 years ago. The ancestors of these first farmers probably came from south-east Europe."
+  },
+  {
+    "Question": "Approximately how many years ago did people learn to make bronze, marking the beginning of the Bronze Age?",
+    "RightAnswer": "4,000 years ago",
+    "WrongAnswers": [
+      "3,000 years ago",
+      "5,000 years ago",
+      "2,000 years ago"
+    ],
+    "Explanation": "Around 4,000 years ago, people learned to make bronze. We call this period the Bronze Age. People lived in roundhouses and buried their dead in tombs called round barrows."
+  },
+  {
+    "Question": "In which year did Julius Caesar lead a Roman invasion of Britain?",
+    "RightAnswer": "55 BC",
+    "WrongAnswers": [
+      "54 BC",
+      "56 BC",
+      "53 BC"
+    ],
+    "Explanation": "Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful and for nearly 100 years Britain remained separate from the Roman Empire."
+  },
+  {
+    "Question": "In which year did Emperor Claudius lead the Roman army in a new invasion of Britain?",
+    "RightAnswer": "AD 43",
+    "WrongAnswers": [
+      "AD 50",
+      "AD 40",
+      "AD 45"
+    ],
+    "Explanation": "In AD 43 the Emperor Claudius led the Roman army in a new invasion. This time, there was resistance from some of the British tribes but the Romans were successful in occupying almost all of Britain."
+  },
+  {
+    "Question": "In which century did the first Christian communities begin to appear in Britain?",
+    "RightAnswer": "3rd century AD",
+    "WrongAnswers": [
+      "2nd century AD",
+      "5th century AD",
+      "6th century AD"
+    ],
+    "Explanation": "It was during the 3rd and 4th centuries AD that the first Christian communities began to appear in Britain."
+  },
+  {
+    "Question": "In which century did the first Christian communities continue to appear in Britain?",
+    "RightAnswer": "4th century AD",
+    "WrongAnswers": [
+      "2nd century AD",
+      "5th century AD",
+      "6th century AD"
+    ],
+    "Explanation": "It was during the 3rd and 4th centuries AD that the first Christian communities began to appear in Britain."
+  },
+  {
+    "Question": "In which year did the Roman army leave Britain to defend other parts of the Roman Empire?",
+    "RightAnswer": "AD 410",
+    "WrongAnswers": [
+      "AD 400",
+      "AD 420",
+      "AD 430"
+    ],
+    "Explanation": "The Roman army left Britain in AD 410 to defend other parts of the Roman Empire and never returned. Britain was again invaded by tribes from northern Europe: the Jutes, the Angles and the Saxons."
+  },
+  {
+    "Question": "By which year were Anglo-Saxon kingdoms established in Britain?",
+    "RightAnswer": "AD 600",
+    "WrongAnswers": [
+      "AD 500",
+      "AD 700",
+      "AD 650"
+    ],
+    "Explanation": "Battles were fought against these invaders but, by about AD 600, Anglo-Saxon kingdoms were established in Britain. These kingdoms were mainly in what is now England."
+  },
+  {
+    "Question": "In which year did the Vikings first visit Britain to raid coastal towns?",
+    "RightAnswer": "AD 789",
+    "WrongAnswers": [
+      "AD 800",
+      "AD 750",
+      "AD 820"
+    ],
+    "Explanation": "The Vikings came from Denmark and Norway. They first visited Britain in AD 789 to raid coastal towns and take away goods and slaves."
+  },
+  {
+    "Question": "In which year did the Battle of Hastings take place?",
+    "RightAnswer": "1066",
+    "WrongAnswers": [
+      "1055",
+      "1070",
+      "1080"
+    ],
+    "Explanation": "In 1066, an invasion led by William, the Duke of Normandy (in what is now northern France), defeated Harold, the Saxon king of England, at the Battle of Hastings."
+  },
+  {
+    "Question": "In which year did the Norman Conquest occur?",
+    "RightAnswer": "1066",
+    "WrongAnswers": [
+      "1055",
+      "1070",
+      "1080"
+    ],
+    "Explanation": "The period after the Norman Conquest (1066) up until about 1485 is called the Middle Ages (or the medieval period). It was a time of almost constant war."
+  },
+  {
+    "Question": "Until which year is the Middle Ages period considered to have lasted?",
+    "RightAnswer": "1485",
+    "WrongAnswers": [
+      "1450",
+      "1500",
+      "1475"
+    ],
+    "Explanation": "The period after the Norman Conquest (1066) up until about 1485 is called the Middle Ages (or the medieval period). It was a time of almost constant war."
+  },
+  {
+    "Question": "In which year did King Edward I introduce the Statute of Rhuddlan?",
+    "RightAnswer": "1284",
+    "WrongAnswers": [
+      "1275",
+      "1290",
+      "1280"
+    ],
+    "Explanation": "In 1284 King Edward I of England introduced the Statute of Rhuddlan, which annexed Wales to the Crown of England. Huge castles, including Conwy and Caernarvon, were built to maintain this power."
+  },
+  {
+    "Question": "By the middle of which century were the last Welsh rebellions defeated?",
+    "RightAnswer": "15th century",
+    "WrongAnswers": [
+      "14th century",
+      "16th century",
+      "17th century"
+    ],
+    "Explanation": "By the middle of the 15th century the last Welsh rebellions had been defeated. English laws and the English language were introduced."
+  },
+  {
+    "Question": "In which year did the Scottish, led by Robert the Bruce, defeat the English at the Battle of Bannockburn?",
+    "RightAnswer": "1314",
+    "WrongAnswers": [
+      "1306",
+      "1320",
+      "1310"
+    ],
+    "Explanation": "In Scotland, the English kings were less successful. In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English."
+  },
+  {
+    "Question": "By which year did the English rule an area of Ireland known as the Pale?",
+    "RightAnswer": "1200",
+    "WrongAnswers": [
+      "1100",
+      "1300",
+      "1400"
+    ],
+    "Explanation": "By 1200, the English ruled an area of Ireland known as the Pale, around Dublin. Some of the important lords in other parts of Ireland accepted the authority of the English king."
+  },
+  {
+    "Question": "In which year did the Battle of Agincourt take place?",
+    "RightAnswer": "1415",
+    "WrongAnswers": [
+      "1420",
+      "1405",
+      "1430"
+    ],
+    "Explanation": "One of the most famous battles of the Hundred Years War was the Battle of Agincourt in 1415, where King Henry V\u2019s vastly outnumbered English army defeated the French. The English left France in the 1450s."
+  },
+  {
+    "Question": "In which decade did the English leave France after the Hundred Years War?",
+    "RightAnswer": "1450s",
+    "WrongAnswers": [
+      "1440s",
+      "1460s",
+      "1430s"
+    ],
+    "Explanation": "One of the most famous battles of the Hundred Years War was the Battle of Agincourt in 1415, where King Henry V\u2019s vastly outnumbered English army defeated the French. The English left France in the 1450s."
+  },
+  {
+    "Question": "In which year did the Black Death arrive in Britain?",
+    "RightAnswer": "1348",
+    "WrongAnswers": [
+      "1350",
+      "1345",
+      "1352"
+    ],
+    "Explanation": "In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death. One third of the population of England died and a similar proportion in Scotland and Wales."
+  },
+  {
+    "Question": "In which year was King John forced to agree to the Magna Carta?",
+    "RightAnswer": "1215",
+    "WrongAnswers": [
+      "1200",
+      "1220",
+      "1230"
+    ],
+    "Explanation": "There were few formal limits to the king\u2019s power until 1215. In that year (1215), King John was forced by his noblemen to agree to a number of demands. The result was a charter of rights called the Magna Carta (which means the Great Charter). The Magna Carta established the idea that even the king was subject to the law."
+  },
+  {
+    "Question": "By which year were official documents in England being written in English?",
+    "RightAnswer": "1400",
+    "WrongAnswers": [
+      "1300",
+      "1450",
+      "1350"
+    ],
+    "Explanation": "By 1400, in England, official documents were being written in English, and English had become the preferred language of the royal court and Parliament."
+  },
+  {
+    "Question": "In which year did Geoffrey Chaucer write a series of poems about a pilgrimage to Canterbury?",
+    "RightAnswer": "1400",
+    "WrongAnswers": [
+      "1380",
+      "1420",
+      "1450"
+    ],
+    "Explanation": "In the years leading up to 1400, Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. It was one of the first books to be printed by William Caxton, the first person in England to print books using a printing press."
+  },
+  {
+    "Question": "In which year did the Wars of the Roses begin?",
+    "RightAnswer": "1455",
+    "WrongAnswers": [
+      "1460",
+      "1445",
+      "1475"
+    ],
+    "Explanation": "In 1455, a civil war was begun to decide who should be king of England. This war was called the Wars of the Roses."
+  },
+  {
+    "Question": "In which year did the Battle of Bosworth Field take place, marking the end of the Wars of the Roses?",
+    "RightAnswer": "1485",
+    "WrongAnswers": [
+      "1483",
+      "1490",
+      "1475"
+    ],
+    "Explanation": "The Wars of the Roses ended with the Battle of Bosworth Field in 1485. King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+  },
+  {
+    "Question": "In which year did the English defeat the Spanish Armada?",
+    "RightAnswer": "1588",
+    "WrongAnswers": [
+      "1585",
+      "1590",
+      "1578"
+    ],
+    "Explanation": "Elizabeth became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism."
+  },
+  {
+    "Question": "In which year did the Scottish Parliament abolish the authority of the Pope in Scotland?",
+    "RightAnswer": "1560",
+    "WrongAnswers": [
+      "1550",
+      "1570",
+      "1580"
+    ],
+    "Explanation": "In 1560, the predominantly Protestant Scottish Parliament abolished the authority of the Pope in Scotland and Roman Catholic religious services became illegal."
+  },
+  {
+    "Question": "In which year did Elizabeth I die, leading to James VI of Scotland inheriting the throne?",
+    "RightAnswer": "1603",
+    "WrongAnswers": [
+      "1599",
+      "1605",
+      "1610"
+    ],
+    "Explanation": "Elizabeth I never married and so had no children of her own to inherit her throne. When she died in 1603 her heir was her cousin James VI of Scotland."
+  },
+  {
+    "Question": "In which year did Charles recall Parliament to ask for funds?",
+    "RightAnswer": "1640",
+    "WrongAnswers": [
+      "1638",
+      "1642",
+      "1639"
+    ],
+    "Explanation": "A Scottish army was formed and Charles could not find the money he needed for his own army without the help of Parliament. In 1640, he recalled Parliament to ask it for funds."
+  },
+  {
+    "Question": "By which year was it clear that Parliament had won the war?",
+    "RightAnswer": "1646",
+    "WrongAnswers": [
+      "1645",
+      "1647",
+      "1648"
+    ],
+    "Explanation": "By 1646, it was clear that Parliament had won the war."
+  },
+  {
+    "Question": "In which year was Charles executed?",
+    "RightAnswer": "1649",
+    "WrongAnswers": [
+      "1648",
+      "1650",
+      "1647"
+    ],
+    "Explanation": "Charles was held prisoner by the parliamentary army. He was still unwilling to reach any agreement with Parliament and in 1649 he was executed."
+  },
+  {
+    "Question": "In which year did the revolt in Ireland begin, which Oliver Cromwell was sent to suppress?",
+    "RightAnswer": "1641",
+    "WrongAnswers": [
+      "1639",
+      "1643",
+      "1645"
+    ],
+    "Explanation": "One of its generals, Oliver Cromwell, was sent to Ireland, where the revolt which had begun in 1641 still continued and where there was still a Royalist army."
+  },
+  {
+    "Question": "In which year did Cromwell die, leading to his son Richard becoming Lord Protector?",
+    "RightAnswer": "1658",
+    "WrongAnswers": [
+      "1660",
+      "1655",
+      "1662"
+    ],
+    "Explanation": "He was given the title of Lord Protector and ruled until his death in 1658. When Cromwell died, his son, Richard, became Lord Protector in his place but was not able to control the army or the government."
+  },
+  {
+    "Question": "In which year did Parliament invite Charles II to return from exile?",
+    "RightAnswer": "1660",
+    "WrongAnswers": [
+      "1650",
+      "1670",
+      "1680"
+    ],
+    "Explanation": "In May 1660, Parliament invited Charles II to come back from exile in the Netherlands. He was crowned King Charles II of England, Wales, Scotland and Ireland."
+  },
+  {
+    "Question": "In which year did a major outbreak of plague occur in London during Charles II's reign?",
+    "RightAnswer": "1665",
+    "WrongAnswers": [
+      "1660",
+      "1670",
+      "1655"
+    ],
+    "Explanation": "During Charles II\u2019s reign, in 1665, there was a major outbreak of plague in London. Thousands of people died, especially in poorer areas."
+  },
+  {
+    "Question": "In which year did a great fire destroy much of London, including St Paul\u2019s Cathedral?",
+    "RightAnswer": "1666",
+    "WrongAnswers": [
+      "1665",
+      "1670",
+      "1668"
+    ],
+    "Explanation": "The following year (1666), a great fire destroyed much of the city, including many churches and St Paul\u2019s Cathedral. London was rebuilt with a new St Paul\u2019s, which was designed by a famous architect, Sir Christopher Wren. Samuel Pepys wrote about these events in a diary which was later published and is still read today."
+  },
+  {
+    "Question": "In which year did the Habeas Corpus Act become law?",
+    "RightAnswer": "1679",
+    "WrongAnswers": [
+      "1680",
+      "1675",
+      "1685"
+    ],
+    "Explanation": "The Habeas Corpus Act became law in 1679. This was a very important piece of legislation which remains relevant today. Habeas corpus is Latin for \u2018you must present the person in court\u2019."
+  },
+  {
+    "Question": "In which year did Charles II die?",
+    "RightAnswer": "1685",
+    "WrongAnswers": [
+      "1680",
+      "1690",
+      "1675"
+    ],
+    "Explanation": "Charles II had no legitimate children. He died in 1685 and his brother, James, who was a Roman Catholic, became King James II in England, Wales and Ireland and King James VII of Scotland."
+  },
+  {
+    "Question": "In which year did important Protestants in England ask William to invade England and proclaim himself king?",
+    "RightAnswer": "1688",
+    "WrongAnswers": [
+      "1690",
+      "1685",
+      "1692"
+    ],
+    "Explanation": "In 1688, important Protestants in England asked William to invade England and proclaim himself king. When William reached England, there was no resistance."
+  },
+  {
+    "Question": "In which year did William defeat James II at the Battle of the Boyne?",
+    "RightAnswer": "1690",
+    "WrongAnswers": [
+      "1688",
+      "1692",
+      "1695"
+    ],
+    "Explanation": "William defeated James II at the Battle of the Boyne in Ireland in 1690, an event which is still celebrated by some in Northern Ireland today. William re-conquered Ireland and James fled back to France."
+  },
+  {
+    "Question": "In which year was the Bill of Rights that confirmed the rights of Parliament and the limits of the king's power enacted?",
+    "RightAnswer": "1689",
+    "WrongAnswers": [
+      "1688",
+      "1690",
+      "1691"
+    ],
+    "Explanation": "The Bill of Rights (1689) confirmed the rights of Parliament and the limits of the king\u2019s power. Parliament took control of who could be monarch and declared that the king or queen must be a Protestant."
+  },
+  {
+    "Question": "In which year were newspapers allowed to operate without a government licence?",
+    "RightAnswer": "1695",
+    "WrongAnswers": [
+      "1700",
+      "1685",
+      "1690"
+    ],
+    "Explanation": "From 1695, newspapers were allowed to operate without a government licence. Increasing numbers of newspapers began to be published."
+  },
+  {
+    "Question": "In which year did the first Jews settle in London since the Middle Ages?",
+    "RightAnswer": "1656",
+    "WrongAnswers": [
+      "1645",
+      "1660",
+      "1672"
+    ],
+    "Explanation": "The first Jews to come to Britain since the Middle Ages settled in London in 1656."
+  },
+  {
+    "Question": "In which year was the Act of Union agreed, creating the Kingdom of Great Britain?",
+    "RightAnswer": "1707",
+    "WrongAnswers": [
+      "1710",
+      "1699",
+      "1720"
+    ],
+    "Explanation": "The Act of Union, known as the Treaty of Union in Scotland, was therefore agreed in 1707, creating the Kingdom of Great Britain. Although Scotland was no longer an independent country, it kept its own legal and education systems and Presbyterian Church."
+  },
+  {
+    "Question": "In which year did Queen Anne die?",
+    "RightAnswer": "1714",
+    "WrongAnswers": [
+      "1701",
+      "1720",
+      "1695"
+    ],
+    "Explanation": "When Queen Anne died in 1714, Parliament chose a German, George I, to be the next king, because he was Anne\u2019s nearest Protestant relative."
+  },
+  {
+    "Question": "In which year did Sir Robert Walpole become Prime Minister?",
+    "RightAnswer": "1721",
+    "WrongAnswers": [
+      "1715",
+      "1730",
+      "1725"
+    ],
+    "Explanation": "The first man to be called this was Sir Robert Walpole, who was Prime Minister from 1721 to 1742."
+  },
+  {
+    "Question": "In which year did Sir Robert Walpole's term as Prime Minister end?",
+    "RightAnswer": "1742",
+    "WrongAnswers": [
+      "1738",
+      "1745",
+      "1735"
+    ],
+    "Explanation": "The first man to be called this was Sir Robert Walpole, who was Prime Minister from 1721 to 1742."
+  },
+  {
+    "Question": "In which year was there an attempt to put a Stuart king back on the throne in place of George II?",
+    "RightAnswer": "1745",
+    "WrongAnswers": [
+      "1735",
+      "1750",
+      "1725"
+    ],
+    "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I\u2019s son, George II."
+  },
+  {
+    "Question": "In which year was the Battle of Culloden where Charles Edward Stuart was defeated?",
+    "RightAnswer": "1746",
+    "WrongAnswers": [
+      "1745",
+      "1747",
+      "1748"
+    ],
+    "Explanation": "Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland. He was supported by clansmen from the Scottish highlands and raised an army. Charles initially had some successes but was defeated by George II\u2019s army at the Battle of Culloden in 1746. Charles escaped back to Europe."
+  },
+  {
+    "Question": "In which century did the Enlightenment, characterized by new ideas about politics, philosophy, and science, occur?",
+    "RightAnswer": "18th century",
+    "WrongAnswers": [
+      "17th century",
+      "19th century",
+      "16th century"
+    ],
+    "Explanation": "During the 18th century, new ideas about politics, philosophy and science were developed. This is often called \u2018the Enlightenment\u2019. Before the 18th century, agriculture was the biggest source of employment in Britain."
+  },
+  {
+    "Question": "In which centuries did the Industrial Revolution occur in Britain?",
+    "RightAnswer": "18th and 19th centuries",
+    "WrongAnswers": [
+      "17th and 18th centuries",
+      "19th and 20th centuries",
+      "16th and 17th centuries"
+    ],
+    "Explanation": "The Industrial Revolution was the rapid development of industry in Britain in the 18th and 19th centuries. Britain was the first country to industrialise on a large scale."
+  },
+  {
+    "Question": "In which year did Mahomet open the Hindoostane Coffee House in London?",
+    "RightAnswer": "1810",
+    "WrongAnswers": [
+      "1805",
+      "1815",
+      "1820"
+    ],
+    "Explanation": "In 1810 Mahomet opened the Hindoostane Coffee House in George Street, London. It was the first curry house to open in Britain. Mahomet and his wife also introduced \u2018shampooing\u2019, the Indian art of head massage, to Britain."
+  },
+  {
+    "Question": "In which century were the first formal anti-slavery groups set up by the Quakers?",
+    "RightAnswer": "1700s",
+    "WrongAnswers": [
+      "1600s",
+      "1800s",
+      "1900s"
+    ],
+    "Explanation": "The first formal anti-slavery groups were set up by the Quakers in the late 1700s, and they petitioned Parliament to ban the practice. William Wilberforce, an evangelical Christian and a member of Parliament, also played an important part in changing the law."
+  },
+  {
+    "Question": "In which year did it become illegal to trade slaves in British ships or from British ports?",
+    "RightAnswer": "1807",
+    "WrongAnswers": [
+      "1810",
+      "1799",
+      "1820"
+    ],
+    "Explanation": "In 1807, it became illegal to trade slaves in British ships or from British ports, and in 1833 the Emancipation Act abolished slavery throughout the British Empire. The Royal Navy stopped slave ships from other countries, freed the slaves and punished the slave traders."
+  },
+  {
+    "Question": "In which year was the Emancipation Act that abolished slavery throughout the British Empire enacted?",
+    "RightAnswer": "1833",
+    "WrongAnswers": [
+      "1825",
+      "1840",
+      "1830"
+    ],
+    "Explanation": "In 1807, it became illegal to trade slaves in British ships or from British ports, and in 1833 the Emancipation Act abolished slavery throughout the British Empire. The Royal Navy stopped slave ships from other countries, freed the slaves and punished the slave traders."
+  },
+  {
+    "Question": "In which year did the employment of 2 million Indian and Chinese workers begin to replace freed slaves?",
+    "RightAnswer": "1833",
+    "WrongAnswers": [
+      "1820",
+      "1840",
+      "1850"
+    ],
+    "Explanation": "After 1833, 2 million Indian and Chinese workers were employed to replace the freed slaves. They worked on sugar plantations in the Caribbean, in mines in South Africa, on railways in East Africa and in the army in Kenya."
+  },
+  {
+    "Question": "In which year did the 13 American colonies declare their independence?",
+    "RightAnswer": "1776",
+    "WrongAnswers": [
+      "1783",
+      "1775",
+      "1781"
+    ],
+    "Explanation": "In 1776, 13 American colonies declared their independence, stating that people had a right to establish their own governments."
+  },
+  {
+    "Question": "In which year did Britain recognize the colonies' independence?",
+    "RightAnswer": "1783",
+    "WrongAnswers": [
+      "1776",
+      "1781",
+      "1790"
+    ],
+    "Explanation": "The colonists eventually defeated the British army and Britain recognised the colonies\u2019 independence in 1783."
+  },
+  {
+    "Question": "In which year did the revolution in France occur?",
+    "RightAnswer": "1789",
+    "WrongAnswers": [
+      "1792",
+      "1776",
+      "1804"
+    ],
+    "Explanation": "In 1789, there was a revolution in France and the new French government soon declared war on Britain."
+  },
+  {
+    "Question": "In which year did the Battle of Trafalgar take place?",
+    "RightAnswer": "1805",
+    "WrongAnswers": [
+      "1803",
+      "1807",
+      "1809"
+    ],
+    "Explanation": "Napoleon, who became Emperor of France, continued the war. Britain\u2019s navy fought against combined French and Spanish fleets, winning the Battle of Trafalgar in 1805."
+  },
+  {
+    "Question": "In which year did the French Wars end with the defeat of Napoleon at the Battle of Waterloo?",
+    "RightAnswer": "1815",
+    "WrongAnswers": [
+      "1812",
+      "1820",
+      "1805"
+    ],
+    "Explanation": "In 1815, the French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo. Wellington was known as the Iron Duke and later became Prime Minister."
+  },
+  {
+    "Question": "In which year did Ireland become unified with England, Scotland, and Wales?",
+    "RightAnswer": "1801",
+    "WrongAnswers": [
+      "1800",
+      "1802",
+      "1799"
+    ],
+    "Explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland."
+  },
+  {
+    "Question": "In which year was the Act of Union that led to the creation of the United Kingdom of Great Britain and Ireland passed?",
+    "RightAnswer": "1800",
+    "WrongAnswers": [
+      "1801",
+      "1798",
+      "1802"
+    ],
+    "Explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland."
+  },
+  {
+    "Question": "In which year was the first Union Flag created?",
+    "RightAnswer": "1606",
+    "WrongAnswers": [
+      "1707",
+      "1801",
+      "1500"
+    ],
+    "Explanation": "The Welsh dragon does not appear on the Union Flag because, when the first Union Flag was created in 1606 from the flags of Scotland and England, the Principality of Wales was already united with England."
+  },
+  {
+    "Question": "In which year did Queen Victoria become queen of the UK?",
+    "RightAnswer": "1837",
+    "WrongAnswers": [
+      "1840",
+      "1835",
+      "1845"
+    ],
+    "Explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18."
+  },
+  {
+    "Question": "In which year did the reign mentioned in the text end?",
+    "RightAnswer": "1901",
+    "WrongAnswers": [
+      "1899",
+      "1900",
+      "1902"
+    ],
+    "Explanation": "She reigned until 1901, almost 64 years."
+  },
+  {
+    "Question": "In which year were the Corn Laws repealed?",
+    "RightAnswer": "1846",
+    "WrongAnswers": [
+      "1832",
+      "1850",
+      "1825"
+    ],
+    "Explanation": "One example of this was the repealing of the Corn Laws in 1846. These had prevented the import of cheap grain. The reforms helped the development of British industry, because raw materials could now be imported more cheaply."
+  },
+  {
+    "Question": "In which year was the law passed that limited the working hours for women and children to 10 hours per day?",
+    "RightAnswer": "1847",
+    "WrongAnswers": [
+      "1850",
+      "1835",
+      "1860"
+    ],
+    "Explanation": "In 1847, the number of hours that women and children could work was limited by law to 10 hours per day. Better housing began to be built for workers."
+  },
+  {
+    "Question": "In which year did the Great Exhibition open in Hyde Park in the Crystal Palace?",
+    "RightAnswer": "1851",
+    "WrongAnswers": [
+      "1848",
+      "1855",
+      "1860"
+    ],
+    "Explanation": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass."
+  },
+  {
+    "Question": "In which year did the Crimean War begin?",
+    "RightAnswer": "1853",
+    "WrongAnswers": [
+      "1850",
+      "1855",
+      "1860"
+    ],
+    "Explanation": "From 1853 to 1856, Britain fought with Turkey and France against Russia in the Crimean War."
+  },
+  {
+    "Question": "In which year did the Crimean War end?",
+    "RightAnswer": "1856",
+    "WrongAnswers": [
+      "1858",
+      "1854",
+      "1862"
+    ],
+    "Explanation": "From 1853 to 1856, Britain fought with Turkey and France against Russia in the Crimean War."
+  },
+  {
+    "Question": "In which year did Florence Nightingale go to Turkey to work in military hospitals?",
+    "RightAnswer": "1854",
+    "WrongAnswers": [
+      "1850",
+      "1860",
+      "1845"
+    ],
+    "Explanation": "Florence Nightingale was born in Italy to English parents. At the age of 31, she trained as a nurse in Germany. In 1854, she went to Turkey and worked in military hospitals, treating soldiers who were fighting in the Crimean War."
+  },
+  {
+    "Question": "By which year were there large populations of Irish people in cities such as Liverpool, London, Manchester, and Glasgow?",
+    "RightAnswer": "1861",
+    "WrongAnswers": [
+      "1850",
+      "1870",
+      "1880"
+    ],
+    "Explanation": "By 1861 there were large populations of Irish people in cities such as Liverpool, London, Manchester and Glasgow."
+  },
+  {
+    "Question": "In which year was the Reform Act that increased the number of people with the right to vote enacted?",
+    "RightAnswer": "1832",
+    "WrongAnswers": [
+      "1828",
+      "1840",
+      "1835"
+    ],
+    "Explanation": "The Reform Act of 1832 had greatly increased the number of people with the right to vote. The Act also abolished the old pocket and rotten boroughs and more parliamentary seats were given to the towns and cities."
+  },
+  {
+    "Question": "In which year was the second Reform Act passed?",
+    "RightAnswer": "1867",
+    "WrongAnswers": [
+      "1865",
+      "1870",
+      "1860"
+    ],
+    "Explanation": "At first they seemed to be unsuccessful, but in 1867 there was another Reform Act."
+  },
+  {
+    "Question": "Until which year did a woman's earnings, property, and money automatically belong to her husband upon marriage?",
+    "RightAnswer": "1870",
+    "WrongAnswers": [
+      "1882",
+      "1865",
+      "1890"
+    ],
+    "Explanation": "Until 1870, when a woman got married, her earnings, property and money automatically belonged to her husband. Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property."
+  },
+  {
+    "Question": "In which year did an Act of Parliament give wives the right to keep their own earnings and property?",
+    "RightAnswer": "1870",
+    "WrongAnswers": [
+      "1882",
+      "1865",
+      "1890"
+    ],
+    "Explanation": "Until 1870, when a woman got married, her earnings, property and money automatically belonged to her husband. Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property."
+  },
+  {
+    "Question": "In which year did another Act of Parliament further secure the rights of wives to their own earnings and property?",
+    "RightAnswer": "1882",
+    "WrongAnswers": [
+      "1870",
+      "1865",
+      "1890"
+    ],
+    "Explanation": "Until 1870, when a woman got married, her earnings, property and money automatically belonged to her husband. Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property."
+  },
+  {
+    "Question": "In which year was the Women's Franchise League set up by Emmeline Pankhurst?",
+    "RightAnswer": "1889",
+    "WrongAnswers": [
+      "1890",
+      "1885",
+      "1895"
+    ],
+    "Explanation": "Emmeline Pankhurst set up the Women\u2019s Franchise League in 1889, which fought to get the vote in local elections for married women."
+  },
+  {
+    "Question": "In which year were women over the age of 30 given voting rights and the right to stand for Parliament in the UK?",
+    "RightAnswer": "1918",
+    "WrongAnswers": [
+      "1920",
+      "1915",
+      "1925"
+    ],
+    "Explanation": "In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War."
+  },
+  {
+    "Question": "In which year did Emmeline die?",
+    "RightAnswer": "1928",
+    "WrongAnswers": [
+      "1925",
+      "1930",
+      "1920"
+    ],
+    "Explanation": "Shortly before Emmeline\u2019s death in 1928, women were given the right to vote at the age of 21, the same as men."
+  },
+  {
+    "Question": "In which year did the Boer War begin?",
+    "RightAnswer": "1899",
+    "WrongAnswers": [
+      "1900",
+      "1898",
+      "1901"
+    ],
+    "Explanation": "The Boer War of 1899 to 1902 made the discussions about the future of the Empire more urgent."
+  },
+  {
+    "Question": "In which year did the Boer War end?",
+    "RightAnswer": "1902",
+    "WrongAnswers": [
+      "1901",
+      "1903",
+      "1900"
+    ],
+    "Explanation": "The Boer War of 1899 to 1902 made the discussions about the future of the Empire more urgent."
+  },
+  {
+    "Question": "In which year was Rudyard Kipling awarded the Nobel Prize in Literature?",
+    "RightAnswer": "1907",
+    "WrongAnswers": [
+      "1910",
+      "1905",
+      "1912"
+    ],
+    "Explanation": "Rudyard Kipling wrote books and poems set in both India and the UK. His poems and novels reflected the idea that the British Empire was a force for good. Kipling was awarded the Nobel Prize in Literature in 1907. His books include the \u201cJust So Stories\u201d and \u201cThe Jungle Book\u201d, which continue to be popular today."
+  },
+  {
+    "Question": "In which year was Archduke Franz Ferdinand of Austria assassinated?",
+    "RightAnswer": "1914",
+    "WrongAnswers": [
+      "1912",
+      "1915",
+      "1916"
+    ],
+    "Explanation": "In 1914, Archduke Franz Ferdinand of Austria was assassinated. This set off a chain of events leading to the First World War."
+  },
+  {
+    "Question": "In which year did the British attack on the Somme take place?",
+    "RightAnswer": "1916",
+    "WrongAnswers": [
+      "1914",
+      "1915",
+      "1917"
+    ],
+    "Explanation": "One battle, the British attack on the Somme in 1916, resulted in about 60,000 British casualties on the first day alone."
+  },
+  {
+    "Question": "On what date did the First World War end?",
+    "RightAnswer": "11th November 1918",
+    "WrongAnswers": [
+      "10th November 1918",
+      "12th November 1918",
+      "11th November 1917"
+    ],
+    "Explanation": "The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies."
+  },
+  {
+    "Question": "In which year did the British government promise 'Home Rule' for Ireland?",
+    "RightAnswer": "1913",
+    "WrongAnswers": [
+      "1912",
+      "1914",
+      "1915"
+    ],
+    "Explanation": "In 1913, the British government promised \u2018Home Rule\u2019 for Ireland."
+  },
+  {
+    "Question": "In which year was a peace treaty signed that affected Ireland?",
+    "RightAnswer": "1921",
+    "WrongAnswers": [
+      "1920",
+      "1923",
+      "1919"
+    ],
+    "Explanation": "In 1921 a peace treaty was signed and in 1922 Ireland became two countries. The six counties in the north which were mainly Protestant remained part of the UK under the name Northern Ireland."
+  },
+  {
+    "Question": "In which year did Ireland become two countries?",
+    "RightAnswer": "1922",
+    "WrongAnswers": [
+      "1920",
+      "1923",
+      "1924"
+    ],
+    "Explanation": "In 1921 a peace treaty was signed and in 1922 Ireland became two countries. The six counties in the north which were mainly Protestant remained part of the UK under the name Northern Ireland."
+  },
+  {
+    "Question": "In which year did Ireland become a republic?",
+    "RightAnswer": "1949",
+    "WrongAnswers": [
+      "1950",
+      "1948",
+      "1951"
+    ],
+    "Explanation": "Irland became a republic in 1949."
+  },
+  {
+    "Question": "In which year did the world enter the 'Great Depression'?",
+    "RightAnswer": "1929",
+    "WrongAnswers": [
+      "1930",
+      "1928",
+      "1931"
+    ],
+    "Explanation": "However, in 1929, the world entered the \u2018Great Depression\u2019 and some parts of the UK suffered mass unemployment."
+  },
+  {
+    "Question": "In which year did the BBC start radio broadcasts?",
+    "RightAnswer": "1922",
+    "WrongAnswers": [
+      "1920",
+      "1925",
+      "1930"
+    ],
+    "Explanation": "The BBC started radio broadcasts in 1922 and began the world\u2019s first regular television service in 1936."
+  },
+  {
+    "Question": "In which year did the BBC begin the world\u2019s first regular television service?",
+    "RightAnswer": "1936",
+    "WrongAnswers": [
+      "1930",
+      "1940",
+      "1933"
+    ],
+    "Explanation": "The BBC started radio broadcasts in 1922 and began the world\u2019s first regular television service in 1936."
+  },
+  {
+    "Question": "In which year did Churchill become Prime Minister?",
+    "RightAnswer": "1940",
+    "WrongAnswers": [
+      "1939",
+      "1941",
+      "1942"
+    ],
+    "Explanation": "Churchill was a soldier and journalist. In May 1940 he became Prime Minister."
+  },
+  {
+    "Question": "In which year did he lose the General Election?",
+    "RightAnswer": "1945",
+    "WrongAnswers": [
+      "1940",
+      "1950",
+      "1948"
+    ],
+    "Explanation": "He lost the General Election in 1945 but returned as Prime Minister in 1951."
+  },
+  {
+    "Question": "In which year did he return as Prime Minister?",
+    "RightAnswer": "1951",
+    "WrongAnswers": [
+      "1949",
+      "1953",
+      "1955"
+    ],
+    "Explanation": "He lost the General Election in 1945 but returned as Prime Minister in 1951."
+  },
+  {
+    "Question": "In which year did he stand down at the General Election?",
+    "RightAnswer": "1964",
+    "WrongAnswers": [
+      "1963",
+      "1965",
+      "1962"
+    ],
+    "Explanation": "He was an MP until he stood down at the 1964 General Election. Following his death in 1965, he was given a state funeral."
+  },
+  {
+    "Question": "In which year did he pass away and receive a state funeral?",
+    "RightAnswer": "1965",
+    "WrongAnswers": [
+      "1964",
+      "1966",
+      "1963"
+    ],
+    "Explanation": "He was an MP until he stood down at the 1964 General Election. Following his death in 1965, he was given a state funeral."
+  },
+  {
+    "Question": "In which year did Adolf Hitler come to power in Germany?",
+    "RightAnswer": "1933",
+    "WrongAnswers": [
+      "1929",
+      "1935",
+      "1940"
+    ],
+    "Explanation": "Adolf Hitler came to power in Germany in 1933. He believed that the conditions imposed on Germany by the Allies after the First World War were unfair. He also wanted to conquer more land for the German people."
+  },
+  {
+    "Question": "In which year did Hitler invade Poland?",
+    "RightAnswer": "1939",
+    "WrongAnswers": [
+      "1940",
+      "1938",
+      "1941"
+    ],
+    "Explanation": "However, when Hitler invaded Poland in 1939, Britain and France declared war in order to stop his aggression. The war was initially fought between the Axis powers (fascist Germany and Italy and the Empire of Japan) and the Allies."
+  },
+  {
+    "Question": "In which year did the rescue operation from the beaches around Dunkirk take place?",
+    "RightAnswer": "1940",
+    "WrongAnswers": [
+      "1939",
+      "1941",
+      "1942"
+    ],
+    "Explanation": "Many civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk in 1940."
+  },
+  {
+    "Question": "In which year did the Battle of Britain take place?",
+    "RightAnswer": "1940",
+    "WrongAnswers": [
+      "1941",
+      "1939",
+      "1942"
+    ],
+    "Explanation": "The Germans waged an air campaign against Britain, but the British resisted with their fighter planes and eventually won the crucial aerial battle against the Germans, called \u2018the Battle of Britain\u2019, in the summer of 1940."
+  },
+  {
+    "Question": "In which year did the United States enter the war after the bombing of Pearl Harbour?",
+    "RightAnswer": "1941",
+    "WrongAnswers": [
+      "1940",
+      "1942",
+      "1939"
+    ],
+    "Explanation": "The United States entered the war when the Japanese bombed its naval base at Pearl Harbour in December 1941."
+  },
+  {
+    "Question": "On which date did the allied forces land in Normandy, an event known as 'D-Day'?",
+    "RightAnswer": "6 June 1944",
+    "WrongAnswers": [
+      "7 June 1944",
+      "5 June 1944",
+      "6 July 1944"
+    ],
+    "Explanation": "On 6 June 1944, allied forces landed in Normandy (this event is often referred to as \u2018D-Day\u2019)."
+  },
+  {
+    "Question": "In which year did the United States drop atom bombs on Hiroshima and Nagasaki, ending the war against Japan?",
+    "RightAnswer": "1945",
+    "WrongAnswers": [
+      "1944",
+      "1946",
+      "1943"
+    ],
+    "Explanation": "The war against Japan ended in August 1945 when the United States dropped its newly developed atom bombs on the Japanese cities of Hiroshima and Nagasaki."
+  },
+  {
+    "Question": "In which year did Alexander Fleming discover penicillin?",
+    "RightAnswer": "1928",
+    "WrongAnswers": [
+      "1930",
+      "1925",
+      "1932"
+    ],
+    "Explanation": "Alexander Fleming born in Scotland, Fleming moved to London as a teenager and later qualified as a doctor. He was researching influenza (the \u2018flu\u2019) in 1928 when he discovered penicillin. Alexander Fleming won the Nobel Prize in Medicine in 1945."
+  },
+  {
+    "Question": "In which year did Alexander Fleming win the Nobel Prize in Medicine?",
+    "RightAnswer": "1945",
+    "WrongAnswers": [
+      "1940",
+      "1950",
+      "1935"
+    ],
+    "Explanation": "Alexander Fleming born in Scotland, Fleming moved to London as a teenager and later qualified as a doctor. He was researching influenza (the \u2018flu\u2019) in 1928 when he discovered penicillin. Alexander Fleming won the Nobel Prize in Medicine in 1945."
+  },
+  {
+    "Question": "In which year did the British people elect a Labour government with Clement Atlee as Prime Minister?",
+    "RightAnswer": "1945",
+    "WrongAnswers": [
+      "1946",
+      "1944",
+      "1947"
+    ],
+    "Explanation": "In 1945 the British people elected a Labour government. The new Prime Minister was Clement Atlee, who promised to introduce the welfare state outlined in the Beveridge Report."
+  },
+  {
+    "Question": "In which year was the National Health Service (NHS) established?",
+    "RightAnswer": "1948",
+    "WrongAnswers": [
+      "1950",
+      "1945",
+      "1952"
+    ],
+    "Explanation": "In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS), which guaranteed a minimum standard of health care for all, free at the point of use."
+  },
+  {
+    "Question": "In which year was independence granted to India, Pakistan, and Ceylon?",
+    "RightAnswer": "1947",
+    "WrongAnswers": [
+      "1950",
+      "1945",
+      "1949"
+    ],
+    "Explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka). Other colonies in Africa, the Caribbean and the Pacific achieved independence over the next 20 years."
+  },
+  {
+    "Question": "In which decade did Harold Macmillan deliver his 'wind of change' speech?",
+    "RightAnswer": "1950s",
+    "WrongAnswers": [
+      "1960s",
+      "1940s",
+      "1970s"
+    ],
+    "Explanation": "The 1950s were a period of economic recovery after the war and increasing prosperity for working people. The Prime Minister of the day, Harold Macmillan, was famous for his \u2018wind of change\u2019 speech about decolonisation and independence for the countries of the Empire."
+  },
+  {
+    "Question": "In which year did the Labour Party win the election, leading to Clement Attlee becoming Prime Minister?",
+    "RightAnswer": "1945",
+    "WrongAnswers": [
+      "1940",
+      "1950",
+      "1935"
+    ],
+    "Explanation": "Clement Attlee was Winston Churchill\u2019s Deputy Prime Minister in the wartime coalition government and became Prime Minister after the Labour Party won the 1945 election."
+  },
+  {
+    "Question": "In which year was the Beveridge Report, officially known as Social Insurance and Allied Services, published?",
+    "RightAnswer": "1942",
+    "WrongAnswers": [
+      "1940",
+      "1945",
+      "1939"
+    ],
+    "Explanation": "William Beveridge (later Lord Beveridge) was a British economist and social reformer. He served briefly as a Liberal MP and was subsequently the leader of the Liberals in the House of Lords but is best known for the 1942 report Social Insurance and Allied Services (known as the Beveridge Report)."
+  },
+  {
+    "Question": "In which year was the Education Act, also known as 'The Butler Act', introduced?",
+    "RightAnswer": "1944",
+    "WrongAnswers": [
+      "1945",
+      "1943",
+      "1946"
+    ],
+    "Explanation": "Sir Butler oversaw the introduction of the Education Act 1944 (often called \u2018The Butler Act\u2019), which introduced free secondary education in England and Wales."
+  },
+  {
+    "Question": "In which decade was the period known as 'the Swinging Sixties'?",
+    "RightAnswer": "1960s",
+    "WrongAnswers": [
+      "1970s",
+      "1950s",
+      "1980s"
+    ],
+    "Explanation": "The decade of the 1960s was a period of significant social change. It was known as \u2018the Swinging Sixties\u2019. There was growth in British fashion, cinema and popular music."
+  },
+  {
+    "Question": "In which year was the first television broadcast between London and Glasgow made?",
+    "RightAnswer": "1932",
+    "WrongAnswers": [
+      "1930",
+      "1935",
+      "1928"
+    ],
+    "Explanation": "In 1932 he made the first television broadcast between London and Glasgow."
+  },
+  {
+    "Question": "In which year did the first successful radar test take place?",
+    "RightAnswer": "1935",
+    "WrongAnswers": [
+      "1930",
+      "1940",
+      "1925"
+    ],
+    "Explanation": "Radar was developed by Scotsman Sir Robert Watson-Watt, who proposed that enemy aircraft could be detected by radio waves. The first successful radar test took place in 1935."
+  },
+  {
+    "Question": "On which date was information successfully transferred via the web for the first time?",
+    "RightAnswer": "25 December 1990",
+    "WrongAnswers": [
+      "15 January 1991",
+      "10 November 1989",
+      "5 March 1992"
+    ],
+    "Explanation": "The inventor of the World Wide Web, Sir Tim Berners-Lee, is British. Information was successfully transferred via the web for the first time on 25 December 1990."
+  },
+  {
+    "Question": "In which year was the Northern Ireland Parliament suspended and Northern Ireland placed under direct rule by the UK government?",
+    "RightAnswer": "1972",
+    "WrongAnswers": [
+      "1970",
+      "1975",
+      "1980"
+    ],
+    "Explanation": "In 1972, the Northern Ireland Parliament was suspended and Northern Ireland was directly ruled by the UK government."
+  },
+  {
+    "Question": "In which year did the violence in Northern Ireland, leading to the loss of approximately 3,000 lives, begin?",
+    "RightAnswer": "1969",
+    "WrongAnswers": [
+      "1972",
+      "1965",
+      "1970"
+    ],
+    "Explanation": "Some 3,000 people lost their lives in the decades after 1969 in the violence in Northern Ireland."
+  },
+  {
+    "Question": "In which year was the European Economic Community (EEC) formed?",
+    "RightAnswer": "1957",
+    "WrongAnswers": [
+      "1955",
+      "1960",
+      "1959"
+    ],
+    "Explanation": "West Germany, France, Belgium, Italy, Luxembourg and the Netherlands formed the European Economic Community (EEC) in 1957."
+  },
+  {
+    "Question": "In which year did the UK join the EEC?",
+    "RightAnswer": "1973",
+    "WrongAnswers": [
+      "1975",
+      "1970",
+      "1980"
+    ],
+    "Explanation": "At first the UK did not wish to join the EEC but it eventually did so in 1973."
+  },
+  {
+    "Question": "In which year was Margaret Thatcher elected as a Conservative MP?",
+    "RightAnswer": "1959",
+    "WrongAnswers": [
+      "1960",
+      "1958",
+      "1961"
+    ],
+    "Explanation": "Margaret Thatcher was elected as a Conservative MP in 1959 and became a cabinet minister in 1970 as the Secretary of State for Education and Science."
+  },
+  {
+    "Question": "In which year did Margaret Thatcher become a cabinet minister as the Secretary of State for Education and Science?",
+    "RightAnswer": "1970",
+    "WrongAnswers": [
+      "1969",
+      "1971",
+      "1972"
+    ],
+    "Explanation": "Margaret Thatcher was elected as a Conservative MP in 1959 and became a cabinet minister in 1970 as the Secretary of State for Education and Science."
+  },
+  {
+    "Question": "In which year was Margaret Thatcher elected as Leader of the Conservative Party?",
+    "RightAnswer": "1975",
+    "WrongAnswers": [
+      "1979",
+      "1980",
+      "1973"
+    ],
+    "Explanation": "In 1975 Margaret Thatcher was elected as Leader of the Conservative Party and so became Leader of the Opposition."
+  },
+  {
+    "Question": "In which year did Margaret Thatcher become the first woman Prime Minister of the UK?",
+    "RightAnswer": "1979",
+    "WrongAnswers": [
+      "1980",
+      "1978",
+      "1981"
+    ],
+    "Explanation": "Following the Conservative victory in the General Election in 1979, Margaret Thatcher became the first woman Prime Minister of the UK."
+  },
+  {
+    "Question": "In which year did Margaret Thatcher leave office as Prime Minister?",
+    "RightAnswer": "1990",
+    "WrongAnswers": [
+      "1989",
+      "1991",
+      "1988"
+    ],
+    "Explanation": "Margaret Thatcher was the longestserving Prime Minister of the 20th century, remaining in Office until 1990."
+  },
+  {
+    "Question": "In which year did Margaret Thatcher become Britain's first woman Prime Minister?",
+    "RightAnswer": "1979",
+    "WrongAnswers": [
+      "1980",
+      "1978",
+      "1981"
+    ],
+    "Explanation": "Margaret Thatcher, Britain\u2019s first woman Prime Minister, led the Conservative government from 1979 to 1990."
+  },
+  {
+    "Question": "In which year did Margaret Thatcher's term as Prime Minister end?",
+    "RightAnswer": "1990",
+    "WrongAnswers": [
+      "1989",
+      "1991",
+      "1992"
+    ],
+    "Explanation": "Margaret Thatcher, Britain\u2019s first woman Prime Minister, led the Conservative government from 1979 to 1990."
+  },
+  {
+    "Question": "In which year did Argentina invade the Falkland Islands?",
+    "RightAnswer": "1982",
+    "WrongAnswers": [
+      "1980",
+      "1985",
+      "1978"
+    ],
+    "Explanation": "In 1982, Argentina invaded the Falkland Islands, a British overseas territory in the South Atlantic. A naval taskforce was sent from the UK and military action led to the recovery of the islands."
+  },
+  {
+    "Question": "In which year was the Labour Party led by Tony Blair elected?",
+    "RightAnswer": "1997",
+    "WrongAnswers": [
+      "1995",
+      "1998",
+      "2000"
+    ],
+    "Explanation": "In 1997 the Labour Party led by Tony Blair was elected. The Blair government introduced a Scottish Parliament and a Welsh Assembly."
+  },
+  {
+    "Question": "In which year was the Good Friday Agreement signed?",
+    "RightAnswer": "1998",
+    "WrongAnswers": [
+      "1997",
+      "1999",
+      "2000"
+    ],
+    "Explanation": "In Northern Ireland, the Blair government was able to build on the peace process, resulting in the Good Friday Agreement signed in 1998."
+  },
+  {
+    "Question": "In which year was the Northern Ireland Assembly elected?",
+    "RightAnswer": "1999",
+    "WrongAnswers": [
+      "2000",
+      "1998",
+      "2001"
+    ],
+    "Explanation": "The Northern Ireland Assembly was elected in 1999 but suspended in 2002. It was not reinstated until 2007."
+  },
+  {
+    "Question": "In which year was the Northern Ireland Assembly suspended?",
+    "RightAnswer": "2002",
+    "WrongAnswers": [
+      "2001",
+      "2003",
+      "2004"
+    ],
+    "Explanation": "The Northern Ireland Assembly was elected in 1999 but suspended in 2002. It was not reinstated until 2007."
+  },
+  {
+    "Question": "In which year was the Northern Ireland Assembly reinstated?",
+    "RightAnswer": "2007",
+    "WrongAnswers": [
+      "2005",
+      "2006",
+      "2008"
+    ],
+    "Explanation": "The Northern Ireland Assembly was elected in 1999 but suspended in 2002. It was not reinstated until 2007."
+  },
+  {
+    "Question": "In which year did Gordon Brown become Prime Minister?",
+    "RightAnswer": "2007",
+    "WrongAnswers": [
+      "2005",
+      "2008",
+      "2006"
+    ],
+    "Explanation": "Gordon Brown took over as Prime Minister in 2007. Gordon Brown lost the general election in 2010."
+  },
+  {
+    "Question": "In which year did Gordon Brown lose the general election?",
+    "RightAnswer": "2010",
+    "WrongAnswers": [
+      "2009",
+      "2011",
+      "2008"
+    ],
+    "Explanation": "Gordon Brown took over as Prime Minister in 2007. Gordon Brown lost the general election in 2010."
+  },
+  {
+    "Question": "In which year did the Iraqi invasion of Kuwait occur, prompting Britain's involvement in the liberation?",
+    "RightAnswer": "1990",
+    "WrongAnswers": [
+      "1991",
+      "1989",
+      "1992"
+    ],
+    "Explanation": "Britain played a leading role in coalition forces involved in the liberation of Kuwait, following the Iraqi invasion in 1990, and the conflict in the Former Republic of Yugoslavia."
+  },
+  {
+    "Question": "In which year did British combat troops leave Iraq?",
+    "RightAnswer": "2009",
+    "WrongAnswers": [
+      "2008",
+      "2010",
+      "2011"
+    ],
+    "Explanation": "British combat troops left Iraq in 2009."
+  },
+  {
+    "Question": "In which year did no political party win an overall majority in the UK General Election for the first time since February 1974?",
+    "RightAnswer": "2010",
+    "WrongAnswers": [
+      "2005",
+      "2015",
+      "2000"
+    ],
+    "Explanation": "In 2010, and for the first time in the UK since February 1974, no political party won an overall majority in the General Election."
+  },
+  {
+    "Question": "In which year prior to 2010 did no political party win an overall majority in the UK General Election?",
+    "RightAnswer": "1974",
+    "WrongAnswers": [
+      "1980",
+      "1965",
+      "1990"
+    ],
+    "Explanation": "In 2010, and for the first time in the UK since February 1974, no political party won an overall majority in the General Election."
+  },
+  {
+    "Question": "In which year did the Conservative Government begin governing the United Kingdom?",
+    "RightAnswer": "2015",
+    "WrongAnswers": [
+      "2010",
+      "2017",
+      "2020"
+    ],
+    "Explanation": "The Conservative Government, which governed the United Kingdom from 2015 to 2024, saw multiple prime ministers, including David Cameron, Theresa May, Boris Johnson, Liz Truss, and Rishi Sunak."
+  },
+  {
+    "Question": "In which year did the Conservative Government's term end?",
+    "RightAnswer": "2024",
+    "WrongAnswers": [
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "Explanation": "The Conservative Government, which governed the United Kingdom from 2015 to 2024, saw multiple prime ministers, including David Cameron, Theresa May, Boris Johnson, Liz Truss, and Rishi Sunak."
+  },
+  {
+    "Question": "In which year did the EU membership referendum, known as Brexit, take place?",
+    "RightAnswer": "2016",
+    "WrongAnswers": [
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "Explanation": "During this period, significant events included the 2016 EU membership referendum (Brexit), leadership changes, and handling of the COVID-19 pandemic."
+  },
+  {
+    "Question": "In which year did the Labour party, led by Keir Starmer, win the majority in the general election?",
+    "RightAnswer": "2024",
+    "WrongAnswers": [
+      "2023",
+      "2025",
+      "2022"
+    ],
+    "Explanation": "The Labour party, lead by Keir Starmer, won the majority in the 2024 general election and formed the government."
+  },
+  {
+    "Question": "How many years ago did Britain become permanently separated from the continent by the Channel?",
+    "RightAnswer": "10,000",
+    "WrongAnswers": [
+      "6,000",
+      "4,000",
+      "1,000"
+    ],
+    "Explanation": "Britain only became permanently separated from the continent by the Channel about 10,000 years ago."
+  },
+  {
+    "Question": "How many years ago did the first farmers arrive in Britain?",
+    "RightAnswer": "6,000",
+    "WrongAnswers": [
+      "10,000",
+      "4,000",
+      "8,000"
+    ],
+    "Explanation": "The first farmers arrived in Britain about 6,000 years ago."
+  },
+  {
+    "Question": "How many years ago did people learn to make bronze in Britain?",
+    "RightAnswer": "4,000",
+    "WrongAnswers": [
+      "3,000",
+      "5,000",
+      "6,000"
+    ],
+    "Explanation": "Around 4,000 years ago, people learned to make bronze."
+  },
+  {
+    "Question": "In which year did Julius Caesar lead a Roman invasion of Britain?",
+    "RightAnswer": "55 BC",
+    "WrongAnswers": [
+      "60 BC",
+      "50 BC",
+      "54 BC"
+    ],
+    "Explanation": "Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful and for nearly 100 years Britain remained separate from the Roman Empire."
+  },
+  {
+    "Question": "In which year did Emperor Claudius lead a new Roman invasion of Britain?",
+    "RightAnswer": "AD 43",
+    "WrongAnswers": [
+      "AD 50",
+      "AD 54",
+      "AD 40"
+    ],
+    "Explanation": "In AD 43 the Emperor Claudius led the Roman army in a new invasion."
+  },
+  {
+    "Question": "Until which year did the Roman army remain in Britain?",
+    "RightAnswer": "410",
+    "WrongAnswers": [
+      "400",
+      "460",
+      "385"
+    ],
+    "Explanation": "The Roman army left Britain in AD 410 to defend other parts of the Roman Empire and never returned."
+  },
+  {
+    "Question": "For approximately how many years did the Romans remain in Britain?",
+    "RightAnswer": "400",
+    "WrongAnswers": [
+      "200",
+      "100",
+      "500"
+    ],
+    "Explanation": "The Romans remained in Britain for 400 years. They built roads and public buildings, created a structure of law, and introduced new plants and animals."
+  },
+  {
+    "Question": "In which year did the Vikings first visit Britain to raid coastal towns?",
+    "RightAnswer": "789",
+    "WrongAnswers": [
+      "886",
+      "800",
+      "700"
+    ],
+    "Explanation": "The Vikings came from Denmark and Norway. They first visited Britain in AD 789 to raid coastal towns and take away goods and slaves."
+  },
+  {
+    "Question": "In which year was the Battle of Hastings?",
+    "RightAnswer": "1066",
+    "WrongAnswers": [
+      "1050",
+      "1070",
+      "1086"
+    ],
+    "Explanation": "In 1066, an invasion led by William, the Duke of Normandy (in what is now northern France), defeated Harold, the Saxon king of England, at the Battle of Hastings."
+  },
+  {
+    "Question": "In which year did King Edward I introduce the Statute of Rhuddlan?",
+    "RightAnswer": "1284",
+    "WrongAnswers": [
+      "1275",
+      "1290",
+      "1280"
+    ],
+    "Explanation": "In 1284 King Edward I of England introduced the Statute of Rhuddlan, which annexed Wales to the Crown of England. Huge castles, including Conwy and Caernarvon, were built to maintain this power."
+  },
+  {
+    "Question": "Which year marks the end of the Middle Ages period in Britain?",
+    "RightAnswer": "1485",
+    "WrongAnswers": [
+      "1450",
+      "1492",
+      "1500"
+    ],
+    "Explanation": "The period after the Norman Conquest up until about 1485 is called the Middle Ages (or the medieval period). It was a time of almost constant war."
+  },
+  {
+    "Question": "In which year did the Battle of Bannockburn take place?",
+    "RightAnswer": "1314",
+    "WrongAnswers": [
+      "1320",
+      "1305",
+      "1297"
+    ],
+    "Explanation": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English."
+  },
+  {
+    "Question": "How many years did the Hundred Years War actually last?",
+    "RightAnswer": "116",
+    "WrongAnswers": [
+      "100",
+      "125",
+      "90"
+    ],
+    "Explanation": "English kings also fought a long war with France, called the Hundred Years War (even though it actually lasted 116 years)."
+  },
+  {
+    "Question": "In which year did the Black Death reach Britain?",
+    "RightAnswer": "1348",
+    "WrongAnswers": [
+      "1300",
+      "1320",
+      "1368"
+    ],
+    "Explanation": "In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death."
+  },
+  {
+    "Question": "In what year was the Magna Carta agreed upon?",
+    "RightAnswer": "1215",
+    "WrongAnswers": [
+      "1200",
+      "1250",
+      "1225"
+    ],
+    "Explanation": "There were few formal limits to the king’s power until 1215. In that year (1215), King John was forced by his noblemen to agree to a number of demands."
+  },
+  {
+    "Question": "In which year did Henry Tudor defeat King Richard III at the Battle of Bosworth Field?",
+    "RightAnswer": "1485",
+    "WrongAnswers": [
+      "1475",
+      "1455",
+      "1495"
+    ],
+    "Explanation": "The war ended with the Battle of Bosworth Field in 1485. King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII."
+  },
+  {
+    "Question": "How many times did Henry VIII marry?",
+    "RightAnswer": "6",
+    "WrongAnswers": [
+      "5",
+      "7",
+      "4"
+    ],
+    "Explanation": "Henry VIII was most famous for breaking away from the Church of Rome and marrying six times."
+  },
+  {
+    "Question": "At what age did Edward VI die after ruling for just over six years?",
+    "RightAnswer": "15",
+    "WrongAnswers": [
+      "12",
+      "18",
+      "20"
+    ],
+    "Explanation": "Edward died at the age of 15 after ruling for just over six years, and his half-sister Mary became queen."
+  },
+  {
+    "Question": "In which year was the Spanish Armada defeated?",
+    "RightAnswer": "1588",
+    "WrongAnswers": [
+      "1603",
+      "1575",
+      "1600"
+    ],
+    "Explanation": "Elizabeth became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships)."
+  },
+  {
+    "Question": "When James VI of Scotland inherited Elizabeth I’s throne, what title did he take in England?",
+    "RightAnswer": "James I",
+    "WrongAnswers": [
+      "James II",
+      "Charles I",
+      "Henry IX"
+    ],
+    "Explanation": "When she died in 1603 her heir was her cousin James VI of Scotland. He became King James I of England, Wales and Ireland but Scotland remained a separate country."
+  },
+  {
+    "Question": "For how many years did England declare itself a republic (the Commonwealth) after Charles I was executed?",
+    "RightAnswer": "11",
+    "WrongAnswers": [
+      "5",
+      "15",
+      "20"
+    ],
+    "Explanation": "England declared itself a republic, called the Commonwealth. It no longer had a monarch. For a time, it was not totally clear how the country would be governed. For now, the army was in control. Although Britain had been a republic for 11 years, without Oliver Cromwell there was no clear leader or system of government."
+  },
+  {
+    "Question": "In which year was the Bill of Rights confirmed, limiting the king’s power?",
+    "RightAnswer": "1689",
+    "WrongAnswers": [
+      "1688",
+      "1707",
+      "1649"
+    ],
+    "Explanation": "The Bill of Rights (1689) confirmed the rights of Parliament and the limits of the king’s power."
+  },
+  {
+    "Question": "In which year was the Act of Union (known as the Treaty of Union in Scotland) agreed, creating the Kingdom of Great Britain?",
+    "RightAnswer": "1707",
+    "WrongAnswers": [
+      "1688",
+      "1714",
+      "1721"
+    ],
+    "Explanation": "The Act of Union, known as the Treaty of Union in Scotland, was agreed in 1707, creating the Kingdom of Great Britain."
+  },
+  {
+    "Question": "In which year was Bonnie Prince Charlie defeated at the Battle of Culloden?",
+    "RightAnswer": "1746",
+    "WrongAnswers": [
+      "1715",
+      "1745",
+      "1760"
+    ],
+    "Explanation": "Charles initially had some successes but was defeated by George II’s army at the Battle of Culloden in 1746. Charles escaped back to Europe."
+  },
+  {
+    "Question": "In which year did the American colonies declare their independence?",
+    "RightAnswer": "1776",
+    "WrongAnswers": [
+      "1783",
+      "1765",
+      "1790"
+    ],
+    "Explanation": "In 1776, 13 American colonies declared their independence, stating that people had a right to establish their own governments."
+  },
+  {
+    "Question": "In which year was Napoleon defeated at the Battle of Waterloo?",
+    "RightAnswer": "1815",
+    "WrongAnswers": [
+      "1805",
+      "1810",
+      "1820"
+    ],
+    "Explanation": "In 1815, the French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo."
+  },
+  {
+    "Question": "In which year did the Act of Union of 1800 unify Ireland with England, Scotland and Wales?",
+    "RightAnswer": "1801",
+    "WrongAnswers": [
+      "1798",
+      "1815",
+      "1820"
+    ],
+    "Explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland."
+  },
+  {
+    "Question": "In which year did Queen Victoria come to the throne?",
+    "RightAnswer": "1837",
+    "WrongAnswers": [
+      "1851",
+      "1819",
+      "1901"
+    ],
+    "Explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18. She reigned until 1901."
+  },
+  {
+    "Question": "How many people died from disease and starvation during the Irish famine?",
+    "RightAnswer": "1 million",
+    "WrongAnswers": [
+      "500,000",
+      "2 million",
+      "3 million"
+    ],
+    "Explanation": "A million people died from disease and starvation. Another million and a half left Ireland."
+  },
+  {
+    "Question": "In which year did Emmeline Pankhurst set up the Women’s Franchise League?",
+    "RightAnswer": "1889",
+    "WrongAnswers": [
+      "1903",
+      "1918",
+      "1928"
+    ],
+    "Explanation": "Emmeline Pankhurst was born in Manchester. She set up the Women’s Franchise League in 1889, which fought to get the vote in local elections for married women."
+  },
+  {
+    "Question": "For how many years did Queen Victoria reign?",
+    "RightAnswer": "64",
+    "WrongAnswers": [
+      "50",
+      "70",
+      "60"
+    ],
+    "Explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18. She reigned until 1901, almost 64 years."
+  },
+  {
+    "Question": "In which year did the First World War end?",
+    "RightAnswer": "1918",
+    "WrongAnswers": [
+      "1914",
+      "1916",
+      "1920"
+    ],
+    "Explanation": "The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies."
+  },
+  {
+    "Question": "How many British casualties resulted from the First World War?",
+    "RightAnswer": "Over 2 million",
+    "WrongAnswers": [
+      "Around 500,000",
+      "Exactly 1 million",
+      "Less than 1 million"
+    ],
+    "Explanation": "Millions of people were killed or wounded, with more than 2 million British casualties."
+  },
+  {
+    "Question": "In which year did Ireland become two countries under the Anglo-Irish treaty?",
+    "RightAnswer": "1921",
+    "WrongAnswers": [
+      "1922",
+      "1949",
+      "1916"
+    ],
+    "Explanation": "In 1921 a peace treaty was signed and in 1922 Ireland became two countries."
+  },
+  {
+    "Question": "In which year did the BBC begin the world’s first regular television service?",
+    "RightAnswer": "1936",
+    "WrongAnswers": [
+      "1922",
+      "1939",
+      "1945"
+    ],
+    "Explanation": "The BBC started radio broadcasts in 1922 and began the world’s first regular television service in 1936."
+  },
+  {
+    "Question": "In which year did Hitler come to power in Germany?",
+    "RightAnswer": "1933",
+    "WrongAnswers": [
+      "1939",
+      "1930",
+      "1940"
+    ],
+    "Explanation": "Adolf Hitler came to power in Germany in 1933."
+  },
+  {
+    "Question": "In which year did the German forces invade Poland, prompting Britain and France to declare war?",
+    "RightAnswer": "1939",
+    "WrongAnswers": [
+      "1938",
+      "1941",
+      "1940"
+    ],
+    "Explanation": "However, when Hitler invaded Poland in 1939, Britain and France declared war in order to stop his aggression."
+  },
+  {
+    "Question": "On which date did the allied forces land in Normandy, also referred to as D-Day?",
+    "RightAnswer": "6 June 1944",
+    "WrongAnswers": [
+      "1 September 1939",
+      "8 May 1945",
+      "6 August 1945"
+    ],
+    "Explanation": "On 6 June 1944, allied forces landed in Normandy (this event is often referred to as ‘D-Day’)."
+  },
+  {
+    "Question": "In which year was the National Health Service (NHS) established?",
+    "RightAnswer": "1948",
+    "WrongAnswers": [
+      "1942",
+      "1951",
+      "1960"
+    ],
+    "Explanation": "In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS)."
+  },
+  {
+    "Question": "In which year did people from the West Indies first arrive in Britain aboard the ship MV Empire Windrush?",
+    "RightAnswer": "1948",
+    "WrongAnswers": [
+      "1958",
+      "1930",
+      "1965"
+    ],
+    "Explanation": "In 1948, people from the West Indies were also invited to come and work."
+  },
+  {
+    "Question": "In which year did Margaret Thatcher become Prime Minister?",
+    "RightAnswer": "1979",
+    "WrongAnswers": [
+      "1975",
+      "1982",
+      "1990"
+    ],
+    "Explanation": "Following the Conservative victory in the General Election in 1979, Margaret Thatcher became the first woman Prime Minister of the UK."
+  },
+  {
+    "Question": "In which year did Britain join the European Economic Community (EEC)?",
+    "RightAnswer": "1973",
+    "WrongAnswers": [
+      "1957",
+      "1986",
+      "1990"
+    ],
+    "Explanation": "At first the UK did not wish to join the EEC but it eventually did so in 1973."
+  },
+  {
+    "Question": "In which year did Argentina invade the Falkland Islands?",
+    "RightAnswer": "1982",
+    "WrongAnswers": [
+      "1980",
+      "1979",
+      "1990"
+    ],
+    "Explanation": "In 1982, Argentina invaded the Falkland Islands, a British overseas territory in the South Atlantic."
+  },
+  {
+    "Question": "In which year were a Scottish Parliament and a Welsh Assembly introduced by Tony Blair’s government?",
+    "RightAnswer": "1999",
+    "WrongAnswers": [
+      "1997",
+      "2003",
+      "2007"
+    ],
+    "Explanation": "The Blair government introduced a Scottish Parliament and a Welsh Assembly. The Scottish Parliament has substantial powers to legislate. The Welsh Assembly was given fewer legislative powers but considerable control over public services. The Northern Ireland Assembly was elected in 1999..."
+  },
+  {
+    "Question": "Which year did the British combat troops leave Iraq?",
+    "RightAnswer": "2009",
+    "WrongAnswers": [
+      "2003",
+      "2011",
+      "2016"
+    ],
+    "Explanation": "Since 2000, British armed forces have been engaged in the global fight against international terrorism... British combat troops left Iraq in 2009."
+  },
+  {
+    "Question": "Which year did the coalition government of Conservatives and Liberal Democrats begin?",
+    "RightAnswer": "2010",
+    "WrongAnswers": [
+      "2007",
+      "2015",
+      "2019"
+    ],
+    "Explanation": "There was a coalition government from 2010 to 2015. In May 2010... The Conservative and Liberal Democrat parties formed a coalition and the leader of the Conservative Party, David Cameron, became Prime Minister."
+  },
+  {
+    "Question": "Which date has Rishi Sunak called for the general election, concluding the Conservative Government from 2015 to 2024?",
+    "RightAnswer": "July 4, 2024",
+    "WrongAnswers": [
+      "May 5, 2020",
+      "June 1, 2023",
+      "December 12, 2024"
+    ],
+    "Explanation": "Despite reshuffling his cabinet and local election losses, Rishi Sunak has called for a general election on July 4, 2024. The Conservative Party’s popularity declined during this time, while Labour, the Liberal Democrats, and the Greens made substantial gains."
+  }
 ]
