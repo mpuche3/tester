@@ -384,13 +384,15 @@ function play(){
     if (!STATE.isHardMuted && !STATE.isSoftMuted) {
         if (STATE.voice === "echo"){
             pause_play()
-            const file_name = getHash(STATE._questions[STATE._index]["Question"]).trim().replace("TXT_", "ECHO_") + ".mp3"
+            const file_name = getHash(text.trim()).replace("TXT_", "ECHO_") + ".mp3"
             const audioFileFullPath = `./data/audio/${file_name}`;
             const audio = new Audio(audioFileFullPath);
             audio.playbackRate = playbackRate;
             audios.push(audio)
             audio.addEventListener("ended", function () {
-                play()          
+                setTimeout(function() { // <<< Make so it can only be one of this one queue
+                    play();
+                }, 600);
             })
             audio.play()
         } else {
