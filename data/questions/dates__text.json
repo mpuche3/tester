@@ -1,0 +1,32 @@
+[
+  {
+    "Question": "Approximately how many years ago did Britain become permanently separated from the continent by the Channel?",
+    "RightAnswer": "10,000 years ago",
+    "WrongAnswers": [
+      "5,000 years ago",
+      "15,000 years ago",
+      "20,000 years ago"
+    ],
+    "Explanation": "Britain only became permanently separated from the continent by the Channel about 10,000 years ago."
+  },
+  {
+    "Question": "Approximately how many years ago did the first farmers arrive in Britain?",
+    "RightAnswer": "6,000 years ago",
+    "WrongAnswers": [
+      "5,000 years ago",
+      "7,000 years ago",
+      "8,000 years ago"
+    ],
+    "Explanation": "The first farmers arrived in Britain about 6,000 years ago. The ancestors of these first farmers probably came from south-east Europe."
+  },
+  {
+    "Question": "Approximately how many years ago did people learn to make bronze, marking the beginning of the Bronze Age?",
+    "RightAnswer": "4,000 years ago",
+    "WrongAnswers": [
+      "3,000 years ago",
+      "5,000 years ago",
+      "2,000 years ago"
+    ],
+    "Explanation": "Around 4,000 years ago, people learned to make bronze. We call this period the Bronze Age. People lived in roundhouses and buried their dead in tombs called round barrows."
+  }
+]

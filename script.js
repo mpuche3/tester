@@ -1,5 +1,10 @@
 console.log("Running Script.js")
 
+function getHash(text) {
+    const hashHex = sha256(text); // Compute the SHA-256 hash as a hex string
+    return "TXT_" + hashHex.substring(0, 30);
+}
+
 function shuffleOptions() {
   const parent = document.getElementById('question').parentElement;
   const options = Array.from(document.querySelectorAll('.opt_div'));
@@ -42,7 +47,38 @@ const STATE = {
             "UK Female": "Google UK English Female",
             "US Female": "Google US English",
     },
+
+    increase_score() {
+        const old_val = this.get_score()
+        const new_val = old_val * 10 * 10
+        const key = this._questions[this._index]["Question"]
+        localStorage.setItem(key, new_val)
+    },
     
+    decrease_score() {
+        const old_val = this.get_score()
+        const new_val = old_val / 10
+        const key = this._questions[this._index]["Question"]
+        localStorage.setItem(key, new_val)
+    },
+
+    get_score() {
+        const min = 0.001
+        const max = 100.0
+        const key = this._questions[this._index]["Question"]
+        const str_val = localStorage.getItem(key)
+        const val = (str_val === undefined || str_val === null || str_val === 0) ? 1 : Number(str_val)
+        if (val < min) {
+            localStorage.setItem(key, min)
+            return min
+        } else if (val > max) {
+            localStorage.setItem(key, max)
+            return max
+        } else {
+            return val
+        }
+    },
+
     get_text_to_read(){
         if (document.querySelector("#explanation_text").innerHTML.trim() === ""){
             return document.querySelector("#question_text").innerHTML.trim()
@@ -68,8 +104,17 @@ const STATE = {
                 this._index = 0;
             }
         }
-        this.refresh_text()
-        play()
+        const limit = Math.random()
+        const score = this.get_score()
+        if (limit < score) {
+            console.log(">>> " + this.get_score())
+            this.refresh_text()
+            play()
+            return
+        } else {
+            this.next_question()
+            return
+        }
     },
 
     show_explanation(){
@@ -252,7 +297,7 @@ const STATE = {
     },
 
     next_category(){
-        const categories = ["History", "C001", "C002", "ALL", "TheRestauration", "battles", "difficult", "dates", "poets", "questions000", "questions001", "questions002", "TheGloriousRevolution"]
+        const categories = ["Famous", "History", "C001", "C002", "ALL", "TheRestauration", "battles", "difficult", "dates", "poets", "questions000", "questions001", "questions002", "TheGloriousRevolution"]
         const index = categories.indexOf(this._category)
         this._category = categories[(index + 1) % categories.length]
         this._index = 0
@@ -403,7 +448,6 @@ document.addEventListener("fullscreenchange", function () {
 });
 
 document.querySelector("#category").addEventListener("click", function () {
-    console.log("click on category")
     STATE.next_category()
 });
 
@@ -414,7 +458,7 @@ document.querySelector("#voice").addEventListener('click', function () {
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
         event.preventDefault();        
-        STATE.next_sentence();
+        STATE.next_question();
         STATE.refresh();
     } else if (event.key === "r") {
         event.preventDefault();
@@ -432,24 +476,27 @@ document.addEventListener('keydown', function(event) {
 });
 
 document.querySelector("#explanation").addEventListener("click", function () {
-    console.log("click on category")
     STATE.next_question()
 });
 
 document.querySelector("#opt01").addEventListener("click", function (){
+    STATE.decrease_score()
     document.querySelector("#opt01").classList.add('green_div');
     STATE.show_explanation()
 })
 
 document.querySelector("#opt02").addEventListener("click", function (){
+    STATE.increase_score()
     document.querySelector("#opt02").classList.add('red_div');
 })
 
 document.querySelector("#opt03").addEventListener("click", function (){
+    STATE.increase_score()
     document.querySelector("#opt03").classList.add('red_div');
 })
 
 document.querySelector("#opt04").addEventListener("click", function (){
+    STATE.increase_score()
     document.querySelector("#opt04").classList.add('red_div');
 })
 
@@ -542,3 +589,21 @@ setTimeout(_ => {
 ///////////////////////////////////////////////
 //                                           //
 ///////////////////////////////////////////////
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'd') {
+        const exampleData = { name: "John Doe", age: 30, city: "New York" };
+        downloadJSON(exampleData);
+    }
+});
+
+function downloadJSON(data, filename = 'data.json') {
+    const jsonStr = JSON.stringify(data, null, 2);
+    const blob = new Blob([jsonStr], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
