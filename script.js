@@ -67,7 +67,7 @@ const STATE = {
         const max = 100.0
         const key = this._questions[this._index]["Question"]
         const str_val = localStorage.getItem(key)
-        const val = (str_val === undefined || str_val === null || str_val === 0) ? 1 : Number(str_val)
+        const val = (str_val === undefined || str_val === null || str_val === 0) ? 0.1 : Number(str_val)
         if (val < min) {
             localStorage.setItem(key, min)
             return min

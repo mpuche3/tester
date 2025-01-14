@@ -570,7 +570,7 @@
     "Explanation": "In 1776, 13 American colonies declared their independence, stating that people had a right to establish their own governments."
   },
   {
-    "Question": "In which year did Britain recognize the colonies' independence?",
+    "Question": "In which year did Britain recognize the American colonies' independence?",
     "RightAnswer": "1783",
     "WrongAnswers": [
       "1776",
@@ -650,7 +650,7 @@
     "Explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18."
   },
   {
-    "Question": "In which year did the reign mentioned in the text end?",
+    "Question": "Until what year did Victoria reign?",
     "RightAnswer": "1901",
     "WrongAnswers": [
       "1899",
@@ -718,16 +718,6 @@
       "1845"
     ],
     "Explanation": "Florence Nightingale was born in Italy to English parents. At the age of 31, she trained as a nurse in Germany. In 1854, she went to Turkey and worked in military hospitals, treating soldiers who were fighting in the Crimean War."
-  },
-  {
-    "Question": "By which year were there large populations of Irish people in cities such as Liverpool, London, Manchester, and Glasgow?",
-    "RightAnswer": "1861",
-    "WrongAnswers": [
-      "1850",
-      "1870",
-      "1880"
-    ],
-    "Explanation": "By 1861 there were large populations of Irish people in cities such as Liverpool, London, Manchester and Glasgow."
   },
   {
     "Question": "In which year was the Reform Act that increased the number of people with the right to vote enacted?",
@@ -970,24 +960,24 @@
     "Explanation": "He lost the General Election in 1945 but returned as Prime Minister in 1951."
   },
   {
-    "Question": "In which year did he stand down at the General Election?",
+    "Question": "In which year did Churchill stand down at the General Election?",
     "RightAnswer": "1964",
     "WrongAnswers": [
       "1963",
       "1965",
       "1962"
     ],
-    "Explanation": "He was an MP until he stood down at the 1964 General Election. Following his death in 1965, he was given a state funeral."
+    "Explanation": "Winston Churchill was an MP until he stood down at the 1964 General Election. Following his death in 1965, he was given a state funeral."
   },
   {
-    "Question": "In which year did he pass away and receive a state funeral?",
+    "Question": "In which year did Churchill pass away and receive a state funeral?",
     "RightAnswer": "1965",
     "WrongAnswers": [
       "1964",
       "1966",
       "1963"
     ],
-    "Explanation": "He was an MP until he stood down at the 1964 General Election. Following his death in 1965, he was given a state funeral."
+    "Explanation": "Winston Churchill was an MP until he stood down at the 1964 General Election. Following his death in 1965, he was given a state funeral."
   },
   {
     "Question": "In which year did Adolf Hitler come to power in Germany?",
@@ -1164,8 +1154,8 @@
     "RightAnswer": "1932",
     "WrongAnswers": [
       "1930",
-      "1935",
-      "1928"
+      "1936",
+      "1922"
     ],
     "Explanation": "In 1932 he made the first television broadcast between London and Glasgow."
   },
