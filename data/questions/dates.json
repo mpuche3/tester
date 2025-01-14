@@ -133,9 +133,9 @@
     "Question": "In which year did King Edward I introduce the Statute of Rhuddlan?",
     "RightAnswer": "1284",
     "WrongAnswers": [
-      "1275",
-      "1290",
-      "1280"
+      "1384",
+      "1484",
+      "1584"
     ],
     "Explanation": "In 1284 King Edward I of England introduced the Statute of Rhuddlan, which annexed Wales to the Crown of England. Huge castles, including Conwy and Caernarvon, were built to maintain this power."
   },
@@ -567,7 +567,7 @@
       "1775",
       "1781"
     ],
-    "Explanation": "In 1776, 13 American colonies declared their independence, stating that people had a right to establish their own governments."
+    "Explanation": "In 1776, 13 American colonies declared their independence, stating that people had a right to establish their own governments. The colonists eventually defeated the British army and Britain recognised the colonies\u2019 independence in 1783."
   },
   {
     "Question": "In which year did Britain recognize the American colonies' independence?",
@@ -577,7 +577,7 @@
       "1781",
       "1790"
     ],
-    "Explanation": "The colonists eventually defeated the British army and Britain recognised the colonies\u2019 independence in 1783."
+    "Explanation": "In 1776, 13 American colonies declared their independence, stating that people had a right to establish their own governments. The colonists eventually defeated the British army and Britain recognised the colonies\u2019 independence in 1783."
   },
   {
     "Question": "In which year did the revolution in France occur?",
@@ -613,9 +613,9 @@
     "Question": "In which year did Ireland become unified with England, Scotland, and Wales?",
     "RightAnswer": "1801",
     "WrongAnswers": [
-      "1800",
+      "1803",
       "1802",
-      "1799"
+      "1804"
     ],
     "Explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland."
   },
@@ -623,9 +623,9 @@
     "Question": "In which year was the Act of Union that led to the creation of the United Kingdom of Great Britain and Ireland passed?",
     "RightAnswer": "1800",
     "WrongAnswers": [
-      "1801",
-      "1798",
-      "1802"
+      "1600",
+      "1700",
+      "1500"
     ],
     "Explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland."
   },
@@ -737,7 +737,7 @@
       "1870",
       "1860"
     ],
-    "Explanation": "At first they seemed to be unsuccessful, but in 1867 there was another Reform Act."
+    "Explanation": "There was a permanent shift of political power from the countryside to the towns but voting was still based on ownership of property. This meant that members of the working class were still unable to vote. A movement began to demand the vote for the working classes and other people without property. Campaigners, called the Chartists, presented petitions to Parliament. At first they seemed to be unsuccessful, but in 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote. However, the majority of men still did not have the right to vote and no women could vote."
   },
   {
     "Question": "Until which year did a woman's earnings, property, and money automatically belong to her husband upon marriage?",
@@ -950,14 +950,14 @@
     "Explanation": "He lost the General Election in 1945 but returned as Prime Minister in 1951."
   },
   {
-    "Question": "In which year did he return as Prime Minister?",
+    "Question": "In which year did Churchill return as Prime Minister?",
     "RightAnswer": "1951",
     "WrongAnswers": [
-      "1949",
-      "1953",
-      "1955"
+      "1950",
+      "1952",
+      "1953"
     ],
-    "Explanation": "He lost the General Election in 1945 but returned as Prime Minister in 1951."
+    "Explanation": "Churchill lost the General Election in 1945 but returned as Prime Minister in 1951."
   },
   {
     "Question": "In which year did Churchill stand down at the General Election?",
@@ -1543,9 +1543,9 @@
     "Question": "In which year did King Edward I introduce the Statute of Rhuddlan?",
     "RightAnswer": "1284",
     "WrongAnswers": [
-      "1275",
-      "1290",
-      "1280"
+      "1254",
+      "1264",
+      "1274"
     ],
     "Explanation": "In 1284 King Edward I of England introduced the Statute of Rhuddlan, which annexed Wales to the Crown of England. Huge castles, including Conwy and Caernarvon, were built to maintain this power."
   },
@@ -1713,9 +1713,9 @@
     "Question": "In which year did the Act of Union of 1800 unify Ireland with England, Scotland and Wales?",
     "RightAnswer": "1801",
     "WrongAnswers": [
-      "1798",
-      "1815",
-      "1820"
+      "1701",
+      "1901",
+      "2001"
     ],
     "Explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland."
   },

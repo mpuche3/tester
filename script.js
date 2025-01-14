@@ -20,8 +20,8 @@ function shuffleOptions() {
 const STATE = {
     _questions: [{"Question": "", "RightAnswer": "", "WrongAnswers": "", "Explanation": ""}],
     _index: 0,
-    voices: [],
-    _category: "dates",
+    _voices: [],
+    _category: "Famous",
     _voice: "echo",
     _isPhonetic: true,
     _isRepeat: true,    
@@ -123,32 +123,31 @@ const STATE = {
         play()
     },
 
-    get_voices(){
+    load_voices(){
         this._voices = window.speechSynthesis.getVoices().filter(voice => {
             return Object.values(this._mapVoiceNames).includes(voice.name)
         });
-        return this._voices
     },
 
-    get_voice_obj() {
-        const voiceNames = STATE.voices
-        for (const voiceName of voiceNames){
-            const voices = window.speechSynthesis.getVoices();
-            for (let i = 0; i < voices.length; i++) {
-                if (voices[i].name.includes(voiceName)) {
-                    return voices[i];
-                }
-            }    
-        }
-    },
+    // get_voice_obj() {
+    //     const voiceNames = this._voices
+    //     for (const voiceName of voiceNames){
+    //         const voices = window.speechSynthesis.getVoices();
+    //         for (let i = 0; i < voices.length; i++) {
+    //             if (voices[i].name.includes(voiceName)) {
+    //                 return voices[i];
+    //             }
+    //         }    
+    //     }
+    // },
 
-    get voices(){
-        return this._voices
-    },
+    // get voices(){
+    //     return this._voices
+    // },
 
-    set voices(value){
-        this._voices = value
-    },
+    // set voices(value){
+    //     this._voices = value
+    // },
 
     get voice(){
         return this._voice
@@ -208,16 +207,16 @@ const STATE = {
     },
 
     next_voice() {
-        if (this.voices.length !== 0) {
-            const index = this.voices.indexOf(this._voice)
+        if (this._voices.length !== 0) {
+            const index = this._voices.indexOf(this._voice)
             if (index === -1 && this._voice !== "echo") {
                 this._voice = "echo"
             } else if (index === -1 ) {
-                this._voice = this.voices[0]
-            } else if  (index === this.voices.length - 1) {
+                this._voice = this._voices[0]
+            } else if  (index === this._voices.length - 1) {
                 this._voice = "echo"
             } else {
-                this._voice = this.voices[index + 1]
+                this._voice = this._voices[index + 1]
             }
         } else {
             this._voice = "echo"
@@ -297,7 +296,8 @@ const STATE = {
     },
 
     next_category(){
-        const categories = ["Famous", "History", "C001", "C002", "ALL", "TheRestauration", "battles", "difficult", "dates", "poets", "questions000", "questions001", "questions002", "TheGloriousRevolution"]
+        // "C001", "C002", "ALL", "TheRestauration", "battles", "difficult", "questions001", "questions002", "TheGloriousRevolution"
+        const categories = ["Famous", "History", "questions000", "dates", "difficult"] 
         const index = categories.indexOf(this._category)
         this._category = categories[(index + 1) % categories.length]
         this._index = 0
@@ -305,30 +305,30 @@ const STATE = {
     }
 }
 
-function trimText(elementSelector) {
-    let loop = 0
-    const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth;
-    const element = document.querySelector(elementSelector)
-    while (isOverflown(element) && element.innerHTML.length > 6 && loop < 500) {
-        element.innerHTML = element.innerHTML.slice(0, -5) + " ..."
-        loop += 1
-    }
-}
+// function trimText(elementSelector) {
+//     let loop = 0
+//     const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth;
+//     const element = document.querySelector(elementSelector)
+//     while (isOverflown(element) && element.innerHTML.length > 6 && loop < 500) {
+//         element.innerHTML = element.innerHTML.slice(0, -5) + " ..."
+//         loop += 1
+//     }
+// }
 
-function trimElementText(element) {
-    let loop = 0
-    const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth;
-    const tmp = {
-        a: element.clientWidth,
-        b: element.scrollWidth,
-        c: isOverflown(element),
-        d: element.innerHTML.length
-    }
-    while (isOverflown(element) && element.innerHTML.length > 6 && loop < 500) {
-        element.innerHTML = element.innerHTML.slice(0, -5) + " ..."
-        loop += 1
-    }
-}
+// function trimElementText(element) {
+//     let loop = 0
+//     const isOverflown = ({ clientWidth, scrollWidth }) => scrollWidth > clientWidth;
+//     const tmp = {
+//         a: element.clientWidth,
+//         b: element.scrollWidth,
+//         c: isOverflown(element),
+//         d: element.innerHTML.length
+//     }
+//     while (isOverflown(element) && element.innerHTML.length > 6 && loop < 500) {
+//         element.innerHTML = element.innerHTML.slice(0, -5) + " ..."
+//         loop += 1
+//     }
+// }
 
 function read_data(){
     const jsonFilePath = `./data/questions/${STATE._category}.json`;
@@ -347,45 +347,45 @@ function read_data(){
     });
 }
 
-function openInNewTab(url) {
-    let newTab = document.createElement('a');
-    newTab.href = url;
-    newTab.target = "_blank";
-    newTab.click();
-}
+// function openInNewTab(url) {
+//     let newTab = document.createElement('a');
+//     newTab.href = url;
+//     newTab.target = "_blank";
+//     newTab.click();
+// }
 
-function get_filters(){
-    const url = "./filters/filters.txt"
-    const filters_text = get_text(url)
-    return filters_text.split("\n").filter(line => {
-        return line.slice(0, 3) === "[o]"
-    }).reduce((acc, line) => {
-        const BXXXCXXX = line.slice(4, 12)
-        acc[BXXXCXXX] = line
-        return acc
-    }, {})
-}
+// function get_filters(){
+//     const url = "./filters/filters.txt"
+//     const filters_text = get_text(url)
+//     return filters_text.split("\n").filter(line => {
+//         return line.slice(0, 3) === "[o]"
+//     }).reduce((acc, line) => {
+//         const BXXXCXXX = line.slice(4, 12)
+//         acc[BXXXCXXX] = line
+//         return acc
+//     }, {})
+// }
 
-function* enumerate(iterable) {
-    let index = 0;
-    for (const item of iterable) {
-      yield [index, item];
-      index++;
-    }
-}
+// function* enumerate(iterable) {
+//     let index = 0;
+//     for (const item of iterable) {
+//       yield [index, item];
+//       index++;
+//     }
+// }
 
-function get_text(url) {
-    return data[0].txt
-}
+// function get_text(url) {
+//     return data[0].txt
+// }
 
 function play(){
     STATE.refresh_text();
     const text = STATE.get_text_to_read()
     if (!STATE.isHardMuted && !STATE.isSoftMuted) {
-        const voice = STATE.voice  
-        if (voice === "echo"){
-            pause_play()      
-            const audioFileFullPath = `./data/audio/${STATE.sentence.hash}`;
+        if (STATE.voice === "echo"){
+            pause_play()
+            const file_name = getHash(STATE._questions[STATE._index]["Question"]).trim().replace("TXT_", "ECHO_") + ".mp3"
+            const audioFileFullPath = `./data/audio/${file_name}`;
             const audio = new Audio(audioFileFullPath);
             audio.playbackRate = playbackRate;
             audios.push(audio)
@@ -577,8 +577,8 @@ const audios = []
 const playbackRate = 0.85
 
 setTimeout(_ => {
-    STATE.get_voices()
-    if (STATE.voices.length !== 0) {
+    STATE.load_voices()
+    if (STATE._voices.length !== 0) {
         document.querySelector("#voice").style.display = "flex";
         STATE.next_voice()
     }
@@ -592,8 +592,7 @@ setTimeout(_ => {
 
 document.addEventListener('keydown', (event) => {
     if (event.key === 'd') {
-        const exampleData = { name: "John Doe", age: 30, city: "New York" };
-        downloadJSON(exampleData);
+        downloadJSON(STATE._questions);
     }
 });
 
