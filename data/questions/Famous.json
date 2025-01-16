@@ -45,7 +45,7 @@
         "WrongAnswers": [
             "George Frederick Handel",
             "Gustav Holst",
-            "Sir Edward Elgar"
+            "Edward Elgar"
         ],
         "Explanation": "Henry Purcell (1659–95) was the organist at Westminster Abbey. He wrote church music, operas and other pieces, and developed a British style distinct from that elsewhere in Europe."
     },
@@ -61,9 +61,9 @@
     },
     {
         "Question": "Which English composer is best known for the Pomp and Circumstance Marches?",
-        "RightAnswer": "Sir Edward Elgar",
+        "RightAnswer": "Edward Elgar",
         "WrongAnswers": [
-            "Sir William Walton",
+            "William Walton",
             "Benjamin Britten",
             "Andrew Lloyd Webber"
         ],
@@ -71,7 +71,7 @@
     },
     {
         "Question": "Which composer wrote marches for the coronations of King George VI and Queen Elizabeth II?",
-        "RightAnswer": "Sir William Walton",
+        "RightAnswer": "William Walton",
         "WrongAnswers": [
             "Ralph Vaughan Williams",
             "Henry Purcell",
@@ -254,7 +254,7 @@
         "RightAnswer": "David Allan",
         "WrongAnswers": [
             "Thomas Gainsborough",
-            "Sir John Lavery",
+            "John Lavery",
             "Dante Gabriel Rossetti"
         ],
         "Explanation": "David Allan was a Scottish painter who was best known for painting portraits. One of his most famous works is called The Origin of Painting."
@@ -263,15 +263,15 @@
         "Question": "Which English sculptor is best known for his large bronze abstract sculptures?",
         "RightAnswer": "Henry Moore",
         "WrongAnswers": [
-            "Sir John Millais",
-            "Sir Anthony Van Dyck",
-            "Sir John Lavery"
+            "John Millais",
+            "Anthony Van Dyck",
+            "John Lavery"
         ],
         "Explanation": "Henry Moore was an English sculptor and artist. He is best known for his large bronze abstract sculptures."
     },
     {
         "Question": "Famous British interior designer:",
-        "RightAnswer": "Sir Terence Conran",
+        "RightAnswer": "Terence Conran",
         "WrongAnswers": [
             "Harold Pinter",
             "Thomas Hardy",
@@ -291,17 +291,17 @@
     },
     {
         "Question": "Which British writer was a Scottish doctor and is best known for the stories about Sherlock Holmes?",
-        "RightAnswer": "Sir Arthur Conan Doyle",
+        "RightAnswer": "Arthur Conan Doyle",
         "WrongAnswers": [
             "Robert Louis Stevenson",
-            "Sir Kingsley Amis",
-            "Sir William Golding"
+            "Kingsley Amis",
+            "William Golding"
         ],
         "Explanation": "Sir Arthur Conan Doyle was a Scottish doctor and writer. He was best known for his stories about Sherlock Holmes, who was one of the first fictional detectives."
     },
     {
         "Question": "Which poem about one of the knights at the court of King Arthur survives from the Middle Ages?",
-        "RightAnswer": "Sir Gawain and the Green Knight",
+        "RightAnswer": "Gawain and the Green Knight",
         "WrongAnswers": [
             "Paradise Lost",
             "Canterbury Tales",
@@ -333,7 +333,7 @@
         "Question": "Which composer wrote A Young Person’s Guide to the Orchestra, based on a piece by Purcell?",
         "RightAnswer": "Benjamin Britten",
         "WrongAnswers": [
-            "Sir William Walton",
+            "William Walton",
             "Gustav Holst",
             "Ralph Vaughan Williams"
         ],
@@ -611,20 +611,20 @@
     },
     {
         "Question": "Which silent-movie star became famous for his tramp character and was one of many British actors to make a career in Hollywood?",
-        "RightAnswer": "Sir Charles (Charlie) Chaplin",
+        "RightAnswer": "Charles (Charlie) Chaplin",
         "WrongAnswers": [
             "David Niven",
             "Richard Burton",
-            "Sir Rex Harrison"
+            "Rex Harrison"
         ],
         "Explanation": "Sir Charles (Charlie) Chaplin became famous in silent movies for his tramp character and was one of many British actors to make a career in Hollywood."
     },
     {
         "Question": "Which British film director, flourishing in the 1930s, later left for Hollywood and remained important until his death in 1980?",
-        "RightAnswer": "Sir Alfred Hitchcock",
+        "RightAnswer": "Alfred Hitchcock",
         "WrongAnswers": [
-            "Sir David Lean",
-            "Sir Alexander Korda",
+            "David Lean",
+            "Alexander Korda",
             "Ridley Scott"
         ],
         "Explanation": "Eminent directors included Sir Alexander Korda and Sir Alfred Hitchcock, who later left for Hollywood and remained an important film director until his death in 1980."
@@ -780,7 +780,7 @@
         "Explanation": "Holst adapted Jupiter, part of the Planets suite, as the tune for I vow to thee my country, a popular hymn in British churches."
     },
     {
-        "Question": "In which English city was Sir Edward Elgar born?",
+        "Question": "In which English city was Edward Elgar born?",
         "RightAnswer": "Worcester",
         "WrongAnswers": [
             "London",
@@ -851,7 +851,7 @@
     },
     {
         "Question": "British novelist that won the Nobel Prize in Literature?",
-        "RightAnswer": "Sir William Golding",
+        "RightAnswer": "William Golding",
         "WrongAnswers": [
             "xx",
             "xx",
@@ -894,7 +894,7 @@
         "RightAnswer": "Lucian Freud",
         "WrongAnswers": [
             "Hans Holbein",
-            "Sir Anthony Van Dyck",
+            "Anthony Van Dyck",
             "John Petts"
         ],
         "Explanation": "Lucian Freud was a German-born British artist. He is best known for his portraits."
@@ -923,7 +923,7 @@
         "Question": "Which 16th-century painter from abroad was one of the many working in Britain in the 16th and 17th centuries?",
         "RightAnswer": "Hans Holbein",
         "WrongAnswers": [
-            "Sir John Lavery",
+            "John Lavery",
             "John Constable",
             "Joseph Turner"
         ],
@@ -931,10 +931,10 @@
     },
     {
         "Question": "Which 17th-century painter from abroad worked in Britain alongside Hans Holbein?",
-        "RightAnswer": "Sir Anthony Van Dyck",
+        "RightAnswer": "Anthony Van Dyck",
         "WrongAnswers": [
             "John Petts",
-            "Sir John Millais",
+            "John Millais",
             "David Allan"
         ],
         "Explanation": "Many of the painters working in Britain in the 16th and 17th centuries were from abroad – for example, Hans Holbein and Sir Anthony Van Dyck."
@@ -1001,7 +1001,7 @@
     },
     {
         "Question": "Famous poet:",
-        "RightAnswer": "Sir John Millais",
+        "RightAnswer": "John Millais",
         "WrongAnswers": [
             "xx",
             "xx",
@@ -1061,7 +1061,7 @@
     },
     {
         "Question": "Famous British (relatively recent) poet:",
-        "RightAnswer": "Sir Walter de la Mare",
+        "RightAnswer": "Walter de la Mare",
         "WrongAnswers": [
             "xx",
             "xx",
@@ -1081,7 +1081,7 @@
     },
     {
         "Question": "Famous British (relatively recent) poet:",
-        "RightAnswer": "Sir John Betjeman",
+        "RightAnswer": "John Betjeman",
         "WrongAnswers": [
             "xx",
             "xx",
@@ -1151,7 +1151,7 @@
     },
     {
         "Question": "Famous British architect:",
-        "RightAnswer": "Dame Zaha Hadid",
+        "RightAnswer": "Zaha Hadid",
         "WrongAnswers": [
             "xx",
             "xx",
@@ -1384,7 +1384,7 @@
         "RightAnswer": "Joseph Turner",
         "WrongAnswers": [
             "Hans Holbein",
-            "Sir Anthony Van Dyck",
+            "Anthony Van Dyck",
             "Damien Hirst"
         ],
         "Explanation": "The Turner Prize was established in 1984 and celebrates contemporary art. It was named after Joseph Turner."
@@ -1414,7 +1414,7 @@
         "RightAnswer": "Thomas Chippendale",
         "WrongAnswers": [
             "Clarice Cliff",
-            "Sir Terence Conran",
+            "Terence Conran",
             "Mary Quant"
         ],
         "Explanation": "Britain has produced many great designers, from Thomas Chippendale (who designed furniture in the 18th century) to Clarice Cliff (who designed Art Deco ceramics) to Sir Terence Conran (a 20th-century interior designer)."
@@ -1441,7 +1441,7 @@
     },
     {
         "Question": "Which British novelist won the Nobel Prize in Literature?",
-        "RightAnswer": "Sir William Golding",
+        "RightAnswer": "William Golding",
         "WrongAnswers": [
             "Agatha Christie",
             "Ian Fleming",
@@ -1593,7 +1593,7 @@
         "Question": "Which animator has won four Oscars, including three for films featuring Wallace and Gromit?",
         "RightAnswer": "Nick Park",
         "WrongAnswers": [
-            "Sir David Lean",
+            "David Lean",
             "Ridley Scott",
             "Colin Firth"
         ],
@@ -1701,10 +1701,10 @@
     },
     {
         "Question": "Which composer is best known for the Pomp and Circumstance Marches?",
-        "RightAnswer": "Sir Edward Elgar",
+        "RightAnswer": "Edward Elgar",
         "WrongAnswers": [
             "Ralph Vaughan Williams",
-            "Sir William Walton",
+            "William Walton",
             "Benjamin Britten"
         ],
         "Explanation": "Sir Edward Elgar was born in Worcester, England. His best-known work is probably the Pomp and Circumstance Marches."
@@ -1713,7 +1713,7 @@
         "Question": "Which composer was strongly influenced by traditional English folk music?",
         "RightAnswer": "Ralph Vaughan Williams",
         "WrongAnswers": [
-            "Sir William Walton",
+            "William Walton",
             "Benjamin Britten",
             "Henry Purcell"
         ],
@@ -1721,7 +1721,7 @@
     },
     {
         "Question": "Who wrote marches for the coronations of King George VI and Queen Elizabeth II?",
-        "RightAnswer": "Sir William Walton",
+        "RightAnswer": "William Walton",
         "WrongAnswers": [
             "Benjamin Britten",
             "Gustav Holst",
@@ -1805,7 +1805,7 @@
         "WrongAnswers": [
             "Gilbert Sullivan",
             "Dame Agatha Christie",
-            "Sir Laurence Olivier"
+            "Laurence Olivier"
         ],
         "Explanation": "More recently, Andrew Lloyd Webber has written the music for shows which have been popular throughout the world, including, in collaboration with Tim Rice, Jesus Christ Superstar and Evita, and also Cats and The Phantom of the Opera."
     },
@@ -1851,17 +1851,17 @@
     },
     {
         "Question": "Which of these artists was not part of the Pre-Raphaelite group?",
-        "RightAnswer": "Sir John Lavery",
+        "RightAnswer": "John Lavery",
         "WrongAnswers": [
             "Holman Hunt",
             "Dante Gabriel Rossetti",
-            "Sir John Millais"
+            "John Millais"
         ],
         "Explanation": "The Pre-Raphaelites (second half of the 19th century) were an important group of artists in the second half of the 19th century. They painted detailed pictures on religious or literary themes in bright colours. The group included Holman Hunt, Dante Gabriel Rossetti and Sir John Millais."
     },
     {
         "Question": "Which Northern Irish artist was known for painting the Royal Family?",
-        "RightAnswer": "Sir John Lavery",
+        "RightAnswer": "John Lavery",
         "WrongAnswers": [
             "Henry Moore",
             "John Petts",
@@ -1921,7 +1921,7 @@
     },
     {
         "Question": "Who designed the new St Paul's Cathedral?",
-        "RightAnswer": "Sir Christopher Wren",
+        "RightAnswer": "Christopher Wren",
         "WrongAnswers": [
             "Inigo Jones",
             "Robert Adam",
@@ -1941,7 +1941,7 @@
     },
     {
         "Question": "Who designed New Delhi as the seat of government in India?",
-        "RightAnswer": "Sir Edwin Lutyens",
+        "RightAnswer": "Edwin Lutyens",
         "WrongAnswers": [
             "Zaha Hadid",
             "Norman Foster",
@@ -1991,7 +1991,7 @@
     },
     {
         "Question": "Which author created the character Sherlock Holmes?",
-        "RightAnswer": "Sir Arthur Conan Doyle",
+        "RightAnswer": "Arthur Conan Doyle",
         "WrongAnswers": [
             "Robert Louis Stevenson",
             "Graham Greene",
@@ -2014,14 +2014,14 @@
         "RightAnswer": "Robert Louis Stevenson",
         "WrongAnswers": [
             "Charles Dickens",
-            "Sir Kingsley Amis",
+            "Kingsley Amis",
             "Jane Austen"
         ],
         "Explanation": "Robert Louis Stevenson wrote books which are still read by adults and children today. His most famous books include Treasure Island, Kidnapped and Dr Jekyll and Mr Hyde."
     },
     {
         "Question": "Who is the author of 'Lucky Jim'?",
-        "RightAnswer": "Sir Kingsley Amis",
+        "RightAnswer": "Kingsley Amis",
         "WrongAnswers": [
             "Graham Greene",
             "Thomas Hardy",
@@ -2045,7 +2045,7 @@
         "WrongAnswers": [
             "Graham Greene",
             "Evelyn Waugh",
-            "Sir Arthur Conan Doyle"
+            "Arthur Conan Doyle"
         ],
         "Explanation": "J K Rowling wrote the Harry Potter series of children's books, which have enjoyed huge international success. She now writes fiction for adults as well."
     },
@@ -2054,7 +2054,7 @@
         "RightAnswer": "Thomas Hardy",
         "WrongAnswers": [
             "Charles Dickens",
-            "Sir Kingsley Amis",
+            "Kingsley Amis",
             "Graham Greene"
         ],
         "Explanation": "Thomas Hardy was an author and poet. His best-known novels focus on rural society and include Far from the Madding Crowd and Jude the Obscure."
@@ -2064,7 +2064,7 @@
         "RightAnswer": "Graham Greene",
         "WrongAnswers": [
             "Evelyn Waugh",
-            "Sir Arthur Conan Doyle",
+            "Arthur Conan Doyle",
             "Robert Louis Stevenson"
         ],
         "Explanation": "Graham Greene wrote novels often influenced by his religious beliefs, including The Heart of the Matter, The Honorary Consul, Brighton Rock and Our Man in Havana."
@@ -2094,14 +2094,14 @@
         "RightAnswer": "John Milton",
         "WrongAnswers": [
             "William Wordsworth",
-            "Sir Walter Scott",
+            "Walter Scott",
             "William Blake"
         ],
         "Explanation": "As Protestant ideas spread, a number of poets wrote poems inspired by their religious views. One of these was John Milton, who wrote Paradise Lost."
     },
     {
         "Question": "Which poet was inspired by Scotland and the traditional stories from the borders of Scotland and England?",
-        "RightAnswer": "Sir Walter Scott",
+        "RightAnswer": "Walter Scott",
         "WrongAnswers": [
             "John Keats",
             "Lord Byron",
@@ -2113,8 +2113,8 @@
         "Question": "Which poets were inspired to write about their experiences in the First World War?",
         "RightAnswer": "Wilfred Owen and Siegfried Sassoon",
         "WrongAnswers": [
-            "Sir Walter de la Mare and John Masefield",
-            "Sir John Betjeman and Ted Hughes",
+            "Walter de la Mare and John Masefield",
+            "John Betjeman and Ted Hughes",
             "Robert and Elizabeth Browning"
         ],
         "Explanation": "Later, many poets - for example, Wilfred Owen and Siegfried Sassoon - were inspired to write about their experiences in the First World War."
@@ -2483,9 +2483,9 @@
         "Question": "Who was the organist at Westminster Abbey and developed a distinct British style?",
         "RightAnswer": "Henry Purcell",
         "WrongAnswers": [
-            "Sir Edward Elgar",
+            "Edward Elgar",
             "Benjamin Britten",
-            "Sir William Walton"
+            "William Walton"
         ],
         "Explanation": "Henry Purcell (1659–95) was the organist at Westminster Abbey. He wrote church music, operas and other pieces, and developed a British style distinct from that elsewhere in Europe."
     },
@@ -2493,7 +2493,7 @@
         "Question": "Which composer is known for the suite 'The Planets'?",
         "RightAnswer": "Gustav Holst",
         "WrongAnswers": [
-            "Sir Edward Elgar",
+            "Edward Elgar",
             "Ralph Vaughan Williams",
             "Benjamin Britten"
         ],
@@ -2501,11 +2501,11 @@
     },
     {
         "Question": "Which composer wrote the Pomp and Circumstance Marches?",
-        "RightAnswer": "Sir Edward Elgar",
+        "RightAnswer": "Edward Elgar",
         "WrongAnswers": [
             "George Frederick Handel",
             "Henry Purcell",
-            "Sir William Walton"
+            "William Walton"
         ],
         "Explanation": "Sir Edward Elgar was born in Worcester, England. His best-known work is probably the Pomp and Circumstance Marches."
     },
@@ -2515,15 +2515,15 @@
         "WrongAnswers": [
             "Gustav Holst",
             "Benjamin Britten",
-            "Sir William Walton"
+            "William Walton"
         ],
         "Explanation": "Ralph Vaughan Williams wrote music for orchestras and choirs. He was strongly influenced by traditional English folk music."
     },
     {
         "Question": "Which composer wrote marches for the coronations of King George VI and Queen Elizabeth II?",
-        "RightAnswer": "Sir William Walton",
+        "RightAnswer": "William Walton",
         "WrongAnswers": [
-            "Sir Edward Elgar",
+            "Edward Elgar",
             "George Frederick Handel",
             "Benjamin Britten"
         ],
@@ -2535,7 +2535,7 @@
         "WrongAnswers": [
             "Henry Purcell",
             "Gustav Holst",
-            "Sir William Walton"
+            "William Walton"
         ],
         "Explanation": "Benjamin Britten is best known for his operas, which include Peter Grimes and Billy Budd."
     },
@@ -2721,7 +2721,7 @@
     },
     {
         "Question": "Which artist from abroad worked in Britain during the 16th and 17th centuries?",
-        "RightAnswer": "Sir Anthony Van Dyck",
+        "RightAnswer": "Anthony Van Dyck",
         "WrongAnswers": [
             "Rembrandt",
             "Leonardo da Vinci",
@@ -2744,7 +2744,7 @@
         "RightAnswer": "David Allan",
         "WrongAnswers": [
             "Joseph Turner",
-            "Sir John Lavery",
+            "John Lavery",
             "John Petts"
         ],
         "Explanation": "David Allan was a Scottish painter who was best known for painting portraits. One of his most famous works is called The Origin of Painting."
@@ -2781,7 +2781,7 @@
     },
     {
         "Question": "Which artist was a very successful Northern Irish portrait painter who painted the Royal Family?",
-        "RightAnswer": "Sir John Lavery",
+        "RightAnswer": "John Lavery",
         "WrongAnswers": [
             "David Allan",
             "Lucian Freud",
@@ -2805,7 +2805,7 @@
         "WrongAnswers": [
             "Lucian Freud",
             "David Allan",
-            "Sir John Lavery"
+            "John Lavery"
         ],
         "Explanation": "John Petts was a Welsh artist, best known for his engravings and stained glass."
     },
@@ -2851,11 +2851,11 @@
     },
     {
         "Question": "Which artist was part of the Pre-Raphaelites group?",
-        "RightAnswer": "Sir John Millais",
+        "RightAnswer": "John Millais",
         "WrongAnswers": [
             "Henry Moore",
             "John Petts",
-            "Sir John Lavery"
+            "John Lavery"
         ],
         "Explanation": "The group included Holman Hunt, Dante Gabriel Rossetti and Sir John Millais."
     },
@@ -2873,19 +2873,19 @@
         "Question": "Who was responsible for the design of the Queen’s House at Greenwich?",
         "RightAnswer": "Inigo Jones",
         "WrongAnswers": [
-            "Sir Christopher Wren",
+            "Christopher Wren",
             "Robert Adam",
-            "Sir Edwin Lutyens"
+            "Edwin Lutyens"
         ],
         "Explanation": "In the 17th century, Inigo Jones took inspiration from classical architecture to design the Queen’s House at Greenwich and the Banqueting House in Whitehall in London."
     },
     {
         "Question": "Which architect helped develop a British version of the ornate styles popular in Europe in the 17th century?",
-        "RightAnswer": "Sir Christopher Wren",
+        "RightAnswer": "Christopher Wren",
         "WrongAnswers": [
             "Inigo Jones",
             "Robert Adam",
-            "Sir Edwin Lutyens"
+            "Edwin Lutyens"
         ],
         "Explanation": "Later in the century, Sir Christopher Wren helped develop a British version of the ornate styles popular in Europe in buildings such as the new St Paul’s Cathedral."
     },
@@ -2894,8 +2894,8 @@
         "RightAnswer": "Robert Adam",
         "WrongAnswers": [
             "Inigo Jones",
-            "Sir Christopher Wren",
-            "Sir Edwin Lutyens"
+            "Christopher Wren",
+            "Edwin Lutyens"
         ],
         "Explanation": "The Scottish architect Robert Adam influenced the development of architecture in the UK, Europe and America."
     },
@@ -2911,17 +2911,17 @@
     },
     {
         "Question": "Who designed New Delhi to be the seat of government in India?",
-        "RightAnswer": "Sir Edwin Lutyens",
+        "RightAnswer": "Edwin Lutyens",
         "WrongAnswers": [
             "Robert Adam",
             "Inigo Jones",
-            "Sir Christopher Wren"
+            "Christopher Wren"
         ],
         "Explanation": "In the 20th century, Sir Edwin Lutyens had an influence throughout the British Empire. He designed New Delhi to be the seat of government in India."
     },
     {
         "Question": "Which modern British architect is known for working on major projects throughout the world?",
-        "RightAnswer": "Sir Norman Foster",
+        "RightAnswer": "Norman Foster",
         "WrongAnswers": [
             "Robert Adam",
             "Inigo Jones",
@@ -2954,7 +2954,7 @@
         "RightAnswer": "Thomas Chippendale",
         "WrongAnswers": [
             "Clarice Cliff",
-            "Sir Terence Conran",
+            "Terence Conran",
             "Mary Quant"
         ],
         "Explanation": "Britain has produced many great designers, from Thomas Chippendale (who designed furniture in the 18th century) to Clarice Cliff (who designed Art Deco ceramics) to Sir Terence Conran (a 20th-century interior designer)."
@@ -2964,14 +2964,14 @@
         "RightAnswer": "Clarice Cliff",
         "WrongAnswers": [
             "Thomas Chippendale",
-            "Sir Terence Conran",
+            "Terence Conran",
             "Alexander McQueen"
         ],
         "Explanation": "Britain has produced many great designers, from Thomas Chippendale (who designed furniture in the 18th century) to Clarice Cliff (who designed Art Deco ceramics) to Sir Terence Conran (a 20th-century interior designer)."
     },
     {
         "Question": "Who is a 20th-century British interior designer?",
-        "RightAnswer": "Sir Terence Conran",
+        "RightAnswer": "Terence Conran",
         "WrongAnswers": [
             "Thomas Chippendale",
             "Clarice Cliff",
@@ -2985,7 +2985,7 @@
         "WrongAnswers": [
             "Thomas Chippendale",
             "Clarice Cliff",
-            "Sir Terence Conran"
+            "Terence Conran"
         ],
         "Explanation": "Leading fashion designers of recent years include Mary Quant, Alexander McQueen and Vivienne Westwood."
     },
@@ -2995,7 +2995,7 @@
         "WrongAnswers": [
             "Thomas Chippendale",
             "Clarice Cliff",
-            "Sir Terence Conran"
+            "Terence Conran"
         ],
         "Explanation": "Leading fashion designers of recent years include Mary Quant, Alexander McQueen and Vivienne Westwood."
     },
@@ -3011,7 +3011,7 @@
     },
     {
         "Question": "Which British novelist won the Nobel Prize in Literature?",
-        "RightAnswer": "Sir William Golding",
+        "RightAnswer": "William Golding",
         "WrongAnswers": [
             "Ian McEwan",
             "Hilary Mantel",
@@ -3134,7 +3134,7 @@
         "RightAnswer": "Charles Dickens",
         "WrongAnswers": [
             "Robert Louis Stevenson",
-            "Sir Arthur Conan Doyle",
+            "Arthur Conan Doyle",
             "Graham Greene"
         ],
         "Explanation": "Charles Dickens wrote a number of very famous novels, including Oliver Twist and Great Expectations."
@@ -3145,7 +3145,7 @@
         "WrongAnswers": [
             "Jane Austen",
             "Thomas Hardy",
-            "Sir Kingsley Amis"
+            "Kingsley Amis"
         ],
         "Explanation": "You will hear references in everyday talk to some of the characters in his books, such as Scrooge (a mean person) or Mr Micawber (always hopeful)."
     },
@@ -3163,15 +3163,15 @@
         "Question": "Which author is known for novels like 'Far from the Madding Crowd' and 'Jude the Obscure'?",
         "RightAnswer": "Thomas Hardy",
         "WrongAnswers": [
-            "Sir Arthur Conan Doyle",
-            "Sir Kingsley Amis",
+            "Arthur Conan Doyle",
+            "Kingsley Amis",
             "Jane Austen"
         ],
         "Explanation": "Thomas Hardy was an author and poet. His best-known novels focus on rural society and include Far from the Madding Crowd and Jude the Obscure."
     },
     {
         "Question": "Who created the fictional detective Sherlock Holmes?",
-        "RightAnswer": "Sir Arthur Conan Doyle",
+        "RightAnswer": "Arthur Conan Doyle",
         "WrongAnswers": [
             "Robert Louis Stevenson",
             "Charles Dickens",
@@ -3185,13 +3185,13 @@
         "WrongAnswers": [
             "Thomas Hardy",
             "J K Rowling",
-            "Sir Kingsley Amis"
+            "Kingsley Amis"
         ],
         "Explanation": "Evelyn Waugh wrote satirical novels, including Decline and Fall and Scoop. He is perhaps best known for Brideshead Revisited."
     },
     {
         "Question": "Who is the author of 'Lucky Jim'?",
-        "RightAnswer": "Sir Kingsley Amis",
+        "RightAnswer": "Kingsley Amis",
         "WrongAnswers": [
             "Jane Austen",
             "Evelyn Waugh",
@@ -3204,7 +3204,7 @@
         "RightAnswer": "Graham Greene",
         "WrongAnswers": [
             "Charles Dickens",
-            "Sir Arthur Conan Doyle",
+            "Arthur Conan Doyle",
             "Thomas Hardy"
         ],
         "Explanation": "Graham Greene wrote novels often influenced by his religious beliefs, including The Heart of the Matter, The Honorary Consul, Brighton Rock and Our Man in Havana."
@@ -3214,7 +3214,7 @@
         "RightAnswer": "J K Rowling",
         "WrongAnswers": [
             "Evelyn Waugh",
-            "Sir Kingsley Amis",
+            "Kingsley Amis",
             "Graham Greene"
         ],
         "Explanation": "J K Rowling wrote the Harry Potter series of children’s books, which have enjoyed huge international success."
@@ -3224,7 +3224,7 @@
         "RightAnswer": "Beowulf",
         "WrongAnswers": [
             "The Canterbury Tales",
-            "Sir Gawain and the Green Knight",
+            "Gawain and the Green Knight",
             "Paradise Lost"
         ],
         "Explanation": "The Anglo-Saxon poem Beowulf tells of its hero’s battles against monsters and is still translated into modern English."
@@ -3244,7 +3244,7 @@
         "RightAnswer": "John Milton",
         "WrongAnswers": [
             "William Wordsworth",
-            "Sir Walter Scott",
+            "Walter Scott",
             "Alfred Lord Tennyson"
         ],
         "Explanation": "As Protestant ideas spread, a number of poets wrote poems inspired by their religious views. One of these was John Milton, who wrote Paradise Lost."
@@ -3254,14 +3254,14 @@
         "RightAnswer": "William Wordsworth",
         "WrongAnswers": [
             "John Milton",
-            "Sir Walter Scott",
+            "Walter Scott",
             "Robert Browning"
         ],
         "Explanation": "Other poets, including William Wordsworth, were inspired by nature."
     },
     {
         "Question": "Which poet wrote poems inspired by Scotland and traditional stories?",
-        "RightAnswer": "Sir Walter Scott",
+        "RightAnswer": "Walter Scott",
         "WrongAnswers": [
             "William Blake",
             "John Keats",
@@ -3295,7 +3295,7 @@
         "WrongAnswers": [
             "Ted Hughes",
             "John Masefield",
-            "Sir John Betjeman"
+            "John Betjeman"
         ],
         "Explanation": "‘What passing-bells for these who die as cattle?; Only the monstrous anger of the guns.; Only the stuttering rifles’ rapid rattle; Can patter out their hasty orisons.’ (Wilfred Owen, 1893–1918 – Anthem for Doomed Youth)"
     },
@@ -3601,10 +3601,10 @@
     },
     {
         "Question": "Which British director remained an important film director until his death in 1980?",
-        "RightAnswer": "Sir Alfred Hitchcock",
+        "RightAnswer": "Alfred Hitchcock",
         "WrongAnswers": [
-            "Sir Alexander Korda",
-            "Sir David Lean",
+            "Alexander Korda",
+            "David Lean",
             "Ridley Scott"
         ],
         "Explanation": "Eminent directors included Sir Alexander Korda and Sir Alfred Hitchcock, who later left for Hollywood and remained an important film director until his death in 1980."
@@ -3961,7 +3961,7 @@
     },
     {
         "Question": "What is the Pomp and Circumstance Marches?",
-        "RightAnswer": "A series of marches by Sir Edward Elgar.",
+        "RightAnswer": "A series of marches by Edward Elgar.",
         "WrongAnswers": [
             "A British novel.",
             "A British historical event.",
@@ -3981,7 +3981,7 @@
     },
     {
         "Question": "What is Façade?",
-        "RightAnswer": "A work by Sir William Walton that became a ballet.",
+        "RightAnswer": "A work by William Walton.",
         "WrongAnswers": [
             "A British architectural landmark.",
             "A British novel.",
@@ -3991,7 +3991,7 @@
     },
     {
         "Question": "Who was Benjamin Britten?",
-        "RightAnswer": "A composer best known for his operas.",
+        "RightAnswer": "A British composer.",
         "WrongAnswers": [
             "A British poet.",
             "A British scientist.",
@@ -4001,7 +4001,7 @@
     },
     {
         "Question": "What is the Aldeburgh festival?",
-        "RightAnswer": "A music festival founded by Benjamin Britten in Suffolk.",
+        "RightAnswer": "A music festival.",
         "WrongAnswers": [
             "A British film festival.",
             "A British literary festival.",
@@ -4011,7 +4011,7 @@
     },
     {
         "Question": "What is the National Eisteddfod of Wales?",
-        "RightAnswer": "An annual cultural festival in Wales including music, dance, and art.",
+        "RightAnswer": "An annual cultural festival.",
         "WrongAnswers": [
             "A British film festival.",
             "A British food festival.",
@@ -4021,7 +4021,7 @@
     },
     {
         "Question": "What are The Brit Awards?",
-        "RightAnswer": "An annual event giving awards in various music categories.",
+        "RightAnswer": "An annual music award.",
         "WrongAnswers": [
             "A British film award ceremony.",
             "A British sports award ceremony.",
@@ -4071,7 +4071,7 @@
     },
     {
         "Question": "What are the Laurence Olivier Awards?",
-        "RightAnswer": "An annual award ceremony for theatre achievements",
+        "RightAnswer": "An annual award ceremony",
         "WrongAnswers": [
             "A series of comic operas",
             "A traditional Christmas pantomime",
@@ -4081,7 +4081,7 @@
     },
     {
         "Question": "Who was Hans Holbein?",
-        "RightAnswer": "A painter working in Britain in the 16th and 17th centuries from abroad.",
+        "RightAnswer": "A painter from the 16th century.",
         "WrongAnswers": [
             "A British sculptor from the 18th century",
             "A contemporary artist who won the Turner Prize",
@@ -4091,11 +4091,11 @@
     },
     {
         "Question": "What is the Turner Prize?",
-        "RightAnswer": "A prestigious visual art award in Europe established in 1984.",
+        "RightAnswer": "A prestigious visual art award.",
         "WrongAnswers": [
-            "A famous British art gallery",
-            "A type of painting technique",
-            "An annual art exhibition in Scotland"
+            "A prestigious music award.",
+            "A prestigious literary award.",
+            "An annual award for theater arts."
         ],
         "Explanation": "The Turner Prize was established in 1984 and celebrates contemporary art. The Turner Prize is recognised as one of the most prestigious visual art awards in Europe."
     },
@@ -4111,7 +4111,7 @@
     },
     {
         "Question": "What is Tate Britain?",
-        "RightAnswer": "A gallery in London where the Turner Prize works are shown.",
+        "RightAnswer": "A gallery in London.",
         "WrongAnswers": [
             "A famous British artist",
             "A contemporary art award",
@@ -4131,17 +4131,17 @@
     },
     {
         "Question": "Who was Thomas Gainsborough?",
-        "RightAnswer": "A portrait painter who often painted people in country or garden scenery.",
+        "RightAnswer": "A portrait painter.",
         "WrongAnswers": [
             "A famous landscape photographer",
             "A renowned sculptor known for abstract works",
-            "A composer of classical music"
+            "A composer of classical music."
         ],
         "Explanation": "Thomas Gainsborough was a portrait painter who often painted people in country or garden scenery."
     },
     {
         "Question": "Who was David Allan?",
-        "RightAnswer": "A Scottish painter best known for painting portraits.",
+        "RightAnswer": "A Scottish painter.",
         "WrongAnswers": [
             "A famous British sculptor",
             "A renowned landscape photographer",
@@ -4151,7 +4151,7 @@
     },
     {
         "Question": "Who was Joseph Turner?",
-        "RightAnswer": "An influential landscape painter in a modern style.",
+        "RightAnswer": "An influential landscape painter.",
         "WrongAnswers": [
             "A famous portrait photographer",
             "A renowned sculptor known for abstract works",
@@ -4161,17 +4161,17 @@
     },
     {
         "Question": "Who was John Constable?",
-        "RightAnswer": "A landscape painter most famous for his works of Dedham Vale.",
+        "RightAnswer": "A landscape painter.",
         "WrongAnswers": [
             "A famous portrait photographer",
-            "A renowned sculptor known for abstract works",
+            "A renowned sculptor",
             "A composer of classical music"
         ],
         "Explanation": "John Constable was a landscape painter most famous for his works of Dedham Vale on the Suffolk–Essex border in the east of England."
     },
     {
         "Question": "Who were the Pre-Raphaelites?",
-        "RightAnswer": "An important group of artists in the second half of the 19th century.",
+        "RightAnswer": "An important group of artists.",
         "WrongAnswers": [
             "A famous group of classical musicians",
             "A renowned group of sculptors",
@@ -4181,7 +4181,7 @@
     },
     {
         "Question": "Who was Sir John Lavery?",
-        "RightAnswer": "A very successful Northern Irish portrait painter.",
+        "RightAnswer": "A very successful portrait painter.",
         "WrongAnswers": [
             "A famous landscape photographer",
             "A renowned sculptor known for abstract works",
@@ -4191,7 +4191,7 @@
     },
     {
         "Question": "Who was Henry Moore?",
-        "RightAnswer": "An English sculptor and artist best known for his large bronze abstract sculptures.",
+        "RightAnswer": "An sculptor and artist.",
         "WrongAnswers": [
             "A famous portrait photographer",
             "A renowned landscape painter",
@@ -4201,7 +4201,7 @@
     },
     {
         "Question": "Who was John Petts?",
-        "RightAnswer": "A Welsh artist best known for his engravings and stained glass.",
+        "RightAnswer": "A Welsh artist",
         "WrongAnswers": [
             "A famous portrait photographer",
             "A renowned landscape painter",
@@ -4211,7 +4211,7 @@
     },
     {
         "Question": "Who was Lucian Freud?",
-        "RightAnswer": "A German-born British artist best known for his portraits.",
+        "RightAnswer": "A artist best known for his portraits.",
         "WrongAnswers": [
             "A famous landscape photographer",
             "A renowned sculptor known for abstract works",
@@ -4221,7 +4221,7 @@
     },
     {
         "Question": "Who was David Hockney?",
-        "RightAnswer": "An important contributor to the ‘pop art’ movement of the 1960s.",
+        "RightAnswer": "An important contributor to the ‘pop art’.",
         "WrongAnswers": [
             "A famous landscape photographer",
             "A renowned sculptor known for abstract works",
@@ -4231,7 +4231,7 @@
     },
     {
         "Question": "What is the White Tower in the Tower of London?",
-        "RightAnswer": "An example of a Norman castle keep.",
+        "RightAnswer": "A Norman castle keep.",
         "WrongAnswers": [
             "A medieval cathedral",
             "A famous British garden",
@@ -4241,7 +4241,7 @@
     },
     {
         "Question": "What is Hardwick Hall?",
-        "RightAnswer": "A great country house in Derbyshire.",
+        "RightAnswer": "A great country house.",
         "WrongAnswers": [
             "A medieval church",
             "A modern art museum",
@@ -4251,7 +4251,7 @@
     },
     {
         "Question": "What is the Queen’s House at Greenwich?",
-        "RightAnswer": "A building designed by Inigo Jones inspired by classical architecture.",
+        "RightAnswer": "A classical-architecture building",
         "WrongAnswers": [
             "A medieval castle",
             "A gothic-style cathedral",
@@ -4260,18 +4260,8 @@
         "Explanation": "In the 17th century, Inigo Jones took inspiration from classical architecture to design the Queen’s House at Greenwich and the Banqueting House in Whitehall in London."
     },
     {
-        "Question": "What is St Paul’s Cathedral?",
-        "RightAnswer": "A building developed by Sir Christopher Wren in a British version of ornate styles.",
-        "WrongAnswers": [
-            "A medieval castle",
-            "A modern art museum",
-            "A famous British garden"
-        ],
-        "Explanation": "Later in the century, Sir Christopher Wren helped develop a British version of the ornate styles popular in Europe in buildings such as the new St Paul’s Cathedral."
-    },
-    {
         "Question": "What is Dumfries House?",
-        "RightAnswer": "A great house in Scotland designed by Robert Adam.",
+        "RightAnswer": "A great house.",
         "WrongAnswers": [
             "A medieval church",
             "A modern skyscraper",
@@ -4281,27 +4271,27 @@
     },
     {
         "Question": "What is the Royal Crescent?",
-        "RightAnswer": "A building in Bath influenced by Robert Adam's ideas.",
+        "RightAnswer": "A building in Bath.",
         "WrongAnswers": [
             "A medieval castle",
             "A gothic-style cathedral",
             "A modern art museum"
         ],
-        "Explanation": "His ideas influenced architects in cities such as Bath, where the Royal Crescent was built."
+        "Explanation": "Robert Adam's ideas influenced architects in cities such as Bath, where the Royal Crescent was built."
     },
     {
-        "Question": "What are the Houses of Parliament?",
-        "RightAnswer": "A great public building built in the medieval ‘gothic’ style.",
+        "Question": "What's the style of the Houses of Parliament?",
+        "RightAnswer": "Medieval ‘gothic’.",
         "WrongAnswers": [
-            "A modern skyscraper",
-            "A famous British garden",
-            "A medieval castle"
+            "Baroque",
+            "Renaissance",
+            "Neoclassical"
         ],
         "Explanation": "In the 19th century, the medieval ‘gothic’ style became popular again. As cities expanded, many great public buildings were built in this style. The Houses of Parliament and St Pancras Station were built at this time."
     },
     {
         "Question": "What is the Cenotaph in Whitehall?",
-        "RightAnswer": "A war memorial designed by Sir Edwin Lutyens.",
+        "RightAnswer": "A war memorial.",
         "WrongAnswers": [
             "A medieval church",
             "A modern art museum",
@@ -4311,7 +4301,7 @@
     },
     {
         "Question": "What is the Chelsea Flower Show?",
-        "RightAnswer": "An annual event showcasing garden design from Britain and around the world.",
+        "RightAnswer": "An annual event showcasing garden.",
         "WrongAnswers": [
             "A medieval festival",
             "A modern art exhibition",
@@ -4341,7 +4331,7 @@
     },
     {
         "Question": "Who was Robert Louis Stevenson?",
-        "RightAnswer": "An author of books like Treasure Island and Kidnapped.",
+        "RightAnswer": "An author of books like Treasure Island.",
         "WrongAnswers": [
             "A novelist known for Pride and Prejudice.",
             "A writer of Sherlock Holmes stories.",
@@ -4351,7 +4341,7 @@
     },
     {
         "Question": "Who was Thomas Hardy?",
-        "RightAnswer": "An author and poet known for novels about rural society.",
+        "RightAnswer": "An author and poet.",
         "WrongAnswers": [
             "A Scottish doctor and writer.",
             "A novelist known for the Harry Potter series.",
@@ -4361,7 +4351,7 @@
     },
     {
         "Question": "Who was Sir Arthur Conan Doyle?",
-        "RightAnswer": "A Scottish doctor and writer known for Sherlock Holmes.",
+        "RightAnswer": "A Scottish doctor and writer.",
         "WrongAnswers": [
             "An English novelist known for Pride and Prejudice.",
             "A poet known for Lucky Jim.",
@@ -4431,7 +4421,7 @@
     },
     {
         "Question": "Who is Sir Walter Scott?",
-        "RightAnswer": "A poet who wrote about Scotland and traditional stories.",
+        "RightAnswer": "A poet who wrote about Scotland.",
         "WrongAnswers": [
             "A poet inspired by nature",
             "A poet who wrote Paradise Lost",
@@ -4501,7 +4491,7 @@
     },
     {
         "Question": "Who is Father Christmas?",
-        "RightAnswer": "A figure believed by very young children to bring presents during the night before Christmas Day.",
+        "RightAnswer": "A figure that bring presents the night before Christmas Day.",
         "WrongAnswers": [
             "A character from a famous Easter story.",
             "A symbol of the Jewish festival Hannukah.",
@@ -4511,7 +4501,7 @@
     },
     {
         "Question": "What is Boxing Day?",
-        "RightAnswer": "The day after Christmas Day and a public holiday.",
+        "RightAnswer": "The day after Christmas Day.",
         "WrongAnswers": [
             "The day marking the start of Lent.",
             "A festival celebrated by lighting candles on a menorah.",
@@ -4621,7 +4611,7 @@
     },
     {
         "Question": "What is April Fool's Day?",
-        "RightAnswer": "A day when people play jokes on each other until midday.",
+        "RightAnswer": "A day when people play jokes on each other.",
         "WrongAnswers": [
             "A day to celebrate the arrival of spring.",
             "A day to honor fathers.",
@@ -4631,7 +4621,7 @@
     },
     {
         "Question": "What is Mothering Sunday?",
-        "RightAnswer": "A day when children send cards or buy gifts for their mothers.",
+        "RightAnswer": "A day to honor mothers.",
         "WrongAnswers": [
             "A day to honor fathers.",
             "A day to celebrate grandparents.",
@@ -4641,7 +4631,7 @@
     },
     {
         "Question": "What is Father's Day?",
-        "RightAnswer": "A day when children send cards or buy gifts for their fathers.",
+        "RightAnswer": "A day to honor fathers.",
         "WrongAnswers": [
             "A day to honor mothers.",
             "A day to celebrate siblings.",
@@ -4651,7 +4641,7 @@
     },
     {
         "Question": "What is Halloween?",
-        "RightAnswer": "An ancient festival with roots in the pagan festival to mark the beginning of winter.",
+        "RightAnswer": "An pagan festival to mark the beginning of winter.",
         "WrongAnswers": [
             "A modern festival to celebrate spring.",
             "A day to honor war veterans.",
@@ -4661,7 +4651,7 @@
     },
     {
         "Question": "What is Bonfire Night?",
-        "RightAnswer": "An occasion when people in Great Britain set off fireworks.",
+        "RightAnswer": "An occasion when people set off fireworks.",
         "WrongAnswers": [
             "A night to celebrate the end of winter.",
             "A festival to honor firefighters.",
@@ -4671,7 +4661,7 @@
     },
     {
         "Question": "What is Remembrance Day?",
-        "RightAnswer": "A day to commemorate those who died fighting for the UK and its allies.",
+        "RightAnswer": "A day to commemorate fallen soldiers.",
         "WrongAnswers": [
             "A day to celebrate the end of World War II.",
             "A day to honor the monarchy.",
@@ -4681,7 +4671,7 @@
     },
     {
         "Question": "What are bank holidays?",
-        "RightAnswer": "Public holidays when banks and many other businesses are closed.",
+        "RightAnswer": "Public holidays when many businesses are closed.",
         "WrongAnswers": [
             "Religious holidays celebrated worldwide.",
             "Days when banks offer special discounts.",
@@ -4691,7 +4681,7 @@
     },
     {
         "Question": "What is the Battle of the Boyne?",
-        "RightAnswer": "An event whose anniversary is a public holiday in Northern Ireland.",
+        "RightAnswer": "A public holiday in Northern Ireland.",
         "WrongAnswers": [
             "A famous Irish song.",
             "A traditional Irish dish.",
@@ -4701,7 +4691,7 @@
     },
     {
         "Question": "What is Kew Gardens?",
-        "RightAnswer": "A famous garden to visit in England.",
+        "RightAnswer": "A famous garden in England.",
         "WrongAnswers": [
             "A type of gardening tool",
             "A popular flower show",
@@ -4711,7 +4701,7 @@
     },
     {
         "Question": "What is Sissinghurst?",
-        "RightAnswer": "A famous garden to visit in England.",
+        "RightAnswer": "A famous garden in England.",
         "WrongAnswers": [
             "A type of vegetable grown in allotments",
             "A national flower of the UK",
@@ -4721,7 +4711,7 @@
     },
     {
         "Question": "What is Hidcote?",
-        "RightAnswer": "A famous garden to visit in England.",
+        "RightAnswer": "A famous garden in England.",
         "WrongAnswers": [
             "A type of flower associated with the UK",
             "A major national exhibition",
@@ -4731,7 +4721,7 @@
     },
     {
         "Question": "What is Crathes Castle?",
-        "RightAnswer": "A famous garden to visit in Scotland.",
+        "RightAnswer": "A famous garden in Scotland.",
         "WrongAnswers": [
             "A type of fruit grown in allotments",
             "A small local gardening event",
@@ -4741,7 +4731,7 @@
     },
     {
         "Question": "What is Inveraray Castle?",
-        "RightAnswer": "A famous garden to visit in Scotland.",
+        "RightAnswer": "A famous garden in Scotland.",
         "WrongAnswers": [
             "A type of plant sold in garden centres",
             "A national flower of Scotland",
@@ -4751,7 +4741,7 @@
     },
     {
         "Question": "What is Bodnant Garden?",
-        "RightAnswer": "A famous garden to visit in Wales.",
+        "RightAnswer": "A famous garden in Wales.",
         "WrongAnswers": [
             "A type of gardening tool",
             "A popular flower show in Scotland",
@@ -4761,7 +4751,7 @@
     },
     {
         "Question": "What is Mount Stewart?",
-        "RightAnswer": "A famous garden to visit in Northern Ireland.",
+        "RightAnswer": "A famous garden in Northern Ireland.",
         "WrongAnswers": [
             "A type of vegetable grown in allotments",
             "A national flower of Northern Ireland",
@@ -4781,7 +4771,7 @@
     },
     {
         "Question": "What are Welsh cakes?",
-        "RightAnswer": "A traditional Welsh snack made from flour, dried fruits and spices.",
+        "RightAnswer": "A traditional Welsh snack.",
         "WrongAnswers": [
             "A type of cake made with chocolate and cream.",
             "A Scottish dish made from sheep's stomach.",
@@ -4801,7 +4791,7 @@
     },
     {
         "Question": "What is an Ulster fry?",
-        "RightAnswer": "A fried meal with bacon, eggs, sausage, black pudding, white pudding, tomatoes, mushrooms, soda bread and potato bread.",
+        "RightAnswer": "A traditional Northern Ireland meal.",
         "WrongAnswers": [
             "A type of Scottish dish made with oatmeal.",
             "A traditional English dish served with Yorkshire puddings.",
@@ -4811,7 +4801,7 @@
     },
     {
         "Question": "Who is Charlie Chaplin?",
-        "RightAnswer": "A famous actor known for his tramp character in silent movies.",
+        "RightAnswer": "A famous actor known for his tramp character.",
         "WrongAnswers": [
             "A British film director known for special effects",
             "A British film studio owner",
@@ -4821,7 +4811,7 @@
     },
     {
         "Question": "Who is Sir Alexander Korda?",
-        "RightAnswer": "An eminent British film director.",
+        "RightAnswer": "A British film director.",
         "WrongAnswers": [
             "A British actor known for comedies",
             "A British special effects artist",
@@ -4831,7 +4821,7 @@
     },
     {
         "Question": "Who is Sir Alfred Hitchcock?",
-        "RightAnswer": "An important British film director.",
+        "RightAnswer": "A British film director.",
         "WrongAnswers": [
             "A British actor known for silent films",
             "A British film studio owner",
@@ -4841,7 +4831,7 @@
     },
     {
         "Question": "What is Ealing Studios?",
-        "RightAnswer": "The oldest continuously working film studio facility in the world.",
+        "RightAnswer": "A film studio facility.",
         "WrongAnswers": [
             "A famous British film director",
             "A British film award",
@@ -4851,7 +4841,7 @@
     },
     {
         "Question": "Who is Nick Park?",
-        "RightAnswer": "An animator who has won four Oscars for his animated films.",
+        "RightAnswer": "An British famous for his animated films.",
         "WrongAnswers": [
             "A British film director known for comedies",
             "A British actor known for dramas",
@@ -4871,7 +4861,7 @@
     },
     {
         "Question": "What is 'The 39 Steps'?",
-        "RightAnswer": "A British film directed by Alfred Hitchcock.",
+        "RightAnswer": "A film directed by Alfred Hitchcock.",
         "WrongAnswers": [
             "A famous British novel by Agatha Christie.",
             "A historical British landmark.",
@@ -4961,7 +4951,7 @@
     },
     {
         "Question": "What is 'Four Weddings and a Funeral'?",
-        "RightAnswer": "A British film directed by Mike Newell.",
+        "RightAnswer": "A British film.",
         "WrongAnswers": [
             "A British romantic novel.",
             "A British comedy series.",
@@ -4971,7 +4961,7 @@
     },
     {
         "Question": "What is 'Touching the Void'?",
-        "RightAnswer": "A British film directed by Kevin MacDonald.",
+        "RightAnswer": "A British film.",
         "WrongAnswers": [
             "A British adventure novel.",
             "A British mountaineering documentary.",
@@ -4981,7 +4971,7 @@
     },
     {
         "Question": "What is the Eden Project?",
-        "RightAnswer": "A location in Cornwall with biomes housing plants from all over the world.",
+        "RightAnswer": "A location in Cornwall with biomes.",
         "WrongAnswers": [
             "A historic castle in Scotland",
             "A famous British museum",
@@ -4990,18 +4980,8 @@
         "Explanation": "The Eden Project is located in Cornwall, in the south west of England. Its biomes, which are like giant greenhouses, house plants from all over the world."
     },
     {
-        "Question": "What is the Castle in Edinburgh?",
-        "RightAnswer": "A dominant feature of the skyline in Edinburgh, Scotland.",
-        "WrongAnswers": [
-            "A famous British pub",
-            "A historic British ship",
-            "A popular British dish"
-        ],
-        "Explanation": "The Castle is a dominant feature of the skyline in Edinburgh, Scotland."
-    },
-    {
         "Question": "What is the Giant’s Causeway?",
-        "RightAnswer": "A land formation of columns made from volcanic lava on the north-east coast of Northern Ireland.",
+        "RightAnswer": "A land formation of columns made from volcanic lava.",
         "WrongAnswers": [
             "A famous British pub",
             "A historic British ship",
@@ -5011,7 +4991,7 @@
     },
     {
         "Question": "What is Trossachs National Park?",
-        "RightAnswer": "A national park covering 720 square miles in the west of Scotland.",
+        "RightAnswer": "A national park.",
         "WrongAnswers": [
             "A famous British pub",
             "A historic British ship",
@@ -5021,7 +5001,7 @@
     },
     {
         "Question": "What is the London Eye?",
-        "RightAnswer": "A Ferris wheel situated on the southern bank of the River Thames.",
+        "RightAnswer": "A Ferris wheel.",
         "WrongAnswers": [
             "A famous British pub",
             "A historic British ship",
@@ -5031,7 +5011,7 @@
     },
     {
         "Question": "What is Snowdonia?",
-        "RightAnswer": "A national park in North Wales.",
+        "RightAnswer": "A national park.",
         "WrongAnswers": [
             "A famous British pub",
             "A historic British ship",
@@ -5290,16 +5270,6 @@
         "Explanation": "Some of the people who had performed in the music halls in the 1940s and 1950s, such as Morecambe and Wise, became stars of television."
     },
     {
-        "Question": "What is Monty Python’s Flying Circus?",
-        "RightAnswer": "A new type of progressive comedy introduced in 1969.",
-        "WrongAnswers": [
-            "A British political cartoon from the 18th century.",
-            "A satirical magazine from the 1840s.",
-            "A traditional British music hall performance."
-        ],
-        "Explanation": "In 1969, Monty Python’s Flying Circus introduced a new type of progressive comedy."
-    },
-    {
         "Question": "What is Private Eye?",
         "RightAnswer": "A magazine that continues the tradition of satire.",
         "WrongAnswers": [
@@ -5311,7 +5281,7 @@
     },
     {
         "Question": "What was That Was The Week That Was?",
-        "RightAnswer": "A satirical show from the 1960s.",
+        "RightAnswer": "A satirical show.",
         "WrongAnswers": [
             "A British sitcom about workplace relationships.",
             "A famous British stand-up comedy routine.",
@@ -5321,7 +5291,7 @@
     },
     {
         "Question": "What is Spitting Image?",
-        "RightAnswer": "A satirical show from the 1980s and 1990s.",
+        "RightAnswer": "A satirical show.",
         "WrongAnswers": [
             "A British sitcom about family life.",
             "A famous British stand-up comedy routine.",
@@ -5351,7 +5321,7 @@
     },
     {
         "Question": "What is the British Broadcasting Corporation (BBC)?",
-        "RightAnswer": "A British public service broadcaster providing television and radio programmes.",
+        "RightAnswer": "A British public service broadcaster",
         "WrongAnswers": [
             "A private British news agency",
             "A UK-based film production company",
@@ -5361,7 +5331,7 @@
     },
     {
         "Question": "What is the largest broadcaster in the world?",
-        "RightAnswer": "The British Broadcasting Corporation (BBC).",
+        "RightAnswer": "BBC",
         "WrongAnswers": [
             "CNN",
             "Al Jazeera",
@@ -5380,18 +5350,8 @@
         "Explanation": "Like television, BBC radio stations are funded by TV licences and other radio stations are funded through advertisements."
     },
     {
-        "Question": "What is Big Ben?",
-        "RightAnswer": "The nickname for the great bell of the clock at the Houses of Parliament in London.",
-        "WrongAnswers": [
-            "A famous British pub",
-            "A historic British ship",
-            "A popular British dish"
-        ],
-        "Explanation": "Big Ben is the nickname for the great bell of the clock at the Houses of Parliament in London."
-    },
-    {
         "Question": "What is the Eden Project?",
-        "RightAnswer": "A location in Cornwall with biomes housing plants from all over the world.",
+        "RightAnswer": "A location in Cornwall with biomes.",
         "WrongAnswers": [
             "A historic castle in Scotland",
             "A famous British museum",
@@ -5401,7 +5361,7 @@
     },
     {
         "Question": "What is the Castle in Edinburgh?",
-        "RightAnswer": "A dominant feature of the skyline in Edinburgh, Scotland with a long history.",
+        "RightAnswer": "A dominant feature of the skyline in Edinburgh.",
         "WrongAnswers": [
             "A famous British garden",
             "A popular British shopping mall",
@@ -5411,7 +5371,7 @@
     },
     {
         "Question": "What is the Giant’s Causeway?",
-        "RightAnswer": "A land formation of columns made from volcanic lava on the north-east coast of Northern Ireland.",
+        "RightAnswer": "A land formation of columns made from volcanic lava.",
         "WrongAnswers": [
             "A famous British bridge",
             "A historic British battlefield",
@@ -5421,7 +5381,7 @@
     },
     {
         "Question": "What is Trossachs National Park?",
-        "RightAnswer": "A national park covering 720 square miles in the west of Scotland.",
+        "RightAnswer": "A national park.",
         "WrongAnswers": [
             "A famous British zoo",
             "A historic British palace",
@@ -5431,7 +5391,7 @@
     },
     {
         "Question": "What is the London Eye?",
-        "RightAnswer": "A Ferris wheel situated on the southern bank of the River Thames.",
+        "RightAnswer": "A Ferris wheel.",
         "WrongAnswers": [
             "A historic British lighthouse",
             "A famous British cathedral",
@@ -5451,7 +5411,7 @@
     },
     {
         "Question": "What is the Tower of London?",
-        "RightAnswer": "A historic building first built by William the Conqueror where tours are given by Yeoman Warders.",
+        "RightAnswer": "A historic building where tours are given by Yeoman Warders.",
         "WrongAnswers": [
             "A famous British hotel",
             "A historic British library",
@@ -5461,7 +5421,7 @@
     },
     {
         "Question": "What is the Lake District?",
-        "RightAnswer": "England’s largest national park, famous for its lakes and mountains.",
+        "RightAnswer": "England’s largest national park",
         "WrongAnswers": [
             "A famous British amusement park",
             "A historic British fortress",
@@ -5551,7 +5511,7 @@
     },
     {
         "Question": "Who is Dr Sir Ludwig Guttman?",
-        "RightAnswer": "A German refugee who developed new methods of treatment for people with spinal injuries.",
+        "RightAnswer": "Known for helping people with spinal injuries",
         "WrongAnswers": [
             "A famous British footballer",
             "The founder of the Wimbledon tournament",
@@ -5580,8 +5540,8 @@
         "Explanation": "Sir Roger Bannister was the first man in the world to run a mile in under four minutes, in 1954."
     },
     {
-        "Question": "Who is Sir Jackie Stewart?",
-        "RightAnswer": "A Scottish former racing driver who won the Formula 1 world championship three times.",
+        "Question": "Who is Jackie Stewart?",
+        "RightAnswer": "A former racing driver.",
         "WrongAnswers": [
             "A British football player",
             "A famous British rower",
@@ -5601,7 +5561,7 @@
     },
     {
         "Question": "Who is Sir Ian Botham?",
-        "RightAnswer": "The captain of the English cricket team and holder of several English Test cricket records.",
+        "RightAnswer": "The captain of the English cricket team.",
         "WrongAnswers": [
             "A British Olympic gold medalist in ice dancing",
             "A famous British racing driver",
@@ -5611,7 +5571,7 @@
     },
     {
         "Question": "Who are Jayne Torvill and Christopher Dean?",
-        "RightAnswer": "Gold medalists for ice dancing at the Olympic Games in 1984.",
+        "RightAnswer": "Gold medalists for ice dancing.",
         "WrongAnswers": [
             "Famous British rowers",
             "Renowned British cyclists",
@@ -5621,7 +5581,7 @@
     },
     {
         "Question": "Who is Sir Steve Redgrave?",
-        "RightAnswer": "A rower who won gold medals in five consecutive Olympic Games.",
+        "RightAnswer": "A famous British rower.",
         "WrongAnswers": [
             "A British Olympic gold medalist in cycling",
             "A famous British football player",
@@ -5630,8 +5590,8 @@
         "Explanation": "Sir Steve Redgrave won gold medals in rowing in five consecutive Olympic Games and is one of Britain’s greatest Olympians."
     },
     {
-        "Question": "Who is Baroness Tanni-Grey Thompson?",
-        "RightAnswer": "An athlete who uses a wheelchair and won 16 Paralympic medals.",
+        "Question": "Who is Tanni-Grey Thompson?",
+        "RightAnswer": "An athlete who uses a wheelchair.",
         "WrongAnswers": [
             "A British Olympic gold medalist in tennis",
             "A famous British racing driver",
@@ -5640,8 +5600,8 @@
         "Explanation": "Baroness Tanni-Grey Thompson is an athlete who uses a wheelchair and won 16 Paralympic medals, including 11 gold medals, in races over five Paralympic Games. She won the London Marathon six times and broke a total of 30 world records."
     },
     {
-        "Question": "Who is Dame Kelly Holmes?",
-        "RightAnswer": "A runner who won two gold medals in the 2004 Olympic Games.",
+        "Question": "Who is Kelly Holmes?",
+        "RightAnswer": "A celebrated British runner.",
         "WrongAnswers": [
             "A British Olympic gold medalist in rowing",
             "A famous British cyclist",
@@ -5651,7 +5611,7 @@
     },
     {
         "Question": "Who is Dame Ellen MacArthur?",
-        "RightAnswer": "A yachtswoman who became the fastest person to sail around the world singlehanded in 2004.",
+        "RightAnswer": "A famous yachtswoman.",
         "WrongAnswers": [
             "A British Olympic gold medalist in cycling",
             "A famous British football player",
@@ -5661,7 +5621,7 @@
     },
     {
         "Question": "Who is Sir Chris Hoy?",
-        "RightAnswer": "A Scottish cyclist who has won six gold and one silver Olympic medals.",
+        "RightAnswer": "A famous Scottish cyclist.",
         "WrongAnswers": [
             "A British Olympic gold medalist in rowing",
             "A famous British football player",
@@ -5671,7 +5631,7 @@
     },
     {
         "Question": "Who is David Weir?",
-        "RightAnswer": "A Paralympian who uses a wheelchair and has won six gold medals over two Paralympic Games.",
+        "RightAnswer": "A famous British Paralympian.",
         "WrongAnswers": [
             "A British Olympic gold medalist in tennis",
             "A famous British racing driver",
@@ -5681,7 +5641,7 @@
     },
     {
         "Question": "Who is Bradley Wiggins?",
-        "RightAnswer": "A cyclist who became the first Briton to win the Tour de France in 2012.",
+        "RightAnswer": "A famous British cyclist.",
         "WrongAnswers": [
             "A British Olympic gold medalist in rowing",
             "A famous British football player",
@@ -5691,7 +5651,7 @@
     },
     {
         "Question": "Who is Mo Farah?",
-        "RightAnswer": "A British distance runner who won gold medals in the 2012 Olympics for the 5,000 and 10,000 metres.",
+        "RightAnswer": "A British distance runner.",
         "WrongAnswers": [
             "A British Olympic gold medalist in cycling",
             "A famous British football player",
@@ -5711,7 +5671,7 @@
     },
     {
         "Question": "Who is Andy Murray?",
-        "RightAnswer": "A Scottish tennis player who won the men’s singles in the US Open in 2012.",
+        "RightAnswer": "A Scottish tennis player.",
         "WrongAnswers": [
             "A British Olympic gold medalist in cycling",
             "A famous British football player",
@@ -5721,7 +5681,7 @@
     },
     {
         "Question": "Who is Ellie Simmonds?",
-        "RightAnswer": "A Paralympian who won gold medals for swimming at the 2008 and 2012 Paralympic Games.",
+        "RightAnswer": "A Paralympian who won gold medals for swimming.",
         "WrongAnswers": [
             "A British Olympic gold medalist in tennis",
             "A famous British racing driver",
@@ -5731,7 +5691,7 @@
     },
     {
         "Question": "What is the English Premier League?",
-        "RightAnswer": "A football league that attracts a huge international audience.",
+        "RightAnswer": "A football league.",
         "WrongAnswers": [
             "A famous British rock band",
             "A historic British landmark",
@@ -6321,7 +6281,7 @@
     },
     {
         "Question": "Which British public service broadcaster is funded by TV licences?",
-        "RightAnswer": "British Broadcasting Corporation (BBC)",
+        "RightAnswer": "BBC",
         "WrongAnswers": [
             "ITV",
             "Channel 4",
@@ -6331,7 +6291,7 @@
     },
     {
         "Question": "What is the largest broadcaster in the world?",
-        "RightAnswer": "British Broadcasting Corporation (BBC)",
+        "RightAnswer": "BBC",
         "WrongAnswers": [
             "CNN",
             "Al Jazeera",
@@ -6741,17 +6701,17 @@
     },
     {
         "Question": "Who was the first man in the world to run a mile in under four minutes?",
-        "RightAnswer": "Sir Roger Bannister",
+        "RightAnswer": "Roger Bannister",
         "WrongAnswers": [
-            "Sir Jackie Stewart",
+            "Jackie Stewart",
             "Bobby Moore",
-            "Sir Ian Botham"
+            "Ian Botham"
         ],
         "Explanation": "Sir Roger Bannister was the first man in the world to run a mile in under four minutes, in 1954."
     },
     {
         "Question": "Which Scottish former racing driver won the Formula 1 world championship three times?",
-        "RightAnswer": "Sir Jackie Stewart",
+        "RightAnswer": "Jackie Stewart",
         "WrongAnswers": [
             "David Coulthard",
             "Lewis Hamilton",
@@ -6771,7 +6731,7 @@
     },
     {
         "Question": "Which English cricketer holds a number of English Test cricket records for both batting and bowling?",
-        "RightAnswer": "Sir Ian Botham",
+        "RightAnswer": "Ian Botham",
         "WrongAnswers": [
             "Alastair Cook",
             "Andrew Flintoff",
@@ -6811,7 +6771,7 @@
     },
     {
         "Question": "Which British runner won two gold medals in the 2004 Olympic Games?",
-        "RightAnswer": "Dame Kelly Holmes",
+        "RightAnswer": "Kelly Holmes",
         "WrongAnswers": [
             "Paula Radcliffe",
             "Jessica Ennis",
@@ -6821,9 +6781,9 @@
     },
     {
         "Question": "Who became the fastest person to sail around the world singlehanded in 2004?",
-        "RightAnswer": "Dame Ellen MacArthur",
+        "RightAnswer": "Ellen MacArthur",
         "WrongAnswers": [
-            "Sir Robin Knox-Johnston",
+            "Robin Knox-Johnston",
             "Francis Joyon",
             "Jessica Watson"
         ],
@@ -6831,7 +6791,7 @@
     },
     {
         "Question": "Which Scottish cyclist has won six gold and one silver Olympic medals?",
-        "RightAnswer": "Sir Chris Hoy",
+        "RightAnswer": "Chris Hoy",
         "WrongAnswers": [
             "Bradley Wiggins",
             "Mark Cavendish",
@@ -6981,9 +6941,9 @@
     },
     {
         "Question": "Who was the first person to sail single-handed around the world?",
-        "RightAnswer": "Sir Francis Chichester",
+        "RightAnswer": "Francis Chichester",
         "WrongAnswers": [
-            "Sir Robin Knox-Johnston",
+            "Robin Knox-Johnston",
             "Ellen MacArthur",
             "Ben Ainslie"
         ],
@@ -6991,9 +6951,9 @@
     },
     {
         "Question": "Who was the first person to sail single-handed around the world without stopping?",
-        "RightAnswer": "Sir Robin Knox-Johnston",
+        "RightAnswer": "Robin Knox-Johnston",
         "WrongAnswers": [
-            "Sir Francis Chichester",
+            "Francis Chichester",
             "Ellen MacArthur",
             "Ben Ainslie"
         ],
@@ -8061,11 +8021,11 @@
     },
     {
         "Question": "Who was the first man in the world to run a mile in under four minutes?",
-        "RightAnswer": "Sir Roger Bannister",
+        "RightAnswer": "Roger Bannister",
         "WrongAnswers": [
-            "Sir Jackie Stewart",
+            "Jackie Stewart",
             "Bobby Moore",
-            "Sir Ian Botham"
+            "Ian Botham"
         ],
         "Explanation": "Sir Roger Bannister was the first man in the world to run a mile in under four minutes, in 1954."
     },
@@ -8081,10 +8041,10 @@
     },
     {
         "Question": "Which Scottish former racing driver won the Formula 1 world championship three times?",
-        "RightAnswer": "Sir Jackie Stewart",
+        "RightAnswer": "Jackie Stewart",
         "WrongAnswers": [
             "Andy Murray",
-            "Sir Chris Hoy",
+            "Chris Hoy",
             "Bradley Wiggins"
         ],
         "Explanation": "Sir Jackie Stewart is a Scottish former racing driver who won the Formula 1 world championship three times."
@@ -8093,7 +8053,7 @@
         "Question": "Who captained the English football team that won the World Cup in 1966?",
         "RightAnswer": "Bobby Moore",
         "WrongAnswers": [
-            "Sir Ian Botham",
+            "Ian Botham",
             "Mo Farah",
             "Jessica Ennis"
         ],
@@ -8101,10 +8061,10 @@
     },
     {
         "Question": "Which English cricketer holds a number of English Test cricket records for both batting and bowling?",
-        "RightAnswer": "Sir Ian Botham",
+        "RightAnswer": "Ian Botham",
         "WrongAnswers": [
             "Bobby Moore",
-            "Sir Roger Bannister",
+            "Roger Bannister",
             "Andy Murray"
         ],
         "Explanation": "Sir Ian Botham captained the English cricket team and holds a number of English Test cricket records, both for batting and for bowling."
@@ -8141,7 +8101,7 @@
     },
     {
         "Question": "Which yachtswoman became the fastest person to sail around the world singlehanded in 2004?",
-        "RightAnswer": "Dame Ellen MacArthur",
+        "RightAnswer": "Ellen MacArthur",
         "WrongAnswers": [
             "Dame Kelly Holmes",
             "Jessica Ennis",
@@ -8163,7 +8123,7 @@
         "Question": "Who was the first Briton to win the Tour de France?",
         "RightAnswer": "Bradley Wiggins",
         "WrongAnswers": [
-            "Sir Chris Hoy",
+            "Chris Hoy",
             "Andy Murray",
             "Mo Farah"
         ],
@@ -8193,9 +8153,9 @@
         "Question": "Which Scottish tennis player won the men's singles in the US Open in 2012?",
         "RightAnswer": "Andy Murray",
         "WrongAnswers": [
-            "Sir Chris Hoy",
+            "Chris Hoy",
             "Bradley Wiggins",
-            "Sir Jackie Stewart"
+            "Jackie Stewart"
         ],
         "Explanation": "Andy Murray is a Scottish tennis player who in 2012 won the men’s singles in the US Open."
     },
@@ -8291,7 +8251,7 @@
     },
     {
         "Question": "What percentage of the UK population has a parent or grandparent born outside the UK?",
-        "RightAnswer": "Nearly 10%",
+        "RightAnswer": "10%",
         "WrongAnswers": [
             "5%",
             "15%",
