@@ -256,11 +256,5 @@
         "RightAnswer": "The Battle of Culloden",
         "WrongAnswers": ["The Battle of Killiecrankie", "The Battle of the Boyne", "The Battle of Bannockburn"],
         "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I’s son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland. He was supported by clansmen from the Scottish highlands and raised an army. Charles initially had some successes but was defeated by George II’s army at the Battle of Culloden in 1746. The clans lost a lot of their power and influence after Culloden."
-    },
-    {
-        "Question": "xx",
-        "RightAnswer": "xx",
-        "WrongAnswers": ["xx", "xx", "xx"],
-        "Explanation": "xx"
     }
 ]

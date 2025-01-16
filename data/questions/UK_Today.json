@@ -110,7 +110,7 @@
         "Explanation": "There is no place in British society for extremism or intolerance. The fundamental principles of British life include: Democracy, The rule of law, Individual liberty, Tolerance of those with different faiths and beliefs, Participation in community life. As part of the citizenship ceremony, new citizens pledge to uphold these values."
     },
     {
-        "Question": "Which of the following is NOT mentioned as a fundamental principle of British life?",
+        "Question": "Which of the following is NOT a fundamental principle of British life?",
         "RightAnswer": "Nationalism",
         "WrongAnswers": [
             "Democracy",
@@ -640,7 +640,7 @@
         "Explanation": "The currency in the UK is the pound sterling (symbol \u00a3). There are 100 pence in a pound. The denominations (values) of currency are for coins: 1p, 2p, 5p, 10p, 20p, 50p, \u00a31 and \u00a32 and for notes: \u00a35, \u00a310, \u00a320, \u00a350."
     },
     {
-        "Question": "What is the highest value banknote mentioned for UK currency?",
+        "Question": "What is the highest value banknote for UK currency?",
         "RightAnswer": "\u00a350",
         "WrongAnswers": [
             "\u00a3100",
@@ -920,32 +920,12 @@
         "Explanation": "Year Population: 1600 (Just over 4 million), 1700 (5 million), 1801 (8 million), 1851 (20 million), 1901 (40 million), 1951 (50 million), 1998 (57 million), 2005 (Just under 60 million), 2010 (Just over 62 million), 2022 (Estimated 67.6 million)."
     },
     {
-        "Question": "Which city is specifically mentioned as an example of rapid ethnic diversity change in the UK?",
-        "RightAnswer": "London",
-        "WrongAnswers": [
-            "Manchester",
-            "Birmingham",
-            "Liverpool"
-        ],
-        "Explanation": "The UK population is ethnically diverse and changing rapidly, especially in large cities such as London. It is not always easy to get an exact picture of the ethnic origin of all the population. There are people in the UK with ethnic origins from all over the world. In surveys, the most common ethnic description chosen is white, which includes people of European, Australian, Canadian, New Zealand and American descent. Other significant groups are those of Asian, black and mixed descent."
-    },
-    {
         "Question": "What is the most common ethnic description chosen in UK surveys?",
         "RightAnswer": "White",
         "WrongAnswers": [
             "Asian",
             "Black",
             "Mixed"
-        ],
-        "Explanation": "The UK population is ethnically diverse and changing rapidly, especially in large cities such as London. It is not always easy to get an exact picture of the ethnic origin of all the population. There are people in the UK with ethnic origins from all over the world. In surveys, the most common ethnic description chosen is white, which includes people of European, Australian, Canadian, New Zealand and American descent. Other significant groups are those of Asian, black and mixed descent."
-    },
-    {
-        "Question": "Besides white, what are the other significant ethnic groups mentioned in the UK?",
-        "RightAnswer": "Asian, black and mixed",
-        "WrongAnswers": [
-            "Hispanic, Arab and Pacific Islander",
-            "Slavic, Nordic and Mediterranean",
-            "African, Indian and East Asian"
         ],
         "Explanation": "The UK population is ethnically diverse and changing rapidly, especially in large cities such as London. It is not always easy to get an exact picture of the ethnic origin of all the population. There are people in the UK with ethnic origins from all over the world. In surveys, the most common ethnic description chosen is white, which includes people of European, Australian, Canadian, New Zealand and American descent. Other significant groups are those of Asian, black and mixed descent."
     },
@@ -1740,16 +1720,6 @@
         "Explanation": "New citizens swear or affirm loyalty to the King as part of the citizenship ceremony. Oath of allegiance: I (name) swear by Almighty God that on becoming a British citizen, I will be faithful and bear true allegiance to His Majesty King Charles the Third, his Heirs and Successors, according to law. Affirmation of allegiance: I (name) do solemnly, sincerely and truly declare and affirm that on becoming a British citizen, I will be faithful and bear true allegiance to His Majesty King.Charles the Third, his Heirs and Successors, according to law."
     },
     {
-        "Question": "Who is mentioned as receiving allegiance in addition to the current monarch?",
-        "RightAnswer": "His Heirs and Successors",
-        "WrongAnswers": [
-            "The Prime Minister",
-            "The House of Lords",
-            "The Commonwealth"
-        ],
-        "Explanation": "New citizens swear or affirm loyalty to the King as part of the citizenship ceremony. Oath of allegiance: I (name) swear by Almighty God that on becoming a British citizen, I will be faithful and bear true allegiance to His Majesty King Charles the Third, his Heirs and Successors, according to law. Affirmation of allegiance: I (name) do solemnly, sincerely and truly declare and affirm that on becoming a British citizen, I will be faithful and bear true allegiance to His Majesty King.Charles the Third, his Heirs and Successors, according to law."
-    },
-    {
         "Question": "What is the final phrase in both the oath and affirmation of allegiance?",
         "RightAnswer": "according to law",
         "WrongAnswers": [
@@ -2250,7 +2220,7 @@
         "Explanation": "Britain has a long history of respecting an individual\u2019s rights and ensuring essential freedoms. These rights have their roots in Magna Carta (1215), the Habeas Corpus Act  (1679) and the Bill of Rights (1689), and they have developed over a period of time."
     },
     {
-        "Question": "What 1689 document is mentioned as a source of individual rights in Britain?",
+        "Question": "What 1689 document is a source of individual rights in Britain?",
         "RightAnswer": "Bill of Rights",
         "WrongAnswers": [
             "Magna Carta",
@@ -2500,32 +2470,12 @@
         "Explanation": "People in the UK have to pay tax on their income, which includes: wages from paid employment, profits from self-employment, taxable benefits, pensions, income from property, savings and dividends. Money raised from income tax pays for government services such as roads, education, police and the armed forces."
     },
     {
-        "Question": "Which of the following is NOT mentioned as a taxable income source in the UK?",
-        "RightAnswer": "Inheritance",
-        "WrongAnswers": [
-            "Profits from self-employment",
-            "Pensions",
-            "Income from property"
-        ],
-        "Explanation": "People in the UK have to pay tax on their income, which includes: wages from paid employment, profits from self-employment, taxable benefits, pensions, income from property, savings and dividends. Money raised from income tax pays for government services such as roads, education, police and the armed forces."
-    },
-    {
         "Question": "Which of these is a taxable form of income in the UK?",
         "RightAnswer": "Dividends",
         "WrongAnswers": [
             "Charitable donations",
             "Student loans",
             "Personal gifts"
-        ],
-        "Explanation": "People in the UK have to pay tax on their income, which includes: wages from paid employment, profits from self-employment, taxable benefits, pensions, income from property, savings and dividends. Money raised from income tax pays for government services such as roads, education, police and the armed forces."
-    },
-    {
-        "Question": "Which of these is considered taxable income in the UK?",
-        "RightAnswer": "Taxable benefits",
-        "WrongAnswers": [
-            "Gambling winnings",
-            "Crowdfunding donations",
-            "Garage sale proceeds"
         ],
         "Explanation": "People in the UK have to pay tax on their income, which includes: wages from paid employment, profits from self-employment, taxable benefits, pensions, income from property, savings and dividends. Money raised from income tax pays for government services such as roads, education, police and the armed forces."
     },
@@ -2616,16 +2566,6 @@
             "Private hospitals",
             "University education",
             "Public transportation"
-        ],
-        "Explanation": "Almost everybody in the UK who is in paid work, including self-employed people, must pay National Insurance Contributions. The money raised from National Insurance Contributions is used to pay for state benefits and services such as the state retirement pension and the National Health Service (NHS)."
-    },
-    {
-        "Question": "What type of workers are specifically mentioned as being required to pay National Insurance Contributions?",
-        "RightAnswer": "Self-employed people",
-        "WrongAnswers": [
-            "Volunteer workers",
-            "Retired individuals",
-            "Students"
         ],
         "Explanation": "Almost everybody in the UK who is in paid work, including self-employed people, must pay National Insurance Contributions. The money raised from National Insurance Contributions is used to pay for state benefits and services such as the state retirement pension and the National Health Service (NHS)."
     },
@@ -3116,16 +3056,6 @@
             "16",
             "21",
             "19"
-        ],
-        "Explanation": "Selling tobacco (it is illegal to sell tobacco products - for example, cigarettes, cigars, roll-up tobacco - to anyone under the age of 18)."
-    },
-    {
-        "Question": "Which of the following is NOT mentioned as an example of a tobacco product?",
-        "RightAnswer": "Pipe tobacco",
-        "WrongAnswers": [
-            "Cigarettes",
-            "Cigars",
-            "Roll-up tobacco"
         ],
         "Explanation": "Selling tobacco (it is illegal to sell tobacco products - for example, cigarettes, cigars, roll-up tobacco - to anyone under the age of 18)."
     },
@@ -4280,16 +4210,6 @@
         "Explanation": "Anyone aged 18 or over can stand for election as an MP but they are unlikely to win unless they have been nominated to represent one of the major political parties. These are the Conservative Party, the Labour Party, the Liberal Democrats, or one of the parties representing Scottish, Welsh or Northern Irish interests. There are a few MPs who do not represent any of the main political parties. They are called \u2018independents\u2019 and usually represent an issue important to their constituency."
     },
     {
-        "Question": "What type of organizations are Greenpeace and Liberty described as?",
-        "RightAnswer": "Pressure and lobby groups",
-        "WrongAnswers": [
-            "Political parties",
-            "Government agencies",
-            "Trade unions"
-        ],
-        "Explanation": "Anyone aged 18 or over can stand for election as an MP but they are unlikely to win unless they have been nominated to represent one of the major political parties. These are the Conservative Party, the Labour Party, the Liberal Democrats, or one of the parties representing Scottish, Welsh or Northern Irish interests. There are a few MPs who do not represent any of the main political parties. They are called \u2018independents\u2019 and usually represent an issue important to their constituency."
-    },
-    {
         "Question": "How often do the main political parties hold policy-making conferences?",
         "RightAnswer": "Every year",
         "WrongAnswers": [
@@ -4380,8 +4300,8 @@
         "Explanation": "Civil servants support the government in developing and implementing its policies. They also deliver public services. Civil servants are accountable to ministers. They are chosen on merit and are politically neutral \u2013 they are not political appointees. People can apply to join the civil service through an application process, like other jobs in the UK. Civil servants are expected to carry out their role with dedication and a commitment to the civil service and its core values. These are: integrity, honesty, objectivity and impartiality (including being politically neutral)."
     },
     {
-        "Question": "Which of the following is NOT mentioned as a core value of the civil service?",
-        "RightAnswer": "Efficiency",
+        "Question": "Which of the following is NOT a core value of the civil service?",
+        "RightAnswer": "Beauty",
         "WrongAnswers": [
             "Integrity",
             "Honesty",
@@ -4523,7 +4443,7 @@
         "Explanation": "Since 1997, some powers have been devolved from the central government to give people in Wales, Scotland and Northern Ireland more control over matters that directly affect them. There has been a Welsh Assembly and a Scottish Parliament since 1999. There is also a Northern Ireland Assembly, although this has been suspended on a few occasions. Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as education, are controlled by the devolved administrations. The devolved administrations each have their own civil service."
     },
     {
-        "Question": "Which public service is mentioned as being controlled by devolved administrations?",
+        "Question": "Which public service is controlled by devolved administrations?",
         "RightAnswer": "Education",
         "WrongAnswers": [
             "Immigration",
@@ -5193,16 +5113,6 @@
         "Explanation": "The public can listen to debates in the Palace of Westminster from public galleries in both the House of Commons and the House of Lords. You can write to your local MP in advance to ask for tickets or you can queue on the day at the public entrance. Entrance is free. Sometimes there are long queues for the House of Commons and people have to wait for at least one to two hours. It is usually easier to get in to the House of Lords."
     },
     {
-        "Question": "How can one obtain tickets to attend debates in the Palace of Westminster?",
-        "RightAnswer": "Write to your local MP in advance",
-        "WrongAnswers": [
-            "Purchase tickets online",
-            "Apply through a lottery system",
-            "Register at the local council office"
-        ],
-        "Explanation": "The public can listen to debates in the Palace of Westminster from public galleries in both the House of Commons and the House of Lords. You can write to your local MP in advance to ask for tickets or you can queue on the day at the public entrance. Entrance is free. Sometimes there are long queues for the House of Commons and people have to wait for at least one to two hours. It is usually easier to get in to the House of Lords."
-    },
-    {
         "Question": "What is the cost of entrance to attend debates in the Palace of Westminster?",
         "RightAnswer": "Free",
         "WrongAnswers": [
@@ -5703,7 +5613,7 @@
         "Explanation": "Becoming a British citizen or settling in the UK brings responsibilities but also opportunities. Everyone has the opportunity to participate in their community. Although Britain is one of the world\u2019s most diverse societies, there is a set of shared values and responsibilities that everyone can agree with."
     },
     {
-        "Question": "What is one of the responsibilities mentioned for citizens in Britain?",
+        "Question": "What is one of the responsibilities for all citizens in Britain?",
         "RightAnswer": "To obey and respect the law",
         "WrongAnswers": [
             "To learn English fluently",
@@ -5723,7 +5633,7 @@
         "Explanation": "These values and responsibilities include: to obey and respect the law; to be aware of the rights of others and respect those rights; to treat others with fairness; to behave responsibly; to help and protect your family; to respect and preserve the environment; to treat everyone equally, regardless of sex, race, religion, age, disability, class or sexual orientation; to work to provide for yourself and your family; to help others; and to vote in local and national government elections."
     },
     {
-        "Question": "What environmental responsibility is mentioned for citizens in Britain?",
+        "Question": "What is a environmental responsibility for all citizens in Britain?",
         "RightAnswer": "To respect and preserve the environment",
         "WrongAnswers": [
             "To plant trees annually",
@@ -5743,7 +5653,7 @@
         "Explanation": "These values and responsibilities include: to obey and respect the law; to be aware of the rights of others and respect those rights; to treat others with fairness; to behave responsibly; to help and protect your family; to respect and preserve the environment; to treat everyone equally, regardless of sex, race, religion, age, disability, class or sexual orientation; to work to provide for yourself and your family; to help others; and to vote in local and national government elections."
     },
     {
-        "Question": "What civic duty is mentioned for citizens in Britain?",
+        "Question": "What is a civic duty for all citizens in Britain?",
         "RightAnswer": "To vote in government elections",
         "WrongAnswers": [
             "To run for political office",
@@ -5773,10 +5683,10 @@
         "Explanation": "These values and responsibilities include: to obey and respect the law; to be aware of the rights of others and respect those rights; to treat others with fairness; to behave responsibly; to help and protect your family; to respect and preserve the environment; to treat everyone equally, regardless of sex, race, religion, age, disability, class or sexual orientation; to work to provide for yourself and your family; to help others; and to vote in local and national government elections."
     },
     {
-        "Question": "What social responsibility is mentioned for citizens in Britain?",
+        "Question": "What is a social responsibility for citizens in Britain?",
         "RightAnswer": "To help others",
         "WrongAnswers": [
-            "To organize community events",
+            "To learn mathematics",
             "To learn multiple languages",
             "To participate in sports"
         ],
@@ -5909,16 +5819,6 @@
             "Driver's license database",
             "Tax records",
             "Social security rolls"
-        ],
-        "Explanation": "There are a number of positive ways in which you can support your community and be a good citizen. As well as getting the right to vote, people on the electoral register are randomly selected to serve on a jury. Anyone who is on the electoral register and is aged 18 to 70 can be asked to do this."
-    },
-    {
-        "Question": "What civic duty is mentioned alongside voting as a way to support the community?",
-        "RightAnswer": "Serving on a jury",
-        "WrongAnswers": [
-            "Running for office",
-            "Paying taxes",
-            "Volunteering at schools"
         ],
         "Explanation": "There are a number of positive ways in which you can support your community and be a good citizen. As well as getting the right to vote, people on the electoral register are randomly selected to serve on a jury. Anyone who is on the electoral register and is aged 18 to 70 can be asked to do this."
     },
@@ -6203,7 +6103,7 @@
         "Explanation": "There are thousands of active charities and voluntary organisations in the UK. They work to improve the lives of people, animals and the environment in many different ways. They range from the British branches of international organisations, such as the British Red Cross, to small local charities working in particular areas. They include charities working with older people (for example, Age UK), with children (for example, the National Society for the Prevention of Cruelty to Children (NSPCC)), and with the homeless (for example, Crisis and Shelter). There are also medical research charities (for example, Cancer Research UK), environmental charities (for example, the National Trust and Friends of the Earth) and charities working with animals (for example, the People\u2019s Dispensary for Sick Animals (PDSA))."
     },
     {
-        "Question": "Which organization is mentioned as an example of a charity working with children?",
+        "Question": "Which organization is an example of a charity working with children?",
         "RightAnswer": "National Society for the Prevention of Cruelty to Children (NSPCC)",
         "WrongAnswers": [
             "Age UK",
@@ -6251,16 +6151,6 @@
             "Age UK"
         ],
         "Explanation": "There are thousands of active charities and voluntary organisations in the UK. They work to improve the lives of people, animals and the environment in many different ways. They range from the British branches of international organisations, such as the British Red Cross, to small local charities working in particular areas. They include charities working with older people (for example, Age UK), with children (for example, the National Society for the Prevention of Cruelty to Children (NSPCC)), and with the homeless (for example, Crisis and Shelter). There are also medical research charities (for example, Cancer Research UK), environmental charities (for example, the National Trust and Friends of the Earth) and charities working with animals (for example, the People\u2019s Dispensary for Sick Animals (PDSA))."
-    },
-    {
-        "Question": "What are two main purposes for which volunteers are needed by charities?",
-        "RightAnswer": "Help with activities and raise money",
-        "WrongAnswers": [
-            "Manage staff and organize events",
-            "Conduct research and write reports",
-            "Design logos and create marketing materials"
-        ],
-        "Explanation": "Volunteers are needed to help with their activities and to raise money. The charities often advertise in local newspapers, and most have website that include information about their opportunities. You can also get information about volunteering for different organisations from www.do-it.org.uk"
     },
     {
         "Question": "What program offers volunteering opportunities for 16- and 17-year-olds?",
