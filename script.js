@@ -297,7 +297,7 @@ const STATE = {
 
     next_category(){
         // "C001", "C002", "ALL", "TheRestauration", "battles", "difficult", "questions001", "questions002", "TheGloriousRevolution"
-        const categories = ["Famous", "History", "questions000", "dates", "difficult"] 
+        const categories = ["Famous", "History", "UK_Today", "questions000", "dates", "difficult"] 
         const index = categories.indexOf(this._category)
         this._category = categories[(index + 1) % categories.length]
         this._index = 0
