@@ -7740,7 +7740,7 @@
         "category": "H"
     },
     {
-        "Question": "Who is mentioned as a notable playwright and poet of the Elizabethan period?",
+        "Question": "Who was a notable playwright and poet of the Elizabethan period?",
         "RightAnswer": "William Shakespeare",
         "WrongAnswers": [
             "Sir Francis Drake",
@@ -8349,18 +8349,6 @@
         ],
         "Explanation": "James favoured Roman Catholics and allowed them to be army Officers, which an Act of Parliament had forbidden.",
         "id": "#10695",
-        "category": "H"
-    },
-    {
-        "Question": "Who did James II arrest?",
-        "RightAnswer": "Some of the bishops of the Church of England",
-        "WrongAnswers": [
-            "Members of Parliament",
-            "Protestant nobles",
-            "Catholic priests"
-        ],
-        "Explanation": "He did not seek to reach agreements with Parliament and arrested some of the bishops of the Church of England.",
-        "id": "#10696",
         "category": "H"
     },
     {
@@ -9265,7 +9253,7 @@
     },
     {
         "Question": "How many British citizens left the UK between 1853 and 1913?",
-        "RightAnswer": "As many as 13 million",
+        "RightAnswer": "13 million",
         "WrongAnswers": [
             "5 million",
             "8 million",
@@ -9435,8 +9423,8 @@
         "Question": "In which year did Florence Nightingale establish the Nightingale Training School for nurses?",
         "RightAnswer": "1860",
         "WrongAnswers": [
-            "1854",
-            "1870",
+            "1830",
+            "1840",
             "1850"
         ],
         "Explanation": "In 1860 she established the Nightingale Training School for nurses at St Thomas' Hospital in London.",
@@ -10656,14 +10644,14 @@
         "category": "H"
     },
     {
-        "Question": "Which industries sent agents to India and Pakistan to find workers?",
+        "Question": "During the 1950s, which industries sent agents to India and Pakistan to find workers?",
         "RightAnswer": "Textile and engineering firms",
         "WrongAnswers": [
             "Agricultural and mining companies",
             "Banking and finance institutions",
             "Hospitality and tourism businesses"
         ],
-        "Explanation": "Textile and engineering firms from the north of England and the Midlands sent agents to India and Pakistan to find workers.",
+        "Explanation": "During the 1950s, there was still a shortage of labour in the UK. Further immigration was therefore encouraged for economic reasons, and many industries advertised for workers from overseas. For example, textile and engineering firms from the north of England and the Midlands sent agents to India and Pakistan to find workers.Textile and engineering firms from the north of England and the Midlands sent agents to India and Pakistan to find workers.",
         "id": "#10888",
         "category": "H"
     },
@@ -10704,12 +10692,12 @@
         "category": "H"
     },
     {
-        "Question": "Which two well-known pop music groups were mentioned from the 1960s?",
+        "Question": "Which two well-known pop music groups were from the 1960s?",
         "RightAnswer": "The Beatles and The Rolling Stones",
         "WrongAnswers": [
-            "The Who and The Kinks",
-            "The Yardbirds and The Animals",
-            "The Hollies and The Zombies"
+            "The Backstreet Boys and NSYNC",
+            "ABBA and The Bee Gees",
+            "Spice Girls and One Direction"
         ],
         "Explanation": "Two well-known pop music groups at the time were The Beatles and The Rolling Stones.",
         "id": "#10892",
@@ -13585,7 +13573,7 @@
     },
     {
         "Question": "What led to rebellion from Irish chieftains in the 16th century?",
-        "RightAnswer": "Attempts by the English to impose Protestantism and introduce the English system of laws about land inheritance",
+        "RightAnswer": "Attempts to impose Protestantism and English laws about land inheritance",
         "WrongAnswers": [
             "The spread of Catholicism",
             "The unification of Ireland with England",
@@ -13848,14 +13836,14 @@
         "category": "H"
     },
     {
-        "Question": "Which famous playwright is specifically mentioned as part of the Elizabethan period?",
+        "Question": "Who is the most famous playwright from the Elizabethan era?",
         "RightAnswer": "William Shakespeare",
         "WrongAnswers": [
             "Christopher Marlowe",
             "Ben Jonson",
             "John Webster"
         ],
-        "Explanation": "The Elizabethan period is also remembered for the richness of its poetry and drama, especially the plays and poems of William Shakespeare.",
+        "Explanation": "The Elizabethan period is renowned for its rich poetry and drama, particularly the plays and poems of William Shakespeare.",
         "id": "#11154",
         "category": "H"
     },
@@ -15421,7 +15409,7 @@
     },
     {
         "Question": "What was the status of clansmen after Culloden?",
-        "RightAnswer": "Tenants who had to pay for the land they used",
+        "RightAnswer": "Tenants",
         "WrongAnswers": [
             "Landowners",
             "Soldiers in the English army",
@@ -16215,9 +16203,9 @@
         "Question": "By which decade were there substantial British colonies in North America?",
         "RightAnswer": "1760s",
         "WrongAnswers": [
-            "1750s",
-            "1770s",
-            "1780s"
+            "1360s",
+            "1060s",
+            "1560s"
         ],
         "Explanation": "By the 1760s, there were substantial British colonies in North America. The colonies were wealthy and largely in control of their own affairs.",
         "id": "#11351",
@@ -17412,7 +17400,7 @@
         "category": "H"
     },
     {
-        "Question": "Which regions were mentioned as frequent conflict areas in the Empire?",
+        "Question": "Which regions were frequent areas of conflict in the British Empire?",
         "RightAnswer": "India's north-west frontier and southern Africa",
         "WrongAnswers": [
             "Australia and New Zealand",
@@ -18552,14 +18540,14 @@
         "category": "H"
     },
     {
-        "Question": "Which two well-known pop music groups were mentioned from the 1960s?",
+        "Question": "Which two iconic pop music groups emerged during the 1960s?",
         "RightAnswer": "The Beatles and The Rolling Stones",
         "WrongAnswers": [
-            "The Who and The Kinks",
-            "The Yardbirds and The Animals",
-            "The Hollies and The Zombies"
+            "The Beach Boys and ABBA",
+            "The Who and The Jackson 5",
+            "Led Zeppelin and Queen"
         ],
-        "Explanation": "Two well-known pop music groups at the time were The Beatles and The Rolling Stones.",
+        "Explanation": "Two iconic pop music groups from the 1960s are The Beatles and The Rolling Stones, both of which played a pivotal role in shaping the era's music.",
         "id": "#11546",
         "category": "H"
     },
@@ -22267,7 +22255,7 @@
             "Gustav Holst",
             "William Walton"
         ],
-        "Explanation": "Benjamin Britten is best known for his operas, which include Peter Grimes and Billy Budd.",
+        "Explanation": "Benjamin Britten (1913–76) is best known for his operas, which include Peter Grimes and Billy Budd. He also wrote A Young Person’s Guide to the Orchestra, which is based on a piece of music by Purcell and introduces the listener to the various different sections of an orchestra. He founded the Aldeburgh festival in Suffolk, which continues to be a popular music event of international importance.",
         "id": "#20253",
         "category": "F"
     },
@@ -22279,7 +22267,7 @@
             "Isle of Wight Festival",
             "V Festival"
         ],
-        "Explanation": "He founded the Aldeburgh festival in Suffolk, which continues to be a popular music event of international importance.",
+        "Explanation": "Benjamin Britten (1913–76) is best known for his operas, which include Peter Grimes and Billy Budd. He also wrote A Young Person’s Guide to the Orchestra, which is based on a piece of music by Purcell and introduces the listener to the various different sections of an orchestra. He founded the Aldeburgh festival in Suffolk, which continues to be a popular music event of international importance.",
         "id": "#20254",
         "category": "F"
     },
@@ -24097,7 +24085,7 @@
     },
     {
         "Question": "What are The Brit Awards?",
-        "RightAnswer": "A British music award",
+        "RightAnswer": "A British music award ceremony",
         "WrongAnswers": [
             "A British film award ceremony",
             "A British sports award ceremony",
@@ -26509,7 +26497,7 @@
     },
     {
         "Question": "What is the Super League?",
-        "RightAnswer": "The most well-known rugby league (club) competition",
+        "RightAnswer": "A rugby league competition",
         "WrongAnswers": [
             "A prestigious golf tournament",
             "A celebrated horse racing event",
@@ -26587,7 +26575,7 @@
             "A renowned British car manufacturer",
             "A legendary British rally driver"
         ],
-        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jensen Button.",
+        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jenson Button.",
         "id": "#20609",
         "category": "F"
     },
@@ -26599,19 +26587,19 @@
             "A renowned British car manufacturer",
             "A legendary British rally driver"
         ],
-        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jensen Button.",
+        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jenson Button.",
         "id": "#20610",
         "category": "F"
     },
     {
-        "Question": "Who is Jensen Button?",
+        "Question": "Who is Jenson Button?",
         "RightAnswer": "A British Grand Prix driver who won the Formula 1 World Championship",
         "WrongAnswers": [
             "A famous British motorcycle racer",
             "A renowned British car manufacturer",
             "A legendary British rally driver"
         ],
-        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jensen Button.",
+        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jenson Button.",
         "id": "#20611",
         "category": "F"
     },
@@ -26793,18 +26781,6 @@
         ],
         "Explanation": "Satire has also continued to be important, with shows like That Was The Week That Was in the 1960s and Spitting Image in the 1980s and 1990s.",
         "id": "#20626",
-        "category": "F"
-    },
-    {
-        "Question": "Which comedy group introduced a new type of progressive comedy in 1969?",
-        "RightAnswer": "Monty Python\u2019s Flying Circus",
-        "WrongAnswers": [
-            "The Goons",
-            "The League of Gentlemen",
-            "The Mighty Boosh"
-        ],
-        "Explanation": "In 1969, Monty Python\u2019s Flying Circus introduced a new type of progressive comedy.",
-        "id": "#20627",
         "category": "F"
     },
     {
@@ -27655,7 +27631,7 @@
             "Stirling Moss",
             "James Hunt"
         ],
-        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jensen Button.",
+        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jenson Button.",
         "id": "#20698",
         "category": "F"
     },
@@ -27667,19 +27643,19 @@
             "Graham Hill",
             "Jackie Stewart"
         ],
-        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jensen Button.",
+        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jenson Button.",
         "id": "#20699",
         "category": "F"
     },
     {
         "Question": "Which British Grand Prix driver is a recent winner of the Formula 1 World Championship?",
-        "RightAnswer": "Jensen Button",
+        "RightAnswer": "Jenson Button",
         "WrongAnswers": [
             "Eddie Irvine",
             "Martin Brundle",
             "Johnny Herbert"
         ],
-        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jensen Button.",
+        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jenson Button.",
         "id": "#20700",
         "category": "F"
     },
@@ -32856,18 +32832,6 @@
         "category": "H"
     },
     {
-        "Question": "What is the purpose of a National Insurance number?",
-        "RightAnswer": "To ensure proper recording of National Insurance Contributions and tax",
-        "WrongAnswers": [
-            "To track medical history",
-            "To register for voting",
-            "To apply for a driver's license"
-        ],
-        "Explanation": "A National Insurance number is a unique personal account number. It makes sure that the National Insurance Contributions and tax you pay are properly recorded against your name. All young people in the UK are sent a National Insurance number just before their 16th birthday.",
-        "id": "#30262",
-        "category": "H"
-    },
-    {
         "Question": "At what age do young people in the UK typically receive their National Insurance number?",
         "RightAnswer": "Just before their 16th birthday",
         "WrongAnswers": [
@@ -32889,18 +32853,6 @@
         ],
         "Explanation": "A non-UK national living in the UK and looking for work, starting work or setting up as self-employed will need a National Insurance number. However, you can start work without one. If you have permission to work in the UK, you will need to telephone the Department for Work and Pensions (DWP) to arrange to get a National Insurance number. You may be required to attend an interview.",
         "id": "#30264",
-        "category": "H"
-    },
-    {
-        "Question": "What is required for a non-UK national to start working in the UK?",
-        "RightAnswer": "Permission to work in the UK",
-        "WrongAnswers": [
-            "A National Insurance number",
-            "A UK passport",
-            "A UK bank account"
-        ],
-        "Explanation": "A non-UK national living in the UK and looking for work, starting work or setting up as self-employed will need a National Insurance number. However, you can start work without one. If you have permission to work in the UK, you will need to telephone the Department for Work and Pensions (DWP) to arrange to get a National Insurance number. You may be required to attend an interview.",
-        "id": "#30265",
         "category": "H"
     },
     {
@@ -34152,7 +34104,7 @@
         "category": "H"
     },
     {
-        "Question": "Where are the most serious cases involving young offenders heard?",
+        "Question": "In England, Wales and Northern Ireland, where are the most serious cases involving young offenders heard?",
         "RightAnswer": "Crown Court",
         "WrongAnswers": [
             "Youth Court",
@@ -34977,18 +34929,6 @@
         ],
         "Explanation": "For most local authorities, local elections for councillors are held in May every year. Many candidates stand for council election as members of a political party.",
         "id": "#30438",
-        "category": "H"
-    },
-    {
-        "Question": "How frequently are local elections for councillors usually held in the UK?",
-        "RightAnswer": "Every year",
-        "WrongAnswers": [
-            "Every two years",
-            "Every four years",
-            "Every five years"
-        ],
-        "Explanation": "For most local authorities, local elections for councillors are held in May every year. Many candidates stand for council election as members of a political party.",
-        "id": "#30439",
         "category": "H"
     },
     {
@@ -37233,18 +37173,6 @@
         ],
         "Explanation": "A Northern Ireland Parliament was established in 1922, when Ireland was divided. However, it was abolished in 1972, shortly after the Troubles broke out in 1969. The Northern Ireland Assembly was established soon after the Belfast Agreement (or Good Friday Agreement) in 1998.",
         "id": "#30626",
-        "category": "H"
-    },
-    {
-        "Question": "What is the name of the building where the Northern Ireland Assembly meets?",
-        "RightAnswer": "Parliament Buildings",
-        "WrongAnswers": [
-            "Stormont Castle",
-            "Belfast City Hall",
-            "Ulster Hall"
-        ],
-        "Explanation": "A Northern Ireland Parliament was established in 1922, when Ireland was divided. However, it was abolished in 1972, shortly after the Troubles broke out in 1969. The Northern Ireland Assembly was established soon after the Belfast Agreement (or Good Friday Agreement) in 1998.",
-        "id": "#30627",
         "category": "H"
     },
     {

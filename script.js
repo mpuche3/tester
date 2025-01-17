@@ -609,3 +609,32 @@ function downloadJSON(data, filename = 'data.json') {
     a.click();
     document.body.removeChild(a);
 }
+
+//
+function showScreen(id) {
+    pause_play()
+    const home = document.getElementById("home");
+    const help = document.getElementById("help");
+    const app = document.getElementById("app");
+    if (id === "home") {
+        home.style.display = "block";
+        help.style.display = "none";
+        app.style.display = "none";
+    } else if (id === "help") {
+        home.style.display = "none";
+        help.style.display = "block";
+        app.style.display = "none";
+    } else if (id === "app") {
+        home.style.display = "none";
+        help.style.display = "none";
+        app.style.display = "block";
+        play()
+    } else {
+      console.error(`Element with id "${id}" not found.`);
+    }
+}
+
+document.querySelector("#enter-btn").onclick = _ => showScreen("app")
+document.querySelector("#help-btn").onclick = _ => showScreen("help")
+document.querySelector("#help-logo").onclick = _ => showScreen("home")
+document.querySelector("#logo").onclick = _ => showScreen("home")

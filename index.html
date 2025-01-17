@@ -7,7 +7,35 @@
   <title> English Game </title>
 </head>
 <body>
-  <div id = "app" class="app">
+
+  <div id = "home" class = "app" style="display: block">
+		<h1>Welcome to </br> Life in the UK</h1>
+    <!-- <p id="loading"> loading.... </p> -->
+    <div class="button-container">
+		<button id="enter-btn">
+      <span>Start</span>
+    </button>
+		<button id="help-btn">
+      <span>Help</span>
+    </button>
+    </div>
+  </div>
+
+  <div id = "help" class = "app" style="display: none">
+    <div id="help-top-row" class="row">
+      <div id="help-logo" class="bttn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+        </svg>
+      </div>
+      <div id="help-top-middle" class="bttn">Life in the UK</div> 
+    </div>
+    <div id = "help_div" class = "row">
+      <p id = "help_text"> This is the help </p>
+    </div>
+  </div>
+
+  <div id = "app" class="app" style="display: none">
     <div id="top-row" class="row">
       <div id="logo" class="bttn">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
