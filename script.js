@@ -21,7 +21,7 @@ const STATE = {
     _questions: [{"Question": "", "RightAnswer": "", "WrongAnswers": "", "Explanation": ""}],
     _index: 0,
     _voices: [],
-    _category: "Famous",
+    _category: "ALL",
     _voice: "echo",
     _isPhonetic: true,
     _isRepeat: true,    
@@ -44,8 +44,8 @@ const STATE = {
             "Steffan": "Microsoft Steffan Online (Natural) - English (United States)",
             // Chrome
             "UK Male": "Google UK English Male",
+            "US Female": "Google US English",            
             "UK Female": "Google UK English Female",
-            "US Female": "Google US English",
     },
 
     increase_score() {
@@ -234,7 +234,8 @@ const STATE = {
     },
 
     refresh_text() {
-        document.querySelector("#question_text").innerHTML = this._questions[this._index]["Question"]
+        document.querySelector("#category").innerHTML = "Question: " + this._questions[this._index]["id"]
+        document.querySelector("#question_text").innerHTML =  this._questions[this._index]["Question"]
         document.querySelector("#opt01_text").innerHTML = this._questions[this._index]["RightAnswer"]
         document.querySelector("#opt02_text").innerHTML = this._questions[this._index]["WrongAnswers"][0]
         document.querySelector("#opt03_text").innerHTML = this._questions[this._index]["WrongAnswers"][1]
@@ -283,7 +284,7 @@ const STATE = {
     },
 
     refresh_category(){
-        document.querySelector("#category").innerHTML = this._category
+        // document.querySelector("#category").innerHTML = this._category
     },
 
     refresh(){
@@ -297,7 +298,7 @@ const STATE = {
 
     next_category(){
         // "C001", "C002", "ALL", "TheRestauration", "battles", "difficult", "questions001", "questions002", "TheGloriousRevolution"
-        const categories = ["Famous", "History", "UK_Today", "questions000", "dates", "difficult"] 
+        const categories = ["ALL"] 
         const index = categories.indexOf(this._category)
         this._category = categories[(index + 1) % categories.length]
         this._index = 0
@@ -450,7 +451,7 @@ document.addEventListener("fullscreenchange", function () {
 });
 
 document.querySelector("#category").addEventListener("click", function () {
-    STATE.next_category()
+    // STATE.next_category()
 });
 
 document.querySelector("#voice").addEventListener('click', function () {
