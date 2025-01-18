@@ -1,75 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title> English Game </title>
 </head>
+
 <body>
 
-  <div id = "home" class = "app" style="display: block">
-		<h1>Welcome to </br> Life in the UK</h1>
+  <div id="home" class="app" style="display: block">
+    <h1>Welcome to </br> Life in the UK</h1>
     <!-- <p id="loading"> loading.... </p> -->
     <div class="button-container">
-		<button id="enter-btn">
-      <span>Start</span>
-    </button>
-		<button id="help-btn">
-      <span>Help</span>
-    </button>
+      <button id="enter-btn">
+        <span>Start</span>
+      </button>
+      <button id="help-btn">
+        <span>Help</span>
+      </button>
     </div>
   </div>
 
-  <div id = "help" class = "app" style="display: none">
+  <div id="help" class="app" style="display: none">
     <div id="help-top-row" class="row">
       <div id="help-logo" class="bttn">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
         </svg>
       </div>
-      <div id="help-top-middle" class="bttn">Life in the UK</div> 
+      <div id="help-top-middle" class="bttn">Life in the UK</div>
     </div>
-    <div id = "help_div" class = "row">
-      <p id = "help_text"> This is the help </p>
+    <div id="help_div" class="row">
+      <p id="help_text"> This is the help </p>
     </div>
   </div>
 
-  <div id = "app" class="app" style="display: none">
+  <div id="app" class="app" style="display: none">
     <div id="top-row" class="row">
       <div id="logo" class="bttn">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
         </svg>
       </div>
       <div id="text_mode" class="bttn" style="display: none">a</div>
-      <div id="repeat" class="bttn" style="display: none"> </div> 
-      <div id="category" class="bttn"> </div> 
-      <div id="voice" class="bttn bttn-voice">echo</div> 
-      <div id="sound" class="bttn"></div> 
-      <div id="max_min" class="bttn" style="display: none">  </div> 
+      <div id="repeat" class="bttn" style="display: none"> </div>
+      <div id="category" class="bttn"> </div>
+      <div id="voice" class="bttn bttn-voice">echo</div>
+      <div id="sound" class="bttn"></div>
+      <div id="max_min" class="bttn" style="display: none"> </div>
     </div>
-    <div id = "question" class = "row">
-      <p id = "question_text"> Question </p>
+    <div id="question" class="row">
+      <p id="question_text"> Question </p>
     </div>
-    <div id = "opt01" class="row opt_div">
-      <p id = "opt01_text" class = "opt_text"> Option 01 </p>
+
+    <div id="opt01" class="row opt_div">
+        <p id="opt01_text" class="opt_text"> Option 01 </p>
     </div>
-    <div id = "opt02" class="row opt_div">
-      <p id = "opt02_text" class = "opt_text"> Option 02 </p>
+    <div id="opt02" class="row opt_div">
+      <p id="opt02_text" class="opt_text"> Option 02 </p>
     </div>
-    <div id = "opt03" class="row opt_div">
-      <p id = "opt03_text" class = "opt_text"> Option 03 </p>
+    <div id="opt03" class="row opt_div">
+      <p id="opt03_text" class="opt_text"> Option 03 </p>
     </div>
-    <div id = "opt04" class="row opt_div">
-      <p id = "opt04_text" class = "opt_text"> Option 04 </p>
+    <div id="opt04" class="row opt_div">
+      <p id="opt04_text" class="opt_text"> Option 04 </p>
     </div>
-    <div id = "explanation" class = "row">
-      <p id = "explanation_text"></p>
+    <div id="explanation" class="row">
+      <p id="explanation_text"></p>
     </div>
   </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
-  <script defer src = "./script.js"></script>
+  <script defer src="./script.js"></script>
 </body>
+
 </html>

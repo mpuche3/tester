@@ -1,9 +1,13 @@
 :root {
     --hue: 36;
-    --color_background: hsl(var(--hue), 28%, 69%);
+    /* --color_background: hsl(var(--hue), 28%, 69%);
     --color_border: hsl(var(--hue), 30%, 37%);
     --color_font1: hsl(var(--hue), 29%, 28%);
-    --color_background_light: hsla(var(--hue), 31%, 74%, 50%);
+    --color_background_light: hsla(var(--hue), 31%, 74%, 50%); */
+    --color_background: hsl(var(--hue), 0%, 100%);
+    --color_border: hsl(var(--hue), 60%, 20%);
+    --color_font1: hsl(var(--hue), 100%, 0%);
+    --color_background_light: hsla(var(--hue), 0%, 100%, 50%);
 }
 
 *:not(html):not(head):not(script) {
@@ -159,15 +163,25 @@ p {
 #question {
     height: 130px;
     padding: 20px;
+    border-bottom: 0;
+}
+
+#sound {
+    border-right: 0;
 }
 
 #explanation {
     height: 300px;
     padding: 20px;
+    border: 0;
+    align-items: flex-start;
 }
 
 .opt_div {
-    cursor: pointer
+    cursor: pointer;
+    margin-bottom: 5px;
+    background-color: rgb(208, 208, 208);
+    border: 0;
 }
 
 .red_div {
