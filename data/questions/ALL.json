@@ -31656,18 +31656,6 @@
         "category": "H"
     },
     {
-        "Question": "Which event demonstrated the monarch's role in national pride?",
-        "RightAnswer": "Queen Elizabeth's Jubilee",
-        "WrongAnswers": [
-            "Coronation ceremony",
-            "Royal wedding",
-            "State opening of Parliament"
-        ],
-        "Explanation": "The monarch has an important role in providing stability and continuity. While governments and Prime Ministers change regularly, the monarch continues as head of state. The monarch provides a focus for national identity and pride, which was demonstrated through the celebrations of the Queen Elizabeth's Jubilee.",
-        "id": "#30164",
-        "category": "H"
-    },
-    {
         "Question": "What aspect of the monarchy provides stability to the UK?",
         "RightAnswer": "Continuity of the monarch as head of state",
         "WrongAnswers": [
