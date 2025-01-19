@@ -324,7 +324,7 @@
         "category": "H"
     },
     {
-        "Question": "Which movement, formed by campaigners called Chartists, demanded voting rights for the working classes and others without property?",
+        "Question": "Which movement demanded voting rights for the working classes and others without property during the 1800s?",
         "RightAnswer": "The Chartist",
         "WrongAnswers": [
             "The Suffragettes",
@@ -949,7 +949,7 @@
     },
     {
         "Question": "Which 1707 agreement merged Scotland with England to form the Kingdom of Great Britain?",
-        "RightAnswer": "The Act of Union (the Treaty of Union in Scotland)",
+        "RightAnswer": "The Act of Union",
         "WrongAnswers": [
             "The Bill of Rights",
             "The Settlement of 1689",
@@ -3276,7 +3276,7 @@
         "category": "H"
     },
     {
-        "Question": "Which famous playwright is mentioned as part of the Elizabethan period?",
+        "Question": "Who was the most famous playwright during the Elizabethan period?",
         "RightAnswer": "William Shakespeare",
         "WrongAnswers": [
             "Christopher Marlowe",
@@ -4813,7 +4813,7 @@
     },
     {
         "Question": "What was notable about the media coverage of the Crimean War?",
-        "RightAnswer": "It was the first war to be extensively covered through news stories and photographs",
+        "RightAnswer": "It was the first war to be extensively covered by the media",
         "WrongAnswers": [
             "It was the first war to be broadcast on radio",
             "It was the first war to be televised",
@@ -5937,18 +5937,6 @@
         ],
         "Explanation": "For about 25 years, people from the West Indies, India, Pakistan and (later) Bangladesh travelled to work and settle in Britain.",
         "id": "#10495",
-        "category": "H"
-    },
-    {
-        "Question": "Which two well-known pop music groups were mentioned as examples from the 1960s?",
-        "RightAnswer": "The Beatles and The Rolling Stones",
-        "WrongAnswers": [
-            "The Who and The Kinks",
-            "The Yardbirds and The Animals",
-            "Pink Floyd and Led Zeppelin"
-        ],
-        "Explanation": "Two well-known pop music groups at the time were The Beatles and The Rolling Stones.",
-        "id": "#10496",
         "category": "H"
     },
     {
@@ -8389,7 +8377,7 @@
     },
     {
         "Question": "Why was this event called the 'Glorious Revolution'?",
-        "RightAnswer": "There was no fighting in England and it guaranteed the power of Parliament",
+        "RightAnswer": "There was no fighting in England",
         "WrongAnswers": [
             "It was a bloody battle",
             "It restored the Catholic monarchy",
@@ -8569,7 +8557,7 @@
     },
     {
         "Question": "Who was the first person to be called Prime Minister?",
-        "RightAnswer": "Sir Robert Walpole",
+        "RightAnswer": "Robert Walpole",
         "WrongAnswers": [
             "William of Orange",
             "George I",
@@ -8997,18 +8985,6 @@
         ],
         "Explanation": "After 1833, 2 million Indian and Chinese workers were employed to replace the freed slaves.",
         "id": "#10751",
-        "category": "H"
-    },
-    {
-        "Question": "By which decade were there substantial British colonies in North America?",
-        "RightAnswer": "1760s",
-        "WrongAnswers": [
-            "1750s",
-            "1770s",
-            "1780s"
-        ],
-        "Explanation": "By the 1760s, there were substantial British colonies in North America.",
-        "id": "#10752",
         "category": "H"
     },
     {
@@ -9469,7 +9445,7 @@
     },
     {
         "Question": "How many people left Ireland during the famine?",
-        "RightAnswer": "Another million and a half",
+        "RightAnswer": "A million and a half",
         "WrongAnswers": [
             "Half a million",
             "Two million",
@@ -9720,18 +9696,6 @@
         "category": "H"
     },
     {
-        "Question": "Which of the following was NOT mentioned as a social progress measure introduced in early 20th century Britain?",
-        "RightAnswer": "Universal healthcare",
-        "WrongAnswers": [
-            "Financial help for the unemployed",
-            "Old-age pensions",
-            "Free school meals"
-        ],
-        "Explanation": "Financial help for the unemployed, old-age pensions and free school meals were just a few of the important measures introduced.",
-        "id": "#10814",
-        "category": "H"
-    },
-    {
         "Question": "What was introduced in early 20th century Britain for members of Parliament (MPs) for the first time?",
         "RightAnswer": "A salary",
         "WrongAnswers": [
@@ -9792,18 +9756,6 @@
         "category": "H"
     },
     {
-        "Question": "Which of the following was NOT mentioned as part of the Allied Powers?",
-        "RightAnswer": "Germany",
-        "WrongAnswers": [
-            "France",
-            "Russia",
-            "Japan"
-        ],
-        "Explanation": "Britain was part of the Allied Powers, which included (amongst others) France, Russia, Japan, Belgium, Serbia \u2013 and later, Greece, Italy, Romania and the United States.",
-        "id": "#10820",
-        "category": "H"
-    },
-    {
         "Question": "How many British casualties resulted from the attack on the Somme in July 1916 on the first day alone?",
         "RightAnswer": "About 60,000",
         "WrongAnswers": [
@@ -9819,9 +9771,9 @@
         "Question": "At what time and date did the First World War end?",
         "RightAnswer": "11.00 am on 11th November 1918",
         "WrongAnswers": [
-            "28 June 1914",
-            "1 July 1916",
-            "11.00 pm on 11th November 1918"
+            "12.00 am on 11th November 1918",
+            "10.00 am on 11th November 1918",
+            "11.00 am on 11th November 1918"
         ],
         "Explanation": "The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies.",
         "id": "#10822",
@@ -9960,18 +9912,6 @@
         "category": "H"
     },
     {
-        "Question": "Which prominent writers were mentioned from this period?",
-        "RightAnswer": "Graham Greene and Evelyn Waugh",
-        "WrongAnswers": [
-            "John Maynard Keynes and Graham Greene",
-            "Evelyn Waugh and John Maynard Keynes",
-            "Graham Greene and William Shakespeare"
-        ],
-        "Explanation": "It was also a time of cultural blossoming, with writers such as Graham Greene and Evelyn Waugh prominent.",
-        "id": "#10834",
-        "category": "H"
-    },
-    {
         "Question": "Who published influential new theories of economics during this period?",
         "RightAnswer": "John Maynard Keynes",
         "WrongAnswers": [
@@ -10053,18 +9993,6 @@
         ],
         "Explanation": "He was an MP until he stood down at the 1964 General Election.",
         "id": "#10841",
-        "category": "H"
-    },
-    {
-        "Question": "In which year was Churchill voted the greatest Briton of all time by the public?",
-        "RightAnswer": "2002",
-        "WrongAnswers": [
-            "1965",
-            "1940",
-            "1951"
-        ],
-        "Explanation": "He remains a much-admired figure to this day, and in 2002 was voted the greatest Briton of all time by the public.",
-        "id": "#10842",
         "category": "H"
     },
     {
@@ -10395,7 +10323,7 @@
         "Question": "What was Clement Attlee's father's profession?",
         "RightAnswer": "Solicitor",
         "WrongAnswers": [
-            "Barrister",
+            "Miner",
             "Doctor",
             "Teacher"
         ],
@@ -10485,18 +10413,6 @@
         ],
         "Explanation": "It recommended that the government should find ways of fighting the five 'Giant Evils' of Want, Disease,Ignorance, Squalor and Idleness and provided the basis of the modern welfare state.",
         "id": "#10877",
-        "category": "H"
-    },
-    {
-        "Question": "Which of the following was NOT one of the 'Giant Evils' mentioned in the Beveridge Report?",
-        "RightAnswer": "Poverty",
-        "WrongAnswers": [
-            "Want",
-            "Disease",
-            "Idleness"
-        ],
-        "Explanation": "It recommended that the government should find ways of fighting the five 'Giant Evils' of Want, Disease,Ignorance, Squalor and Idleness and provided the basis of the modern welfare state.",
-        "id": "#10878",
         "category": "H"
     },
     {
@@ -11653,7 +11569,7 @@
     },
     {
         "Question": "How long did Britain remain separate from the Roman Empire after Julius Caesar's invasion?",
-        "RightAnswer": "Nearly 100 years",
+        "RightAnswer": "100 years",
         "WrongAnswers": [
             "50 years",
             "200 years",
@@ -13861,7 +13777,7 @@
     },
     {
         "Question": "Why did Mary Stuart flee to England?",
-        "RightAnswer": "She was suspected of involvement in her husband's murder",
+        "RightAnswer": "She was suspected of her husband's murder.",
         "WrongAnswers": [
             "She was invited by Elizabeth I",
             "She wanted to claim the English throne",
@@ -15852,18 +15768,6 @@
         "category": "H"
     },
     {
-        "Question": "In which year was Richard Arkwright born?",
-        "RightAnswer": "1732",
-        "WrongAnswers": [
-            "1832",
-            "1932",
-            "1632"
-        ],
-        "Explanation": "Born in 1732, Arkwright originally trained and worked as a barber.",
-        "id": "#11327",
-        "category": "H"
-    },
-    {
         "Question": "What was Richard Arkwright's original profession?",
         "RightAnswer": "Barber",
         "WrongAnswers": [
@@ -17545,7 +17449,7 @@
     },
     {
         "Question": "What was the 'Home Rule' proposal for Ireland?",
-        "RightAnswer": "A self-governing Ireland with its own parliament but still part of the UK",
+        "RightAnswer": "A self-governing Ireland within the UK",
         "WrongAnswers": [
             "Complete independence from the UK",
             "A separate country within the British Empire",
@@ -18060,16 +17964,16 @@
         "category": "H"
     },
     {
-        "Question": "How did the war against Japan end in August 1945?",
-        "RightAnswer": "The United States dropped atom bombs on Hiroshima and Nagasaki",
+        "Question": "Which two Japanese cities were targeted with atomic bombs during World War II?",
+        "RightAnswer": "Hiroshima and Nagasaki",
         "WrongAnswers": [
-            "Japan surrendered unconditionally",
-            "The Soviet Union invaded Japan",
-            "Allied forces captured Tokyo"
+            "Tokyo and Osaka",
+            "Kyoto and Yokohama",
+            "Sapporo and Kobe"
         ],
         "Explanation": "The war against Japan ended in August 1945 when the United States dropped its newly developed atom bombs on the Japanese cities of Hiroshima and Nagasaki.",
         "id": "#11511",
-        "category": "H"
+        "category": "History"
     },
     {
         "Question": "Who led the scientists that were first to 'split the atom'?",
@@ -18492,8 +18396,8 @@
         "category": "H"
     },
     {
-        "Question": "In which areas were social laws liberalized during the 1960s?",
-        "RightAnswer": "Divorce and abortion in England, Wales and Scotland",
+        "Question": "In which areas were social laws liberalized during the 1960s in England, Wales and Scotland?",
+        "RightAnswer": "Divorce and abortion",
         "WrongAnswers": [
             "Marriage and adoption",
             "Education and healthcare",
@@ -20160,14 +20064,14 @@
         "category": "F"
     },
     {
-        "Question": "British poet that won the Nobel Prize in Literature?",
-        "RightAnswer": "Seamus Heaney",
+        "Question": "Who has NOT won the Nobel Prize in Literature?",
+        "RightAnswer": "J K Rowling",
         "WrongAnswers": [
-            "J K Rowling",
+            "Seamus Heaney",
             "William Golding",
             "Harold Pinter"
         ],
-        "Explanation": "Several British writers, including the novelist Sir William Golding, the poet Seamus Heaney, and the playwright Harold Pinter, have won the Nobel Prize in Literature.",
+        "Explanation": "Several writers, including the Irish poet Seamus Heaney, the British novelist Sir William Golding, and the British playwright Harold Pinter, have won the Nobel Prize in Literature.",
         "id": "#20084",
         "category": "F"
     },
@@ -21493,7 +21397,7 @@
     },
     {
         "Question": "Which landscape designer is known for saying a place had 'capabilities'?",
-        "RightAnswer": "Lancelot 'Capability' Brown",
+        "RightAnswer": "Lancelot Brown",
         "WrongAnswers": [
             "Gertrude Jekyll",
             "Edwin Lutyens",
@@ -25861,7 +25765,7 @@
     },
     {
         "Question": "Who is Bobby Moore?",
-        "RightAnswer": "The captain of the English football team that won the World Cup in 1966",
+        "RightAnswer": "The captain of the English football team in 1966",
         "WrongAnswers": [
             "A British Olympic gold medalist in rowing",
             "A famous British cyclist",
@@ -26497,7 +26401,7 @@
     },
     {
         "Question": "What is the All England Lawn Tennis and Croquet Club?",
-        "RightAnswer": "The venue where The Wimbledon Championships takes place",
+        "RightAnswer": "The Wimbledon Championships venue",
         "WrongAnswers": [
             "The first tennis club in the world",
             "A famous tennis player",
@@ -27511,7 +27415,7 @@
             "Ellen MacArthur",
             "Ben Ainslie"
         ],
-        "Explanation": "A British sailor, Sir Francis Chichester, was the first person to sail single-handed around the world, in 1966/67.",
+        "Explanation": "A British sailor, Sir Francis Chichester, was the first person to sail single-handed around the world, in 1966/67. Two years later, Sir Robin Knox-Johnston became the first person to do this without stopping. More recently, in 2004, Dame Ellen MacArthur became the fastest person to sail around the world singlehanded.",
         "id": "#20694",
         "category": "F"
     },
@@ -27523,13 +27427,25 @@
             "Ellen MacArthur",
             "Ben Ainslie"
         ],
-        "Explanation": "Two years later, Sir Robin Knox-Johnston became the first person to do this without stopping.",
+        "Explanation": "A British sailor, Sir Francis Chichester, was the first person to sail single-handed around the world, in 1966/67. Two years later, Sir Robin Knox-Johnston became the first person to do this without stopping. More recently, in 2004, Dame Ellen MacArthur became the fastest person to sail around the world singlehanded.",
         "id": "#20695",
         "category": "F"
     },
     {
+        "Question": "Who was the fastest person to sail single-handed around the world?",
+        "RightAnswer": "Ellen MacArthur",
+        "WrongAnswers": [
+            "Francis Chichester",
+            "Robin Knox-Johnston",
+            "Ben Ainslie"
+        ],
+        "Explanation": "A British sailor, Sir Francis Chichester, was the first person to sail single-handed around the world, in 1966/67. Two years later, Sir Robin Knox-Johnston became the first person to do this without stopping. More recently, in 2004, Dame Ellen MacArthur became the fastest person to sail around the world singlehanded.",
+        "id": "#90695",
+        "category": "F"
+    },
+    {
         "Question": "Where is the most famous sailing event in the UK held?",
-        "RightAnswer": "Cowes on the Isle of Wight",
+        "RightAnswer": "Cowes",
         "WrongAnswers": [
             "Portsmouth",
             "Plymouth",
@@ -27537,6 +27453,18 @@
         ],
         "Explanation": "Many sailing events are held throughout the UK, the most famous of which is at Cowes on the Isle of Wight.",
         "id": "#20696",
+        "category": "F"
+    },
+    {
+        "Question": "Where is the most famous sailing event in the UK held?",
+        "RightAnswer": "Isle of Wight",
+        "WrongAnswers": [
+            "Portsmouth",
+            "Plymouth",
+            "Southampton"
+        ],
+        "Explanation": "Many sailing events are held throughout the UK, the most famous of which is at Cowes on the Isle of Wight.",
+        "id": "#90696",
         "category": "F"
     },
     {
@@ -38198,7 +38126,7 @@
     },
     {
         "Question": "What was the primary goal of the Royal Air Force's Spitfire and Hurricane planes during the Battle of Britain?",
-        "RightAnswer": "To defend against the German air force and gain air superiority",
+        "RightAnswer": "To gain air superiority",
         "WrongAnswers": [
             "To conduct bombing raids over Germany",
             "To transport troops across the English Channel",
@@ -38318,14 +38246,26 @@
     },
     {
         "Question": "What is the main symbol found on the Union Flag representing Scotland?",
-        "RightAnswer": "The cross of St Andrew, a diagonal white cross on a blue ground",
+        "RightAnswer": "The cross of St Andrew",
         "WrongAnswers": [
-            "The cross of St George, a red cross on a white ground",
-            "The cross of St Patrick, a diagonal red cross on a white ground",
+            "The cross of St George",
+            "The cross of St Patrick",
             "A white lion on a red field"
         ],
         "Explanation": "The cross of St Andrew, patron saint of Scotland, is a diagonal white cross on a blue ground.",
         "id": "#40100",
+        "category": ""
+    },
+    {
+        "Question": "What is the main symbol found on the Union Flag representing Scotland?",
+        "RightAnswer": "A diagonal white cross on a blue ground",
+        "WrongAnswers": [
+            "A red cross on a white ground",
+            "A diagonal red cross on a white ground",
+            "A white lion on a red field"
+        ],
+        "Explanation": "The cross of St Andrew, patron saint of Scotland, is a diagonal white cross on a blue ground.",
+        "id": "#90100",
         "category": ""
     },
     {
@@ -38354,7 +38294,7 @@
     },
     {
         "Question": "Which act passed in 1832 greatly increased the number of people with the right to vote in the UK?",
-        "RightAnswer": "The Reform Act of 1832",
+        "RightAnswer": "The Reform Act",
         "WrongAnswers": [
             "The Representation of the People Act",
             "The Magna Carta",
@@ -38494,18 +38434,6 @@
         ],
         "Explanation": "She succeeded in finding a balance between the views of Catholics and the more extreme Protestants. In this way, she avoided any serious religious conflict within England.",
         "id": "#40114",
-        "category": ""
-    },
-    {
-        "Question": "What is the main difference between the House of Lords and the House of Commons in the UK Parliament?",
-        "RightAnswer": "The House of Lords is composed of the nobility, great landowners, and bishops, while the House of Commons is elected and composed of knights and wealthy people from towns and cities",
-        "WrongAnswers": [
-            "The House of Lords makes laws, while the House of Commons only debates them",
-            "The House of Commons is hereditary, while the House of Lords is elected",
-            "There is no difference; both houses have the same members"
-        ],
-        "Explanation": "The nobility, great landowners and bishops sat in the House of Lords. Knights, who were usually smaller landowners, and wealthy people from towns and cities were elected to sit in the House of Commons.",
-        "id": "#40115",
         "category": ""
     },
     {
@@ -38869,10 +38797,10 @@
         "category": ""
     },
     {
-        "Question": "What was the main purpose of the Black Death's impact on British society?",
-        "RightAnswer": "It led to labor shortages and higher wages for peasants",
+        "Question": "What was one of the main impact of the Black Death on British society?",
+        "RightAnswer": "It led to labor shortages",
         "WrongAnswers": [
-            "It caused the collapse of the British economy",
+            "It caused a population boom",
             "It resulted in the end of feudalism",
             "It led to the Industrial Revolution"
         ],
@@ -38881,12 +38809,24 @@
         "category": ""
     },
     {
+        "Question": "What was one of the main impact of the Black Death on British society?",
+        "RightAnswer": "Higher wages for peasants",
+        "WrongAnswers": [
+            "It caused a population boom",
+            "It resulted in the end of feudalism",
+            "It led to the Industrial Revolution"
+        ],
+        "Explanation": "Following the Black Death, the smaller population meant there was less need to grow cereal crops. There were labour shortages and peasants began to demand higher wages.",
+        "id": "#90147",
+        "category": ""
+    },
+    {
         "Question": "Who was the first British person to circumnavigate the world?",
         "RightAnswer": "Francis Drake",
         "WrongAnswers": [
-            "Captain James Cook",
-            "Sir Walter Raleigh",
-            "James Cook"
+            "James Cook",
+            "Admiral Nelson",
+            "David Hume"
         ],
         "Explanation": "English settlers first began to colonise the eastern coast of America. Sir Francis Drake, one of the commanders in the defeat of the Spanish Armada, was one of the founders of England\u2019s naval tradition. His ship, the Golden Hind, was one of the first to sail right around (\u2018circumnavigate\u2019) the world.",
         "id": "#40148",
@@ -38906,7 +38846,7 @@
     },
     {
         "Question": "What is the name of the British institution that hosts 'The Proms'?",
-        "RightAnswer": "The British Broadcasting Corporation (BBC)",
+        "RightAnswer": "The BBC",
         "WrongAnswers": [
             "The Royal Albert Hall",
             "The London Symphony Orchestra",
@@ -39494,7 +39434,7 @@
     },
     {
         "Question": "What was the primary focus of the Reform Act of 1867?",
-        "RightAnswer": "To reduce property requirements for voting and expand the electorate",
+        "RightAnswer": "To expand the electorate",
         "WrongAnswers": [
             "To establish the National Health Service",
             "To abolish the House of Lords",
@@ -39502,6 +39442,18 @@
         ],
         "Explanation": "The Reform Act of 1867 further expanded the electorate by reducing property requirements, thereby increasing the number of men eligible to vote.",
         "id": "#40200",
+        "category": ""
+    },
+    {
+        "Question": "What was the primary focus of the Reform Act of 1867?",
+        "RightAnswer": "To reduce property requirements for voting",
+        "WrongAnswers": [
+            "To establish the National Health Service",
+            "To abolish the House of Lords",
+            "To grant independence to Scotland"
+        ],
+        "Explanation": "The Reform Act of 1867 further expanded the electorate by reducing property requirements, thereby increasing the number of men eligible to vote.",
+        "id": "#90200",
         "category": ""
     },
     {
@@ -39685,18 +39637,6 @@
         "category": ""
     },
     {
-        "Question": "Who was the British Prime Minister during the implementation of the Thatcher government's economic policies in the 1980s?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher, as Prime Minister in the 1980s, implemented significant economic policies including deregulation, privatization, and reducing the power of trade unions.",
-        "id": "#40218",
-        "category": ""
-    },
-    {
         "Question": "What was the primary goal of the Women's Suffrage Movement in the UK?",
         "RightAnswer": "To secure the right to vote for women",
         "WrongAnswers": [
@@ -39742,18 +39682,6 @@
         ],
         "Explanation": "Jane Austen is the author of 'Pride and Prejudice,' a classic novel that explores themes of love, social standing, and morality.",
         "id": "#40222",
-        "category": ""
-    },
-    {
-        "Question": "What was the primary focus of the Battle of Somme in 1916?",
-        "RightAnswer": "A major offensive by the British and French against German forces during the First World War",
-        "WrongAnswers": [
-            "To defend against the German invasion of France",
-            "To secure naval dominance in the North Sea",
-            "To launch an amphibious assault on Belgium"
-        ],
-        "Explanation": "The Battle of Somme was one of the largest battles of the First World War, aiming to break through German lines but resulting in heavy casualties on both sides.",
-        "id": "#40223",
         "category": ""
     },
     {
@@ -41281,18 +41209,6 @@
         "category": ""
     },
     {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40353",
-        "category": ""
-    },
-    {
         "Question": "Who was the first monarch of the House of Tudor?",
         "RightAnswer": "Henry VII",
         "WrongAnswers": [
@@ -42613,18 +42529,6 @@
         "category": ""
     },
     {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40465",
-        "category": ""
-    },
-    {
         "Question": "Who was the first monarch of the House of Tudor?",
         "RightAnswer": "Henry VII",
         "WrongAnswers": [
@@ -43345,7 +43249,7 @@
         "category": ""
     },
     {
-        "Question": "Which battle was a pivotal moment in the Hundred Years War?",
+        "Question": "Most famous battle of the Hundred Years War.",
         "RightAnswer": "Battle of Agincourt",
         "WrongAnswers": [
             "Battle of Naseby",
@@ -50173,18 +50077,6 @@
         "category": ""
     },
     {
-        "Question": "Which British comedy film is mentioned from the 1950s?",
-        "RightAnswer": "Passport to Pimlico",
-        "WrongAnswers": [
-            "The Lavender Hill Mob",
-            "Kind Hearts and Coronets",
-            "The Man in the White Suit"
-        ],
-        "Explanation": "The 1950s and 1960s were a high point for British comedies, including Passport to Pimlico, The Ladykillers and, later, the Carry On films.",
-        "id": "#41096",
-        "category": ""
-    },
-    {
         "Question": "Which film franchise is one of the two highest-grossing of all time and was produced in the UK?",
         "RightAnswer": "Harry Potter",
         "WrongAnswers": [
@@ -50461,7 +50353,7 @@
         "category": ""
     },
     {
-        "Question": "Which magazine is mentioned as continuing the tradition of satire?",
+        "Question": "Which magazine continues the tradition of satire (initiated by magazines like Punch)?",
         "RightAnswer": "Private Eye",
         "WrongAnswers": [
             "The New Yorker",
@@ -50530,18 +50422,6 @@
         ],
         "Explanation": "Satire has also continued to be important, with shows like That Was The Week That Was in the 1960s and Spitting Image in the 1980s and 1990s.",
         "id": "#41126",
-        "category": ""
-    },
-    {
-        "Question": "What type of comedy did Monty Python's Flying Circus introduce in 1969?",
-        "RightAnswer": "Stand-up comedy",
-        "WrongAnswers": [
-            "Slapstick comedy",
-            "Dark comedy",
-            "Satirical comedy"
-        ],
-        "Explanation": "In 1969, Monty Python\u2019s Flying Circus introduced a new type of progressive comedy. Stand-up comedy, where a solo comedian talks to a live audience, has become popular again in recent years.",
-        "id": "#41127",
         "category": ""
     },
     {
@@ -50833,7 +50713,7 @@
         "category": ""
     },
     {
-        "Question": "For what occasion was the structure originally built?",
+        "Question": "For what occasion was the London Eye originally built?",
         "RightAnswer": "The UK's celebration of the new millennium",
         "WrongAnswers": [
             "The Queen's Diamond Jubilee",
@@ -50860,9 +50740,9 @@
         "Question": "What is the area covered by Snowdonia National Park in square miles?",
         "RightAnswer": "838",
         "WrongAnswers": [
-            "750",
-            "900",
-            "1000"
+            "938",
+            "738",
+            "638"
         ],
         "Explanation": "Snowdonia is a national park in North Wales. It covers an area of 838 square miles (2,170 square kilometres). Its most well-known landmark is Snowdon, which is the highest mountain in Wales.",
         "id": "#41154",
@@ -51525,6 +51405,18 @@
             "Robert Browning"
         ],
         "Explanation": "Later, many poets \u2013 for example, Wilfred Owen and Siegfried Sassoon \u2013 were inspired to write about their experiences in the First World War.",
+        "id": "#41209",
+        "category": ""
+    },
+    {
+        "Question": "In 1953 the DNA molecule was discovered. Other than London, what other university is credited with this discovery?",
+        "RightAnswer": "Cambridge",
+        "WrongAnswers": [
+            "Oxford",
+            "Edinburgh",
+            "Manchester"
+        ],
+        "Explanation": "The structure of the DNA molecule was discovered in 1953 through work at British universities in London and Cambridge. Francis Crick, one of those awarded the Nobel Prize for this discovery, was British.",
         "id": "#41209",
         "category": ""
     }
