@@ -67,7 +67,7 @@ h1 {
     height: 60px;
     min-height: 60px;
     /* width: 100%; */
-    border-bottom: 1px solid var(--color_border);
+    /* border-bottom: 1px solid var(--color_border); */
 }
 
 .text {
@@ -85,12 +85,17 @@ h1 {
     align-items: center;
     font-size: 1.8rem;
     color: var(--color_font1);
-    background-color: var(--color_background);
+    background-color: rgb(208, 208, 208);
     cursor: pointer;
     height: 100%;
     width: 60px;
-    border-right: 1px solid var(--color_border);
+    /* border-right: 1px solid var(--color_border); */
     position: relative;
+}
+
+#top-row{
+    gap: 5px;
+    padding: 5px;
 }
 
 .bttn:active {
