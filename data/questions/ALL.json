@@ -3912,7 +3912,7 @@
         "category": "H"
     },
     {
-        "Question": "What were the two main groups in Parliament known as?",
+        "Question": "What were the two main groups in Parliament known as in the 1800s?",
         "RightAnswer": "Whigs and Tories",
         "WrongAnswers": [
             "Liberals and Conservatives",
@@ -6733,7 +6733,7 @@
     },
     {
         "Question": "Who led the successful Roman invasion of Britain in AD 43?",
-        "RightAnswer": "Emperor Claudius",
+        "RightAnswer": "Claudius",
         "WrongAnswers": [
             "Julius Caesar",
             "Boudicca",
@@ -9501,18 +9501,6 @@
         ],
         "Explanation": "Others, such as Charles Stuart Parnell, advocated 'Home Rule', in which Ireland would remain in the UK but have its own parliament.",
         "id": "#10794",
-        "category": "H"
-    },
-    {
-        "Question": "What act greatly increased the number of people with the right to vote?",
-        "RightAnswer": "The Reform Act of 1832",
-        "WrongAnswers": [
-            "The Reform Act of 1867",
-            "The Act of 1870",
-            "The Act of 1882"
-        ],
-        "Explanation": "The Reform Act of 1832 had greatly increased the number of people with the right to vote. The Act also abolished the old pocket and rotten boroughs and more parliamentary seats were given to the towns and cities.",
-        "id": "#10795",
         "category": "H"
     },
     {
@@ -12564,18 +12552,6 @@
         "category": "H"
     },
     {
-        "Question": "What did the king expect in return for giving land to his lords?",
-        "RightAnswer": "Help in war",
-        "WrongAnswers": [
-            "Annual taxes",
-            "Agricultural produce",
-            "Religious loyalty"
-        ],
-        "Explanation": "The king gave land to his lords in return for help in war.",
-        "id": "#11050",
-        "category": "H"
-    },
-    {
         "Question": "What type of peasants were most common in the feudal system?",
         "RightAnswer": "Serfs",
         "WrongAnswers": [
@@ -13201,7 +13177,7 @@
     },
     {
         "Question": "Who was killed in the Battle of Bosworth Field?",
-        "RightAnswer": "King Richard III of the House of York",
+        "RightAnswer": "King Richard III",
         "WrongAnswers": [
             "Henry Tudor",
             "Elizabeth of York",
@@ -16407,9 +16383,9 @@
         "Question": "In which year did Ireland become unified with England, Scotland, and Wales?",
         "RightAnswer": "1801",
         "WrongAnswers": [
-            "1800",
-            "1606",
-            "1806"
+            "1501",
+            "1601",
+            "1701"
         ],
         "Explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland.",
         "id": "#11371",
@@ -19441,7 +19417,7 @@
     },
     {
         "Question": "Which annual event in the UK is considered the British equivalent of the Oscars?",
-        "RightAnswer": "The British Academy Film Awards (BAFTA)",
+        "RightAnswer": "BAFTA",
         "WrongAnswers": [
             "The Mercury Music Prize",
             "The Laurence Olivier Awards",
@@ -26557,35 +26533,23 @@
     },
     {
         "Question": "Who is Jenson Button?",
-        "RightAnswer": "A British Grand Prix driver who won the Formula 1 World Championship",
+        "RightAnswer": "A Grand Prix driver",
         "WrongAnswers": [
-            "A famous British motorcycle racer",
-            "A renowned British car manufacturer",
-            "A legendary British rally driver"
+            "A motorcycle racer",
+            "A car manufacturer",
+            "A rally driver"
         ],
         "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jenson Button.",
         "id": "#20611",
         "category": "F"
     },
     {
-        "Question": "What is skiing?",
-        "RightAnswer": "A popular activity in the UK involving sliding on snow or dry slopes",
+        "Question": "Where is Europe's longest dry ski slope?",
+        "RightAnswer": "Near Edinburgh",
         "WrongAnswers": [
-            "A type of British cuisine",
-            "A traditional Scottish dance",
-            "A famous UK landmark"
-        ],
-        "Explanation": "Skiing is increasingly popular in the UK. Many people go abroad to ski and there are also dry ski slopes throughout the UK.",
-        "id": "#20612",
-        "category": "F"
-    },
-    {
-        "Question": "What is Europe's longest dry ski slope near Edinburgh?",
-        "RightAnswer": "A facility for skiing without snow",
-        "WrongAnswers": [
-            "A famous hiking trail",
-            "A historic castle",
-            "A large shopping mall"
+            "Near London",
+            "Near Glasgow",
+            "Near Newcastle"
         ],
         "Explanation": "There are five ski centres in Scotland, as well as Europe\u2019s longest dry ski slope near Edinburgh.",
         "id": "#20613",
@@ -27585,42 +27549,6 @@
         ],
         "Explanation": "There is a popular yearly race on the Thames between Oxford and Cambridge Universities.",
         "id": "#20697",
-        "category": "F"
-    },
-    {
-        "Question": "Which British Grand Prix driver is a recent winner of the Formula 1 World Championship?",
-        "RightAnswer": "Damon Hill",
-        "WrongAnswers": [
-            "Nigel Mansell",
-            "Stirling Moss",
-            "James Hunt"
-        ],
-        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jenson Button.",
-        "id": "#20698",
-        "category": "F"
-    },
-    {
-        "Question": "Which British Grand Prix driver is a recent winner of the Formula 1 World Championship?",
-        "RightAnswer": "Lewis Hamilton",
-        "WrongAnswers": [
-            "David Coulthard",
-            "Graham Hill",
-            "Jackie Stewart"
-        ],
-        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jenson Button.",
-        "id": "#20699",
-        "category": "F"
-    },
-    {
-        "Question": "Which British Grand Prix driver is a recent winner of the Formula 1 World Championship?",
-        "RightAnswer": "Jenson Button",
-        "WrongAnswers": [
-            "Eddie Irvine",
-            "Martin Brundle",
-            "Johnny Herbert"
-        ],
-        "Explanation": "Recent British winners include Damon Hill, Lewis Hamilton and Jenson Button.",
-        "id": "#20700",
         "category": "F"
     },
     {
@@ -31465,7 +31393,7 @@
     },
     {
         "Question": "Who is the current heir apparent to the British throne?",
-        "RightAnswer": "William, Prince of Wales",
+        "RightAnswer": "Prince William",
         "WrongAnswers": [
             "Prince George",
             "Prince Louis",
@@ -33505,7 +33433,7 @@
     },
     {
         "Question": "Who sets local police priorities in England and Wales?",
-        "RightAnswer": "Police and Crime Commissioners (PCCs)",
+        "RightAnswer": "PCCs",
         "WrongAnswers": [
             "Chief Constables",
             "Local councils",
@@ -33541,7 +33469,7 @@
     },
     {
         "Question": "Who determines the local policing budget in England and Wales?",
-        "RightAnswer": "Police and Crime Commissioners (PCCs)",
+        "RightAnswer": "PCCs",
         "WrongAnswers": [
             "The Treasury",
             "Local councils",
@@ -34939,7 +34867,7 @@
             "Foreign affairs",
             "Taxation"
         ],
-        "Explanation": "Since 1997, some powers have been devolved from the central government to give people in Wales, Scotland and Northern Ireland more control over matters that directly affect them. There has been a Welsh Assembly and a Scottish Parliament since 1999. There is also a Northern Ireland Assembly, although this has been suspended on a few occasions. Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as education, are controlled by the devolved administrations. The devolved administrations each have their own civil service.",
+        "Explanation": "Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as education, are controlled by the devolved administrations. The devolved administrations each have their own civil service.",
         "id": "#30444",
         "category": "H"
     },
@@ -35271,9 +35199,9 @@
         "Question": "In which year was the Northern Ireland Assembly established?",
         "RightAnswer": "1998",
         "WrongAnswers": [
-            "1922",
-            "1972",
-            "2007"
+            "1988",
+            "1978",
+            "1968"
         ],
         "Explanation": "The Northern Ireland Assembly can make decisions on issues such as: education, agriculture, the environment, health, and social services. The UK government has the power to suspend all devolved assemblies. It has used this power several times in Northern Ireland when local political leaders found it difficult to work together. However, the Assembly has been running successfully since 2007.",
         "id": "#30472",
@@ -36768,27 +36696,27 @@
         "category": "H"
     },
     {
-        "Question": "Which cultural institution is listed as a potential place to volunteer in its governing body?",
-        "RightAnswer": "Museums",
-        "WrongAnswers": [
-            "Cinemas",
-            "Amusement parks",
-            "Zoos"
-        ],
-        "Explanation": "There are opportunities to volunteer with a wide range of local service providers, including local hospitals and youth projects. Services often want to involve local people in decisions about the way in which they work. Universities, housing associations, museums and arts councils may advertise for people to serve as volunteers in their governing bodies.",
-        "id": "#30598",
-        "category": "H"
-    },
-    {
         "Question": "What type of police volunteer role involves non-police duties?",
         "RightAnswer": "Lay representative",
         "WrongAnswers": [
-            "Special constable",
+            "Inspector",
             "Magistrate",
             "Police officer"
         ],
         "Explanation": "You can volunteer with the police, and become a special constable or a lay (non-police) representative. You can also apply to become a magistrate. You will often find advertisements for vacancies in your local newspaper or on local radio.",
         "id": "#30599",
+        "category": "H"
+    },
+    {
+        "Question": "What type of police volunteer role involves non-police duties?",
+        "RightAnswer": "Special constable",
+        "WrongAnswers": [
+            "Inspector",
+            "Magistrate",
+            "Police officer"
+        ],
+        "Explanation": "You can volunteer with the police, and become a special constable or a lay (non-police) representative. You can also apply to become a magistrate. You will often find advertisements for vacancies in your local newspaper or on local radio.",
+        "id": "#90599",
         "category": "H"
     },
     {
@@ -37886,7 +37814,7 @@
     },
     {
         "Question": "What was the main cause of the partition of Ireland in 1922?",
-        "RightAnswer": "The establishment of the Irish Free State and the creation of Northern Ireland",
+        "RightAnswer": "The establishment of the Irish Free State",
         "WrongAnswers": [
             "The Easter Rising",
             "The Battle of the Boyne",
@@ -38797,18 +38725,6 @@
         "category": ""
     },
     {
-        "Question": "What is the main difference between the Houses of Lords and Commons?",
-        "RightAnswer": "The Lords are unelected and consist of nobility and clergy, while the Commons are elected representatives",
-        "WrongAnswers": [
-            "The Lords are elected and the Commons are hereditary",
-            "Both houses are elected",
-            "Both houses are appointed by the monarch"
-        ],
-        "Explanation": "The nobility, great landowners and bishops sat in the House of Lords. Knights, who were usually smaller landowners, and wealthy people from towns and cities were elected to sit in the House of Commons.",
-        "id": "#40134",
-        "category": ""
-    },
-    {
         "Question": "Who succeeded Winston Churchill as Prime Minister after the Second World War?",
         "RightAnswer": "Clement Atlee",
         "WrongAnswers": [
@@ -39214,18 +39130,6 @@
         ],
         "Explanation": "Evelyn Waugh is the author of 'Brideshead Revisited,' a novel that explores themes of faith, love, and aristocracy.",
         "id": "#40168",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Battle of Agincourt in 1415?",
-        "RightAnswer": "To defeat the French during the Hundred Years War",
-        "WrongAnswers": [
-            "To secure Scottish independence",
-            "To repel Viking invasions",
-            "To overthrow King Richard III"
-        ],
-        "Explanation": "The Battle of Agincourt was a major English victory against the French during the Hundred Years War, demonstrating the effectiveness of the English longbow.",
-        "id": "#40169",
         "category": ""
     },
     {
@@ -39745,18 +39649,6 @@
         "category": ""
     },
     {
-        "Question": "What is the main function of the National Gallery in London?",
-        "RightAnswer": "To house and display a collection of over 2,300 paintings",
-        "WrongAnswers": [
-            "To host live theatrical performances",
-            "To conduct scientific research",
-            "To serve as the Prime Minister's residence"
-        ],
-        "Explanation": "The National Gallery in London houses a vast collection of Western European paintings from the 13th to the 19th centuries, serving as a major art museum.",
-        "id": "#40214",
-        "category": ""
-    },
-    {
         "Question": "Which British scientist is known for the theory of electromagnetism and contributions to the understanding of light?",
         "RightAnswer": "James Clerk Maxwell",
         "WrongAnswers": [
@@ -39782,7 +39674,7 @@
     },
     {
         "Question": "Which British institution is responsible for broadcasting 'The Proms'?",
-        "RightAnswer": "The British Broadcasting Corporation (BBC)",
+        "RightAnswer": "BBC",
         "WrongAnswers": [
             "Channel 4",
             "ITV",
@@ -39830,7 +39722,7 @@
     },
     {
         "Question": "What was the main purpose of the Act of Union 1707?",
-        "RightAnswer": "To unite the Kingdoms of England and Scotland into Great Britain",
+        "RightAnswer": "To unify England and Scotland",
         "WrongAnswers": [
             "To grant independence to Ireland",
             "To establish the Church of England",
@@ -41281,8 +41173,8 @@
         "category": ""
     },
     {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
+        "Question": "What was one of the the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
+        "RightAnswer": "To establish new settlements",
         "WrongAnswers": [
             "To find a route to India",
             "To convert Native Americans to Christianity",
@@ -41602,18 +41494,6 @@
         ],
         "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
         "id": "#40370",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40371",
         "category": ""
     },
     {
@@ -42457,8 +42337,8 @@
         "category": ""
     },
     {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
+        "Question": "What was one of the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
+        "RightAnswer": "To expand British trade",
         "WrongAnswers": [
             "To find a route to India",
             "To convert Native Americans to Christianity",
@@ -47701,18 +47581,6 @@
         "category": ""
     },
     {
-        "Question": "How often are the members of the Welsh Assembly (AMs) elected?",
-        "RightAnswer": "Every 5 years",
-        "WrongAnswers": [
-            "Every 4 years",
-            "Every 6 years",
-            "Every 3 years"
-        ],
-        "Explanation": "xx.",
-        "id": "#40879",
-        "category": ""
-    },
-    {
         "Question": "By which year did the English rule an area around Dublin called the Pale?",
         "RightAnswer": "1200",
         "WrongAnswers": [
@@ -48102,7 +47970,7 @@
         "WrongAnswers": [
             "Battle of Marston Moor",
             "Battle of Naseby",
-            "Battle of Culloden"
+            "Battle of Bosworth Field"
         ],
         "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I\u2019s son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland. He was supported by clansmen from the Scottish highlands and raised an army. Charles initially had some successes but was defeated by George II\u2019s army at the Battle of Culloden in 1746. Charles escaped back to Europe.",
         "id": "#40912",
@@ -48434,7 +48302,7 @@
     },
     {
         "Question": "Which venue is known for hosting music events in Glasgow?",
-        "RightAnswer": "Scottish Exhibition and Conference Centre (SECC)",
+        "RightAnswer": "SECC",
         "WrongAnswers": [
             "Wembley Stadium",
             "The O2",
@@ -48698,7 +48566,7 @@
     },
     {
         "Question": "When do many theatres produce a pantomime in Britain?",
-        "RightAnswer": "Christmas time",
+        "RightAnswer": "Christmas",
         "WrongAnswers": [
             "Easter",
             "Halloween",
@@ -50386,18 +50254,6 @@
         ],
         "Explanation": "Recent British actors to have won Oscars include Colin Firth, Sir Anthony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton.",
         "id": "#41102",
-        "category": ""
-    },
-    {
-        "Question": "Which British actress won an Oscar?",
-        "RightAnswer": "Judi Dench",
-        "WrongAnswers": [
-            "Kate Winslet",
-            "Tilda Swinton",
-            "Colin Firth"
-        ],
-        "Explanation": "Recent British actors to have won Oscars include Colin Firth, Sir Anthony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton.",
-        "id": "#41103",
         "category": ""
     },
     {
