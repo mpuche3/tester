@@ -172,9 +172,10 @@ p {
 
 #explanation {
     height: 300px;
-    padding: 20px;
+    padding: 15px;
     border: 0;
     align-items: flex-start;
+    overflow: visible;
 }
 
 .opt_div {
@@ -280,4 +281,9 @@ button {
     background-color: #007BFF;
     color: white;
     cursor: pointer;
+}
+
+#click-explainer{
+    font-size: 0.75rem;
+    margin-top: 20px;
 }

@@ -9,11 +9,13 @@ function shuffleOptions() {
   const parent = document.getElementById('question').parentElement;
   const options = Array.from(document.querySelectorAll('.opt_div'));
   const explanation = document.getElementById('explanation');
+  const click_explainer = document.getElementById('click-explainer');
   for (let i = options.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [options[i], options[j]] = [options[j], options[i]];
   }
   options.forEach(option => parent.appendChild(option));
+  parent.appendChild(click_explainer);
   parent.appendChild(explanation);
 }
 
@@ -94,6 +96,7 @@ const STATE = {
         document.querySelector("#opt03").classList.remove('red_div');
         document.querySelector("#opt04").classList.remove('red_div');
         document.querySelector("#explanation_text").innerHTML = ""
+        document.querySelector("#click-explainer").firstElementChild.innerHTML = ""
         shuffleOptions()
 
         if (this._isRepeat === true) {
@@ -118,6 +121,10 @@ const STATE = {
     },
 
     show_explanation(){
+        if (window.showExplainer === undefined) {
+            document.querySelector("#click-explainer").firstElementChild.innerHTML = "[Click on the explanation below to move to the next question]"
+            window.showExplainer = "Don't show click explainer again"
+        }
         const explantion = this._questions[this._index]["Explanation"]
         document.querySelector("#explanation_text").innerHTML = explantion
         play()
@@ -128,26 +135,6 @@ const STATE = {
             return Object.values(this._mapVoiceNames).includes(voice.name)
         });
     },
-
-    // get_voice_obj() {
-    //     const voiceNames = this._voices
-    //     for (const voiceName of voiceNames){
-    //         const voices = window.speechSynthesis.getVoices();
-    //         for (let i = 0; i < voices.length; i++) {
-    //             if (voices[i].name.includes(voiceName)) {
-    //                 return voices[i];
-    //             }
-    //         }    
-    //     }
-    // },
-
-    // get voices(){
-    //     return this._voices
-    // },
-
-    // set voices(value){
-    //     this._voices = value
-    // },
 
     get voice(){
         return this._voice

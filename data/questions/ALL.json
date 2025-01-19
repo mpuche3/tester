@@ -5364,18 +5364,6 @@
         "category": "H"
     },
     {
-        "Question": "Who was a prominent writer mentioned in the text?",
-        "RightAnswer": "Graham Greene",
-        "WrongAnswers": [
-            "John Maynard Keynes",
-            "William Shakespeare",
-            "Charles Dickens"
-        ],
-        "Explanation": "It was also a time of cultural blossoming, with writers such as Graham Greene and Evelyn Waugh prominent.",
-        "id": "#10447",
-        "category": "H"
-    },
-    {
         "Question": "In which year did the BBC begin the world's first regular television service?",
         "RightAnswer": "1936",
         "WrongAnswers": [
@@ -15657,18 +15645,6 @@
         ],
         "Explanation": "One of the most important principles of the Enlightenment was that everyone should have the right to their own political and religious beliefs and that the state should not try to dictate to them.",
         "id": "#11306",
-        "category": "H"
-    },
-    {
-        "Question": "According to the text, what role should the state play in individuals' political and religious beliefs?",
-        "RightAnswer": "The state should not try to dictate them",
-        "WrongAnswers": [
-            "The state should enforce a single set of beliefs",
-            "The state should regulate religious practices",
-            "The state should determine political affiliations"
-        ],
-        "Explanation": "One of the most important principles of the Enlightenment was that everyone should have the right to their own political and religious beliefs and that the state should not try to dictate to them.",
-        "id": "#11307",
         "category": "H"
     },
     {
@@ -39757,18 +39733,6 @@
         "category": ""
     },
     {
-        "Question": "Which British author is famous for the 'Just So Stories' and 'The Hobbit'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Lewis Carroll",
-            "Philip Pullman"
-        ],
-        "Explanation": "J.R.R. Tolkien is known for his 'Just So Stories' for children and the fantasy novel 'The Hobbit.' Note: 'The Hobbit' is by Tolkien, but 'Just So Stories' are by Rudyard Kipling. This is a trick question, so correct answer should reflect that discrepancy. However, based on previous content, better to adjust question or answers accordingly. Since in the content 'Just So Stories' are attributed to Kipling, not Tolkien. Hence, to maintain accuracy, the question should be corrected.",
-        "id": "#40212",
-        "category": ""
-    },
-    {
         "Question": "Which British author is known for writing 'Aldous Huxley' and 'Brave New World'?",
         "RightAnswer": "Aldous Huxley",
         "WrongAnswers": [
@@ -39934,30 +39898,6 @@
         ],
         "Explanation": "The Easter Rising was an armed insurrection aiming for Irish independence, which, despite being suppressed, galvanized public support for independence.",
         "id": "#40226",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Catcher in the Rye'?",
-        "RightAnswer": "J.D. Salinger",
-        "WrongAnswers": [
-            "George Orwell",
-            "F. Scott Fitzgerald",
-            "Harper Lee"
-        ],
-        "Explanation": "J.D. Salinger, an American author, wrote 'The Catcher in the Rye.' This is a trick question; the correct association is different. To maintain accuracy, replace with a correct British author.",
-        "id": "#40227",
-        "category": ""
-    },
-    {
-        "Question": "What was the primary cause of the Great Depression's impact on the UK in the 1930s?",
-        "RightAnswer": "Global economic downturn leading to mass unemployment",
-        "WrongAnswers": [
-            "War with Germany",
-            "The collapse of the British monarchy",
-            "The end of the Industrial Revolution"
-        ],
-        "Explanation": "The Great Depression was a global economic crisis that led to mass unemployment and significant economic challenges in the UK during the 1930s.",
-        "id": "#40228",
         "category": ""
     },
     {
@@ -50785,7 +50725,7 @@
         "category": ""
     },
     {
-        "Question": "How old is the clock mentioned in the text?",
+        "Question": "How old is Big Ben?",
         "RightAnswer": "Over 150 years old",
         "WrongAnswers": [
             "Over 100 years old",
@@ -50797,7 +50737,7 @@
         "category": ""
     },
     {
-        "Question": "What is the name of the clock tower mentioned in the text?",
+        "Question": "What is the name of the Big Ben tower?",
         "RightAnswer": "Elizabeth Tower",
         "WrongAnswers": [
             "Victoria Tower",
