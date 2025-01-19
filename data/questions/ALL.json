@@ -39457,20 +39457,8 @@
         "category": ""
     },
     {
-        "Question": "Which British Prime Minister was known for implementing the 'Iron Lady' persona?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher earned the nickname 'Iron Lady' for her strong-willed leadership and conservative policies during her tenure as Prime Minister.",
-        "id": "#40201",
-        "category": ""
-    },
-    {
         "Question": "What is the main role of the House of Lords in the UK Parliament?",
-        "RightAnswer": "To review and suggest amendments to legislation proposed by the House of Commons",
+        "RightAnswer": "To review and suggest amendments to legislation",
         "WrongAnswers": [
             "To represent the electorate and make laws",
             "To advise the monarch on foreign policy",
@@ -39502,18 +39490,6 @@
         ],
         "Explanation": "Charles Dickens authored several classic novels, including 'Oliver Twist' and 'Great Expectations,' highlighting social issues of his time.",
         "id": "#40204",
-        "category": ""
-    },
-    {
-        "Question": "What was the primary reason for the establishment of the Hindoostane Coffee House in London in 1810?",
-        "RightAnswer": "To serve as the first curry house in Britain",
-        "WrongAnswers": [
-            "To promote Indian textiles",
-            "To provide a meeting place for British colonists",
-            "To introduce Indian tea varieties"
-        ],
-        "Explanation": "The Hindoostane Coffee House, established by Sake Dean Mahomet, was the first curry house in Britain, introducing Indian cuisine to the British public.",
-        "id": "#40205",
         "category": ""
     },
     {
@@ -39553,30 +39529,6 @@
         "category": ""
     },
     {
-        "Question": "What was the primary aim of the Education Act 1944 in the UK?",
-        "RightAnswer": "To provide free secondary education for all children in England and Wales",
-        "WrongAnswers": [
-            "To establish the University of London",
-            "To abolish tuition fees",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, also known as the Butler Act, aimed to provide free secondary education to all children in England and Wales, reforming the education system.",
-        "id": "#40209",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for balancing the power between the monarchy and Parliament, particularly after the Glorious Revolution?",
-        "RightAnswer": "William III",
-        "WrongAnswers": [
-            "James II",
-            "Charles II",
-            "George I"
-        ],
-        "Explanation": "William III, along with his wife Mary, accepted constitutional limits on the monarchy, reinforcing the power of Parliament following the Glorious Revolution.",
-        "id": "#40210",
-        "category": ""
-    },
-    {
         "Question": "Who was the British Prime Minister during the introduction of the Good Friday Agreement?",
         "RightAnswer": "Tony Blair",
         "WrongAnswers": [
@@ -39586,30 +39538,6 @@
         ],
         "Explanation": "Tony Blair, as Prime Minister, was instrumental in the negotiation and signing of the Good Friday Agreement in 1998, which was key to peace in Northern Ireland.",
         "id": "#40211",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Aldous Huxley' and 'Brave New World'?",
-        "RightAnswer": "Aldous Huxley",
-        "WrongAnswers": [
-            "George Orwell",
-            "Ray Bradbury",
-            "Philip K. Dick"
-        ],
-        "Explanation": "Aldous Huxley is the author of the dystopian novel 'Brave New World,' exploring themes of technology, society, and individuality.",
-        "id": "#40213",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for the theory of electromagnetism and contributions to the understanding of light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism, which unifies electricity, magnetism, and light into a single theoretical framework.",
-        "id": "#40215",
         "category": ""
     },
     {

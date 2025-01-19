@@ -19,6 +19,32 @@ function shuffleOptions() {
   parent.appendChild(explanation);
 }
 
+const SCORE = {
+    isShowScore: true,
+    isQuestionAnswered: false,
+    isQuestionAnsweredCorrectly: false,
+    num_correct: 0,
+    num_incorrect: 0,
+    get_perc(){
+        const total = this.num_correct + this.num_incorrect
+        if (total === 0) {
+            return ""
+        } else {
+            const perc = Math.floor(100 * (this.num_correct / total))
+            return perc 
+        }
+
+    },
+    renderScore(){
+        if (this.isShowScore === false) {
+            document.querySelector("#category").innerHTML = "Question: " + STATE._questions[STATE._index]["id"]
+        } else {
+            const tmp = Math.floor(this.num_correct) + " of " + Math.floor(this.num_correct + this.num_incorrect) + " (" + this.get_perc() + "%)"
+            document.querySelector("#category").innerHTML = tmp
+        }
+    }
+}
+
 const STATE = {
     _questions: [{"Question": "", "RightAnswer": "", "WrongAnswers": "", "Explanation": ""}],
     _index: 0,
@@ -52,7 +78,7 @@ const STATE = {
 
     increase_score() {
         const old_val = this.get_score()
-        const new_val = old_val * 10 * 10
+        const new_val = old_val * 10
         const key = this._questions[this._index]["Question"]
         localStorage.setItem(key, new_val)
     },
@@ -91,6 +117,8 @@ const STATE = {
     },
 
     next_question(){
+        SCORE.isQuestionAnswered = false;
+        SCORE.isQuestionAnsweredCorrectly = false;
         document.querySelector("#opt01").classList.remove('green_div');
         document.querySelector("#opt02").classList.remove('red_div');
         document.querySelector("#opt03").classList.remove('red_div');
@@ -221,7 +249,7 @@ const STATE = {
     },
 
     refresh_text() {
-        document.querySelector("#category").innerHTML = "Question: " + this._questions[this._index]["id"]
+        SCORE.renderScore()
         document.querySelector("#question_text").innerHTML =  this._questions[this._index]["Question"]
         document.querySelector("#opt01_text").innerHTML = this._questions[this._index]["RightAnswer"]
         document.querySelector("#opt02_text").innerHTML = this._questions[this._index]["WrongAnswers"][0]
@@ -437,10 +465,6 @@ document.addEventListener("fullscreenchange", function () {
     }
 });
 
-document.querySelector("#category").addEventListener("click", function () {
-    // STATE.next_category()
-});
-
 document.querySelector("#voice").addEventListener('click', function () {
     STATE.next_voice()
 });
@@ -469,26 +493,40 @@ document.querySelector("#explanation").addEventListener("click", function () {
     STATE.next_question()
 });
 
-document.querySelector("#opt01").addEventListener("click", function (){
-    STATE.decrease_score()
-    document.querySelector("#opt01").classList.add('green_div');
-    STATE.show_explanation()
-})
+document.querySelector("#opt01").addEventListener("click", clickOncorrectOption)
+document.querySelector("#opt02").addEventListener("click", _ => clickOnIncorrect_option("#opt02"))
+document.querySelector("#opt03").addEventListener("click", _ => clickOnIncorrect_option("#opt03"))
+document.querySelector("#opt04").addEventListener("click", _ => clickOnIncorrect_option("#opt04"))
 
-document.querySelector("#opt02").addEventListener("click", function (){
-    STATE.increase_score()
-    document.querySelector("#opt02").classList.add('red_div');
-})
+function clickOncorrectOption(){
+    if (SCORE.isQuestionAnsweredCorrectly === false) {
+        if (SCORE.isQuestionAnswered === false) {
+            SCORE.num_correct += 1;
+            SCORE.renderScore()
+        }        
+        SCORE.isQuestionAnswered = true;
+        SCORE.isQuestionAnsweredCorrectly = true;
+        document.querySelector("#opt01").classList.add('green_div');        
+        STATE.show_explanation()
+    }
+}
 
-document.querySelector("#opt03").addEventListener("click", function (){
-    STATE.increase_score()
-    document.querySelector("#opt03").classList.add('red_div');
-})
+function clickOnIncorrect_option(opt){
+    if (SCORE.isQuestionAnsweredCorrectly === false){
+        if (SCORE.isQuestionAnswered === false) {
+            SCORE.num_incorrect += 1;
+            SCORE.renderScore();
+        }
+        SCORE.isQuestionAnswered = true;
+        SCORE.isQuestionAnsweredCorrectly = false;
+        document.querySelector(opt).classList.add('red_div');        
+    }
+}
 
-document.querySelector("#opt04").addEventListener("click", function (){
-    STATE.increase_score()
-    document.querySelector("#opt04").classList.add('red_div');
-})
+document.querySelector("#category").addEventListener("click", function () {
+    SCORE.isShowScore = !SCORE.isShowScore
+    SCORE.renderScore()
+});
 
 ///////////////////////////////////////////////
 //                                           //
