@@ -1608,18 +1608,6 @@
         "category": "H"
     },
     {
-        "Question": "In which year did Florence Nightingale go to Turkey to work in military hospitals during the Crimean War?",
-        "RightAnswer": "1854",
-        "WrongAnswers": [
-            "1853",
-            "1860",
-            "1856"
-        ],
-        "Explanation": "In 1854, she went to Turkey and worked in military hospitals, treating soldiers who were fighting in the Crimean War.",
-        "id": "#10134",
-        "category": "H"
-    },
-    {
         "Question": "In which year did Florence Nightingale establish the Nightingale Training School for nurses?",
         "RightAnswer": "1860",
         "WrongAnswers": [
@@ -8569,7 +8557,7 @@
     },
     {
         "Question": "Who attempted to reclaim the throne from George II in 1745?",
-        "RightAnswer": "Charles Edward Stuart (Bonnie Prince Charlie)",
+        "RightAnswer": "Bonnie Prince Charlie",
         "WrongAnswers": [
             "James II",
             "George I",
@@ -8577,6 +8565,18 @@
         ],
         "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I's son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland.",
         "id": "#10717",
+        "category": "H"
+    },
+    {
+        "Question": "Who attempted to reclaim the throne from George II in 1745?",
+        "RightAnswer": "Charles Edward Stuart",
+        "WrongAnswers": [
+            "James II",
+            "George I",
+            "William of Orange"
+        ],
+        "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I's son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland.",
+        "id": "#80717",
         "category": "H"
     },
     {
@@ -23784,18 +23784,6 @@
         "category": "F"
     },
     {
-        "Question": "Which show introduced a new type of progressive comedy in 1969?",
-        "RightAnswer": "Monty Python\u2019s Flying Circus",
-        "WrongAnswers": [
-            "The Goon Show",
-            "Blackadder",
-            "Absolutely Fabulous"
-        ],
-        "Explanation": "In 1969, Monty Python\u2019s Flying Circus introduced a new type of progressive comedy.",
-        "id": "#20390",
-        "category": "F"
-    },
-    {
         "Question": "Which satirical show was popular in the 1980s and 1990s?",
         "RightAnswer": "Spitting Image",
         "WrongAnswers": [
@@ -32184,18 +32172,6 @@
         "category": "H"
     },
     {
-        "Question": "What type of society is Britain described as in terms of individual rights?",
-        "RightAnswer": "A society with a long history of respecting rights",
-        "WrongAnswers": [
-            "A society that recently adopted human rights",
-            "A society that doesn't prioritize individual freedoms",
-            "A society with no historical basis for rights"
-        ],
-        "Explanation": "Britain has a long history of respecting an individual\u2019s rights and ensuring essential freedoms. These rights have their roots in Magna Carta (1215), the Habeas Corpus Act  (1679) and the Bill of Rights (1689), and they have developed over a period of time.",
-        "id": "#30223",
-        "category": "H"
-    },
-    {
         "Question": "In which year did the UK sign the European Convention on Human Rights?",
         "RightAnswer": "1950",
         "WrongAnswers": [
@@ -39122,10 +39098,10 @@
     },
     {
         "Question": "What was the main outcome of the Glorious Revolution?",
-        "RightAnswer": "It established a constitutional monarchy and guaranteed the power of Parliament",
+        "RightAnswer": "It established a constitutional monarchy",
         "WrongAnswers": [
-            "It led to the restoration of the monarchy after the Commonwealth",
-            "It resulted in the unification of England and Scotland",
+            "It led to the restoration of the monarchy",
+            "The unification of England and Scotland",
             "It abolished the House of Lords"
         ],
         "Explanation": "The Glorious Revolution of 1688 resulted in the overthrow of James II and the establishment of a constitutional monarchy, ensuring that the monarch could not rule without Parliament's consent.",
@@ -39178,18 +39154,6 @@
         ],
         "Explanation": "Isambard Kingdom Brunel was the engineer behind the Great Western Railway, one of the first major railway lines in Britain.",
         "id": "#40181",
-        "category": ""
-    },
-    {
-        "Question": "What was the main cause of the partition of Ireland in 1922?",
-        "RightAnswer": "The creation of the Irish Free State and the establishment of Northern Ireland",
-        "WrongAnswers": [
-            "The Easter Rising",
-            "The Battle of the Boyne",
-            "The Good Friday Agreement"
-        ],
-        "Explanation": "The partition of Ireland in 1922 resulted from the establishment of the Irish Free State for the majority Catholic population and the creation of Northern Ireland, predominantly Protestant, remaining part of the UK.",
-        "id": "#40182",
         "category": ""
     },
     {
@@ -39580,9 +39544,9 @@
         "Question": "Who was the British leader known for his role in the defeat of the Spanish Armada in 1588?",
         "RightAnswer": "Francis Drake",
         "WrongAnswers": [
-            "Sir Walter Raleigh",
-            "Sir John Hawkins",
-            "Sir Robert Walpole"
+            "Walter Raleigh",
+            "John Hawkins",
+            "Robert Walpole"
         ],
         "Explanation": "Francis Drake was a key commander in the defeat of the Spanish Armada, enhancing England's naval reputation.",
         "id": "#40224",
@@ -40370,7 +40334,7 @@
     },
     {
         "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
+        "RightAnswer": "To introduce free secondary education",
         "WrongAnswers": [
             "To establish the National Health Service",
             "To abolish tuition fees for university education",
@@ -44758,18 +44722,6 @@
         ],
         "Explanation": "James favoured Roman Catholics and allowed them to be army Officers, which an Act of Parliament had forbidden.",
         "id": "#40665",
-        "category": ""
-    },
-    {
-        "Question": "What effect did the birth of James II's son have on public perception?",
-        "RightAnswer": "It seemed likely that the next monarch would not be a Protestant after all",
-        "WrongAnswers": [
-            "It guaranteed a Protestant monarch would succeed",
-            "It had no effect on succession perceptions",
-            "It caused James II to abdicate"
-        ],
-        "Explanation": "Then, James\u2019s wife had a son. Suddenly, it seemed likely that the next monarch would not be a Protestant after all.",
-        "id": "#40666",
         "category": ""
     },
     {
@@ -49537,18 +49489,6 @@
         "category": ""
     },
     {
-        "Question": "What nationality was Sir Kingsley Amis?",
-        "RightAnswer": "English",
-        "WrongAnswers": [
-            "American",
-            "Irish",
-            "Scottish"
-        ],
-        "Explanation": "Sir Kingsley Amis was an English novelist and poet. He wrote more than 20 novels. The most well-known is Lucky Jim.",
-        "id": "#41065",
-        "category": ""
-    },
-    {
         "Question": "How many novels did Sir Kingsley Amis write?",
         "RightAnswer": "More than 20",
         "WrongAnswers": [
@@ -50834,7 +50774,7 @@
     },
     {
         "Question": "Who became the fastest person to sail around the world singlehanded in 2004?",
-        "RightAnswer": "Dame Ellen MacArthur",
+        "RightAnswer": "Ellen MacArthur",
         "WrongAnswers": [
             "Francis Joyon",
             "Robin Knox-Johnston",
