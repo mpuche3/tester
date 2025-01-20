@@ -76,35 +76,23 @@ const STATE = {
             "UK Female": "Google UK English Female",
     },
 
-    increase_score() {
-        const old_val = this.get_score()
-        const new_val = old_val * 10
+    increase_prob() {
         const key = this._questions[this._index]["Question"]
-        localStorage.setItem(key, new_val)
+        localStorage.setItem(key, 1)
     },
     
-    decrease_score() {
-        const old_val = this.get_score()
+    decrease_prob() {
+        const old_val = this.get_prob()
         const new_val = old_val / 10
         const key = this._questions[this._index]["Question"]
         localStorage.setItem(key, new_val)
     },
 
-    get_score() {
-        const min = 0.001
-        const max = 100.0
+    get_prob() {
         const key = this._questions[this._index]["Question"]
-        const str_val = localStorage.getItem(key)
-        const val = (str_val === undefined || str_val === null || str_val === 0) ? 0.1 : Number(str_val)
-        if (val < min) {
-            localStorage.setItem(key, min)
-            return min
-        } else if (val > max) {
-            localStorage.setItem(key, max)
-            return max
-        } else {
-            return val
-        }
+        const tmp = localStorage.getItem(key)
+        const num = (tmp === undefined || tmp === null || tmp === 0) ? 0.1 : Number(tmp)
+        return num
     },
 
     get_text_to_read(){
@@ -135,10 +123,10 @@ const STATE = {
                 this._index = 0;
             }
         }
-        const limit = Math.random()
-        const score = this.get_score()
-        if (limit < score) {
-            console.log(">>> " + this.get_score())
+        const prob_limit = Math.random()
+        const prob = this.get_prob()
+        if (prob_limit < prob) {
+            console.log(">>> " + this.get_prob())
             this.refresh_text()
             play()
             return
@@ -502,6 +490,7 @@ function clickOncorrectOption(){
     if (SCORE.isQuestionAnsweredCorrectly === false) {
         if (SCORE.isQuestionAnswered === false) {
             SCORE.num_correct += 1;
+            STATE.decrease_prob()
             SCORE.renderScore()
         }        
         SCORE.isQuestionAnswered = true;
@@ -515,6 +504,7 @@ function clickOnIncorrect_option(opt){
     if (SCORE.isQuestionAnsweredCorrectly === false){
         if (SCORE.isQuestionAnswered === false) {
             SCORE.num_incorrect += 1;
+            STATE.increase_prob()
             SCORE.renderScore();
         }
         SCORE.isQuestionAnswered = true;

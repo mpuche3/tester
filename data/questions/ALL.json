@@ -13849,10 +13849,10 @@
     },
     {
         "Question": "What impact did Shakespeare have on the English language?",
-        "RightAnswer": "He invented many words that are still common today",
+        "RightAnswer": "He invented many words",
         "WrongAnswers": [
             "He simplified grammar rules",
-            "He introduced foreign words",
+            "He introduced grammar rules",
             "He standardized spelling"
         ],
         "Explanation": "Shakespeare had a great influence on the English language and invented many words that are still common today.",
@@ -29676,7 +29676,7 @@
         "category": "H"
     },
     {
-        "Question": "What type of values does the pledge promise to uphold?",
+        "Question": "What type of values does the citizenship ceremony pledge promise to uphold?",
         "RightAnswer": "Democratic",
         "WrongAnswers": [
             "Monarchic",
@@ -29688,7 +29688,7 @@
         "category": "H"
     },
     {
-        "Question": "As what type of citizen does the pledge mention fulfilling duties and obligations?",
+        "Question": "As what type of citizen does the citizenship ceremony pledge mention fulfilling duties and obligations?",
         "RightAnswer": "British",
         "WrongAnswers": [
             "European",
@@ -38677,18 +38677,6 @@
         "category": ""
     },
     {
-        "Question": "Which British monarch was the last to rule the United Kingdom as part of a republic?",
-        "RightAnswer": "None, the UK has always been a monarchy",
-        "WrongAnswers": [
-            "Charles I",
-            "Oliver Cromwell",
-            "Charles II"
-        ],
-        "Explanation": "England declared itself a republic, called the Commonwealth, after the execution of Charles I. However, the monarchy was restored with Charles II.",
-        "id": "#40137",
-        "category": ""
-    },
-    {
         "Question": "Which British author created the character James Bond?",
         "RightAnswer": "Ian Fleming",
         "WrongAnswers": [
@@ -43534,18 +43522,6 @@
         ],
         "Explanation": "Battle of Bannockburn (1314): In this battle, the Scottish, led by Robert the Bruce, defeated the English, and Scotland remained unconquered by the English.",
         "id": "#40555",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is celebrated in the Scots language poem 'The Bruce'?",
-        "RightAnswer": "Battle of Bannockburn",
-        "WrongAnswers": [
-            "Battle of the Boyne",
-            "Battle of Culloden",
-            "Battle of Trafalgar"
-        ],
-        "Explanation": "Battle of Bannockburn (1314): This battle is also mentioned in connection to a poem written in the Scots language, called The Bruce.",
-        "id": "#40556",
         "category": ""
     },
     {
@@ -50122,18 +50098,6 @@
         ],
         "Explanation": "The annual British Academy Film Awards, hosted by the British Academy of Film and Television Arts (BAFTA), are the British equivalent of the Oscars.",
         "id": "#41107",
-        "category": ""
-    },
-    {
-        "Question": "Which organization hosts the annual British Academy Film Awards?",
-        "RightAnswer": "British Academy of Film and Television Arts (BAFTA)",
-        "WrongAnswers": [
-            "American Film Institute (AFI)",
-            "Screen Actors Guild (SAG)",
-            "Directors Guild of America (DGA)"
-        ],
-        "Explanation": "The annual British Academy Film Awards, hosted by the British Academy of Film and Television Arts (BAFTA), are the British equivalent of the Oscars.",
-        "id": "#41108",
         "category": ""
     },
     {
