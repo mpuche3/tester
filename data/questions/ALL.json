@@ -33840,18 +33840,6 @@
         "category": "H"
     },
     {
-        "Question": "What can make a person ineligible for jury service?",
-        "RightAnswer": "Having a criminal conviction",
-        "WrongAnswers": [
-            "Being under 21",
-            "Not being a citizen",
-            "Being unemployed"
-        ],
-        "Explanation": "A jury is made up of members of the public chosen at random from the local electoral register. In England, Wales and Northern Ireland a jury has 12 members, and in Scotland a jury has 15 members. Everyone who is summoned to do jury service must do it unless they are not eligible (for example, because they have a criminal conviction) or they provide a good reason to be excused, such as ill health.",
-        "id": "#30364",
-        "category": "H"
-    },
-    {
         "Question": "What are the possible verdicts a jury can decide in Scotland?",
         "RightAnswer": "Guilty, not guilty, or not proven",
         "WrongAnswers": [
@@ -35265,18 +35253,6 @@
         ],
         "Explanation": "Most people get information about political issues and events from newspapers (often called \u2018the press\u2019), television, radio and the internet. The UK has a free press. This means that what is written in newspapers is free from government control. Some newspaper owners and editors hold strong political opinions and run campaigns to try to influence government policy and public opinion.",
         "id": "#30483",
-        "category": "H"
-    },
-    {
-        "Question": "What law governs the coverage of political parties on radio and television in the UK?",
-        "RightAnswer": "Equal time must be given to rival viewpoints",
-        "WrongAnswers": [
-            "Only the ruling party can be featured",
-            "Coverage is determined by party size",
-            "Broadcasters can choose which parties to cover"
-        ],
-        "Explanation": "Most people get information about political issues and events from newspapers (often called \u2018the press\u2019), television, radio and the internet. The UK has a free press. This means that what is written in newspapers is free from government control. Some newspaper owners and editors hold strong political opinions and run campaigns to try to influence government policy and public opinion.",
-        "id": "#30484",
         "category": "H"
     },
     {
@@ -37406,7 +37382,7 @@
     },
     {
         "Question": "What was the main focus of Harold Macmillan's \u2018wind of change\u2019 speech?",
-        "RightAnswer": "Decolonisation and independence for the countries of the Empire",
+        "RightAnswer": "Decolonisation",
         "WrongAnswers": [
             "Economic recovery",
             "Nationalisation of industries",
@@ -40226,7 +40202,7 @@
     },
     {
         "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
+        "RightAnswer": "To introduce free secondary education",
         "WrongAnswers": [
             "To establish the National Health Service",
             "To abolish tuition fees for university education",
@@ -40789,18 +40765,6 @@
         "category": ""
     },
     {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40325",
-        "category": ""
-    },
-    {
         "Question": "Who was the first monarch of the House of Tudor?",
         "RightAnswer": "Henry VII",
         "WrongAnswers": [
@@ -41158,18 +41122,6 @@
         ],
         "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
         "id": "#40356",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40357",
         "category": ""
     },
     {
@@ -42410,7 +42362,7 @@
     },
     {
         "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
+        "RightAnswer": "To establish a republic",
         "WrongAnswers": [
             "To unify England and Scotland",
             "To expand the British Empire",
@@ -42658,18 +42610,6 @@
         ],
         "Explanation": "Battle of Bosworth Field (1485): This battle ended the Wars of the Roses, a civil war fought between the House of Lancaster and the House of York. King Richard III of the House of York was killed in the battle and Henry Tudor, the leader of the House of Lancaster, became King Henry VII.",
         "id": "#40483",
-        "category": ""
-    },
-    {
-        "Question": "In which battle of the English Civil War was the king\u2019s army defeated by the parliamentary army?",
-        "RightAnswer": "Battle of Marston Moor",
-        "WrongAnswers": [
-            "Battle of Naseby",
-            "Battle of Trafalgar",
-            "Battle of Agincourt"
-        ],
-        "Explanation": "Battles of Marston Moor and Naseby: In the English Civil War, the king\u2019s army was defeated at these battles by the parliamentary army.",
-        "id": "#40484",
         "category": ""
     },
     {
@@ -43414,18 +43354,6 @@
         ],
         "Explanation": "Battle of the Boyne (1690): William III defeated James II at the Battle of the Boyne in Ireland.",
         "id": "#40546",
-        "category": ""
-    },
-    {
-        "Question": "Which battle was an armed rebellion in support of James II?",
-        "RightAnswer": "Battle of Killiecrankie",
-        "WrongAnswers": [
-            "Battle of Trafalgar",
-            "Battle of Marston Moor",
-            "Battle of the Boyne"
-        ],
-        "Explanation": "Battle of Killiecrankie: An armed rebellion in support of James II in Scotland was quickly defeated at Killiecrankie.",
-        "id": "#40547",
         "category": ""
     },
     {
@@ -50882,7 +50810,7 @@
     },
     {
         "Question": "Who won the London Marathon six times and broke a total of 30 world records?",
-        "RightAnswer": "Baroness Tanni-Grey Thompson",
+        "RightAnswer": "Tanni-Grey Thompson",
         "WrongAnswers": [
             "Francis Joyon",
             "Robin Knox-Johnston",
