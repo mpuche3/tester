@@ -4944,12 +4944,12 @@
         "category": "H"
     },
     {
-        "Question": "In which year was another Reform Act passed that created more urban seats in Parliament?",
+        "Question": "In which year did a Reform Act create more urban seats in Parliament?",
         "RightAnswer": "1867",
         "WrongAnswers": [
-            "1877",
-            "1870",
-            "1882"
+            "1861",
+            "1863",
+            "1865"
         ],
         "Explanation": "At first they seemed to be unsuccessful, but in 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote.",
         "id": "#10413",
@@ -14241,18 +14241,6 @@
         ],
         "Explanation": "Civil war between the king and Parliament could not now be avoided and began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).",
         "id": "#11200",
-        "category": "H"
-    },
-    {
-        "Question": "In which battles was the king's army defeated?",
-        "RightAnswer": "Marston Moor and Naseby",
-        "WrongAnswers": [
-            "Dunbar and Worcester",
-            "Bosworth and Agincourt",
-            "Hastings and Stamford Bridge"
-        ],
-        "Explanation": "The king's army was defeated at the Battles of Marston Moor and Naseby.",
-        "id": "#11201",
         "category": "H"
     },
     {
@@ -25453,7 +25441,7 @@
     },
     {
         "Question": "What is EastEnders?",
-        "RightAnswer": "A regular soap opera in the UK",
+        "RightAnswer": "A regular soap opera",
         "WrongAnswers": [
             "A British cooking show",
             "A UK talent competition",
@@ -32172,18 +32160,6 @@
         "category": "H"
     },
     {
-        "Question": "What is the name of the general advisory service that can provide information on discrimination issues in the UK?",
-        "RightAnswer": "Citizens Advice Bureau",
-        "WrongAnswers": [
-            "Equality and Human Rights Commission",
-            "Scottish Human Rights Commission",
-            "Equality Commission for Northern Ireland"
-        ],
-        "Explanation": "UK laws ensure that people are not treated unfairly in any area of life or work because of their age, disability, sex, pregnancy and maternity, race, religion or belief, sexuality or marital status. If you face problems with discrimination, you can get more information from the Citizens Advice Bureau or from one of the following organisations: Equality and Human Rights Commission (for England and Wales), Equality and Human Rights Commission in Scotland and Scottish Human Rights Commission (for Scotland), Equality Commission for Northern Ireland and Northern Ireland Human Rights Commission (Northern Ireland).",
-        "id": "#30230",
-        "category": "H"
-    },
-    {
         "Question": "Which organization handles human rights issues in Scotland?",
         "RightAnswer": "Scottish Human Rights Commission",
         "WrongAnswers": [
@@ -35869,11 +35845,11 @@
     },
     {
         "Question": "What are the main aims of the United Nations?",
-        "RightAnswer": "To prevent war and promote international peace and security",
+        "RightAnswer": "To promote international peace and security",
         "WrongAnswers": [
-            "To prevent war and regulate global trade",
-            "To prevent war and establish a world government",
-            "To prevent war and promote cultural exchange"
+            "To regulate global trade",
+            "To establish a world government",
+            "To promote cultural exchange"
         ],
         "Explanation": "The UK is part of the United Nations (UN), an international organisation with more than 190 countries as members. The UN was set up after the Second World War and aims to prevent war and promote international peace and security. There are 15 members on the UN Security Council, which recommends action when there are international crises and threats to peace. The UK is one of five permanent members of the Security Council.",
         "id": "#30548",
@@ -36349,7 +36325,7 @@
     },
     {
         "Question": "What is the primary motivation for people to become school governors?",
-        "RightAnswer": "To make a positive contribution to children's education",
+        "RightAnswer": "To make a positive contribution",
         "WrongAnswers": [
             "To gain political influence",
             "To increase their social status",
@@ -36477,18 +36453,6 @@
         ],
         "Explanation": "You can volunteer with the police, and become a special constable or a lay (non-police) representative. You can also apply to become a magistrate. You will often find advertisements for vacancies in your local newspaper or on local radio.",
         "id": "#90599",
-        "category": "H"
-    },
-    {
-        "Question": "Which volunteer position in the justice system can you apply for?",
-        "RightAnswer": "Magistrate",
-        "WrongAnswers": [
-            "Jury member",
-            "Court clerk",
-            "Bailiff"
-        ],
-        "Explanation": "You can volunteer with the police, and become a special constable or a lay (non-police) representative. You can also apply to become a magistrate. You will often find advertisements for vacancies in your local newspaper or on local radio.",
-        "id": "#30600",
         "category": "H"
     },
     {
@@ -40705,18 +40669,6 @@
         "category": ""
     },
     {
-        "Question": "Which battle in 1746 was the last pitched battle fought on British soil?",
-        "RightAnswer": "Battle of Culloden",
-        "WrongAnswers": [
-            "Battle of Naseby",
-            "Battle of Trafalgar",
-            "Battle of the Boyne"
-        ],
-        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II\u2019s army at the Battle of Culloden.",
-        "id": "#40567",
-        "category": ""
-    },
-    {
         "Question": "Which battle prevented the German Luftwaffe from achieving air superiority over Britain?",
         "RightAnswer": "The Battle of Britain",
         "WrongAnswers": [
@@ -42961,12 +42913,12 @@
         "category": ""
     },
     {
-        "Question": "In which year did another Act of Parliament further secure the rights of wives to their own earnings and property?",
+        "Question": "In which year did another Act of Parliament further secure the rights of wives to their own earnings and property (after 1870)?",
         "RightAnswer": "1882",
         "WrongAnswers": [
-            "1870",
-            "1865",
-            "1890"
+            "1880",
+            "1881",
+            "1883"
         ],
         "Explanation": "Until 1870, when a woman got married, her earnings, property and money automatically belonged to her husband. Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property.",
         "id": "#40759",
@@ -46633,66 +46585,6 @@
         "category": ""
     },
     {
-        "Question": "Which novel by Graham Greene is influenced by his religious beliefs?",
-        "RightAnswer": "The Heart of the Matter",
-        "WrongAnswers": [
-            "1984",
-            "Brave New World",
-            "Animal Farm"
-        ],
-        "Explanation": "Graham Greene wrote novels often influenced by his religious beliefs, including The Heart of the Matter, The Honorary Consul, Brighton Rock and Our Man in Havana.",
-        "id": "#41069",
-        "category": ""
-    },
-    {
-        "Question": "Which of the following is a novel written by Graham Greene?",
-        "RightAnswer": "The Honorary Consul",
-        "WrongAnswers": [
-            "To Kill a Mockingbird",
-            "The Great Gatsby",
-            "Pride and Prejudice"
-        ],
-        "Explanation": "Graham Greene wrote novels often influenced by his religious beliefs, including The Heart of the Matter, The Honorary Consul, Brighton Rock and Our Man in Havana.",
-        "id": "#41070",
-        "category": ""
-    },
-    {
-        "Question": "Which Graham Greene novel is set in Havana?",
-        "RightAnswer": "Our Man in Havana",
-        "WrongAnswers": [
-            "The Quiet American",
-            "The Power and the Glory",
-            "The End of the Affair"
-        ],
-        "Explanation": "Graham Greene wrote novels often influenced by his religious beliefs, including The Heart of the Matter, The Honorary Consul, Brighton Rock and Our Man in Havana.",
-        "id": "#41071",
-        "category": ""
-    },
-    {
-        "Question": "Who wrote the Harry Potter series of children's books?",
-        "RightAnswer": "J K Rowling",
-        "WrongAnswers": [
-            "Stephen King",
-            "George R R Martin",
-            "Suzanne Collins"
-        ],
-        "Explanation": "J K Rowling wrote the Harry Potter series of children\u2019s books, which have enjoyed huge international success. She now writes fiction for adults as well.",
-        "id": "#41072",
-        "category": ""
-    },
-    {
-        "Question": "What type of books did J K Rowling write after the Harry Potter series?",
-        "RightAnswer": "Fiction for adults",
-        "WrongAnswers": [
-            "Science fiction",
-            "Non-fiction",
-            "Poetry"
-        ],
-        "Explanation": "J K Rowling wrote the Harry Potter series of children\u2019s books, which have enjoyed huge international success. She now writes fiction for adults as well.",
-        "id": "#41073",
-        "category": ""
-    },
-    {
         "Question": "What type of creatures does Beowulf battle in the poem?",
         "RightAnswer": "Monsters",
         "WrongAnswers": [
@@ -46726,18 +46618,6 @@
         ],
         "Explanation": "Poems which survive from the Middle Ages include Chaucer\u2019s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur.",
         "id": "#41076",
-        "category": ""
-    },
-    {
-        "Question": "What type of literary work, besides plays, did Shakespeare write?",
-        "RightAnswer": "Sonnets",
-        "WrongAnswers": [
-            "Novels",
-            "Short stories",
-            "Essays"
-        ],
-        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems.",
-        "id": "#41078",
         "category": ""
     },
     {
@@ -47026,30 +46906,6 @@
         ],
         "Explanation": "Recent British actors to have won Oscars include Colin Firth, Sir Anthony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton.",
         "id": "#41104",
-        "category": ""
-    },
-    {
-        "Question": "Which British actress known for her role in 'The Reader' has won an Oscar?",
-        "RightAnswer": "Kate Winslet",
-        "WrongAnswers": [
-            "Tilda Swinton",
-            "Dame Judi Dench",
-            "Emily Blunt"
-        ],
-        "Explanation": "Recent British actors to have won Oscars include Colin Firth, Sir Anthony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton.",
-        "id": "#41105",
-        "category": ""
-    },
-    {
-        "Question": "Which British actress known for her role in 'Michael Clayton' has won an Oscar?",
-        "RightAnswer": "Tilda Swinton",
-        "WrongAnswers": [
-            "Kate Winslet",
-            "Dame Judi Dench",
-            "Helen Mirren"
-        ],
-        "Explanation": "Recent British actors to have won Oscars include Colin Firth, Sir Anthony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton.",
-        "id": "#41106",
         "category": ""
     },
     {
