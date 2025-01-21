@@ -11148,18 +11148,6 @@
         "category": "H"
     },
     {
-        "Question": "When did Rishi Sunak call for a general election?",
-        "RightAnswer": "July 4, 2024",
-        "WrongAnswers": [
-            "June 1, 2024",
-            "August 15, 2024",
-            "May 5, 2024"
-        ],
-        "Explanation": "Despite reshuffling his cabinet and local election losses, Rishi Sunak has called for a general election on July 4, 2024.",
-        "id": "#10940",
-        "category": "H"
-    },
-    {
         "Question": "Which significant event occurred in 2016 during the Conservative Government's tenure?",
         "RightAnswer": "EU membership referendum (Brexit)",
         "WrongAnswers": [
@@ -12093,18 +12081,6 @@
         ],
         "Explanation": "The Norman Conquest was the last successful foreign invasion of England and led to many changes in government and social structures in England.",
         "id": "#11018",
-        "category": "H"
-    },
-    {
-        "Question": "How did the Norman Conquest influence the English language?",
-        "RightAnswer": "Norman French influenced the development of the English language",
-        "WrongAnswers": [
-            "It completely replaced the English language",
-            "It had no effect on the English language",
-            "It introduced Latin as the primary language"
-        ],
-        "Explanation": "Norman French, the language of the new ruling class, influenced the development of the English language as we know it today.",
-        "id": "#11019",
         "category": "H"
     },
     {
@@ -15159,9 +15135,9 @@
         "Question": "In which year did Charles Edward Stuart attempt to reclaim the throne for the Stuarts?",
         "RightAnswer": "1745",
         "WrongAnswers": [
-            "1746",
-            "1740",
-            "1750"
+            "1445",
+            "1545",
+            "1645"
         ],
         "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I's son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland.",
         "id": "#11275",
@@ -18409,14 +18385,26 @@
     },
     {
         "Question": "What new rights did Parliament grant to women in the workplace during the 1960s?",
-        "RightAnswer": "The right to equal pay and protection against gender discrimination",
+        "RightAnswer": "The right to equal pay",
         "WrongAnswers": [
-            "The right to paid maternity leave",
+            "The right to sick",
             "The right to flexible working hours",
             "The right to unionize"
         ],
         "Explanation": "In the 1960's, it was quite common at the time for employers to ask women to leave their jobs when they got married. Parliament passed new laws giving women the right to equal pay and made it illegal for employers to discriminate against women because of their gender.",
         "id": "#11548",
+        "category": "H"
+    },
+    {
+        "Question": "What new rights did Parliament grant to women in the workplace during the 1960s?",
+        "RightAnswer": "Protection against gender discrimination",
+        "WrongAnswers": [
+            "The right to sick pay",
+            "The right to flexible working hours",
+            "The right to unionize"
+        ],
+        "Explanation": "In the 1960's, it was quite common at the time for employers to ask women to leave their jobs when they got married. Parliament passed new laws giving women the right to equal pay and made it illegal for employers to discriminate against women because of their gender.",
+        "id": "#81548",
         "category": "H"
     },
     {
@@ -25945,7 +25933,7 @@
     },
     {
         "Question": "What is the FIFA World Cup?",
-        "RightAnswer": "An international football tournament where national teams compete",
+        "RightAnswer": "An international football tournament",
         "WrongAnswers": [
             "A global music competition",
             "An international film festival",
@@ -29736,18 +29724,6 @@
         "category": "H"
     },
     {
-        "Question": "What is one of the freedoms offered by the UK?",
-        "RightAnswer": "Freedom of belief",
-        "WrongAnswers": [
-            "Freedom of assembly",
-            "Freedom of the press",
-            "Freedom of movement"
-        ],
-        "Explanation": "In return, the UK offers: Freedom of belief and religion. Freedom of speech. Freedom from unfair discrimination. A right to a fair trial. A right to join in the election of a government.",
-        "id": "#30020",
-        "category": "H"
-    },
-    {
         "Question": "Which right related to legal proceedings does the UK offer?",
         "RightAnswer": "A right to a fair trial",
         "WrongAnswers": [
@@ -29757,18 +29733,6 @@
         ],
         "Explanation": "In return, the UK offers: Freedom of belief and religion. Freedom of speech. Freedom from unfair discrimination. A right to a fair trial. A right to join in the election of a government.",
         "id": "#30021",
-        "category": "H"
-    },
-    {
-        "Question": "What democratic right does the UK offer its citizens?",
-        "RightAnswer": "A right to join in the election of a government",
-        "WrongAnswers": [
-            "A right to form political parties",
-            "A right to recall elected officials",
-            "A right to propose new laws"
-        ],
-        "Explanation": "In return, the UK offers: Freedom of belief and religion. Freedom of speech. Freedom from unfair discrimination. A right to a fair trial. A right to join in the election of a government.",
-        "id": "#30022",
         "category": "H"
     },
     {
@@ -30744,18 +30708,6 @@
         "category": "H"
     },
     {
-        "Question": "How has the employment pattern for women with children changed?",
-        "RightAnswer": "Women often continue to work after having children",
-        "WrongAnswers": [
-            "Women always quit work after having children",
-            "Women are required to stop working after having children",
-            "Women rarely work after having children"
-        ],
-        "Explanation": "Alongside this, men now work in more varied jobs than they did in the past. It is no longer expected that women should stay at home and not work. Women often continue to work after having children. In many families today, both partners work and both share responsibility for childcare and household chores.",
-        "id": "#30104",
-        "category": "H"
-    },
-    {
         "Question": "How are household responsibilities typically shared in modern families?",
         "RightAnswer": "Both partners share responsibility for childcare and household chores",
         "WrongAnswers": [
@@ -31716,18 +31668,6 @@
         "category": "H"
     },
     {
-        "Question": "How are members of the House of Lords selected?",
-        "RightAnswer": "They are not elected",
-        "WrongAnswers": [
-            "They are elected by the people",
-            "They are chosen by the Prime Minister",
-            "They are selected by Parliament"
-        ],
-        "Explanation": "Members of the House of Lords, known as peers, are not elected by the people and do not represent a constituency. The role and membership of the House of Lords has changed over the last 50 years. Until 1958, all peers were \u2018hereditary\u2019, which means they inherited their title, or senior judges, or bishops of the Church of England.",
-        "id": "#30186",
-        "category": "H"
-    },
-    {
         "Question": "What are peers nominated by the Prime Minister for their lifetime called?",
         "RightAnswer": "Life peers",
         "WrongAnswers": [
@@ -32397,18 +32337,6 @@
         ],
         "Explanation": "Forced Marriage Protection Orders were introduced in 2008 for England, Wales and Northern Ireland under the Forced Marriage (Civil Protection) Act 2007. Court orders can be obtained to protect a person from being forced into a marriage, or to protect a person in a forced marriage. Similar Protection Orders were introduced in Scotland in November 2011. A potential victim, or someone acting for them, can apply for an order. Anyone found to have breached an order can be jailed for up to two years for contempt of court.",
         "id": "#30243",
-        "category": "H"
-    },
-    {
-        "Question": "When were similar Protection Orders introduced in Scotland?",
-        "RightAnswer": "November 2011",
-        "WrongAnswers": [
-            "January 2008",
-            "December 2007",
-            "March 2009"
-        ],
-        "Explanation": "Forced Marriage Protection Orders were introduced in 2008 for England, Wales and Northern Ireland under the Forced Marriage (Civil Protection) Act 2007. Court orders can be obtained to protect a person from being forced into a marriage, or to protect a person in a forced marriage. Similar Protection Orders were introduced in Scotland in November 2011. A potential victim, or someone acting for them, can apply for an order. Anyone found to have breached an order can be jailed for up to two years for contempt of court.",
-        "id": "#30244",
         "category": "H"
     },
     {
@@ -37693,18 +37621,6 @@
         "category": ""
     },
     {
-        "Question": "Which British monarch had the longest reign as of 2013?",
-        "RightAnswer": "Queen Victoria",
-        "WrongAnswers": [
-            "Queen Elizabeth II",
-            "King George III",
-            "King Henry VIII"
-        ],
-        "Explanation": "She reigned until 1901, almost 64 years. At the date of writing (2013) this is the longest reign of any British monarch.",
-        "id": "#40068",
-        "category": ""
-    },
-    {
         "Question": "Which invention is attributed to James Goodfellow in the 1960s?",
         "RightAnswer": "The cash-dispensing ATM",
         "WrongAnswers": [
@@ -41602,18 +41518,6 @@
         ],
         "Explanation": "She reigned until 1901, almost 64 years.",
         "id": "#40634",
-        "category": ""
-    },
-    {
-        "Question": "As of 2013, Queen Victoria's reign was the longest of any British monarch. How many years did she reign?",
-        "RightAnswer": "64 years",
-        "WrongAnswers": [
-            "50 years",
-            "55 years",
-            "60 years"
-        ],
-        "Explanation": "She reigned until 1901, almost 64 years.",
-        "id": "#40635",
         "category": ""
     },
     {
@@ -46237,18 +46141,6 @@
         "category": ""
     },
     {
-        "Question": "Which modern British architect is known as Sir Norman?",
-        "RightAnswer": "Norman Foster",
-        "WrongAnswers": [
-            "Lord Richard Rogers",
-            "Dame Zaha Hadid",
-            "David Adjaye"
-        ],
-        "Explanation": "Modern British architects including Sir Norman Foster, Lord (Richard) Rogers and Dame Zaha Hadid continue to work on major projects throughout the world as well as within the UK.",
-        "id": "#41025",
-        "category": ""
-    },
-    {
         "Question": "What was Lancelot Brown's nickname?",
         "RightAnswer": "'Capability'",
         "WrongAnswers": [
@@ -46426,18 +46318,6 @@
         ],
         "Explanation": "Agatha Christie\u2019s detective stories are read all over the world and Ian Fleming\u2019s books introduced James Bond.",
         "id": "#41040",
-        "category": ""
-    },
-    {
-        "Question": "In which year was The Lord of the Rings voted the country's best-loved novel?",
-        "RightAnswer": "2003",
-        "WrongAnswers": [
-            "2001",
-            "2005",
-            "1999"
-        ],
-        "Explanation": "In 2003, The Lord of the Rings by JRR Tolkien was voted the country\u2019s best-loved novel.",
-        "id": "#41041",
         "category": ""
     },
     {
