@@ -11860,7 +11860,7 @@
         "RightAnswer": "St Augustine",
         "WrongAnswers": [
             "St Columba",
-            "St Augustine",
+            "St Patrick",
             "St Gregory"
         ],
         "Explanation": "St Augustine led missionaries from Rome, who spread Christianity in the south. St Augustine became the first Archbishop of Canterbury.",
@@ -13189,7 +13189,7 @@
     },
     {
         "Question": "How did Henry VII manage the monarchy's finances?",
-        "RightAnswer": "He was thrifty and built up the monarchy's financial reserves",
+        "RightAnswer": "He was thrifty",
         "WrongAnswers": [
             "He spent lavishly on wars and palaces",
             "He borrowed heavily from foreign banks",
@@ -13536,7 +13536,7 @@
         "category": "H"
     },
     {
-        "Question": "What was Mary's religious inclination? Note: Mary succeeded Edward VI as monarch",
+        "Question": "What was Mary's religious inclination? (Note: Mary succeeded Edward VI as monarch)",
         "RightAnswer": "A devout Catholic",
         "WrongAnswers": [
             "A strong Protestant",
@@ -13777,7 +13777,7 @@
     },
     {
         "Question": "Why did Mary Stuart flee to England?",
-        "RightAnswer": "She was suspected of her husband's murder.",
+        "RightAnswer": "She was suspected of her husband's murder",
         "WrongAnswers": [
             "She was invited by Elizabeth I",
             "She wanted to claim the English throne",
@@ -16765,7 +16765,7 @@
     },
     {
         "Question": "What made the Crimean War unique in terms of media coverage?",
-        "RightAnswer": "It was the first war to be extensively covered by the media through news stories and photographs",
+        "RightAnswer": "It was the first war to be extensively covered",
         "WrongAnswers": [
             "It was the first war to be televised",
             "It was the first war to have radio broadcasts",
@@ -17233,10 +17233,10 @@
     },
     {
         "Question": "What did supporters of expansion believe about the Empire's effect on Britain?",
-        "RightAnswer": "It benefited Britain through increased trade and commerce",
+        "RightAnswer": "It increased trade and commerce",
         "WrongAnswers": [
-            "It improved Britain's military strength",
-            "It enhanced Britain's cultural influence",
+            "It improved military strength",
+            "It enhanced cultural influence",
             "It provided new territories for British settlement"
         ],
         "Explanation": "Supporters of expansion believed that the Empire benefited Britain through increased trade and commerce.",
@@ -18121,7 +18121,7 @@
     },
     {
         "Question": "What did the National Health Service (NHS) guarantee?",
-        "RightAnswer": "A minimum standard of health care for all, free at the point of use",
+        "RightAnswer": "Free health care",
         "WrongAnswers": [
             "Free education for all children",
             "Universal basic income",
@@ -22128,8 +22128,8 @@
         "category": "F"
     },
     {
-        "Question": "Which venue in London hosts music events throughout the year?",
-        "RightAnswer": "The O2 in Greenwich",
+        "Question": "Which venue is in Greenwich, London?",
+        "RightAnswer": "The O2",
         "WrongAnswers": [
             "Wembley Stadium",
             "Royal Albert Hall",
@@ -25969,7 +25969,7 @@
     },
     {
         "Question": "What is The Royal Ascot?",
-        "RightAnswer": "A five-day race meeting in Berkshire attended by members of the Royal Family",
+        "RightAnswer": "A horse-racing event in Berkshire",
         "WrongAnswers": [
             "A famous horse-racing museum in Suffolk",
             "A type of horse breed",
@@ -26509,7 +26509,7 @@
     },
     {
         "Question": "What is Gaelic in the context of Scotland?",
-        "RightAnswer": "A language spoken in some parts of the Highlands and Islands",
+        "RightAnswer": "A language spoken in the Highlands and Islands",
         "WrongAnswers": [
             "A dialect of English spoken throughout Scotland",
             "A traditional Scottish dish",
@@ -29004,18 +29004,6 @@
         "category": "F"
     },
     {
-        "Question": "Which city is NOT listed as a major city in England?",
-        "RightAnswer": "Cardiff",
-        "WrongAnswers": [
-            "Liverpool",
-            "Manchester",
-            "Bristol"
-        ],
-        "Explanation": "England (London, Birmingham, Liverpool, Leeds, Sheffield, Bristol, Manchester, Bradford, Newcastle Upon Tyne, Plymouth, Southampton, Norwich). Wales (Cardiff, Swansea, Newport).",
-        "id": "#20828",
-        "category": "F"
-    },
-    {
         "Question": "Which city is the capital of Northern Ireland?",
         "RightAnswer": "Belfast",
         "WrongAnswers": [
@@ -30557,7 +30545,7 @@
         "WrongAnswers": [
             "1901",
             "2001",
-            "1951"
+            "1851"
         ],
         "Explanation": "Year Population: 1600 (Just over 4 million), 1700 (5 million), 1801 (8 million), 1851 (20 million), 1901 (40 million), 1951 (50 million), 1998 (57 million), 2005 (Just under 60 million), 2010 (Just over 62 million), 2022 (Estimated 67.6 million).",
         "id": "#30087",
@@ -33144,18 +33132,6 @@
         "category": "H"
     },
     {
-        "Question": "In what situation can someone under 18 legally consume alcohol in the UK?",
-        "RightAnswer": "With a meal in a hotel or restaurant if they are 16 or over",
-        "WrongAnswers": [
-            "At home with parental supervision",
-            "At a private party",
-            "In a pub if accompanied by an adult"
-        ],
-        "Explanation": "Buying alcohol (it is a criminal offence to sell alcohol to anyone who is under 18 or to buy alcohol for people who are under the age of 18. There is one exception: people aged 16 or over can drink alcohol with a meal in a hotel or restaurant).",
-        "id": "#30309",
-        "category": "H"
-    },
-    {
         "Question": "What is the minimum age for drinking alcohol with a meal in a UK hotel or restaurant?",
         "RightAnswer": "16",
         "WrongAnswers": [
@@ -33415,7 +33391,7 @@
             "Chief Constables",
             "Independent Police Complaints Commission"
         ],
-        "Explanation": "Police Officers are supported by police community support Officers (PSCOs). PSCOs have different roles according to the area but usually patrol the streets, work with the public, and support police Officers at crime scenes and major events.",
+        "Explanation": "Police Officers are supported by Police Community Cupport Officers (PSCOs). PSCOs have different roles according to the area but usually patrol the streets, work with the public, and support police Officers at crime scenes and major events.",
         "id": "#30331",
         "category": "H"
     },
@@ -33427,7 +33403,7 @@
             "Conducting investigations",
             "Managing police stations"
         ],
-        "Explanation": "Police Officers are supported by police community support Officers (PSCOs). PSCOs have different roles according to the area but usually patrol the streets, work with the public, and support police Officers at crime scenes and major events.",
+        "Explanation": "Police Officers are supported by Police Community Support Officers (PSCOs). PSCOs have different roles according to the area but usually patrol the streets, work with the public, and support police Officers at crime scenes and major events.",
         "id": "#30332",
         "category": "H"
     },
@@ -36156,7 +36132,7 @@
         "category": "H"
     },
     {
-        "Question": "What familial responsibility is listed for British citizens?",
+        "Question": "What is a responsibility of British citizens?",
         "RightAnswer": "To help and protect your family",
         "WrongAnswers": [
             "To have at least two children",
@@ -36180,7 +36156,7 @@
         "category": "H"
     },
     {
-        "Question": "What economic responsibility is listed for British citizens?",
+        "Question": "What is one responsibility of British citizens?",
         "RightAnswer": "To provide for yourself and your family",
         "WrongAnswers": [
             "To start a business",
@@ -36189,18 +36165,6 @@
         ],
         "Explanation": "These values and responsibilities include: to obey and respect the law; to be aware of the rights of others and respect those rights; to treat others with fairness; to behave responsibly; to help and protect your family; to respect and preserve the environment; to treat everyone equally, regardless of sex, race, religion, age, disability, class or sexual orientation; to work to provide for yourself and your family; to help others; and to vote in local and national government elections.",
         "id": "#30566",
-        "category": "H"
-    },
-    {
-        "Question": "What principle of equality is emphasized for British citizens?",
-        "RightAnswer": "To treat everyone equally, regardless of sex, race, religion, age, disability, class or sexual orientation",
-        "WrongAnswers": [
-            "To treat everyone equally, except for non-citizens",
-            "To prioritize British-born individuals",
-            "To favor those who speak English fluently"
-        ],
-        "Explanation": "These values and responsibilities include: to obey and respect the law; to be aware of the rights of others and respect those rights; to treat others with fairness; to behave responsibly; to help and protect your family; to respect and preserve the environment; to treat everyone equally, regardless of sex, race, religion, age, disability, class or sexual orientation; to work to provide for yourself and your family; to help others; and to vote in local and national government elections.",
-        "id": "#30567",
         "category": "H"
     },
     {
@@ -36397,7 +36361,7 @@
     },
     {
         "Question": "What is one benefit of joining a PTA besides helping the school?",
-        "RightAnswer": "Making new friends in your local community",
+        "RightAnswer": "Making new friends",
         "WrongAnswers": [
             "Earning extra income",
             "Receiving school discounts",
@@ -39346,18 +39310,6 @@
         ],
         "Explanation": "The Bayeux Tapestry is a famous embroidery that depicts the events leading up to the Battle of Hastings and the Norman Conquest of England.",
         "id": "#40242",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the decline of feudalism in southern Scotland?",
-        "RightAnswer": "Development of the clan system",
-        "WrongAnswers": [
-            "Invasion by the Vikings",
-            "Establishment of the Protestant Church",
-            "The Black Death"
-        ],
-        "Explanation": "In southern Scotland, the feudal system gradually declined and was replaced by the clan system, where land was owned and controlled by prominent families.",
-        "id": "#40243",
         "category": ""
     },
     {
@@ -44330,7 +44282,7 @@
     },
     {
         "Question": "In which year did Ireland become two countries under the Anglo-Irish treaty?",
-        "RightAnswer": "1921",
+        "RightAnswer": "1965",
         "WrongAnswers": [
             "1922",
             "1949",
