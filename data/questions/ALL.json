@@ -732,7 +732,7 @@
         "category": "H"
     },
     {
-        "Question": "Who was Henry VIII\u2019s first wife, a Spanish princess?",
+        "Question": "Who was Henry VIII\u2019s first wife?",
         "RightAnswer": "Catherine of Aragon",
         "WrongAnswers": [
             "Anne Boleyn",
@@ -4993,11 +4993,11 @@
     },
     {
         "Question": "What organization did Emmeline Pankhurst help found in 1903?",
-        "RightAnswer": "Women's Social and Political Union (WSPU)",
+        "RightAnswer": "WSPU",
         "WrongAnswers": [
-            "Women's Franchise League",
-            "Suffragette Movement",
-            "Women's Voting Rights Association"
+            "UN",
+            "NATO",
+            "EEC"
         ],
         "Explanation": "In 1903 she helped found the Women's Social and Political Union (WSPU). This was the first group whose members were called 'suffragettes'.",
         "id": "#10417",
@@ -8112,12 +8112,12 @@
         "category": "H"
     },
     {
-        "Question": "How long had Britain been a republic before people began talking about the need for a king again?",
+        "Question": "How long was Britain a republic?",
         "RightAnswer": "11 years",
         "WrongAnswers": [
-            "5 years",
-            "20 years",
-            "30 years"
+            "22 years",
+            "33 years",
+            "44 years"
         ],
         "Explanation": "Although Britain had been a republic for 11 years, without Oliver Cromwell there was no clear leader or system of government. Many people in the country wanted stability. People began to talk about the need for a king.",
         "id": "#10679",
@@ -8407,7 +8407,7 @@
             "Glasgow",
             "Aberdeen"
         ],
-        "Explanation": "An attempt at an armed rebellion in support of James was quickly defeated at Killiecrankie.",
+        "Explanation": "An attempt at an armed rebellion in support of James was quickly defeated at Killiecrankie. The Battle of Killiecrankie (1689)",
         "id": "#10704",
         "category": "H"
     },
@@ -9685,7 +9685,7 @@
     },
     {
         "Question": "What was Britain considered to be in the early 20th century?",
-        "RightAnswer": "A global 'superpower'",
+        "RightAnswer": "A global superpower",
         "WrongAnswers": [
             "An emerging economy",
             "A declining empire",
@@ -12961,7 +12961,7 @@
     },
     {
         "Question": "What became a very important export from England during the Middle Ages?",
-        "RightAnswer": "English wool",
+        "RightAnswer": "Wool",
         "WrongAnswers": [
             "Stained glass",
             "Castles",
@@ -17173,7 +17173,7 @@
     },
     {
         "Question": "What was one reason given for granting women over 30 the right to vote in 1918?",
-        "RightAnswer": "Recognition of women's contribution to the war effort",
+        "RightAnswer": "Women's contribution to the war effort",
         "WrongAnswers": [
             "Pressure from international community",
             "Economic benefits",
@@ -19728,7 +19728,7 @@
         "category": "F"
     },
     {
-        "Question": "Which building in the UK was designed to be the seat of government in India by Sir Edwin Lutyens?",
+        "Question": "Which city was designed to be the seat of government in India by Sir Edwin Lutyens?",
         "RightAnswer": "New Delhi",
         "WrongAnswers": [
             "Mumbai",
@@ -21151,7 +21151,7 @@
             "Isle of Wight Festival",
             "V Festival"
         ],
-        "Explanation": "He founded the Aldeburgh festival in Suffolk, which continues to be a popular music event of international importance.",
+        "Explanation": "Benjamin Britten founded the Aldeburgh festival in Suffolk, which continues to be a popular music event of international importance.",
         "id": "#20174",
         "category": "F"
     },
@@ -24481,7 +24481,7 @@
     },
     {
         "Question": "Who is Father Christmas?",
-        "RightAnswer": "A figure that bring presents the night before Christmas Day",
+        "RightAnswer": "A figure that bring presents",
         "WrongAnswers": [
             "A character from a famous Easter story",
             "A symbol of the Jewish festival Hannukah",
@@ -24985,7 +24985,7 @@
     },
     {
         "Question": "What is 'Women in Love'?",
-        "RightAnswer": "A British film directed by Ken Russell",
+        "RightAnswer": "A British film",
         "WrongAnswers": [
             "A British romance novel",
             "A British television drama",
@@ -26293,7 +26293,7 @@
     },
     {
         "Question": "What are the Ashes?",
-        "RightAnswer": "A series of Test matches played between England and Australia",
+        "RightAnswer": "A series of matches",
         "WrongAnswers": [
             "A famous English rock band",
             "A traditional English festival",
@@ -26413,7 +26413,7 @@
     },
     {
         "Question": "Who is Lewis Hamilton?",
-        "RightAnswer": "A British Grand Prix driver who won the Formula 1 World Championship",
+        "RightAnswer": "A British Grand Prix driver",
         "WrongAnswers": [
             "A famous British motorcycle racer",
             "A renowned British car manufacturer",
@@ -30025,7 +30025,7 @@
     },
     {
         "Question": "What type of powers do the devolved parliaments or assemblies have?",
-        "RightAnswer": "Defined",
+        "RightAnswer": "Devolved",
         "WrongAnswers": [
             "Unlimited",
             "Symbolic",
@@ -32613,18 +32613,6 @@
         ],
         "Explanation": "Anyone who does not pay enough National Insurance Contributions will not be able to receive certain contributory benefits such as Jobseeker\u2019s Allowance or a full state retirement pension. Some workers, such as part-time workers, may not qualify for statutory payments such as maternity pay if they do not earn enough.",
         "id": "#30260",
-        "category": "H"
-    },
-    {
-        "Question": "What is a National Insurance number?",
-        "RightAnswer": "A unique personal account number",
-        "WrongAnswers": [
-            "A social security number",
-            "A tax identification code",
-            "A health insurance policy number"
-        ],
-        "Explanation": "A National Insurance number is a unique personal account number. It makes sure that the National Insurance Contributions and tax you pay are properly recorded against your name. All young people in the UK are sent a National Insurance number just before their 16th birthday.",
-        "id": "#30261",
         "category": "H"
     },
     {
@@ -36121,7 +36109,7 @@
     },
     {
         "Question": "What do British citizens share despite the country's diversity?",
-        "RightAnswer": "A set of shared values and responsibilities",
+        "RightAnswer": "A set of shared values",
         "WrongAnswers": [
             "A single cultural background",
             "A uniform lifestyle",
@@ -36837,18 +36825,6 @@
         ],
         "Explanation": "It is important to recycle as much of your waste as you can. Using recycled materials to make new products uses less energy and means that we do not need to extract more raw materials from the earth. It also means that less rubbish is created, so the amount being put into landfill is reduced. A good way to support your local community is to shop for products locally where you can. This will help businesses and farmers in your area and in Britain. It will also reduce your carbon footprint, because the products you buy will not have had to travel as far. Walking and using public transport to get around when you can is also a good way to protect the environment. It means that you create less pollution than when you use a car.",
         "id": "#30619",
-        "category": "H"
-    },
-    {
-        "Question": "What is reduced when using recycled materials?",
-        "RightAnswer": "Landfill waste",
-        "WrongAnswers": [
-            "Product quality",
-            "Manufacturing speed",
-            "Consumer demand"
-        ],
-        "Explanation": "It is important to recycle as much of your waste as you can. Using recycled materials to make new products uses less energy and means that we do not need to extract more raw materials from the earth. It also means that less rubbish is created, so the amount being put into landfill is reduced. A good way to support your local community is to shop for products locally where you can. This will help businesses and farmers in your area and in Britain. It will also reduce your carbon footprint, because the products you buy will not have had to travel as far. Walking and using public transport to get around when you can is also a good way to protect the environment. It means that you create less pollution than when you use a car.",
-        "id": "#30620",
         "category": "H"
     },
     {
@@ -37748,7 +37724,7 @@
             "Brick Lane Curry House",
             "The Spice Route"
         ],
-        "Explanation": "In 1810 he opened the Hindoostane Coffee House in George Street, London. It was the first curry house to open in Britain.",
+        "Explanation": "In 1810 Sake Dean Mahomed opened the Hindoostane Coffee House in George Street, London. It was the first curry house to open in Britain.",
         "id": "#40067",
         "category": ""
     },
@@ -46585,12 +46561,12 @@
         "category": ""
     },
     {
-        "Question": "Which of the following is another novel written by Jane Austen?",
+        "Question": "Which of the following is a novel written by Jane Austen?",
         "RightAnswer": "Sense and Sensibility",
         "WrongAnswers": [
-            "Emma",
-            "Mansfield Park",
-            "Northanger Abbey"
+            "Frankenstein",
+            "Ivanhoe",
+            "The Monk"
         ],
         "Explanation": "Jane Austen was an English novelist. Her books include Pride and Prejudice and Sense and Sensibility. Her novels are concerned with marriage and family relationships. Many have been made into television programmes or films.",
         "id": "#41048",
@@ -47762,7 +47738,7 @@
     },
     {
         "Question": "For what occasion was the London Eye originally built?",
-        "RightAnswer": "The UK's celebration of the new millennium",
+        "RightAnswer": "The new millennium celebration",
         "WrongAnswers": [
             "The Queen's Diamond Jubilee",
             "The 2012 London Olympics",
