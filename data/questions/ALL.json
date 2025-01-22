@@ -2761,7 +2761,7 @@
     },
     {
         "Question": "Who owned the land in the north of Scotland and Ireland?",
-        "RightAnswer": "Members of the 'clans'",
+        "RightAnswer": "The clans",
         "WrongAnswers": [
             "The king",
             "Lords",
@@ -5196,7 +5196,7 @@
         "category": "H"
     },
     {
-        "Question": "How many Indian soldiers were killed fighting on behalf of Britain?",
+        "Question": "How many Indian soldiers were killed fighting on behalf of Britain (during WWII)?",
         "RightAnswer": "Around 40,000",
         "WrongAnswers": [
             "Around 100,000",
@@ -5325,18 +5325,6 @@
         ],
         "Explanation": "However, in 1929, the world entered the 'Great Depression' and some parts of the UK suffered mass unemployment.",
         "id": "#10443",
-        "category": "H"
-    },
-    {
-        "Question": "How many cars were owned in the UK by 1939?",
-        "RightAnswer": "2 million",
-        "WrongAnswers": [
-            "1 million",
-            "3 million",
-            "4 million"
-        ],
-        "Explanation": "Car ownership doubled from 1 million to 2 million between 1930 and 1939.",
-        "id": "#10444",
         "category": "H"
     },
     {
@@ -9231,9 +9219,9 @@
         "Question": "How many Russian and Polish Jews came to Britain between 1870 and 1914?",
         "RightAnswer": "Around 120,000",
         "WrongAnswers": [
-            "50,000",
-            "200,000",
-            "80,000"
+            "Around 70,000",
+            "Around 240,000",
+            "Around 46,000"
         ],
         "Explanation": "For example, between 1870 and 1914, around 120,000 Russian and Polish Jews came to Britain to escape persecution.",
         "id": "#10773",
@@ -9744,12 +9732,12 @@
         "category": "H"
     },
     {
-        "Question": "How many Indian soldiers were killed fighting on behalf of Britain?",
+        "Question": "How many Indian soldiers were killed fighting on behalf of Britain during the Second World War?",
         "RightAnswer": "Around 40,000",
         "WrongAnswers": [
-            "More than a million",
-            "About 60,000",
-            "2 million"
+            "Around one million",
+            "Around 60,000",
+            "Around two millions"
         ],
         "Explanation": "More than a million Indians fought on behalf of Britain in lots of different countries, and around 40,000 were killed.",
         "id": "#10819",
@@ -12265,7 +12253,7 @@
     },
     {
         "Question": "Why did the English first go to Ireland?",
-        "RightAnswer": "As troops to help the Irish king",
+        "RightAnswer": "To help the Irish king",
         "WrongAnswers": [
             "To conquer the country",
             "To establish trade routes",
@@ -13885,7 +13873,7 @@
     },
     {
         "Question": "What is the current status of Shakespeare's works?",
-        "RightAnswer": "They are still performed and studied in Britain and other countries",
+        "RightAnswer": "They are still performed and studied",
         "WrongAnswers": [
             "They are only studied in academic circles",
             "They are rarely performed outside of England",
@@ -14461,10 +14449,10 @@
     },
     {
         "Question": "Who designed the new St Paul's Cathedral after the Great Fire of London in 1666?",
-        "RightAnswer": "Sir Christopher Wren",
+        "RightAnswer": "Christopher Wren",
         "WrongAnswers": [
             "Samuel Pepys",
-            "Sir Edmund Halley",
+            "Edmund Halley",
             "Charles II"
         ],
         "Explanation": "London was rebuilt with a new St Paul's, which was designed by a famous architect, Sir Christopher Wren.",
@@ -14545,9 +14533,9 @@
     },
     {
         "Question": "Who was the early member of the Royal Society known for predicting the return of a comet?",
-        "RightAnswer": "Sir Edmund Halley",
+        "RightAnswer": "Edmund Halley",
         "WrongAnswers": [
-            "Sir Christopher Wren",
+            "Christopher Wren",
             "Samuel Pepys",
             "Charles II"
         ],
@@ -15097,7 +15085,7 @@
     },
     {
         "Question": "Who was the first man to be called Prime Minister?",
-        "RightAnswer": "Sir Robert Walpole",
+        "RightAnswer": "Robert Walpole",
         "WrongAnswers": [
             "William Pitt",
             "George I",
@@ -18145,7 +18133,7 @@
     },
     {
         "Question": "What was the main topic of Harold Macmillan's 'wind of change' speech?",
-        "RightAnswer": "Decolonisation and independence for the countries of the Empire",
+        "RightAnswer": "Decolonisation",
         "WrongAnswers": [
             "Economic recovery after the war",
             "The establishment of the NHS",
@@ -26389,7 +26377,7 @@
     },
     {
         "Question": "What is Rugby?",
-        "RightAnswer": "A sport that originated in England in the early 19th century",
+        "RightAnswer": "A sport that originated in England",
         "WrongAnswers": [
             "A traditional English dish",
             "A famous British landmark",
@@ -28137,18 +28125,6 @@
         ],
         "Explanation": "In the 19th century, satirical magazines began to be published. The most famous was Punch, which was published for the first time in the 1840s.",
         "id": "#20748",
-        "category": "F"
-    },
-    {
-        "Question": "Which form of entertainment was very common in the UK until television became popular?",
-        "RightAnswer": "Music hall",
-        "WrongAnswers": [
-            "Cinema",
-            "Radio",
-            "Opera"
-        ],
-        "Explanation": "Comedians were a popular feature of British music hall, a form of variety theatre which was very common until television became the leading form of entertainment in the UK.",
-        "id": "#20749",
         "category": "F"
     },
     {
@@ -30829,11 +30805,11 @@
     },
     {
         "Question": "How has the variety of jobs for men changed over time?",
-        "RightAnswer": "Men now work in more varied jobs than in the past",
+        "RightAnswer": "Men now work in a wider variety of jobs than in the past",
         "WrongAnswers": [
-            "Men's job options have become more limited",
-            "Men's jobs have not changed at all",
-            "Men are now restricted to traditionally male-dominated occupations"
+            "Men now work in fewer types of jobs than in the past",
+            "Men now work in the same types of jobs as in the past",
+            "Men now work only in traditionally male-dominated jobs"
         ],
         "Explanation": "Alongside this, men now work in more varied jobs than they did in the past. It is no longer expected that women should stay at home and not work. Women often continue to work after having children. In many families today, both partners work and both share responsibility for childcare and household chores.",
         "id": "#30106",
@@ -32700,18 +32676,6 @@
         "category": "H"
     },
     {
-        "Question": "What must be passed to obtain a UK driving licence?",
-        "RightAnswer": "A driving test",
-        "WrongAnswers": [
-            "A written exam",
-            "A medical examination",
-            "A background check"
-        ],
-        "Explanation": "In the UK, you must be at least 17 years old to drive a car or motor cycle and you must have a driving licence to drive on public roads. To get a UK driving licence you must pass a driving test, which tests both your knowledge and your practical skills. You need to be at least 16 years old to ride a moped, and there are other age requirements and special tests for driving large vehicles.",
-        "id": "#30270",
-        "category": "H"
-    },
-    {
         "Question": "What does the UK driving test assess?",
         "RightAnswer": "Knowledge and practical skills",
         "WrongAnswers": [
@@ -32917,7 +32881,7 @@
     },
     {
         "Question": "What are residents in Britain expected to understand about the legal system?",
-        "RightAnswer": "Some things allowed elsewhere may not be acceptable in the UK",
+        "RightAnswer": "Some things allowed elsewhere might be unacceptable in the UK",
         "WrongAnswers": [
             "It's identical to all other legal systems",
             "It's more lenient than other countries",
