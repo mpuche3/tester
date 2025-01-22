@@ -732,7 +732,7 @@
         "category": "H"
     },
     {
-        "Question": "Who was Henry VIII\u2019s first wife, a Spanish princess?",
+        "Question": "Who was Henry VIII\u2019s first wife?",
         "RightAnswer": "Catherine of Aragon",
         "WrongAnswers": [
             "Anne Boleyn",
@@ -4944,12 +4944,12 @@
         "category": "H"
     },
     {
-        "Question": "In which year was another Reform Act passed that created more urban seats in Parliament?",
+        "Question": "In which year did a Reform Act create more urban seats in Parliament?",
         "RightAnswer": "1867",
         "WrongAnswers": [
-            "1877",
-            "1870",
-            "1882"
+            "1861",
+            "1863",
+            "1865"
         ],
         "Explanation": "At first they seemed to be unsuccessful, but in 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote.",
         "id": "#10413",
@@ -4993,11 +4993,11 @@
     },
     {
         "Question": "What organization did Emmeline Pankhurst help found in 1903?",
-        "RightAnswer": "Women's Social and Political Union (WSPU)",
+        "RightAnswer": "WSPU",
         "WrongAnswers": [
-            "Women's Franchise League",
-            "Suffragette Movement",
-            "Women's Voting Rights Association"
+            "UN",
+            "NATO",
+            "EEC"
         ],
         "Explanation": "In 1903 she helped found the Women's Social and Political Union (WSPU). This was the first group whose members were called 'suffragettes'.",
         "id": "#10417",
@@ -8112,12 +8112,12 @@
         "category": "H"
     },
     {
-        "Question": "How long had Britain been a republic before people began talking about the need for a king again?",
+        "Question": "How long was Britain a republic?",
         "RightAnswer": "11 years",
         "WrongAnswers": [
-            "5 years",
-            "20 years",
-            "30 years"
+            "22 years",
+            "33 years",
+            "44 years"
         ],
         "Explanation": "Although Britain had been a republic for 11 years, without Oliver Cromwell there was no clear leader or system of government. Many people in the country wanted stability. People began to talk about the need for a king.",
         "id": "#10679",
@@ -8407,7 +8407,7 @@
             "Glasgow",
             "Aberdeen"
         ],
-        "Explanation": "An attempt at an armed rebellion in support of James was quickly defeated at Killiecrankie.",
+        "Explanation": "An attempt at an armed rebellion in support of James was quickly defeated at Killiecrankie. The Battle of Killiecrankie (1689)",
         "id": "#10704",
         "category": "H"
     },
@@ -9685,7 +9685,7 @@
     },
     {
         "Question": "What was Britain considered to be in the early 20th century?",
-        "RightAnswer": "A global 'superpower'",
+        "RightAnswer": "A global superpower",
         "WrongAnswers": [
             "An emerging economy",
             "A declining empire",
@@ -11148,18 +11148,6 @@
         "category": "H"
     },
     {
-        "Question": "When did Rishi Sunak call for a general election?",
-        "RightAnswer": "July 4, 2024",
-        "WrongAnswers": [
-            "June 1, 2024",
-            "August 15, 2024",
-            "May 5, 2024"
-        ],
-        "Explanation": "Despite reshuffling his cabinet and local election losses, Rishi Sunak has called for a general election on July 4, 2024.",
-        "id": "#10940",
-        "category": "H"
-    },
-    {
         "Question": "Which significant event occurred in 2016 during the Conservative Government's tenure?",
         "RightAnswer": "EU membership referendum (Brexit)",
         "WrongAnswers": [
@@ -11860,7 +11848,7 @@
         "RightAnswer": "St Augustine",
         "WrongAnswers": [
             "St Columba",
-            "St Augustine",
+            "St Patrick",
             "St Gregory"
         ],
         "Explanation": "St Augustine led missionaries from Rome, who spread Christianity in the south. St Augustine became the first Archbishop of Canterbury.",
@@ -12093,18 +12081,6 @@
         ],
         "Explanation": "The Norman Conquest was the last successful foreign invasion of England and led to many changes in government and social structures in England.",
         "id": "#11018",
-        "category": "H"
-    },
-    {
-        "Question": "How did the Norman Conquest influence the English language?",
-        "RightAnswer": "Norman French influenced the development of the English language",
-        "WrongAnswers": [
-            "It completely replaced the English language",
-            "It had no effect on the English language",
-            "It introduced Latin as the primary language"
-        ],
-        "Explanation": "Norman French, the language of the new ruling class, influenced the development of the English language as we know it today.",
-        "id": "#11019",
         "category": "H"
     },
     {
@@ -12961,7 +12937,7 @@
     },
     {
         "Question": "What became a very important export from England during the Middle Ages?",
-        "RightAnswer": "English wool",
+        "RightAnswer": "Wool",
         "WrongAnswers": [
             "Stained glass",
             "Castles",
@@ -13189,7 +13165,7 @@
     },
     {
         "Question": "How did Henry VII manage the monarchy's finances?",
-        "RightAnswer": "He was thrifty and built up the monarchy's financial reserves",
+        "RightAnswer": "He was thrifty",
         "WrongAnswers": [
             "He spent lavishly on wars and palaces",
             "He borrowed heavily from foreign banks",
@@ -13536,7 +13512,7 @@
         "category": "H"
     },
     {
-        "Question": "What was Mary's religious inclination? Note: Mary succeeded Edward VI as monarch",
+        "Question": "What was Mary's religious inclination? (Note: Mary succeeded Edward VI as monarch)",
         "RightAnswer": "A devout Catholic",
         "WrongAnswers": [
             "A strong Protestant",
@@ -13777,7 +13753,7 @@
     },
     {
         "Question": "Why did Mary Stuart flee to England?",
-        "RightAnswer": "She was suspected of her husband's murder.",
+        "RightAnswer": "She was suspected of her husband's murder",
         "WrongAnswers": [
             "She was invited by Elizabeth I",
             "She wanted to claim the English throne",
@@ -14265,18 +14241,6 @@
         ],
         "Explanation": "Civil war between the king and Parliament could not now be avoided and began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).",
         "id": "#11200",
-        "category": "H"
-    },
-    {
-        "Question": "In which battles was the king's army defeated?",
-        "RightAnswer": "Marston Moor and Naseby",
-        "WrongAnswers": [
-            "Dunbar and Worcester",
-            "Bosworth and Agincourt",
-            "Hastings and Stamford Bridge"
-        ],
-        "Explanation": "The king's army was defeated at the Battles of Marston Moor and Naseby.",
-        "id": "#11201",
         "category": "H"
     },
     {
@@ -15159,9 +15123,9 @@
         "Question": "In which year did Charles Edward Stuart attempt to reclaim the throne for the Stuarts?",
         "RightAnswer": "1745",
         "WrongAnswers": [
-            "1746",
-            "1740",
-            "1750"
+            "1445",
+            "1545",
+            "1645"
         ],
         "Explanation": "In 1745 there was another attempt to put a Stuart king back on the throne in place of George I's son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland.",
         "id": "#11275",
@@ -16765,7 +16729,7 @@
     },
     {
         "Question": "What made the Crimean War unique in terms of media coverage?",
-        "RightAnswer": "It was the first war to be extensively covered by the media through news stories and photographs",
+        "RightAnswer": "It was the first war to be extensively covered",
         "WrongAnswers": [
             "It was the first war to be televised",
             "It was the first war to have radio broadcasts",
@@ -17173,7 +17137,7 @@
     },
     {
         "Question": "What was one reason given for granting women over 30 the right to vote in 1918?",
-        "RightAnswer": "Recognition of women's contribution to the war effort",
+        "RightAnswer": "Women's contribution to the war effort",
         "WrongAnswers": [
             "Pressure from international community",
             "Economic benefits",
@@ -17233,10 +17197,10 @@
     },
     {
         "Question": "What did supporters of expansion believe about the Empire's effect on Britain?",
-        "RightAnswer": "It benefited Britain through increased trade and commerce",
+        "RightAnswer": "It increased trade and commerce",
         "WrongAnswers": [
-            "It improved Britain's military strength",
-            "It enhanced Britain's cultural influence",
+            "It improved military strength",
+            "It enhanced cultural influence",
             "It provided new territories for British settlement"
         ],
         "Explanation": "Supporters of expansion believed that the Empire benefited Britain through increased trade and commerce.",
@@ -18121,7 +18085,7 @@
     },
     {
         "Question": "What did the National Health Service (NHS) guarantee?",
-        "RightAnswer": "A minimum standard of health care for all, free at the point of use",
+        "RightAnswer": "Free health care",
         "WrongAnswers": [
             "Free education for all children",
             "Universal basic income",
@@ -18409,14 +18373,26 @@
     },
     {
         "Question": "What new rights did Parliament grant to women in the workplace during the 1960s?",
-        "RightAnswer": "The right to equal pay and protection against gender discrimination",
+        "RightAnswer": "The right to equal pay",
         "WrongAnswers": [
-            "The right to paid maternity leave",
+            "The right to sick",
             "The right to flexible working hours",
             "The right to unionize"
         ],
         "Explanation": "In the 1960's, it was quite common at the time for employers to ask women to leave their jobs when they got married. Parliament passed new laws giving women the right to equal pay and made it illegal for employers to discriminate against women because of their gender.",
         "id": "#11548",
+        "category": "H"
+    },
+    {
+        "Question": "What new rights did Parliament grant to women in the workplace during the 1960s?",
+        "RightAnswer": "Protection against gender discrimination",
+        "WrongAnswers": [
+            "The right to sick pay",
+            "The right to flexible working hours",
+            "The right to unionize"
+        ],
+        "Explanation": "In the 1960's, it was quite common at the time for employers to ask women to leave their jobs when they got married. Parliament passed new laws giving women the right to equal pay and made it illegal for employers to discriminate against women because of their gender.",
+        "id": "#81548",
         "category": "H"
     },
     {
@@ -19728,7 +19704,7 @@
         "category": "F"
     },
     {
-        "Question": "Which building in the UK was designed to be the seat of government in India by Sir Edwin Lutyens?",
+        "Question": "Which city was designed to be the seat of government in India by Sir Edwin Lutyens?",
         "RightAnswer": "New Delhi",
         "WrongAnswers": [
             "Mumbai",
@@ -21151,7 +21127,7 @@
             "Isle of Wight Festival",
             "V Festival"
         ],
-        "Explanation": "He founded the Aldeburgh festival in Suffolk, which continues to be a popular music event of international importance.",
+        "Explanation": "Benjamin Britten founded the Aldeburgh festival in Suffolk, which continues to be a popular music event of international importance.",
         "id": "#20174",
         "category": "F"
     },
@@ -22128,8 +22104,8 @@
         "category": "F"
     },
     {
-        "Question": "Which venue in London hosts music events throughout the year?",
-        "RightAnswer": "The O2 in Greenwich",
+        "Question": "Which venue is in Greenwich, London?",
+        "RightAnswer": "The O2",
         "WrongAnswers": [
             "Wembley Stadium",
             "Royal Albert Hall",
@@ -24481,7 +24457,7 @@
     },
     {
         "Question": "Who is Father Christmas?",
-        "RightAnswer": "A figure that bring presents the night before Christmas Day",
+        "RightAnswer": "A figure that bring presents",
         "WrongAnswers": [
             "A character from a famous Easter story",
             "A symbol of the Jewish festival Hannukah",
@@ -24985,7 +24961,7 @@
     },
     {
         "Question": "What is 'Women in Love'?",
-        "RightAnswer": "A British film directed by Ken Russell",
+        "RightAnswer": "A British film",
         "WrongAnswers": [
             "A British romance novel",
             "A British television drama",
@@ -25465,7 +25441,7 @@
     },
     {
         "Question": "What is EastEnders?",
-        "RightAnswer": "A regular soap opera in the UK",
+        "RightAnswer": "A regular soap opera",
         "WrongAnswers": [
             "A British cooking show",
             "A UK talent competition",
@@ -25945,7 +25921,7 @@
     },
     {
         "Question": "What is the FIFA World Cup?",
-        "RightAnswer": "An international football tournament where national teams compete",
+        "RightAnswer": "An international football tournament",
         "WrongAnswers": [
             "A global music competition",
             "An international film festival",
@@ -25969,7 +25945,7 @@
     },
     {
         "Question": "What is The Royal Ascot?",
-        "RightAnswer": "A five-day race meeting in Berkshire attended by members of the Royal Family",
+        "RightAnswer": "A horse-racing event in Berkshire",
         "WrongAnswers": [
             "A famous horse-racing museum in Suffolk",
             "A type of horse breed",
@@ -26293,7 +26269,7 @@
     },
     {
         "Question": "What are the Ashes?",
-        "RightAnswer": "A series of Test matches played between England and Australia",
+        "RightAnswer": "A series of matches",
         "WrongAnswers": [
             "A famous English rock band",
             "A traditional English festival",
@@ -26413,7 +26389,7 @@
     },
     {
         "Question": "Who is Lewis Hamilton?",
-        "RightAnswer": "A British Grand Prix driver who won the Formula 1 World Championship",
+        "RightAnswer": "A British Grand Prix driver",
         "WrongAnswers": [
             "A famous British motorcycle racer",
             "A renowned British car manufacturer",
@@ -26509,7 +26485,7 @@
     },
     {
         "Question": "What is Gaelic in the context of Scotland?",
-        "RightAnswer": "A language spoken in some parts of the Highlands and Islands",
+        "RightAnswer": "A language spoken in the Highlands and Islands",
         "WrongAnswers": [
             "A dialect of English spoken throughout Scotland",
             "A traditional Scottish dish",
@@ -29004,18 +28980,6 @@
         "category": "F"
     },
     {
-        "Question": "Which city is NOT listed as a major city in England?",
-        "RightAnswer": "Cardiff",
-        "WrongAnswers": [
-            "Liverpool",
-            "Manchester",
-            "Bristol"
-        ],
-        "Explanation": "England (London, Birmingham, Liverpool, Leeds, Sheffield, Bristol, Manchester, Bradford, Newcastle Upon Tyne, Plymouth, Southampton, Norwich). Wales (Cardiff, Swansea, Newport).",
-        "id": "#20828",
-        "category": "F"
-    },
-    {
         "Question": "Which city is the capital of Northern Ireland?",
         "RightAnswer": "Belfast",
         "WrongAnswers": [
@@ -29748,18 +29712,6 @@
         "category": "H"
     },
     {
-        "Question": "What is one of the freedoms offered by the UK?",
-        "RightAnswer": "Freedom of belief",
-        "WrongAnswers": [
-            "Freedom of assembly",
-            "Freedom of the press",
-            "Freedom of movement"
-        ],
-        "Explanation": "In return, the UK offers: Freedom of belief and religion. Freedom of speech. Freedom from unfair discrimination. A right to a fair trial. A right to join in the election of a government.",
-        "id": "#30020",
-        "category": "H"
-    },
-    {
         "Question": "Which right related to legal proceedings does the UK offer?",
         "RightAnswer": "A right to a fair trial",
         "WrongAnswers": [
@@ -29769,18 +29721,6 @@
         ],
         "Explanation": "In return, the UK offers: Freedom of belief and religion. Freedom of speech. Freedom from unfair discrimination. A right to a fair trial. A right to join in the election of a government.",
         "id": "#30021",
-        "category": "H"
-    },
-    {
-        "Question": "What democratic right does the UK offer its citizens?",
-        "RightAnswer": "A right to join in the election of a government",
-        "WrongAnswers": [
-            "A right to form political parties",
-            "A right to recall elected officials",
-            "A right to propose new laws"
-        ],
-        "Explanation": "In return, the UK offers: Freedom of belief and religion. Freedom of speech. Freedom from unfair discrimination. A right to a fair trial. A right to join in the election of a government.",
-        "id": "#30022",
         "category": "H"
     },
     {
@@ -30025,7 +29965,7 @@
     },
     {
         "Question": "What type of powers do the devolved parliaments or assemblies have?",
-        "RightAnswer": "Defined",
+        "RightAnswer": "Devolved",
         "WrongAnswers": [
             "Unlimited",
             "Symbolic",
@@ -30557,7 +30497,7 @@
         "WrongAnswers": [
             "1901",
             "2001",
-            "1951"
+            "1851"
         ],
         "Explanation": "Year Population: 1600 (Just over 4 million), 1700 (5 million), 1801 (8 million), 1851 (20 million), 1901 (40 million), 1951 (50 million), 1998 (57 million), 2005 (Just under 60 million), 2010 (Just over 62 million), 2022 (Estimated 67.6 million).",
         "id": "#30087",
@@ -30753,18 +30693,6 @@
         ],
         "Explanation": "Alongside this, men now work in more varied jobs than they did in the past. It is no longer expected that women should stay at home and not work. Women often continue to work after having children. In many families today, both partners work and both share responsibility for childcare and household chores.",
         "id": "#30103",
-        "category": "H"
-    },
-    {
-        "Question": "How has the employment pattern for women with children changed?",
-        "RightAnswer": "Women often continue to work after having children",
-        "WrongAnswers": [
-            "Women always quit work after having children",
-            "Women are required to stop working after having children",
-            "Women rarely work after having children"
-        ],
-        "Explanation": "Alongside this, men now work in more varied jobs than they did in the past. It is no longer expected that women should stay at home and not work. Women often continue to work after having children. In many families today, both partners work and both share responsibility for childcare and household chores.",
-        "id": "#30104",
         "category": "H"
     },
     {
@@ -31728,18 +31656,6 @@
         "category": "H"
     },
     {
-        "Question": "How are members of the House of Lords selected?",
-        "RightAnswer": "They are not elected",
-        "WrongAnswers": [
-            "They are elected by the people",
-            "They are chosen by the Prime Minister",
-            "They are selected by Parliament"
-        ],
-        "Explanation": "Members of the House of Lords, known as peers, are not elected by the people and do not represent a constituency. The role and membership of the House of Lords has changed over the last 50 years. Until 1958, all peers were \u2018hereditary\u2019, which means they inherited their title, or senior judges, or bishops of the Church of England.",
-        "id": "#30186",
-        "category": "H"
-    },
-    {
         "Question": "What are peers nominated by the Prime Minister for their lifetime called?",
         "RightAnswer": "Life peers",
         "WrongAnswers": [
@@ -32244,18 +32160,6 @@
         "category": "H"
     },
     {
-        "Question": "What is the name of the general advisory service that can provide information on discrimination issues in the UK?",
-        "RightAnswer": "Citizens Advice Bureau",
-        "WrongAnswers": [
-            "Equality and Human Rights Commission",
-            "Scottish Human Rights Commission",
-            "Equality Commission for Northern Ireland"
-        ],
-        "Explanation": "UK laws ensure that people are not treated unfairly in any area of life or work because of their age, disability, sex, pregnancy and maternity, race, religion or belief, sexuality or marital status. If you face problems with discrimination, you can get more information from the Citizens Advice Bureau or from one of the following organisations: Equality and Human Rights Commission (for England and Wales), Equality and Human Rights Commission in Scotland and Scottish Human Rights Commission (for Scotland), Equality Commission for Northern Ireland and Northern Ireland Human Rights Commission (Northern Ireland).",
-        "id": "#30230",
-        "category": "H"
-    },
-    {
         "Question": "Which organization handles human rights issues in Scotland?",
         "RightAnswer": "Scottish Human Rights Commission",
         "WrongAnswers": [
@@ -32409,18 +32313,6 @@
         ],
         "Explanation": "Forced Marriage Protection Orders were introduced in 2008 for England, Wales and Northern Ireland under the Forced Marriage (Civil Protection) Act 2007. Court orders can be obtained to protect a person from being forced into a marriage, or to protect a person in a forced marriage. Similar Protection Orders were introduced in Scotland in November 2011. A potential victim, or someone acting for them, can apply for an order. Anyone found to have breached an order can be jailed for up to two years for contempt of court.",
         "id": "#30243",
-        "category": "H"
-    },
-    {
-        "Question": "When were similar Protection Orders introduced in Scotland?",
-        "RightAnswer": "November 2011",
-        "WrongAnswers": [
-            "January 2008",
-            "December 2007",
-            "March 2009"
-        ],
-        "Explanation": "Forced Marriage Protection Orders were introduced in 2008 for England, Wales and Northern Ireland under the Forced Marriage (Civil Protection) Act 2007. Court orders can be obtained to protect a person from being forced into a marriage, or to protect a person in a forced marriage. Similar Protection Orders were introduced in Scotland in November 2011. A potential victim, or someone acting for them, can apply for an order. Anyone found to have breached an order can be jailed for up to two years for contempt of court.",
-        "id": "#30244",
         "category": "H"
     },
     {
@@ -32613,18 +32505,6 @@
         ],
         "Explanation": "Anyone who does not pay enough National Insurance Contributions will not be able to receive certain contributory benefits such as Jobseeker\u2019s Allowance or a full state retirement pension. Some workers, such as part-time workers, may not qualify for statutory payments such as maternity pay if they do not earn enough.",
         "id": "#30260",
-        "category": "H"
-    },
-    {
-        "Question": "What is a National Insurance number?",
-        "RightAnswer": "A unique personal account number",
-        "WrongAnswers": [
-            "A social security number",
-            "A tax identification code",
-            "A health insurance policy number"
-        ],
-        "Explanation": "A National Insurance number is a unique personal account number. It makes sure that the National Insurance Contributions and tax you pay are properly recorded against your name. All young people in the UK are sent a National Insurance number just before their 16th birthday.",
-        "id": "#30261",
         "category": "H"
     },
     {
@@ -33156,18 +33036,6 @@
         "category": "H"
     },
     {
-        "Question": "In what situation can someone under 18 legally consume alcohol in the UK?",
-        "RightAnswer": "With a meal in a hotel or restaurant if they are 16 or over",
-        "WrongAnswers": [
-            "At home with parental supervision",
-            "At a private party",
-            "In a pub if accompanied by an adult"
-        ],
-        "Explanation": "Buying alcohol (it is a criminal offence to sell alcohol to anyone who is under 18 or to buy alcohol for people who are under the age of 18. There is one exception: people aged 16 or over can drink alcohol with a meal in a hotel or restaurant).",
-        "id": "#30309",
-        "category": "H"
-    },
-    {
         "Question": "What is the minimum age for drinking alcohol with a meal in a UK hotel or restaurant?",
         "RightAnswer": "16",
         "WrongAnswers": [
@@ -33427,7 +33295,7 @@
             "Chief Constables",
             "Independent Police Complaints Commission"
         ],
-        "Explanation": "Police Officers are supported by police community support Officers (PSCOs). PSCOs have different roles according to the area but usually patrol the streets, work with the public, and support police Officers at crime scenes and major events.",
+        "Explanation": "Police Officers are supported by Police Community Cupport Officers (PSCOs). PSCOs have different roles according to the area but usually patrol the streets, work with the public, and support police Officers at crime scenes and major events.",
         "id": "#30331",
         "category": "H"
     },
@@ -33439,7 +33307,7 @@
             "Conducting investigations",
             "Managing police stations"
         ],
-        "Explanation": "Police Officers are supported by police community support Officers (PSCOs). PSCOs have different roles according to the area but usually patrol the streets, work with the public, and support police Officers at crime scenes and major events.",
+        "Explanation": "Police Officers are supported by Police Community Support Officers (PSCOs). PSCOs have different roles according to the area but usually patrol the streets, work with the public, and support police Officers at crime scenes and major events.",
         "id": "#30332",
         "category": "H"
     },
@@ -35977,11 +35845,11 @@
     },
     {
         "Question": "What are the main aims of the United Nations?",
-        "RightAnswer": "To prevent war and promote international peace and security",
+        "RightAnswer": "To promote international peace and security",
         "WrongAnswers": [
-            "To prevent war and regulate global trade",
-            "To prevent war and establish a world government",
-            "To prevent war and promote cultural exchange"
+            "To regulate global trade",
+            "To establish a world government",
+            "To promote cultural exchange"
         ],
         "Explanation": "The UK is part of the United Nations (UN), an international organisation with more than 190 countries as members. The UN was set up after the Second World War and aims to prevent war and promote international peace and security. There are 15 members on the UN Security Council, which recommends action when there are international crises and threats to peace. The UK is one of five permanent members of the Security Council.",
         "id": "#30548",
@@ -36121,7 +35989,7 @@
     },
     {
         "Question": "What do British citizens share despite the country's diversity?",
-        "RightAnswer": "A set of shared values and responsibilities",
+        "RightAnswer": "A set of shared values",
         "WrongAnswers": [
             "A single cultural background",
             "A uniform lifestyle",
@@ -36168,7 +36036,7 @@
         "category": "H"
     },
     {
-        "Question": "What familial responsibility is listed for British citizens?",
+        "Question": "What is a responsibility of British citizens?",
         "RightAnswer": "To help and protect your family",
         "WrongAnswers": [
             "To have at least two children",
@@ -36192,7 +36060,7 @@
         "category": "H"
     },
     {
-        "Question": "What economic responsibility is listed for British citizens?",
+        "Question": "What is one responsibility of British citizens?",
         "RightAnswer": "To provide for yourself and your family",
         "WrongAnswers": [
             "To start a business",
@@ -36201,18 +36069,6 @@
         ],
         "Explanation": "These values and responsibilities include: to obey and respect the law; to be aware of the rights of others and respect those rights; to treat others with fairness; to behave responsibly; to help and protect your family; to respect and preserve the environment; to treat everyone equally, regardless of sex, race, religion, age, disability, class or sexual orientation; to work to provide for yourself and your family; to help others; and to vote in local and national government elections.",
         "id": "#30566",
-        "category": "H"
-    },
-    {
-        "Question": "What principle of equality is emphasized for British citizens?",
-        "RightAnswer": "To treat everyone equally, regardless of sex, race, religion, age, disability, class or sexual orientation",
-        "WrongAnswers": [
-            "To treat everyone equally, except for non-citizens",
-            "To prioritize British-born individuals",
-            "To favor those who speak English fluently"
-        ],
-        "Explanation": "These values and responsibilities include: to obey and respect the law; to be aware of the rights of others and respect those rights; to treat others with fairness; to behave responsibly; to help and protect your family; to respect and preserve the environment; to treat everyone equally, regardless of sex, race, religion, age, disability, class or sexual orientation; to work to provide for yourself and your family; to help others; and to vote in local and national government elections.",
-        "id": "#30567",
         "category": "H"
     },
     {
@@ -36409,7 +36265,7 @@
     },
     {
         "Question": "What is one benefit of joining a PTA besides helping the school?",
-        "RightAnswer": "Making new friends in your local community",
+        "RightAnswer": "Making new friends",
         "WrongAnswers": [
             "Earning extra income",
             "Receiving school discounts",
@@ -36469,7 +36325,7 @@
     },
     {
         "Question": "What is the primary motivation for people to become school governors?",
-        "RightAnswer": "To make a positive contribution to children's education",
+        "RightAnswer": "To make a positive contribution",
         "WrongAnswers": [
             "To gain political influence",
             "To increase their social status",
@@ -36597,18 +36453,6 @@
         ],
         "Explanation": "You can volunteer with the police, and become a special constable or a lay (non-police) representative. You can also apply to become a magistrate. You will often find advertisements for vacancies in your local newspaper or on local radio.",
         "id": "#90599",
-        "category": "H"
-    },
-    {
-        "Question": "Which volunteer position in the justice system can you apply for?",
-        "RightAnswer": "Magistrate",
-        "WrongAnswers": [
-            "Jury member",
-            "Court clerk",
-            "Bailiff"
-        ],
-        "Explanation": "You can volunteer with the police, and become a special constable or a lay (non-police) representative. You can also apply to become a magistrate. You will often find advertisements for vacancies in your local newspaper or on local radio.",
-        "id": "#30600",
         "category": "H"
     },
     {
@@ -36837,18 +36681,6 @@
         ],
         "Explanation": "It is important to recycle as much of your waste as you can. Using recycled materials to make new products uses less energy and means that we do not need to extract more raw materials from the earth. It also means that less rubbish is created, so the amount being put into landfill is reduced. A good way to support your local community is to shop for products locally where you can. This will help businesses and farmers in your area and in Britain. It will also reduce your carbon footprint, because the products you buy will not have had to travel as far. Walking and using public transport to get around when you can is also a good way to protect the environment. It means that you create less pollution than when you use a car.",
         "id": "#30619",
-        "category": "H"
-    },
-    {
-        "Question": "What is reduced when using recycled materials?",
-        "RightAnswer": "Landfill waste",
-        "WrongAnswers": [
-            "Product quality",
-            "Manufacturing speed",
-            "Consumer demand"
-        ],
-        "Explanation": "It is important to recycle as much of your waste as you can. Using recycled materials to make new products uses less energy and means that we do not need to extract more raw materials from the earth. It also means that less rubbish is created, so the amount being put into landfill is reduced. A good way to support your local community is to shop for products locally where you can. This will help businesses and farmers in your area and in Britain. It will also reduce your carbon footprint, because the products you buy will not have had to travel as far. Walking and using public transport to get around when you can is also a good way to protect the environment. It means that you create less pollution than when you use a car.",
-        "id": "#30620",
         "category": "H"
     },
     {
@@ -37113,18 +36945,6 @@
         ],
         "Explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland. The rest of Ireland is an independent country.",
         "id": "#40009",
-        "category": ""
-    },
-    {
-        "Question": "Which legislative body has devolved powers in Scotland, Wales, and Northern Ireland?",
-        "RightAnswer": "Their own parliaments or assemblies",
-        "WrongAnswers": [
-            "The UK Parliament",
-            "The European Parliament",
-            "Local councils"
-        ],
-        "Explanation": "Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas.",
-        "id": "#40010",
         "category": ""
     },
     {
@@ -37405,18 +37225,6 @@
         "category": ""
     },
     {
-        "Question": "What was the main purpose of NATO when the UK joined it?",
-        "RightAnswer": "To resist the perceived threat of invasion by the Soviet Union and its allies",
-        "WrongAnswers": [
-            "To promote free trade",
-            "To coordinate educational reforms",
-            "To establish a common healthcare system"
-        ],
-        "Explanation": "The UK developed its own atomic bomb and joined the new North Atlantic Treaty Organization (NATO), an alliance of nations set up to resist the perceived threat of invasion by the Soviet Union and its allies.",
-        "id": "#40034",
-        "category": ""
-    },
-    {
         "Question": "Which year marks the granting of independence to India, Pakistan, and Ceylon by the UK?",
         "RightAnswer": "1947",
         "WrongAnswers": [
@@ -37454,7 +37262,7 @@
     },
     {
         "Question": "What economic condition did the 1950s represent for Britain?",
-        "RightAnswer": "A period of economic recovery after the war and increasing prosperity for working people",
+        "RightAnswer": "A period of economic recovery after the war",
         "WrongAnswers": [
             "Economic decline and recession",
             "Stagnant economy with no growth",
@@ -37538,7 +37346,7 @@
     },
     {
         "Question": "What was the purpose of the Education Act 1944 introduced by R.A. Butler?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
+        "RightAnswer": "To introduce free secondary education",
         "WrongAnswers": [
             "To establish the National Health Service",
             "To nationalize the coal mines",
@@ -37609,18 +37417,6 @@
         "category": ""
     },
     {
-        "Question": "What was the name of the naval operation that evacuated over 300,000 British and French soldiers from France?",
-        "RightAnswer": "Operation Dynamo (The Dunkirk evacuation)",
-        "WrongAnswers": [
-            "Operation Overlord",
-            "Operation Sea Lion",
-            "Operation Market Garden"
-        ],
-        "Explanation": "The British decided to evacuate British and French soldiers from France in a huge naval operation. Many civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk.",
-        "id": "#40051",
-        "category": ""
-    },
-    {
         "Question": "Which battle marked the end of the French Wars with Napoleon?",
         "RightAnswer": "The Battle of Waterloo",
         "WrongAnswers": [
@@ -37657,18 +37453,6 @@
         "category": ""
     },
     {
-        "Question": "Who was awarded the Nobel Prize for the discovery of insulin?",
-        "RightAnswer": "John MacLeod",
-        "WrongAnswers": [
-            "Alexander Fleming",
-            "James Watson",
-            "Frederick Banting"
-        ],
-        "Explanation": "The structure of the DNA molecule was discovered in 1953 through work at British universities in London and Cambridge. Francis Crick [1916\u20132004], one of those awarded the Nobel Prize for this discovery, was British.",
-        "id": "#40055",
-        "category": ""
-    },
-    {
         "Question": "Which act abolished slavery throughout the British Empire?",
         "RightAnswer": "The Emancipation Act",
         "WrongAnswers": [
@@ -37690,18 +37474,6 @@
         ],
         "Explanation": "J K Rowling (1965\u2013) wrote the Harry Potter series of children\u2019s books, which have enjoyed huge international success.",
         "id": "#40057",
-        "category": ""
-    },
-    {
-        "Question": "What was the main cause of the partition of Ireland in 1922?",
-        "RightAnswer": "The establishment of the Irish Free State",
-        "WrongAnswers": [
-            "The Easter Rising",
-            "The Battle of the Boyne",
-            "The Good Friday Agreement"
-        ],
-        "Explanation": "In 1921 a peace treaty was signed and in 1922 Ireland became two countries. The six counties in the north which were mainly Protestant remained part of the UK under the name Northern Ireland. The rest of Ireland became the Irish Free State.",
-        "id": "#40058",
         "category": ""
     },
     {
@@ -37742,7 +37514,7 @@
     },
     {
         "Question": "What was the significance of the Battle of Culloden in 1746?",
-        "RightAnswer": "It marked the defeat of Charles Edward Stuart and the end of the Jacobite uprising",
+        "RightAnswer": "It marked the end of the Jacobite uprising",
         "WrongAnswers": [
             "It was the first battle of the Napoleonic Wars",
             "It secured the Scottish Highlands for England",
@@ -37808,25 +37580,13 @@
             "Brick Lane Curry House",
             "The Spice Route"
         ],
-        "Explanation": "In 1810 he opened the Hindoostane Coffee House in George Street, London. It was the first curry house to open in Britain.",
+        "Explanation": "In 1810 Sake Dean Mahomed opened the Hindoostane Coffee House in George Street, London. It was the first curry house to open in Britain.",
         "id": "#40067",
         "category": ""
     },
     {
-        "Question": "Which British monarch had the longest reign as of 2013?",
-        "RightAnswer": "Queen Victoria",
-        "WrongAnswers": [
-            "Queen Elizabeth II",
-            "King George III",
-            "King Henry VIII"
-        ],
-        "Explanation": "She reigned until 1901, almost 64 years. At the date of writing (2013) this is the longest reign of any British monarch.",
-        "id": "#40068",
-        "category": ""
-    },
-    {
         "Question": "Which invention is attributed to James Goodfellow in the 1960s?",
-        "RightAnswer": "The cash-dispensing ATM (cashpoint)",
+        "RightAnswer": "The cash-dispensing ATM",
         "WrongAnswers": [
             "The mobile phone",
             "The credit card",
@@ -38018,7 +37778,7 @@
     },
     {
         "Question": "What is 'the Blitz spirit'?",
-        "RightAnswer": "Britons pulling together in the face of adversity during the Blitz",
+        "RightAnswer": "Britons pulling together in the face of adversity",
         "WrongAnswers": [
             "The rapid industrial growth in the 19th century",
             "The cultural movement of the 1960s",
@@ -38026,18 +37786,6 @@
         ],
         "Explanation": "Despite the destruction, there was a strong national spirit of resistance in the UK. The phrase \u2018the Blitz spirit\u2019 is still used today to describe Britons pulling together in the face of adversity.",
         "id": "#40085",
-        "category": ""
-    },
-    {
-        "Question": "Which British band is known for pioneering the punk movement in the late 1970s?",
-        "RightAnswer": "Sex Pistols",
-        "WrongAnswers": [
-            "The Beatles",
-            "The Rolling Stones",
-            "Queen"
-        ],
-        "Explanation": "British pop music has continued to innovate \u2013 for example, the Punk movement of the late 1970s.",
-        "id": "#40086",
         "category": ""
     },
     {
@@ -38062,18 +37810,6 @@
         ],
         "Explanation": "Sir Peter Mansfield, a British scientist, is the co-inventor of the MRI (magnetic resonance imaging) scanner.",
         "id": "#40088",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch reigned during the Victorian Age?",
-        "RightAnswer": "Queen Victoria",
-        "WrongAnswers": [
-            "Queen Elizabeth I",
-            "King George III",
-            "King Edward VII"
-        ],
-        "Explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18. She reigned until 1901, almost 64 years. Her reign is known as the Victorian Age.",
-        "id": "#40089",
         "category": ""
     },
     {
@@ -38330,7 +38066,7 @@
     },
     {
         "Question": "What was the primary economic policy promoted by the UK government in the Victorian period?",
-        "RightAnswer": "Free trade, including the repeal of the Corn Laws",
+        "RightAnswer": "Free trade",
         "WrongAnswers": [
             "Protectionism",
             "Mercantilism",
@@ -38366,7 +38102,7 @@
     },
     {
         "Question": "What was the main result of the Battle of the Somme in July 1916?",
-        "RightAnswer": "About 60,000 British casualties on the first day alone",
+        "RightAnswer": "About 60,000 British casualties",
         "WrongAnswers": [
             "The defeat of Napoleon",
             "The signing of the Magna Carta",
@@ -38461,18 +38197,6 @@
         "category": ""
     },
     {
-        "Question": "What does the term 'constitutional monarchy' refer to in the UK?",
-        "RightAnswer": "A system where the monarch's powers are limited by law and balanced by Parliament",
-        "WrongAnswers": [
-            "A monarchy where the king or queen has absolute power",
-            "A republic with an elected president",
-            "A system where the military controls the government"
-        ],
-        "Explanation": "The laws passed after the Glorious Revolution are the beginning of what is called \u2018constitutional monarchy\u2019. The monarch remained very important but was no longer able to insist on particular policies or actions if Parliament did not agree.",
-        "id": "#40122",
-        "category": ""
-    },
-    {
         "Question": "Which British monarch established the longest-running state funeral in history?",
         "RightAnswer": "Winston Churchill",
         "WrongAnswers": [
@@ -38557,54 +38281,6 @@
         "category": ""
     },
     {
-        "Question": "Which British author wrote 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "Thomas Hardy",
-            "Robert Louis Stevenson"
-        ],
-        "Explanation": "Charles Dickens (1812\u201370) wrote a number of very famous novels, including Oliver Twist and Great Expectations.",
-        "id": "#40130",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Reform Act of 1867?",
-        "RightAnswer": "To reduce the property requirements for voting and create more urban seats in Parliament",
-        "WrongAnswers": [
-            "To establish the House of Lords",
-            "To grant independence to Scotland",
-            "To nationalize the railways"
-        ],
-        "Explanation": "In 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote.",
-        "id": "#40131",
-        "category": ""
-    },
-    {
-        "Question": "Which British engineer built the Great Western Railway?",
-        "RightAnswer": "Isambard Kingdom Brunel",
-        "WrongAnswers": [
-            "George Stephenson",
-            "Robert Stephenson",
-            "James Watt"
-        ],
-        "Explanation": "He was responsible for constructing the Great Western Railway, which was the first major railway built in Britain.",
-        "id": "#40132",
-        "category": ""
-    },
-    {
-        "Question": "What is the significance of the Battle of Bannockburn in 1314?",
-        "RightAnswer": "It secured Scottish independence by defeating the English",
-        "WrongAnswers": [
-            "It marked the end of the Viking invasions",
-            "It was the first battle of the Hundred Years War",
-            "It led to the Norman Conquest of England"
-        ],
-        "Explanation": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English.",
-        "id": "#40133",
-        "category": ""
-    },
-    {
         "Question": "Who succeeded Winston Churchill as Prime Minister after the Second World War?",
         "RightAnswer": "Clement Atlee",
         "WrongAnswers": [
@@ -38614,18 +38290,6 @@
         ],
         "Explanation": "He lost the General Election in 1945 but returned as Prime Minister in 1951. Clement Atlee became Prime Minister after the Labour Party won the 1945 election.",
         "id": "#40135",
-        "category": ""
-    },
-    {
-        "Question": "What was the main focus of the Women\u2019s Franchise League founded by Emmeline Pankhurst?",
-        "RightAnswer": "To get the vote in local elections for married women",
-        "WrongAnswers": [
-            "To promote women in the workforce",
-            "To establish women's universities",
-            "To campaign for equal pay"
-        ],
-        "Explanation": "She set up the Women\u2019s Franchise League in 1889, which fought to get the vote in local elections for married women.",
-        "id": "#40136",
         "category": ""
     },
     {
@@ -38641,30 +38305,6 @@
         "category": ""
     },
     {
-        "Question": "What was the main consequence of the Battle of Bannockburn?",
-        "RightAnswer": "It secured Scottish independence from England",
-        "WrongAnswers": [
-            "It led to the end of the Viking invasions",
-            "It was the final battle of the Hundred Years War",
-            "It initiated the Wars of the Roses"
-        ],
-        "Explanation": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English.",
-        "id": "#40139",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British monarch during the First World War?",
-        "RightAnswer": "King George V",
-        "WrongAnswers": [
-            "King Edward VII",
-            "Queen Victoria",
-            "King George VI"
-        ],
-        "Explanation": "The First World War (1914\u201318) occurred during the reign of King George V.",
-        "id": "#40140",
-        "category": ""
-    },
-    {
         "Question": "Which British architect designed New Delhi?",
         "RightAnswer": "Edwin Lutyens",
         "WrongAnswers": [
@@ -38674,18 +38314,6 @@
         ],
         "Explanation": "In the 20th century, Sir Edwin Lutyens had an influence throughout the British Empire. He designed New Delhi to be the seat of government in India.",
         "id": "#40141",
-        "category": ""
-    },
-    {
-        "Question": "What was the primary aim of the Chartists?",
-        "RightAnswer": "To demand the vote for the working classes and other people without property",
-        "WrongAnswers": [
-            "To establish a communist state",
-            "To restore the monarchy",
-            "To promote free trade"
-        ],
-        "Explanation": "A movement began to demand the vote for the working classes and other people without property. Campaigners, called the Chartists, presented petitions to Parliament.",
-        "id": "#40142",
         "category": ""
     },
     {
@@ -38710,18 +38338,6 @@
         ],
         "Explanation": "In that year (1215), King John was forced by his noblemen to agree to a number of demands. The result was a charter of rights called the Magna Carta.",
         "id": "#40144",
-        "category": ""
-    },
-    {
-        "Question": "What was the main role of the Great Exhibition of 1851?",
-        "RightAnswer": "To showcase industrial advancements and products from Britain and other countries",
-        "WrongAnswers": [
-            "To celebrate Queen Victoria's coronation",
-            "To establish the British Museum",
-            "To launch the first steam locomotive"
-        ],
-        "Explanation": "In 1851, the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass. Exhibits ranged from huge machines to handmade goods. Countries from all over the world showed their goods but most of the objects were made in Britain.",
-        "id": "#40145",
         "category": ""
     },
     {
@@ -38833,18 +38449,6 @@
         "category": ""
     },
     {
-        "Question": "Which British monarch reigned during the establishment of the National Health Service (NHS) in 1948?",
-        "RightAnswer": "King George VI",
-        "WrongAnswers": [
-            "King Edward VIII",
-            "Queen Elizabeth II",
-            "King George V"
-        ],
-        "Explanation": "King George VI was the reigning monarch when the NHS was established in 1948 under Prime Minister Clement Attlee.",
-        "id": "#40154",
-        "category": ""
-    },
-    {
         "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
         "RightAnswer": "Margaret Thatcher",
         "WrongAnswers": [
@@ -38857,18 +38461,6 @@
         "category": ""
     },
     {
-        "Question": "What is the significance of the Battle of Bannockburn in 1314?",
-        "RightAnswer": "It secured Scottish independence by defeating the English",
-        "WrongAnswers": [
-            "It marked the end of the Viking invasions",
-            "It was the first battle of the Hundred Years War",
-            "It led to the Norman Conquest of England"
-        ],
-        "Explanation": "The Battle of Bannockburn was a significant Scottish victory against the English, led by Robert the Bruce, securing Scotland's independence.",
-        "id": "#40156",
-        "category": ""
-    },
-    {
         "Question": "Which British scientist developed the first successful radar system?",
         "RightAnswer": "Robert Watson-Watt",
         "WrongAnswers": [
@@ -38878,18 +38470,6 @@
         ],
         "Explanation": "Sir Robert Watson-Watt is credited with developing the first successful radar system, which played a crucial role during the Second World War.",
         "id": "#40157",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Magna Carta signed in 1215?",
-        "RightAnswer": "To establish that even the king was subject to the law",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To introduce free secondary education",
-            "To abolish the slave trade"
-        ],
-        "Explanation": "The Magna Carta was a charter of rights that established the principle that the king was not above the law, laying the foundation for constitutional governance.",
-        "id": "#40158",
         "category": ""
     },
     {
@@ -38954,7 +38534,7 @@
     },
     {
         "Question": "What was the primary aim of the Reform Act of 1832 in the UK?",
-        "RightAnswer": "To increase the number of people with the right to vote and abolish rotten boroughs",
+        "RightAnswer": "To expand the electorate and abolish rotten boroughs",
         "WrongAnswers": [
             "To establish the National Health Service",
             "To unify England and Scotland",
@@ -38986,18 +38566,6 @@
         ],
         "Explanation": "Alexander Fleming discovered penicillin in 1928, revolutionizing the field of medicine by introducing the first true antibiotic.",
         "id": "#40166",
-        "category": ""
-    },
-    {
-        "Question": "What event does Remembrance Day commemorate in the UK?",
-        "RightAnswer": "Those who died fighting for the UK and its allies",
-        "WrongAnswers": [
-            "The end of the Second World War",
-            "The signing of the Magna Carta",
-            "The victory at the Battle of Britain"
-        ],
-        "Explanation": "Remembrance Day, observed on 11 November, honors those who died serving in the armed forces during the First World War and subsequent conflicts.",
-        "id": "#40167",
         "category": ""
     },
     {
@@ -39061,18 +38629,6 @@
         "category": ""
     },
     {
-        "Question": "What was the primary focus of the Enlightenment in Britain?",
-        "RightAnswer": "Development of new ideas in politics, philosophy, and science",
-        "WrongAnswers": [
-            "Expansion of the British Empire",
-            "Revival of medieval art and architecture",
-            "Promotion of religious orthodoxy"
-        ],
-        "Explanation": "The Enlightenment was a period marked by the development of new ideas in politics, philosophy, and science, emphasizing reason, individualism, and skepticism of traditional authority.",
-        "id": "#40174",
-        "category": ""
-    },
-    {
         "Question": "Who wrote 'The Jungle Book' and 'If'?",
         "RightAnswer": "Rudyard Kipling",
         "WrongAnswers": [
@@ -39121,30 +38677,6 @@
         "category": ""
     },
     {
-        "Question": "Which British author is known for writing detective stories featuring Hercule Poirot and Miss Marple?",
-        "RightAnswer": "Agatha Christie",
-        "WrongAnswers": [
-            "Arthur Conan Doyle",
-            "Dorothy L. Sayers",
-            "P.D. James"
-        ],
-        "Explanation": "Agatha Christie created the famous detective characters Hercule Poirot and Miss Marple, and is renowned for her numerous detective novels.",
-        "id": "#40179",
-        "category": ""
-    },
-    {
-        "Question": "What was the main economic benefit of the Industrial Revolution in Britain?",
-        "RightAnswer": "Increased production and efficiency through mechanization and the use of steam power",
-        "WrongAnswers": [
-            "Establishment of agricultural communes",
-            "Reduction of urban populations",
-            "Decline in trade and commerce"
-        ],
-        "Explanation": "The Industrial Revolution brought about increased production and efficiency by introducing machinery and steam power, transforming industries and economies.",
-        "id": "#40180",
-        "category": ""
-    },
-    {
         "Question": "Which British engineer is known for building the Great Western Railway?",
         "RightAnswer": "Isambard Kingdom Brunel",
         "WrongAnswers": [
@@ -39166,18 +38698,6 @@
         ],
         "Explanation": "William Shakespeare authored numerous plays including 'A Midsummer Night\u2019s Dream', 'Hamlet', and 'Romeo and Juliet', making him one of the most influential writers in English literature.",
         "id": "#40183",
-        "category": ""
-    },
-    {
-        "Question": "What was the primary focus of the Commonwealth period in British history?",
-        "RightAnswer": "Establishing a republic without a monarchy",
-        "WrongAnswers": [
-            "Unifying England and Scotland",
-            "Expanding the British Empire",
-            "Reforming the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was characterized by the abolition of the monarchy and the establishment of a republican form of government under Oliver Cromwell.",
-        "id": "#40184",
         "category": ""
     },
     {
@@ -39205,20 +38725,8 @@
         "category": ""
     },
     {
-        "Question": "Which British scientist is known for developing the theory of gravity and the laws of motion?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravity, foundational principles in physics.",
-        "id": "#40187",
-        "category": ""
-    },
-    {
         "Question": "What was the main objective of the Good Friday Agreement signed in 1998?",
-        "RightAnswer": "To bring an end to the Troubles in Northern Ireland",
+        "RightAnswer": "To bring an end to the Troubles",
         "WrongAnswers": [
             "To establish free secondary education",
             "To unify England and Scotland",
@@ -39277,18 +38785,6 @@
         "category": ""
     },
     {
-        "Question": "Who was the British Prime Minister immediately before Margaret Thatcher?",
-        "RightAnswer": "James Callaghan",
-        "WrongAnswers": [
-            "Edward Heath",
-            "Harold Wilson",
-            "John Major"
-        ],
-        "Explanation": "James Callaghan served as Prime Minister before Margaret Thatcher took office in 1979.",
-        "id": "#40193",
-        "category": ""
-    },
-    {
         "Question": "Which British festival is known for showcasing contemporary performing arts and experimental performances?",
         "RightAnswer": "Edinburgh Festival Fringe",
         "WrongAnswers": [
@@ -39298,18 +38794,6 @@
         ],
         "Explanation": "The Edinburgh Festival Fringe is renowned for its wide range of contemporary and experimental performances in theatre, comedy, and other arts.",
         "id": "#40194",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Battle of Culloden in 1746?",
-        "RightAnswer": "To suppress the Jacobite uprising and end clan power in the Highlands",
-        "WrongAnswers": [
-            "To defend against Viking invasions",
-            "To establish British control over Ireland",
-            "To defeat Napoleon's forces"
-        ],
-        "Explanation": "The Battle of Culloden was fought to suppress the Jacobite uprising led by Bonnie Prince Charlie, leading to the end of traditional clan power in the Scottish Highlands.",
-        "id": "#40195",
         "category": ""
     },
     {
@@ -39418,30 +38902,6 @@
         ],
         "Explanation": "Charles Dickens authored several classic novels, including 'Oliver Twist' and 'Great Expectations,' highlighting social issues of his time.",
         "id": "#40204",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was on the throne during the signing of the Good Friday Agreement in 1998?",
-        "RightAnswer": "Queen Elizabeth II",
-        "WrongAnswers": [
-            "King George VI",
-            "Queen Victoria",
-            "King Edward VII"
-        ],
-        "Explanation": "Queen Elizabeth II was the reigning monarch during the signing of the Good Friday Agreement in 1998, which was a major step towards peace in Northern Ireland.",
-        "id": "#40206",
-        "category": ""
-    },
-    {
-        "Question": "What is the significance of the Battle of Naseby in 1645?",
-        "RightAnswer": "It was a decisive victory for Parliamentarians during the English Civil War",
-        "WrongAnswers": [
-            "It marked the beginning of the Norman Conquest",
-            "It was the last battle of the Hundred Years War",
-            "It secured Scottish independence"
-        ],
-        "Explanation": "The Battle of Naseby was a crucial Parliamentarian victory in 1645, significantly weakening the Royalist forces and leading to the eventual defeat of King Charles I.",
-        "id": "#40207",
         "category": ""
     },
     {
@@ -39601,18 +39061,6 @@
         "category": ""
     },
     {
-        "Question": "Which British author wrote the novel '1984'?",
-        "RightAnswer": "George Orwell",
-        "WrongAnswers": [
-            "Aldous Huxley",
-            "Ray Bradbury",
-            "J.K. Rowling"
-        ],
-        "Explanation": "George Orwell is the author of the dystopian novel '1984,' which explores themes of totalitarianism and surveillance.",
-        "id": "#40231",
-        "category": ""
-    },
-    {
         "Question": "What is the main subject of the British play 'The Mousetrap' by Agatha Christie?",
         "RightAnswer": "A murder mystery",
         "WrongAnswers": [
@@ -39745,18 +39193,6 @@
         "category": ""
     },
     {
-        "Question": "What was the main reason for the decline of feudalism in southern Scotland?",
-        "RightAnswer": "Development of the clan system",
-        "WrongAnswers": [
-            "Invasion by the Vikings",
-            "Establishment of the Protestant Church",
-            "The Black Death"
-        ],
-        "Explanation": "In southern Scotland, the feudal system gradually declined and was replaced by the clan system, where land was owned and controlled by prominent families.",
-        "id": "#40243",
-        "category": ""
-    },
-    {
         "Question": "Which two houses make up the UK Parliament?",
         "RightAnswer": "The House of Lords and the House of Commons",
         "WrongAnswers": [
@@ -39842,7 +39278,7 @@
     },
     {
         "Question": "Which architectural style became popular again in Britain during the 19th century?",
-        "RightAnswer": "Gothic Revival",
+        "RightAnswer": "Gothic",
         "WrongAnswers": [
             "Baroque",
             "Classical",
@@ -39874,30 +39310,6 @@
         ],
         "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
         "id": "#40253",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40254",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40255",
         "category": ""
     },
     {
@@ -39934,30 +39346,6 @@
         ],
         "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
         "id": "#40258",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40259",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40260",
         "category": ""
     },
     {
@@ -39998,7 +39386,7 @@
     },
     {
         "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
+        "RightAnswer": "To introduce free secondary education",
         "WrongAnswers": [
             "To establish the National Health Service",
             "To abolish tuition fees for university education",
@@ -40018,18 +39406,6 @@
         ],
         "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
         "id": "#40265",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40266",
         "category": ""
     },
     {
@@ -40054,18 +39430,6 @@
         ],
         "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
         "id": "#40268",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40269",
         "category": ""
     },
     {
@@ -40102,18 +39466,6 @@
         ],
         "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
         "id": "#40272",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40273",
         "category": ""
     },
     {
@@ -40165,42 +39517,6 @@
         "category": ""
     },
     {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40278",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40279",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40280",
-        "category": ""
-    },
-    {
         "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
         "RightAnswer": "Winston Churchill",
         "WrongAnswers": [
@@ -40210,30 +39526,6 @@
         ],
         "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
         "id": "#40281",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40282",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40283",
         "category": ""
     },
     {
@@ -40261,42 +39553,6 @@
         "category": ""
     },
     {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40286",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40287",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40288",
-        "category": ""
-    },
-    {
         "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
         "RightAnswer": "Queen Elizabeth I",
         "WrongAnswers": [
@@ -40306,18 +39562,6 @@
         ],
         "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
         "id": "#40289",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40290",
         "category": ""
     },
     {
@@ -40357,54 +39601,6 @@
         "category": ""
     },
     {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40294",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40295",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40296",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40297",
-        "category": ""
-    },
-    {
         "Question": "Who was the first monarch of the House of Tudor?",
         "RightAnswer": "Henry VII",
         "WrongAnswers": [
@@ -40426,2058 +39622,6 @@
         ],
         "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
         "id": "#40299",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40300",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40301",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40302",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40303",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40304",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40305",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40306",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40307",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40308",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40309",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40310",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40311",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40312",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40313",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40314",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40315",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40316",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40317",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40318",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40319",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40320",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40321",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40322",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40323",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40324",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40326",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40327",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40328",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40329",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40330",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40331",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40332",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40333",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40334",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40335",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40336",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40337",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40338",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40339",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40340",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40341",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40342",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40343",
-        "category": ""
-    },
-    {
-        "Question": "What was one of the the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40344",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40345",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40346",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40347",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40348",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40349",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40350",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40351",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40352",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40354",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40355",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40356",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40358",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40359",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40360",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40361",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40362",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40363",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40364",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40365",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40366",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40367",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40368",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40369",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40370",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40372",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40373",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40374",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40375",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40376",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40377",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40378",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40379",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40380",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40381",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40382",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40383",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40384",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40385",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40386",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40387",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40388",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40389",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40390",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40391",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40392",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40393",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40394",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40395",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40396",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40397",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40398",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40399",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40400",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40401",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40402",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40403",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40404",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40405",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40406",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40407",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40408",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40409",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40410",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40411",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40412",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40413",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40414",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40415",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40416",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40417",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40418",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40419",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40420",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40421",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40422",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40423",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40424",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40425",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40426",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40427",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40428",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40429",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40430",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40431",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40432",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40433",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40434",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40435",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40436",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40437",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40438",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40439",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40440",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40441",
-        "category": ""
-    },
-    {
-        "Question": "What was one of the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40442",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40443",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40444",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40445",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40446",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40447",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic without a monarchy",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40448",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40449",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40450",
-        "category": ""
-    },
-    {
-        "Question": "What was the main aim of the Protestant Reformation in Britain?",
-        "RightAnswer": "To break away from the authority of the Pope and establish the Church of England",
-        "WrongAnswers": [
-            "To unify all Christian denominations under one church",
-            "To promote Catholic doctrines within England",
-            "To introduce Lutheranism as the state religion"
-        ],
-        "Explanation": "The Protestant Reformation aimed to break away from the Catholic Church's authority, leading to the establishment of the Church of England with the monarch as its head.",
-        "id": "#40451",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40452",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40453",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40454",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist is known for his work on electromagnetism and light?",
-        "RightAnswer": "James Clerk Maxwell",
-        "WrongAnswers": [
-            "Michael Faraday",
-            "Lord Rayleigh",
-            "Ernest Rutherford"
-        ],
-        "Explanation": "James Clerk Maxwell developed the theory of electromagnetism and made significant contributions to the understanding of light, unifying them into a single theoretical framework.",
-        "id": "#40455",
-        "category": ""
-    },
-    {
-        "Question": "What was the main reason for the English colonization of the eastern coast of America in the Elizabethan period?",
-        "RightAnswer": "To expand British trade and establish new settlements",
-        "WrongAnswers": [
-            "To find a route to India",
-            "To convert Native Americans to Christianity",
-            "To escape religious persecution"
-        ],
-        "Explanation": "During the Elizabethan period, English settlers began colonizing the eastern coast of America to expand trade and establish new settlements, laying the foundation for future British colonies.",
-        "id": "#40456",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40457",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40458",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40459",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40460",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40461",
-        "category": ""
-    },
-    {
-        "Question": "What was the main purpose of the Commonwealth period in British history?",
-        "RightAnswer": "To establish a republic",
-        "WrongAnswers": [
-            "To unify England and Scotland",
-            "To expand the British Empire",
-            "To reform the Church of England"
-        ],
-        "Explanation": "The Commonwealth period (1649\u20131660) was a republican form of government in England following the execution of King Charles I, led by Oliver Cromwell.",
-        "id": "#40462",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40463",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40464",
-        "category": ""
-    },
-    {
-        "Question": "Who was the first monarch of the House of Tudor?",
-        "RightAnswer": "Henry VII",
-        "WrongAnswers": [
-            "Henry VIII",
-            "Henry VI",
-            "Edward IV"
-        ],
-        "Explanation": "Henry VII was the first monarch of the House of Tudor, ascending to the throne after defeating Richard III at the Battle of Bosworth Field in 1485.",
-        "id": "#40466",
-        "category": ""
-    },
-    {
-        "Question": "Which battle is considered one of the most important in the Hundred Years War, where King Henry V defeated the French?",
-        "RightAnswer": "The Battle of Agincourt",
-        "WrongAnswers": [
-            "The Battle of Crecy",
-            "The Battle of Poitiers",
-            "The Battle of Tours"
-        ],
-        "Explanation": "The Battle of Agincourt in 1415 was a significant victory for the English forces under King Henry V against the French during the Hundred Years War.",
-        "id": "#40467",
-        "category": ""
-    },
-    {
-        "Question": "What was the main contribution of William Caxton to British society?",
-        "RightAnswer": "Introducing the printing press to England",
-        "WrongAnswers": [
-            "Leading the Norman Conquest",
-            "Founding the Royal Society",
-            "Writing 'The Canterbury Tales'"
-        ],
-        "Explanation": "William Caxton was the first person to introduce the printing press to England, revolutionizing the production and distribution of books.",
-        "id": "#40468",
-        "category": ""
-    },
-    {
-        "Question": "Which British monarch was known for re-establishing the Church of England as the official church?",
-        "RightAnswer": "Queen Elizabeth I",
-        "WrongAnswers": [
-            "Queen Mary I",
-            "King Henry VIII",
-            "King James I"
-        ],
-        "Explanation": "Queen Elizabeth I re-established the Church of England as the official church, promoting a moderate form of Protestantism and avoiding extreme religious conflict.",
-        "id": "#40469",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister during the Falklands War in 1982?",
-        "RightAnswer": "Margaret Thatcher",
-        "WrongAnswers": [
-            "John Major",
-            "Tony Blair",
-            "David Cameron"
-        ],
-        "Explanation": "Margaret Thatcher was the British Prime Minister during the Falklands War, leading British forces to reclaim the islands from Argentina.",
-        "id": "#40470",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'The Lord of the Rings'?",
-        "RightAnswer": "J.R.R. Tolkien",
-        "WrongAnswers": [
-            "C.S. Lewis",
-            "Philip Pullman",
-            "George R.R. Martin"
-        ],
-        "Explanation": "J.R.R. Tolkien is the author of 'The Lord of the Rings,' a seminal work in the fantasy genre.",
-        "id": "#40471",
-        "category": ""
-    },
-    {
-        "Question": "What was the purpose of the Education Act 1944, also known as the Butler Act?",
-        "RightAnswer": "To introduce free secondary education in England and Wales",
-        "WrongAnswers": [
-            "To establish the National Health Service",
-            "To abolish tuition fees for university education",
-            "To integrate technology into classrooms"
-        ],
-        "Explanation": "The Education Act 1944, known as the Butler Act, established the framework for the modern education system in England and Wales, including the introduction of free secondary education.",
-        "id": "#40472",
-        "category": ""
-    },
-    {
-        "Question": "Which British author is known for writing 'Oliver Twist' and 'Great Expectations'?",
-        "RightAnswer": "Charles Dickens",
-        "WrongAnswers": [
-            "Jane Austen",
-            "George Eliot",
-            "Thomas Hardy"
-        ],
-        "Explanation": "Charles Dickens authored 'Oliver Twist' and 'Great Expectations,' among other classic novels, highlighting social issues of his time.",
-        "id": "#40473",
-        "category": ""
-    },
-    {
-        "Question": "Who was the British Prime Minister known for leading the country during most of the Second World War?",
-        "RightAnswer": "Winston Churchill",
-        "WrongAnswers": [
-            "Neville Chamberlain",
-            "Clement Attlee",
-            "Harold Macmillan"
-        ],
-        "Explanation": "Winston Churchill served as the British Prime Minister during most of the Second World War, providing strong leadership and inspiring speeches.",
-        "id": "#40474",
-        "category": ""
-    },
-    {
-        "Question": "Which British scientist developed the laws of motion and universal gravitation?",
-        "RightAnswer": "Isaac Newton",
-        "WrongAnswers": [
-            "Albert Einstein",
-            "James Clerk Maxwell",
-            "Michael Faraday"
-        ],
-        "Explanation": "Isaac Newton formulated the laws of motion and the universal law of gravitation, fundamental principles in physics.",
-        "id": "#40475",
         "category": ""
     },
     {
@@ -42766,18 +39910,6 @@
         ],
         "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England, where William the Duke of Normandy defeated the Saxon King Harold.",
         "id": "#40500",
-        "category": ""
-    },
-    {
-        "Question": "Which battle led to significant changes in government and social structures in England?",
-        "RightAnswer": "Battle of Hastings",
-        "WrongAnswers": [
-            "Battle of Bosworth Field",
-            "Battle of the Boyne",
-            "Battle of Culloden"
-        ],
-        "Explanation": "Battle of Hastings (1066): This battle marked the Norman Conquest, the last successful foreign invasion of England, where William the Duke of Normandy defeated the Saxon King Harold. The battle led to significant changes in government and social structures in England.",
-        "id": "#40501",
         "category": ""
     },
     {
@@ -43534,18 +40666,6 @@
         ],
         "Explanation": "Battle of Trafalgar (1805): Nelson\u2019s Column in Trafalgar Square, London, is a monument to Admiral Nelson who was killed in the battle.",
         "id": "#40566",
-        "category": ""
-    },
-    {
-        "Question": "Which battle in 1746 was the last pitched battle fought on British soil?",
-        "RightAnswer": "Battle of Culloden",
-        "WrongAnswers": [
-            "Battle of Naseby",
-            "Battle of Trafalgar",
-            "Battle of the Boyne"
-        ],
-        "Explanation": "Battle of Culloden (1746): Charles Edward Stuart (Bonnie Prince Charlie) was defeated by George II\u2019s army at the Battle of Culloden.",
-        "id": "#40567",
         "category": ""
     },
     {
@@ -44353,18 +41473,6 @@
         "category": ""
     },
     {
-        "Question": "As of 2013, Queen Victoria's reign was the longest of any British monarch. How many years did she reign?",
-        "RightAnswer": "64 years",
-        "WrongAnswers": [
-            "50 years",
-            "55 years",
-            "60 years"
-        ],
-        "Explanation": "She reigned until 1901, almost 64 years.",
-        "id": "#40635",
-        "category": ""
-    },
-    {
         "Question": "Between which years did as many as 13 million British citizens leave the country?",
         "RightAnswer": "1853 and 1913",
         "WrongAnswers": [
@@ -44857,18 +41965,6 @@
         "category": ""
     },
     {
-        "Question": "What was the title of Isaac Newton's most famous published work?",
-        "RightAnswer": "Philosophiae Naturalis Principia Mathematica",
-        "WrongAnswers": [
-            "Mathematical Principles of Natural Philosophy",
-            "Principia Mathematica Newtoniana",
-            "Naturalis Principia Philosophiae"
-        ],
-        "Explanation": "His most famous published work was Philosophiae Naturalis Principia Mathematica (\u2018Mathematical Principles of Natural Philosophy\u2019), which showed how gravity applied to the whole universe.",
-        "id": "#40678",
-        "category": ""
-    },
-    {
         "Question": "In which year did Charles II die?",
         "RightAnswer": "1685",
         "WrongAnswers": [
@@ -44977,27 +42073,15 @@
         "category": ""
     },
     {
-        "Question": "In which century did the first Christian communities begin to appear in Britain?",
-        "RightAnswer": "3rd century AD",
+        "Question": "In which centuries did the first Christian communities begin to appear in Britain?",
+        "RightAnswer": "3rd/4th century AD",
         "WrongAnswers": [
-            "2nd century AD",
-            "5th century AD",
-            "6th century AD"
+            "2nd/3rd century AD",
+            "5th/6th century AD",
+            "6th/7th century AD"
         ],
         "Explanation": "It was during the 3rd and 4th centuries AD that the first Christian communities began to appear in Britain.",
         "id": "#40688",
-        "category": ""
-    },
-    {
-        "Question": "In which century did the first Christian communities continue to appear in Britain?",
-        "RightAnswer": "4th century AD",
-        "WrongAnswers": [
-            "2nd century AD",
-            "5th century AD",
-            "6th century AD"
-        ],
-        "Explanation": "It was during the 3rd and 4th centuries AD that the first Christian communities began to appear in Britain.",
-        "id": "#40689",
         "category": ""
     },
     {
@@ -45829,12 +42913,12 @@
         "category": ""
     },
     {
-        "Question": "In which year did another Act of Parliament further secure the rights of wives to their own earnings and property?",
+        "Question": "In which year did another Act of Parliament further secure the rights of wives to their own earnings and property (after 1870)?",
         "RightAnswer": "1882",
         "WrongAnswers": [
-            "1870",
-            "1865",
-            "1890"
+            "1880",
+            "1881",
+            "1883"
         ],
         "Explanation": "Until 1870, when a woman got married, her earnings, property and money automatically belonged to her husband. Acts of Parliament in 1870 and 1882 gave wives the right to keep their own earnings and property.",
         "id": "#40759",
@@ -47054,7 +44138,7 @@
     },
     {
         "Question": "In which year did Ireland become two countries under the Anglo-Irish treaty?",
-        "RightAnswer": "1921",
+        "RightAnswer": "1965",
         "WrongAnswers": [
             "1922",
             "1949",
@@ -47438,7 +44522,7 @@
     },
     {
         "Question": "Which of these athletes is a Paralympian who is an athlete who uses a wheelchair and won 16 Paralympic medals, including 11 gold medals?",
-        "RightAnswer": "Baroness Tanni Grey-Thompson",
+        "RightAnswer": "Tanni Grey-Thompson",
         "WrongAnswers": [
             "Jessica Ennis",
             "David Weir",
@@ -49009,18 +46093,6 @@
         "category": ""
     },
     {
-        "Question": "Which modern British architect is known as Sir Norman?",
-        "RightAnswer": "Norman Foster",
-        "WrongAnswers": [
-            "Lord Richard Rogers",
-            "Dame Zaha Hadid",
-            "David Adjaye"
-        ],
-        "Explanation": "Modern British architects including Sir Norman Foster, Lord (Richard) Rogers and Dame Zaha Hadid continue to work on major projects throughout the world as well as within the UK.",
-        "id": "#41025",
-        "category": ""
-    },
-    {
         "Question": "What was Lancelot Brown's nickname?",
         "RightAnswer": "'Capability'",
         "WrongAnswers": [
@@ -49201,18 +46273,6 @@
         "category": ""
     },
     {
-        "Question": "In which year was The Lord of the Rings voted the country's best-loved novel?",
-        "RightAnswer": "2003",
-        "WrongAnswers": [
-            "2001",
-            "2005",
-            "1999"
-        ],
-        "Explanation": "In 2003, The Lord of the Rings by JRR Tolkien was voted the country\u2019s best-loved novel.",
-        "id": "#41041",
-        "category": ""
-    },
-    {
         "Question": "Who is the author of The Lord of the Rings?",
         "RightAnswer": "JRR Tolkien",
         "WrongAnswers": [
@@ -49285,12 +46345,12 @@
         "category": ""
     },
     {
-        "Question": "Which of the following is another novel written by Jane Austen?",
+        "Question": "Which of the following is a novel written by Jane Austen?",
         "RightAnswer": "Sense and Sensibility",
         "WrongAnswers": [
-            "Emma",
-            "Mansfield Park",
-            "Northanger Abbey"
+            "Frankenstein",
+            "Ivanhoe",
+            "The Monk"
         ],
         "Explanation": "Jane Austen was an English novelist. Her books include Pride and Prejudice and Sense and Sensibility. Her novels are concerned with marriage and family relationships. Many have been made into television programmes or films.",
         "id": "#41048",
@@ -49525,66 +46585,6 @@
         "category": ""
     },
     {
-        "Question": "Which novel by Graham Greene is influenced by his religious beliefs?",
-        "RightAnswer": "The Heart of the Matter",
-        "WrongAnswers": [
-            "1984",
-            "Brave New World",
-            "Animal Farm"
-        ],
-        "Explanation": "Graham Greene wrote novels often influenced by his religious beliefs, including The Heart of the Matter, The Honorary Consul, Brighton Rock and Our Man in Havana.",
-        "id": "#41069",
-        "category": ""
-    },
-    {
-        "Question": "Which of the following is a novel written by Graham Greene?",
-        "RightAnswer": "The Honorary Consul",
-        "WrongAnswers": [
-            "To Kill a Mockingbird",
-            "The Great Gatsby",
-            "Pride and Prejudice"
-        ],
-        "Explanation": "Graham Greene wrote novels often influenced by his religious beliefs, including The Heart of the Matter, The Honorary Consul, Brighton Rock and Our Man in Havana.",
-        "id": "#41070",
-        "category": ""
-    },
-    {
-        "Question": "Which Graham Greene novel is set in Havana?",
-        "RightAnswer": "Our Man in Havana",
-        "WrongAnswers": [
-            "The Quiet American",
-            "The Power and the Glory",
-            "The End of the Affair"
-        ],
-        "Explanation": "Graham Greene wrote novels often influenced by his religious beliefs, including The Heart of the Matter, The Honorary Consul, Brighton Rock and Our Man in Havana.",
-        "id": "#41071",
-        "category": ""
-    },
-    {
-        "Question": "Who wrote the Harry Potter series of children's books?",
-        "RightAnswer": "J K Rowling",
-        "WrongAnswers": [
-            "Stephen King",
-            "George R R Martin",
-            "Suzanne Collins"
-        ],
-        "Explanation": "J K Rowling wrote the Harry Potter series of children\u2019s books, which have enjoyed huge international success. She now writes fiction for adults as well.",
-        "id": "#41072",
-        "category": ""
-    },
-    {
-        "Question": "What type of books did J K Rowling write after the Harry Potter series?",
-        "RightAnswer": "Fiction for adults",
-        "WrongAnswers": [
-            "Science fiction",
-            "Non-fiction",
-            "Poetry"
-        ],
-        "Explanation": "J K Rowling wrote the Harry Potter series of children\u2019s books, which have enjoyed huge international success. She now writes fiction for adults as well.",
-        "id": "#41073",
-        "category": ""
-    },
-    {
         "Question": "What type of creatures does Beowulf battle in the poem?",
         "RightAnswer": "Monsters",
         "WrongAnswers": [
@@ -49618,30 +46618,6 @@
         ],
         "Explanation": "Poems which survive from the Middle Ages include Chaucer\u2019s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur.",
         "id": "#41076",
-        "category": ""
-    },
-    {
-        "Question": "How many lines must a sonnet have?",
-        "RightAnswer": "14",
-        "WrongAnswers": [
-            "12",
-            "16",
-            "10"
-        ],
-        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems.",
-        "id": "#41077",
-        "category": ""
-    },
-    {
-        "Question": "What type of literary work, besides plays, did Shakespeare write?",
-        "RightAnswer": "Sonnets",
-        "WrongAnswers": [
-            "Novels",
-            "Short stories",
-            "Essays"
-        ],
-        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems.",
-        "id": "#41078",
         "category": ""
     },
     {
@@ -49933,30 +46909,6 @@
         "category": ""
     },
     {
-        "Question": "Which British actress known for her role in 'The Reader' has won an Oscar?",
-        "RightAnswer": "Kate Winslet",
-        "WrongAnswers": [
-            "Tilda Swinton",
-            "Dame Judi Dench",
-            "Emily Blunt"
-        ],
-        "Explanation": "Recent British actors to have won Oscars include Colin Firth, Sir Anthony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton.",
-        "id": "#41105",
-        "category": ""
-    },
-    {
-        "Question": "Which British actress known for her role in 'Michael Clayton' has won an Oscar?",
-        "RightAnswer": "Tilda Swinton",
-        "WrongAnswers": [
-            "Kate Winslet",
-            "Dame Judi Dench",
-            "Helen Mirren"
-        ],
-        "Explanation": "Recent British actors to have won Oscars include Colin Firth, Sir Anthony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton.",
-        "id": "#41106",
-        "category": ""
-    },
-    {
         "Question": "What is the British equivalent of the Oscars?",
         "RightAnswer": "British Academy Film Awards",
         "WrongAnswers": [
@@ -50210,7 +47162,7 @@
     },
     {
         "Question": "Where is Big Ben located?",
-        "RightAnswer": "Houses of Parliament in London",
+        "RightAnswer": "Houses of Parliament",
         "WrongAnswers": [
             "Buckingham Palace",
             "Tower of London",
@@ -50474,7 +47426,7 @@
     },
     {
         "Question": "For what occasion was the London Eye originally built?",
-        "RightAnswer": "The UK's celebration of the new millennium",
+        "RightAnswer": "The new millennium celebration",
         "WrongAnswers": [
             "The Queen's Diamond Jubilee",
             "The 2012 London Olympics",
@@ -50506,18 +47458,6 @@
         ],
         "Explanation": "Snowdonia is a national park in North Wales. It covers an area of 838 square miles (2,170 square kilometres). Its most well-known landmark is Snowdon, which is the highest mountain in Wales.",
         "id": "#41154",
-        "category": ""
-    },
-    {
-        "Question": "What is the area covered by Snowdonia National Park in square kilometres?",
-        "RightAnswer": "2,170",
-        "WrongAnswers": [
-            "1,500",
-            "2,500",
-            "3,000"
-        ],
-        "Explanation": "Snowdonia is a national park in North Wales. It covers an area of 838 square miles (2,170 square kilometres). Its most well-known landmark is Snowdon, which is the highest mountain in Wales.",
-        "id": "#41155",
         "category": ""
     },
     {
@@ -50917,30 +47857,6 @@
         "category": ""
     },
     {
-        "Question": "How many lines must a sonnet have?",
-        "RightAnswer": "14",
-        "WrongAnswers": [
-            "12",
-            "16",
-            "10"
-        ],
-        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems.",
-        "id": "#41189",
-        "category": ""
-    },
-    {
-        "Question": "What type of literary work, besides plays, did Shakespeare write?",
-        "RightAnswer": "Sonnets",
-        "WrongAnswers": [
-            "Novels",
-            "Short stories",
-            "Essays"
-        ],
-        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems.",
-        "id": "#41190",
-        "category": ""
-    },
-    {
         "Question": "Who wrote 'Paradise Lost'?",
         "RightAnswer": "John Milton",
         "WrongAnswers": [
@@ -51070,30 +47986,6 @@
         ],
         "Explanation": "The Anglo-Saxon poem Beowulf tells of its hero\u2019s battles against monsters and is still translated into modern English. Poems which survive from the Middle Ages include Chaucer\u2019s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur.",
         "id": "#41201",
-        "category": ""
-    },
-    {
-        "Question": "How many lines must a Shakespearean sonnet have?",
-        "RightAnswer": "14",
-        "WrongAnswers": [
-            "12",
-            "16",
-            "18"
-        ],
-        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems.",
-        "id": "#41202",
-        "category": ""
-    },
-    {
-        "Question": "What type of literary work, besides plays, did Shakespeare write?",
-        "RightAnswer": "Sonnets",
-        "WrongAnswers": [
-            "Novels",
-            "Short stories",
-            "Essays"
-        ],
-        "Explanation": "As well as plays, Shakespeare wrote many sonnets (poems which must be 14 lines long) and some longer poems.",
-        "id": "#41203",
         "category": ""
     },
     {
