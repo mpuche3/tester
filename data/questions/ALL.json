@@ -6928,7 +6928,7 @@
         "RightAnswer": "William, the Duke of Normandy",
         "WrongAnswers": [
             "Harold, the Saxon king",
-            "William the Conqueror",
+            "William III",
             "The Norman king"
         ],
         "Explanation": "In 1066, an invasion led by William, the Duke of Normandy (in what is now northern France), defeated Harold, the Saxon king of England, at the Battle of Hastings.",
@@ -15885,18 +15885,6 @@
         ],
         "Explanation": "The first formal anti-slavery groups were set up by the Quakers in the late 1700s, and they petitioned Parliament to ban the practice.",
         "id": "#11341",
-        "category": "H"
-    },
-    {
-        "Question": "When did the Quakers set up the first formal anti-slavery groups?",
-        "RightAnswer": "Late 1700s",
-        "WrongAnswers": [
-            "Early 1700s",
-            "Mid 1800s",
-            "Early 1600s"
-        ],
-        "Explanation": "The first formal anti-slavery groups were set up by the Quakers in the late 1700s, and they petitioned Parliament to ban the practice.",
-        "id": "#11342",
         "category": "H"
     },
     {
@@ -24877,7 +24865,7 @@
     },
     {
         "Question": "What is 'The 39 Steps'?",
-        "RightAnswer": "A film directed",
+        "RightAnswer": "A British film",
         "WrongAnswers": [
             "A famous British novel by Agatha Christie",
             "A historical British landmark",
@@ -27265,7 +27253,7 @@
     },
     {
         "Question": "Who is the athlete that won 16 Paralympic medals, including 11 gold medals, and broke a total of 30 world records?",
-        "RightAnswer": "Baroness Tanni-Grey Thompson",
+        "RightAnswer": "Tanni-Grey Thompson",
         "WrongAnswers": [
             "Ellie Simmonds",
             "David Weir",
@@ -32064,18 +32052,6 @@
         "category": "H"
     },
     {
-        "Question": "How often are elections for the European Parliament held?",
-        "RightAnswer": "Every five years",
-        "WrongAnswers": [
-            "Every four years",
-            "Every six years",
-            "Annually"
-        ],
-        "Explanation": "Elections for the European Parliament are also held every five years. Elected members are called members of the European Parliament (MEPs). Elections to the European Parliament use a system of proportional representation, where seats are allocated to each party in proportion to the total number of votes it has won.",
-        "id": "#30213",
-        "category": "H"
-    },
-    {
         "Question": "What is the title given to elected members of the European Parliament?",
         "RightAnswer": "MEPs",
         "WrongAnswers": [
@@ -32568,20 +32544,8 @@
         "category": "H"
     },
     {
-        "Question": "What benefit might someone not receive if they don't pay enough National Insurance Contributions?",
-        "RightAnswer": "Jobseeker's Allowance",
-        "WrongAnswers": [
-            "Child Benefit",
-            "Housing Benefit",
-            "Disability Living Allowance"
-        ],
-        "Explanation": "Anyone who does not pay enough National Insurance Contributions will not be able to receive certain contributory benefits such as Jobseeker\u2019s Allowance or a full state retirement pension. Some workers, such as part-time workers, may not qualify for statutory payments such as maternity pay if they do not earn enough.",
-        "id": "#30258",
-        "category": "H"
-    },
-    {
         "Question": "Which type of pension may be affected by insufficient National Insurance Contributions?",
-        "RightAnswer": "Full state retirement pension",
+        "RightAnswer": "State retirement pension",
         "WrongAnswers": [
             "Private pension",
             "Company pension",
@@ -35121,18 +35085,6 @@
         ],
         "Explanation": "Proceedings in Parliament are broadcast on television and published in official reports called Hansard. Written reports can be found in large libraries and at www.parliament.uk.",
         "id": "#30480",
-        "category": "H"
-    },
-    {
-        "Question": "Which website provides access to written reports of Parliamentary proceedings?",
-        "RightAnswer": "www.parliament.uk",
-        "WrongAnswers": [
-            "www.gov.uk",
-            "www.hansard.com",
-            "www.ukparliament.org"
-        ],
-        "Explanation": "Proceedings in Parliament are broadcast on television and published in official reports called Hansard. Written reports can be found in large libraries and at www.parliament.uk.",
-        "id": "#30481",
         "category": "H"
     },
     {
