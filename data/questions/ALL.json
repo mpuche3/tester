@@ -3348,7 +3348,19 @@
         "category": "H"
     },
     {
-        "Question": "Which of the following is not a of Shakespeare's most famous plays?",
+        "Question": "Which of the following is NOT one of Shakespeare's plays?",
+        "RightAnswer": "Pride and Prejudice",
+        "WrongAnswers": [
+            "A Midsummer Night's Dream",
+            "Hamlet",
+            "Romeo and Juliet"
+        ],
+        "Explanation": "His most famous plays include A Midsummer Night's Dream, Hamlet, Macbeth, and Romeo and Juliet.",
+        "id": "#10280",
+        "category": "H"
+    },
+    {
+        "Question": "Which of the following is a of Shakespeare's play?",
         "RightAnswer": "A Doll's House",
         "WrongAnswers": [
             "A Midsummer Night's Dream",
@@ -7573,7 +7585,7 @@
     },
     {
         "Question": "What was the Reformation a movement against?",
-        "RightAnswer": "The authority of the Pope and the ideas and practices of the Roman Catholic Church",
+        "RightAnswer": "The authority of the Pope",
         "WrongAnswers": [
             "The authority of the King",
             "The use of English in churches",
@@ -8457,18 +8469,6 @@
         ],
         "Explanation": "The Bill of Rights (1689) confirmed the rights of Parliament and the limits of the king's power.",
         "id": "#10708",
-        "category": "H"
-    },
-    {
-        "Question": "How often did a new Parliament have to be elected according to the new rules?",
-        "RightAnswer": "At least every three years",
-        "WrongAnswers": [
-            "Every year",
-            "Every five years",
-            "Every seven years"
-        ],
-        "Explanation": "A new Parliament had to be elected at least every three years (later this became seven years and now it is five years).",
-        "id": "#10709",
         "category": "H"
     },
     {
@@ -9773,7 +9773,7 @@
         "WrongAnswers": [
             "12.00 am on 11th November 1918",
             "10.00 am on 11th November 1918",
-            "11.00 am on 11th November 1918"
+            "13.00 am on 11th November 1918"
         ],
         "Explanation": "The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies.",
         "id": "#10822",
@@ -13765,7 +13765,7 @@
     },
     {
         "Question": "To whom did Mary Stuart give her throne when she fled to England?",
-        "RightAnswer": "Her Protestant son, James VI of Scotland",
+        "RightAnswer": "Her Protestant son",
         "WrongAnswers": [
             "Elizabeth I",
             "Her Catholic brother",
@@ -15181,7 +15181,7 @@
     },
     {
         "Question": "Who supported Charles Edward Stuart (son of James II) in raising an army?",
-        "RightAnswer": "Clansmen from the Scottish highlands",
+        "RightAnswer": "Clansmen",
         "WrongAnswers": [
             "English nobles",
             "Irish rebels",
@@ -16644,18 +16644,6 @@
         "category": "H"
     },
     {
-        "Question": "Where does the Great Western Railway start in London?",
-        "RightAnswer": "Paddington Station",
-        "WrongAnswers": [
-            "King's Cross Station",
-            "Waterloo Station",
-            "Victoria Station"
-        ],
-        "Explanation": "It runs from Paddington Station in London to the south west of England, the West Midlands and Wales.",
-        "id": "#11404",
-        "category": "H"
-    },
-    {
         "Question": "Which of the following regions is NOT served by the Great Western Railway?",
         "RightAnswer": "Scotland",
         "WrongAnswers": [
@@ -17796,7 +17784,7 @@
         "category": "H"
     },
     {
-        "Question": "Which countries were part of the Axis powers?",
+        "Question": "Which countries were part of the Axis powers (WWII)?",
         "RightAnswer": "Germany, Italy, and Japan",
         "WrongAnswers": [
             "Germany, France, and Italy",
@@ -18321,18 +18309,6 @@
         ],
         "Explanation": "During the 1950s, there was still a shortage of labour in the UK. Further immigration was therefore encouraged for economic reasons, and many industries advertised for workers from overseas. For example, centres were set up in the West Indies to recruit people to drive buses. Textile and engineering firms from the north of England and the Midlands sent agents to India and Pakistan to find workers. For about 25 years, people from the West Indies, India, Pakistan and (later) Bangladesh travelled to work and settle in Britain.",
         "id": "#11543",
-        "category": "H"
-    },
-    {
-        "Question": "For approximately how long did people from the West Indies, India, Pakistan, and Bangladesh travel to work and settle in Britain?",
-        "RightAnswer": "25 years",
-        "WrongAnswers": [
-            "10 years",
-            "40 years",
-            "50 years"
-        ],
-        "Explanation": "During the 1950s, there was still a shortage of labour in the UK. Further immigration was therefore encouraged for economic reasons, and many industries advertised for workers from overseas. For example, centres were set up in the West Indies to recruit people to drive buses. Textile and engineering firms from the north of England and the Midlands sent agents to India and Pakistan to find workers. For about 25 years, people from the West Indies, India, Pakistan and (later) Bangladesh travelled to work and settle in Britain.",
-        "id": "#11544",
         "category": "H"
     },
     {
@@ -21984,18 +21960,6 @@
         "category": "F"
     },
     {
-        "Question": "Which playwright included comic characters in his plays?",
-        "RightAnswer": "Shakespeare",
-        "WrongAnswers": [
-            "Morecambe",
-            "Wise",
-            "Monty Python"
-        ],
-        "Explanation": "Later, Shakespeare included comic characters in his plays.",
-        "id": "#20246",
-        "category": "F"
-    },
-    {
         "Question": "Which composer wrote the Water Music for King George I?",
         "RightAnswer": "George Frederick Handel",
         "WrongAnswers": [
@@ -23809,7 +23773,7 @@
     },
     {
         "Question": "What is The Planets?",
-        "RightAnswer": "A suite of pieces themed around the planets of the solar system by Gustav Holst",
+        "RightAnswer": "A suite of orchestral pieces",
         "WrongAnswers": [
             "A British science fiction novel",
             "A famous British painting",
@@ -23817,6 +23781,30 @@
         ],
         "Explanation": "More recently, important composers include Gustav Holst, whose work includes The Planets, a suite of pieces themed around the planets of the solar system.",
         "id": "#20395",
+        "category": "F"
+    },
+    {
+        "Question": "Who wrote The Planets?",
+        "RightAnswer": "Gustav Holst",
+        "WrongAnswers": [
+            "Benjamin Britten",
+            "Edward Elgar",
+            "Ralph Vaughan Williams"
+        ],
+        "Explanation": "Gustav Holst composed The Planets, a suite of orchestral pieces themed around the planets of the solar system.",
+        "id": "#80395",
+        "category": "F"
+    },
+    {
+        "Question": "What is The Planets?",
+        "RightAnswer": "A suite of orchestral pieces",
+        "WrongAnswers": [
+            "A British science fiction novel",
+            "A famous British painting",
+            "A British television series"
+        ],
+        "Explanation": "More recently, important composers include Gustav Holst, whose work includes The Planets, a suite of pieces themed around the planets of the solar system.",
+        "id": "#80395",
         "category": "F"
     },
     {
@@ -24019,7 +24007,7 @@
             "A famous sculptor from the Middle Ages",
             "A gallery owner in Cardiff"
         ],
-        "Explanation": "Previous winners include Damien Hirst and Richard Wright.",
+        "Explanation": "Previous winners of the Turner Prize include Damien Hirst and Richard Wright.",
         "id": "#20412",
         "category": "F"
     },
@@ -24684,7 +24672,7 @@
         "category": "F"
     },
     {
-        "Question": "What is the Battle of the Boyne?",
+        "Question": "What is the Battle of the Boyne (anniversary)?",
         "RightAnswer": "A public holiday in Northern Ireland",
         "WrongAnswers": [
             "A famous Irish song",
@@ -24901,7 +24889,7 @@
     },
     {
         "Question": "What is 'The 39 Steps'?",
-        "RightAnswer": "A film directed by Alfred Hitchcock",
+        "RightAnswer": "A film directed",
         "WrongAnswers": [
             "A famous British novel by Agatha Christie",
             "A historical British landmark",
@@ -24913,7 +24901,7 @@
     },
     {
         "Question": "What is 'Brief Encounter'?",
-        "RightAnswer": "A British film directed by David Lean",
+        "RightAnswer": "A British film",
         "WrongAnswers": [
             "A British play by William Shakespeare",
             "A British painting by J.M.W. Turner",
@@ -24925,7 +24913,7 @@
     },
     {
         "Question": "What is 'The Third Man'?",
-        "RightAnswer": "A British film directed by Carol Reed",
+        "RightAnswer": "A British film",
         "WrongAnswers": [
             "A British novel by Charles Dickens",
             "A British sculpture by Henry Moore",
@@ -24937,7 +24925,7 @@
     },
     {
         "Question": "What is 'The Belles of St Trinian\u2019s'?",
-        "RightAnswer": "A British film directed by Frank Launder",
+        "RightAnswer": "A British film",
         "WrongAnswers": [
             "A British children's book series",
             "A British fashion brand",
@@ -24949,7 +24937,7 @@
     },
     {
         "Question": "What is 'Lawrence of Arabia'?",
-        "RightAnswer": "A British film directed by David Lean",
+        "RightAnswer": "A British film",
         "WrongAnswers": [
             "A British novel by George Orwell",
             "A British historical figure",
@@ -24985,7 +24973,7 @@
     },
     {
         "Question": "What is 'Chariots of Fire'?",
-        "RightAnswer": "A British film directed by Hugh Hudson",
+        "RightAnswer": "A British film",
         "WrongAnswers": [
             "A British sports event",
             "A British historical novel",
@@ -24997,7 +24985,7 @@
     },
     {
         "Question": "What is 'The Killing Fields'?",
-        "RightAnswer": "A British film directed by Roland Joff\u00e9",
+        "RightAnswer": "A British film",
         "WrongAnswers": [
             "A British war memorial",
             "A British historical novel",
@@ -25029,6 +25017,138 @@
         ],
         "Explanation": "Touching the Void (2003), directed by Kevin MacDonald.",
         "id": "#20496",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'The 39 Steps'?",
+        "RightAnswer": "Alfred Hitchcock",
+        "WrongAnswers": [
+            "David Lean",
+            "Carol Reed",
+            "Frank Launder"
+        ],
+        "Explanation": "The 39 Steps (1935), directed by Alfred Hitchcock.",
+        "id": "#80486",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'Brief Encounter'?",
+        "RightAnswer": "David Lean",
+        "WrongAnswers": [
+            "Alfred Hitchcock",
+            "Ken Russell",
+            "Nicolas Roeg"
+        ],
+        "Explanation": "Brief Encounter (1945), directed by David Lean.",
+        "id": "#80487",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'The Third Man'?",
+        "RightAnswer": "Carol Reed",
+        "WrongAnswers": [
+            "David Lean",
+            "Hugh Hudson",
+            "Roland Joffé"
+        ],
+        "Explanation": "The Third Man (1949), directed by Carol Reed.",
+        "id": "#80488",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'The Belles of St Trinian’s'?",
+        "RightAnswer": "Frank Launder",
+        "WrongAnswers": [
+            "Mike Newell",
+            "Kevin MacDonald",
+            "Ken Russell"
+        ],
+        "Explanation": "The Belles of St Trinian’s (1954), directed by Frank Launder.",
+        "id": "#80489",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'Lawrence of Arabia'?",
+        "RightAnswer": "David Lean",
+        "WrongAnswers": [
+            "Alfred Hitchcock",
+            "Carol Reed",
+            "Roland Joffé"
+        ],
+        "Explanation": "Lawrence of Arabia (1962), directed by David Lean.",
+        "id": "#80490",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'Women in Love'?",
+        "RightAnswer": "Ken Russell",
+        "WrongAnswers": [
+            "Nicolas Roeg",
+            "Hugh Hudson",
+            "Mike Newell"
+        ],
+        "Explanation": "Women in Love (1969), directed by Ken Russell.",
+        "id": "#80491",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'Don’t Look Now'?",
+        "RightAnswer": "Nicolas Roeg",
+        "WrongAnswers": [
+            "David Lean",
+            "Frank Launder",
+            "Kevin MacDonald"
+        ],
+        "Explanation": "Don’t Look Now (1973), directed by Nicolas Roeg.",
+        "id": "#80492",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'Chariots of Fire'?",
+        "RightAnswer": "Hugh Hudson",
+        "WrongAnswers": [
+            "Ken Russell",
+            "Roland Joffé",
+            "Mike Newell"
+        ],
+        "Explanation": "Chariots of Fire (1981), directed by Hugh Hudson.",
+        "id": "#80493",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'The Killing Fields'?",
+        "RightAnswer": "Roland Joffé",
+        "WrongAnswers": [
+            "David Lean",
+            "Nicolas Roeg",
+            "Kevin MacDonald"
+        ],
+        "Explanation": "The Killing Fields (1984), directed by Roland Joffé.",
+        "id": "#80494",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'Four Weddings and a Funeral'?",
+        "RightAnswer": "Mike Newell",
+        "WrongAnswers": [
+            "Frank Launder",
+            "Hugh Hudson",
+            "Ken Russell"
+        ],
+        "Explanation": "Four Weddings and a Funeral (1994), directed by Mike Newell.",
+        "id": "#80495",
+        "category": "F"
+    },
+    {
+        "Question": "What was the director of 'Touching the Void'?",
+        "RightAnswer": "Kevin MacDonald",
+        "WrongAnswers": [
+            "Roland Joffé",
+            "Nicolas Roeg",
+            "Mike Newell"
+        ],
+        "Explanation": "Touching the Void (2003), directed by Kevin MacDonald.",
+        "id": "#80496",
         "category": "F"
     },
     {
@@ -25339,7 +25459,7 @@
             "A renowned British musician",
             "A celebrated British architect"
         ],
-        "Explanation": "Past winners include Ian McEwan, Hilary Mantel and Julian Barnes.",
+        "Explanation": "Past winners of the Man Booker Prize include Ian McEwan, Hilary Mantel and Julian Barnes.",
         "id": "#20522",
         "category": "F"
     },
@@ -25351,7 +25471,7 @@
             "A renowned British historian",
             "A celebrated British philosopher"
         ],
-        "Explanation": "Past winners include Ian McEwan, Hilary Mantel and Julian Barnes.",
+        "Explanation": "Past winners of the Man Booker Prize include Ian McEwan, Hilary Mantel and Julian Barnes.",
         "id": "#20523",
         "category": "F"
     },
@@ -25363,7 +25483,7 @@
             "A renowned British painter",
             "A celebrated British scientist"
         ],
-        "Explanation": "Past winners include Ian McEwan, Hilary Mantel and Julian Barnes.",
+        "Explanation": "Past winners of the Man Booker Prize include Ian McEwan, Hilary Mantel and Julian Barnes.",
         "id": "#20524",
         "category": "F"
     },
@@ -25692,18 +25812,6 @@
         "category": "F"
     },
     {
-        "Question": "What is Stoke Mandeville hospital known for?",
-        "RightAnswer": "The origin of the Paralympic Games",
-        "WrongAnswers": [
-            "The first location of the Wimbledon tournament",
-            "A famous British football club",
-            "The birthplace of rugby"
-        ],
-        "Explanation": "The Paralympics have their origin in the work of Dr Sir Ludwig Guttman, a German refugee, at the Stoke Mandeville hospital in Buckinghamshire.",
-        "id": "#20552",
-        "category": "F"
-    },
-    {
         "Question": "Who is Sir Roger Bannister?",
         "RightAnswer": "A celebrated British runner",
         "WrongAnswers": [
@@ -25861,7 +25969,7 @@
     },
     {
         "Question": "Who is Jessica Ennis?",
-        "RightAnswer": "An athlete who won the 2012 Olympic gold medal in the heptathlon",
+        "RightAnswer": "An Olympic gold medal in heptathlon",
         "WrongAnswers": [
             "A British Olympic gold medalist in rowing",
             "A famous British cyclist",
@@ -26185,7 +26293,7 @@
     },
     {
         "Question": "What is a vet?",
-        "RightAnswer": "A veterinary surgeon who provides medical treatment for animals",
+        "RightAnswer": "A veterinary surgeon",
         "WrongAnswers": [
             "A type of pet food",
             "A pet grooming service",
@@ -26460,15 +26568,27 @@
         "category": "F"
     },
     {
-        "Question": "What is unique about Northern Ireland and Scotland's banknotes?",
-        "RightAnswer": "They have their own banknotes, which are valid everywhere in the UK",
+        "Question": "Which parts of the UK have their own banknotes?",
+        "RightAnswer": "Northern Ireland and Scotland",
         "WrongAnswers": [
-            "They are not accepted anywhere in the UK",
-            "They are only valid in Northern Ireland and Scotland",
-            "They are the same as the rest of the UK"
+            "Wales and England",
+            "England and Scotland",
+            "Wales and Northern Ireland"
         ],
         "Explanation": "Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK.",
         "id": "#20617",
+        "category": "F"
+    },
+    {
+        "Question": "Where are Northern Ireland and Scotland's banknotes valid?",
+        "RightAnswer": "Everywhere in the UK",
+        "WrongAnswers": [
+            "Only in Northern Ireland and Scotland",
+            "Only in Scotland",
+            "Only in Northern Ireland"
+        ],
+        "Explanation": "Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK.",
+        "id": "#80617",
         "category": "F"
     },
     {
@@ -32616,18 +32736,6 @@
         "category": "H"
     },
     {
-        "Question": "What is the first step to start driving in the UK?",
-        "RightAnswer": "Applying for a provisional driving license",
-        "WrongAnswers": [
-            "Taking a practical driving test",
-            "Passing a hazard perception test",
-            "Registering a vehicle with DVLA"
-        ],
-        "Explanation": "Follow the government guidelines to learn what you need to drive. The first step is applying for a provisional driving license and finding a driving instuctor. Then you will need to pass: a driving theory test (Consists of a multiple choice theory test and a hazard perception test) and a practical driving test. Drivers can use their driving licence until they are 70 years old. After that, the licence is valid for three years at a time.",
-        "id": "#30273",
-        "category": "H"
-    },
-    {
         "Question": "What tests must be passed to obtain a UK driving license?",
         "RightAnswer": "A driving theory test and a practical driving test",
         "WrongAnswers": [
@@ -33177,18 +33285,6 @@
         ],
         "Explanation": "The job of the police in the UK is to: protect life and property, prevent disturbances (also known as keeping the peace), and prevent and detect crime. The police are organised into a number of separate police forces headed by Chief Constables. They are independent of the government.",
         "id": "#30321",
-        "category": "H"
-    },
-    {
-        "Question": "What is another term for preventing disturbances in police work?",
-        "RightAnswer": "Keeping the peace",
-        "WrongAnswers": [
-            "Maintaining order",
-            "Enforcing curfews",
-            "Controlling crowds"
-        ],
-        "Explanation": "The job of the police in the UK is to: protect life and property, prevent disturbances (also known as keeping the peace), and prevent and detect crime. The police are organised into a number of separate police forces headed by Chief Constables. They are independent of the government.",
-        "id": "#30322",
         "category": "H"
     },
     {
@@ -35724,18 +35820,6 @@
         "category": "H"
     },
     {
-        "Question": "Which of the following is the newest member state of the European Union?",
-        "RightAnswer": "Croatia",
-        "WrongAnswers": [
-            "Romania",
-            "Bulgaria",
-            "Poland"
-        ],
-        "Explanation": "There are now 27 EU member states. EU member states: Austria, Belgium, Bulgaria, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Croatia.",
-        "id": "#30538",
-        "category": "H"
-    },
-    {
         "Question": "Which of these Baltic countries is a member of the European Union?",
         "RightAnswer": "Latvia",
         "WrongAnswers": [
@@ -35940,7 +36024,7 @@
         "category": "H"
     },
     {
-        "Question": "What is another aim of NATO?",
+        "Question": "What is an aim of NATO?",
         "RightAnswer": "To maintain peace between all of its members",
         "WrongAnswers": [
             "To promote cultural exchange",
@@ -36565,7 +36649,7 @@
     },
     {
         "Question": "Which organization is an example of a charity working with children?",
-        "RightAnswer": "National Society for the Prevention of Cruelty to Children (NSPCC)",
+        "RightAnswer": "NSPCC",
         "WrongAnswers": [
             "Age UK",
             "Crisis",
