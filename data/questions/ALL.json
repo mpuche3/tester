@@ -3360,18 +3360,6 @@
         "category": "H"
     },
     {
-        "Question": "Which of the following is a of Shakespeare's play?",
-        "RightAnswer": "A Doll's House",
-        "WrongAnswers": [
-            "A Midsummer Night's Dream",
-            "Hamlet",
-            "Romeo and Juliet"
-        ],
-        "Explanation": "His most famous plays include A Midsummer Night's Dream, Hamlet, Macbeth and Romeo and Juliet.",
-        "id": "#10280",
-        "category": "H"
-    },
-    {
         "Question": "From which play is the quote 'To be or not to be' taken?",
         "RightAnswer": "Hamlet",
         "WrongAnswers": [
@@ -8028,7 +8016,7 @@
         "category": "H"
     },
     {
-        "Question": "At which battles was the king's army defeated?",
+        "Question": "At which battles was the king's army defeated during the Civil War?",
         "RightAnswer": "Marston Moor and Naseby",
         "WrongAnswers": [
             "Dunbar and Worcester",
@@ -9072,12 +9060,12 @@
         "category": "H"
     },
     {
-        "Question": "In which year did the French Wars end?",
+        "Question": "In which year did the French Wars end in the 1800s?",
         "RightAnswer": "1815",
         "WrongAnswers": [
-            "1789",
+            "1825",
             "1805",
-            "1799"
+            "1835"
         ],
         "Explanation": "In 1815, the French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo.",
         "id": "#10761",
@@ -10305,18 +10293,6 @@
         ],
         "Explanation": "The Prime Minister of the day, Harold Macmillan, was famous for his 'wind of change' speech about decolonisation and independence for the countries of the Empire.",
         "id": "#10868",
-        "category": "H"
-    },
-    {
-        "Question": "In which year was Clement Attlee born?",
-        "RightAnswer": "1883",
-        "WrongAnswers": [
-            "1885",
-            "1880",
-            "1890"
-        ],
-        "Explanation": "Clement Attlee was born in London in 1883.",
-        "id": "#10869",
         "category": "H"
     },
     {
@@ -14292,7 +14268,7 @@
         "category": "H"
     },
     {
-        "Question": "Who was sent to Ireland to establish the authority of the English Parliament in 1641?",
+        "Question": "Who was sent to Ireland to establish the authority of the English Parliament?",
         "RightAnswer": "Oliver Cromwell",
         "WrongAnswers": [
             "Charles II",
@@ -16008,7 +15984,7 @@
         "category": "H"
     },
     {
-        "Question": "How were the British colonies in North America described in terms of their economic status?",
+        "Question": "By the 1760s, how could the British colonies in North America be described in terms of their economic status?",
         "RightAnswer": "Wealthy",
         "WrongAnswers": [
             "Poor",
@@ -18028,8 +18004,8 @@
         "RightAnswer": "1948",
         "WrongAnswers": [
             "1945",
-            "1947",
-            "1951"
+            "1929",
+            "1939"
         ],
         "Explanation": "In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS), which guaranteed a minimum standard of health care for all, free at the point of use.",
         "id": "#11521",
@@ -19261,7 +19237,7 @@
     },
     {
         "Question": "Which annual event in the UK is considered the British equivalent of the Oscars?",
-        "RightAnswer": "BAFTA",
+        "RightAnswer": "British Academy Film Awards",
         "WrongAnswers": [
             "The Mercury Music Prize",
             "The Laurence Olivier Awards",
@@ -19269,6 +19245,18 @@
         ],
         "Explanation": "The annual British Academy Film Awards, hosted by the British Academy of Film and Television Arts (BAFTA), are the British equivalent of the Oscars.",
         "id": "#20022",
+        "category": "F"
+    },
+    {
+        "Question": "Who hosts the British Academy Film Awards, the UK's equivalent of the Oscars?",
+        "RightAnswer": "British Academy of Film and Television Arts (BAFTA)",
+        "WrongAnswers": [
+            "The Royal Academy of Arts",
+            "The British Film Institute",
+            "The National Film and Television School"
+        ],
+        "Explanation": "The annual British Academy Film Awards, hosted by the British Academy of Film and Television Arts (BAFTA), are the British equivalent of the Oscars.",
+        "id": "#80028",
         "category": "F"
     },
     {
@@ -23851,7 +23839,7 @@
             "A British literary festival",
             "A British food festival"
         ],
-        "Explanation": "He founded the Aldeburgh festival in Suffolk, which continues to be a popular music event of international importance.",
+        "Explanation": "The composer Benjamin Britten founded the Aldeburgh festival in Suffolk, which continues to be a popular music event of international importance.",
         "id": "#20400",
         "category": "F"
     },
@@ -32232,7 +32220,7 @@
         "category": "H"
     },
     {
-        "Question": "Which organization deals with human rights issues in Northern Ireland?",
+        "Question": "Which organization deals with human rights issues especifically in Northern Ireland?",
         "RightAnswer": "Northern Ireland Human Rights Commission",
         "WrongAnswers": [
             "Equality and Human Rights Commission",
@@ -33387,7 +33375,7 @@
         "Question": "What is the name of the independent body that handles police complaints in England and Wales?",
         "RightAnswer": "Independent Police Complaints Commission",
         "WrongAnswers": [
-            "Police Complaints Commissioner",
+            "Police Commissioner",
             "Police Ombudsman",
             "Chief Constable's Office"
         ],
