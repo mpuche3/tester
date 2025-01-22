@@ -9480,12 +9480,24 @@
         "category": "H"
     },
     {
-        "Question": "In which year was there another Reform Act that created more urban seats in Parliament?",
-        "RightAnswer": "1867",
+        "Question": "In which years were Reform Acts passed that created more urban seats in Parliament?",
+        "RightAnswer": "1832 and 1867",
         "WrongAnswers": [
-            "1832",
-            "1870",
-            "1882"
+            "1832 and 1836",
+            "1832 and 1870",
+            "1832 and 1882"
+        ],
+        "Explanation": "At first they seemed to be unsuccessful, but in 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote.",
+        "id": "#10797",
+        "category": "H"
+    },
+    {
+        "Question": "In which years were Reform Acts passed that created more urban seats in Parliament?",
+        "RightAnswer": "1832 and 1867",
+        "WrongAnswers": [
+            "1842 and 1867",
+            "1852 and 1867",
+            "1862 and 1867"
         ],
         "Explanation": "At first they seemed to be unsuccessful, but in 1867 there was another Reform Act. This created many more urban seats in Parliament and reduced the amount of property that people needed to have before they could vote.",
         "id": "#10797",
@@ -36433,7 +36445,7 @@
     },
     {
         "Question": "What type of police volunteer role involves non-police duties?",
-        "RightAnswer": "Lay representative",
+        "RightAnswer": "Lay (non-police) representative",
         "WrongAnswers": [
             "Inspector",
             "Magistrate",
@@ -36453,18 +36465,6 @@
         ],
         "Explanation": "You can volunteer with the police, and become a special constable or a lay (non-police) representative. You can also apply to become a magistrate. You will often find advertisements for vacancies in your local newspaper or on local radio.",
         "id": "#90599",
-        "category": "H"
-    },
-    {
-        "Question": "What type of police volunteer role involves police duties?",
-        "RightAnswer": "Special constable",
-        "WrongAnswers": [
-            "Lay representative",
-            "Magistrate",
-            "Community support officer"
-        ],
-        "Explanation": "You can volunteer with the police, and become a special constable or a lay (non-police) representative. You can also apply to become a magistrate. You will often find advertisements for vacancies in your local newspaper or on local radio.",
-        "id": "#30601",
         "category": "H"
     },
     {
