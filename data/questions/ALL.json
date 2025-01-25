@@ -5703,8 +5703,8 @@
         "Question": "In which year was independence granted to India, Pakistan, and Ceylon (now Sri Lanka)?",
         "RightAnswer": "1947",
         "WrongAnswers": [
-            "1945",
-            "1948",
+            "1925",
+            "1958",
             "1951"
         ],
         "Explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka).",
@@ -6864,7 +6864,7 @@
         "category": "H"
     },
     {
-        "Question": "Which Anglo-Saxon king united the kingdoms and defeated the Vikings?",
+        "Question": "Which Anglo-Saxon king united the kingdoms in England and defeated the Vikings?",
         "RightAnswer": "King Alfred the Great",
         "WrongAnswers": [
             "King Cnut",
@@ -10263,8 +10263,8 @@
         "Question": "In which year was independence granted to India, Pakistan, and Ceylon?",
         "RightAnswer": "1947",
         "WrongAnswers": [
-            "1945",
-            "1948",
+            "1943",
+            "1998",
             "1951"
         ],
         "Explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka).",
@@ -14841,18 +14841,6 @@
         ],
         "Explanation": "Many restrictions were placed on the Roman Catholic Church in Ireland and Irish Catholics were unable to take part in the government.",
         "id": "#11253",
-        "category": "H"
-    },
-    {
-        "Question": "Where was there also support for James II?",
-        "RightAnswer": "Scotland",
-        "WrongAnswers": [
-            "Wales",
-            "England",
-            "Netherlands"
-        ],
-        "Explanation": "There was also support for James in Scotland.",
-        "id": "#11254",
         "category": "H"
     },
     {
@@ -21897,18 +21885,6 @@
         ],
         "Explanation": "Some of the people who had performed in the music halls in the 1940s and 1950s, such as Morecambe and Wise, became stars of television.",
         "id": "#20242",
-        "category": "F"
-    },
-    {
-        "Question": "What was the name of the comedy show that introduced a new type of progressive comedy in 1969?",
-        "RightAnswer": "Monty Python's Flying Circus",
-        "WrongAnswers": [
-            "That Was The Week That Was",
-            "Spitting Image",
-            "Private Eye"
-        ],
-        "Explanation": "In 1969, Monty Python's Flying Circus introduced a new type of progressive comedy.",
-        "id": "#20243",
         "category": "F"
     },
     {
@@ -30837,18 +30813,6 @@
         ],
         "Explanation": "The UK is a parliamentary democracy with the monarch as head of state. Democracy is a system of government where the whole adult population gets a say. This might be by direct voting or by choosing representatives to make decisions on their behalf.",
         "id": "#30109",
-        "category": "H"
-    },
-    {
-        "Question": "What are the two main ways people can participate in a democracy?",
-        "RightAnswer": "Direct voting or choosing representatives",
-        "WrongAnswers": [
-            "Protesting or petitioning",
-            "Running for office or lobbying",
-            "Paying taxes or serving in the military"
-        ],
-        "Explanation": "The UK is a parliamentary democracy with the monarch as head of state. Democracy is a system of government where the whole adult population gets a say. This might be by direct voting or by choosing representatives to make decisions on their behalf.",
-        "id": "#30110",
         "category": "H"
     },
     {
