@@ -1863,8 +1863,8 @@
         "Question": "In which year did India and Pakistan gain independence?",
         "RightAnswer": "1947",
         "WrongAnswers": [
-            "1948",
-            "1951",
+            "1943",
+            "1941",
             "1945"
         ],
         "Explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka).",
@@ -2173,7 +2173,7 @@
     },
     {
         "Question": "What is Skara Brae?",
-        "RightAnswer": "The best preserved prehistoric village in northern Europe",
+        "RightAnswer": "A preserved prehistoric village",
         "WrongAnswers": [
             "A Stone Age monument",
             "A Neolithic tomb",
@@ -7141,7 +7141,7 @@
     },
     {
         "Question": "In the north of Scotland and Ireland, who owned the land?",
-        "RightAnswer": "Members of the 'clans'",
+        "RightAnswer": "The clans",
         "WrongAnswers": [
             "The king",
             "Lords",
@@ -7453,7 +7453,7 @@
     },
     {
         "Question": "What did Henry VII do to secure his position as king?",
-        "RightAnswer": "Strengthened central administration and reduced the power of nobles",
+        "RightAnswer": "Strengthened central administration",
         "WrongAnswers": [
             "Increased the power of nobles",
             "Started a new war",
@@ -8448,7 +8448,7 @@
         "category": "H"
     },
     {
-        "Question": "What were the two main groups in Parliament called?",
+        "Question": "What were the two main groups in Parliament called (in the 1800s)?",
         "RightAnswer": "Whigs and Tories",
         "WrongAnswers": [
             "Labour and Conservative",
@@ -10107,9 +10107,9 @@
         "Question": "In which month and year did the war against Japan end?",
         "RightAnswer": "August 1945",
         "WrongAnswers": [
-            "May 1945",
-            "December 1944",
-            "September 1945"
+            "May 1948",
+            "December 1946",
+            "September 1947"
         ],
         "Explanation": "The war against Japan ended in August 1945 when the United States dropped its newly developed atom bombs on the Japanese cities of Hiroshima and Nagasaki.",
         "id": "#10853",
@@ -10239,9 +10239,9 @@
         "Question": "In which year was the National Health Service (NHS) established?",
         "RightAnswer": "1948",
         "WrongAnswers": [
-            "1945",
-            "1947",
-            "1951"
+            "1938",
+            "1928",
+            "1918"
         ],
         "Explanation": "In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS), which guaranteed a minimum standard of health care for all, free at the point of use.",
         "id": "#10864",
@@ -10395,9 +10395,9 @@
         "Question": "In which year did Richard Austen Butler become a Conservative MP?",
         "RightAnswer": "1923",
         "WrongAnswers": [
-            "1941",
-            "1944",
-            "1930"
+            "2023",
+            "1823",
+            "1723"
         ],
         "Explanation": "Richard Austen Butler (later Lord Butler) became a Conservative MP in 1923 and held several positions before becoming responsible for education in 1941.",
         "id": "#10879",
@@ -11233,7 +11233,7 @@
     },
     {
         "Question": "Where is Skara Brae located?",
-        "RightAnswer": "On Orkney, off the north coast of Scotland",
+        "RightAnswer": "On Orkney",
         "WrongAnswers": [
             "In Wiltshire, England",
             "On the Isle of Man",
@@ -13212,18 +13212,6 @@
         "category": "H"
     },
     {
-        "Question": "Which of Henry VIII's wives was English?",
-        "RightAnswer": "Anne Boleyn",
-        "WrongAnswers": [
-            "Catherine of Aragon",
-            "Anne of Cleves",
-            "Jane Seymour"
-        ],
-        "Explanation": "Anne Boleyn was English. She and Henry had one daughter, Elizabeth.",
-        "id": "#11117",
-        "category": "H"
-    },
-    {
         "Question": "What was the name of Anne Boleyn's daughter?",
         "RightAnswer": "Elizabeth",
         "WrongAnswers": [
@@ -13701,18 +13689,6 @@
         ],
         "Explanation": "Much of her childhood was spent in France.",
         "id": "#11157",
-        "category": "H"
-    },
-    {
-        "Question": "What was Mary Stuart's religion?",
-        "RightAnswer": "Catholic",
-        "WrongAnswers": [
-            "Protestant",
-            "Anglican",
-            "Orthodox"
-        ],
-        "Explanation": "The queen of Scotland, Mary Stuart (often now called 'Mary, Queen of Scots') was a Catholic. Much of her childhood was spent in France.",
-        "id": "#11158",
         "category": "H"
     },
     {
@@ -15540,18 +15516,6 @@
         "category": "H"
     },
     {
-        "Question": "What were the two main factors that led to the Industrial Revolution in Britain?",
-        "RightAnswer": "Development of machinery and use of steam power",
-        "WrongAnswers": [
-            "Increased agriculture and colonization",
-            "Better education and healthcare",
-            "Improved transportation and communication"
-        ],
-        "Explanation": "It happened because of the development of machinery and the use of steam power.",
-        "id": "#11314",
-        "category": "H"
-    },
-    {
         "Question": "What process led to the development of the shipbuilding industry and railways?",
         "RightAnswer": "The Bessemer process",
         "WrongAnswers": [
@@ -15921,42 +15885,6 @@
         ],
         "Explanation": "After 1833, 2 million Indian and Chinese workers were employed to replace the freed slaves. They worked on sugar plantations in the Caribbean, in mines in South Africa, on railways in East Africa and in the army in Kenya.",
         "id": "#11347",
-        "category": "H"
-    },
-    {
-        "Question": "Where did Indian and Chinese workers work in South Africa after replacing freed slaves?",
-        "RightAnswer": "In mines",
-        "WrongAnswers": [
-            "On sugar plantations",
-            "On railways",
-            "In the army"
-        ],
-        "Explanation": "After 1833, 2 million Indian and Chinese workers were employed to replace the freed slaves. They worked on sugar plantations in the Caribbean, in mines in South Africa, on railways in East Africa and in the army in Kenya.",
-        "id": "#11348",
-        "category": "H"
-    },
-    {
-        "Question": "In which part of Africa did Indian and Chinese workers work on railways after replacing freed slaves?",
-        "RightAnswer": "East Africa",
-        "WrongAnswers": [
-            "West Africa",
-            "North Africa",
-            "South Africa"
-        ],
-        "Explanation": "After 1833, 2 million Indian and Chinese workers were employed to replace the freed slaves. They worked on sugar plantations in the Caribbean, in mines in South Africa, on railways in East Africa and in the army in Kenya.",
-        "id": "#11349",
-        "category": "H"
-    },
-    {
-        "Question": "In which African country did Indian and Chinese workers serve in the army after replacing freed slaves?",
-        "RightAnswer": "Kenya",
-        "WrongAnswers": [
-            "South Africa",
-            "Nigeria",
-            "Egypt"
-        ],
-        "Explanation": "After 1833, 2 million Indian and Chinese workers were employed to replace the freed slaves. They worked on sugar plantations in the Caribbean, in mines in South Africa, on railways in East Africa and in the army in Kenya.",
-        "id": "#11350",
         "category": "H"
     },
     {
@@ -17556,7 +17484,7 @@
         "category": "H"
     },
     {
-        "Question": "Who published influential new theories of economics during this period?",
+        "Question": "Who published influential new theories of economics during the inter-war period?",
         "RightAnswer": "John Maynard Keynes",
         "WrongAnswers": [
             "Adam Smith",
@@ -18039,9 +17967,9 @@
         "Question": "In which year was independence granted to India, Pakistan, and Ceylon (now Sri Lanka)?",
         "RightAnswer": "1947",
         "WrongAnswers": [
-            "1945",
-            "1948",
-            "1951"
+            "1937",
+            "1957",
+            "1967"
         ],
         "Explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka).",
         "id": "#11525",
@@ -18057,18 +17985,6 @@
         ],
         "Explanation": "The UK developed its own atomic bomb and joined the new North Atlantic Treaty Organization (NATO), an alliance of nations set up to resist the perceived threat of invasion by the Soviet Union and its allies.",
         "id": "#11526",
-        "category": "H"
-    },
-    {
-        "Question": "What weapon did the UK develop during this period?",
-        "RightAnswer": "Atomic bomb",
-        "WrongAnswers": [
-            "Hydrogen bomb",
-            "Nuclear submarine",
-            "Intercontinental ballistic missile"
-        ],
-        "Explanation": "The UK developed its own atomic bomb and joined the new North Atlantic Treaty Organization (NATO), an alliance of nations set up to resist the perceived threat of invasion by the Soviet Union and its allies.",
-        "id": "#11527",
         "category": "H"
     },
     {
@@ -18393,18 +18309,6 @@
         ],
         "Explanation": "This caused problems with the 'balance of payments': imports of goods were valued at more than the price paid for exports.",
         "id": "#11554",
-        "category": "H"
-    },
-    {
-        "Question": "What was the nature of the 'balance of payments' problem in the late 1970s?",
-        "RightAnswer": "Imports were valued more than exports",
-        "WrongAnswers": [
-            "Exports exceeded imports",
-            "Trade was perfectly balanced",
-            "Foreign investment declined"
-        ],
-        "Explanation": "This caused problems with the 'balance of payments': imports of goods were valued at more than the price paid for exports.",
-        "id": "#11555",
         "category": "H"
     },
     {
@@ -23724,12 +23628,12 @@
         "category": "F"
     },
     {
-        "Question": "What is The Planets?",
-        "RightAnswer": "A suite of orchestral pieces",
+        "Question": "What composer wrote The Planets?",
+        "RightAnswer": "Gustav Holst",
         "WrongAnswers": [
-            "A British science fiction novel",
-            "A famous British painting",
-            "A British television series"
+            "Claude Debussy",
+            "Igor Stravinsky",
+            "Richard Wagner"
         ],
         "Explanation": "More recently, important composers include Gustav Holst, whose work includes The Planets, a suite of pieces themed around the planets of the solar system.",
         "id": "#20395",
@@ -24457,7 +24361,7 @@
     },
     {
         "Question": "What is Diwali?",
-        "RightAnswer": "A festival of lights",
+        "RightAnswer": "A festival often called the Festival of Lights",
         "WrongAnswers": [
             "A Christian festival marking the birth of Jesus",
             "A Jewish festival of religious freedom",
@@ -24809,7 +24713,7 @@
         "WrongAnswers": [
             "A famous film director",
             "A film award",
-            "A film production company"
+            "A famous cinema"
         ],
         "Explanation": "Ealing Studios has a claim to being the oldest continuously working film studio facility in the world.",
         "id": "#20483",
@@ -24913,7 +24817,7 @@
     },
     {
         "Question": "What is 'Don\u2019t Look Now'?",
-        "RightAnswer": "A British film directed by Nicolas Roeg",
+        "RightAnswer": "A British film",
         "WrongAnswers": [
             "A British horror novel",
             "A British pop song",
@@ -26076,12 +25980,12 @@
         "category": "F"
     },
     {
-        "Question": "What is Cowes?",
-        "RightAnswer": "A famous sailing event on the Isle of Wight",
+        "Question": "Where is the most famous sailing event in the UK held?",
+        "RightAnswer": "Cowes, Isle of Wight",
         "WrongAnswers": [
-            "A popular rowing club in London",
-            "A historic maritime museum in the UK",
-            "A famous British sailor"
+            "Brighton",
+            "Plymouth",
+            "Portsmouth"
         ],
         "Explanation": "Many sailing events are held throughout the UK, the most famous of which is at Cowes on the Isle of Wight.",
         "id": "#20579",
@@ -26631,9 +26535,9 @@
         "Question": "Which show from the 1960s is known for its satirical content?",
         "RightAnswer": "That Was The Week That Was",
         "WrongAnswers": [
-            "The Benny Hill Show",
-            "Fawlty Towers",
-            "The Office"
+            "Blue Peter",
+            "Doctor Who",
+            "Coronation Street"
         ],
         "Explanation": "Satire has also continued to be important, with shows like That Was The Week That Was in the 1960s and Spitting Image in the 1980s and 1990s.",
         "id": "#20625",
@@ -26643,9 +26547,9 @@
         "Question": "Which show from the 1980s and 1990s is known for its satirical content?",
         "RightAnswer": "Spitting Image",
         "WrongAnswers": [
-            "Blackadder",
-            "Absolutely Fabulous",
-            "The Young Ones"
+            "Teletubbies",
+            "Baywatch",
+            "Wheel of Fortune"
         ],
         "Explanation": "Satire has also continued to be important, with shows like That Was The Week That Was in the 1960s and Spitting Image in the 1980s and 1990s.",
         "id": "#20626",
@@ -27021,18 +26925,6 @@
         ],
         "Explanation": "In the 2009 Citizenship Survey, 70% of people identified themselves as Christian. Much smaller proportions identified themselves as Muslim (4%), Hindu (2%), Sikh (1%), Jewish or Buddhist (both less than 0.5%), and 2% of people followed another religion.",
         "id": "#20658",
-        "category": "F"
-    },
-    {
-        "Question": "Which denomination is the largest among other Christian denominations in the UK?",
-        "RightAnswer": "Roman Catholic",
-        "WrongAnswers": [
-            "Orthodox",
-            "Lutheran",
-            "Pentecostal"
-        ],
-        "Explanation": "There are also other denominations of Christianity, the biggest of which is Roman Catholic.",
-        "id": "#20659",
         "category": "F"
     },
     {
@@ -27693,18 +27585,6 @@
         ],
         "Explanation": "In surveys, the most common ethnic description chosen is white, which includes people of European, Australian, Canadian, New Zealand and American descent.",
         "id": "#20715",
-        "category": "F"
-    },
-    {
-        "Question": "Which of the following is NOT included in the 'white' ethnic description in UK surveys?",
-        "RightAnswer": "African",
-        "WrongAnswers": [
-            "European",
-            "Australian",
-            "Canadian"
-        ],
-        "Explanation": "In surveys, the most common ethnic description chosen is white, which includes people of European, Australian, Canadian, New Zealand and American descent.",
-        "id": "#20716",
         "category": "F"
     },
     {
@@ -28488,14 +28368,14 @@
         "category": "F"
     },
     {
-        "Question": "What percentage of people said they had no religion in the Citizenship Survey?",
+        "Question": "In the 2010 Citizenship Survey, what percentage of people said they had no religion?",
         "RightAnswer": "21%",
         "WrongAnswers": [
             "15%",
             "25%",
             "30%"
         ],
-        "Explanation": "In the Citizenship Survey, 21% of people said that they had no religion.",
+        "Explanation": "In the 2010 Citizenship Survey, 21% of people said that they had no religion.",
         "id": "#20783",
         "category": "F"
     },
@@ -28809,18 +28689,6 @@
         ],
         "Explanation": "Sir Steve Redgrave won gold medals in rowing in five consecutive Olympic Games and is one of Britain\u2019s greatest Olympians.",
         "id": "#20808",
-        "category": "F"
-    },
-    {
-        "Question": "How many Paralympic medals did Baroness Tanni-Grey Thompson win?",
-        "RightAnswer": "16",
-        "WrongAnswers": [
-            "11",
-            "6",
-            "30"
-        ],
-        "Explanation": "Baroness Tanni-Grey Thompson is an athlete who uses a wheelchair and won 16 Paralympic medals, including 11 gold medals, in races over five Paralympic Games.",
-        "id": "#20809",
         "category": "F"
     },
     {
@@ -30024,18 +29892,6 @@
         "category": "H"
     },
     {
-        "Question": "What type of powers do the devolved parliaments or assemblies have?",
-        "RightAnswer": "Devolved",
-        "WrongAnswers": [
-            "Unlimited",
-            "Symbolic",
-            "Federal"
-        ],
-        "Explanation": "The UK is governed by the parliament sitting in Westminster. Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas.",
-        "id": "#30043",
-        "category": "H"
-    },
-    {
         "Question": "How many countries make up the UK?",
         "RightAnswer": "Four",
         "WrongAnswers": [
@@ -30845,7 +30701,7 @@
         "WrongAnswers": [
             "Electorate",
             "Constituency",
-            "Suffrage"
+            "Commonwealth"
         ],
         "Explanation": "At the turn of the 19th century, Britain was not a democracy as we know it today. Although there were elections to select members of Parliament (MPs), only a small group of people could vote. They were men who were over 21 years of age and who owned a certain amount of property. The franchise (that is, the number of people who had the right to vote) grew over the course of the 19th century and political parties began to involve ordinary men and women as members.",
         "id": "#30113",
@@ -32208,18 +32064,6 @@
         "category": "H"
     },
     {
-        "Question": "What is the name of the equality organization for Scotland?",
-        "RightAnswer": "Equality and Human Rights Commission in Scotland",
-        "WrongAnswers": [
-            "Scottish Human Rights Commission",
-            "Equality Commission for Northern Ireland",
-            "Citizens Advice Bureau"
-        ],
-        "Explanation": "UK laws ensure that people are not treated unfairly in any area of life or work because of their age, disability, sex, pregnancy and maternity, race, religion or belief, sexuality or marital status. If you face problems with discrimination, you can get more information from the Citizens Advice Bureau or from one of the following organisations: Equality and Human Rights Commission (for England and Wales), Equality and Human Rights Commission in Scotland and Scottish Human Rights Commission (for Scotland), Equality Commission for Northern Ireland and Northern Ireland Human Rights Commission (Northern Ireland).",
-        "id": "#30232",
-        "category": "H"
-    },
-    {
         "Question": "Who can be prosecuted for domestic violence in the UK?",
         "RightAnswer": "Anyone who is violent towards their partner",
         "WrongAnswers": [
@@ -32253,18 +32097,6 @@
         ],
         "Explanation": "It is important for anyone facing domestic violence to get help as soon as possible. A solicitor or the Citizens Advice Bureau can explain the available options. In some areas there are safe places to go and stay in, called refuges or shelters. There are emergency telephone numbers in the helpline section at the front of Yellow Pages, including, for women, the number of the nearest women\u2019s centre. You can also phone the 24-hour National Domestic Violence Freephone Helpline, or the police can help you find a safe place to stay.",
         "id": "#30235",
-        "category": "H"
-    },
-    {
-        "Question": "Who can explain the available options to domestic violence victims?",
-        "RightAnswer": "A solicitor or the Citizens Advice Bureau",
-        "WrongAnswers": [
-            "A therapist or social worker",
-            "A doctor or nurse",
-            "A teacher or counselor"
-        ],
-        "Explanation": "It is important for anyone facing domestic violence to get help as soon as possible. A solicitor or the Citizens Advice Bureau can explain the available options. In some areas there are safe places to go and stay in, called refuges or shelters. There are emergency telephone numbers in the helpline section at the front of Yellow Pages, including, for women, the number of the nearest women\u2019s centre. You can also phone the 24-hour National Domestic Violence Freephone Helpline, or the police can help you find a safe place to stay.",
-        "id": "#30236",
         "category": "H"
     },
     {
@@ -33277,25 +33109,25 @@
     },
     {
         "Question": "Who supports Police Officers in their duties?",
-        "RightAnswer": "Police community support Officers (PSCOs)",
+        "RightAnswer": "Police Community Support Officers (PCSOs)",
         "WrongAnswers": [
             "Police and Crime Commissioners (PCCs)",
             "Chief Constables",
             "Independent Police Complaints Commission"
         ],
-        "Explanation": "Police Officers are supported by Police Community Cupport Officers (PSCOs). PSCOs have different roles according to the area but usually patrol the streets, work with the public, and support police Officers at crime scenes and major events.",
+        "Explanation": "Police Officers are supported by Police Community Support Officers (PCSOs). PCSOs have different roles according to the area but usually patrol the streets, work with the public, and support police officers at crime scenes and major events.",
         "id": "#30331",
         "category": "H"
     },
     {
-        "Question": "What is one of the main activities of PSCOs?",
+        "Question": "What is one of the main activities of PCSOs?",
         "RightAnswer": "Patrolling the streets",
         "WrongAnswers": [
             "Arresting suspects",
             "Conducting investigations",
             "Managing police stations"
         ],
-        "Explanation": "Police Officers are supported by Police Community Support Officers (PSCOs). PSCOs have different roles according to the area but usually patrol the streets, work with the public, and support police Officers at crime scenes and major events.",
+        "Explanation": "Police Officers are supported by Police Community Support Officers (PCSOs). PCSOs have different roles according to the area but usually patrol the streets, work with the public, and support police officers at crime scenes and major events.",
         "id": "#30332",
         "category": "H"
     },
@@ -33915,11 +33747,11 @@
         "Question": "Which court handles serious civil cases in Scotland?",
         "RightAnswer": "Court of Session",
         "WrongAnswers": [
-            "High Court",
+            "Supreme Court",
             "County Court",
             "Sheriff Court"
         ],
-        "Explanation": "More serious civil cases \u2013 for example, when a large amount of compensation is being claimed \u2013 are dealt with in the High Court in England, Wales and Northern Ireland. In Scotland, they are dealt with in the Court of Session in Edinburgh.",
+        "Explanation": "More serious civil cases – for example, when a large amount of compensation is being claimed – are dealt with in the High Court in England, Wales, and Northern Ireland. In Scotland, they are dealt with in the Court of Session in Edinburgh.",
         "id": "#30385",
         "category": "H"
     },
@@ -35079,9 +34911,9 @@
         "Question": "According to regulations, how should media outlets treat different political perspectives?",
         "RightAnswer": "Equally",
         "WrongAnswers": [
-            "Preferentially",
-            "Proportionally to party size",
-            "Based on popularity"
+            "Favor the ruling party",
+            "Ignore minority parties",
+            "Prioritize popular opinions"
         ],
         "Explanation": "By law, radio and television coverage of the political parties must be balanced and so equal time has to be given to rival viewpoints.",
         "id": "#30485",
@@ -35505,18 +35337,6 @@
         ],
         "Explanation": "In Northern Ireland elected members, known as MLAs, meet in the Northern Ireland Assembly at Stormont, in Belfast. In Scotland the elected members, called MSPs, meet in the Scottish Parliament building at Holyrood in Edinburgh. In Wales the elected members, known as AMs, meet in the Welsh Assembly in the Senedd in Cardiff Bay. The Senedd is an open building. You can book guided tours or seats in the public galleries for the Welsh Assembly.",
         "id": "#30520",
-        "category": "H"
-    },
-    {
-        "Question": "Which of these buildings is described as 'open'?",
-        "RightAnswer": "Senedd",
-        "WrongAnswers": [
-            "Stormont",
-            "Holyrood",
-            "Westminster"
-        ],
-        "Explanation": "In Northern Ireland elected members, known as MLAs, meet in the Northern Ireland Assembly at Stormont, in Belfast. In Scotland the elected members, called MSPs, meet in the Scottish Parliament building at Holyrood in Edinburgh. In Wales the elected members, known as AMs, meet in the Welsh Assembly in the Senedd in Cardiff Bay. The Senedd is an open building. You can book guided tours or seats in the public galleries for the Welsh Assembly.",
-        "id": "#30521",
         "category": "H"
     },
     {
@@ -36477,18 +36297,6 @@
         ],
         "Explanation": "Volunteering is working for good causes without payment. There are many benefits to volunteering, such as meeting new people helping make your community a better place. Some volunteer activities will give you a chance to practise your English or develop work skills that will help you find a job or improve your curriculum vitae (CV).",
         "id": "#30606",
-        "category": "H"
-    },
-    {
-        "Question": "What is another example of volunteering in health and hospitals?",
-        "RightAnswer": "Helping older people at a residential care home",
-        "WrongAnswers": [
-            "Supporting someone who has just come out of prison",
-            "Working at a homelessness shelter",
-            "Advising a small business owner"
-        ],
-        "Explanation": "Many people volunteer simply because they want to help other people. Activities you can do as a volunteer include: working with animals (for example, caring for animals at a local rescue shelter), youth work (for example, volunteering at a youth group), helping improve the environment (for example, participating in a litter pick-up in the local area), working with the homeless (for example, a homelessness shelter), mentoring (for example, supporting someone who has just come out of prison), work in health and hospitals (for example, working on an information desk in a hospital or helping older people at a residential care home).",
-        "id": "#30607",
         "category": "H"
     },
     {
