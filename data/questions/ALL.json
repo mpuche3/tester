@@ -1935,9 +1935,9 @@
         "Question": "In which year was the first successful radar test?",
         "RightAnswer": "1935",
         "WrongAnswers": [
-            "1928",
-            "1940",
-            "1936"
+            "1955",
+            "1975",
+            "1995"
         ],
         "Explanation": "The first successful radar test took place in 1935.",
         "id": "#10162",
@@ -3852,7 +3852,7 @@
         "category": "H"
     },
     {
-        "Question": "Where was the armed rebellion in support of James quickly defeated?",
+        "Question": "Where was the armed Jacobite rebellion in support of James quickly defeated?",
         "RightAnswer": "Killiecrankie",
         "WrongAnswers": [
             "Glencoe",
@@ -4413,18 +4413,6 @@
         ],
         "Explanation": "After 1833, 2 million Indian and Chinese workers were employed to replace the freed slaves.",
         "id": "#10368",
-        "category": "H"
-    },
-    {
-        "Question": "By which decade were there substantial British colonies in North America?",
-        "RightAnswer": "1760s",
-        "WrongAnswers": [
-            "1750s",
-            "1770s",
-            "1780s"
-        ],
-        "Explanation": "By the 1760s, there were substantial British colonies in North America.",
-        "id": "#10369",
         "category": "H"
     },
     {
@@ -5871,9 +5859,9 @@
         "Question": "In which year was Dylan Thomas's radio play 'Under Milk Wood' first performed?",
         "RightAnswer": "1954",
         "WrongAnswers": [
-            "1952",
-            "1950",
-            "1956"
+            "1854",
+            "1754",
+            "1654"
         ],
         "Explanation": "Dylan Thomas is most well-known works include the radio play Under Milk Wood, first performed after his death in 1954, and the poem 'Do Not Go Gentle into That Good Night', which he wrote for his dying father in 1952.",
         "id": "#10492",
@@ -5883,9 +5871,9 @@
         "Question": "In which year did Dylan Thomas write the poem \"Do Not Go Gentle into That Good Night\"?",
         "RightAnswer": "1952",
         "WrongAnswers": [
-            "1954",
-            "1950",
-            "1956"
+            "1852",
+            "1752",
+            "1652"
         ],
         "Explanation": "Dylan Thomas is most well-known works include the radio play Under Milk Wood, first performed after his death in 1954, and the poem \"Do Not Go Gentle into That Good Night\", which he wrote for his dying father in 1952.",
         "id": "#10493",
@@ -10479,9 +10467,9 @@
         "Question": "In which year was Dylan Thomas's poem 'Do Not Go Gentle into That Good Night' written?",
         "RightAnswer": "1952",
         "WrongAnswers": [
-            "1954",
-            "1950",
-            "1948"
+            "1852",
+            "1752",
+            "1652"
         ],
         "Explanation": "Dylan Thomas is most well-known works include the radio play Under Milk Wood, first performed after his death in 1954, and the poem \"Do Not Go Gentle into That Good Night\", which he wrote for his dying father in 1952.",
         "id": "#10886",
@@ -10623,9 +10611,9 @@
         "Question": "In which year did the first successful radar test take place?",
         "RightAnswer": "1935",
         "WrongAnswers": [
-            "1932",
-            "1930",
-            "1940"
+            "1955",
+            "1975",
+            "1995"
         ],
         "Explanation": "Radar was developed by Scotsman Sir Robert Watson-Watt, who proposed that enemy aircraft could be detected by radio waves. The first successful radar test took place in 1935.",
         "id": "#10898",
@@ -12660,7 +12648,7 @@
         "category": "H"
     },
     {
-        "Question": "Who was elected to sit in the House of Commons?",
+        "Question": "Who was elected to sit in the House of Commons during the Middle Ages?",
         "RightAnswer": "Knights and wealthy people from towns and cities",
         "WrongAnswers": [
             "Nobility and bishops",
@@ -17055,9 +17043,9 @@
         "Question": "When did discussions about the future of the British Empire begin?",
         "RightAnswer": "Late 19th century",
         "WrongAnswers": [
-            "Early 20th century",
-            "Mid 19th century",
-            "Early 18th century"
+            "Late 20th century",
+            "Late 18th century",
+            "Late 17th century"
         ],
         "Explanation": "Although the British Empire continued to grow until the 1920s, there was already discussion in the late 19th century about its future direction.",
         "id": "#11449",
@@ -17352,7 +17340,7 @@
         "category": "H"
     },
     {
-        "Question": "How many counties in the north remained part of the UK?",
+        "Question": "How many counties in the north remained part of the UK under the name Northern Ireland?",
         "RightAnswer": "Six",
         "WrongAnswers": [
             "Four",
@@ -19899,14 +19887,14 @@
         "Question": "British novelist that won the Nobel Prize in Literature?",
         "RightAnswer": "William Golding",
         "WrongAnswers": [
-            "Seamus Heaney",
+            "George Orwell",
             "JRR Tolkien",
-            "Harold Pinter"
+            "Agatha Christie"
         ],
         "Explanation": "Several British writers, including the novelist Sir William Golding, the poet Seamus Heaney, and the playwright Harold Pinter, have won the Nobel Prize in Literature.",
         "id": "#20085",
         "category": "F"
-    },
+    },    
     {
         "Question": "Which author wrote The Lord of the Rings, voted the country\u2019s best-loved novel in 2003?",
         "RightAnswer": "JRR Tolkien",
@@ -21360,18 +21348,6 @@
         "category": "F"
     },
     {
-        "Question": "Who wrote the Anglo-Saxon poem 'Beowulf'?",
-        "RightAnswer": "Unknown",
-        "WrongAnswers": [
-            "Geoffrey Chaucer",
-            "William Shakespeare",
-            "John Milton"
-        ],
-        "Explanation": "The Anglo-Saxon poem Beowulf tells of its hero's battles against monsters and is still translated into modern English.",
-        "id": "#20207",
-        "category": "F"
-    },
-    {
         "Question": "Who wrote 'Canterbury Tales'?",
         "RightAnswer": "Chaucer",
         "WrongAnswers": [
@@ -21909,18 +21885,6 @@
         ],
         "Explanation": "Benjamin Britten (1913–76) is best known for his operas, which include Peter Grimes and Billy Budd. He also wrote A Young Person’s Guide to the Orchestra, which is based on a piece of music by Purcell and introduces the listener to the various different sections of an orchestra. He founded the Aldeburgh festival in Suffolk, which continues to be a popular music event of international importance.",
         "id": "#20254",
-        "category": "F"
-    },
-    {
-        "Question": "Which band is known for having a significant influence on music both in the UK and abroad since the 1960s?",
-        "RightAnswer": "The Beatles",
-        "WrongAnswers": [
-            "The Rolling Stones",
-            "Led Zeppelin",
-            "Pink Floyd"
-        ],
-        "Explanation": "Since the 1960s, British pop music has made one of the most important cultural contributions to life in the UK. Bands including The Beatles and The Rolling Stones continue to have an influence on music both here and abroad.",
-        "id": "#20255",
         "category": "F"
     },
     {
@@ -26703,9 +26667,9 @@
         "Question": "In what year was the National Trust founded?",
         "RightAnswer": "1895",
         "WrongAnswers": [
-            "1905",
-            "1885",
-            "1915"
+            "1995",
+            "1945",
+            "1845"
         ],
         "Explanation": "The National Trust was founded in 1895 by three volunteers.",
         "id": "#20640",
@@ -26715,9 +26679,9 @@
         "Question": "How many volunteers help keep the National Trust running?",
         "RightAnswer": "More than 61,000",
         "WrongAnswers": [
-            "More than 50,000",
-            "More than 70,000",
-            "More than 80,000"
+            "More than 1,000",
+            "More than 21,000",
+            "More than 41,000"
         ],
         "Explanation": "There are now more than 61,000 volunteers helping to keep the organisation running.",
         "id": "#20641",
@@ -27972,18 +27936,6 @@
         "category": "F"
     },
     {
-        "Question": "Which comedy show introduced a new type of progressive comedy in 1969?",
-        "RightAnswer": "Monty Python\u2019s Flying Circus",
-        "WrongAnswers": [
-            "That Was The Week That Was",
-            "Spitting Image",
-            "Morecambe and Wise"
-        ],
-        "Explanation": "In 1969, Monty Python\u2019s Flying Circus introduced a new type of progressive comedy.",
-        "id": "#20750",
-        "category": "F"
-    },
-    {
         "Question": "Which comedy duo became stars of television after performing in music halls in the 1940s and 1950s?",
         "RightAnswer": "Morecambe and Wise",
         "WrongAnswers": [
@@ -28680,18 +28632,6 @@
         "category": "F"
     },
     {
-        "Question": "How many consecutive Olympic Games did Sir Steve Redgrave win gold medals in rowing?",
-        "RightAnswer": "Five",
-        "WrongAnswers": [
-            "Three",
-            "Four",
-            "Six"
-        ],
-        "Explanation": "Sir Steve Redgrave won gold medals in rowing in five consecutive Olympic Games and is one of Britain\u2019s greatest Olympians.",
-        "id": "#20808",
-        "category": "F"
-    },
-    {
         "Question": "Which yachtswoman became the fastest person to sail around the world singlehanded in 2004?",
         "RightAnswer": "Ellen MacArthur",
         "WrongAnswers": [
@@ -28935,9 +28875,9 @@
         "Question": "What percentage of the UK's total population does England approximately make up?",
         "RightAnswer": "84%",
         "WrongAnswers": [
-            "75%",
-            "90%",
-            "80%"
+            "74%",
+            "64%",
+            "54%"
         ],
         "Explanation": "The population is very unequally distributed over the four parts of the UK. England more or less consistently makes up 84% of the total population, Wales around 5%, Scotland just over 8% and Northern Ireland less than 3%.",
         "id": "#20831",
@@ -32163,9 +32103,9 @@
         "Question": "When were Forced Marriage Protection Orders introduced in England, Wales and Northern Ireland?",
         "RightAnswer": "2008",
         "WrongAnswers": [
-            "2007",
-            "2011",
-            "2009"
+            "2018",
+            "1998",
+            "1988"
         ],
         "Explanation": "Forced Marriage Protection Orders were introduced in 2008 for England, Wales and Northern Ireland under the Forced Marriage (Civil Protection) Act 2007. Court orders can be obtained to protect a person from being forced into a marriage, or to protect a person in a forced marriage. Similar Protection Orders were introduced in Scotland in November 2011. A potential victim, or someone acting for them, can apply for an order. Anyone found to have breached an order can be jailed for up to two years for contempt of court.",
         "id": "#30242",
@@ -34068,18 +34008,6 @@
         "category": "H"
     },
     {
-        "Question": "Who typically becomes Prime Minister if their party wins the next General Election?",
-        "RightAnswer": "The leader of the opposition",
-        "WrongAnswers": [
-            "The current Prime Minister",
-            "The Speaker of the House",
-            "The most senior MP"
-        ],
-        "Explanation": "The second-largest party in the House of Commons is called the opposition. The leader of the opposition usually becomes Prime Minister if his or her party wins the next General Election. The leader of the opposition leads his or her party in pointing out what they see as the government\u2019s failures and weaknesses. One important opportunity to do this is at Prime Minister\u2019s Questions, which takes place every week while Parliament is sitting. The leader of the opposition also appoints senior opposition MPs to be \u2018shadow ministers\u2019. They form the shadow cabinet and their role is to challenge the government and put forward alternative policies.",
-        "id": "#30412",
-        "category": "H"
-    },
-    {
         "Question": "What is the name of the weekly event where the opposition can challenge the government?",
         "RightAnswer": "Prime Minister's Questions",
         "WrongAnswers": [
@@ -35760,18 +35688,6 @@
         "category": "H"
     },
     {
-        "Question": "What does everyone have the opportunity to do in Britain?",
-        "RightAnswer": "Participate in their community",
-        "WrongAnswers": [
-            "Avoid community involvement",
-            "Isolate themselves",
-            "Reject shared values"
-        ],
-        "Explanation": "Becoming a British citizen or settling in the UK brings responsibilities but also opportunities. Everyone has the opportunity to participate in their community. Although Britain is one of the world\u2019s most diverse societies, there is a set of shared values and responsibilities that everyone can agree with.",
-        "id": "#30559",
-        "category": "H"
-    },
-    {
         "Question": "What do British citizens share despite the country's diversity?",
         "RightAnswer": "A set of shared values",
         "WrongAnswers": [
@@ -35865,18 +35781,6 @@
         ],
         "Explanation": "These values and responsibilities include: to obey and respect the law; to be aware of the rights of others and respect those rights; to treat others with fairness; to behave responsibly; to help and protect your family; to respect and preserve the environment; to treat everyone equally, regardless of sex, race, religion, age, disability, class or sexual orientation; to work to provide for yourself and your family; to help others; and to vote in local and national government elections.",
         "id": "#30568",
-        "category": "H"
-    },
-    {
-        "Question": "What type of citizen does adopting shared values and responsibilities help you become?",
-        "RightAnswer": "A full and active citizen",
-        "WrongAnswers": [
-            "A passive citizen",
-            "A temporary resident",
-            "A legal immigrant"
-        ],
-        "Explanation": "Taking on these values and responsibilities will make it easier for you to become a full and active citizen. When you move into a new house or apartment, introduce yourself to the people who live near you. Getting to know your neighbours can help you to become part of the community and make friends. Your neighbours are also a good source of help \u2013 for example, they may be willing to feed your pets if you are away, or offer advice on local shops and services.",
-        "id": "#30569",
         "category": "H"
     },
     {
