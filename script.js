@@ -144,7 +144,7 @@ const STATE = {
             document.querySelector("#click-explainer").style.margin = 0
             document.querySelector("#click-explainer").style.padding = 0
             document.querySelector("#click-explainer").style.height = 0
-            document.querySelector("#click-explainer").style.minHeight = 0
+            document.querySelector("#click-explainer").style.minHeight = "20px";
         }
         const explantion = this._questions[this._index]["Explanation"]
         document.querySelector("#explanation_text").innerHTML = explantion
