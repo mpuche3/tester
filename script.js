@@ -140,6 +140,11 @@ const STATE = {
         if (window.showExplainer === undefined) {
             document.querySelector("#click-explainer").firstElementChild.innerHTML = "[Click below to move to the next question]"
             window.showExplainer = "Don't show click explainer again"
+        } else {
+            document.querySelector("#click-explainer").style.margin = 0
+            document.querySelector("#click-explainer").style.padding = 0
+            document.querySelector("#click-explainer").style.height = 0
+            document.querySelector("#click-explainer").style.minHeight = 0
         }
         const explantion = this._questions[this._index]["Explanation"]
         document.querySelector("#explanation_text").innerHTML = explantion

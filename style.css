@@ -178,7 +178,7 @@ p {
     padding: 15px;
     border: 0;
     align-items: flex-start;
-    overflow: visible;
+    overflow: auto;
 }
 
 .opt_div {
