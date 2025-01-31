@@ -1,9 +1,5 @@
 :root {
     --hue: 36;
-    /* --color_background: hsl(var(--hue), 28%, 69%);
-    --color_border: hsl(var(--hue), 30%, 37%);
-    --color_font1: hsl(var(--hue), 29%, 28%);
-    --color_background_light: hsla(var(--hue), 31%, 74%, 50%); */
     --color_background: hsl(var(--hue), 0%, 100%);
     --color_border: hsl(var(--hue), 60%, 20%);
     --color_font1: hsl(var(--hue), 100%, 0%);
@@ -21,11 +17,8 @@
     user-select: none;
     border: none;
     -webkit-user-select: none;
-    /* for Safari and Chrome */
     -moz-user-select: none;
-    /* for Firefox */
     -ms-user-select: none;
-    /* for Internet Explorer */
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -33,15 +26,13 @@
     outline: none;
 }
 
+html {
+    height: 100vh;
+}
+
 body {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     font-family: Consolas, Arial, sans-serif;
-    background-color: var(--color_background);
-    color: black;
 }
 
 svg {
@@ -66,8 +57,6 @@ h1 {
     flex-direction: row;
     height: 60px;
     min-height: 60px;
-    /* width: 100%; */
-    /* border-bottom: 1px solid var(--color_border); */
 }
 
 .text {
@@ -89,7 +78,6 @@ h1 {
     cursor: pointer;
     height: 100%;
     width: 60px;
-    /* border-right: 1px solid var(--color_border); */
     position: relative;
 }
 
@@ -113,9 +101,23 @@ h1 {
     border: none;
 }
 
+#help_div{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    height: auto;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+#help_text{
+    text-align: left;
+}
+
 #help-top-middle {
     flex-grow: 1;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    align-items: flex-start;
 }
 
 #category {
@@ -153,16 +155,12 @@ h1 {
 
 .row {
     display: flex;
-    /* Use Flexbox layout */
     justify-content: center;
-    /* Center horizontally */
     align-items: center;
-    /* Center vertically */
 }
 
 p {
     text-align: center;
-    /* Align text in the center of the <p> */
 }
 
 #question {
@@ -202,11 +200,9 @@ p {
 
 #enter-btn {
     display: flex;
-    /* add this to make the button a flex container */
     flex-direction: row;
     row-gap: 50px;
     align-items: center;
-    /* vertically center the contents */
     background-color: #396775;
     color: #ffffff;
     padding: 10px 20px;
@@ -220,7 +216,6 @@ p {
     align-items: center;
     height: 4rem;
     font-size: 1.4rem;
-    /* visibility: hidden; */
     visibility: visible;
     width: 200px;
 }
@@ -231,11 +226,9 @@ p {
 
 #help-btn {
     display: flex;
-    /* add this to make the button a flex container */
     flex-direction: row;
     row-gap: 50px;
     align-items: center;
-    /* vertically center the contents */
     background-color: #383838;
     color: #ffffff;
     padding: 10px 20px;
@@ -249,7 +242,6 @@ p {
     align-items: center;
     height: 4rem;
     font-size: 1.4rem;
-    /* visibility: hidden; */
     visibility: visible;
     width: 200px;
 }
@@ -259,25 +251,18 @@ p {
 }
 
 #home {
-    /* height: 100%; */
     position: absolute;
     top: 15%;
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
     text-align: center;
     background-color: var(--color_background);
 }
 
-/* Center the buttons */
 .button-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Horizontal centering */
-    /* Space between buttons */
 }
 
-/* Style for the buttons */
 button {
     padding: 10px 20px;
     font-size: 18px;
@@ -289,7 +274,9 @@ button {
 }
 
 #click-explainer{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     margin-top: 20px;
-    color: red
+    color: red;
+    height: 20px;
+    min-height: 20px;
 }

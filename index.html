@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="svg/tick-square-svgrepo-com.svg">
   <title> English Game </title>
 </head>
 
 <body>
 
-  <div id="home" class="app" style="display: block">
-    <h1>Welcome to </br> Life in the UK</h1>
-    <!-- <p id="loading"> loading.... </p> -->
+  <div id="home" class="app" style="display: flex">
+    <h1>Welcome to</br>Life in the UK</h1>
     <div class="button-container">
       <button id="enter-btn">
         <span>Start</span>
@@ -25,25 +25,17 @@
 
   <div id="help" class="app" style="display: none">
     <div id="help-top-row" class="row">
-      <div id="help-logo" class="bttn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
-        </svg>
-      </div>
+      <div id="help-logo" class="bttn"></div>
       <div id="help-top-middle" class="bttn">Life in the UK</div>
     </div>
     <div id="help_div" class="row">
-      <p id="help_text"> This is the help </p>
+      <p id="help_text"> Welcome to Life in the UK Test (3000+)!  <br> <br> This app contains more than 3000 questions to help you prepare successfully for your Life in the UK test.  <br> <br> The app adapts to your learning progress by adjusting the frequency of questions based on your performance. If you get a question wrong, it will appear more often to help reinforce your understanding. If you answer correctly, that question will appear less frequently, allowing you to focus on the areas where you need the most improvement. This personalised approach ensures an optimised learning process, making your preparation more efficient and effective. <br> <br> Tip: Click the button in the top right to activate voice. This feature allows the app to read questions and explanations aloud, helping you reinforce your learning through listening as well.<br><br>Good luck with your preparation!</p>
     </div>
   </div>
 
   <div id="app" class="app" style="display: none">
     <div id="top-row" class="row">
-      <div id="logo" class="bttn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
-        </svg>
-      </div>
+      <div id="logo" class="bttn"></div>
       <div id="text_mode" class="bttn" style="display: none">a</div>
       <div id="repeat" class="bttn" style="display: none"> </div>
       <div id="category" class="bttn"> </div>
@@ -54,9 +46,8 @@
     <div id="question" class="row">
       <p id="question_text"> Question </p>
     </div>
-
     <div id="opt01" class="row opt_div">
-        <p id="opt01_text" class="opt_text"> Option 01 </p>
+      <p id="opt01_text" class="opt_text"> Option 01 </p>
     </div>
     <div id="opt02" class="row opt_div">
       <p id="opt02_text" class="opt_text"> Option 02 </p>
@@ -67,15 +58,14 @@
     <div id="opt04" class="row opt_div">
       <p id="opt04_text" class="opt_text"> Option 04 </p>
     </div>
-    <div id = "click-explainer" class:"row" style:"font-size: 6px">
+    <div id = "click-explainer" class="row">
       <p>[Choose one of the options above]</p>
     </div>
     <div id="explanation" class="row">
       <p id="explanation_text"></p>
     </div>
   </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+
   <script defer src="./script.js"></script>
 </body>
 
